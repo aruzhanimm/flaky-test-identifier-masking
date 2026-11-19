@@ -1,0 +1,221 @@
+{
+  "status": "completed",
+  "post_hoc": true,
+  "tests": 1005,
+  "projects": 126,
+  "labels": [
+    "ID",
+    "NIO",
+    "OD",
+    "TD"
+  ],
+  "class_support": {
+    "ID": 748,
+    "NIO": 121,
+    "OD": 126,
+    "TD": 10
+  },
+  "category_project_groups": {
+    "ID": 117,
+    "NIO": 3,
+    "OD": 8,
+    "TD": 6
+  },
+  "exclusion_scope": "ActiveMQ removed from every training and evaluation partition before refitting",
+  "metrics": {
+    "original": {
+      "pooled_macro_f1": 0.6201359659823257,
+      "accuracy": 0.8805970149253731,
+      "per_class": {
+        "ID": {
+          "support": 748,
+          "predicted": 835,
+          "tp": 732,
+          "fp": 103,
+          "fn": 16,
+          "precision": 0.8766467065868263,
+          "recall": 0.9786096256684492,
+          "f1": 0.9248262792166771
+        },
+        "NIO": {
+          "support": 121,
+          "predicted": 120,
+          "tp": 120,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9917355371900827,
+          "f1": 0.995850622406639
+        },
+        "OD": {
+          "support": 126,
+          "predicted": 38,
+          "tp": 31,
+          "fp": 7,
+          "fn": 95,
+          "precision": 0.8157894736842105,
+          "recall": 0.24603174603174602,
+          "f1": 0.3780487804878049
+        },
+        "TD": {
+          "support": 10,
+          "predicted": 12,
+          "tp": 2,
+          "fp": 10,
+          "fn": 8,
+          "precision": 0.16666666666666666,
+          "recall": 0.2,
+          "f1": 0.18181818181818182
+        }
+      },
+      "confusion_matrix": [
+        [
+          732,
+          0,
+          7,
+          9
+        ],
+        [
+          0,
+          120,
+          0,
+          1
+        ],
+        [
+          95,
+          0,
+          31,
+          0
+        ],
+        [
+          8,
+          0,
+          0,
+          2
+        ]
+      ],
+      "mean_present_label_project_f1": 0.9134704787694433
+    },
+    "masked": {
+      "pooled_macro_f1": 0.6066494538982141,
+      "accuracy": 0.872636815920398,
+      "per_class": {
+        "ID": {
+          "support": 748,
+          "predicted": 827,
+          "tp": 724,
+          "fp": 103,
+          "fn": 24,
+          "precision": 0.875453446191052,
+          "recall": 0.9679144385026738,
+          "f1": 0.9193650793650794
+        },
+        "NIO": {
+          "support": 121,
+          "predicted": 120,
+          "tp": 120,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9917355371900827,
+          "f1": 0.995850622406639
+        },
+        "OD": {
+          "support": 126,
+          "predicted": 38,
+          "tp": 31,
+          "fp": 7,
+          "fn": 95,
+          "precision": 0.8157894736842105,
+          "recall": 0.24603174603174602,
+          "f1": 0.3780487804878049
+        },
+        "TD": {
+          "support": 10,
+          "predicted": 20,
+          "tp": 2,
+          "fp": 18,
+          "fn": 8,
+          "precision": 0.1,
+          "recall": 0.2,
+          "f1": 0.13333333333333333
+        }
+      },
+      "confusion_matrix": [
+        [
+          724,
+          0,
+          7,
+          17
+        ],
+        [
+          0,
+          120,
+          0,
+          1
+        ],
+        [
+          95,
+          0,
+          31,
+          0
+        ],
+        [
+          8,
+          0,
+          0,
+          2
+        ]
+      ],
+      "mean_present_label_project_f1": 0.8948238886942819
+    }
+  },
+  "paired_delta": {
+    "pooled_macro_f1": -0.013486512084111557,
+    "mean_present_label_project_f1": -0.01864659007516145,
+    "deteriorated_projects": 5,
+    "improved_projects": 0,
+    "unchanged_projects": 121
+  },
+  "changes": {
+    "changed_predictions": 8,
+    "right_to_wrong": 8,
+    "wrong_to_right": 0,
+    "wrong_to_different_wrong": 0
+  },
+  "decisions_different_from_evaluation_only_exclusion": {
+    "original": 3,
+    "masked": 6
+  },
+  "conditional_project_bootstrap": {
+    "repetitions": 5000,
+    "seed": 20261013,
+    "rng": "Python random.Random",
+    "sampling_unit": "project_group; paired, with replacement; original group count draws",
+    "interval": "95% percentile; linearly interpolated quantiles",
+    "delta_mean_present_label_project_f1_95": [
+      -0.043589900732757876,
+      -0.0011337868480725628
+    ],
+    "delta_pooled_fixed_four_label_macro_f1_95": [
+      -0.04266675631713204,
+      -0.0006471471211177146
+    ],
+    "resamples_without_label": {
+      "ID": 0,
+      "NIO": 231,
+      "OD": 1,
+      "TD": 13
+    },
+    "caution": "Descriptive conditional intervals from frozen overlapping LOPO fits, not independent retraining or population inference. The four pooled labels remain fixed even when a bootstrap sample lacks a label. No hypothesis test or causal claim."
+  },
+  "classifier_fits": 252,
+  "convergence_warnings": 0,
+  "nonfinite_values": 0,
+  "independent_count_metrics_match_sklearn": true,
+  "source_parameters_unchanged": true,
+  "retained_test_memberships_identical": true,
+  "predictions_sha256": "441b160345d1035af08916160359b82438f7562fbe782cf16180614bd1e22254",
+  "seconds": 69.16646619999983,
+  "completed_utc": "2026-11-19T10:07:41.075606+00:00"
+}

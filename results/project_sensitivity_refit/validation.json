@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "tests": 1005,
+  "projects": 126,
+  "checks": [
+    "Independent integer-count scores and confusion matrices",
+    "Independent mean present-label project F1",
+    "Every sample evaluated exactly once",
+    "All training and evaluation project memberships disjoint",
+    "ActiveMQ excluded from all retained sample identities",
+    "All training folds retain all four labels",
+    "Primary configuration unchanged",
+    "Eight changed decisions, all correct to incorrect",
+    "Released source differs from executed source only in output-directory naming"
+  ]
+}

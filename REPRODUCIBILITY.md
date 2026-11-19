@@ -16,6 +16,14 @@ The model grid's first process was interrupted after twelve completed folds. Exe
 
 The successful complete model-grid status is `completion_checks.json`; its retained `failure.json` is historical failure evidence, not the final completion status. Aggregate predictions, splits, fitted hashes and metrics cover all 127 folds. Redundant checkpoints other than the independently diagnosed fold are unnecessary to reconstruct or validate those aggregate outputs.
 
+## Project-composition and masking-coverage checks
+
+The later post-hoc project analysis distinguishes rescoring frozen predictions after evaluation exclusions from refitting every fold after removing ActiveMQ from training and evaluation. The latter uses 1,005 tests, 126 folds and 252 fresh word-LR fits with unchanged settings. Predictions, memberships, fitted-state hashes and independent count-based verification are retained in `results/project_sensitivity_refit`; the frozen-prediction comparisons are in `results/project_sensitivity`.
+
+The masking audit traces each replacement to original character positions and exactly reproduces all saved masked diagnostics. It reports lexical coverage rather than AST-resolved identifier recall. Its retained-name and path-fragment examples, including the observed `dubbo://` path-rule edge case, are documented in `results/masking_coverage`. The historical masker and canonical corpus remain unchanged.
+
+The publication manifest describes the initial release. These later analyses record their own input, code and output hashes alongside their results.
+
 ## Validation
 
 `python scripts/validate_saved_results.py` uses independent integer TP/FP/FN to reconstruct metrics, validates sample/group coverage and checks repeated predictions and fitted hashes. It includes the Surefire subtask and separate Elide population. It writes nothing unless an explicit fresh `--output` path is supplied.

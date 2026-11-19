@@ -1,0 +1,522 @@
+[
+  {
+    "sample_id": "00b3436c286909c30a113235",
+    "configured_test": "org.apache.activemq.transport.stomp.StompNIOSSLTest#testTransformationReceiveJSONObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveJSONObject(StompTest.java:1113)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1113)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "03087b604eb2581567c43dff",
+    "configured_test": "org.apache.activemq.transport.stomp.StompSslAuthTest#testTransformationReceiveObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveObject(StompTest.java:1155)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1155)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "082021d185d50cb6f610198d",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoNioTest#testTransformationReceiveObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveObject(StompTest.java:1155)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1155)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "1171c57487e35c62c596d06f",
+    "configured_test": "org.apache.activemq.transport.stomp.StompSslTest#testTransformationReceiveObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveObject(StompTest.java:1155)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1155)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "2285138a9407af3496a63b82",
+    "configured_test": "org.apache.activemq.transport.stomp.StompSslTest#testTransformationReceiveJSONObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveJSONObject(StompTest.java:1113)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1113)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "22e4264c6539e917fec7ea67",
+    "configured_test": "org.apache.activemq.transport.stomp.StompNIOTest#testTransformationReceiveJSONObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveJSONObject(StompTest.java:1113)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1113)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "2c4ed501b82ecc8bafd955fe",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoSslTest#testTransformationNotOverrideSubscription",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationNotOverrideSubscription(StompTest.java:1339)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1339)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "2ccffd4463e9869c1416028a",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoNioSslTest#testTransformationReceiveObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveObject(StompTest.java:1155)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1155)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "2e3f3e0b6cf683cf0d99c935",
+    "configured_test": "org.apache.activemq.transport.stomp.StompSslAuthTest#testTransformationSubscribeXML",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationSubscribeXML(StompTest.java:1093)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1093)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "3567b173ce8b72c0c9509933",
+    "configured_test": "org.apache.activemq.transport.stomp.StompNIOTest#testTransformationNotOverrideSubscription",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationNotOverrideSubscription(StompTest.java:1339)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1339)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "3d67cfda9b85a1943fefa5c8",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoNioSslTest#testTransformationReceiveXMLObjectAndMap",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObjectAndMap(StompTest.java:1180)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1180)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "3eedb3365c989860662a6233",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoTest#testTransformationReceiveXMLObjectAndMap",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObjectAndMap(StompTest.java:1180)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1180)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "411368315dba370a39084461",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoNioSslTest#testTransformationSubscribeXML",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationSubscribeXML(StompTest.java:1093)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1093)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "4d00146fa122baf752afbae8",
+    "configured_test": "org.apache.activemq.transport.stomp.StompSslAuthTest#testTransformationReceiveXMLObjectAndMap",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObjectAndMap(StompTest.java:1180)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1180)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "4d724410ba25977710150922",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoTest#testTransformationReceiveXMLObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObject(StompTest.java:1134)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1134)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "50219c2c0bf9c98e924f1730",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoNioSslTest#testTransformationNotOverrideSubscription",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationNotOverrideSubscription(StompTest.java:1339)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1339)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "537aee137df43ee6a85015da",
+    "configured_test": "org.apache.activemq.transport.stomp.StompSslAuthTest#testTransformationReceiveJSONObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveJSONObject(StompTest.java:1113)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1113)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "5a554259c76df99a539f3f55",
+    "configured_test": "org.apache.activemq.transport.stomp.StompNIOSSLTest#testTransformationNotOverrideSubscription",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationNotOverrideSubscription(StompTest.java:1339)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1339)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "5e0cf24708e8342f6feaf02a",
+    "configured_test": "org.apache.activemq.transport.stomp.StompNIOTest#testTransformationReceiveXMLObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObject(StompTest.java:1134)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1134)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "64b903c90de43e0ca11caed3",
+    "configured_test": "org.apache.activemq.transport.stomp.StompSslTest#testTransformationReceiveXMLObjectAndMap",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObjectAndMap(StompTest.java:1180)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1180)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "7771e79f475666399b11a423",
+    "configured_test": "org.apache.activemq.transport.stomp.StompSslAuthTest#testTransformationNotOverrideSubscription",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationNotOverrideSubscription(StompTest.java:1339)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1339)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "8249c20f35590870931c15b7",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoSslTest#testTransformationSubscribeXML",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationSubscribeXML(StompTest.java:1093)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1093)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "856b7199efe53145943acc54",
+    "configured_test": "org.apache.activemq.transport.stomp.StompNIOTest#testTransformationSubscribeXML",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationSubscribeXML(StompTest.java:1093)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1093)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "8725485b6e2de6ca9d29a22a",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoSslTest#testTransformationReceiveXMLObjectAndMap",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObjectAndMap(StompTest.java:1180)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1180)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "91f0efeb5613cecabb2a12b0",
+    "configured_test": "org.apache.activemq.transport.stomp.StompSslTest#testTransformationSubscribeXML",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationSubscribeXML(StompTest.java:1093)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1093)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "92bdb08b11e57f9a40240471",
+    "configured_test": "org.apache.activemq.transport.stomp.StompNIOSSLTest#testTransformationSubscribeXML",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationSubscribeXML(StompTest.java:1093)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1093)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "ab57bcac1139b4c0fdf37831",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoSslTest#testTransformationReceiveXMLObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObject(StompTest.java:1134)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1134)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "aeb94fe97b05560ad1b11f22",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoNioSslTest#testTransformationReceiveXMLObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObject(StompTest.java:1134)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1134)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "b1399ac4f38d47e03cd52942",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoTest#testTransformationSubscribeXML",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationSubscribeXML(StompTest.java:1093)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1093)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "c0262714335bb0a09774b0d7",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoSslTest#testTransformationReceiveObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveObject(StompTest.java:1155)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1155)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "c0451945956e10ba15781e73",
+    "configured_test": "org.apache.activemq.transport.stomp.StompSslAuthTest#testTransformationReceiveXMLObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObject(StompTest.java:1134)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1134)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "c7e48f6dfb402ba10e867722",
+    "configured_test": "org.apache.activemq.transport.stomp.StompNIOTest#testTransformationReceiveXMLObjectAndMap",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObjectAndMap(StompTest.java:1180)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1180)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "ccaf641d47be707c140e93aa",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoNioTest#testTransformationNotOverrideSubscription",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationNotOverrideSubscription(StompTest.java:1339)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1339)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "da33e2a597684eb291c38524",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoNioTest#testTransformationReceiveJSONObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveJSONObject(StompTest.java:1113)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1113)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "db1f5141131a4c9b17e64b88",
+    "configured_test": "org.apache.activemq.transport.stomp.StompNIOSSLTest#testTransformationReceiveXMLObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObject(StompTest.java:1134)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1134)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "db731067da54fe59278ccfb4",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoTest#testTransformationReceiveObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveObject(StompTest.java:1155)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1155)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "e3e871de422d25fc3d6d1c6e",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoTest#testTransformationReceiveJSONObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveJSONObject(StompTest.java:1113)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1113)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "f3b0ab46cb06ed32cb390443",
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoNioSslTest#testTransformationReceiveJSONObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveJSONObject(StompTest.java:1113)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1113)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "fdc0f3f5b7eddd86fc8012cb",
+    "configured_test": "org.apache.activemq.transport.stomp.StompNIOTest#testTransformationReceiveObject",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveObject(StompTest.java:1155)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1155)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  },
+  {
+    "sample_id": "fea19491baf0a7f54c1b083f",
+    "configured_test": "org.apache.activemq.transport.stomp.StompNIOSSLTest#testTransformationReceiveXMLObjectAndMap",
+    "canonical_repository": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "original_frames": [
+      "\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObjectAndMap(StompTest.java:1180)"
+    ],
+    "masked_frames": [
+      "\tat org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD(StompTest.java:1180)"
+    ],
+    "explanation": "StompTest is not the configured class. Other class names are outside this metadata-scoped intervention; its presence is not evidence of full anonymity. Inheritance requires separate source inspection."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "post_hoc": true,
+  "started_utc": "2026-11-19T10:06:31.909835+00:00",
+  "purpose": "ActiveMQ removed from all training and evaluation folds; no parameter tuning",
+  "source_corpus_sha256": "4fbee74d76717535e80f7c40841852784a23c1907954e8227ad2ae31f87c5127",
+  "source_config_sha256": "31e7bee91bd23eb569ed19129c685cfcf4b181a0e96bea390d87940f1d270c05",
+  "source_predictions_sha256": "ae4d1c4522d043746675056d71208070f1ef5d7e8a32608e6fbf2745e0923d06",
+  "source_splits_sha256": "7a89e5a37ecb52006ffdb7814fa2469ebadeac44aead9183a25e1c5e1394e094",
+  "code_sha256": {
+    "refit_without_activemq.py": "2cb3cd7af364d111070b168de739e319198911930bad01cee4af2479410fa123",
+    "analyze_project_sensitivity.py": "c8494732bc7ae260d0ca037fe434af1e66e226a011c85414ab2ee7c5e608391c"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "computation_threads": 1
+  },
+  "excluded_project": "206387",
+  "excluded_tests": 46,
+  "executed_code_sha256": {
+    "refit_without_activemq.py": "ffe75aa802f355fda7ac41bae7361397a6b9fb363e8e528e7f7f073ed67684f6",
+    "analyze_project_sensitivity.py": "0bbde4788c7aa3b2ac0e884ef5ee7acecba2f8d09b2236fe82d3fccff52758b9"
+  },
+  "packaging_note": "After computation, only default output-directory names and README reproduction examples were normalized. Executed and released source hashes are recorded; the algorithms and numerical parameters are identical."
+}

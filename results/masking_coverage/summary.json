@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "provenance": {
+    "corpus": "data/processed/corpus.jsonl",
+    "corpus_sha256": "4fbee74d76717535e80f7c40841852784a23c1907954e8227ad2ae31f87c5127",
+    "script_sha256": "8ba6c97ad3ae585908c1980fef227022714b818dc794866ceec2f9f3bc0017c7",
+    "masking_code_sha256": "29ccb489daf270c6d10c18d3c51a33f5435364ca2fccc9189cb0886d4bdfbffe",
+    "used_metadata_sha256": "caa8a78687955f37c83d2e52e7da3c972b38a16c4bcb7376d55d58fcb4c43e9c",
+    "python_version": "3.12.14"
+  },
+  "validation": {
+    "saved_text_hashes_verified": true,
+    "all_traced_outputs_equal_production_and_saved": true,
+    "protected_exception_characters_not_counted_as_replaced": true,
+    "all_original_exception_names_preserved": true
+  },
+  "definitions": {
+    "document_denominator": "One saved diagnostic per retained canonical test in the given corpus.",
+    "lexical_token": "A non-overlapping regex match of [A-Za-z_$][\\w$]* in original_text (case-sensitive, Python Unicode \\w). Includes code, prose and exception names; not a Java parser or the fitted TF-IDF vocabulary.",
+    "affected_lexical_token": "An original lexical token with at least one original character consumed by a non-protection masking replacement. Counted once even if multiple operations overlap; generated placeholders are excluded.",
+    "scoped_occurrences": "Per document, longest-first non-overlapping bounded matches of the configured full or simple class; the exact configured method including parameters; the base method before [; or repository basenames plus non-generic hyphen/underscore parts of length >=4. Repository matching is case-insensitive. These are spelling matches, potentially including homonyms in prose, strings or packages, not resolved Java identifiers. Kinds can overlap; do not sum their denominators.",
+    "fully_replaced": "All original characters in that occurrence were consumed by masking; this measures original occurrences, not uniqueness of spelling in output.",
+    "retained": "No original character in that occurrence was consumed by masking.",
+    "scope_limit": "Metadata-scoped intervention, not universal identifier anonymization. Other classes, packages, methods, file names, project-related words and protected exceptions may remain. Scoped counts cannot estimate recall over all project identifiers."
+  },
+  "documents": 1051,
+  "changed_documents": 1005,
+  "original_lexical_tokens": 292860,
+  "affected_lexical_tokens": 15557,
+  "fully_replaced_lexical_tokens": 15167,
+  "retained_lexical_tokens": 277303,
+  "affected_lexical_fraction": 0.05312094516151062,
+  "scoped_occurrences_by_kind": {
+    "configured_class": {
+      "original_occurrences": 2846,
+      "fully_replaced": 2846,
+      "partially_replaced": 0,
+      "retained": 0,
+      "overlapping_protected_exception": 0,
+      "fully_replaced_fraction": 1.0
+    },
+    "configured_method_exact": {
+      "original_occurrences": 974,
+      "fully_replaced": 970,
+      "retained": 4,
+      "partially_replaced": 0,
+      "overlapping_protected_exception": 0,
+      "fully_replaced_fraction": 0.9958932238193019
+    },
+    "configured_base_method": {
+      "original_occurrences": 1493,
+      "fully_replaced": 1129,
+      "retained": 364,
+      "partially_replaced": 0,
+      "overlapping_protected_exception": 0,
+      "fully_replaced_fraction": 0.7561955793703952
+    },
+    "repository_name": {
+      "original_occurrences": 4739,
+      "fully_replaced": 4697,
+      "retained": 40,
+      "overlapping_protected_exception": 40,
+      "partially_replaced": 2,
+      "fully_replaced_fraction": 0.9911373707533235
+    }
+  },
+  "replacement_operations": {
+    "configured_class_and_method": 1034,
+    "configured_class": 1812,
+    "configured_method_standalone": 95,
+    "repository_name": 3114,
+    "project_path": 27
+  },
+  "by_label": [
+    {
+      "label": "ID",
+      "documents": 794,
+      "changed_documents": 749,
+      "original_lexical_tokens": 234891,
+      "affected_lexical_tokens": 12811,
+      "affected_lexical_fraction": 0.054540190982200254
+    },
+    {
+      "label": "NIO",
+      "documents": 121,
+      "changed_documents": 121,
+      "original_lexical_tokens": 31831,
+      "affected_lexical_tokens": 862,
+      "affected_lexical_fraction": 0.0270805189909208
+    },
+    {
+      "label": "OD",
+      "documents": 126,
+      "changed_documents": 126,
+      "original_lexical_tokens": 24786,
+      "affected_lexical_tokens": 1783,
+      "affected_lexical_fraction": 0.0719357701928508
+    },
+    {
+      "label": "TD",
+      "documents": 10,
+      "changed_documents": 9,
+      "original_lexical_tokens": 1352,
+      "affected_lexical_tokens": 101,
+      "affected_lexical_fraction": 0.07470414201183433
+    }
+  ],
+  "documents_with_short_configured_method": 39,
+  "documents_with_parameterized_configured_method": 51,
+  "retained_or_partial_occurrence_reasons": {
+    "short_standalone_method_spelling": 8,
+    "parameterized_base_spelling_not_standalone_target": 360,
+    "preserved_exception": 40,
+    "partial_overlap_with_project_path": 2
+  },
+  "documents_with_retained_scoped_occurrences": {
+    "residual_configured_class_occurrences": 0,
+    "residual_configured_base_method_occurrences": 11,
+    "residual_repository_name_occurrences": 12
+  },
+  "stomp_residual_example_documents": 40
+}

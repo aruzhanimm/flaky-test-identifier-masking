@@ -1,0 +1,4034 @@
+[
+  {
+    "fold": 0,
+    "project_group": "1001284",
+    "condition": "original",
+    "training_documents": 883,
+    "evaluation_documents": 122,
+    "features": 20547,
+    "vocabulary_sha256": "ee2e50108eb7e2b5c11c65ca4e15d1929752a95fb2a2a79de4bbdfd2888a95f8",
+    "idf_sha256": "4db13f44930dea3b97ae194a47c66ced5f8855ab2612944f4b145cd94c7a5037",
+    "coef_sha256": "ccdff8c6fcb2b01cf8289a39795a85e70f18fda0fd3a3907bd5b463834270c33",
+    "intercept_sha256": "16066885f464d34f52d02afc71a36140f335148f385767929758be7163480d85",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.27579869999999573
+  },
+  {
+    "fold": 0,
+    "project_group": "1001284",
+    "condition": "masked",
+    "training_documents": 883,
+    "evaluation_documents": 122,
+    "features": 16583,
+    "vocabulary_sha256": "334c535fc8a24f55ec74b9f69cb1cbeb4418171cd63bb5473dffc980a89272a7",
+    "idf_sha256": "c7690dfa555affdd2b1dedd343ef9e6ebadbda95ff8922ca6ced5b16dd3a659f",
+    "coef_sha256": "75f821fed01946d6a9366835f777097839ebf636158a854ed8968a7a49759e72",
+    "intercept_sha256": "f66e20912740ed9cafed04d2b5987a1d26384301a91997a89759c637c148b421",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24047740000014528
+  },
+  {
+    "fold": 1,
+    "project_group": "107434177",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21100,
+    "vocabulary_sha256": "1e662ab65cf700f1c4baf636088cf3e4c9d2608c8b6fa5843181668db5903f33",
+    "idf_sha256": "f5b4552d572df7521fd50807a3d303514c03ff7d60b949c09f3c4ff4d772c447",
+    "coef_sha256": "21541af840725fb8747b66f73e70ed0013800d3b1f9d894faf969f36538dd7b5",
+    "intercept_sha256": "31f84cd921a6414f0a12b8f8a50377bad92932903158f4a5530672056eef9fc8",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.28562449999981254
+  },
+  {
+    "fold": 1,
+    "project_group": "107434177",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16811,
+    "vocabulary_sha256": "4bd494211973b2141b20a470b9c5a26aab1149600d4e8e69f72a33dfa80be750",
+    "idf_sha256": "dfa8740d07d4ca0c2ea23f69e5f0e33904d3064b622b8ce7370c9b3b6e009607",
+    "coef_sha256": "8d4b5032a622256448732497187d12876c3c9f2c107c33a00aafe6d5f14caab5",
+    "intercept_sha256": "1757832709cb7649b048959d048b41de957594a899e0f8c25b4cc7ed58fee68e",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.26558390000036525
+  },
+  {
+    "fold": 2,
+    "project_group": "107437722",
+    "condition": "original",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 21086,
+    "vocabulary_sha256": "5860d93ced07bc2790bbe36648237ded2565b03f7ef92c4e536aadd6856435dd",
+    "idf_sha256": "2d81fc237bd79e2b4fc6d411f3b40b11eb65d61a108aea46f4377c7cf7b5fd69",
+    "coef_sha256": "85d3a468dca5b560930a11469706e16eaa0ab1d3606ffaf64ac1e712adad073f",
+    "intercept_sha256": "fe6262fb06c6cffa0898764a3760474b01b3a56c1c333770d953a5f99dc39f75",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.30235609999999724
+  },
+  {
+    "fold": 2,
+    "project_group": "107437722",
+    "condition": "masked",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 16813,
+    "vocabulary_sha256": "7b38ba3e97d386ab2c1d61037129f9425726b3dda0ef40de8771e9285e46aa4e",
+    "idf_sha256": "c19e2e80c034ad0c4189310b0918d2c8a034fed0857ed2e360167aee805e3264",
+    "coef_sha256": "0ba75785aaac7e6afe4f7b1d0be22e0b5bf03588fb0a0380fa5ad758d7941dd1",
+    "intercept_sha256": "63719d55428e7bdf895aa881ac3b163b91b352fcb9e8cbf03c1f6dabdce8ecf6",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26816539999981615
+  },
+  {
+    "fold": 3,
+    "project_group": "10981994",
+    "condition": "original",
+    "training_documents": 993,
+    "evaluation_documents": 12,
+    "features": 21050,
+    "vocabulary_sha256": "b55e084920e5aa985a3b2dcf3c27f8527362ef2f1a0d8aea1e9b0c10238503c5",
+    "idf_sha256": "4249f83e9819ea02f2962d22bb8537d11698a4865326b25fb5baa98b73b9bd82",
+    "coef_sha256": "a8561d051170fdfb79d929b91372761b24a178e1a2b1a20b339cd545ae21780a",
+    "intercept_sha256": "a01d47c4d2ed9bdd91ba71999ebda6947a8337ab741fc70ee6629240771f6ef3",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.2855657999998584
+  },
+  {
+    "fold": 3,
+    "project_group": "10981994",
+    "condition": "masked",
+    "training_documents": 993,
+    "evaluation_documents": 12,
+    "features": 16794,
+    "vocabulary_sha256": "3830f1e0a7b9f89c5ac5ca11db7fd0b5f034e4b02cab8ea18ef917445cc22cf2",
+    "idf_sha256": "5eb3d286b1baf34da461b2473b1d0053c46d5bae01fabd12d1d864c24a27c0e3",
+    "coef_sha256": "d513fec48065efa362dfc4851624470a2feebafb775e9aeee38be7f762143aa2",
+    "intercept_sha256": "4c67bb7ecd89946ec823d90c69d20ca83c23a51af65ea691d63bd7fcfcd7e38a",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.24768809999977748
+  },
+  {
+    "fold": 4,
+    "project_group": "110129066",
+    "condition": "original",
+    "training_documents": 1000,
+    "evaluation_documents": 5,
+    "features": 20991,
+    "vocabulary_sha256": "f6c0c6f224bf701575451f4de668a1a6c98a5eaeaa7b2361115aff51969c09a1",
+    "idf_sha256": "f9d45b6b0c50fa7e12e84053d42995a975c6d2fb89b7a2fcd26ba7468e957c31",
+    "coef_sha256": "1d6fc2be4dec3fb5bf9158ef77e21a2f03b51e8f10afcf0c9716a6b5995f92b8",
+    "intercept_sha256": "c47e815df58c7d4d7692a1f7aba1fb30680b016e8b366c90702f60fbef871f5b",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.3041130000001431
+  },
+  {
+    "fold": 4,
+    "project_group": "110129066",
+    "condition": "masked",
+    "training_documents": 1000,
+    "evaluation_documents": 5,
+    "features": 16719,
+    "vocabulary_sha256": "7cf6ad4de3ed830a94698825d97547010dfdabd7c75a39ec921492f76ba9e174",
+    "idf_sha256": "7c9a6dcc4b6619963bb18a4b439c71e7ce65756ae28ee5818f1becac5f9b3f52",
+    "coef_sha256": "0a0e8cf751d1a61465d897bb6bfdef485dc1a3841a1ca707e1bcbfecafb29c52",
+    "intercept_sha256": "1b883801dc5136d0c0ddb5d3241318552127c41c33859818bc5139d99bff67c3",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2685244000003877
+  },
+  {
+    "fold": 5,
+    "project_group": "11233996",
+    "condition": "original",
+    "training_documents": 1000,
+    "evaluation_documents": 5,
+    "features": 21086,
+    "vocabulary_sha256": "5cde8ad4143098d4f9375bd34ef8ac81ee848f6c41a6315af3e9d06c5de57186",
+    "idf_sha256": "8e1065d7b143396a2f9c5063325d96962fd3ad1a359d7a5d4d18cf5106245b3f",
+    "coef_sha256": "714d3d5a40e7f1dc62470a481c87905d58feef96a3bdfae72dcee253b35b6ab3",
+    "intercept_sha256": "54bf8d41ad6fbc9a7b78aad48e669e369b4f568511e4d023519a6cbfc188005f",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.3045185000000856
+  },
+  {
+    "fold": 5,
+    "project_group": "11233996",
+    "condition": "masked",
+    "training_documents": 1000,
+    "evaluation_documents": 5,
+    "features": 16813,
+    "vocabulary_sha256": "11f5354e12406392e8ebf5f2089af5404449ad85bff4818c4f9eb1cbddb5646e",
+    "idf_sha256": "c47d9fd385e96975f530e4ba45bef36b26b2e5b577fc0f6f227748e2a000d6de",
+    "coef_sha256": "7d578b9b89b3f7e3e005d3bd06916554e615850067ce8da214e7c67b3a700003",
+    "intercept_sha256": "cbbcca98a452b8a1c3242762234424a434c90252d6a08076a00214d306a393ba",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.2627956000001177
+  },
+  {
+    "fold": 6,
+    "project_group": "113678133",
+    "condition": "original",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 21061,
+    "vocabulary_sha256": "79e88e9c5f4d343f92b47a01077867afb1488819aaaf98661972baced9658f80",
+    "idf_sha256": "f947fefd1c3913cebcacc928f63ecd45a063c68da7e4b9ca1fc2c80977671936",
+    "coef_sha256": "21b4c057bc8f67bcf1b81cc33ac067f3242463814bfc5c3cfc2ebda27a7a2cfe",
+    "intercept_sha256": "dfd116dfa9d16280d2f80df94aba2886a09cbc9d76cd25ef4df1c1a6fa588bca",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.30499120000013136
+  },
+  {
+    "fold": 6,
+    "project_group": "113678133",
+    "condition": "masked",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 16777,
+    "vocabulary_sha256": "07fbc8eb391043c1d9b84d38cbd4e73572f1b964a68bea81d5c4b03f0ec9b659",
+    "idf_sha256": "798d3508b20bd2142ef8397da7bd03fc19418a61437e5aa2fa3d171566ec1cf4",
+    "coef_sha256": "3374def91c217658136365b7387d0eada76bb1cad9e6b00e7fb5e113246a43b5",
+    "intercept_sha256": "d325b8b4df645aea7b5c0fb3b1210a20d6407fbaa127e51b79d79f6e72572004",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2578899999998612
+  },
+  {
+    "fold": 7,
+    "project_group": "116714930",
+    "condition": "original",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 21089,
+    "vocabulary_sha256": "fcded6a253ce060cf61baadf45ee38ae3723a4ddc52327d7c77fc02135bf32cb",
+    "idf_sha256": "684a9c7bfc3c5c2fec8f95c9a1722d8448da79b147383d26b5b3114b6560ff8d",
+    "coef_sha256": "4ed1eb7a270c44e872d668bd8ebc0d4e6f67538d40c6193e58e74095c260f064",
+    "intercept_sha256": "89470a53324e3edbc9cd98c71fc9d03b34bc9b442fc9230713f9dc52d4ace39f",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29019319999997606
+  },
+  {
+    "fold": 7,
+    "project_group": "116714930",
+    "condition": "masked",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 16810,
+    "vocabulary_sha256": "b285f73a6c1b90a1ed6603838dd71c4a8c4894f57a0633bdfaffbc3be5ecd3e3",
+    "idf_sha256": "d0af360d3f73f55f6ee8970bfcce3acb67326c16519053bda7923f2b9171c469",
+    "coef_sha256": "065ad32c7a7e3d7d33c578e089cbe8b21b2de21c04ba5f19c3bdcec609d5d1e7",
+    "intercept_sha256": "50ef176ddd53cf26b3e8423250a952c1390f793d9c17537b65dfd75bb7d1b040",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2585063999999875
+  },
+  {
+    "fold": 8,
+    "project_group": "117292444",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21118,
+    "vocabulary_sha256": "326f8fdcf8252f0d826ce617e3052553455f223d2cf19d392ad39b27e1035485",
+    "idf_sha256": "30c1f296cf556a2eb16bd3ad431b151eaaa6887bcaec1f6d1907e5f449d1d5dc",
+    "coef_sha256": "82be1163a4588c04aa51a8cf1895e3739028187946d08c53c1a78604ae1ddd7f",
+    "intercept_sha256": "7990d8cdcfdff6ce7d2e8d51c6873e271e58ba751eb30f85f397fde0ccb644bf",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.27940650000027745
+  },
+  {
+    "fold": 8,
+    "project_group": "117292444",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16829,
+    "vocabulary_sha256": "6c2954b3250087006e8f5acf40aa6b8f9dd8fa9cb3d26b17f125ca46c2c9b841",
+    "idf_sha256": "935f94a313643355c8528c6b342051e81da895b3a02e8923996d61fa9a74f79c",
+    "coef_sha256": "12f76200a7a1ae7cc3f6e6e3e2d9cf39d9a57962d6344d40a82cf5c956cc78ce",
+    "intercept_sha256": "5859600f305bcadca8b8df029c034dfcde44180782f70af0d0798f00f5f0c290",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25571009999976013
+  },
+  {
+    "fold": 9,
+    "project_group": "1187853",
+    "condition": "original",
+    "training_documents": 998,
+    "evaluation_documents": 7,
+    "features": 19010,
+    "vocabulary_sha256": "dee13eabde310cfe759f360d4464b58c8b44a460283fb6a16e78f897b3e86cf7",
+    "idf_sha256": "ee2b0b291416794a8a3e9c63cc412450c08e4f7b27bc5a9b4285d15723889f52",
+    "coef_sha256": "82fc6dda8103f4bb728592aa4bcc9305de6ca9106a857e89562a30b3d086a7ad",
+    "intercept_sha256": "7495e7b9da7c777ebe3e18165536abdf5522f55e35f8914260bd4336a686616c",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2734226999996281
+  },
+  {
+    "fold": 9,
+    "project_group": "1187853",
+    "condition": "masked",
+    "training_documents": 998,
+    "evaluation_documents": 7,
+    "features": 14736,
+    "vocabulary_sha256": "41255ae5943463200bd3ab1b84644c5f31bc9cd97667364931c5b9a63c4f9b2b",
+    "idf_sha256": "cc6c8a24ac8f56aee0cddc0a090e8e86f158f1a5741212969162f67beb2bc6eb",
+    "coef_sha256": "0bfb468c79d243f251a7cd094df992747e034242ee1883273632fdec93755077",
+    "intercept_sha256": "b3f0dfb45d6bc949bcd786cbaad4829258ac014d89fb9edd95f2b8261bd1d19f",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2382966000000124
+  },
+  {
+    "fold": 10,
+    "project_group": "1194243",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21039,
+    "vocabulary_sha256": "a6cf7be07a6309d262a3342cd398b9d566fd11ea50455bf63b44092dce10909f",
+    "idf_sha256": "bdabb1540e44cdee9dc31568f1ae0c9e3196ba70912dcb96d1e462c3a99e91a1",
+    "coef_sha256": "8d75c4894eb0786989e272829987fbae025c9a997e3572cd744132f6d886e73e",
+    "intercept_sha256": "c6ce0cae27d826b17b06e626beeaac05258a61869f24be25c6ee714a233c3e41",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2852757999999085
+  },
+  {
+    "fold": 10,
+    "project_group": "1194243",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16740,
+    "vocabulary_sha256": "5fdb1eb5de2df130c6c853da439f234c2770872847a84eab5eb388cdb5a94fd9",
+    "idf_sha256": "b9bba1f612fd9fcd4555fcad00d31db7b2b6ac8bab05c298d2956ea6aa3019c2",
+    "coef_sha256": "7ee71920abb7daac80f817741353e15bfe4a1efd99a2464e622c01d57d6200f6",
+    "intercept_sha256": "147dcae7187ba7ad12d354d4c2b41797b0bbb7c86e8b1c963b5e468fc18c2deb",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2570818999997755
+  },
+  {
+    "fold": 11,
+    "project_group": "11981144",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21074,
+    "vocabulary_sha256": "db9dc4e04599d1e960de42a35dc2087432fbcbb8028710a085ec478582b14fcd",
+    "idf_sha256": "653b4c34f2f0de5525d043c2f44de6f268382a342d3964b71f5acd91bc5d602e",
+    "coef_sha256": "751e0aac259de318da00cd0e483fee0daa56fb8081e8a3c996b9c524aa8030a6",
+    "intercept_sha256": "37ca9ca66e6170b5bf5b0777682bb3c3b7ce41cf8c6fce589d41b7efb879b8a2",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28798290000031557
+  },
+  {
+    "fold": 11,
+    "project_group": "11981144",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16780,
+    "vocabulary_sha256": "5444a5b08f439e129e03b446018fd65266222687d6bdcd9b9cf07f53aed65fd0",
+    "idf_sha256": "6e3eea3768748b40a4625d0351a78626c77e2a9a15c45eac7b9096b53af53c2d",
+    "coef_sha256": "5d899737576f8fa633d5decd02331766f4ef6f9ab8129f4125d58fcac7d2acf0",
+    "intercept_sha256": "aaddf0de8d02cd3080ed7032556fd3be278e27d81eaa09495065a9bcddefa537",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25172299999985626
+  },
+  {
+    "fold": 12,
+    "project_group": "12594924",
+    "condition": "original",
+    "training_documents": 998,
+    "evaluation_documents": 7,
+    "features": 20983,
+    "vocabulary_sha256": "a384706ea0232830840dd97f218b639809f103316ebe4470c8b5f8658366aea8",
+    "idf_sha256": "c9037262d1f61988b391d3f4cfbb9a0ce03c0db61792abc1b824f4f6e6277d37",
+    "coef_sha256": "cd8691dd89dce3e17ea0e7f4eef0edf0a528901a8c916886a07da749bf46e539",
+    "intercept_sha256": "c25c9c85717491d934a23652fe936ebf91510026a39c4e5e3660f4f65ca97a6c",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2960150000003523
+  },
+  {
+    "fold": 12,
+    "project_group": "12594924",
+    "condition": "masked",
+    "training_documents": 998,
+    "evaluation_documents": 7,
+    "features": 16720,
+    "vocabulary_sha256": "7f2d88ba41d8dde97b7f96cbf306b68156de7ead450b8afaea67d860486c01db",
+    "idf_sha256": "dbd4ee5db64b13fd3c822676fcf2b2549cf615b16595ca2bc13cc522809f5c97",
+    "coef_sha256": "5dc1ed38017a6a84f30894a9d77a9861c7ae3433e4fc46fba90c589c3546e7eb",
+    "intercept_sha256": "570deb1977582ac256c567e5935468c272700a2f7917937f0e7fedd0218bd746",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.2539102000000639
+  },
+  {
+    "fold": 13,
+    "project_group": "129954828",
+    "condition": "original",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 21023,
+    "vocabulary_sha256": "1a01b81202a1cbf94b645437ccce94d9d35f9f258d6a9a39fbbe32ae003a7e01",
+    "idf_sha256": "026ead7d112a9bf9e1420a71f17b88b1adcbe56c5676ef7eb03df57ccfc7f1bc",
+    "coef_sha256": "7b8a16e614a3fd0360a290326e6bc0fab8a7815d229e85b84eceda51816f4507",
+    "intercept_sha256": "7087cac695296f225d88ff5aed0acba95c9d0bc80a1e796a909fb4e25fa42273",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2812178999997741
+  },
+  {
+    "fold": 13,
+    "project_group": "129954828",
+    "condition": "masked",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 16752,
+    "vocabulary_sha256": "7d67d4e056beb9317795b75ff37f23810b9cbf42ba737b6778c6fabe590cdc33",
+    "idf_sha256": "7591fb7f0fe58c9794342ff5adb9ee2872e25b4983ce10d36cd1ef909f163781",
+    "coef_sha256": "7e6b63ab228653ec91a3c20d53e88304615dfb1ab4b3aa3af3a41efabc589a36",
+    "intercept_sha256": "6239d94e0849bde1ce149123caddc4c9eee6ccd900c2dfdedf3fd164bc14164a",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.26622709999992367
+  },
+  {
+    "fold": 14,
+    "project_group": "130603282",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21040,
+    "vocabulary_sha256": "fad4243ee411c3cf85de97871ea89d6418bd591c6f69fadc615942e5b2d860f2",
+    "idf_sha256": "eb8b9caf31a2da01dc0d7ee143820e7bcbb4adbe1e5179fe622dc151856f92ce",
+    "coef_sha256": "02db234a87ca67c0153e14e39803e07fc09500eeab86c35ca47c7976362b7392",
+    "intercept_sha256": "79960596499de617fde32e11d5038edeed9b707e0bef40833f961685fbdff36f",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2877590000002783
+  },
+  {
+    "fold": 14,
+    "project_group": "130603282",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16752,
+    "vocabulary_sha256": "92ba6bc6c56aae650f163d4a9c5e38ca26506352460014ec166ea6278ebdba7f",
+    "idf_sha256": "1789ec3f622b47309771a03d35a5b0f7bd8087e9a5fd6b8ee6eba7eaa2f620ad",
+    "coef_sha256": "0aa7e2e5889c972c27a0d1936a0f494084a1bbe2b35a35dcd09b8ef7c32c036c",
+    "intercept_sha256": "f9d046f0ac7fed27915a49bade7d94a014513d68e9e53fa2cd51a2742ab45142",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26304239999990386
+  },
+  {
+    "fold": 15,
+    "project_group": "135270285",
+    "condition": "original",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 21095,
+    "vocabulary_sha256": "489d4da4bb40a90d3a54d7c8c35a8e4d5f80153feb5f02da654bb347396d09de",
+    "idf_sha256": "f81997b2212f22b7ac09632dac76d06131898a7a35b0bb3f4e825db0c0d98928",
+    "coef_sha256": "128ed1477d54158f77d8b03515ef2be5c9ae29ab42390de3ed9dc694ce1940fd",
+    "intercept_sha256": "644d512c87d31d858ee8fea99e4b2f1f47f6e1b6cfb3e1ce7e7b9fbd0553a7dd",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2897168000004058
+  },
+  {
+    "fold": 15,
+    "project_group": "135270285",
+    "condition": "masked",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 16809,
+    "vocabulary_sha256": "6394d137fb163c9691798136bd4669a3131964f22c1175a2bf9f69eb612a735a",
+    "idf_sha256": "138128c8d6d2bc609195625c2dbd2ae5162d138c7e9c744b01ead705ce969ba2",
+    "coef_sha256": "6989d842e855672b5b4bd40558bbd5ddc36051c158790811a199c053f89098e5",
+    "intercept_sha256": "175352ddc8e83a1a08446b9e00ba713eeec92509efba3a2cbb3aac58b93160cd",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.25915930000019216
+  },
+  {
+    "fold": 16,
+    "project_group": "137451403",
+    "condition": "original",
+    "training_documents": 994,
+    "evaluation_documents": 11,
+    "features": 20963,
+    "vocabulary_sha256": "2fd3cbedf9d9e233bece92c75b0490d158a7b1e608bdefef2e138d076f633423",
+    "idf_sha256": "99feac43966600d4a8f934687861957fc32bf56c06f13323dd809f011398c82d",
+    "coef_sha256": "1ec443e9e9f3ffc1f0afc0b5d4077d19d21d679ff9b02ffe39b35c6d6b2aea9b",
+    "intercept_sha256": "58f678c44eea5c620113c8d99bd16d618f4819e33371471821468cd65fd036cd",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2863043000002108
+  },
+  {
+    "fold": 16,
+    "project_group": "137451403",
+    "condition": "masked",
+    "training_documents": 994,
+    "evaluation_documents": 11,
+    "features": 16724,
+    "vocabulary_sha256": "15d430f5f4096633f7c1199d58a9aaf35f471a065d45619e5e5bd4ddfd17a871",
+    "idf_sha256": "91a324e233d38cced9744b7922fadd42677eeaf6a542d7c245689f843ef20f5a",
+    "coef_sha256": "fd32a5e6667703cd7a75d4213874a9fa78c719643f39f16f5598accc449fb0c9",
+    "intercept_sha256": "e86a18c956bf39fc8386b746328794fe9e89be95d274be63e9eec9f70aa99f21",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.2619710000003579
+  },
+  {
+    "fold": 17,
+    "project_group": "1381673",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21046,
+    "vocabulary_sha256": "54df3e19a7f98d433b1b0788d9a8f6cd9c6be24764819497144a4629686b5bfe",
+    "idf_sha256": "28f1f442a1b3dc79c9f88a30a1f0f36de99d585282c967167e71fa65bfc583aa",
+    "coef_sha256": "e27c46c453da199ec7a15c3f21128390d3a3802b4aae760cd341505db1003948",
+    "intercept_sha256": "adea3ef533e822e881f35adee1a0bf583a3842fe6fa002888505176d2be33bd3",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2669753000000128
+  },
+  {
+    "fold": 17,
+    "project_group": "1381673",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16753,
+    "vocabulary_sha256": "863b64770dfa6d425fc6a56003ca6487a600089ad4b58c17a01c1664bb05184e",
+    "idf_sha256": "9e37f978ee8b76799675da1e302331aab8a34c761aedc4b0fbc4325b17498fbe",
+    "coef_sha256": "4f6e7b8b734fa459407c0b892d4396601a7c0b636549cbc38a5b73cb4f1ebf74",
+    "intercept_sha256": "5a4c0c0b1013aeca421d673fc340581d39691792764d276742e82c7d548114c9",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2634603999999854
+  },
+  {
+    "fold": 18,
+    "project_group": "139914932",
+    "condition": "original",
+    "training_documents": 999,
+    "evaluation_documents": 6,
+    "features": 20955,
+    "vocabulary_sha256": "25518255de0069f3f85265ca1892a4df20db2d3d8f543b3d71f7dd0c424954fe",
+    "idf_sha256": "d143c5373a4e3488fdd7baba54e2eafc90d60ada2901a83dbbea89fafc8eecfe",
+    "coef_sha256": "19ced1ff49095c8b13f78043d62e27e58b149ee8f276d1e4e69573a604537460",
+    "intercept_sha256": "367689f5fbe1577a068135747c29aa234cbb57b8b4540266a558ab91aea9b9c8",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2861966999998913
+  },
+  {
+    "fold": 18,
+    "project_group": "139914932",
+    "condition": "masked",
+    "training_documents": 999,
+    "evaluation_documents": 6,
+    "features": 16683,
+    "vocabulary_sha256": "a14b33d4f766be4c35904148e69668a4780edb625c4e2bd48d7be8113e77401f",
+    "idf_sha256": "eab390065c035ca30ef52a4fb4bb1793d1aa28cdc3c33cc8aca9d8e7acadec78",
+    "coef_sha256": "7258df5265f5ee011b74b86b613d73b628a0f636d99b8824af855f960c4b5c88",
+    "intercept_sha256": "875c4feab1cea84c01eae32b39fce5dc9bd5fd64d9abd1695d5d5766563f876a",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2649349000002985
+  },
+  {
+    "fold": 19,
+    "project_group": "140543886",
+    "condition": "original",
+    "training_documents": 997,
+    "evaluation_documents": 8,
+    "features": 20772,
+    "vocabulary_sha256": "4565e725556ec243d67b9f650a559df660cc308235cba85b6d745c5404cbf74c",
+    "idf_sha256": "db615b8f61dcb5d1dcdd5da5f0f7fd90b8c8ff9ade3da9f3fc4de1a52423488b",
+    "coef_sha256": "7b8b92e22b64c9d4e319fe276441779dc085d89e06a2c0907f9a0f44224df9cc",
+    "intercept_sha256": "a44721df31d916aba1affba9e177d8ac99ae5cc93a2a92ab7b8607502febde5e",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.27872400000023845
+  },
+  {
+    "fold": 19,
+    "project_group": "140543886",
+    "condition": "masked",
+    "training_documents": 997,
+    "evaluation_documents": 8,
+    "features": 16513,
+    "vocabulary_sha256": "a88c6cd0b720a3dbf472c8f565e58dc04e54ee444fd8110bc8b1efe334027796",
+    "idf_sha256": "0ec7a31b136c4ac2ae10fd30face4495fed962e62e6d6b8bd5acf29bcbffc766",
+    "coef_sha256": "b2a530abf6907d31cb0033b2d6a57a4f9435d7e95a51da60ab7008cfe69faace",
+    "intercept_sha256": "f52715da3f7eba883ee446b76a31b17afe04664777b048604f93f029faa47ffb",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25093210000022736
+  },
+  {
+    "fold": 20,
+    "project_group": "143156558",
+    "condition": "original",
+    "training_documents": 998,
+    "evaluation_documents": 7,
+    "features": 21093,
+    "vocabulary_sha256": "440deca51ce913c1225b0860fe4dd869b5acd38e41c628c87698dc9c203d9276",
+    "idf_sha256": "ca7006571f9a710ad4190fb2ab2fb2063fd2c42988cfebb5e673346589bc87d6",
+    "coef_sha256": "52b456d2d02d87aec8711ae8640dcdba7cf72b1d2981dd4b75009b34c84968ff",
+    "intercept_sha256": "41e5e6705e0a8fefc3c332d3ba758e6233b8e7fb6e55cc7fb699c026d8d9d051",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2900123000003987
+  },
+  {
+    "fold": 20,
+    "project_group": "143156558",
+    "condition": "masked",
+    "training_documents": 998,
+    "evaluation_documents": 7,
+    "features": 16819,
+    "vocabulary_sha256": "7d35cd3458101f567db3a5028789ca308b086b5488f5b9bf61b72edbc31fcc87",
+    "idf_sha256": "24ebc82b8182616a3ba80b93bad3b4f9448272fcfc3891e43515778e85dd430e",
+    "coef_sha256": "1e9b472d9b5759d92f87b0b7d5877c29cf795044b016a284f5556ac24086a5aa",
+    "intercept_sha256": "21be2419602505ae249c53c9021cb15aa1040a22d4ff699e5d4b148633f37ab5",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.2639245000000301
+  },
+  {
+    "fold": 21,
+    "project_group": "144999365",
+    "condition": "original",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 21076,
+    "vocabulary_sha256": "09081f6420c670e3d1402ccd9f268c5fbc02d973a4253f5868a0012ec62c22be",
+    "idf_sha256": "6a016d2cf2fa36d200d1717bfda7d7e9d041ab611e95b84b48bb18f1966b8f6e",
+    "coef_sha256": "9b520b478919b9a0c78a4794c6855b4b9aef30076869afa55f9dab0ee108fb28",
+    "intercept_sha256": "a791da2db057c3db761f3dcc26df5a3e525d15b8c94a9970416dc1a893290825",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2864712000000509
+  },
+  {
+    "fold": 21,
+    "project_group": "144999365",
+    "condition": "masked",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 16788,
+    "vocabulary_sha256": "24032e1111cf9d1a6ec253f0a6bd561cc38d7d83a21e9394f5c605ddd5bd3447",
+    "idf_sha256": "8c3451e699e45759de06f4b6754d7fa6a86cd9eb05b8acc19a479906aee4ecfa",
+    "coef_sha256": "311f72e5c7ce161fd102b971332756e3ca26d2541052d5e30f34a4310dbe4a10",
+    "intercept_sha256": "567d65427ee3cddcaa686882540aecd894cac7abe08664ef060666d17c52ec76",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2542593000002853
+  },
+  {
+    "fold": 22,
+    "project_group": "14696091",
+    "condition": "original",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 21108,
+    "vocabulary_sha256": "081c6cd844cf0cc55fc594cf7b863dbc03908a5f49882c96884bc4e81e59c4da",
+    "idf_sha256": "c1792c5e58f0b6641c50bca5a667d02b73644035d8142ed35ac434855c51fafe",
+    "coef_sha256": "d4afd3413a19f05be181645ce2289c8d28df8fa46b9ca519f82c412351acff06",
+    "intercept_sha256": "694fa5799381565c56c3aeba441cb9ac18f19ed72b832acad9c0d71adaedd73e",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2842982000001939
+  },
+  {
+    "fold": 22,
+    "project_group": "14696091",
+    "condition": "masked",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 16816,
+    "vocabulary_sha256": "90b7276885ef45fef8342d5119566556413a095b9b0cc33cf408921d3008429f",
+    "idf_sha256": "63b7c680fdd12698db79190b06632239714de1db2542ba77bbac4b973b1087a1",
+    "coef_sha256": "39c2651242d1849da1669c7543463cb840012492e2d83c838465b681a9d67987",
+    "intercept_sha256": "27ccb885726cadb1d11fb2e9e2220bace06770da4aa0d5244dcd4e02e9b40394",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25371039999981804
+  },
+  {
+    "fold": 23,
+    "project_group": "152415097",
+    "condition": "original",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 21046,
+    "vocabulary_sha256": "d7b3f2b7783848551a181be2dcd21750a7d71a9cb5d1cd5f0be3acb8f415b984",
+    "idf_sha256": "71a5efbbe0dcc8889195ef961fca3bf9202ab10581084cbbb437634683ddfb73",
+    "coef_sha256": "ed74dbc73c875d3dd381d3cbdef8b311f3dd42265687df69f67065c858612191",
+    "intercept_sha256": "9a0f9ed3e43982acbcf94a14cb6ab1cb77339338cf678830732e26a03dbbaf79",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.27657090000002427
+  },
+  {
+    "fold": 23,
+    "project_group": "152415097",
+    "condition": "masked",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 16760,
+    "vocabulary_sha256": "9069f40c1535049672106dde5094e991adf3fc32f2d5358d3e3112d4db642299",
+    "idf_sha256": "01186f2acf052412381e79c069c6f00794b27a7a3079103dddba84108aaa4219",
+    "coef_sha256": "8c869ea15ed46eb6bfa45826ca699c5c9baee10d73fe950acac8506e2ba52458",
+    "intercept_sha256": "f47c8e83b3492575227e969f8ce7c0363ea6d356fd437a71051250bd8555cb08",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26294830000006186
+  },
+  {
+    "fold": 24,
+    "project_group": "15928650",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21081,
+    "vocabulary_sha256": "807dba5c1037c6ea82b1a96ad15a67cb5a626774228fb04533c8fea8c698578c",
+    "idf_sha256": "40d59a8d8766c9b37098b6cdba27f694fb665743f8b0b0e0097ea4945360b8b7",
+    "coef_sha256": "9c06310f2134c74a8fbb3a2612f4ed4f5ea68780be607a9f57f387dc86a34f04",
+    "intercept_sha256": "ed8dbfa4f5ef6ef2748df602e929875ba44d259a0656205db71bc07353ffcabc",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2749063000001115
+  },
+  {
+    "fold": 24,
+    "project_group": "15928650",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16796,
+    "vocabulary_sha256": "32c134029b8415c9d1179fd3cd185bf4ff9aa80b1188bd6a126fdec02ee73c20",
+    "idf_sha256": "a072580461533a2b215dce782de9fb0e44e93cae381a6d39696287ed125f3cc4",
+    "coef_sha256": "d0e0616177364e841d60b9da76b37146ac7e6430486aef9182ff0f14b3571ac4",
+    "intercept_sha256": "4db5c71829951427019a0a1be1f067490ca75131805fd7a5b1c0130bbe4ce84d",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2525433000000703
+  },
+  {
+    "fold": 25,
+    "project_group": "160999",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21124,
+    "vocabulary_sha256": "4fc514f09be61353887005011b146a92a3aba7eb22be990e348534a619aa6d26",
+    "idf_sha256": "b6d1b1e3cfd0702b04f2fa057bb0e5517a5ecf780e0dae50acf673ec6036d271",
+    "coef_sha256": "e0afc4cda34682f96cb5f1dee7dbcc3b7c22b07e1f78de19f69286c65b051c48",
+    "intercept_sha256": "94d99d5e39797403facfb95bde01aa7e775f8b5dd0326d3217ff326a31ea8051",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28742400000010093
+  },
+  {
+    "fold": 25,
+    "project_group": "160999",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16828,
+    "vocabulary_sha256": "8ce13f4ee2a7c4db597f30a4970d16780459b0cf62919e46747f8d64a7384370",
+    "idf_sha256": "c34975141d15d45ba1e0abdf2055f0a5255c5befc7b3d86d3416107349f3f63b",
+    "coef_sha256": "74870e747ebb427a3a2273a6128d1173546ea300d3c9cafca13ec5105157d31f",
+    "intercept_sha256": "14939639012e607a066cb3a0b3c987de8614385c227fd6e2f4f3fbf4f4e3c381",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.24934520000033444
+  },
+  {
+    "fold": 26,
+    "project_group": "16144428",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21079,
+    "vocabulary_sha256": "968395623cb106ee0daf1ba7656c6455140ef76bd79dcade39e093a4fb3244eb",
+    "idf_sha256": "1064f1041d40d80f3d86347fe1c72d89cab1cecea072b50a8b97f1fe1c564b34",
+    "coef_sha256": "489caa9dc7e6847f02a2579555b055617068537e17a3096220597476d050e689",
+    "intercept_sha256": "7436e27ef64b321062ae18625972d9c037c3464b90a0e8d153d8086374e81642",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2851448999999775
+  },
+  {
+    "fold": 26,
+    "project_group": "16144428",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16786,
+    "vocabulary_sha256": "c1b99b3dd5127690f53c06d948e84614ae3a572f5b8b753db5d35b1cac86593f",
+    "idf_sha256": "de83d15248044b1564b25de28310fb414ad67ea28cc2d674b84b5ebbaad330fa",
+    "coef_sha256": "807a3c147f98b5993c232c6db92632be917d87fceea366a9344d71ac9dff31bc",
+    "intercept_sha256": "20122344f6326485e73e383761bf90a241a8d0ef67a490d01fbfb0215702678d",
+    "iterations": [
+      19
+    ],
+    "seconds": 0.2380580999997619
+  },
+  {
+    "fold": 27,
+    "project_group": "161665401",
+    "condition": "original",
+    "training_documents": 986,
+    "evaluation_documents": 19,
+    "features": 20771,
+    "vocabulary_sha256": "944f895af0a76b7255d2ee80c6053b916d6bcf730ab7da2ec771648e9aa20e89",
+    "idf_sha256": "48ca3e28ef6c8386164a92825c1def67bf2f72a3157bf4941ea7abbed870d175",
+    "coef_sha256": "f7070d8cfad8f3b796f8ba5ad64349963060202585e4b8db31f18e0aa4642706",
+    "intercept_sha256": "8dc015b1bebd688f775296a14b7f500ec1ab803c3cec6d6417948fd0ab7d1ae3",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2804495999998835
+  },
+  {
+    "fold": 27,
+    "project_group": "161665401",
+    "condition": "masked",
+    "training_documents": 986,
+    "evaluation_documents": 19,
+    "features": 16532,
+    "vocabulary_sha256": "f13bcf51df29255d82d5c2db80fd1cb9452febd65dcd27fbbee6c30f4e2402f1",
+    "idf_sha256": "ee86be86aa271380d75ebd2bd47d726be0493faffa29a35c40520b8cfb2da901",
+    "coef_sha256": "3bc76da2763c372e36629c0858fbf35dea1197639c785d140e7ba51a0ed2ea78",
+    "intercept_sha256": "af12e7a85577248c60b5fed19a98b10ae284b34179e05b105f507af2ddfc4a21",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.24672300000020186
+  },
+  {
+    "fold": 28,
+    "project_group": "163387337",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21126,
+    "vocabulary_sha256": "7863c1ec8e2695309d512096c8bfe66a472a8ad59e8e6ec2fd9b7a30e75ed9b5",
+    "idf_sha256": "5ad2b47e93506ea239c234c8f6f1375c3aab64d5984ca5c0556a5e2169456d1b",
+    "coef_sha256": "5a8453991bcf0a524319ffd3f8c8ddd94299c7137871a31c1904ee84f001e998",
+    "intercept_sha256": "e4b3653e7ca85d16e55b5ec5729e07d166c4c5689766d38359e924e6e565e290",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.27675349999981336
+  },
+  {
+    "fold": 28,
+    "project_group": "163387337",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16830,
+    "vocabulary_sha256": "f024d857844f82d9cb5142eebea43e4fd0b59973852223488df2cfb807a86237",
+    "idf_sha256": "643716ffee1e49dfb03b9dfacb3578cd4e2fb51c12ed0e4a98fe1e989d728d66",
+    "coef_sha256": "4e90fd72a5f12a2af2347ab39eff4048fa812feae0557007c112a39cfd0abde0",
+    "intercept_sha256": "abc1a314cba15d8c1333daa80959b1462cdeb07ec977e5dac25427f0e6167279",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26875790000030975
+  },
+  {
+    "fold": 29,
+    "project_group": "163492945",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21091,
+    "vocabulary_sha256": "367c2e1a3be8d2b5607b26177404a9ccab1d98856dee03b595513bd87f1908de",
+    "idf_sha256": "131c825831da22035754c42dffe44a845d4da8290c376958b92bc4e968ba2508",
+    "coef_sha256": "af3819682f81432a29efd2426dc4d1d91c182b8d813d253d12a048f74f3a20d7",
+    "intercept_sha256": "61f3004a44d9e3cc197009d88498f1463f3c698b729b8331b7892c1a3d8d6a03",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2890127999999095
+  },
+  {
+    "fold": 29,
+    "project_group": "163492945",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16804,
+    "vocabulary_sha256": "305a46095f989ae36a0bf2e4e57ca84194edf1d30ece381d6c2e13965bc1f41d",
+    "idf_sha256": "fc0aeadb9117f763ad615d3bceab55f2397fbb86d80066317079e09e63e76320",
+    "coef_sha256": "dd51a6d647b124e365b04202c8c515f987f2697e73158f551534e1162c5867f5",
+    "intercept_sha256": "57bd1bccc2bbab9a20d42c2ccd633f72f427a664137aeb800e3276633bc9ea4f",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26079829999980575
+  },
+  {
+    "fold": 30,
+    "project_group": "17359057",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21130,
+    "vocabulary_sha256": "4d36895d2ed9170d293002b5fbe8d1fb967362351feda4594607a6ac8d9d4874",
+    "idf_sha256": "bc57c34db4a469057d3406dfab439c7c47585a51245f3d6a4ffc7fc20f1a41e8",
+    "coef_sha256": "9a2b0184902e3b1e72a1935354f304d0043b7c0fbdbbc0c4356d990ac31a5e89",
+    "intercept_sha256": "c36f38f16dfad32200f56d01972a5e1c88858ddacfdc6e73ac59c5aa44cea1fd",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29441129999986515
+  },
+  {
+    "fold": 30,
+    "project_group": "17359057",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16826,
+    "vocabulary_sha256": "ca630993159fafb8305d1a397456a4af11436c776c0c1966384b49f6d7f1fa09",
+    "idf_sha256": "5e5b7c7c7aaf0a51669c60d395198c127e7191e046a89ccfa23095910e168a69",
+    "coef_sha256": "e32b7ccf3343bc0a983ca6fc75be3296f7de07db057ebcc9f3295b5318378746",
+    "intercept_sha256": "e69e6b4c8237fb7ffde95574ffc46a506424cd8a151f25fbd6899eca3e438832",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.25615449999986595
+  },
+  {
+    "fold": 31,
+    "project_group": "17575379",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21134,
+    "vocabulary_sha256": "b84febd2e08d14e317ae211db0dfe54040b798b44276ff721417799010f9a326",
+    "idf_sha256": "8d2c8b138960f6097233078ed3eca2dc9f3a91fae1cd2af7fae5e0b852e5300d",
+    "coef_sha256": "b0b69511a9eb4446e241a03e54fecc53e4fa195aa9a243068e394d2993a5cc62",
+    "intercept_sha256": "c4a9413706735407172132b98aeb383ebc6ab7ce0420635e8f7495b6b77a777a",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29205450000017663
+  },
+  {
+    "fold": 31,
+    "project_group": "17575379",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16830,
+    "vocabulary_sha256": "f024d857844f82d9cb5142eebea43e4fd0b59973852223488df2cfb807a86237",
+    "idf_sha256": "df11470431ca571ab40f1c0c3cc3809395cd781358b950ac97e6c5ab0a313364",
+    "coef_sha256": "faed093d9a28e80e8fcb75ae41ac0c9dd873f3566f9a250abb1776c43a4b4eed",
+    "intercept_sha256": "22548f868da585fdce2530b3202fa4fe5f3463a6bdf96efa50ccdc72b0927bda",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26157499999999345
+  },
+  {
+    "fold": 32,
+    "project_group": "180537027",
+    "condition": "original",
+    "training_documents": 997,
+    "evaluation_documents": 8,
+    "features": 21051,
+    "vocabulary_sha256": "373299a3b1a5a9225c994e304805c06526e04b19755b5b28bc4ce3adbcdf2c56",
+    "idf_sha256": "8fe6a7e699d34d072c463789745933d4bc653a3522409328a6fd0829310eac57",
+    "coef_sha256": "d6687869c70cb7d4dbcd738e5db6226c9c4f5feb21a61b8c7783bf624b16935b",
+    "intercept_sha256": "33e97470e95010357e655a48a63324676c9e4f8a4d78a9a4c7c14f74011dd990",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2972207000002527
+  },
+  {
+    "fold": 32,
+    "project_group": "180537027",
+    "condition": "masked",
+    "training_documents": 997,
+    "evaluation_documents": 8,
+    "features": 16781,
+    "vocabulary_sha256": "867eef25e3b4dbb31d5b886860c600d7dbb4936496bb3c8c41d013b84c371f9e",
+    "idf_sha256": "468acc00ebc670104779f0c1cb6377cbbf683ba3161885d6d03f2be9565004fe",
+    "coef_sha256": "1e05d90bc4101c43e917a67bc8ce257ce45021a1a8a2759e3f35a43311e097c5",
+    "intercept_sha256": "c2f3fbc4ff799959d46d8befcdc32c27a58be72ceff4f81ff8d92b48b22fbc91",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2625471999999718
+  },
+  {
+    "fold": 33,
+    "project_group": "18259368",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21123,
+    "vocabulary_sha256": "f1881bc0a637fd04025e5f7b3de56b0fb375ecf6465536525c1cd548186c7aae",
+    "idf_sha256": "8cc83ac1787c3fdf3b4d9a858a080f6584fe3b4ea13c6d47dd6d7edff8603b8f",
+    "coef_sha256": "f10326d8d75c4dd03108c82710476c0ce5f53d4901989ff1eb82b0ee9c66982c",
+    "intercept_sha256": "c633fb7491557fa45da1fff363692d57fa9840da0199fe1cb8f3e235e04bd478",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2986399999999776
+  },
+  {
+    "fold": 33,
+    "project_group": "18259368",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16827,
+    "vocabulary_sha256": "e4b5379e1881fdb410acad1486056fc6394925ba1dd62223b3543d3d7f08bb93",
+    "idf_sha256": "21ca9654c518f77b1e516ad66a6014bd58ff2daddf3427f085bbcf1cc4988233",
+    "coef_sha256": "b06be9cd8e35c94cdcde5fb444766b1fea0479ab3c2b881ce0463c563ad90123",
+    "intercept_sha256": "cd6f43948668d984b3f95f6a4d4cbc372bdd0f7296ce6dce409c7387183fc4d3",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2685596000001169
+  },
+  {
+    "fold": 34,
+    "project_group": "18723836",
+    "condition": "original",
+    "training_documents": 997,
+    "evaluation_documents": 8,
+    "features": 21020,
+    "vocabulary_sha256": "59d9e12bddafaac00829c750f729e04d96b81a72ef0e2c2ea858ce6f45031fb7",
+    "idf_sha256": "a8d7ac21c1252a1814b3225bb71afab2785e392f507d5165da9dacbb0d508bd2",
+    "coef_sha256": "2d23741868f291b0a37f7be87f620d0daa6829ed027dc5295c9b7a4951245ba2",
+    "intercept_sha256": "a6e3e205056f496bf677ca0b08ae2389ef77d6bbff0227b8ce25abcd73177f6d",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.27679360000001907
+  },
+  {
+    "fold": 34,
+    "project_group": "18723836",
+    "condition": "masked",
+    "training_documents": 997,
+    "evaluation_documents": 8,
+    "features": 16759,
+    "vocabulary_sha256": "82b21b07adf496c42aad7f4b2087752c825b351b0def8961d5b89cc75adb418e",
+    "idf_sha256": "5acd59eedcce20a40691bb09a4c27907a2f830254b8b4baa40d49b93a5945f80",
+    "coef_sha256": "47157373270f88a37e6798ce8d77c0cb0cb8dc0b6c26183854171caacd929096",
+    "intercept_sha256": "f8710e49e597f1263de6a4c937d831704aa112e2bc0d7f22c97d71bcffd2ddc7",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2532710999998926
+  },
+  {
+    "fold": 35,
+    "project_group": "198266782",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21059,
+    "vocabulary_sha256": "b220053044ece024e30a7ec15b2cffa59201bb41cbba6727bd8c87e9d9a60659",
+    "idf_sha256": "6fbab0219d19490d209f7b7d32459ceee4ed012c36782cbdb55eec9040b41307",
+    "coef_sha256": "a403e48820533410ed0ceb5324e2bbe7e2303e7d596dfb0f98f00c801db2444c",
+    "intercept_sha256": "a050d902374bdf04069c8eee151f3065a3edf6f2e9c310767e49fe1d98c0e590",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29187709999996514
+  },
+  {
+    "fold": 35,
+    "project_group": "198266782",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16765,
+    "vocabulary_sha256": "b1a2e82e96d6f63cf8ae6adc3b9e7e1b9330e2f1d87886b69205e860de96f874",
+    "idf_sha256": "4b431efcffa2bb81721174b4f136d39bdb7c3bfed12edfc4192096d0c2e7c389",
+    "coef_sha256": "c4c28579a7222a9bf31061131648d71d37005b00a2a52d4716d6446b24919182",
+    "intercept_sha256": "79ff347b820435ffd9e70e093b92dd5b75fd70d4673b0a0b3f4de88a3e772eac",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2644949999998971
+  },
+  {
+    "fold": 36,
+    "project_group": "19961085",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21084,
+    "vocabulary_sha256": "4d9bd6e8334bf7b7e2ac3f5ca4c8caad6f021d0e10b449891011605fbf3ba126",
+    "idf_sha256": "c4ad9fd3d1008a94bb4b035526c689877b50bdef5e416f964d6061c0518fb77a",
+    "coef_sha256": "58b9c112cecec1edb79eee565ba76c9ab46ad5417e5cb740a1fb4813b63f6cdb",
+    "intercept_sha256": "fd30e814363353d2603e5dcf5028e98225041c6ef3df493b750afee71fa54e1c",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29022470000018075
+  },
+  {
+    "fold": 36,
+    "project_group": "19961085",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16790,
+    "vocabulary_sha256": "030c3ffba035d71d5e85004600c50870c6ecde904969256ded4fdfa86eab150c",
+    "idf_sha256": "196557287bb015bb59f04142e8d18552e88cac7ba6b2d344c0d440ee0a7c61e2",
+    "coef_sha256": "578fcc4413bd86af4a1337bb970fe18c220e8366150ab44572674c62c7d660bf",
+    "intercept_sha256": "2d16a2b2a4d91ff9cc98d9e0906a657883a9c455edc50f3d39d1412da827c796",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2644169999998667
+  },
+  {
+    "fold": 37,
+    "project_group": "20089857",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21050,
+    "vocabulary_sha256": "69ac1ae37c15772a177378a71408d615e9ee45bf0a4e4a6d4aa661f9b096fad2",
+    "idf_sha256": "add5f1f42469187226971e263d084f31dc754655475eb6799128ebfa20ef93a3",
+    "coef_sha256": "6605386fa1f9617f6571b86323d1f7c3dabb01458ebfaa45b73aba4d677d7202",
+    "intercept_sha256": "5cc0bf5ebb12c7c5a31259456794f619bb49f2328231f9a772810eb66a1017ff",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28778379999994286
+  },
+  {
+    "fold": 37,
+    "project_group": "20089857",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16762,
+    "vocabulary_sha256": "32451fd2409daa5516602c51627519862513d5efc8b32e38f7fe92991007d0b5",
+    "idf_sha256": "ba9d0042234297d858e9b3bb2f6328be48b8f1ff5e5427df793b3a66231cdbef",
+    "coef_sha256": "15edf4af2e5bad2a1d692f4f3304611563b1df9676f11410ffd47704ddb6f6c5",
+    "intercept_sha256": "f07b65944085ef6b785690e29988d81e0b7a13a29ce70f0a7a872fce5e251789",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.2614281999999548
+  },
+  {
+    "fold": 38,
+    "project_group": "2019791",
+    "condition": "original",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 21072,
+    "vocabulary_sha256": "6b8b16d2b8ae4b0304d9e45f50270e81f565992e3d8e5306e9032304396378e9",
+    "idf_sha256": "6d961192706384639c11e13fc2e698f73e7d84a29b37352a52c52281ea6ed717",
+    "coef_sha256": "99681ba10644421b94f20a1eabc629382ee1fc0a4fdd1f0418732ed17f5eef4f",
+    "intercept_sha256": "dd2ac1883e042d815586fcedbd4707a5cf388c63ea3d8a6c200c5500f262e8d1",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2823812000001453
+  },
+  {
+    "fold": 38,
+    "project_group": "2019791",
+    "condition": "masked",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 16792,
+    "vocabulary_sha256": "37fa596ee1033cb622e35d7dd2f56dfb00b0ac4ec0bc96dbdeec8a117a927ac3",
+    "idf_sha256": "d0362ba199d71b5302d1f17bdeaf29951b6feb5fca019fd27f14368b8dcf0f88",
+    "coef_sha256": "576e3da6115222ecc2b7c4b63d1d3f77a739e05a8d05cf91697bab3cc8dce0a0",
+    "intercept_sha256": "24ed08d22aeba9b6744e68cdd360dc23d5d28f8365dcb06fd4cfa36a2410c5d4",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26378780000004554
+  },
+  {
+    "fold": 39,
+    "project_group": "20587599",
+    "condition": "original",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 21094,
+    "vocabulary_sha256": "d365ed7da7a9416c466352f7aa993fe7bca6fe9a615eb6b9815034e1edc2185e",
+    "idf_sha256": "48de48d2a7715d7de7a32ab3fd3e9527f978c53a2fefb0fd2fe2e4f52c41120c",
+    "coef_sha256": "1249141ee6608e7eeeabf58f2f1282d10564dbe928e8e3fa85951ccd006b53ae",
+    "intercept_sha256": "1dba2abd2365447bab9f3786efb51610a82e8f97729ea29711eb8e2ab8fc0a18",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2832312999998976
+  },
+  {
+    "fold": 39,
+    "project_group": "20587599",
+    "condition": "masked",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 16806,
+    "vocabulary_sha256": "d9baa41f9a658c2774241b55378752e5971f0453702fc80c43831681473ac4bb",
+    "idf_sha256": "db6d0d839cb75cf842f3096483c0250c62530174558629d7541fb859def7a65b",
+    "coef_sha256": "2c834c9798c59a12e69004ab968f0cecd25906db0d0af4dafda9ac4b5965dcaf",
+    "intercept_sha256": "83b219c9713d1759cc1c906c1c6ca272fd404caf4f09e02b8838e17d32219a9c",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.26375430000007327
+  },
+  {
+    "fold": 40,
+    "project_group": "206362",
+    "condition": "original",
+    "training_documents": 996,
+    "evaluation_documents": 9,
+    "features": 20978,
+    "vocabulary_sha256": "ee4873880dc8bef479ed1e2a96569b7e81a233aa2526c3108642898a368dd922",
+    "idf_sha256": "54ba5dae15d2fee06704b5b775ad914d975e3de16d1e5f16399e464a3d3073dd",
+    "coef_sha256": "a676f9f45edf7d312b99b782fd7f7c33c1c1fb350cb5facc853b3be600d745b8",
+    "intercept_sha256": "a37395ac20593158516f4aaf13f351b9bdb8e57216c02e3d20825ce306615aa6",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28601879999996527
+  },
+  {
+    "fold": 40,
+    "project_group": "206362",
+    "condition": "masked",
+    "training_documents": 996,
+    "evaluation_documents": 9,
+    "features": 16688,
+    "vocabulary_sha256": "0a7d58642928ac8b5bfb85c20a071e5897ee537a2be5e14be8d3d0056fa55732",
+    "idf_sha256": "b5f2e0924d35601be2acec9646808b61564e2743f1f26cbb7139446fd64dac87",
+    "coef_sha256": "69e14238a47e775096951846675757acf6051a162e1d926c0bc0a05444fe7b36",
+    "intercept_sha256": "3efd9e9651e6b485bddd694092c9d8a63576b83c0e1e755ffadad8e46656715f",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.250413700000081
+  },
+  {
+    "fold": 41,
+    "project_group": "206378",
+    "condition": "original",
+    "training_documents": 983,
+    "evaluation_documents": 22,
+    "features": 20740,
+    "vocabulary_sha256": "606a9acdafe6c05bc814ef4702319c7e822bc21cc9d793e974481159b057b55b",
+    "idf_sha256": "34af9c6b145d7d4077c21a62942eef4746739df9cb92556d919dd557dcefcce1",
+    "coef_sha256": "78d0dbdbef31ae55e6f79054a8cf8734f6e1a609771b3ecd83d1424b21954e33",
+    "intercept_sha256": "1593a1c8c1b452325a69ccc2e67f1055ef304569eb53d8a1209253595f0083d6",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28510800000003655
+  },
+  {
+    "fold": 41,
+    "project_group": "206378",
+    "condition": "masked",
+    "training_documents": 983,
+    "evaluation_documents": 22,
+    "features": 16515,
+    "vocabulary_sha256": "bbe1325b78bda1cff1b70d32eda7c19b0a71a2137ca8eb552e1024cabdd1e7f9",
+    "idf_sha256": "c601935c8ffe117b77fb034961fd8c93023c8ad91ee0602f8bb5d8fd12b5e7f0",
+    "coef_sha256": "ad72a4a3ba30a9f7bda59313d0dca0e8d846d5d26fd923c0c7ec61e1a45fca4d",
+    "intercept_sha256": "6318722adc155bda89595d396f515ae4faf41548c5ca2b1bece26b5e7bf759dc",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26635570000007647
+  },
+  {
+    "fold": 42,
+    "project_group": "206444",
+    "condition": "original",
+    "training_documents": 995,
+    "evaluation_documents": 10,
+    "features": 20914,
+    "vocabulary_sha256": "d0e520f1c8310c62f8d52a7995f02d43825b8d1b63dffea8c6931219030a5220",
+    "idf_sha256": "7bf3ca80327d0db865afe1175455bf7ae15fdb70aa4b2602101c96bf75105866",
+    "coef_sha256": "9ae4d4f591b7a18caa2a3062672c3334b359dcb4e621677eb3247e8bcc061b88",
+    "intercept_sha256": "ef8838fab695de5acd094dbc7c8fbd96bbff02c7c525f352edeaca5f3e06d5f7",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28239250000024185
+  },
+  {
+    "fold": 42,
+    "project_group": "206444",
+    "condition": "masked",
+    "training_documents": 995,
+    "evaluation_documents": 10,
+    "features": 16657,
+    "vocabulary_sha256": "a722bfd4bd642ad1fcca38e81dae944341bd5276348e915ef540126c05a94851",
+    "idf_sha256": "0a53a999a20f88eddef424d7558e2846aad8898c2a351567efc28b87cc735057",
+    "coef_sha256": "5ce70f274f6e27ba23b91602e7f1b0f6ae86c986bc978b7ffdfbfc2384dbb998",
+    "intercept_sha256": "0dd2abb54c6d7cd792701c10af295f8c8d3b5e984de10123c188e7de64093dba",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.24838150000005044
+  },
+  {
+    "fold": 43,
+    "project_group": "206459",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21079,
+    "vocabulary_sha256": "53311570020a97720bdc96d297e7b5bc9bf6d90ecad8c97c12157f0a3ea77d13",
+    "idf_sha256": "a7c70e7f56b1e8feac4bcc86892ec817e85c3d676b421e9ec474cf22e388b326",
+    "coef_sha256": "987678330b411800f8f22a58be18c3a9a0d7b96d4332e7613eb74ed39f4531cf",
+    "intercept_sha256": "11d580776405415b2b71c69e7a3e79e8e797eeedc71165c124e68ae171271244",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2575698000000557
+  },
+  {
+    "fold": 43,
+    "project_group": "206459",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16788,
+    "vocabulary_sha256": "1e47d78c93fd507f2e3748e4241faca85fd3b92b854f34d643253ddea571dc92",
+    "idf_sha256": "3ec3b3c68f0cb59c346fd0026a26f66d017b3b0941a77b32d300c516d3ac134c",
+    "coef_sha256": "231105d2612486b679678d902c3b3eeded8bf0f9f91786cd99301fbb8f157774",
+    "intercept_sha256": "0f023653cd08ae5322fb7eef006c71ed61de5b1bbbaab1e9a172aa215a86f7d3",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25728140000001076
+  },
+  {
+    "fold": 44,
+    "project_group": "20882897",
+    "condition": "original",
+    "training_documents": 996,
+    "evaluation_documents": 9,
+    "features": 21087,
+    "vocabulary_sha256": "52b3585650f3763c61c8c6d822976ffb0dd030a9cacfc161cf81897431578186",
+    "idf_sha256": "23aa812f2d336d46575e0847f0926396398c52ec203c5a0e70311bc1116dba03",
+    "coef_sha256": "fcd0189fe689c4bef8b13983330529ed23834c5c8da0d56496cf8a99fd3b5a0b",
+    "intercept_sha256": "875ffc61b6a1198d2c8a3bb8f63d4fef75847050d30c3130d5aefcaa5a151868",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2884787000002689
+  },
+  {
+    "fold": 44,
+    "project_group": "20882897",
+    "condition": "masked",
+    "training_documents": 996,
+    "evaluation_documents": 9,
+    "features": 16830,
+    "vocabulary_sha256": "f024d857844f82d9cb5142eebea43e4fd0b59973852223488df2cfb807a86237",
+    "idf_sha256": "22fe470ed1877bea2bf3c537b082373de4d18c46536567e7537c9adba2c1c995",
+    "coef_sha256": "a367520697e7c750947c2552aaa7a8b5b8c256792400085c8d6edfe468769252",
+    "intercept_sha256": "95722316aae3ac44e3cd6b8af34e9ab97744b22728ff2203b1128e51304a6e08",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.260653899999852
+  },
+  {
+    "fold": 45,
+    "project_group": "209076507",
+    "condition": "original",
+    "training_documents": 996,
+    "evaluation_documents": 9,
+    "features": 21050,
+    "vocabulary_sha256": "9587ffb2a6b5801056abd7d3ac394266a670adff10c5856a04d2df6c3db8a548",
+    "idf_sha256": "7e1272d7d589ad9c5d764aba0593e4bd014c7021f40ba04bdf4cc848d1262cb1",
+    "coef_sha256": "2c2ef3f6a1dbeba063a6963d5af9e68461997faa2bacc081e9a5ee5bc3d6554d",
+    "intercept_sha256": "afa71e46255225296547cf554671b3ba6a99a961ce3d3b1d96915a0778abaf11",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.3004052999999658
+  },
+  {
+    "fold": 45,
+    "project_group": "209076507",
+    "condition": "masked",
+    "training_documents": 996,
+    "evaluation_documents": 9,
+    "features": 16784,
+    "vocabulary_sha256": "310436c597f6eeb82cdb3933cd55561af5f1c8e62086e2e59340bc822920c8e3",
+    "idf_sha256": "eb01b86ed5a8b6421345964c89e702270399cf0b9c7c935146455ea376847623",
+    "coef_sha256": "03674b97a6553e47f0bf132c85a76bac45564444f4a4203ba448e2ad46add2d9",
+    "intercept_sha256": "59f0372c43a13067e4ed29a66cc6a86528ea0dbdb9e6dfe91521e9c5934ba896",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25375990000020465
+  },
+  {
+    "fold": 46,
+    "project_group": "2095282",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21081,
+    "vocabulary_sha256": "b8b735464e1b9fe524e94dfcd43521e74707768ab4b8ee67bbd455c747e02cc1",
+    "idf_sha256": "1bf4cba2d58cd48ba569782c69c8d581aab279d8df62057335b6f97751e6f968",
+    "coef_sha256": "136fafeb0d98b20a49231aeeedd62df6cc925b3726bf7e2fedbe5f9be21af804",
+    "intercept_sha256": "5ead08d88c76a2e30e818d39f45504f4ced0659fbbd09bcc48a0dddb9c37e1a7",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.2949539999999615
+  },
+  {
+    "fold": 46,
+    "project_group": "2095282",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16787,
+    "vocabulary_sha256": "2592052bef3a3504b55ac206db44b4d21b4d54e51e7c9de27c0c11954a734c5f",
+    "idf_sha256": "037eee6ee2e445998f8088d568b3a846e36085c74a4f10ad237a697d2700f296",
+    "coef_sha256": "5b400b83cf13c41185fd787317a63c7b170775fe6c26a442a6d0df707b094260",
+    "intercept_sha256": "8714974b1616c590c2f99b111c7407e7e7ae84bdb7d9529b4434eed134f8b0a9",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.26829110000016954
+  },
+  {
+    "fold": 47,
+    "project_group": "210579021",
+    "condition": "original",
+    "training_documents": 997,
+    "evaluation_documents": 8,
+    "features": 20907,
+    "vocabulary_sha256": "0bd27cefae4ea9fda224827f8160b6a0e692f3aa2e290575e62e8978fa2720e9",
+    "idf_sha256": "0cad655a00a437c59c267747960b8806d60e140b86c2d6dadc703a3466313eab",
+    "coef_sha256": "d1ac652ddbc1b7cb18f94870e24d4a377167860b43c260f7e2b9510e6e6d0bc6",
+    "intercept_sha256": "add586ec5fdfb0ad8d4086484e2e910d9bcec80fbe2c2d825972e1f27cd55445",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29702450000013414
+  },
+  {
+    "fold": 47,
+    "project_group": "210579021",
+    "condition": "masked",
+    "training_documents": 997,
+    "evaluation_documents": 8,
+    "features": 16659,
+    "vocabulary_sha256": "645102435ae9982225e6dae57a31a61db264ff1d2ad83524b8b110336f70bf5b",
+    "idf_sha256": "aa23490a6600b08a67d68a12806322d676bf1acdd27426a80e77382befc69d25",
+    "coef_sha256": "ecea3261fbeed94971284e7cd4370e92315847adcbed9c15bfe1df5419868a06",
+    "intercept_sha256": "cf1c05e2760c916391a04c678a4f12476dac282c84725431afe303f868e48d32",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26323180000008506
+  },
+  {
+    "fold": 48,
+    "project_group": "21180741",
+    "condition": "original",
+    "training_documents": 997,
+    "evaluation_documents": 8,
+    "features": 21029,
+    "vocabulary_sha256": "230f809efb41b32aa0d34ab33663cb43f06a94d0f7e533501df57d3641b8accb",
+    "idf_sha256": "61ec8e3a1d33f0efba162e04b2fbbbc24cab43db4f90e61d6d1e0fee023aab53",
+    "coef_sha256": "00d5d0a070bf3a53eae147af370254bc400c10ac88c27fb13ba50c58a1d5daf0",
+    "intercept_sha256": "b3b0b87223ec9d14ff5701efe8d031c72cd9416fbaaa29bc4d641fce16418614",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2900055000000066
+  },
+  {
+    "fold": 48,
+    "project_group": "21180741",
+    "condition": "masked",
+    "training_documents": 997,
+    "evaluation_documents": 8,
+    "features": 16793,
+    "vocabulary_sha256": "1c6b47dfdb3319a7a22f007e37f20717b88b1e59916e05a830d999fd791cb4ba",
+    "idf_sha256": "4f8d28d6b11d10b40f182a65e549977fea769c724f76c5792a49f5594ed2f986",
+    "coef_sha256": "a6d909fffaf2f35f3b7c34363e0469f9f7363e41ebe4f79a9dd94d8665a3e679",
+    "intercept_sha256": "b3af93888399fe1d37788f76f6ee07ca262b5dcddffcd4d72c44cdb38da1e8cd",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.25858489999973244
+  },
+  {
+    "fold": 49,
+    "project_group": "22269384",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21122,
+    "vocabulary_sha256": "ac8b91863edc5bb4b12437a669e7dcf68cf4142eb7c198e88c5c200c32f5d8e8",
+    "idf_sha256": "cbd1c693b1b8a8b2feaced75906b5a4015a9e1a945e1581d6c7a20e4bad1eaca",
+    "coef_sha256": "b6fb93f638affc36f7a356c79f947542770c6fe1596d9186a547c7dbd519b041",
+    "intercept_sha256": "aba3c176fb17252e4abc232cfcc78398bb5e919ca13f10410a83ef49d8271948",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2827111000001423
+  },
+  {
+    "fold": 49,
+    "project_group": "22269384",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16830,
+    "vocabulary_sha256": "f024d857844f82d9cb5142eebea43e4fd0b59973852223488df2cfb807a86237",
+    "idf_sha256": "8cd33f78f587cb330106d1c84f8c34ea43c354f31376c2b40be2d8141d9218d5",
+    "coef_sha256": "9b8d9649a0aee46c28491d32a67572bb80b98327729a1e3d6c4e540b837b2da9",
+    "intercept_sha256": "87eda37ff0a1c95f68d78096faf328d6f7570f6d44e33d4b575b495c3b56b9b6",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26129760000003444
+  },
+  {
+    "fold": 50,
+    "project_group": "228855233",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21032,
+    "vocabulary_sha256": "73fae82e8d1a6b8bc278af9d5f087cd39c0f6d16d73f6526cb1262be2ab9f7cb",
+    "idf_sha256": "193a0618ff36f3af465b58734b11056c87fdca3d0330e6cc166972b268a1fe5a",
+    "coef_sha256": "432906512a3f1762b45eeb1423257613b77722e2c0665cd1ff435882e2025188",
+    "intercept_sha256": "c87b537f434209156cf88b9e508172a286d6e95b4e3d4a56fe77e24609c50fd8",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28630459999976665
+  },
+  {
+    "fold": 50,
+    "project_group": "228855233",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16736,
+    "vocabulary_sha256": "475dc77e3b965efbed8d868e132c6c9646b83d594e1c4b5711cca54e1e21e208",
+    "idf_sha256": "9e358d8d8f25bc4eaeada74bedabb76fd2908a003302e589211112548f639f93",
+    "coef_sha256": "d36512025666b1f22b8eaa70d05dc4515052fb8cd37c83f260b46adf5c34c6bb",
+    "intercept_sha256": "219054a14f1864fee0020bda3e6330c7f1a44d0f9cd162d0d38dda7196fa04d7",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2594432000000779
+  },
+  {
+    "fold": 51,
+    "project_group": "23050110",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21110,
+    "vocabulary_sha256": "726c0f6b563736f94efbd662d8e6fd8107fab9106ef8f177b4bdf3d7c85866b8",
+    "idf_sha256": "8c0ab21c7867d42b641eeda70556733f095dce508c6224e5bc1e3a4194805fee",
+    "coef_sha256": "73232d69ebce9dcda1b6f2bf9a92972b3e66cdd4bdc366cc4fd2d154a8a02401",
+    "intercept_sha256": "f6ae3f10a4c1af6504bb624f8316a0057ce836fa63502486779197cdc5ccbcc8",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.27913800000033007
+  },
+  {
+    "fold": 51,
+    "project_group": "23050110",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16816,
+    "vocabulary_sha256": "34bb41386967a889732615d4e7be3cb9cc5d17dddc67ea14ef3fcc61f7c07829",
+    "idf_sha256": "ad27ceff25208c240c75a9df44aa83502e8b5d576499b0ac9ee4e42566596a84",
+    "coef_sha256": "6151e3580cdddc6b351ef629766158d7191debb45b9ef60b0e22c0b916611185",
+    "intercept_sha256": "f7b1a3eb6e1939b885b720a167e50dddbdf1ba80752aeb6c2e573df60c9dfae5",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2508656999998493
+  },
+  {
+    "fold": 52,
+    "project_group": "232306581",
+    "condition": "original",
+    "training_documents": 960,
+    "evaluation_documents": 45,
+    "features": 20961,
+    "vocabulary_sha256": "2d22464e21a2c564bb6fad9f76dc99a43fe291a2df77eb3abbe12d4c17658caa",
+    "idf_sha256": "3c6a8d3a75eff85add8ebbaedb239260b0837f2f54561b12586d4068df82e2fd",
+    "coef_sha256": "a6112620a39b5dd453bb81ea41cbbfd5e19cc233df222fc8c5c7300646d6af5e",
+    "intercept_sha256": "333885a58481b42b516076a58da8aeafbe29bb3c53dd54948adab4d7ccd64f16",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.28358079999998154
+  },
+  {
+    "fold": 52,
+    "project_group": "232306581",
+    "condition": "masked",
+    "training_documents": 960,
+    "evaluation_documents": 45,
+    "features": 16739,
+    "vocabulary_sha256": "db7497f3c284486b871e561553d393ce1071b864976b3485a0b0cbb689f625cb",
+    "idf_sha256": "89cad12b9c023deff9211c60401e5599ca3ad3253131d26faa6356be2740b91c",
+    "coef_sha256": "efbbe5ba266631bf75198bb0a33970507e2e7bad3ea7b4a40261f927d71d7215",
+    "intercept_sha256": "5eba71b4029d5523ff0fb08ac078544c66a23df58eb549e1b465d694b40bad01",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.2492589999997108
+  },
+  {
+    "fold": 53,
+    "project_group": "23418517",
+    "condition": "original",
+    "training_documents": 999,
+    "evaluation_documents": 6,
+    "features": 20808,
+    "vocabulary_sha256": "fd796fa5f0104317adea6fad34e457bbb40e37e668f18acc60486ce6ef77256f",
+    "idf_sha256": "19438ee4425b50b60b267c8c14d261d4f6f7119c3bc2ffdd4dd9707872423f58",
+    "coef_sha256": "57432936041f22a37cc96743a0b30089673529cf5c9743f30148b0b3fa597a8e",
+    "intercept_sha256": "f82ac1d8ee4f97d24cff45a177c67ed2561735cc62d91578c61730be39d3a332",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.27795089999972333
+  },
+  {
+    "fold": 53,
+    "project_group": "23418517",
+    "condition": "masked",
+    "training_documents": 999,
+    "evaluation_documents": 6,
+    "features": 16565,
+    "vocabulary_sha256": "d94ac301b31b18010e8812c49af97a3468fdc2ae41bd6b4ccc4c1001174da2ab",
+    "idf_sha256": "ea106c54f2debbee407184c18a39fb3b876868e8934d665dedc14034273a5321",
+    "coef_sha256": "147ef8d61bd9b929d3221c53b16b35447378bfc68fde18a8f66c8a8bd7306c11",
+    "intercept_sha256": "a530c30eeed9aaaffef4335893bdb807c899c89c30e39284d82bced39a4f0cc7",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.24245559999963007
+  },
+  {
+    "fold": 54,
+    "project_group": "236462734",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21109,
+    "vocabulary_sha256": "29fa7c38418f304b795692efe556fb8c6226275ab526e1f5016c16f6eae9b379",
+    "idf_sha256": "abdc9872bed9a9824f9a58b4ffba39bf6bfe2555f35118ff3638ac78bd87e24b",
+    "coef_sha256": "c801022b859ac81e41195edc5d89459a3195658ac6550a25a44c995b821b63db",
+    "intercept_sha256": "0de68456a97ca622ad4cdcf5e935659be8669d3a0c06e51139f02c55d506ae8d",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2777043999999478
+  },
+  {
+    "fold": 54,
+    "project_group": "236462734",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16819,
+    "vocabulary_sha256": "bd4b258b1857dcdfc1da2a7e5ed5af3c67bacec22714a617f4befbaaf2cdd40e",
+    "idf_sha256": "d8c3a7a198561cbc3261e74882fa1397cff98e15d8c6bc6871b39f0cc5daf279",
+    "coef_sha256": "0432fdc88b109f1b34f113130d26571a9b0061ff70131802feb772b651442bfe",
+    "intercept_sha256": "704eb8d3a273e58dfaa50f183c18d9abaa9bddf81fc76cfeaf38fc39a4ed1129",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25035170000001017
+  },
+  {
+    "fold": 55,
+    "project_group": "2383782",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21095,
+    "vocabulary_sha256": "d62f87c30872a26f52edc8e18564e72830bd4fae25c0f40d5c283a6c1d254390",
+    "idf_sha256": "6c4f16a8378c68d01093691b81a98b29ea8e51a35b523608f031b76075a7027c",
+    "coef_sha256": "7d52bb535b2dabe7f11fa13b2e02ac0048d15ed8755a94ff9dc01f51ea439114",
+    "intercept_sha256": "7c20e0b2f6a0d3326c0efaeaffec4e7a10ce0ad6f5e79a028edce6017f869ad0",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.26792939999995724
+  },
+  {
+    "fold": 55,
+    "project_group": "2383782",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16810,
+    "vocabulary_sha256": "d0f8f0c2722c5eb8d749aa3cac204a70bd1a4eb03c67741205580d206ff80633",
+    "idf_sha256": "4bbf44cf0bfdb5e3e60d56fc4a7c335183bddbe4b28bb62dfcb9bd666107b102",
+    "coef_sha256": "fe9425f7a39967b727ef0193cf3e939f68bc183906488a48e62661fb0ca3509d",
+    "intercept_sha256": "8c84a953a3e90a38c3c291e471f8503384a06be280a47c4a9b48f20ea44dd4c6",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.23345620000009148
+  },
+  {
+    "fold": 56,
+    "project_group": "24653868",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21122,
+    "vocabulary_sha256": "18dbc2c2e9b5946924d9e61526952c9d272bfc8bc1947021c0b9473683805592",
+    "idf_sha256": "1e647a37e8f7d10e4e1f83116e8464245ecfea753900638cb672ba14dab38579",
+    "coef_sha256": "d7132b4082cb2c1e5535a3ff01d0b01c422781e85f09328517afc9473e4a1e3c",
+    "intercept_sha256": "7e4121af76d433ac9199dd4804b6b762abe80c6e0f0ba86f8a96d03e9a9b017e",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2803521999999248
+  },
+  {
+    "fold": 56,
+    "project_group": "24653868",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16828,
+    "vocabulary_sha256": "f5207858601b426d4deab8ddaef332f751d7239ad458ac18c0d48c421f2797b7",
+    "idf_sha256": "ee00e355875a6789427b6f3a1f8d765e6ac92b17dfdaa7d1eeabfe002c67b749",
+    "coef_sha256": "d15c29ba54e58b8428914f8c877b421db78f59274931c5ff77630ecbad95feaf",
+    "intercept_sha256": "50fe2f3a7704973224c97637cf5a13a647e4f219d56dcaf0c28f73a5b47282da",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2572523999997429
+  },
+  {
+    "fold": 57,
+    "project_group": "25169896",
+    "condition": "original",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 21100,
+    "vocabulary_sha256": "d05be848ca0207ab1059caf6f3795e2ca9c9f72fb69cb562861cc2aa1ddc14f5",
+    "idf_sha256": "f14c683372d8f49d7be9bdc7ea629d14cd6b4194fc0d32d567d792cf2888ea49",
+    "coef_sha256": "d719678f038b5a2496e0c1bce7610d879033d39de304b44894f1322aa62c843a",
+    "intercept_sha256": "936891db8147f22f7c81819e54e4f1d1821742a99b9fc33e046f9e58f23e5cd6",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.27724080000007234
+  },
+  {
+    "fold": 57,
+    "project_group": "25169896",
+    "condition": "masked",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 16820,
+    "vocabulary_sha256": "1473533faf452b97fdf6ca5de047a6888099c4b32dc40923f9ef8eea8845c734",
+    "idf_sha256": "0f13839c8cef9f7e5d6f1189e8b41539352360c0aa87842a0d86a5a7ce792a4c",
+    "coef_sha256": "af52748e13bbee2361514253b54fd49cec0436082c11f4e899ae2692972e8817",
+    "intercept_sha256": "31ede9839538c4e8b5cccba2fb10179f1c29bd22701ce2a9f368f2b447a7569e",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.24440340000001015
+  },
+  {
+    "fold": 58,
+    "project_group": "2524488",
+    "condition": "original",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 21050,
+    "vocabulary_sha256": "4bd097e3678f3d5506bfc2a10b9f74380b6223a3bb8b19d5e97afc416a96523f",
+    "idf_sha256": "7fdb41c3d4111ab0aeafe37f79c597f50f6920a041d4a16f53609d774e41d27c",
+    "coef_sha256": "1b7c0d4d02953e103561616a56f00d64d4c2b9e9dcacf6b11b16dee6979e9c23",
+    "intercept_sha256": "2187d1d6a6828e4d1172300a8f9b50212f026a25d938ba37fc21b3fbfe2fbf29",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.28795880000006946
+  },
+  {
+    "fold": 58,
+    "project_group": "2524488",
+    "condition": "masked",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 16762,
+    "vocabulary_sha256": "36facc4b8e0ee28a74906021e07d77177559aab8fef83450b2cff54951a35277",
+    "idf_sha256": "49d650fb547e30075850a1c1251e60416e8249cb80609d3eac529a125e5a5fef",
+    "coef_sha256": "504c22566b90983733050a179f5c6adcdf565657a09694ca716a0c4e435d5f2b",
+    "intercept_sha256": "ef884d469d2878807f534fafc50b878487e55375aad4c0e1352619bf6341c87a",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.2300522999998975
+  },
+  {
+    "fold": 59,
+    "project_group": "26125896",
+    "condition": "original",
+    "training_documents": 993,
+    "evaluation_documents": 12,
+    "features": 20969,
+    "vocabulary_sha256": "5ade0f5910780a211ae8a538964834cb46a773c771e5fefcd9b95d4837541428",
+    "idf_sha256": "627051fc83af62851ca6098b4a0fed5e38516353150ba667e0451d770aef93da",
+    "coef_sha256": "d0c43b84d1c86726fcb2fe8e124cb676d2f1cf511ef0a266ec6580865ab7ff60",
+    "intercept_sha256": "46cb641269d5c5cfa38218152172ff4514960c395afe966a69810038845a0fe9",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.27328780000016195
+  },
+  {
+    "fold": 59,
+    "project_group": "26125896",
+    "condition": "masked",
+    "training_documents": 993,
+    "evaluation_documents": 12,
+    "features": 16714,
+    "vocabulary_sha256": "973e9259a1087aa8ec45e190fd2cb8c24bdd0b81ec176affe73e92ac96e75696",
+    "idf_sha256": "a69391e5c5adfd300d3aecfeecc0337928ef77902df5869a436faa370e30e42b",
+    "coef_sha256": "89006458d813e7b7d0aeb98c11ae6b15a0cc66b61706debb7131270c70004ec3",
+    "intercept_sha256": "a6659801c102d459e3a7561cf29b9d6e7e057458939758a9ad0b8c01203b6b12",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.24157580000019152
+  },
+  {
+    "fold": 60,
+    "project_group": "2700474",
+    "condition": "original",
+    "training_documents": 982,
+    "evaluation_documents": 23,
+    "features": 20905,
+    "vocabulary_sha256": "49db558c8f529e3f7f0d98a417a3646fd05ecf54dd5bb212b6e699c27cd8cff2",
+    "idf_sha256": "42ac9b19cf5e7ec41c2827d81ab73387f70a696977fd7fd20fc8ff3e91b4977b",
+    "coef_sha256": "5a91dbaa0684288f2f14c1d2abf138d273b5c38d62e3794e091bf6cfa90b083b",
+    "intercept_sha256": "289b71d1064e8d4bd00ef9ed91c3e62561f4fa5a8c9eda99975caf97dfea617c",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.27322200000025987
+  },
+  {
+    "fold": 60,
+    "project_group": "2700474",
+    "condition": "masked",
+    "training_documents": 982,
+    "evaluation_documents": 23,
+    "features": 16721,
+    "vocabulary_sha256": "174418c9b953f74c4acdd1226a826f7d41585d156b3f0052300535306688c05a",
+    "idf_sha256": "c04ebed6bc6eade467e7552e6bde4bb5391cd58f7fd3394ff4be2342b1cd20ac",
+    "coef_sha256": "a67b3a64d37b928dd78d6be81c9b0f8bf5b51f149938743125bc362e9aec30e8",
+    "intercept_sha256": "12260d952dd67a782d7c5b2873f32e27541b2cdaf9f1e7bf9622bdd42caa9f13",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.25348669999993945
+  },
+  {
+    "fold": 61,
+    "project_group": "272672735",
+    "condition": "original",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 21079,
+    "vocabulary_sha256": "4aa3d57a4a1f2e6bbff9191fec746a0bcddab78355e1b9c3c69d8e92e333819e",
+    "idf_sha256": "18873902cbf2a96ca350553c0548bc27600692385558faecb7efa8ce3ae14b89",
+    "coef_sha256": "b22457e13313f724caa8179ed7e3e7679702ba6424ca0f4ac9b76c6ef6ca861f",
+    "intercept_sha256": "6ddd8414271e6678d295e32ed9dbacae292543089e1c5761cde40588e0e5b9ac",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29119710000031773
+  },
+  {
+    "fold": 61,
+    "project_group": "272672735",
+    "condition": "masked",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 16795,
+    "vocabulary_sha256": "09d24bcc2694304f036208d2e8f5042ab271e317645b52c2b5fadf02309c539f",
+    "idf_sha256": "f5f821d74285d3b2887d901f745d7c6ca0510018845a06a967f1923e67b6945f",
+    "coef_sha256": "b3bc254a0a5b9afc39235a5310ebb6153abb6c26a4be41be13fea419e9ac4ebd",
+    "intercept_sha256": "93678817d01eda0e13d7dc70ad094f94ba7182d93555a2e65bdab7adb75848bd",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.256358800000271
+  },
+  {
+    "fold": 62,
+    "project_group": "2740148",
+    "condition": "original",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 21058,
+    "vocabulary_sha256": "d6f562db6362af9cc72a488112f5497a9741d6d16c3f29477e4beae417658a0b",
+    "idf_sha256": "d3090c022d132124b8b979323e789c265c98d453b4e53ace6e94a8985bb110e3",
+    "coef_sha256": "07f5835cc5dc7ca30adb436955c85611749c26d474c6f926e8e4c77043457237",
+    "intercept_sha256": "6400f1e0ae9fd81336c9d3b0055d43f7b412cc13ed46ae56e588ab8fa6d6e1d2",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2859126999996988
+  },
+  {
+    "fold": 62,
+    "project_group": "2740148",
+    "condition": "masked",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 16781,
+    "vocabulary_sha256": "3400fb7c738170f1684cf7eb24ce02d2bdbec35b2576314b255a8a9cae230bbf",
+    "idf_sha256": "d97b0e6c4824f715bcd65bfd9e0c25d9f429b34c0f9cfe7f3ce92f6a042a12e6",
+    "coef_sha256": "a892b0382341b1d37acee57600b2daa3ecc1f581e91ee9b82278a32747d64e99",
+    "intercept_sha256": "f6c55ef93814ae48cb620f69fd95581f897c6d4e34e8858020b83a0ff1cd4265",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25665299999991475
+  },
+  {
+    "fold": 63,
+    "project_group": "27911088",
+    "condition": "original",
+    "training_documents": 993,
+    "evaluation_documents": 12,
+    "features": 20994,
+    "vocabulary_sha256": "a973458279fe3651b5489954daec88a5716102679acc199428361c00076df194",
+    "idf_sha256": "5b82e3cd377675080a8d6e5ed63b0e4e4191458278ffbcad818ee7c111ebb996",
+    "coef_sha256": "091295f54e1c16747d1dda318b5176f5b05b919104d8906007ed0f4fad0a6238",
+    "intercept_sha256": "38eee1541896436bebd9adbf8324e43aa91d7157c224ef8be0d6c84a64a69ade",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28351270000030127
+  },
+  {
+    "fold": 63,
+    "project_group": "27911088",
+    "condition": "masked",
+    "training_documents": 993,
+    "evaluation_documents": 12,
+    "features": 16745,
+    "vocabulary_sha256": "58649ee5dc46fabb69e53218f05b0e66ac4c5839977a9c8eb0efa06e086f4c07",
+    "idf_sha256": "a9aa91f0c3bcda081db0e203c05c273d8de425b5949d85c86cb9459cba5e730f",
+    "coef_sha256": "b0ad9a31cf49823acefdb673316c0be0ae3e30b61ac42a4a6d456e5c57aa2a8e",
+    "intercept_sha256": "36e59b1f4ecbc5c6c1f13190a7bee69f176507a0651258e0c1c1e8f1650b362a",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.26809499999990294
+  },
+  {
+    "fold": 64,
+    "project_group": "28589709",
+    "condition": "original",
+    "training_documents": 1000,
+    "evaluation_documents": 5,
+    "features": 21002,
+    "vocabulary_sha256": "d2639bf62450848abfc2eefe8c3b3a56a5cab6fb04ca34ada799e8ec124ae77e",
+    "idf_sha256": "0a5271ace5e513e751cc1198281c5714ce4b15f175773bba7852ad35893ab7bb",
+    "coef_sha256": "63025313607ce560f438fb2d469bb89233ee41e5ef365287a0823e83ccefc32f",
+    "intercept_sha256": "c366d4614240c95dbfdb2392d734657ce8539c9834d277d14b90fd51b3828422",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29050520000009783
+  },
+  {
+    "fold": 64,
+    "project_group": "28589709",
+    "condition": "masked",
+    "training_documents": 1000,
+    "evaluation_documents": 5,
+    "features": 16728,
+    "vocabulary_sha256": "ee6a76e2069efbd4327938b209cb095b6eed05a6907b438ddeaf899a4f4528a9",
+    "idf_sha256": "de514a71e80908effc50a06a43837a20651deb3af99433ed0be322e46ecfdc9a",
+    "coef_sha256": "e31f1d0230ca416c6452120a5e157e9de225a20dde02e3b33ab007dbd0122d43",
+    "intercept_sha256": "4648c435986ed7141e6c99c33defafc0061eec750d6fdb264a9ddb3c0874ad52",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.2474225999999362
+  },
+  {
+    "fold": 65,
+    "project_group": "28738447",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21116,
+    "vocabulary_sha256": "1abf9294283bdd8993d0c8d8fc30821f7685ac9962900789a15d4d0505d1fe50",
+    "idf_sha256": "4d8b6dd62a374fe36573c9c119823cf62fe801bfa77dc8b097a28cc20049df6d",
+    "coef_sha256": "7fdde2c2ced1090480b56225cef724da6b30e6ce34c136ce97b41119d84425d2",
+    "intercept_sha256": "27bb40b8604dbb1e48fde3e9eab6e597cad15a801f5117afbb5ecdee2e327830",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2872463999997308
+  },
+  {
+    "fold": 65,
+    "project_group": "28738447",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16821,
+    "vocabulary_sha256": "e4a9edb793f4e4264f8fa3cb27fdbe4ea52f8a4f713a26affcdf624352b0cb31",
+    "idf_sha256": "45dc21f9fad217ac11e13404224975b64b0b253c42cfce2e09a041c7cd1815c6",
+    "coef_sha256": "b91f378fb683e1eb7d49f5f6680eb6d63852092e2ea5593b91def3a3ef48bff4",
+    "intercept_sha256": "829eb032ce13b799608a52c5830e44ce84d7a0f75840e41529f197cb4072e69c",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25630320000027496
+  },
+  {
+    "fold": 66,
+    "project_group": "288550742",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21122,
+    "vocabulary_sha256": "68ce7827fabeaee1fc4769634668dd15aedf60ffe7a13dff119e305155fc54a9",
+    "idf_sha256": "beb5abd3dbdb2cd25990abae4151b7720d191e53ecbb52d5f6476fc7e6345b91",
+    "coef_sha256": "7311928681518f5e68e808f049f9ab29eeab841a2db0ff7164c1b9b941cb316a",
+    "intercept_sha256": "2accb6e2545eda4613e46b17e0d357de240162c7a9659048e9a7178434ab3daf",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.291134300000067
+  },
+  {
+    "fold": 66,
+    "project_group": "288550742",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16828,
+    "vocabulary_sha256": "768d97c0ca0a3f198e9ea68b7c7185423ebf3a7d418f9ed8abea793cf71964f9",
+    "idf_sha256": "7aa6e7916bd1be16685da1269605d70a0c3655f2ea6cbef8ca4e35b603e60d5b",
+    "coef_sha256": "2b3bb670029452622e5a66a9568f175208b0e27f3ef05d3b29036dcf5e6acec8",
+    "intercept_sha256": "80a8c6c8a14d9e03a0001012d5f779abf323ebc2d71d0b5ce63db67a8fe28e0c",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25734419999980673
+  },
+  {
+    "fold": 67,
+    "project_group": "291570",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21116,
+    "vocabulary_sha256": "a3837396f9789b11f6dcdfc2dd66bc32e13a5fa600185d2203e11b6fdad16832",
+    "idf_sha256": "d7ba804f70f6a19a8d50ab81485880d31d44e8be6c60690e962b962d2834d431",
+    "coef_sha256": "8e217efc32bdcae413d3c5aa90c97461562d27f26fc8860f333ba90a9c163956",
+    "intercept_sha256": "3eb874b07ca8a01062aed1b6a330eb3a073116ee0810d14f393c238c0023d475",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2837383000000955
+  },
+  {
+    "fold": 67,
+    "project_group": "291570",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16821,
+    "vocabulary_sha256": "ba7db60e1ed32883f208c7230cd301951c14e2526bd64577ec35f9bbb5e01491",
+    "idf_sha256": "ea96f358313d1f78fb89945336229fe1b722373c1617cd43120b8e7a5aa17302",
+    "coef_sha256": "4a5a3fb5a20f25aad4d172e68685d655845ec8c30c21a9a23f2f0995eabe96a6",
+    "intercept_sha256": "08b624656d8a7f340e40960c1e2c69a2850c6cb15b7fb4cd0c39d66842522cf3",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.24919359999967128
+  },
+  {
+    "fold": 68,
+    "project_group": "3038937",
+    "condition": "original",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 21090,
+    "vocabulary_sha256": "4de18ca1d670309c9ea3a3b70a27fe9a3c624587e62953be1267fda1014b63ff",
+    "idf_sha256": "1eaaaa8fea136c34d317701e0c0b00e6805d4de2f8b9329ea38c17cacc709086",
+    "coef_sha256": "760f2f73e550ce1027b6717ae0976f3cdee9766056710453e4d349aee087fcf9",
+    "intercept_sha256": "8b25c770818a1ac4bf56556b9cccebf1252aea9089d8208a9d28c90f035f1bdc",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2827433000002202
+  },
+  {
+    "fold": 68,
+    "project_group": "3038937",
+    "condition": "masked",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 16807,
+    "vocabulary_sha256": "c520220beb71834d16d128a87d6f84b7ed2156d18b31f0c295026b2afa13ca0c",
+    "idf_sha256": "349f96396b877bf3e872cc3239d5206d02151b59369e8f388ebee96883b105bd",
+    "coef_sha256": "23fef43a9a81fea541b54876cee791bf00001d688fc7dfc54fa0d4958411afbb",
+    "intercept_sha256": "b5e1e4a64876d2eb5cd4f1a78b15053568fa6757ce3674d25696e5943673d9f2",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25558219999993526
+  },
+  {
+    "fold": 69,
+    "project_group": "30449481",
+    "condition": "original",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 21102,
+    "vocabulary_sha256": "a758b0c64ef34c53fb7c7ef5cbd298ac8eba2cbfb79bb6fdb0a71837acef8737",
+    "idf_sha256": "41cfe533d9cda76817f5698184ec5495e98fbf0c32422d559f792580e68a6c24",
+    "coef_sha256": "fd91b67596b94c3bb853253e8001ce7c4228bf7464fe44c86b40b50bab11d81f",
+    "intercept_sha256": "8942a27c4b32a84cf89590019171c216226aaab15951e2089d536b61f7c1fc7a",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28280620000032286
+  },
+  {
+    "fold": 69,
+    "project_group": "30449481",
+    "condition": "masked",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 16827,
+    "vocabulary_sha256": "1caa1f690a5b5d7595b6667a5fc76c24e74cc901855cd73a737441d46e63d3cc",
+    "idf_sha256": "9f79c2c71e0e45758cc032fccab5277ebc3fe8348765af8eece2fabd0cb68dfa",
+    "coef_sha256": "c727bb0622a3136506dc6a97a42ebd0ddabac35069cc65b3d02fac9275bd0b01",
+    "intercept_sha256": "5c37e7b7acbaef4a0e56d1ffeb2bceef27957bf60834a679f961fdb9c0ea1cd5",
+    "iterations": [
+      19
+    ],
+    "seconds": 0.24054739999974117
+  },
+  {
+    "fold": 70,
+    "project_group": "307476",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21108,
+    "vocabulary_sha256": "1c0789abc27c7388748cb6bd97bc94efbc2f07f30b69d129f7974d80f59e22e1",
+    "idf_sha256": "f4eb2682fbf1d854ee4efad0e35197dd02d09118435c116f1109cccfa3e0b3a1",
+    "coef_sha256": "0910703e54213e0ce6712dceddb18e4203c2621ed9858f8e5f9273f93ea3e48e",
+    "intercept_sha256": "397b1f48e3ecd3e82b851cfd8424154228361fd0e625947536e3e6b587ef24c5",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28462119999994684
+  },
+  {
+    "fold": 70,
+    "project_group": "307476",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16815,
+    "vocabulary_sha256": "64b569ae8d7471fe0e9fdf3f7f89c7fc0229b79eae810edbbb2e5668d4379b0c",
+    "idf_sha256": "c3f8f32d005da47e57cecf01585d9d37a763d1193a46ea3c3c8c1493aa43ee45",
+    "coef_sha256": "5db643876651e25ad89d96e15b02056d3041ba7ff741a921c8b74b8bdc323908",
+    "intercept_sha256": "b7c546601ebae24b2fce5da06666023ec16ce09290ac47339494261e7bce68d4",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25447440000016286
+  },
+  {
+    "fold": 71,
+    "project_group": "31076872",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21106,
+    "vocabulary_sha256": "dccc566d44ddf671a3976b17b7e05c360c737341f7c30bfde38d0f56842d7bc2",
+    "idf_sha256": "28d675d95db30a120e26ce5ba6cd2fde847a43d884a17df7849df0f58e325665",
+    "coef_sha256": "910fcd360eed19a137d2085c3ba9d2e33b92150d2ff9b2569ea571a5acb49302",
+    "intercept_sha256": "56699200d99e944b7f7ac27c96a06fe162b9c7dce2ea9b330e89626585c07cdc",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2662750999998025
+  },
+  {
+    "fold": 71,
+    "project_group": "31076872",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16816,
+    "vocabulary_sha256": "a64a27a503287e96e05c7737808f348899a14f25eb73ae36d108d34019c4b166",
+    "idf_sha256": "2c3dd5d78b88764f365508c47148096ff497153679f15cbea713723f4c3d2f18",
+    "coef_sha256": "3e1c7195b6b7ed3605ee54786f222a77ca16db00ad837d9ef80eecfe69044632",
+    "intercept_sha256": "82e070fafdf32889a9cdceff98d72d30ebc9fd4c4172a3f0ddbcee6a35274d97",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2543180000002394
+  },
+  {
+    "fold": 72,
+    "project_group": "311530297",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21114,
+    "vocabulary_sha256": "114ec4def477351ce58d7d27f8e63eee90d566fc68932b862b9fe42f7ded394f",
+    "idf_sha256": "b8ddad347ca6794370b8f260f54e3576642b0cc78ad8dc42f114f05bbfbb0885",
+    "coef_sha256": "e4bb1690346d6eb8a32b443791e137d0db54497be8b8be49237466f10adc41ca",
+    "intercept_sha256": "171a13e3bd24634981be75861f5ad4bf47cb1504fac9d917059f178100f32b23",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2825004999999692
+  },
+  {
+    "fold": 72,
+    "project_group": "311530297",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16821,
+    "vocabulary_sha256": "0c4f6d275a239ad7088b4b686db7625fcedeb15f7c5501e0ca818ee7df3534f5",
+    "idf_sha256": "f22b202dd749ce132b6a6dc63ee002af7be9b52f6d9478ece5ba3c1b723d33c3",
+    "coef_sha256": "c516763f4a7e1998797dcd3afda2f59a542f56437703509c19b098ee9a1c945a",
+    "intercept_sha256": "06e8d29853db589ae472e52ad85f215f61979e58c51956825fe35eb8aecc1257",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25502179999966756
+  },
+  {
+    "fold": 73,
+    "project_group": "315377678",
+    "condition": "original",
+    "training_documents": 959,
+    "evaluation_documents": 46,
+    "features": 21043,
+    "vocabulary_sha256": "eddb79a612ac511e9fe30345a70bc7b4bbfda4169ce28670273c3c5814d3a7ea",
+    "idf_sha256": "1111bdf512b13e4e76f568743294a27f3b4f5a8d87f1da5b2f6963f802966ac3",
+    "coef_sha256": "0edc4b27c9cf87cf1b0aa8bcce03a063d6d9bdbb8616ca246972cc8f7f5d35c3",
+    "intercept_sha256": "3f391fe034a7b2c4dbbfe05d3a77c7b08dfd9d212933d4564e75849a17ed782e",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.2868788000000677
+  },
+  {
+    "fold": 73,
+    "project_group": "315377678",
+    "condition": "masked",
+    "training_documents": 959,
+    "evaluation_documents": 46,
+    "features": 16767,
+    "vocabulary_sha256": "9a84f9e87f7f6c879b2d1cf3204cf12cc59d89ac5d13cdf3590db4937068cd74",
+    "idf_sha256": "d216856648492c3ff6f1032073ba9e673ba9527c6a26343ea5a6ad8e5ae876bc",
+    "coef_sha256": "ab923117f325774a1638076e5c941de06ce25b85682cfa67a45bc8b14415947d",
+    "intercept_sha256": "9caa73cef8f6df507c605ba912b12c774385a231993fdef7ddfb9d6d09188f61",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.2433299999997871
+  },
+  {
+    "fold": 74,
+    "project_group": "32760696",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21105,
+    "vocabulary_sha256": "d2a37931143ca861b5b3bd8bb566425adc108d6411048e14a3d6b9f79927941e",
+    "idf_sha256": "ab1c795a7d8d2c8bc78df0a20aefb2bf5a2df35c29856ccc531771e0e57efeb0",
+    "coef_sha256": "b87179fa56c775a8d586eb7a9f3749fb0422cccdff9aef60178e1cca65d5b566",
+    "intercept_sha256": "1e0463201f5404d4abd1184dabb17df3691f6eee3a373634c212abcfe9186fab",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2847052000001895
+  },
+  {
+    "fold": 74,
+    "project_group": "32760696",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16813,
+    "vocabulary_sha256": "b9709a857bc3e53824b9b24efa04bcf06fd2c775b2f5c0fa6def0bec640936ee",
+    "idf_sha256": "e0183392fd66cbf8044b8b87c4bc87e501adb741066cac5b068e8b6493ad764e",
+    "coef_sha256": "7f7bdc508ed8b4c403bb8a2ed4e81707f72d9ff1eccb03d28b165dccb51f08ff",
+    "intercept_sha256": "92efb38f81f49d0d129a2a6adaea96afe8298443fd4bdef261ca94836fd33942",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.27245110000012573
+  },
+  {
+    "fold": 75,
+    "project_group": "3291848",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21121,
+    "vocabulary_sha256": "762fafe31431c97dd5028ae41667ff0bc12f7086dbecaad5c783dd362d7bb503",
+    "idf_sha256": "147654074d9b572eb1eb5ec9e1a27d156a02bdc6d4fa5752414446e2e28a7659",
+    "coef_sha256": "0e9306bba0ec719879b1ca8e839cfa6ea122be6a8e46f6cc34227614b02a12fd",
+    "intercept_sha256": "53b6cb51918851d60167ec18a556b023963715e72e39215838b4fc5a6b1d48af",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.3213269000002583
+  },
+  {
+    "fold": 75,
+    "project_group": "3291848",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16828,
+    "vocabulary_sha256": "407ef4c51bf92f53a1cd3c5c78565ba21fc8c0cc3a4afe9fbc096fe529d35897",
+    "idf_sha256": "869bbb3f9e3cc40abb237138b33459461bfc1358082062030ce038feaf5b979c",
+    "coef_sha256": "5d1d152ecf4450c572891c66e5a30ff232e043e492843ce913a66e8e8ef809ac",
+    "intercept_sha256": "782a4a6a1a80c12fd5459177f1ef4d896f307981b255503686c76918af24e9c4",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3119642000001477
+  },
+  {
+    "fold": 76,
+    "project_group": "3333998",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21112,
+    "vocabulary_sha256": "54a9fdb8c1029fad3f34119b6839b67d913056228707b0e48163c7d3f036e39a",
+    "idf_sha256": "cf7804cfbcc35552245a79eb464c1b8326f22c812618a16f30c880f913639ec0",
+    "coef_sha256": "c47d024c82b354029336093ed3471048c1512c43d5e1f22872662c2aade8dad0",
+    "intercept_sha256": "cc8e99fdb99bfcb6dd67936f7c16cf188d9b3979e87597bcf7f650a398b72f6c",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.30435880000004545
+  },
+  {
+    "fold": 76,
+    "project_group": "3333998",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16820,
+    "vocabulary_sha256": "1f08b5b74cc95f5ea1350e998e10a2fb912068f290f304d9e105ee35f1757845",
+    "idf_sha256": "05e5f43718c4fe31103fa40230359f39f0f12fe952923b7c141dab6bce11a6b1",
+    "coef_sha256": "d8317dd5e25d82a3bdf8883e10c07e6086473a4654bfe7e6f926637e821f6e26",
+    "intercept_sha256": "21ff23e3c7c3a2ced398b92dd76758286b49c2dded6e747e563370d70cff3892",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2639947000002394
+  },
+  {
+    "fold": 77,
+    "project_group": "339537434",
+    "condition": "original",
+    "training_documents": 954,
+    "evaluation_documents": 51,
+    "features": 20219,
+    "vocabulary_sha256": "148552b4ec1e01dc02879dc9f6658528e7c057e6c2373b3684bfbba5210ff532",
+    "idf_sha256": "1ebd12175dc2639b7d54d71d65dfeb19045930c51a0ea1a87a808a440d3c3e47",
+    "coef_sha256": "013c7d81cdd0f724a48226a65bb91ea51c04b16272204c0706cbe31e3bdcfc40",
+    "intercept_sha256": "0799fc471f416f89422a0c6b72da81bd74cec3f56e61d4837ff02aaa4ae3b4ec",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29420759999993606
+  },
+  {
+    "fold": 77,
+    "project_group": "339537434",
+    "condition": "masked",
+    "training_documents": 954,
+    "evaluation_documents": 51,
+    "features": 15932,
+    "vocabulary_sha256": "d888336be7d8d42e542c04ac0eca874c14a5c3ae56ce75a3864f94d4bd6bce47",
+    "idf_sha256": "b93e6e1bf80a1addb8a1625c0c46462af0c0fbe18713081624cc76ba07014088",
+    "coef_sha256": "406fcd8961c25a547abf11e308d626dd25b24c0ef7682960ff6fde8a83a55fb6",
+    "intercept_sha256": "c17e587907a5282a859653946a1b08f1e304fef3d7708c6816a7c382cd5a90b3",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.25283749999971405
+  },
+  {
+    "fold": 78,
+    "project_group": "347917861",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21020,
+    "vocabulary_sha256": "30b3801bb7f39c21f7cf502231fd2abfbc3e089a290d9a3ccf7bf108fcbbcf13",
+    "idf_sha256": "df082494822145000a1a79d7eb16ce743e1908a51dd7fec1efc6c721a5205158",
+    "coef_sha256": "45df3758ce387dbe34b38ac570b34ef1a0c0e1c5808631c276e707de9c926616",
+    "intercept_sha256": "b535b23d6b453e941ba102ae975ffa2b8dca8a3bb0c62544acb96c27384b99e9",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2866070000000036
+  },
+  {
+    "fold": 78,
+    "project_group": "347917861",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16726,
+    "vocabulary_sha256": "026557d828d671fb6d0e98dd3593589d5b292439d65090c02c0471ac8303baba",
+    "idf_sha256": "ea742ed71db87dbfff4292425d8daa83ec240e7995298d97ca71ddd74feb9d93",
+    "coef_sha256": "2bddbf291f6dd5339589f2f7a02189b9de472b5fd8622f4a546b2dbb50b86653",
+    "intercept_sha256": "9b9284fda63a282551dce84456a4dff1899e796ab9cc59163b3380b2489bbbda",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2588713000000098
+  },
+  {
+    "fold": 79,
+    "project_group": "3480666",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21112,
+    "vocabulary_sha256": "9d1be2067978822acaf779a34cf4e4740fff3d0077391835e0bc918e2672312c",
+    "idf_sha256": "a3f09475bb099b36cc39a77d3b72d9ea890907b6d96abd719d2b3a8fe7cdbc03",
+    "coef_sha256": "3ebd9f6e2cf4563187be96adcfd981b11dade0683e273e855229d696a2bb0a4e",
+    "intercept_sha256": "f96953a1f277c01c952f017adf3bc621fba1afdad68d275a1ebc585a5bc7a081",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28605979999974807
+  },
+  {
+    "fold": 79,
+    "project_group": "3480666",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16820,
+    "vocabulary_sha256": "97cf1ac188998a8fb303100dc9358609c2d5f166695654815ff92fe4c9457240",
+    "idf_sha256": "0efec48717134102e4abf5ee88d77099d330b9a60f1e524ce121bbe3a36f79b0",
+    "coef_sha256": "88587fa36cc71ba3f3f1ed8f8b74e409c1f6e0f28c8baaebda17f61b823394aa",
+    "intercept_sha256": "b457f5b10d397d550806bd568921683d595f9c8eeaf94d8f5cc80d26e34a1e2e",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2584440000000541
+  },
+  {
+    "fold": 80,
+    "project_group": "37173512",
+    "condition": "original",
+    "training_documents": 1000,
+    "evaluation_documents": 5,
+    "features": 21081,
+    "vocabulary_sha256": "9ff50413f6d5b2d792c4d00dac81dfe8a0b191dba88234554e4a4e95e059e23d",
+    "idf_sha256": "b17a2a9c6a487890bd66be117635568b3187dd02d93410ec0b0a8d127bf5ad6c",
+    "coef_sha256": "a4826f9d43bd1a060831ec5dc82a16c38a0ba91ccd36c3f6422aea4de09eda90",
+    "intercept_sha256": "2efb7ce1f43a30740c035e9736e0dbbb52e5407af667c5408889abadcf42d6bc",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3008912000000237
+  },
+  {
+    "fold": 80,
+    "project_group": "37173512",
+    "condition": "masked",
+    "training_documents": 1000,
+    "evaluation_documents": 5,
+    "features": 16809,
+    "vocabulary_sha256": "5aa3d8a11bdd8047579c14db7a7772a5e67c0b5b2fa52448a6d889336f0b4f04",
+    "idf_sha256": "78aea8aa036e359c6a1c3ee64a5db21b44dc43b9ba41231d6d8f06141050162f",
+    "coef_sha256": "a3694eb72b2ee63af6869d915ad076f9bfcab78da6e135176528b1d5ba8132cb",
+    "intercept_sha256": "05743994a8ebc014d11538dba64996309d0f2033b36a95ead32a23ccd29dda37",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.2401041999996778
+  },
+  {
+    "fold": 81,
+    "project_group": "377354200",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21116,
+    "vocabulary_sha256": "536da76c00a840feabb114c14876df37e7cec69ddd94f4aa1462ca7bf4d97ff1",
+    "idf_sha256": "7a3d940d2eb6a3981565b6fe401e7332fccf383339a9f54609c68524860b82f5",
+    "coef_sha256": "be31ba0faf51e26509050302ca10ba3df05981158216020949ca4fcdc6ee151d",
+    "intercept_sha256": "e6a4a78e140a4f3752bb05e20e2ad10c81d53cc14113514010a763ce0d7016e5",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2945735999996941
+  },
+  {
+    "fold": 81,
+    "project_group": "377354200",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16825,
+    "vocabulary_sha256": "78f67e9ebad41fde39e7d7bc826fd59a2dfab7f2715007adb502a95fdbb92729",
+    "idf_sha256": "f2f955d6023599f707932cc56841f208ef87d50c133e3440b75d3ffc28e7493a",
+    "coef_sha256": "1661bbb9485bf1e067c6a1df89f1d43c2772df4a1551a64fc124e3840ece436c",
+    "intercept_sha256": "127ee6e04d2390d2374cfbefaddd8ed5770b7889f804f4e3f997b0d18231e636",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2622294000002512
+  },
+  {
+    "fold": 82,
+    "project_group": "390607649",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21091,
+    "vocabulary_sha256": "14f7998005c6fb50937ad2f12e27cd259b59bc98402f65dc9138f49041937838",
+    "idf_sha256": "f4787e314aad77df83ce35de7bff79ba2a288cb182315e2c31c1ff38d483895d",
+    "coef_sha256": "3ea96f13e24db8b30549b1360bc3556f4b88c6420eb4dd893e775f166edffbc3",
+    "intercept_sha256": "7f1230e57211a1f3552e7c5e9997640dfaa47d40524bdb8db398fd0f402c40b3",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2843843000000561
+  },
+  {
+    "fold": 82,
+    "project_group": "390607649",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16807,
+    "vocabulary_sha256": "6ff1aaad39bc610390f23b3b1f85a02995dc03b706acfc2f74ce528f50fe5d1f",
+    "idf_sha256": "62dcdf18a69badc95b2238e682b634a369a49a2b6fa60bcbd3e723cba6d49e42",
+    "coef_sha256": "919e4318036fc5ce2be16e13014d9896495ff291900f184a125421587c310848",
+    "intercept_sha256": "751662b0b6e80737824a12bfc5a35eb53a56d317b9d93613bc1ee81c0e5108f8",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.255909900000006
+  },
+  {
+    "fold": 83,
+    "project_group": "400172901",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21122,
+    "vocabulary_sha256": "5e778b3e96776a19335537233d85aff63801afd43ad461219424533240fbc865",
+    "idf_sha256": "c33b54de4c52616b11b68dc63dd9fa55ed6202b259995e2a3ae0717e39c4ade4",
+    "coef_sha256": "0c8d6430937042b758afcad0310dbab64b70042dbe20c3b50475b8a92827a356",
+    "intercept_sha256": "9dca52ae7c619f390ac67d95247af6fbf39a16b8f0a5f96120c6cf8386f5e659",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28179580000005444
+  },
+  {
+    "fold": 83,
+    "project_group": "400172901",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16829,
+    "vocabulary_sha256": "380e09de0a7c7615881e8fc71efddc92fd5509f5bcae87d66f8be6f97229e052",
+    "idf_sha256": "d18933a359e39981a22a91c36040aa48940e678d14528b43c00a5cc4947f32be",
+    "coef_sha256": "bd57be421bac021433d509d359f8de9179b72804e2f88c5bf6de64c7828eb414",
+    "intercept_sha256": "3f35733cdf07942dc0ddf865842d185a9abb26e5bf032ea41c082440a7211436",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26252629999999044
+  },
+  {
+    "fold": 84,
+    "project_group": "420026145",
+    "condition": "original",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 21095,
+    "vocabulary_sha256": "f6796e4f99250ef85b093b5d26d015492a46e7f99289536b32dd5bddeefe3326",
+    "idf_sha256": "1690b69c72a7330373c876bfa64ff095dd2bba5824039af1f8682977eb974181",
+    "coef_sha256": "4a8b72a167a3e5224e71fcc067c226d086e08c199cc3e5325939a0641d522a9d",
+    "intercept_sha256": "3107bb6504ec0cb3c61caa0374c7062effd1121d8656a5543fae54d72d83d7bc",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2611093999998957
+  },
+  {
+    "fold": 84,
+    "project_group": "420026145",
+    "condition": "masked",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 16812,
+    "vocabulary_sha256": "9293416fd944c0f5eee16f215d4183fa4601a347dcff195ea4d2615cc382e7b4",
+    "idf_sha256": "a2b055d8019acd41544c2a0078cc0e8a6645af79fe4c8b1ddb1f58b17d8d8515",
+    "coef_sha256": "c60e4e60d1552f5f649145e48a9532d1e22bafc895bf83790b9edc781d74d0b2",
+    "intercept_sha256": "612844f512656f91f9288398d61e002354463035bec57387a76483f8d4d279d7",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.2531307999997807
+  },
+  {
+    "fold": 85,
+    "project_group": "420659054",
+    "condition": "original",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 21033,
+    "vocabulary_sha256": "2e6a500d3718b314bda709afcf656f732fdae6fd11a84467bc1b8c850e4bb5dc",
+    "idf_sha256": "aa2ce9e0232ec7d4c0fd51b41ba8343091147173b6f17662ed183c3202bdc3e3",
+    "coef_sha256": "425017cc5daa0324f57eb120baee322e8262f52d26fb8608d367e4ce8cb3b936",
+    "intercept_sha256": "da99e8c6bae344397b96492c62b795745ce9ba624189f30d79da66dbc84db5b2",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.27754300000015064
+  },
+  {
+    "fold": 85,
+    "project_group": "420659054",
+    "condition": "masked",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 16755,
+    "vocabulary_sha256": "affeb974aec8b5b7b5d5f825033b5b46a9ed38381879f8d2c4039b98ef183519",
+    "idf_sha256": "e2ed4954e3a9348f9092dd96ceaf1785d17e5dbbe81c2baf59f922ae0f721371",
+    "coef_sha256": "3b17f663512f5456ae20f6d702cb3dee5df2b9a2ebe426a290d5746f608a1967",
+    "intercept_sha256": "6d6008f2172c61923764649a707400ef829707188a2cc7048928aaacfa0b7065",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2593812000000071
+  },
+  {
+    "fold": 86,
+    "project_group": "42304749",
+    "condition": "original",
+    "training_documents": 997,
+    "evaluation_documents": 8,
+    "features": 21013,
+    "vocabulary_sha256": "e5ae0776d4755bb2325f56825dd53a6a7c9310127df2974e1fffa9c535e1416b",
+    "idf_sha256": "d22b3a7fb69cd18c4576310991535f7ac126fbac7ece9dae10c7e086d38016ee",
+    "coef_sha256": "fea7def3645ef64a0f980ff68c944e0b502705d718647cb0e58961d6e7771911",
+    "intercept_sha256": "3a5d8f7f81f7e6d3a703440365ecf2134365ecb39d88974720f38c57f8eb2d31",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28234310000016194
+  },
+  {
+    "fold": 86,
+    "project_group": "42304749",
+    "condition": "masked",
+    "training_documents": 997,
+    "evaluation_documents": 8,
+    "features": 16766,
+    "vocabulary_sha256": "8d58e1b218888bf575e70c92347c224f48bd818a6d28d58c548c83475a96182e",
+    "idf_sha256": "158b9123901c8d1f574ffeba72c96098d8c876b647f00648126c5193bf165e0d",
+    "coef_sha256": "0d0189145d03c0f5bf22e9d58aa609ed55e42e2ac69aeb73c109ed8e9c127ae3",
+    "intercept_sha256": "fd95bcd8f2b39497537a381be319e16c3caaacecad1626fb479131f66d3afb59",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.24730899999985922
+  },
+  {
+    "fold": 87,
+    "project_group": "42369667",
+    "condition": "original",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 21023,
+    "vocabulary_sha256": "e2159c6e05856d127091dd7927dc945173c4c9fcfa61b0c3edbe9e36cd387fe4",
+    "idf_sha256": "0e70a6fa39d0629be2abb368ec59451a93bd779e23761519bea77fda6b34a89e",
+    "coef_sha256": "6200de4d1c359e8491ccef0e571b881ea7b0d0dede441925648843c7562b7a51",
+    "intercept_sha256": "8503e62277d45578eae882e8a8f2a8009c30fc3613179a5f5695b69accf49ddf",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.275014000000283
+  },
+  {
+    "fold": 87,
+    "project_group": "42369667",
+    "condition": "masked",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 16738,
+    "vocabulary_sha256": "fb33a0b93a4629c7099fe50a8d30bcc3fa2452389e4c826067c40b5056cdc794",
+    "idf_sha256": "208bb6dbe0676e65601813096fd79b0838a8f0d3cdbb5e2f28f5be6cc5ab8bc4",
+    "coef_sha256": "2d30a350b27a7a3fc79458f54baf8ba3c03e1f8928894d71ca5d13d0bea877c0",
+    "intercept_sha256": "a438e869b04edcdeb3603611ae46a8721a6f07199d84510515a3647244e948bb",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2693659999999909
+  },
+  {
+    "fold": 88,
+    "project_group": "4544982",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21121,
+    "vocabulary_sha256": "2092f6a33e0a397864326eb7c4cbff1f9121845ce1585b716c6061d8b5b819a4",
+    "idf_sha256": "a5d36f5af9c3f8bea2853e86d3fdb75ad5047ee75670ced8eb1e76ce730d98ff",
+    "coef_sha256": "8ff83726fa06cfabe24e202390c3bcf62ab601f05a3fd1c5e5449928dfb03191",
+    "intercept_sha256": "cc1200fe1f1ad6ef5f94795c9105563247d6c794687be863d00f15719932c02e",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2801676999997653
+  },
+  {
+    "fold": 88,
+    "project_group": "4544982",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16827,
+    "vocabulary_sha256": "88904cd53e505b5d813352369c995a21d977cf54e9c6f2da95674560e8fc15b1",
+    "idf_sha256": "32604b6b586210aca4be5a3282fc5f37df5c206b9ff524172fb4d129cbb54b58",
+    "coef_sha256": "4b63dea9a2c8c64e08708c84d694946d14c094b58ebfd4cf6841fdc5fd898593",
+    "intercept_sha256": "68bb2ef08087d39c9af31ae5309a62a886886c9b7589bfc9a04ba3c722e2c544",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2726480999999694
+  },
+  {
+    "fold": 89,
+    "project_group": "4710920",
+    "condition": "original",
+    "training_documents": 996,
+    "evaluation_documents": 9,
+    "features": 20958,
+    "vocabulary_sha256": "79056d8053aa22564e8cefd7a855256a078cde91199b361b42e41e56588f2346",
+    "idf_sha256": "0dda8ae34ecd5dde951ed105670cd7e64e24005561a52dd1780a4e6d475716cb",
+    "coef_sha256": "edc2d1d95311e80ad82d17c6bf20c29f61c21cb1170fe5d1f83814734f9b9130",
+    "intercept_sha256": "bb94aa3dd2efb68c6a92fd048b78c96e7036d16a0372e74b77f6af3ecc9b6cbb",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2834144999997079
+  },
+  {
+    "fold": 89,
+    "project_group": "4710920",
+    "condition": "masked",
+    "training_documents": 996,
+    "evaluation_documents": 9,
+    "features": 16710,
+    "vocabulary_sha256": "1cd894f1442af7127da32a86bd5244d3da449f1a44f967e8032b9362475c8e0b",
+    "idf_sha256": "61e3e855d549c0b2830daf202082bb41b27d4ea654948113b741c264fcb64ca7",
+    "coef_sha256": "08523d94225885eacb309b3c66e6505c21a6501105267229f1e1ff93015e433e",
+    "intercept_sha256": "d4406f0e3804007b7d9cea39b84ee8571fcb88eba7e0b34d68e1a7519aa1a60b",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.24205929999970976
+  },
+  {
+    "fold": 90,
+    "project_group": "47973088",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 20239,
+    "vocabulary_sha256": "9e726dfdb3ac3e8e4252326f59684009efe01f3b25ff24885eca60c8b33bbcb7",
+    "idf_sha256": "df271396df72de07b71588a52a913a7a4d7cd737b39d4809647192eb6f0644e6",
+    "coef_sha256": "05f2bf0e395921257bef534afc6a1a16a43b842c170eeebfe807d9e166b611c0",
+    "intercept_sha256": "acdb6ac80569332555c3167a5eac0fc632cb6a30552b0378d9695d073014c4f2",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2824041999997462
+  },
+  {
+    "fold": 90,
+    "project_group": "47973088",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 15954,
+    "vocabulary_sha256": "924b2fc887afb7b584b61c2b34a4ec5d03c4c2f65a0da2865f340bf2e1b58d93",
+    "idf_sha256": "57b3a24abfe3105780db29a3bf92a022f53483e44ac22747c8a493ec8518f046",
+    "coef_sha256": "aed9b11b33f987cebdbd5dfff4a8aab1f72611962e2e8777b59fef5282d9baa6",
+    "intercept_sha256": "c9f30bc809be862ee8b9d6f757e6b668f33bcd022d0566b77f8a1b255d767c99",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25088770000002114
+  },
+  {
+    "fold": 91,
+    "project_group": "482425877",
+    "condition": "original",
+    "training_documents": 955,
+    "evaluation_documents": 50,
+    "features": 20504,
+    "vocabulary_sha256": "2394ea930278ce43a360a27de919ad93f908cb67a7059e3040e31eaccf644165",
+    "idf_sha256": "b9317f701b23f8fe5504548e39fc0b50e1ed146a6bfb28a66066d856bfca5601",
+    "coef_sha256": "863e6a03e7917fa92126a7ef3b881d9316b68d59493819d616578eea925cf9e5",
+    "intercept_sha256": "26714be6f768ad47ceb1312c64f6d4499f056a4a171b7428b6deccf58371ac11",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2861057999998593
+  },
+  {
+    "fold": 91,
+    "project_group": "482425877",
+    "condition": "masked",
+    "training_documents": 955,
+    "evaluation_documents": 50,
+    "features": 16453,
+    "vocabulary_sha256": "394072dee1193eb7bb8889589de52c05cdeeb2cfc3dbdfe942b1c271fae5b3bf",
+    "idf_sha256": "7750a1ebfc93264bcac7cfe2445edf71bf358d9bc4d364adebd66ac9fca976af",
+    "coef_sha256": "b257945ea4e007e199910403e1507565592ce87ef6e0b3245b5747515ac19732",
+    "intercept_sha256": "03c568c428b315051081525e659d14338cecbd541350e5f811baf555031bc8d7",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.25204870000015944
+  },
+  {
+    "fold": 92,
+    "project_group": "49876476",
+    "condition": "original",
+    "training_documents": 993,
+    "evaluation_documents": 12,
+    "features": 21004,
+    "vocabulary_sha256": "b00e389c7be231b7131c3273acd769e9b8ad8f851fa5411de21025b20dced46a",
+    "idf_sha256": "cbf7e423fe5cff388d241f39031b2dbef6334b30d5f203667aedb3bf20969aad",
+    "coef_sha256": "61026948824fc4257906024a1c09abdae99dc6f1e7059497ed3b2b4a946ba741",
+    "intercept_sha256": "074766b3f100d4aeb0f02cb317f034f02b286a1c8789e3e80adc41e3bd5df665",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2844198999996479
+  },
+  {
+    "fold": 92,
+    "project_group": "49876476",
+    "condition": "masked",
+    "training_documents": 993,
+    "evaluation_documents": 12,
+    "features": 16748,
+    "vocabulary_sha256": "4283ef1a56c36c1ee22cc8b335911fe4f3c3a83b16c130f3091aa20b477a2bdd",
+    "idf_sha256": "42f99e108bf5f3ebf43d94cbc3ca310f30ca0c40e67dc402a869aaaf31b8b2fd",
+    "coef_sha256": "bfdad6db571bd7a7d8d7605ce11dd918b1e24f1a96fe888f4cd1d53520bd303d",
+    "intercept_sha256": "8eee1a1b0674410803515802bd893f21ef8c24f76204d6b892857a2dfa208eb2",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.25473310000006677
+  },
+  {
+    "fold": 93,
+    "project_group": "4992906",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21021,
+    "vocabulary_sha256": "460c41f0be89cde791e28d3f6e952872c57fe8ed89944a3a7945a8285d099fef",
+    "idf_sha256": "4e9770f77c3a29317271db38aff4f8717255a5783fc9b86fcf9c3652b2bf7473",
+    "coef_sha256": "ad122cbc10bebede8acc2e763625b8ad234533d26eab4d880abc8fd71d44ac89",
+    "intercept_sha256": "64fb6cd9553c6b1dd3f5cfa775d35e3342df03d31538bbc378def95d5d02a2ec",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2888980000002448
+  },
+  {
+    "fold": 93,
+    "project_group": "4992906",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16719,
+    "vocabulary_sha256": "268d9cd031fdce18f20e3e225f9faf9407e543d4e510ae9fc089917fbd805f6c",
+    "idf_sha256": "fb0a417d74e1c7614d57b4771f25cd8cb94badb1b5a5b7d479df7a7b2571e3fe",
+    "coef_sha256": "ed04ef29d9579d593b4575d95b94919c62a4ab3dbe6f0e2fa66bb0b682f3a9de",
+    "intercept_sha256": "bd82cddbd15e6c625804c4702b78e2d8e15d728c6f0a22fe6a28aac1fbff9a60",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2673245999999381
+  },
+  {
+    "fold": 94,
+    "project_group": "5103785",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21114,
+    "vocabulary_sha256": "28acd869dc1b7167d850d4fef65c71c04e069172a25fd60b6be9f7a8b9a6f413",
+    "idf_sha256": "a2c6075d639cd82d6cfd984e50e378ad26b2e84980baa1e85a4a31487682e3bb",
+    "coef_sha256": "ed0d438e18d9a8f348adf55dc056b35ed8792c717d66ef94a2ffc9ec14c97b12",
+    "intercept_sha256": "2bc3d2dac3f10b4d0bb277ac5a6de9aaacdac201a2166f431a5a4fef99851170",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29588009999997666
+  },
+  {
+    "fold": 94,
+    "project_group": "5103785",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16822,
+    "vocabulary_sha256": "dfa86a124dff6abe46add49767173bb179f4f345d9c72e26b11c972e2d2037e8",
+    "idf_sha256": "10d70da3baf7bdae7525dd536c7c7947250d3a1fda5682bebd5ef958e168835a",
+    "coef_sha256": "5bb926d96f7ec67e2c3ec3c4aa6226081020770f06e31fc57967609c3103a2f3",
+    "intercept_sha256": "01e9ecc638d30ed43ffc6d6313e65c7a5d1da5ccbc1a25d07a5235ee15442d39",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26892670000006547
+  },
+  {
+    "fold": 95,
+    "project_group": "5294661",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21118,
+    "vocabulary_sha256": "028426315e683b4943231d21a8b2af27ded49322b4c2df0f9329df93cba80889",
+    "idf_sha256": "ce928e2f12a367d8c9d2674fcffca9fa0a4607f636cad091b96f999cb5836753",
+    "coef_sha256": "53582633c3b063956782ff5c8fb2e20bf4bb7aaa866037f39ea67bf39f4a6f36",
+    "intercept_sha256": "70f4206a9b6e51b7a9c641ba08773102d0ba8dd62dc2ddac11f72e6ed43cfa2d",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2855832999998711
+  },
+  {
+    "fold": 95,
+    "project_group": "5294661",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16826,
+    "vocabulary_sha256": "f1f27e23d7e7f17769adb9303411583f4cd7f70b9c8cab70c3c474c353781b5b",
+    "idf_sha256": "a7044a0bf05c3c30ef5e053c110be4cf0c5fa966e27638530bd09bf6ae51ef56",
+    "coef_sha256": "3677dbc05c8787168a027f4b2dac440fcd2e4ea7d1b39c27a2c8dab3f4b09699",
+    "intercept_sha256": "64caa618b5fad1fdbf5ad7f5d69be959d8bc2c88716576c7e8577a5ed6998ee4",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25568669999984195
+  },
+  {
+    "fold": 96,
+    "project_group": "53127403",
+    "condition": "original",
+    "training_documents": 994,
+    "evaluation_documents": 11,
+    "features": 20151,
+    "vocabulary_sha256": "1d21b4659df77eb5c86fcb22de5de8d6e7ef2cce1fa71d7d3502d95cef6cdb30",
+    "idf_sha256": "46b04a545bc856b42dbfd9332813879736b4ea6bdcd4abf4d9fa03aa712a7a34",
+    "coef_sha256": "bd5cd22e561142230b26227d17a1efc52815d5a414384f79f5fe6751887c1602",
+    "intercept_sha256": "0be2cb4ebb99a872adc02d16263d69ad0ee68c383468ab6d16be005a298e93e3",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2714851999999155
+  },
+  {
+    "fold": 96,
+    "project_group": "53127403",
+    "condition": "masked",
+    "training_documents": 994,
+    "evaluation_documents": 11,
+    "features": 15903,
+    "vocabulary_sha256": "dc5b73374bca13fd8bbbfcd5a7d5da88e9a23e8c899025393e3369a21efd2b55",
+    "idf_sha256": "b0f1a6ebb08be4a8a666b9562cd6cbadce445f535bc2b50a2e9fee2fcf6d2859",
+    "coef_sha256": "798b4cda3cb21ed9150226db9a268c37e3fabfe5aac9510b4e21703a23aef13b",
+    "intercept_sha256": "bb91a2dbf83f5ab66957031e5b115b94c6b46da981ff3448ce276a3b52dba944",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.24657589999969787
+  },
+  {
+    "fold": 97,
+    "project_group": "54120965",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21061,
+    "vocabulary_sha256": "e6ed15241b74c51dda42a14430fd1d8e2a97851a5843d7d30d6f916b0baef659",
+    "idf_sha256": "34c9e5e3ebb4df64f58acf721c861c04a2ea6ef7b50ad2e8f18f0eb5f5be7869",
+    "coef_sha256": "10cd350d3c1fa918ef5e23b836d39f8c1e656a53ebea649ac1cff700a49f3c77",
+    "intercept_sha256": "4aca0a4776a2ce402fa5040cd2d28158ab6e9088b67d4e30ea9bdf6e044e1703",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2857486000002609
+  },
+  {
+    "fold": 97,
+    "project_group": "54120965",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16762,
+    "vocabulary_sha256": "7a3ea9b912ff63e67f6d6f14840c8a850ea85efff73ffd16c7f5ee2876f5c1b2",
+    "idf_sha256": "3a89360111d264f060036de3750b11dc0f2ba9d2bf7de75480e189c6826d8c75",
+    "coef_sha256": "211e349500e15ffff95d8ad54795a9a303bf2424c5af8a0723219fcfd6631b43",
+    "intercept_sha256": "5cbd7a642f576a42d7c4a022ed5f2da94ebac4aa9badc19764ae6fb6ce49022d",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25977480000028663
+  },
+  {
+    "fold": 98,
+    "project_group": "544339452",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21106,
+    "vocabulary_sha256": "031fb677c61ab86e7c1bbb3d9801bb29777a57816dfb26fdbac59b8ee28c47f3",
+    "idf_sha256": "31e8594ddd32039719293fc2fcc6f4a0634ccaaa5f97fa14a5769029df291db6",
+    "coef_sha256": "6b13dffafa8ca24b3997ce796bc175d7ff75f4a8bcba6baab14e6db59a1951e5",
+    "intercept_sha256": "f620505e84fc05cd61a9e46da6db2b63efd5071dcdd9fbf1de505dd94c2cb87d",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2847132000001693
+  },
+  {
+    "fold": 98,
+    "project_group": "544339452",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16812,
+    "vocabulary_sha256": "3e0bd7419b873762adc5280c7e5874b12cd1071cfd16fe46262b68ebca88e9f5",
+    "idf_sha256": "abe8ff1759cb13b5023a467336aede07c67e3d80e142bce97097f3fbdc8060bc",
+    "coef_sha256": "1cee432463a75f83bb70a13d33bf9cb5b4a288492e47170202b0b6f8229e0e72",
+    "intercept_sha256": "957364b0dfc25ff28b0d660d006c1a43a8927690de7a3aad2f7642d67635f52a",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2597485000001143
+  },
+  {
+    "fold": 99,
+    "project_group": "5771666",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21114,
+    "vocabulary_sha256": "67d5d55efbd929376cbee713752e9326eafa1a3a87eb3af0342403edf010a789",
+    "idf_sha256": "a42d696cd4e92606aab9698c1de0f907c17d6273233808637381567831604bdb",
+    "coef_sha256": "6cf8c30af21b8b93497506d55a2a1678138db983f794f80e7cee019042b164d5",
+    "intercept_sha256": "a46fc7d8de47adaa6311250e0817f07012878b0411757fbf1b6845a20be412a8",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.279928800000107
+  },
+  {
+    "fold": 99,
+    "project_group": "5771666",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16824,
+    "vocabulary_sha256": "b1fe050dd3115e1f8bf5fa8e67440a7925e8115dffad8336b1fe3f87378448f4",
+    "idf_sha256": "66919f4da0bec9f0e7d1fd57044b7dfb8c213b8482f6a2063dd447cf80cbd9b0",
+    "coef_sha256": "7c1f0b272396d5a436c69d4a6015848e7a482dea2ba8453f79e759fc4b1552f5",
+    "intercept_sha256": "8ae905cc8461badac548bd837e38e59831997fdbfacbb6322a3dc9d0a44cce57",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2510752000002867
+  },
+  {
+    "fold": 100,
+    "project_group": "57942251",
+    "condition": "original",
+    "training_documents": 993,
+    "evaluation_documents": 12,
+    "features": 21059,
+    "vocabulary_sha256": "181427d2db6ca7a1101434a24ca597b38cabb59a53595f498aa676a47414e674",
+    "idf_sha256": "6a2fb5d8c35efbfe896c9a7f94afbf7871d1a12ca29b3569bf43ed8a026cb25e",
+    "coef_sha256": "a0048f73ea37a22e7d71810021954e4d549342a3f92d74cf8708fbc8de60bc12",
+    "intercept_sha256": "c3f4f562aea7c8c58c8a0b9c5385c2efe09c28053face8a82571b9f1c9d3b5f7",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29390120000016395
+  },
+  {
+    "fold": 100,
+    "project_group": "57942251",
+    "condition": "masked",
+    "training_documents": 993,
+    "evaluation_documents": 12,
+    "features": 16809,
+    "vocabulary_sha256": "0e1d16a73f840beb3ac877906c11a0021046210087d9112f27c2d78c1634b18c",
+    "idf_sha256": "a04f0d166f7f57d347dd3e0ae95242ae48e0bd362cc66d024be0e6822935947b",
+    "coef_sha256": "8caaef9d0b52e506b7e8a061e851963d28ee3469f500bec1ad0c21aff77dd81b",
+    "intercept_sha256": "8e4f980d546f78756ac9a57d6ee95994b687cf2f4808dc1f1438edcc3cbcc148",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2555582999998478
+  },
+  {
+    "fold": 101,
+    "project_group": "595553326",
+    "condition": "original",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 21086,
+    "vocabulary_sha256": "f505f21e93a485928d93949fe154c3e3bba1f410c29ae662aeb4bb8a414868a7",
+    "idf_sha256": "9cfb18a6d0bd1519c25ff85a802bba9bf65b2f951a62a89e25340c9ad665f3f9",
+    "coef_sha256": "2da652661605e29ad5a1be41ce299f46bbde982de397aa3e83b7a1373c6cb760",
+    "intercept_sha256": "32b0473d1b564d975bd98d4f75dfda6a5f47b9152d72fc2ee9b74f117fd34486",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.28734179999992193
+  },
+  {
+    "fold": 101,
+    "project_group": "595553326",
+    "condition": "masked",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 16799,
+    "vocabulary_sha256": "8a5dc56908b4e6549e057d2bc6d3fb5a3426595ebc6d92aa214fa4ae1e108346",
+    "idf_sha256": "e81463c6c1d40e105b60806e2c6b4671c97cba5c7189ad9d5cdc91de064941ac",
+    "coef_sha256": "2e3e88f81e9074beaccbb58c694ff4542b0238285afe44f10313c3b1518e7827",
+    "intercept_sha256": "d01f4db642a56a0a0239c79b11e9404b1d2859eaab5c97eb0fa1756e84c16574",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.2518325000000914
+  },
+  {
+    "fold": 102,
+    "project_group": "61282052",
+    "condition": "original",
+    "training_documents": 960,
+    "evaluation_documents": 45,
+    "features": 20167,
+    "vocabulary_sha256": "5ffa0e3a3d04e9e9e82772a264a07088c1b1197deb3e3b7b7613bc38f1423c9b",
+    "idf_sha256": "ab89993a143cf3352ce52b6369a9cbd0d226f76a36df8ef4f4dc12aa45ab4411",
+    "coef_sha256": "858e8533745a70b50006aa17a77f1c4f1cb33c6988c85a5073b0a4af64b3e4af",
+    "intercept_sha256": "d8a67a377222be12d1a227a9f08c0bedd4f74a1b01b236f452f6111d0d29003d",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.2778963000000658
+  },
+  {
+    "fold": 102,
+    "project_group": "61282052",
+    "condition": "masked",
+    "training_documents": 960,
+    "evaluation_documents": 45,
+    "features": 16018,
+    "vocabulary_sha256": "ec92824c81bc028bf03ee04ebb762f998db11cef03ea1789627b78aa7a45c39b",
+    "idf_sha256": "6ffce505e6d5ec4c33ada785482a3a5c254525b4973b9668eb18a75ae83f8df6",
+    "coef_sha256": "143250feee11fa10be95854e6b0f352c32657717d4046e80087cdc88565d76f3",
+    "intercept_sha256": "d83055e8e28c6c226768019a7789a40e2150e5d0aea5498d4f2e8f86abb0ab11",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.24016679999976986
+  },
+  {
+    "fold": 103,
+    "project_group": "62117812",
+    "condition": "original",
+    "training_documents": 1000,
+    "evaluation_documents": 5,
+    "features": 21048,
+    "vocabulary_sha256": "d59705affd5237a06215abc07a2e969cafc8b350a255088f0f95da9b61f0acfd",
+    "idf_sha256": "4020691cd1dad10c03c819628fc67c0895fc3987166a3ac4a090dbf3fdeec6e5",
+    "coef_sha256": "b1dc79d98e234cd6eec2f4434c454a9ae8de30a7316e2b8ae19d3b45ae9e127b",
+    "intercept_sha256": "0a4297806abed7005cc9caaeab2fa8d34e7fa4d993891ecfe697ea8578e40741",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28106940000043323
+  },
+  {
+    "fold": 103,
+    "project_group": "62117812",
+    "condition": "masked",
+    "training_documents": 1000,
+    "evaluation_documents": 5,
+    "features": 16768,
+    "vocabulary_sha256": "7564e80627dd798b9b2d15fa5e65d44c4abb7eeb5d58cf564ef9d92ed4527f54",
+    "idf_sha256": "facbf0b2d04ff54d0f23c32b0c039a230161353af66407dd2e27a0916ea4172c",
+    "coef_sha256": "48ed3091790f3c0c8b2bd56c3b7602d6a6743279864ed3a284dbb2f1a8d546b2",
+    "intercept_sha256": "1502a6d0bbc35d3e354aa1fa6c5289d95a41c78fd1d8a04e2f8841aaf53270ba",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.26431040000034045
+  },
+  {
+    "fold": 104,
+    "project_group": "6220644",
+    "condition": "original",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 20970,
+    "vocabulary_sha256": "0b37cfc34f7f80f95405f760a49da4b1ccb56d035786884c1dc5bff1a152d1e6",
+    "idf_sha256": "00eda8330d63af1dc8dc425eb1efb35435434ec7089390cf4508b5953ef55352",
+    "coef_sha256": "7373e7ac866b27ebdbbd71b11c18cab66e7929c2997d0964d735864f4e4935f8",
+    "intercept_sha256": "0b623d04d0ff3552864eb400eb573fad6773c9818b343764733ea38f4f6674f4",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2773782000003848
+  },
+  {
+    "fold": 104,
+    "project_group": "6220644",
+    "condition": "masked",
+    "training_documents": 1001,
+    "evaluation_documents": 4,
+    "features": 16695,
+    "vocabulary_sha256": "75e82de265eb931c173f5f52f1d18d199bc8adb5e45142e34d2186b083f70d2f",
+    "idf_sha256": "c972785dce800f6be6b7ac1b3dcd2bcc52f59a54b4c4ace529aa3427db90044f",
+    "coef_sha256": "87a6fe318702b7f4d066529e8962d16c450e0b0e2f705634c36ee8ca32ffca5d",
+    "intercept_sha256": "956f8138f3a74ed78c63456525d649e138fafccb2866ed2713949489e2471b12",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25942920000034064
+  },
+  {
+    "fold": 105,
+    "project_group": "62267978",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21107,
+    "vocabulary_sha256": "0be3d5520b028bb25e075e68357e23c18595e82046690dc07c81a3eda7092dfd",
+    "idf_sha256": "9e5074fb42fade941cd2f94c7ef37f89b453be51318d8c907fad325e283fa855",
+    "coef_sha256": "5ead3c7908d8c7b0d668e666063d2afcf734f6a930a3d822963155bea572ae47",
+    "intercept_sha256": "642683ca19456966ad10f262d95a0cebf9ff829ba6aeb9b488929ffb4ff1bf02",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28409099999998944
+  },
+  {
+    "fold": 105,
+    "project_group": "62267978",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16815,
+    "vocabulary_sha256": "58918b0c7ad06ccdad79382e2fd39209798571320362e6bcfd347b5d0238e105",
+    "idf_sha256": "baa15356e75accdba7d27200a7148a7b6e11fac9c44e5a7ed2190748aaa0b997",
+    "coef_sha256": "bd25c853bffa2b0b91feb4fb72d7f0d8d96a89416ee21698c52f6a3024dc5812",
+    "intercept_sha256": "37276c9fe335630023169b9cdce563b79a7f7922c74374a0f3d616583c9e4dc8",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2607017000000269
+  },
+  {
+    "fold": 106,
+    "project_group": "633686625",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21122,
+    "vocabulary_sha256": "5d38424891ddbe356d9ef571c44a727271632293c1ad1cc902932d04874670bc",
+    "idf_sha256": "b21cbe63aa537324c09a47c69cd5daca301769183f1e62a101958c9e08ffc037",
+    "coef_sha256": "33a676b11b0ba8a00a269086488d461f509036ec5c161f71473c2267640c9d71",
+    "intercept_sha256": "de6f4a2bdc20e2c4a929cee4a65c6677dc8acbd8a68e7a129a44f2bde3d886b0",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28573640000013256
+  },
+  {
+    "fold": 106,
+    "project_group": "633686625",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16828,
+    "vocabulary_sha256": "c1f0b8cb9c75eb753f263b51423ace26c60228b3b8c1ed3c6d8a4e0f6699866c",
+    "idf_sha256": "0acddf8eac65483371609379c7f25d13f80370a291f62a39b978e1257d5cc399",
+    "coef_sha256": "fe203dc36bb54a974fca34091c2d5437af7f316cff960f2837452a746a8196b8",
+    "intercept_sha256": "325d687288790d12c8011304cfc1cd09978452b886a40c1fae279f08872d5261",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2575682000001507
+  },
+  {
+    "fold": 107,
+    "project_group": "671825",
+    "condition": "original",
+    "training_documents": 992,
+    "evaluation_documents": 13,
+    "features": 20967,
+    "vocabulary_sha256": "7d9c66adbd08df2b31acd114dab4620d32fbecbf61b523aab20b0ffd21752c16",
+    "idf_sha256": "5c37a82ffde2be7195ca5a8dccfcb5fe5e3743e63203889e51d85001a2d5b707",
+    "coef_sha256": "9e71490a5a1ba739c3191023e427b8d42a57e53262403d316faf9cd9229d5350",
+    "intercept_sha256": "a914e83b11116f728c50f1a796bc5719742189966366cef05d929e8d401c7782",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29018790000009176
+  },
+  {
+    "fold": 107,
+    "project_group": "671825",
+    "condition": "masked",
+    "training_documents": 992,
+    "evaluation_documents": 13,
+    "features": 16730,
+    "vocabulary_sha256": "03f0da37ab26463fe6abb325b5765938d9efd8b0de821d2f9bd44ce2d879a137",
+    "idf_sha256": "4435b9996ffd134b4ba3e679e7df3ab4647db0497a1ff25fef1f4e0dfe4bd600",
+    "coef_sha256": "89502c73fe9599d115772ca9c224168411d13d70592acc0da0e31b9a24eca20c",
+    "intercept_sha256": "1601083ab181a534915de893cabfee09ea310eb40c22f97feab77b428f1941c8",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2618840000000091
+  },
+  {
+    "fold": 108,
+    "project_group": "68291529",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21118,
+    "vocabulary_sha256": "f49d26487643ae64ca90d1cf995c1bc764c999d38daabcb6a88c4eb06f1c9b94",
+    "idf_sha256": "6df069f5872b7c6b8ecf60c80f8074420286d98987a7402e08e9745cdb57a13c",
+    "coef_sha256": "a9914a6fd1ec16361797453486f7271570c721b925e5a05ec0826cebeb8bf766",
+    "intercept_sha256": "ac4e9931d14f9c510c3909e31422649f9c853a97489db79a76339b9d520b563b",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2933568999997078
+  },
+  {
+    "fold": 108,
+    "project_group": "68291529",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16823,
+    "vocabulary_sha256": "a23c2c9f6c7a79d2779d62262fe23415aa9bfde1439723b3e01dbcd33551198a",
+    "idf_sha256": "4b5fc3f0e23d66339619e156c79d65ca944ffbb9a8319362a7a8c4eca8b17883",
+    "coef_sha256": "f537242f2895607fdd04c4696f4e29daab5e088bbd7f0496ae26c031dfab4670",
+    "intercept_sha256": "78bbe514ff0ce00883c128a0bb0237276e03abe5c075d3cae22cd70bba84b9eb",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25581130000000485
+  },
+  {
+    "fold": 109,
+    "project_group": "70780002",
+    "condition": "original",
+    "training_documents": 995,
+    "evaluation_documents": 10,
+    "features": 20815,
+    "vocabulary_sha256": "92ae0f6c9ba1b34eec985abdcb27e4b75d19cf8229f15f39c69b1f68ca99181a",
+    "idf_sha256": "7a85562106352868522e4388770117a9c6588655aae216627caa541cbd443be0",
+    "coef_sha256": "7336fd6a743f3e40f77f71e39ca4f3967ca75079cb37a04e0931cfa0f2ec27ff",
+    "intercept_sha256": "e2582e72d6057b47fdb06c625e11cf8263056c1adf5d343f061efece0595099d",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.27937559999963923
+  },
+  {
+    "fold": 109,
+    "project_group": "70780002",
+    "condition": "masked",
+    "training_documents": 995,
+    "evaluation_documents": 10,
+    "features": 16559,
+    "vocabulary_sha256": "ce494cbbc61abc3015ded54524ac157c7b96b68c9a93444dafc5d6ae8974ee37",
+    "idf_sha256": "531de673fba54a10528d41af5374bac4dd42df28ee0a61b106e0b855e42943f0",
+    "coef_sha256": "81c81ab7c16d3ef828c91e299c45be86bdf70d331a029e8b8fbfc80caef0e5bd",
+    "intercept_sha256": "3b587d20a62242fbb32eefb3c1bee3811428379938d8ef7955780cdb07ff08c6",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2548471999998583
+  },
+  {
+    "fold": 110,
+    "project_group": "75164823",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21124,
+    "vocabulary_sha256": "4cd01ed859790e6e82f25c1b228a82b0bb326730fff2698e1313113c4569aa53",
+    "idf_sha256": "123ea4d77a8fe6930740ce1a92e1d29e7ed686fe956b1029309ec6b04f104365",
+    "coef_sha256": "a5acf82a7938d2b187a521f97edaaf3c5d1f3140369165721cb0a2b29b864c8e",
+    "intercept_sha256": "be00417a2c4e61f163be1cbadf815c577a1f7043380e49a1127a72561289d298",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28681619999997565
+  },
+  {
+    "fold": 110,
+    "project_group": "75164823",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16830,
+    "vocabulary_sha256": "f024d857844f82d9cb5142eebea43e4fd0b59973852223488df2cfb807a86237",
+    "idf_sha256": "0b7cb54446dfd845e00660120bd4dd9a25327a488de396ba17a2486a31ed07ed",
+    "coef_sha256": "0c5c21675521951a6fbcbb7946ac47acd414c1c9e7b7976a82776b621696c2cf",
+    "intercept_sha256": "33f5cfa065b953753dee41ee2de6d229ca5be4b1b0dc30f8946833963ea5bb5d",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26437220000025263
+  },
+  {
+    "fold": 111,
+    "project_group": "76383371",
+    "condition": "original",
+    "training_documents": 992,
+    "evaluation_documents": 13,
+    "features": 20797,
+    "vocabulary_sha256": "9c03c7389d9ddce501a552270abdfc00d8e41a22d754ccbfbbc980a988c15e80",
+    "idf_sha256": "f2eb239a917ad635e222aa5c47fff6a9b4d6db3b4f6d74cb4c15b5c2f8d1d8f6",
+    "coef_sha256": "0bc64c873992467a6980d0e6fb61a01ce308a41747c82f9d84fed6805fc98729",
+    "intercept_sha256": "03ffa38b927fde4b2e2e67cba259591f6811f17151aff54e8a964a320b35132a",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2821492000002763
+  },
+  {
+    "fold": 111,
+    "project_group": "76383371",
+    "condition": "masked",
+    "training_documents": 992,
+    "evaluation_documents": 13,
+    "features": 16552,
+    "vocabulary_sha256": "98b1752631514f0e1ff0cd280549d250aac0f6119c78013229f62b61a62fa157",
+    "idf_sha256": "1dd138fc01081d689920c28cdeab82955a239a1c651c304c9f45b70efb627bdb",
+    "coef_sha256": "474562cba2df68f95a4fad820bf5c2839bf2f41abe414eafd7fb66258d84f11a",
+    "intercept_sha256": "3ab11bfb8b59548565b60445264e933c388926de2d42352d73f9bf487835f07b",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2614699999999175
+  },
+  {
+    "fold": 112,
+    "project_group": "764708",
+    "condition": "original",
+    "training_documents": 974,
+    "evaluation_documents": 31,
+    "features": 20830,
+    "vocabulary_sha256": "17394b42f51f74dff73deaf489b046cdddc21203d0a912a36352f0970d10bf8c",
+    "idf_sha256": "2625bd42c31f99e11540bcb7d0ebec0064dd730fab6f389d303484bc9840f05c",
+    "coef_sha256": "94e3e7e1214330bb9e26c600d72dc352f97e67e96260f3fb1ab24d87dc3324c8",
+    "intercept_sha256": "4b9978f47c90c69c65eebeda97ae2119681bbdccce19be9cdd1104769619b639",
+    "iterations": [
+      16
+    ],
+    "seconds": 0.2605637999999999
+  },
+  {
+    "fold": 112,
+    "project_group": "764708",
+    "condition": "masked",
+    "training_documents": 974,
+    "evaluation_documents": 31,
+    "features": 16637,
+    "vocabulary_sha256": "20b7e341b47c608b4ee447ad5fffcffec3e0912f20e412ea500d985313c1b240",
+    "idf_sha256": "e3182c732d53065c4e8dc385def5bd7bb500faf4910c68c34c3871d1df3118a0",
+    "coef_sha256": "3361d283558da0f9af1588283395919c20f890743265cbddaef47a0fce0e15d8",
+    "intercept_sha256": "162ef01a7fc22a95e5017b46a068811e7b09b305bd89f7cf43f249de2964cc76",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.2480993000003764
+  },
+  {
+    "fold": 113,
+    "project_group": "777444",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21094,
+    "vocabulary_sha256": "4c8052c222e58db6a1b824b9bd516795d03eb9dc02d46e50585398bbcfeec090",
+    "idf_sha256": "e2f3df886f60bf9165a146a40a8e94e70b3f89ca78e690b8d74c8a7243765ecc",
+    "coef_sha256": "2840f9dd4f10146f36de1a0fb8a9980b40a96162446c2c97abb41980fe3ad11c",
+    "intercept_sha256": "5e686b9f92118f000a1db219de218cbc4992edca48a0ec5a669b680abdb6041f",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28583960000014486
+  },
+  {
+    "fold": 113,
+    "project_group": "777444",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16797,
+    "vocabulary_sha256": "a83e937fc27c9cd1d321d471e49ea8def6f0dc67e81e18bf6ff3396821c5a623",
+    "idf_sha256": "461b0a4bbde403b42d91baad6f9d5210c34d1aa94403cad1f003d21d03e3c364",
+    "coef_sha256": "cb752a0e21ef343b5626705c9049cbe7bbf1185cf9604b10c7a046e891ac21de",
+    "intercept_sha256": "3592bd4b6eaf19b213df8274ede91f72d422fe1c91255ad2deaf55864ea474c5",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25183259999994334
+  },
+  {
+    "fold": 114,
+    "project_group": "80501529",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21106,
+    "vocabulary_sha256": "198a7e1515619c79a327af59c74fd467e1d44d595addd1279415e676b3bc4cce",
+    "idf_sha256": "94714a5f3ab617c1a09255e37f754cd44f8aa3721c14885f35b15686b5121250",
+    "coef_sha256": "4de9432cf3f29d81559c957179bb70ac43f74555a22cfd91fb731c10e7b61946",
+    "intercept_sha256": "1e3ccf6713b0f858465e680103e48d66eace0f18e7452edc2002b78caeadb4bb",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.2853253999996923
+  },
+  {
+    "fold": 114,
+    "project_group": "80501529",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16805,
+    "vocabulary_sha256": "838809ec95939ab570dd4b93d4180439dd7099aaed5b567cd6444473a7b9823d",
+    "idf_sha256": "72abe9bc301622cc5f6b797ba882d7267d1cde917e8ccf4e1b9abb30a118aba8",
+    "coef_sha256": "7c29485f6f45a09d25611bdebb70fd050fcb521dad375cb249ac67b2babd1543",
+    "intercept_sha256": "deabc90f8064e60fd4bbe594bc1bac7d31ed716cb01aab9fca8c76955adf897e",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.23553290000018023
+  },
+  {
+    "fold": 115,
+    "project_group": "81226206",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21103,
+    "vocabulary_sha256": "660188e8ff1824a9006521a833f9123476d650520bdfd487ce93f09e337fc35b",
+    "idf_sha256": "3a2052b336f6c9442a3fdfe3ea58421ee2b9013d3d90878fce323defa229d327",
+    "coef_sha256": "1c8bf951522ea62e268a4beac01ecf2f91194fa0490bbc1cfe5fa8b14fd9af30",
+    "intercept_sha256": "c6928ded6b1f292a3ced2c56451a7b7d39ae7aebbf2538ecd00540561a4545a8",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2793673999999555
+  },
+  {
+    "fold": 115,
+    "project_group": "81226206",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16810,
+    "vocabulary_sha256": "85193db31d9a3dcc9a01e725657656d6457a3d834f1cb5f600dfdfd1b51d69cc",
+    "idf_sha256": "f36138ffc459d275eb902dc9452e3c3652e7f13c326059155ad14e42769e1266",
+    "coef_sha256": "f261a47be08c6bf933226fc1fb2bf2951025d047fe58100a317fd3342f58066e",
+    "intercept_sha256": "97f616e1bc5401647434653c731c24414d216f30dac0c94313e1826421406e7e",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26056119999975635
+  },
+  {
+    "fold": 116,
+    "project_group": "8205602",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21124,
+    "vocabulary_sha256": "298089ffef0b7851b8be1930c9a9977e1da2fb4d4df325ea0d8fb4a5c257d18e",
+    "idf_sha256": "fe1b907c912fca293ce9aeb87583df826946b953c0ac59896a537d21d82c0e25",
+    "coef_sha256": "a8737d67ef1b0a6e653999cb50f24977eaf06270aef3c6bf62faccefbc8aa091",
+    "intercept_sha256": "403a70018fe3ed39ba3b24751ccc22f4bf02a5b55c4e1c20d50e4ae2f39daa05",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2834530000000086
+  },
+  {
+    "fold": 116,
+    "project_group": "8205602",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16830,
+    "vocabulary_sha256": "f024d857844f82d9cb5142eebea43e4fd0b59973852223488df2cfb807a86237",
+    "idf_sha256": "7aee47c7768a9e43d64d559765fc71a276ea134467489a84c01784f162245546",
+    "coef_sha256": "7e0e9c1636fba95ad4fd684adb3b4670d6b41efaf44a1f36163c673985c4c147",
+    "intercept_sha256": "68fb21fc582a73a7f248209455db165659b5cab64c81b06c94e441d706218e3a",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2690784999999778
+  },
+  {
+    "fold": 117,
+    "project_group": "8322256",
+    "condition": "original",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 21081,
+    "vocabulary_sha256": "8aa24a942dec955f078187de8f273e4ab56548a0d1bd414f0ebdde7e68200441",
+    "idf_sha256": "5654ebe88d06290fb294d4b4a92e8cdca123a3b60e25d2078bb65cb2cf12fb23",
+    "coef_sha256": "4ffc23d5fcb84966cfb012e1a38d2444226055b8f71a3f02769acb1e5e700182",
+    "intercept_sha256": "6b5390d6127b42e7c7c87d6eebde1c2e729fe1bea18acd6e6b71a9a8ac2ad68d",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.2890482000002521
+  },
+  {
+    "fold": 117,
+    "project_group": "8322256",
+    "condition": "masked",
+    "training_documents": 1003,
+    "evaluation_documents": 2,
+    "features": 16791,
+    "vocabulary_sha256": "84d73d82a74ca3f51b1196097d041972751a6f6f1b7a4b2dd78ab15b36db8362",
+    "idf_sha256": "fd02e8a2535771747ff4a1a16e44a9f9cd9d6517a3cd06b70c2d605b219115a0",
+    "coef_sha256": "720b247d4f19daa94ce3c652e75a857d0a741dfe11701a10145b2cc3a7d71987",
+    "intercept_sha256": "e32b5433ad3da91947e39c463b3a699860ceb137de176a2bd58c91de46b4bc05",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.25422400000024936
+  },
+  {
+    "fold": 118,
+    "project_group": "8654828",
+    "condition": "original",
+    "training_documents": 918,
+    "evaluation_documents": 87,
+    "features": 20096,
+    "vocabulary_sha256": "6b232e5ce9729e6ca29c9155067582cd883aa186cf0b6370d648f9b1b02f4fca",
+    "idf_sha256": "aac7a8e1c68eace47c258ec393409a732dc63ac2ee956f0a0eb8c3b9b15a35b0",
+    "coef_sha256": "190778afbeaef15cb1f982d8315c2a17bbf36cf51449925cc1b9d6f7b304d4ef",
+    "intercept_sha256": "178a4abed4ee26b6db4f088c76d39d5200448b0d694f0199926792210086dad1",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.2811836000000767
+  },
+  {
+    "fold": 118,
+    "project_group": "8654828",
+    "condition": "masked",
+    "training_documents": 918,
+    "evaluation_documents": 87,
+    "features": 16007,
+    "vocabulary_sha256": "4cc099898eeee6edba378a178a1cff1ac328b61773d383d6f4bbcc8f5bfc22ee",
+    "idf_sha256": "dc187f1ba385d9c5a987da46fe3bca1b8f4dc21e33118318594bad02d3190a9b",
+    "coef_sha256": "da0c29a2280fb4ed1ab6e2ba3cadacb433fa9731f10a403f80008194ba295a6e",
+    "intercept_sha256": "c0aeeb8d2979523f7cd3c428ff7b91a6bb23896c3120131d6f92dcb6f39ece5f",
+    "iterations": [
+      16
+    ],
+    "seconds": 0.22864449999997305
+  },
+  {
+    "fold": 119,
+    "project_group": "88024517",
+    "condition": "original",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 21107,
+    "vocabulary_sha256": "46a489f09bd87a1486ce049f20e8a8952bccd8f1f3f98e378dc2bc28bebed872",
+    "idf_sha256": "3cada49fc98e49ff3802d863333df56e3d266d8276d086746441483790f077c4",
+    "coef_sha256": "27cf5b109f993397c28bb3502840fb5d080491bfb40891b2615ee355b1e6afa5",
+    "intercept_sha256": "667081807358780fc377981f9a3394c333dcd3b083b60e92f75ccc41ac5816d8",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2954939999999624
+  },
+  {
+    "fold": 119,
+    "project_group": "88024517",
+    "condition": "masked",
+    "training_documents": 1002,
+    "evaluation_documents": 3,
+    "features": 16821,
+    "vocabulary_sha256": "1f9eaa0f0abec41eaf4bbb518929e1d13d60daf1d55a71ee925fcacd32c5242f",
+    "idf_sha256": "dabfda953078d026d74f9adebc738f0c22fafc04f7515831677c702f32cc6ff2",
+    "coef_sha256": "0c97737e03473459677ca013f9386d80425541eeb4d6e5da7366f541865577e4",
+    "intercept_sha256": "8bd74692c6149822103e3bbe0872bafbbc28dec8b83e09d0e7d4e7d2a110abc7",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26237540000010995
+  },
+  {
+    "fold": 120,
+    "project_group": "91674936",
+    "condition": "original",
+    "training_documents": 993,
+    "evaluation_documents": 12,
+    "features": 20940,
+    "vocabulary_sha256": "dbe64efb08565e83a498d58f6ba9e25bc0e8a650253b358cda576d4b5cab746d",
+    "idf_sha256": "76909c755a2966e263f06d37abac6747cc748e42d8591f1487fb4970f22d7330",
+    "coef_sha256": "4ceb358ef61bb44e46b8396181e89ae907f08da14d8507babf6cdaa44219b30b",
+    "intercept_sha256": "f347b4bfdf888cef15e6fcbf1f61ae99320cecc1525095468036710780627f6d",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28448679999974047
+  },
+  {
+    "fold": 120,
+    "project_group": "91674936",
+    "condition": "masked",
+    "training_documents": 993,
+    "evaluation_documents": 12,
+    "features": 16713,
+    "vocabulary_sha256": "061379efdc8bd1a84a0fa799bd5981ee9508168685cd21e0aa0b57ec0154e9f8",
+    "idf_sha256": "b2a9c76b27bd1aa3864793b6ffaca2a13708fb110c5bae29f117b55422e6a497",
+    "coef_sha256": "ba7b53bccbbd15385b76fa8e30f6b8e68fba847f52375f2bbcf9ba7effda9197",
+    "intercept_sha256": "bf4a1e03eded0204906f601ea685868cff8b1b1ae0fb82afc919d01666168c77",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.26691280000022743
+  },
+  {
+    "fold": 121,
+    "project_group": "9199359",
+    "condition": "original",
+    "training_documents": 991,
+    "evaluation_documents": 14,
+    "features": 20857,
+    "vocabulary_sha256": "e29318dfe58ac153839e3a51f771bc5f391d50c0414533577871fed7fe12033f",
+    "idf_sha256": "99eddb7f943f90920eaf67edc1fd2d757b70e25b34cd5ca49af8ddb1de7bfb37",
+    "coef_sha256": "2ddf866b95b007bc1ff1a66af7f7c0b0ef07ee61e71f7bb015ab7ed50167612d",
+    "intercept_sha256": "460e229107c21565dbf93286bb72870a8c2957e69e3ceb3f4a139b79e3968fba",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2875671000001603
+  },
+  {
+    "fold": 121,
+    "project_group": "9199359",
+    "condition": "masked",
+    "training_documents": 991,
+    "evaluation_documents": 14,
+    "features": 16647,
+    "vocabulary_sha256": "a4a0ed894d67457f958f2b2003d60de392d45f1727438e8ab79c41c28c8d5ca3",
+    "idf_sha256": "f538381707cacc7d3e5ea2d6dd33a6737c4e241d4df81fa2273dd4a819da2d18",
+    "coef_sha256": "0914abcdec89b0c15448fa77f2e555e8d7e4b3129f5d67db1f30d5739e5242dc",
+    "intercept_sha256": "b23cec9ae7085a4af2b07ceb5042aa03c3cd35d2de2987818e472e026584922f",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26422839999986536
+  },
+  {
+    "fold": 122,
+    "project_group": "935336",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21121,
+    "vocabulary_sha256": "da0dceaaac782d893e59908ed78f36c04dba78cc8368d1fdc5c40269e6d7a3db",
+    "idf_sha256": "bb0353aa88324666a15a37949e06cdb90dec8550f7c27debcf59bf1c64f16553",
+    "coef_sha256": "f844e224457e6c91a66ec397456321ce46da1e1afe83617a0f648fb3ec436771",
+    "intercept_sha256": "0752b6de196b9f9cfdc84dc2ded2d15e8f4b07dc0ae3a26fed8962e709dfb06a",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.3021821000002092
+  },
+  {
+    "fold": 122,
+    "project_group": "935336",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16827,
+    "vocabulary_sha256": "ccbf1ba1aebc0afb94659ac710c588661df7c3b922848b6899e7fc3ceb1a79dd",
+    "idf_sha256": "00305b782ff1f71cbaeeea99a846299bdbb79cb238b0b5cb94c250a65a898701",
+    "coef_sha256": "6700ce22d0903f925dd5de4d26e0898ba2cd4ea2a20c9032d6b9ced2e89757dc",
+    "intercept_sha256": "c35e8dd2d1e5b203cd294adda47f06c846b6baf822cd22aba695b36fc2120f6c",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26125520000005054
+  },
+  {
+    "fold": 123,
+    "project_group": "971134",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21099,
+    "vocabulary_sha256": "a0ca03e73df435b49ec777ca853a93f36691936d928ae291446f2ec24b1058a4",
+    "idf_sha256": "02965dd0cf137b1d9f41ecb5cb7b416eaae520d1a47401d12082c07c866fb849",
+    "coef_sha256": "4a88e5aa87575f65c96eb8f5c3878ec826b5fb9689d92c224ff5ad9aa13db533",
+    "intercept_sha256": "7579dd47b664c7c0de0a6e89244a19fdb834e723e6d10fa34ae60ec056394a12",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28758590000006734
+  },
+  {
+    "fold": 123,
+    "project_group": "971134",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16805,
+    "vocabulary_sha256": "6651218dc52d297ec74663093887ca4488b6bf161e2a1774373040d133e64ba1",
+    "idf_sha256": "eaacf9b7ea23aa2b6a3b976679aa4da036a970351dcb8064d345c4cc15162845",
+    "coef_sha256": "4e21e1d78eba00057912048a9b98aa834276f668afbffd1a8129054817f96d28",
+    "intercept_sha256": "e414c9d387d5d6441c8ae9f3f1192997069500762770636ac43549517203e7a3",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2667808999999579
+  },
+  {
+    "fold": 124,
+    "project_group": "9759448",
+    "condition": "original",
+    "training_documents": 992,
+    "evaluation_documents": 13,
+    "features": 20923,
+    "vocabulary_sha256": "e309a7622dbe15c0781ad2f63ee462cf84677af707fa9522e1d1f20d02a63f8d",
+    "idf_sha256": "4e63477254caa539d16349e28ad218541466eb9feee96368188fede47a2e3c5e",
+    "coef_sha256": "14e2b563d6194ea1b5ff83113a09ccda880521fc1efeef8d9a40dc6a993df213",
+    "intercept_sha256": "19d06a6448c96d256d96cf18dbea94151856f28629d9779366f587ef0c1af1b1",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.28750550000040676
+  },
+  {
+    "fold": 124,
+    "project_group": "9759448",
+    "condition": "masked",
+    "training_documents": 992,
+    "evaluation_documents": 13,
+    "features": 16685,
+    "vocabulary_sha256": "e463027034b2f39c56177425c4e8f3ceb8fc46c9020e9a02a16928b3681f8e1a",
+    "idf_sha256": "556d8f2bfe9e347d8da10749611087bef75104561995d7e1bc6b60c947bb79be",
+    "coef_sha256": "2207984f3d8e71b3d50ec3f877c71dbd70a8f9296be9a65f4544dd2a7e1bfa3d",
+    "intercept_sha256": "12fbd4263f79f7a4ed1c52dc9d910ecfd9c20234ddc5d45bfed085051a136a12",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.25516719999995985
+  },
+  {
+    "fold": 125,
+    "project_group": "99412308",
+    "condition": "original",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 21118,
+    "vocabulary_sha256": "4a97379f02ecc41a41af6746f2ed2e3bff76a16714201d07b0a3831857649679",
+    "idf_sha256": "c88809b66d839d745a018eb4f3711cd6a371cdb96dcb750951aa9829d09f5c34",
+    "coef_sha256": "a19bd99e29b933bfdfc07d0ad8a2e6cfcd47b94b7956ae0059d4e610f8778611",
+    "intercept_sha256": "430acd3f137b0f441a419202d80534d66495bde55eb845fb060a78e93ae10745",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29409850000001825
+  },
+  {
+    "fold": 125,
+    "project_group": "99412308",
+    "condition": "masked",
+    "training_documents": 1004,
+    "evaluation_documents": 1,
+    "features": 16824,
+    "vocabulary_sha256": "c505005c86dd0b31dae7ee1e8c1047379f42908f3ef11b789ad17b68024d651c",
+    "idf_sha256": "f3933e46647eef0951004c2a46b54f9f781775ad9254c6e601f02751fe660ecb",
+    "coef_sha256": "01c2c9fa3cd8e0aed928afa267f26ac75f077c6707b0fc109b952486e4233625",
+    "intercept_sha256": "cff649dd4ac1255d6a0fcb04879787b71c5876209706ecc9bd868bd599b01e6e",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.25573290000011184
+  }
+]

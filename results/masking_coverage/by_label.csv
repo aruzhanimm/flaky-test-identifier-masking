@@ -1,0 +1,5 @@
+label,documents,changed_documents,original_lexical_tokens,affected_lexical_tokens,affected_lexical_fraction
+ID,794,749,234891,12811,0.054540190982200254
+NIO,121,121,31831,862,0.0270805189909208
+OD,126,126,24786,1783,0.0719357701928508
+TD,10,9,1352,101,0.07470414201183433
