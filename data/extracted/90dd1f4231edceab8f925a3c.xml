@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="liquibase.sqlgenerator.core.AddColumnGeneratorTest" time="0.176" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="nondexStart" value="0"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/root/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.1/surefire-booter-2.22.1.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.jar:/app/source/liquibase-core/target/test-classes:/app/source/liquibase-core/target/classes:/root/.m2/repository/org/springframework/spring-core/4.3.24.RELEASE/spring-core-4.3.24.RELEASE.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/org/springframework/spring-beans/4.3.24.RELEASE/spring-beans-4.3.24.RELEASE.jar:/root/.m2/repository/org/springframework/spring-context/4.3.24.RELEASE/spring-context-4.3.24.RELEASE.jar:/root/.m2/repository/org/springframework/spring-aop/4.3.24.RELEASE/spring-aop-4.3.24.RELEASE.jar:/root/.m2/repository/org/springframework/spring-expression/4.3.24.RELEASE/spring-expression-4.3.24.RELEASE.jar:/root/.m2/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/com/github/stefanbirkner/system-rules/1.16.0/system-rules-1.16.0.jar:/root/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/root/.m2/repository/org/apache/ant/ant/1.10.6/ant-1.10.6.jar:/root/.m2/repository/org/apache/ant/ant-launcher/1.10.6/ant-launcher-1.10.6.jar:/usr/local/openjdk-8/jre/../lib/tools.jar:/root/.m2/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar:/root/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar:/root/.m2/repository/org/codehaus/groovy/groovy-all/2.4.11/groovy-all-2.4.11.jar:/root/.m2/repository/org/spockframework/spock-core/1.1-groovy-2.4/spock-core-1.1-groovy-2.4.jar:/root/.m2/repository/org/apache/ant/ant-antunit/1.3/ant-antunit-1.3.jar:/root/.m2/repository/org/assertj/assertj-core/2.8.0/assertj-core-2.8.0.jar:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar:/root/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar:/root/.m2/repository/org/osgi/org.osgi.core/6.0.0/org.osgi.core-6.0.0.jar:/root/.m2/repository/org/hsqldb/hsqldb/2.3.5/hsqldb-2.3.5.jar:/root/.m2/repository/com/h2database/h2/1.4.196/h2-1.4.196.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-junit47/2.22.1/surefire-junit47-2.22.1.jar:/root/.m2/repository/org/apache/maven/surefire/common-junit48/2.22.1/common-junit48-2.22.1.jar:/root/.m2/repository/org/apache/maven/surefire/common-junit4/2.22.1/common-junit4-2.22.1.jar:/root/.m2/repository/org/apache/maven/surefire/common-junit3/2.22.1/common-junit3-2.22.1.jar:/root/.m2/repository/org/apache/maven/surefire/common-java5/2.22.1/common-java5-2.22.1.jar:/root/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.9/maven-shared-utils-0.9.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.1/surefire-grouper-2.22.1.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-8/jre/lib/amd64"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /app/source/liquibase-core/target/surefire 2025-11-07T19-26-20_981-jvmRun1 surefire2164494334474799246tmp surefire_13845878490942560721tmp"/>
+    <property name="test" value="liquibase.sqlgenerator.core.AddColumnGeneratorTest#testAddMultipleColumnsMySql"/>
+    <property name="surefire.test.class.path" value="/app/source/liquibase-core/target/test-classes:/app/source/liquibase-core/target/classes:/root/.m2/repository/org/springframework/spring-core/4.3.24.RELEASE/spring-core-4.3.24.RELEASE.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/org/springframework/spring-beans/4.3.24.RELEASE/spring-beans-4.3.24.RELEASE.jar:/root/.m2/repository/org/springframework/spring-context/4.3.24.RELEASE/spring-context-4.3.24.RELEASE.jar:/root/.m2/repository/org/springframework/spring-aop/4.3.24.RELEASE/spring-aop-4.3.24.RELEASE.jar:/root/.m2/repository/org/springframework/spring-expression/4.3.24.RELEASE/spring-expression-4.3.24.RELEASE.jar:/root/.m2/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/com/github/stefanbirkner/system-rules/1.16.0/system-rules-1.16.0.jar:/root/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/root/.m2/repository/org/apache/ant/ant/1.10.6/ant-1.10.6.jar:/root/.m2/repository/org/apache/ant/ant-launcher/1.10.6/ant-launcher-1.10.6.jar:/usr/local/openjdk-8/jre/../lib/tools.jar:/root/.m2/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar:/root/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar:/root/.m2/repository/org/codehaus/groovy/groovy-all/2.4.11/groovy-all-2.4.11.jar:/root/.m2/repository/org/spockframework/spock-core/1.1-groovy-2.4/spock-core-1.1-groovy-2.4.jar:/root/.m2/repository/org/apache/ant/ant-antunit/1.3/ant-antunit-1.3.jar:/root/.m2/repository/org/assertj/assertj-core/2.8.0/assertj-core-2.8.0.jar:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar:/root/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar:/root/.m2/repository/org/osgi/org.osgi.core/6.0.0/org.osgi.core-6.0.0.jar:/root/.m2/repository/org/hsqldb/hsqldb/2.3.5/hsqldb-2.3.5.jar:/root/.m2/repository/com/h2database/h2/1.4.196/h2-1.4.196.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="NK4dms7hNsJARzgaNVu7kKDQWV1LnZwXgUdNBpCTRDU="/>
+    <property name="user.home" value="/root"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/local/openjdk-8/jre"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/app/source/liquibase-core"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="sun.boot.class.path" value="/app/source/liquibase-core/.nondex/nondex-instr.jar:/root/.m2/repository/edu/illinois/nondex-common/2.1.1/nondex-common-2.1.1.jar:/root/.m2/repository/edu/illinois/nondex-annotations/2.1.1/nondex-annotations-2.1.1.jar:/usr/local/openjdk-8/jre/lib/resources.jar:/usr/local/openjdk-8/jre/lib/rt.jar:/usr/local/openjdk-8/jre/lib/sunrsasign.jar:/usr/local/openjdk-8/jre/lib/jsse.jar:/usr/local/openjdk-8/jre/lib/jce.jar:/usr/local/openjdk-8/jre/lib/charsets.jar:/usr/local/openjdk-8/jre/lib/jfr.jar:/usr/local/openjdk-8/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="java.runtime.version" value="1.8.0_342-b07"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-35-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/local/openjdk-8/jre/lib/endorsed"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/liquibase-core/.nondex"/>
+    <property name="nondexJarDir" value="/app/source/liquibase-core/.nondex"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_342"/>
+    <property name="user.dir" value="/app/source/liquibase-core"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="license.skip" value="true"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="xml.skip" value="true"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.342-b07"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.ext.dirs" value="/usr/local/openjdk-8/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="testAddMultipleColumnsMySql" classname="liquibase.sqlgenerator.core.AddColumnGeneratorTest" time="0.175">
+    <failure message="expected:&lt;[[DEFAULT, table_name, table_name.column1, table_name.column2]]&gt; but was:&lt;[[table_name.column2, table_name.column1, DEFAULT, table_name]]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[[DEFAULT, table_name, table_name.column1, table_name.column2]]&gt; but was:&lt;[[table_name.column2, table_name.column1, DEFAULT, table_name]]&gt;	at liquibase.sqlgenerator.core.AddColumnGeneratorTest.testAddMultipleColumnsMySql(AddColumnGeneratorTest.java:75)</failure>
+  </testcase>
+</testsuite>

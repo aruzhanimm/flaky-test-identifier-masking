@@ -1,0 +1,98 @@
+{
+  "container": "ormlitecore59309e27",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ormlitecore59309e27",
+    "project": "https://github.com/j256/ormlite-core",
+    "revision": "59309e51c61e8a63cb5fd24a5a7607b668a5f095",
+    "test": "com.j256.ormlite.dao.RuntimeExceptionDaoTest.testGetSelectStarRowMapperThrow",
+    "label": "OD",
+    "module": ".",
+    "zip": "ormlitecore59309e5",
+    "config_row": 832,
+    "configured_test": "com.j256.ormlite.dao.RuntimeExceptionDaoTest#testGetSelectStarRowMapperThrow",
+    "configured_type": "od",
+    "iterations": "100",
+    "test_id": "https://github.com/j256/ormlite-core::com.j256.ormlite.dao.RuntimeExceptionDaoTest.testGetSelectStarRowMapperThrow",
+    "variant_id": "https://github.com/j256/ormlite-core::com.j256.ormlite.dao.RuntimeExceptionDaoTest.testGetSelectStarRowMapperThrow::59309e51c61e8a63cb5fd24a5a7607b668a5f095::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/ormlitecore59309e27/result/Flaky/surefire-reports/reports-0/com.j256.ormlite.dao.RuntimeExceptionDaoTest.txt",
+        "size": 2115,
+        "compressed": 616,
+        "crc32": "b87c2d63",
+        "offset": 760629859,
+        "method": 8,
+        "local_path": "data/extracted/fab72d728a397843ece5f8c9.txt",
+        "sha256": "b5915fc32e4117a4c0fb890d65ae1072fdf3396eaea8d42b67d81cfb13ed31ab",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/ormlitecore59309e27/result/Flaky/surefire-reports/reports-0/com.j256.ormlite.dao.RuntimeExceptionDaoTest.txt",
+        "size": 2115,
+        "compressed": 616,
+        "crc32": "b87c2d63",
+        "offset": 760629859,
+        "method": 8,
+        "local_path": "data/extracted/fab72d728a397843ece5f8c9.txt",
+        "sha256": "b5915fc32e4117a4c0fb890d65ae1072fdf3396eaea8d42b67d81cfb13ed31ab",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 10,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ormlitecore59309e27/result/Flaky/rounds-test-results.csv",
+    "size": 1730,
+    "compressed": 173,
+    "crc32": "469ab877",
+    "offset": 760612251,
+    "method": 8,
+    "local_path": "data/extracted/1de4403fa779b11bccfebd88.csv",
+    "sha256": "4d9bc351ee5794b309e53e59ece37974f05b35a4b3ca2cf4387190b70d36ba6c",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10,
+  "iteration": 0,
+  "source_row": 1,
+  "diagnostic_member": {
+    "path": "result/ormlitecore59309e27/result/Flaky/surefire-reports/reports-0/com.j256.ormlite.dao.RuntimeExceptionDaoTest.txt",
+    "size": 2115,
+    "compressed": 616,
+    "crc32": "b87c2d63",
+    "offset": 760629859,
+    "method": 8,
+    "local_path": "data/extracted/fab72d728a397843ece5f8c9.txt",
+    "sha256": "b5915fc32e4117a4c0fb890d65ae1072fdf3396eaea8d42b67d81cfb13ed31ab",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "testGetSelectStarRowMapperThrow",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "Unexpected exception type thrown, expected: <java.lang.RuntimeException> but was: <java.lang.AssertionError>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.RuntimeException> but was: <java.lang.AssertionError>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:67)\n\tat org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:35)\n\tat org.junit.jupiter.api.Assertions.assertThrowsExactly(Assertions.java:3060)\n\tat com.j256.ormlite.dao.RuntimeExceptionDaoTest.testGetSelectStarRowMapperThrow(RuntimeExceptionDaoTest.java:1083)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\nCaused by: java.lang.AssertionError: \n  Unexpected method call LogBackend.isLevelEnabled(DEBUG):\n\tat org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:44)\n\tat org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:94)\n\tat com.sun.proxy.$Proxy10.isLevelEnabled(Unknown Source)\n\tat com.j256.ormlite.logger.BaseLogger.logIfEnabled(BaseLogger.java:86)\n\tat com.j256.ormlite.logger.Logger.log(Logger.java:702)\n\tat com.j256.ormlite.dao.RuntimeExceptionDao.logMessage(RuntimeExceptionDao.java:1204)\n\tat com.j256.ormlite.dao.RuntimeExceptionDao.getSelectStarRowMapper(RuntimeExceptionDao.java:1030)\n\tat com.j256.ormlite.dao.RuntimeExceptionDaoTest.lambda$testGetSelectStarRowMapperThrow$45(RuntimeExceptionDaoTest.java:1084)\n\tat org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:53)\n\t... 6 more",
+    "text": "org.opentest4j.AssertionFailedError\nUnexpected exception type thrown, expected: <java.lang.RuntimeException> but was: <java.lang.AssertionError>\norg.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.RuntimeException> but was: <java.lang.AssertionError>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:67)\n\tat org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:35)\n\tat org.junit.jupiter.api.Assertions.assertThrowsExactly(Assertions.java:3060)\n\tat com.j256.ormlite.dao.RuntimeExceptionDaoTest.testGetSelectStarRowMapperThrow(RuntimeExceptionDaoTest.java:1083)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\nCaused by: java.lang.AssertionError: \n  Unexpected method call LogBackend.isLevelEnabled(DEBUG):\n\tat org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:44)\n\tat org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:94)\n\tat com.sun.proxy.$Proxy10.isLevelEnabled(Unknown Source)\n\tat com.j256.ormlite.logger.BaseLogger.logIfEnabled(BaseLogger.java:86)\n\tat com.j256.ormlite.logger.Logger.log(Logger.java:702)\n\tat com.j256.ormlite.dao.RuntimeExceptionDao.logMessage(RuntimeExceptionDao.java:1204)\n\tat com.j256.ormlite.dao.RuntimeExceptionDao.getSelectStarRowMapper(RuntimeExceptionDao.java:1030)\n\tat com.j256.ormlite.dao.RuntimeExceptionDaoTest.lambda$testGetSelectStarRowMapperThrow$45(RuntimeExceptionDaoTest.java:1084)\n\tat org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:53)\n\t... 6 more",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "c2d7706f1f8da3d5c19e7978596c88e9af0c4143837e1ece80994dae16bf680c"
+}

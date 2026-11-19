@@ -1,0 +1,98 @@
+{
+  "container": "ormlitecore59309e61",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ormlitecore59309e61",
+    "project": "https://github.com/j256/ormlite-core",
+    "revision": "59309e51c61e8a63cb5fd24a5a7607b668a5f095",
+    "test": "com.j256.ormlite.db.BaseDatabaseTypeTest.testDriverNotFound",
+    "label": "OD",
+    "module": ".",
+    "zip": "ormlitecore59309e5",
+    "config_row": 866,
+    "configured_test": "com.j256.ormlite.db.BaseDatabaseTypeTest#testDriverNotFound",
+    "configured_type": "od",
+    "iterations": "100",
+    "test_id": "https://github.com/j256/ormlite-core::com.j256.ormlite.db.BaseDatabaseTypeTest.testDriverNotFound",
+    "variant_id": "https://github.com/j256/ormlite-core::com.j256.ormlite.db.BaseDatabaseTypeTest.testDriverNotFound::59309e51c61e8a63cb5fd24a5a7607b668a5f095::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/ormlitecore59309e61/result/Flaky/surefire-reports/reports-0/com.j256.ormlite.db.BaseDatabaseTypeTest.txt",
+        "size": 1215,
+        "compressed": 442,
+        "crc32": "69bdc118",
+        "offset": 2002880273,
+        "method": 8,
+        "local_path": "data/extracted/3e97f1df5ca715bfcbace7c4.txt",
+        "sha256": "2bd562ef860f412d60ee41cac185b5125c36e895aaccd73b9e4f4f372208387a",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/ormlitecore59309e61/result/Flaky/surefire-reports/reports-0/com.j256.ormlite.db.BaseDatabaseTypeTest.txt",
+        "size": 1215,
+        "compressed": 442,
+        "crc32": "69bdc118",
+        "offset": 2002880273,
+        "method": 8,
+        "local_path": "data/extracted/3e97f1df5ca715bfcbace7c4.txt",
+        "sha256": "2bd562ef860f412d60ee41cac185b5125c36e895aaccd73b9e4f4f372208387a",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 10,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ormlitecore59309e61/result/Flaky/rounds-test-results.csv",
+    "size": 1520,
+    "compressed": 164,
+    "crc32": "b3a78c79",
+    "offset": 2002864648,
+    "method": 8,
+    "local_path": "data/extracted/d11e427ee033434c73f57c18.csv",
+    "sha256": "0735821abadb0ba6523fde70a2b708cc9bd635e802224f86ff80629db71fb566",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10,
+  "iteration": 0,
+  "source_row": 1,
+  "diagnostic_member": {
+    "path": "result/ormlitecore59309e61/result/Flaky/surefire-reports/reports-0/com.j256.ormlite.db.BaseDatabaseTypeTest.txt",
+    "size": 1215,
+    "compressed": 442,
+    "crc32": "69bdc118",
+    "offset": 2002880273,
+    "method": 8,
+    "local_path": "data/extracted/3e97f1df5ca715bfcbace7c4.txt",
+    "sha256": "2bd562ef860f412d60ee41cac185b5125c36e895aaccd73b9e4f4f372208387a",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "testDriverNotFound",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "",
+    "stack_trace": "java.lang.AssertionError: \n\n  Unexpected method call LogBackend.isLevelEnabled(WARNING):\n\tat org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:44)\n\tat org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:94)\n\tat com.sun.proxy.$Proxy10.isLevelEnabled(Unknown Source)\n\tat com.j256.ormlite.logger.BaseLogger.logIfEnabled(BaseLogger.java:86)\n\tat com.j256.ormlite.logger.Logger.warn(Logger.java:354)\n\tat com.j256.ormlite.db.BaseDatabaseType.loadDriver(BaseDatabaseType.java:53)\n\tat com.j256.ormlite.db.BaseDatabaseTypeTest.testDriverNotFound(BaseDatabaseTypeTest.java:22)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError: \n\n  Unexpected method call LogBackend.isLevelEnabled(WARNING):\n\tat org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:44)\n\tat org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:94)\n\tat com.sun.proxy.$Proxy10.isLevelEnabled(Unknown Source)\n\tat com.j256.ormlite.logger.BaseLogger.logIfEnabled(BaseLogger.java:86)\n\tat com.j256.ormlite.logger.Logger.warn(Logger.java:354)\n\tat com.j256.ormlite.db.BaseDatabaseType.loadDriver(BaseDatabaseType.java:53)\n\tat com.j256.ormlite.db.BaseDatabaseTypeTest.testDriverNotFound(BaseDatabaseTypeTest.java:22)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "9032736b76a70e33d798850a7b565af22078139601ccd074f8c7c211d82f1443"
+}

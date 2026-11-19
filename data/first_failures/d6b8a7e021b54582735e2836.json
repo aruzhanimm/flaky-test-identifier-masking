@@ -1,0 +1,81 @@
+{
+  "container": "nacoscommon83855datestToJson1",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "nacoscommon83855datestToJson1",
+    "project": "https://github.com/alibaba/nacos",
+    "revision": "83855da7340e6d472f9ba0e7fc0e2bb2d7cbf55e",
+    "test": "com.alibaba.nacos.common.utils.JacksonUtilsTest.testToJson1",
+    "label": "ID",
+    "module": "common",
+    "zip": "nacos=common=83855da",
+    "config_row": 228,
+    "configured_test": "com.alibaba.nacos.common.utils.JacksonUtilsTest#testToJson1",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/nacos::com.alibaba.nacos.common.utils.JacksonUtilsTest.testToJson1",
+    "variant_id": "https://github.com/alibaba/nacos::com.alibaba.nacos.common.utils.JacksonUtilsTest.testToJson1::83855da7340e6d472f9ba0e7fc0e2bb2d7cbf55e::common",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/nacoscommon83855datestToJson1/result/Flaky/.nondex/rsIy3MxsO+Xagbq5xUYEpU2IyWqBVMFvT46Zw4NweA=/TEST-com.alibaba.nacos.common.utils.JacksonUtilsTest.xml",
+        "size": 6756,
+        "compressed": 1824,
+        "crc32": "67146fba",
+        "offset": 813982686,
+        "method": 8,
+        "local_path": "data/extracted/ad3e5d23c920b08625709cfd.xml",
+        "sha256": "955088ca46f287029064e96d6b4a2a567ba1438468b2a6768c3c4522543610e2",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/nacoscommon83855datestToJson1/result/Flaky/rounds-test-results.csv",
+    "size": 18613,
+    "compressed": 4964,
+    "crc32": "467b397e",
+    "offset": 813748661,
+    "method": 8,
+    "local_path": "data/extracted/4c6fbda8d21aa5107e83c216.csv",
+    "sha256": "55017b9672ec6c8c70f2d6698415f1bf6239aa876c0568d4d70377b7af6ad51f",
+    "status": "verified"
+  },
+  "reported_failure_rows": 90,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/nacoscommon83855datestToJson1/result/Flaky/.nondex/rsIy3MxsO+Xagbq5xUYEpU2IyWqBVMFvT46Zw4NweA=/TEST-com.alibaba.nacos.common.utils.JacksonUtilsTest.xml",
+    "size": 6756,
+    "compressed": 1824,
+    "crc32": "67146fba",
+    "offset": 813982686,
+    "method": 8,
+    "local_path": "data/extracted/ad3e5d23c920b08625709cfd.xml",
+    "sha256": "955088ca46f287029064e96d6b4a2a567ba1438468b2a6768c3c4522543610e2",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testToJson1",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<{\"a[Long\":0,\"aInteger\":1,\"aBoolean\":false]}> but was:<{\"a[Integer\":1,\"aBoolean\":false,\"aLong\":0]}>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<{\"a[Long\":0,\"aInteger\":1,\"aBoolean\":false]}> but was:<{\"a[Integer\":1,\"aBoolean\":false,\"aLong\":0]}>\n\tat com.alibaba.nacos.common.utils.JacksonUtilsTest.testToJson1(JacksonUtilsTest.java:58)",
+    "text": "org.junit.ComparisonFailure\nexpected:<{\"a[Long\":0,\"aInteger\":1,\"aBoolean\":false]}> but was:<{\"a[Integer\":1,\"aBoolean\":false,\"aLong\":0]}>\norg.junit.ComparisonFailure: expected:<{\"a[Long\":0,\"aInteger\":1,\"aBoolean\":false]}> but was:<{\"a[Integer\":1,\"aBoolean\":false,\"aLong\":0]}>\n\tat com.alibaba.nacos.common.utils.JacksonUtilsTest.testToJson1(JacksonUtilsTest.java:58)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "6a53ef8505c6b9208f14dc16b11c072977953d6058ef1725fb428462a4a99ad1"
+}

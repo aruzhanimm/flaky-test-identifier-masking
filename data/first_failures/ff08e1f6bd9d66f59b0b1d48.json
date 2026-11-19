@@ -1,0 +1,81 @@
+{
+  "container": "jacksondatabindf279b1btestAddFilterLastOneRemainsFlip",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jacksondatabindf279b1btestAddFilterLastOneRemainsFlip",
+    "project": "https://github.com/fasterxml/jackson-databind",
+    "revision": "f279b1bfda0c2254457dbe5654e898df0ad2b515",
+    "test": "com.fasterxml.jackson.databind.ser.filter.SimpleFilterProviderTest.testAddFilterLastOneRemainsFlip",
+    "label": "ID",
+    "module": ".",
+    "zip": "jackson-databind=.=f279b1b",
+    "config_row": 334,
+    "configured_test": "com.fasterxml.jackson.databind.ser.filter.SimpleFilterProviderTest#testAddFilterLastOneRemainsFlip",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/fasterxml/jackson-databind::com.fasterxml.jackson.databind.ser.filter.SimpleFilterProviderTest.testAddFilterLastOneRemainsFlip",
+    "variant_id": "https://github.com/fasterxml/jackson-databind::com.fasterxml.jackson.databind.ser.filter.SimpleFilterProviderTest.testAddFilterLastOneRemainsFlip::f279b1bfda0c2254457dbe5654e898df0ad2b515::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/jacksondatabindf279b1btestAddFilterLastOneRemainsFlip/result/Flaky/.nondex/SwnGvTltNDInSgNlQ4WsbYyKKAPymJkSwOi1JiMRow=/TEST-com.fasterxml.jackson.databind.ser.filter.SimpleFilterProviderTest.xml",
+        "size": 15800,
+        "compressed": 3021,
+        "crc32": "959093c9",
+        "offset": 1917417745,
+        "method": 8,
+        "local_path": "data/extracted/925cc79d683c49b871bb84d8.xml",
+        "sha256": "60d2e9d158295ce77f3fa7a96f2737d41acd6ef2b0279525606c23644b04188a",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jacksondatabindf279b1btestAddFilterLastOneRemainsFlip/result/Flaky/rounds-test-results.csv",
+    "size": 19930,
+    "compressed": 5034,
+    "crc32": "a815fb3c",
+    "offset": 1917231134,
+    "method": 8,
+    "local_path": "data/extracted/063267a4493284a7abb5c45e.csv",
+    "sha256": "b2e2c07ee52d7d07f7d8b33041e1fc057ccc576b574109989fcd16dbcd9e6d64",
+    "status": "verified"
+  },
+  "reported_failure_rows": 57,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/jacksondatabindf279b1btestAddFilterLastOneRemainsFlip/result/Flaky/.nondex/SwnGvTltNDInSgNlQ4WsbYyKKAPymJkSwOi1JiMRow=/TEST-com.fasterxml.jackson.databind.ser.filter.SimpleFilterProviderTest.xml",
+    "size": 15800,
+    "compressed": 3021,
+    "crc32": "959093c9",
+    "offset": 1917417745,
+    "method": 8,
+    "local_path": "data/extracted/925cc79d683c49b871bb84d8.xml",
+    "sha256": "60d2e9d158295ce77f3fa7a96f2737d41acd6ef2b0279525606c23644b04188a",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testAddFilterLastOneRemainsFlip",
+    "outcome": "failure",
+    "exception_type": "junit.framework.ComparisonFailure",
+    "message": "expected:<{\"[a\":\"1a\",\"b\":\"2b]\"}> but was:<{\"[b\":\"2b\",\"a\":\"1a]\"}>",
+    "stack_trace": "junit.framework.ComparisonFailure: expected:<{\"[a\":\"1a\",\"b\":\"2b]\"}> but was:<{\"[b\":\"2b\",\"a\":\"1a]\"}>\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\n\tat junit.framework.TestCase.assertEquals(TestCase.java:260)\n\tat com.fasterxml.jackson.databind.ser.filter.SimpleFilterProviderTest.testAddFilterLastOneRemainsFlip(SimpleFilterProviderTest.java:75)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat junit.framework.TestCase.runTest(TestCase.java:177)\n\tat junit.framework.TestCase.runBare(TestCase.java:142)\n\tat junit.framework.TestResult$1.protect(TestResult.java:122)\n\tat junit.framework.TestResult.runProtected(TestResult.java:142)\n\tat junit.framework.TestResult.run(TestResult.java:125)\n\tat junit.framework.TestCase.run(TestCase.java:130)\n\tat junit.framework.TestSuite.runTest(TestSuite.java:241)\n\tat junit.framework.TestSuite.run(TestSuite.java:236)\n\tat org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:90)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)\n\tat org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)\n\tat org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)\n\tat org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)\n\tat org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)",
+    "text": "junit.framework.ComparisonFailure\nexpected:<{\"[a\":\"1a\",\"b\":\"2b]\"}> but was:<{\"[b\":\"2b\",\"a\":\"1a]\"}>\njunit.framework.ComparisonFailure: expected:<{\"[a\":\"1a\",\"b\":\"2b]\"}> but was:<{\"[b\":\"2b\",\"a\":\"1a]\"}>\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\n\tat junit.framework.TestCase.assertEquals(TestCase.java:260)\n\tat com.fasterxml.jackson.databind.ser.filter.SimpleFilterProviderTest.testAddFilterLastOneRemainsFlip(SimpleFilterProviderTest.java:75)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat junit.framework.TestCase.runTest(TestCase.java:177)\n\tat junit.framework.TestCase.runBare(TestCase.java:142)\n\tat junit.framework.TestResult$1.protect(TestResult.java:122)\n\tat junit.framework.TestResult.runProtected(TestResult.java:142)\n\tat junit.framework.TestResult.run(TestResult.java:125)\n\tat junit.framework.TestCase.run(TestCase.java:130)\n\tat junit.framework.TestSuite.runTest(TestSuite.java:241)\n\tat junit.framework.TestSuite.run(TestSuite.java:236)\n\tat org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:90)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)\n\tat org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)\n\tat org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)\n\tat org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)\n\tat org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "b1166e758edad5a2b578a4011bb2b369d36722860a0e33d5ae0d64ba39970499"
+}

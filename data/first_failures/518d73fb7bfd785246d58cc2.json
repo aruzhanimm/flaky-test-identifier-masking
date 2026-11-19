@@ -1,0 +1,338 @@
+{
+  "container": "SCB-2731-testCookie",
+  "metadata": {
+    "source": "JIRA",
+    "container": "SCB-2731-testCookie",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "revision": "ad0b38f9de90c73526fed719fd5dba6430e653b2",
+    "test": "org.apache.servicecomb.common.rest.codec.param.TestRestClientRequestImpl.testCookie",
+    "label": "ID",
+    "module": "common/common-rest",
+    "zip": "SCB-2731",
+    "config_row": 1084,
+    "configured_test": "org.apache.servicecomb.common.rest.codec.param.TestRestClientRequestImpl#testCookie",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.common.rest.codec.param.TestRestClientRequestImpl.testCookie",
+    "variant_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.common.rest.codec.param.TestRestClientRequestImpl.testCookie::ad0b38f9de90c73526fed719fd5dba6430e653b2::common/common-rest",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 5,
+      "iteration": 4,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 7,
+      "iteration": 6,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 10,
+      "iteration": 9,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 11,
+      "iteration": 10,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 12,
+      "iteration": 11,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 14,
+      "iteration": 13,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 15,
+      "iteration": 14,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 16,
+      "iteration": 15,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 21,
+      "iteration": 20,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 22,
+      "iteration": 21,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 24,
+      "iteration": 23,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 25,
+      "iteration": 24,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 26,
+      "iteration": 25,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 27,
+      "iteration": 26,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 28,
+      "iteration": 27,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 30,
+      "iteration": 29,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 32,
+      "iteration": 31,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 33,
+      "iteration": 32,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 34,
+      "iteration": 33,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 36,
+      "iteration": 35,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 41,
+      "iteration": 40,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 42,
+      "iteration": 41,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 44,
+      "iteration": 43,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 45,
+      "iteration": 44,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 46,
+      "iteration": 45,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 47,
+      "iteration": 46,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 48,
+      "iteration": 47,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 50,
+      "iteration": 49,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 52,
+      "iteration": 51,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 53,
+      "iteration": 52,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 56,
+      "iteration": 55,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 57,
+      "iteration": 56,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 58,
+      "iteration": 57,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 59,
+      "iteration": 58,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 62,
+      "iteration": 61,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 63,
+      "iteration": 62,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 64,
+      "iteration": 63,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 67,
+      "iteration": 66,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 68,
+      "iteration": 67,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 70,
+      "iteration": 69,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 72,
+      "iteration": 71,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 74,
+      "iteration": 73,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 75,
+      "iteration": 74,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 76,
+      "iteration": 75,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 77,
+      "iteration": 76,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 78,
+      "iteration": 77,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 80,
+      "iteration": 79,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 81,
+      "iteration": 80,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 84,
+      "iteration": 83,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 87,
+      "iteration": 86,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 89,
+      "iteration": 88,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 90,
+      "iteration": 89,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 92,
+      "iteration": 91,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 93,
+      "iteration": 92,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 94,
+      "iteration": 93,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 95,
+      "iteration": 94,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 96,
+      "iteration": 95,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 98,
+      "iteration": 97,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 101,
+      "iteration": 100,
+      "status": "no_archived_report_for_iteration"
+    }
+  ],
+  "status": "no_confirmed_target_diagnostic",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/SCB-2731-testCookie/result/Flaky/rounds-test-results.csv",
+    "size": 22235,
+    "compressed": 5163,
+    "crc32": "87ca3e0e",
+    "offset": 174571899,
+    "method": 8,
+    "local_path": "data/extracted/a2d3f86e70dcbf80c8c27222.csv",
+    "sha256": "53907f23ed087311ad709a2fd18db4927e9cee0030ae49d06ec004b5298493a6",
+    "status": "verified"
+  },
+  "reported_failure_rows": 60
+}

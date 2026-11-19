@@ -1,0 +1,37 @@
+{
+  "container": "BOOKKEEPER-846",
+  "metadata": {
+    "source": "JIRA",
+    "container": "BOOKKEEPER-846",
+    "project": "https://github.com/apache/bookkeeper",
+    "revision": "da1a2fa6b19ddcdba68834147bf6afbe5bf90cbf",
+    "test": "org.apache.bookkeeper.client.TestLedgerChecker.testShouldGetTwoFrgamentsIfTwoBookiesFailedInSameEnsemble",
+    "label": "TD",
+    "module": "bookkeeper-server",
+    "zip": "BOOKKEEPER-846",
+    "config_row": 1058,
+    "configured_test": "org.apache.bookkeeper.client.TestLedgerChecker#testShouldGetTwoFrgamentsIfTwoBookiesFailedInSameEnsemble",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/bookkeeper::org.apache.bookkeeper.client.TestLedgerChecker.testShouldGetTwoFrgamentsIfTwoBookiesFailedInSameEnsemble",
+    "variant_id": "https://github.com/apache/bookkeeper::org.apache.bookkeeper.client.TestLedgerChecker.testShouldGetTwoFrgamentsIfTwoBookiesFailedInSameEnsemble::da1a2fa6b19ddcdba68834147bf6afbe5bf90cbf::bookkeeper-server",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/BOOKKEEPER-846/result/Flaky/rounds-test-results.csv",
+    "size": 21881,
+    "compressed": 778,
+    "crc32": "2c423bbe",
+    "offset": 76087219,
+    "method": 8,
+    "local_path": "data/extracted/506bc83e1392e6bfaccf28a8.csv",
+    "sha256": "02f2a08c74b4852917432fdea062a9d1f921435c927073cc0057e4927edf57ba",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

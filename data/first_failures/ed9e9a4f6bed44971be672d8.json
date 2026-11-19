@@ -1,0 +1,81 @@
+{
+  "container": "junitquickcheckcore7d23b2dproducesExpectedRandomValues",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "junitquickcheckcore7d23b2dproducesExpectedRandomValues",
+    "project": "https://github.com/pholser/junit-quickcheck",
+    "revision": "7d23b2de33c485ff5b73d7a28a4e83ba65482170",
+    "test": "com.pholser.junit.quickcheck.internal.generator.ExplicitPropertyParameterGeneratorsChosenWithEqualProbabilityTest.producesExpectedRandomValues",
+    "label": "ID",
+    "module": "core",
+    "zip": "junit-quickcheck=core=7d23b2d",
+    "config_row": 798,
+    "configured_test": "com.pholser.junit.quickcheck.internal.generator.ExplicitPropertyParameterGeneratorsChosenWithEqualProbabilityTest#producesExpectedRandomValues",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/pholser/junit-quickcheck::com.pholser.junit.quickcheck.internal.generator.ExplicitPropertyParameterGeneratorsChosenWithEqualProbabilityTest.producesExpectedRandomValues",
+    "variant_id": "https://github.com/pholser/junit-quickcheck::com.pholser.junit.quickcheck.internal.generator.ExplicitPropertyParameterGeneratorsChosenWithEqualProbabilityTest.producesExpectedRandomValues::7d23b2de33c485ff5b73d7a28a4e83ba65482170::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/junitquickcheckcore7d23b2dproducesExpectedRandomValues/result/Flaky/.nondex/bJqoYDrbsM6TcbMYMkUV1ROYcLZWPkPG3r5WwXuTHyI=/TEST-com.pholser.junit.quickcheck.internal.generator.ExplicitPropertyParameterGeneratorsChosenWithEqualProbabilityTest.xml",
+        "size": 10090,
+        "compressed": 2286,
+        "crc32": "89bac0c5",
+        "offset": 1163634742,
+        "method": 8,
+        "local_path": "data/extracted/a3e8acf9c43e1d5d478bd2b8.xml",
+        "sha256": "97dd26b91b06dd6ed0fab3cc5724c8bc3b76d72b7a2ea74654511dbca321aca6",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/junitquickcheckcore7d23b2dproducesExpectedRandomValues/result/Flaky/rounds-test-results.csv",
+    "size": 24988,
+    "compressed": 5143,
+    "crc32": "e56cd579",
+    "offset": 1163231063,
+    "method": 8,
+    "local_path": "data/extracted/8fa49a4dfe471321b23ffd23.csv",
+    "sha256": "eca06c87de779c604892092c9fcdde0018606d773a58c27580b1ffa06ffa800f",
+    "status": "verified"
+  },
+  "reported_failure_rows": 78,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/junitquickcheckcore7d23b2dproducesExpectedRandomValues/result/Flaky/.nondex/bJqoYDrbsM6TcbMYMkUV1ROYcLZWPkPG3r5WwXuTHyI=/TEST-com.pholser.junit.quickcheck.internal.generator.ExplicitPropertyParameterGeneratorsChosenWithEqualProbabilityTest.xml",
+    "size": 10090,
+    "compressed": 2286,
+    "crc32": "89bac0c5",
+    "offset": 1163634742,
+    "method": 8,
+    "local_path": "data/extracted/a3e8acf9c43e1d5d478bd2b8.xml",
+    "sha256": "97dd26b91b06dd6ed0fab3cc5724c8bc3b76d72b7a2ea74654511dbca321aca6",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "producesExpectedRandomValues",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "0'th value\nExpected: an object that is deep-equals to \"bar\"\n     but: was \"foo\"",
+    "stack_trace": "java.lang.AssertionError: \n0'th value\nExpected: an object that is deep-equals to \"bar\"\n     but: was \"foo\"",
+    "text": "java.lang.AssertionError\n0'th value\nExpected: an object that is deep-equals to \"bar\"\n     but: was \"foo\"\njava.lang.AssertionError: \n0'th value\nExpected: an object that is deep-equals to \"bar\"\n     but: was \"foo\"",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "6eb3ac17ae815e77c17a488bef6fe0d2d8a5720908aa98e70e015d89b37f9daf"
+}

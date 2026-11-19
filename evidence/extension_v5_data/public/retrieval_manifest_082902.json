@@ -1,0 +1,188 @@
+[
+  {
+    "file": "elide_5c39308_commit.json",
+    "url": "https://api.github.com/repos/yahoo/elide/commits/5c39308",
+    "retrieved_utc": "2026-11-19T08:28:58.663322+00:00",
+    "status": "reused_saved_response",
+    "bytes": 12052,
+    "sha256": "e9aff0947ca03a8f89fce6c5bb638efd6bd5b83b32312b13ff9129efc4905eec"
+  },
+  {
+    "file": "elide_80439b6_commit.json",
+    "url": "https://api.github.com/repos/yahoo/elide/commits/80439b6",
+    "retrieved_utc": "2026-11-19T08:28:58.663322+00:00",
+    "status": "reused_saved_response",
+    "bytes": 39426,
+    "sha256": "44cc7ce3ab34b2168a6d19fcbb47cac7296a3eeea4bd7ed67de0899958d78b94"
+  },
+  {
+    "file": "wildfly_ff32351_commit.json",
+    "url": "https://api.github.com/repos/wildfly/wildfly-core/commits/ff32351",
+    "retrieved_utc": "2026-11-19T08:28:58.663322+00:00",
+    "status": "reused_saved_response",
+    "bytes": 5937,
+    "sha256": "bacc97755684f9de74b87d2a14416847861bc13308f876144b3b31e6c72cad52"
+  },
+  {
+    "file": "elide_source_record.json",
+    "url": "https://zenodo.org/api/records/18634501",
+    "retrieved_utc": "2026-11-19T08:28:58.663322+00:00",
+    "status": "reused_saved_response",
+    "bytes": 30678,
+    "sha256": "4e5610c9fbd8fa6a394e9a7da2bac659f9a44ed5365f1dfd8316e3bac4ba15d2"
+  },
+  {
+    "file": "wildfly_source_record.json",
+    "url": "https://zenodo.org/api/records/18605131",
+    "retrieved_utc": "2026-11-19T08:28:58.663322+00:00",
+    "status": "reused_saved_response",
+    "bytes": 30683,
+    "sha256": "ae7d966bc8220ddf706ea7c6a80df7f6b851224276fefe8dfe5fc32564a4afa8"
+  },
+  {
+    "file": "curator_source_record.json",
+    "url": "https://zenodo.org/api/records/18474558",
+    "retrieved_utc": "2026-11-19T08:28:58.664321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 28905,
+    "sha256": "c7cef6a3e4e8fcd7956efd58d8f5116769867cc8243770ff217e0a2aeaaa1ee3"
+  },
+  {
+    "file": "idoft_pr_data.csv",
+    "url": "https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/pr-data.csv",
+    "retrieved_utc": "2026-11-19T08:28:58.664321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 1993724,
+    "sha256": "4d9a8b9a0cbb597792efe328f4bf29300de585681b77d97fdaa98c90d96f93fb"
+  },
+  {
+    "file": "ieee_flakeflagger_crossref.json",
+    "url": "https://api.crossref.org/works/10.1109/ICSE43902.2021.00140",
+    "retrieved_utc": "2026-11-19T08:28:58.664321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 9021,
+    "sha256": "46d03d4a02f884f4178a779238cff439e783e8055169496f7ab85a28f9febdbc"
+  },
+  {
+    "file": "ieee_multifactor_crossref.json",
+    "url": "https://api.crossref.org/works/10.1109/APSEC53868.2021.00041",
+    "retrieved_utc": "2026-11-19T08:28:58.664321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 7139,
+    "sha256": "46b59ad22e43a750374fe6adfc2287bb5da6c13281779f7fe786c6374bb6770d"
+  },
+  {
+    "file": "ieee_flakify_crossref.json",
+    "url": "https://api.crossref.org/works/10.1109/TSE.2022.3201209",
+    "retrieved_utc": "2026-11-19T08:28:58.664321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 10760,
+    "sha256": "6b12307078a60263c55ae8970cc1c97311f8eba144cea41083f9d97987ed940b"
+  },
+  {
+    "file": "elide_repository.json",
+    "url": "https://api.github.com/repos/yahoo/elide",
+    "retrieved_utc": "2026-11-19T08:28:58.664321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 6035,
+    "sha256": "30550a66172c3a1ad1673b7c5c7a6158a2af36f5ab27cd295bdeefefdde6197a"
+  },
+  {
+    "file": "wildfly_core_repository.json",
+    "url": "https://api.github.com/repos/wildfly/wildfly-core",
+    "retrieved_utc": "2026-11-19T08:28:58.664321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 6345,
+    "sha256": "0830ea6bf3c8919c41d9f0f4668e168178fa3d6c51a3f7f219736a62d5e19719"
+  },
+  {
+    "file": "idoft_issue1851.json",
+    "url": "https://api.github.com/repos/TestingResearchIllinois/idoft/issues/1851",
+    "retrieved_utc": "2026-11-19T08:28:58.664321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 2677,
+    "sha256": "a47fe7fe7d09e60a0cf6512a47c3abbe0febb33f3fa8c8c70058bb5ac1a3ccbc"
+  },
+  {
+    "file": "funiture_issue50.json",
+    "url": "https://api.github.com/repos/kanwangzjm/funiture/issues/50",
+    "retrieved_utc": "2026-11-19T08:28:58.664321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 3020,
+    "sha256": "54faca47330b2fbc13ac5bca7fd7ad8aa8e5fbce667a10807f4b7f964f9b44d2"
+  },
+  {
+    "file": "mtracker_pull3.json",
+    "url": "https://api.github.com/repos/eBay/mTracker/pulls/3",
+    "retrieved_utc": "2026-11-19T08:28:58.664321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 17892,
+    "sha256": "4b6e288db535eb4ae2a7aecd65c2b5029adc3781a9e8e4a9b5fb163843c64b41"
+  },
+  {
+    "file": "activiti_pull3488.json",
+    "url": "https://api.github.com/repos/Activiti/Activiti/pulls/3488",
+    "retrieved_utc": "2026-11-19T08:28:58.664321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 18688,
+    "sha256": "8aa88fad19d0d4eee7d873c9252ed9ea86cc436d876e5d926f92a4963941b3c9"
+  },
+  {
+    "file": "elide_actual43a_commit.json",
+    "url": "https://api.github.com/repos/yahoo/elide/commits/43a292e0ed6a0517851802997c7c6b9e0efb8248",
+    "retrieved_utc": "2026-11-19T08:28:58.665321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 34074,
+    "sha256": "fae18080b91c8141b8ae32f1e23a709889c67cb1269dcac8d393e68b8fa23cf2"
+  },
+  {
+    "file": "elide_actual_EntityDictionaryTest.java",
+    "url": "https://raw.githubusercontent.com/yahoo/elide/43a292e0ed6a0517851802997c7c6b9e0efb8248/elide-core/src/test/java/com/yahoo/elide/core/dictionary/EntityDictionaryTest.java",
+    "retrieved_utc": "2026-11-19T08:28:58.665321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 46067,
+    "sha256": "c0a4eaae4d7e452c6115a40e7ff11f174ba97f49d886668c229474fde03be4d7"
+  },
+  {
+    "file": "elide_actual_JsonApiTest.java",
+    "url": "https://raw.githubusercontent.com/yahoo/elide/43a292e0ed6a0517851802997c7c6b9e0efb8248/elide-core/src/test/java/com/yahoo/elide/jsonapi/JsonApiTest.java",
+    "retrieved_utc": "2026-11-19T08:28:58.665321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 31168,
+    "sha256": "662bf655daccbe29d7c84438ee0bff88de8ba741bf07fe25ce06285f54880a05"
+  },
+  {
+    "file": "wildfly_actual624_commit.json",
+    "url": "https://api.github.com/repos/wildfly/wildfly-core/commits/624b3aa22e4064b42bd171e8d7753238a1d6616c",
+    "retrieved_utc": "2026-11-19T08:28:58.665321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 8053,
+    "sha256": "2961cdd4934661325207a37b7f5e6496bd7a8379933ce78359633356c31ee48c"
+  },
+  {
+    "file": "wildfly_actual_HelpSupportTestCase.java",
+    "url": "https://raw.githubusercontent.com/wildfly/wildfly-core/624b3aa22e4064b42bd171e8d7753238a1d6616c/cli/src/test/java/org/jboss/as/cli/impl/aesh/HelpSupportTestCase.java",
+    "retrieved_utc": "2026-11-19T08:28:58.665321+00:00",
+    "status": "reused_saved_response",
+    "bytes": 5720,
+    "sha256": "d3652d0fffa2729ef475d81d1cf0c31cd0356e3ff57fdd3ef66e437ed54e471f"
+  },
+  {
+    "file": "curator_actual_a469_commit.json",
+    "url": "https://api.github.com/repos/apache/curator/commits/a469dfb229c0d42c07048d95d070703331e2c429",
+    "retrieved_utc": "2026-11-19T08:28:58.665321+00:00",
+    "error": "HTTP Error 422: Unprocessable Entity"
+  },
+  {
+    "file": "curator_actual_TestLeaderSelectorCluster.java",
+    "url": "https://raw.githubusercontent.com/apache/curator/a469dfb229c0d42c07048d95d070703331e2c429/curator-recipes/src/test/java/org/apache/curator/framework/recipes/leader/TestLeaderSelectorCluster.java",
+    "retrieved_utc": "2026-11-19T08:28:58.665896+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "curator_prefix_a469dfb_commit.json",
+    "url": "https://api.github.com/repos/apache/curator/commits/a469dfb",
+    "retrieved_utc": "2026-11-19T08:28:58.680490+00:00",
+    "error": "HTTP Error 422: Unprocessable Entity"
+  }
+]

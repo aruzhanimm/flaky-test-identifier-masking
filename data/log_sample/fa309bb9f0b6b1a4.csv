@@ -1,0 +1,10 @@
+com.j256.ormlite.misc.TransactionManagerTest.testNestedTransactions,failure,0.024,0,./target/surefire-reports/TEST-com.j256.ormlite.misc.TransactionManagerTest.xml
+com.j256.ormlite.misc.TransactionManagerTest.testNestedTransactions,failure,0.032,1,./target/surefire-reports/TEST-com.j256.ormlite.misc.TransactionManagerTest.xml
+com.j256.ormlite.misc.TransactionManagerTest.testNestedTransactions,failure,0.03,2,./target/surefire-reports/TEST-com.j256.ormlite.misc.TransactionManagerTest.xml
+com.j256.ormlite.misc.TransactionManagerTest.testNestedTransactions,failure,0.034,3,./target/surefire-reports/TEST-com.j256.ormlite.misc.TransactionManagerTest.xml
+com.j256.ormlite.misc.TransactionManagerTest.testNestedTransactions,failure,0.031,4,./target/surefire-reports/TEST-com.j256.ormlite.misc.TransactionManagerTest.xml
+com.j256.ormlite.misc.TransactionManagerTest.testNestedTransactions,failure,0.027,5,./target/surefire-reports/TEST-com.j256.ormlite.misc.TransactionManagerTest.xml
+com.j256.ormlite.misc.TransactionManagerTest.testNestedTransactions,failure,0.037,6,./target/surefire-reports/TEST-com.j256.ormlite.misc.TransactionManagerTest.xml
+com.j256.ormlite.misc.TransactionManagerTest.testNestedTransactions,failure,0.03,7,./target/surefire-reports/TEST-com.j256.ormlite.misc.TransactionManagerTest.xml
+com.j256.ormlite.misc.TransactionManagerTest.testNestedTransactions,failure,0.027,8,./target/surefire-reports/TEST-com.j256.ormlite.misc.TransactionManagerTest.xml
+com.j256.ormlite.misc.TransactionManagerTest.testNestedTransactions,failure,0.038,9,./target/surefire-reports/TEST-com.j256.ormlite.misc.TransactionManagerTest.xml

@@ -1,0 +1,81 @@
+{
+  "container": "biojavabiojavastructure65ad15ftestGetProteinSequenceForStructure",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "biojavabiojavastructure65ad15ftestGetProteinSequenceForStructure",
+    "project": "https://github.com/biojava/biojava",
+    "revision": "65ad15fe58dcedd258fee1c14505e424c8536efc",
+    "test": "org.biojava.nbio.structure.io.StructureSequenceMatcherTest.testGetProteinSequenceForStructure",
+    "label": "ID",
+    "module": "biojava-structure",
+    "zip": "biojava=biojava-structure=65ad15f",
+    "config_row": 573,
+    "configured_test": "org.biojava.nbio.structure.io.StructureSequenceMatcherTest#testGetProteinSequenceForStructure",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.io.StructureSequenceMatcherTest.testGetProteinSequenceForStructure",
+    "variant_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.io.StructureSequenceMatcherTest.testGetProteinSequenceForStructure::65ad15fe58dcedd258fee1c14505e424c8536efc::biojava-structure",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/biojavabiojavastructure65ad15ftestGetProteinSequenceForStructure/result/Flaky/.nondex/nve3O7RY7vf5nh1gPC82sHyASci0Q4F7AYOPP5Wh8XE=/TEST-org.biojava.nbio.structure.io.StructureSequenceMatcherTest.xml",
+        "size": 12065,
+        "compressed": 2523,
+        "crc32": "a70f6c95",
+        "offset": 351308405,
+        "method": 8,
+        "local_path": "data/extracted/cde89159f8ccff94ae6112f2.xml",
+        "sha256": "5d8d0cdf4bb89246067117621dd513fd98054803ec4ac56decda86dbaacc3c0d",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestGetProteinSequenceForStructure/result/Flaky/rounds-test-results.csv",
+    "size": 20645,
+    "compressed": 5031,
+    "crc32": "c13b795e",
+    "offset": 351175538,
+    "method": 8,
+    "local_path": "data/extracted/d3a97f8135d9d5feb4da18fe.csv",
+    "sha256": "26d5ea5648bba75a4878c6c479815596f624c68a76ee9e6219fab4cf5ad9cb74",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestGetProteinSequenceForStructure/result/Flaky/.nondex/nve3O7RY7vf5nh1gPC82sHyASci0Q4F7AYOPP5Wh8XE=/TEST-org.biojava.nbio.structure.io.StructureSequenceMatcherTest.xml",
+    "size": 12065,
+    "compressed": 2523,
+    "crc32": "a70f6c95",
+    "offset": 351308405,
+    "method": 8,
+    "local_path": "data/extracted/cde89159f8ccff94ae6112f2.xml",
+    "sha256": "5d8d0cdf4bb89246067117621dd513fd98054803ec4ac56decda86dbaacc3c0d",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testGetProteinSequenceForStructure",
+    "outcome": "error",
+    "exception_type": "java.net.UnknownHostException",
+    "message": "mmtf.rcsb.org",
+    "stack_trace": "java.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.io.StructureSequenceMatcherTest.setUp(StructureSequenceMatcherTest.java:54)",
+    "text": "java.net.UnknownHostException\nmmtf.rcsb.org\njava.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.io.StructureSequenceMatcherTest.setUp(StructureSequenceMatcherTest.java:54)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "3a369ea22a239a502a5b9dbcc4c6e935b2d1b116e0dd4cca4a93b39172b39732"
+}

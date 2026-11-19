@@ -1,0 +1,1357 @@
+{
+  "container": "javacpp2fd35c6testEnum",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "javacpp2fd35c6testEnum",
+    "project": "https://github.com/bytedeco/javacpp",
+    "revision": "2fd35c62110eb9a539751a2de97c743f79aebfc2",
+    "test": "org.bytedeco.javacpp.EnumTest.testEnum",
+    "label": "ID",
+    "module": ".",
+    "zip": "javacpp=.=2fd35c6",
+    "config_row": 365,
+    "configured_test": "org.bytedeco.javacpp.EnumTest#testEnum",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/bytedeco/javacpp::org.bytedeco.javacpp.EnumTest.testEnum",
+    "variant_id": "https://github.com/bytedeco/javacpp::org.bytedeco.javacpp.EnumTest.testEnum::2fd35c62110eb9a539751a2de97c743f79aebfc2::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/PUxkOg0hIlqheQ3EW5e3Uxpz7uTrUzNTVfq5VeKhHQ=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16353,
+        "compressed": 3115,
+        "crc32": "05a914e6",
+        "offset": 296283379,
+        "method": 8,
+        "local_path": "data/extracted/68f5be764739f70a60637cca.xml",
+        "sha256": "798804ba40a31f302e1b8564a9578c3cc3bf05fb0ea1894fe6c6c599f5aa91b7",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 5,
+      "iteration": 4,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/K8pVQfBf2GlwQfJbsKXgS6GcTB+E8UbvyYQLQa+Sz0A=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16358,
+        "compressed": 3120,
+        "crc32": "c13e1303",
+        "offset": 296296763,
+        "method": 8,
+        "local_path": "data/extracted/6609549c99ff1291098f8bbc.xml",
+        "sha256": "5cbaca27c94564db1798026c66b41dca817145b14b41af1e2ee763b6b1df5648",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 6,
+      "iteration": 5,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/dLcG8L8RZPvRcCv2f4bZQPwUA1Rz6f8c3iZIJA57mtc=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16358,
+        "compressed": 3121,
+        "crc32": "f29f22d5",
+        "offset": 296301763,
+        "method": 8,
+        "local_path": "data/extracted/037ae94220d1a36e93ec3198.xml",
+        "sha256": "5bb295fad45b94a152e5f6a141cf3edb187e4e7a50db1a323059a5aaa6712a49",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 7,
+      "iteration": 6,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/uYXcZ11u57776fHr+CjPG7y93+XT7rY9huu62VVww=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16356,
+        "compressed": 3116,
+        "crc32": "f34e4889",
+        "offset": 296307186,
+        "method": 8,
+        "local_path": "data/extracted/decd0a997a9c95e1ae15579f.xml",
+        "sha256": "47ecbcf15391e04f08dea0f4f229925099d5020785676cb0d4bc49a74867f957",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 8,
+      "iteration": 7,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/4Qp43eE9MtRRSLrNuNGrns3nlXzBOhAk9OkmFFZmHCY=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16358,
+        "compressed": 3117,
+        "crc32": "88e81abd",
+        "offset": 296312173,
+        "method": 8,
+        "local_path": "data/extracted/58b1c6f274a564064f4a9570.xml",
+        "sha256": "fe643f7c070af30ef85715414d95ee4b9cb997c375dc96dba599b5404acb9665",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 9,
+      "iteration": 8,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/j9zFvTUIO+x8IdmvA8LOVFhoZ+tbOFHE53eCTXvdqmg=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16357,
+        "compressed": 3123,
+        "crc32": "77eb5fff",
+        "offset": 296317384,
+        "method": 8,
+        "local_path": "data/extracted/c70e75dc69a53452c23fac05.xml",
+        "sha256": "7f446fc300e39152c0d82dea15f1819a7b16e840115cd6c82faef369dac1aa34",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 11,
+      "iteration": 10,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/KIDHWxPI1NVAPD4g9S2NZ0dBGPtV3l7bEsGyjUF5g=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16357,
+        "compressed": 3116,
+        "crc32": "307619cd",
+        "offset": 296326796,
+        "method": 8,
+        "local_path": "data/extracted/94457e6a26850fb0088015b6.xml",
+        "sha256": "08df52ae8b1c0206847e6d2e89772e7de0f70b5eaf744229e082d8b33ff575f0",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 13,
+      "iteration": 12,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/37+56vNQJf6Kf430EJKmLbtXMmFAxBydY5TpZr9qeA=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16358,
+        "compressed": 3120,
+        "crc32": "2f5e7bb6",
+        "offset": 296335976,
+        "method": 8,
+        "local_path": "data/extracted/4d32d0e9b444a7d4e78b35ac.xml",
+        "sha256": "3661e021bc9fce2d397ce1949216ca16d8b99ed24f30f52cc82c20c3810d493a",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 14,
+      "iteration": 13,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/9oCloH6Lfk82b5k8u7gsIkRQNJLma1eG2tdH3FwDzg=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16358,
+        "compressed": 3120,
+        "crc32": "2aaade50",
+        "offset": 296341184,
+        "method": 8,
+        "local_path": "data/extracted/0f780126e3e7399b52134aa6.xml",
+        "sha256": "f66bf8555c1a9b5e43712582d0b5d8dce2881f12baf13c0851251ab7a773ad45",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 16,
+      "iteration": 15,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/1sQKwqIGp6kawMJ6E8X5SyykopG1ZeNl8GH8aOEFDw=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16358,
+        "compressed": 3122,
+        "crc32": "b6656c42",
+        "offset": 296350152,
+        "method": 8,
+        "local_path": "data/extracted/50ee23180ce8cc71abf94db5.xml",
+        "sha256": "ce703007c4b0b27857f36a73ac65e35d31e12d7e0fd99615ec15b6cd337b10c4",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 17,
+      "iteration": 16,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/pPJ6w7YyfsVejeZt5ZNRhvK8tH+YFRiL1U4Rusi578=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16358,
+        "compressed": 3122,
+        "crc32": "01f4854e",
+        "offset": 296355362,
+        "method": 8,
+        "local_path": "data/extracted/b34bd14c716abd542e56e170.xml",
+        "sha256": "86c16d6faa1a51a4af23259a9f880688c7cc7e1246c4c6687b41705827dbe0f4",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 18,
+      "iteration": 17,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/ko0kd9kOvtgCTd95mKSgoet2XAYhmKDtffSSZw7O520=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16359,
+        "compressed": 3121,
+        "crc32": "75b861f1",
+        "offset": 296360787,
+        "method": 8,
+        "local_path": "data/extracted/7c9bb896682a42cd78dd7f84.xml",
+        "sha256": "ad5d167e62de23f75e1d11a4ebc4162f6ac15e0c820c2730a97e87e88bba0958",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 19,
+      "iteration": 18,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/SPK8ZYlcVN8GweaHICVuu9g5fE3MwGG0YVo6+TQfKn4=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16359,
+        "compressed": 3113,
+        "crc32": "b60c4852",
+        "offset": 296366003,
+        "method": 8,
+        "local_path": "data/extracted/7fed945f15d2f2752e383367.xml",
+        "sha256": "6af109be5aff7c9daeba8b572898839f83a5768c5acd1d46fdbbaae64176ab5d",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 21,
+      "iteration": 20,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/b7brNd4shZD9tyEeYZ8vjzVY41iy8qkhEPuz26EUbK4=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3119,
+        "crc32": "da3bf9b3",
+        "offset": 296375199,
+        "method": 8,
+        "local_path": "data/extracted/b1e435806066197ae7cffa0d.xml",
+        "sha256": "bd5a9299fe55d62bc7ff87a9596afe805ba5951226cc7a2b578c214f2292c0a7",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 22,
+      "iteration": 21,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/Y8lkEOdeF3d2lpCE0HERW8BmXqjJPGamVG3iw9fSx4=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3114,
+        "crc32": "f8db4d72",
+        "offset": 296380408,
+        "method": 8,
+        "local_path": "data/extracted/a90157e3aa4e83ebec9dcf90.xml",
+        "sha256": "ed0407deb6cce290ced3c868aa050ef53b241a15ec1f05720fe16e0e02ab6f21",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 24,
+      "iteration": 23,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/H5S7VvySYsJmFmf2YMvrKE630TrXvPzA70kzBOsfIc=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3124,
+        "crc32": "d333b175",
+        "offset": 296389593,
+        "method": 8,
+        "local_path": "data/extracted/1b53b653a9843919da3b991f.xml",
+        "sha256": "5d48566057f8fbd44fa66c3246b4389325b5c6edc72af58d06fbf68965b6ac88",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 25,
+      "iteration": 24,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/U8khikJUOLcJoIAnvf3KEUTb4Wc57xRqIm7FNNyqWJQ=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3121,
+        "crc32": "c435faeb",
+        "offset": 296394593,
+        "method": 8,
+        "local_path": "data/extracted/911024e3f069a1352c4d907b.xml",
+        "sha256": "07319114de60c7291bc5f19f5ed899aaa22f99953effe7e5539c6abb55dc6484",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 26,
+      "iteration": 25,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/OwxRXowaMpVs76X1I0CfxUZ6eXvZFAHNcXL8XXYKs1A=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3119,
+        "crc32": "8378d97e",
+        "offset": 296400024,
+        "method": 8,
+        "local_path": "data/extracted/9fc1bfe3f5ebf50ab98b9421.xml",
+        "sha256": "cd1f0923f7bf774b4cfb20d3fcf2749f711d5f8007f2a615463748e3943b4902",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 27,
+      "iteration": 26,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/AZNuZOUmDAXWi5nFzgLs9NOwFeCBC2f9DZcCFP6dukU=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3113,
+        "crc32": "e3df7766",
+        "offset": 296405238,
+        "method": 8,
+        "local_path": "data/extracted/48c0cf546e98675bdbfc3077.xml",
+        "sha256": "502b0e158ebde5595f9d0786c25cb9e4219c8b2b5cfc36ba5a0f2127582c723d",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 30,
+      "iteration": 29,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/Ohqbdu2lgF2hyw6SBEbzElacrXUZoeiFufA+KM7v50=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3119,
+        "crc32": "b796641e",
+        "offset": 296418403,
+        "method": 8,
+        "local_path": "data/extracted/38d838e56c2fbdb294adac90.xml",
+        "sha256": "d6821934d1a8dd2a5568e85ed181de571784500e81a8f64a8458df44efd1f8fc",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 32,
+      "iteration": 31,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/UsPulmTHTe428jOfz3XJCsDgnpRQu9FuZOBAgzpthM=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3118,
+        "crc32": "a5b3f567",
+        "offset": 296427599,
+        "method": 8,
+        "local_path": "data/extracted/00ff34f7042be13f91fdc39a.xml",
+        "sha256": "6192b928e1903c7aca387eff8c5842a88f448c9dbaa45010c87fe0af11576e8f",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 33,
+      "iteration": 32,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/3U1ypvEeBQORP1nyDNereeD6CpG4O0BRHxIs2po6ecA=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3119,
+        "crc32": "c91c2b8e",
+        "offset": 296432808,
+        "method": 8,
+        "local_path": "data/extracted/bd7adcc3ce3f274dc2c6168a.xml",
+        "sha256": "41c5b26d090d7210c58440e4488d0a1c74435da7fd60cb5b3e4cc3a6ef0d6093",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 34,
+      "iteration": 33,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/Mg7TqJhnBHMGa9UzuLJvLscmBrLm7HtakqHhEHSPVc=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3122,
+        "crc32": "748aef5c",
+        "offset": 296438014,
+        "method": 8,
+        "local_path": "data/extracted/50b50378b1acb3a053c9f2cf.xml",
+        "sha256": "a6f96da6014754cd7895f2d95ff338f40d0f37b24aee252b011c2902bb058edc",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 39,
+      "iteration": 38,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/87Bll3SxM7k5HEXdbcJiOOqx5bEsSp94b+yym0gIVMI=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3116,
+        "crc32": "59917bd2",
+        "offset": 296459117,
+        "method": 8,
+        "local_path": "data/extracted/db645d5b70d096369b1dc63b.xml",
+        "sha256": "07f574d50e99bbafa152c679012eb6c049e794f42c485bb3440076f481d15cca",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 40,
+      "iteration": 39,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/RP9vMf5m0g0cUy9UIjSWtWs4qtCc60vIRhg9nhnSM=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16361,
+        "compressed": 3118,
+        "crc32": "852f1b15",
+        "offset": 296464319,
+        "method": 8,
+        "local_path": "data/extracted/3c1661c435a36e63249975ea.xml",
+        "sha256": "51f70ab1dc00cb94b1cf1ec944be9f9690650e9ecd22e9d1ddd4c531b67b2831",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 41,
+      "iteration": 40,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/cGP4CVBQ3WO9d3QhPEkfk+0WKObHcdoHS8da8fTokwY=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3126,
+        "crc32": "e1e47e31",
+        "offset": 296469519,
+        "method": 8,
+        "local_path": "data/extracted/62639b271da34d0204e05cb3.xml",
+        "sha256": "b903091462a5d37e72891e1f5869071723b66567b43d40ea28ca06edcea7292c",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 42,
+      "iteration": 41,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/0TRi8+dnZGPw1HoJXAj4pb0HNZz+gREmrJHcEK2faaI=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3119,
+        "crc32": "49a9fe32",
+        "offset": 296474737,
+        "method": 8,
+        "local_path": "data/extracted/1bf86266debd931dc1c7ddac.xml",
+        "sha256": "dcc6874ae2e1308b044f5f8506c8e95a514e760d33ef797c4ad0a9d981d7d9be",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 44,
+      "iteration": 43,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/JdRC+95CkP0T1to2poRwdVzD7UpBjnxS6urBXn0ttE=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3114,
+        "crc32": "82e8eb77",
+        "offset": 296483934,
+        "method": 8,
+        "local_path": "data/extracted/57e979f8b35b26e471011230.xml",
+        "sha256": "56baa9f0940ec4cd8c13dab2395b096e623580d71623fd1122b474f6cea5bc34",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 45,
+      "iteration": 44,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/vKR6Nks839x7MdOguDO5w2yQUbQ72blnH4Svv8aVFOA=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3115,
+        "crc32": "27769f6b",
+        "offset": 296489493,
+        "method": 8,
+        "local_path": "data/extracted/fb4d6bf03ca92fd7111079d9.xml",
+        "sha256": "e5e9e151a6db4d2fcf4b4e964d015bef6681ac8d23e634c449d48d8047dbcc9e",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 46,
+      "iteration": 45,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/erVhprhACTlXMkXn627S4E5RCCjcLnOTYW2gV1D6w=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16360,
+        "compressed": 3118,
+        "crc32": "d974a4ec",
+        "offset": 296494336,
+        "method": 8,
+        "local_path": "data/extracted/7e407bd83a652b0fc39d0b08.xml",
+        "sha256": "331cbccb68615b9a075983444d6d5d11b68c57a45ea936435df0c831c5e00f9a",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 47,
+      "iteration": 46,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/8t9cu8XcqIeb4BHPaQcx8F4Gd78TTw7J5pTS1ymcVAE=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3116,
+        "crc32": "a6ead91b",
+        "offset": 296499541,
+        "method": 8,
+        "local_path": "data/extracted/a265e567d7acd20da21dc7a4.xml",
+        "sha256": "abe548cf3465c8da86abe766e45777aa9f3b08b6a315ee5d55744964642aa1a0",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 49,
+      "iteration": 48,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/R1E6izr6IaXqYDcJKUmD6IDB69eMg2JFC72pOBaaR4=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16361,
+        "compressed": 3121,
+        "crc32": "f11b8a76",
+        "offset": 296508743,
+        "method": 8,
+        "local_path": "data/extracted/fb8b7efd60dbd027f881d65d.xml",
+        "sha256": "c3f31e19167c97ecd09ea1fd253edf52495ad9d73211a7a0b531efb5510fdab2",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 51,
+      "iteration": 50,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/ahy6N4CAIrxyigPaHA+YA5YbV2qt5PteOgVi7JgGYBs=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3120,
+        "crc32": "eaaf2c19",
+        "offset": 296517720,
+        "method": 8,
+        "local_path": "data/extracted/81f263bb62c066089171a3bd.xml",
+        "sha256": "e4fc4704d99961e348f83637d2c8cb82e044c9b3f987cea5121006123dbb10df",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 52,
+      "iteration": 51,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/MbjohIvbzAh9pmRaQdDCkcQrvbVR3w9u8UVjqGxJ7lY=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3124,
+        "crc32": "04f042c4",
+        "offset": 296522934,
+        "method": 8,
+        "local_path": "data/extracted/3aa971317b82d595638380df.xml",
+        "sha256": "716da5d9ccc81a8d41c88ed9ae3a7f5f5d1661cb25c6711f514d09ba0ab3905b",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 53,
+      "iteration": 52,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/pRIgxHfImSAwd4spNrbFEWuHecMYuY6fk8O2MyKChE=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3115,
+        "crc32": "42ae6e35",
+        "offset": 296528150,
+        "method": 8,
+        "local_path": "data/extracted/b54a0915a40ed9c53560ad4a.xml",
+        "sha256": "e17582f12fb3cdd672abbf3db3832b023da966d01d3fc7d8e19e875316670e5c",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 54,
+      "iteration": 53,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/vhCPiP2iAfUzNAl9jfOXmGbUCectUgK6mWExKh6FHns=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3121,
+        "crc32": "c138610b",
+        "offset": 296533353,
+        "method": 8,
+        "local_path": "data/extracted/a0b1fdf2933bb0e6bd2f6d19.xml",
+        "sha256": "daa0feb9ceae6a5220a7ef168eaacbf7f38edc2d0f4cbf3c2768696401e48453",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 55,
+      "iteration": 54,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/2xl63CvBI4cPLyOBMArWzkBayU13jfV9GIWnjwXVUtw=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3124,
+        "crc32": "ebfb616e",
+        "offset": 296538567,
+        "method": 8,
+        "local_path": "data/extracted/2be99a207f24d825a2ab0afd.xml",
+        "sha256": "7ca8c65165ca61f942fe607bd86435d8cd4ae494b05de98de287d54d7890018d",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 56,
+      "iteration": 55,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/hnhXPsDQX6Cj1use3Xca9LO9TVjmh3N3HLWJwIgY5Q=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3115,
+        "crc32": "0b70535a",
+        "offset": 296543782,
+        "method": 8,
+        "local_path": "data/extracted/540ca17381b11a87a4546460.xml",
+        "sha256": "5e7488bceb845df896efe86a853dbca50cd56bdf501fb1104458f0102be59f70",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 57,
+      "iteration": 56,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/jHuE+qBzwnlw9wCrIl+QlmM5dx9n04ymgln5yMRvm4=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16361,
+        "compressed": 3123,
+        "crc32": "3c76fa97",
+        "offset": 296548983,
+        "method": 8,
+        "local_path": "data/extracted/a79e1493fdda014b9ba39272.xml",
+        "sha256": "f987dd95ff0dc6255eb70869d75e9025b6761ebac1204847db70a288e6d6d821",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 58,
+      "iteration": 57,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/Ontel4oDBRJ8qxtSYTHBt0uhKRySLEqP9cG2aI+bm2c=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3121,
+        "crc32": "2dcdb9e4",
+        "offset": 296554197,
+        "method": 8,
+        "local_path": "data/extracted/9f24d40d5da4bf24020eed6f.xml",
+        "sha256": "36a0e98a5c5755a1e02378e5f0315725b394f8bc48676bf54de4b0f8d2a4cdd4",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 60,
+      "iteration": 59,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/NzvLLt7WlNTUa+vojb+MTaKIuHpKIG6G2JJYDR2pF0=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3119,
+        "crc32": "88b2b875",
+        "offset": 296563392,
+        "method": 8,
+        "local_path": "data/extracted/ae50d672b26df8b5ba986991.xml",
+        "sha256": "1cd19f2c9399175dae27c21cc72546beb08748ff043fc413940acfdbbbfebe60",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 61,
+      "iteration": 60,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/4QphBqtovNq9yq6x0g9fwv3txiRJq2CIG6iwHkrHcA=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3107,
+        "crc32": "b3b131cd",
+        "offset": 296568596,
+        "method": 8,
+        "local_path": "data/extracted/e934d2ed6469cc0b8e74a10c.xml",
+        "sha256": "c7f78115ed458038a47ef362b7c13963b66c23def14f02e6783bf9e24ee9f553",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 63,
+      "iteration": 62,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/bwxrhmnDYu9m4w9OwmmkqfOZTrFBYFHNkBgxjssQbTQ=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3118,
+        "crc32": "cf2c95f0",
+        "offset": 296577767,
+        "method": 8,
+        "local_path": "data/extracted/2c112a383735469aca48e382.xml",
+        "sha256": "82c69d649fa457d7204cc4d8995a887b565460dac459f582345235d3e06d647e",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 65,
+      "iteration": 64,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/D7cYPO8rewYLDoN5YLTdUsPkCf+CJcZG0iQU5H0l6dU=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3116,
+        "crc32": "8fd8b5bd",
+        "offset": 296587182,
+        "method": 8,
+        "local_path": "data/extracted/36728b6bbe536118e7e41940.xml",
+        "sha256": "12143d448bd38cc8d9043add27dad47787a1cf7359275974b87b4d024b09d7a0",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 66,
+      "iteration": 65,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/eo9MJ0lInAsqTxZTJyQpxoGjdoqd+BPOCVB26N0rxKk=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3120,
+        "crc32": "f6ba1614",
+        "offset": 296592391,
+        "method": 8,
+        "local_path": "data/extracted/0739bd0a873c7bec59ff0a09.xml",
+        "sha256": "98139e3f2709959826eea1d7f9a61efcf0ba6077246b6380b1347f5dd8c42f20",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 68,
+      "iteration": 67,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/qToSVPRnJx63AkGzGrz61vg8NU3AE5LUU1oRLlaiA=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16361,
+        "compressed": 3111,
+        "crc32": "5dd430a0",
+        "offset": 296601572,
+        "method": 8,
+        "local_path": "data/extracted/156084b5ea04e867c7d53fb7.xml",
+        "sha256": "9a3697b21ad61856ef6a2ca933bab6ba085c69b55aba8c89670a17d18f23541a",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 70,
+      "iteration": 69,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/KMDLeKblCf5m0B722xx9scPnqZiSkNPth3GxA1h9QI=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3114,
+        "crc32": "f4f3d8ea",
+        "offset": 296610737,
+        "method": 8,
+        "local_path": "data/extracted/c6a3bffbd35b877225fe551c.xml",
+        "sha256": "85e1f4ec072d9c1781eb8e6d9daa4f8c0ae21a564accd3c8fcc8056f1b5fc8a3",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 71,
+      "iteration": 70,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/YtGJm+3TsqK7YmRMkdbrNHxmtz6bPQuPpgInGUhmG18=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3123,
+        "crc32": "289ddf2f",
+        "offset": 296615939,
+        "method": 8,
+        "local_path": "data/extracted/be15aa13c94b73901c310903.xml",
+        "sha256": "cd0523b1246d3aa0f11abca703fb9c04177bf0601721c34198d2ac23ba6221bc",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 72,
+      "iteration": 71,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/OrJjxRclA+prN3eieC3846KwxaLSEely9jcAjcLmRoQ=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3116,
+        "crc32": "7a1b7da0",
+        "offset": 296621155,
+        "method": 8,
+        "local_path": "data/extracted/b20aed82718748fd4c55ea74.xml",
+        "sha256": "f3659fda6813a3a28fb4f1780c081ee678c4c861c66e76b0d6d368edfe42a274",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 73,
+      "iteration": 72,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/x6rMHpdaTamqMooTP5YbAEhfE0+uFn79kWjLRHNH8E=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3122,
+        "crc32": "492f2150",
+        "offset": 296626359,
+        "method": 8,
+        "local_path": "data/extracted/2445ad52342c64bbfcc71377.xml",
+        "sha256": "692addc45d3eaa24963f6a08f4ecdeaf86383d5a1e1123cf0b7f552f9871e591",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 74,
+      "iteration": 73,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/AeOPhDIBjAQEHOONhRCGRkWH7UCF034cmPZ0zNKtA6M=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3123,
+        "crc32": "92f7ae4c",
+        "offset": 296631355,
+        "method": 8,
+        "local_path": "data/extracted/4902e78e59008c915938bc0e.xml",
+        "sha256": "6e54de922287e3d98266b5f353e47251a02508276b48607654904ccf69f4d879",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 75,
+      "iteration": 74,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/aLx74KYq8p0WcB4RNf23XkXMhMHFPgGQPxWMIj8QuJ8=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3122,
+        "crc32": "7fb696f5",
+        "offset": 296721619,
+        "method": 8,
+        "local_path": "data/extracted/0051f19e8fd9f369f21b904a.xml",
+        "sha256": "decdd387ee1afe23f9fa4a628dee81e7b3bf6a15e092ab31bf40e9c0a04cfca0",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 76,
+      "iteration": 75,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/NlVM4cYRGGGHw4V6FiX4er34PPAqFOwnjoVoiAcL4=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16361,
+        "compressed": 3123,
+        "crc32": "db4ed764",
+        "offset": 296726827,
+        "method": 8,
+        "local_path": "data/extracted/72a9131d5d7243321fee08a6.xml",
+        "sha256": "1200bfec0806f29cd094480b269a63176a83a2c702b2bf15d10ce1da4ff475ca",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 77,
+      "iteration": 76,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/QNCNAKYHsh4246k4rDj+C15DeqZYb7PTDC+DfmCK4XA=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3120,
+        "crc32": "acf2b417",
+        "offset": 296732033,
+        "method": 8,
+        "local_path": "data/extracted/47a7d368819859f9319e344f.xml",
+        "sha256": "97b0d26cce38ab66654ee976b6c157b81ac4b4d61bc539853332e7912cd73bc8",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 78,
+      "iteration": 77,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/hxwdo3rqtItNui9yfxhJ8p1txXHqPWduY7qy6KqkLas=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3122,
+        "crc32": "24964547",
+        "offset": 296737246,
+        "method": 8,
+        "local_path": "data/extracted/d0c29c89b36c191faff9570f.xml",
+        "sha256": "efbdcfe5ebbecdeb71b9b83f5a64c43bd21a552137c5fe8c7350ae11908a495a",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 79,
+      "iteration": 78,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/pBGx6akcfKMOO5ejv0TxIO523Qy6cNBhjDk9TI+Ci8Y=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3110,
+        "crc32": "62c59709",
+        "offset": 296742459,
+        "method": 8,
+        "local_path": "data/extracted/28a117543018a7da6a048e4c.xml",
+        "sha256": "22d77dff0cb78b3c048301b5a8f3758573ab3a97b617e8bb55afd3ca76c49e25",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 80,
+      "iteration": 79,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/viQGFfO778excOChHxl2l6gTEdmuPQbCJBm1tfw0x60=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3122,
+        "crc32": "06fdf7fe",
+        "offset": 296747662,
+        "method": 8,
+        "local_path": "data/extracted/d207d062cbcc171db9e2c737.xml",
+        "sha256": "7ddd09b041e0be8a649f29355eb60db2fc7c5a0d3c7657bc677f846bef9febbc",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 82,
+      "iteration": 81,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/AgGEAyciasPy1JyBzb3MuD6QdjVzfQj6fgfLRK26H0=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3115,
+        "crc32": "e6bf1218",
+        "offset": 296756859,
+        "method": 8,
+        "local_path": "data/extracted/35f15935d36cb280dff7056e.xml",
+        "sha256": "0bcd5c8da1b62ee32e3515ac40b4621248f3a17926e25b7721a297a929f568b3",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 84,
+      "iteration": 83,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/y2FwWxUoacvy3xhtqLkBUOSHYv1npUOcS0W6ekPEvLY=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3128,
+        "crc32": "27271429",
+        "offset": 296765839,
+        "method": 8,
+        "local_path": "data/extracted/db51b7add2108d1fde4385d2.xml",
+        "sha256": "fa5f21a6ebe4fb8990e7a16ba8f594d7688674c10045c9eab6e167e85521b262",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 85,
+      "iteration": 84,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/4aP+S+rZNBK1ESOvUxMyFs9DG34BIVpC1WkqNO2Z3s=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3120,
+        "crc32": "cf0c1ceb",
+        "offset": 296636787,
+        "method": 8,
+        "local_path": "data/extracted/b4b9591ddc53a3d65ec183a7.xml",
+        "sha256": "daf5dc5211da431093f9243a2add15fc203adc01676e7e431c47a49659aec442",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 88,
+      "iteration": 87,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/AcnbGEzvrsjb08og14NP7dxxM6s4e7OlVHVR8QPS0=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16361,
+        "compressed": 3111,
+        "crc32": "260922bd",
+        "offset": 296649962,
+        "method": 8,
+        "local_path": "data/extracted/d326a35aeefbe8fc950ac2d5.xml",
+        "sha256": "cc7a9bfee91f3d2c970d394640385bd478b38420d31551d36651bceb3a5e9705",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 89,
+      "iteration": 88,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/B2EIf7AJQn8RUkpBVcfsdjOMXSD+kezbSUuNL5fTNs=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3112,
+        "crc32": "6ddc15fa",
+        "offset": 296655154,
+        "method": 8,
+        "local_path": "data/extracted/5f2597f401f8ba0c876dc847.xml",
+        "sha256": "d322e1653ed71e4bf6b316c416ad053be4ed3b2bcf3332facb7ef15cd6021666",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 90,
+      "iteration": 89,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/mgn1KoYjndVCwmL12hil4vF8KHmSsUQLgrScTmxFg0=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3121,
+        "crc32": "97c3c280",
+        "offset": 296660353,
+        "method": 8,
+        "local_path": "data/extracted/e18360c279abee66ba1ed220.xml",
+        "sha256": "4a1982b71637a36775999c4e43492eddf667a60bc2f5823eefd7126d073a0a11",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 91,
+      "iteration": 90,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/LuMWuUEqSSDbXUp70O1HtEzu7jalwLKTLEaOh2lwvN4=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3117,
+        "crc32": "6731e617",
+        "offset": 296665564,
+        "method": 8,
+        "local_path": "data/extracted/0c58da90ab2391bfa8973aaa.xml",
+        "sha256": "97401fbbcc0c12a2f84d4e0db8e942cb4fd15419c4be7a727ff97c1139ff2e43",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 92,
+      "iteration": 91,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/hsXGdwq3D8fJJxRbf8bqR9eTmz7pFPPuJWnz+JENA=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16361,
+        "compressed": 3111,
+        "crc32": "2a1f5390",
+        "offset": 296670768,
+        "method": 8,
+        "local_path": "data/extracted/8e6015820ea126f8e14610de.xml",
+        "sha256": "d2a6c58337bbacd5ff5a3f4e12ea01c7ac35ef38ebf129fd5155e03fb2e73831",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 93,
+      "iteration": 92,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/kdgTRdINiPSwKdU3AUO2Ku7vsrsU9LGfeRWBz8WUGWU=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3121,
+        "crc32": "1ac2a2b2",
+        "offset": 296675965,
+        "method": 8,
+        "local_path": "data/extracted/8d0198c315349560cbff3ddb.xml",
+        "sha256": "ac666bf4f9c6560a6fd45c1916471fd1d45a82a854618613cd007c9885adf05c",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 94,
+      "iteration": 93,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/NG32vHeJM+yjmhmu7nGxmXnLHF+ta8y0ap6Y6DD49Y=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3116,
+        "crc32": "c0ca41f7",
+        "offset": 296681175,
+        "method": 8,
+        "local_path": "data/extracted/c0b3ec022f7d16517fcf6ec2.xml",
+        "sha256": "090e040ead60c10ee7452cad6ba4109a83dfbf9fc4b101f8c765f785415758ea",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 95,
+      "iteration": 94,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/ahA8gnRZ8iHWtet17id49bsuAaMJnaBAyQC4ptq8AU=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3109,
+        "crc32": "b2d2159b",
+        "offset": 296686376,
+        "method": 8,
+        "local_path": "data/extracted/b1a3868e82739c876024f840.xml",
+        "sha256": "abf63cf0982b6e5731723f30050dba1d27ff22a3cca19c8ee67cd4973227dfcb",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 96,
+      "iteration": 95,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/JO9UW2jpcXRQDWGgjgv6xokPfO0IEqwLNNKX2ml4vg=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3124,
+        "crc32": "8f3708ce",
+        "offset": 296691569,
+        "method": 8,
+        "local_path": "data/extracted/eeb4dff0d2bfc65034d1bef0.xml",
+        "sha256": "688fa950ead7e9a8016603e575ccbdfd89bc7f2d1ccaabf59330a6bd399e9207",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 97,
+      "iteration": 96,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/NuJiBPObnO9k268CXmnc3ThWhiy4u7ZWY1M+o9N38Q=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16362,
+        "compressed": 3124,
+        "crc32": "d3f55a17",
+        "offset": 296696780,
+        "method": 8,
+        "local_path": "data/extracted/84063beb36b47a1839de73cd.xml",
+        "sha256": "f80d0bc14e933316c8994c3cb9be481ec76cea0f705654655a0bac79999d865e",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 99,
+      "iteration": 98,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/OmFA+XjtEngzJA0v6cWJsl4QQoD2OnYvbfPTbBw7qN4=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16363,
+        "compressed": 3124,
+        "crc32": "af394627",
+        "offset": 296705984,
+        "method": 8,
+        "local_path": "data/extracted/a8b5f9b098bf95b2cb52a4b5.xml",
+        "sha256": "301fd652bfe56d01b58d0fc58dc9e9d6ffd7af42b14da5bad1863b4f13626dec",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 100,
+      "iteration": 99,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/XMhWbKg8ddYyKL6VDUiqmOxVJmVYR7L+V0dYaMQ60=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16361,
+        "compressed": 3124,
+        "crc32": "0304c2c1",
+        "offset": 296711199,
+        "method": 8,
+        "local_path": "data/extracted/3d0f452c51f62fba69b58be2.xml",
+        "sha256": "44bdac4aa6c24350fdec70829a34b7b00125b35b2514f20d4a579f4c14453059",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    },
+    {
+      "row": 101,
+      "iteration": 100,
+      "member": {
+        "path": "result/javacpp2fd35c6testEnum/result/Flaky/.nondex/gqhGSus6GunP5oHMjkWV7rLv7n7RHtdH57kvPe0QzDQ=/TEST-org.bytedeco.javacpp.EnumTest.xml",
+        "size": 16364,
+        "compressed": 3120,
+        "crc32": "b6fc0f17",
+        "offset": 296716408,
+        "method": 8,
+        "local_path": "data/extracted/de9d368f82d42cda18d8b481.xml",
+        "sha256": "0e25cf01f7460034a5fc6558e7f7b61ba5ea2666521715afa8911bb49342aa95",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 0,
+      "failure_records": 0
+    }
+  ],
+  "status": "no_confirmed_target_diagnostic",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/javacpp2fd35c6testEnum/result/Flaky/rounds-test-results.csv",
+    "size": 16155,
+    "compressed": 4907,
+    "crc32": "b57b6fbe",
+    "offset": 296080862,
+    "method": 8,
+    "local_path": "data/extracted/e9d7c8d92b6e44f02f498923.csv",
+    "sha256": "f1f1f4448fe3cc0865530d6ef5bbbd4311dda07a6919036ed8b6a34c45aafdbf",
+    "status": "verified"
+  },
+  "reported_failure_rows": 73,
+  "transport_prefetch": {
+    "start": 296278441,
+    "end": 296769643,
+    "bytes": 491202
+  }
+}

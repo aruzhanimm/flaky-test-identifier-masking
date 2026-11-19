@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="org.glassfish.jersey.inject.cdi.se.DisposableSupplierTest" time="1.354" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="nondexStart" value="0"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/inject/cdi2-se/target/test-classes:/app/source/inject/cdi2-se/target/classes:/root/.m2/repository/org/glassfish/jersey/core/jersey-common/2.46-SNAPSHOT/jersey-common-2.46-SNAPSHOT.jar:/root/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar:/root/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/root/.m2/repository/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:/root/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar:/root/.m2/repository/org/jboss/weld/se/weld-se-core/3.1.9.Final/weld-se-core-3.1.9.Final.jar:/root/.m2/repository/org/jboss/weld/environment/weld-environment-common/3.1.9.Final/weld-environment-common-3.1.9.Final.jar:/root/.m2/repository/org/jboss/weld/weld-core-impl/3.1.9.Final/weld-core-impl-3.1.9.Final.jar:/root/.m2/repository/org/jboss/weld/weld-api/3.1.SP4/weld-api-3.1.SP4.jar:/root/.m2/repository/org/jboss/weld/weld-spi/3.1.SP4/weld-spi-3.1.SP4.jar:/root/.m2/repository/org/jboss/spec/javax/annotation/jboss-annotations-api_1.3_spec/2.0.1.Final/jboss-annotations-api_1.3_spec-2.0.1.Final.jar:/root/.m2/repository/org/jboss/spec/javax/el/jboss-el-api_3.0_spec/2.0.0.Final/jboss-el-api_3.0_spec-2.0.0.Final.jar:/root/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.2_spec/2.0.0.Final/jboss-interceptors-api_1.2_spec-2.0.0.Final.jar:/root/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar:/root/.m2/repository/org/jboss/weld/probe/weld-probe-core/3.1.9.Final/weld-probe-core-3.1.9.Final.jar:/root/.m2/repository/jakarta/enterprise/jakarta.enterprise.cdi-api/2.0.2/jakarta.enterprise.cdi-api-2.0.2.jar:/root/.m2/repository/jakarta/inject/jakarta.inject-api/1.0/jakarta.inject-api-1.0.jar:/root/.m2/repository/org/jboss/classfilewriter/jboss-classfilewriter/1.2.5.Final/jboss-classfilewriter-1.2.5.Final.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.0/junit-jupiter-5.11.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.0/junit-jupiter-engine-5.11.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.11.0/junit-platform-engine-1.11.0.jar:/root/.m2/repository/org/hamcrest/hamcrest/3.0/hamcrest-3.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-11/lib"/>
+    <property name="sun.java.command" value="/app/source/inject/cdi2-se/target/surefire/surefirebooter-20251107114636770_7.jar /app/source/inject/cdi2-se/target/surefire 2025-11-07T11-46-36_701-jvmRun1 surefire-20251107114636770_5tmp surefire_1-20251107114636770_6tmp"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/app/source/inject/cdi2-se/target/test-classes:/app/source/inject/cdi2-se/target/classes:/root/.m2/repository/org/glassfish/jersey/core/jersey-common/2.46-SNAPSHOT/jersey-common-2.46-SNAPSHOT.jar:/root/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar:/root/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/root/.m2/repository/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:/root/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar:/root/.m2/repository/org/jboss/weld/se/weld-se-core/3.1.9.Final/weld-se-core-3.1.9.Final.jar:/root/.m2/repository/org/jboss/weld/environment/weld-environment-common/3.1.9.Final/weld-environment-common-3.1.9.Final.jar:/root/.m2/repository/org/jboss/weld/weld-core-impl/3.1.9.Final/weld-core-impl-3.1.9.Final.jar:/root/.m2/repository/org/jboss/weld/weld-api/3.1.SP4/weld-api-3.1.SP4.jar:/root/.m2/repository/org/jboss/weld/weld-spi/3.1.SP4/weld-spi-3.1.SP4.jar:/root/.m2/repository/org/jboss/spec/javax/annotation/jboss-annotations-api_1.3_spec/2.0.1.Final/jboss-annotations-api_1.3_spec-2.0.1.Final.jar:/root/.m2/repository/org/jboss/spec/javax/el/jboss-el-api_3.0_spec/2.0.0.Final/jboss-el-api_3.0_spec-2.0.0.Final.jar:/root/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.2_spec/2.0.0.Final/jboss-interceptors-api_1.2_spec-2.0.0.Final.jar:/root/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar:/root/.m2/repository/org/jboss/weld/probe/weld-probe-core/3.1.9.Final/weld-probe-core-3.1.9.Final.jar:/root/.m2/repository/jakarta/enterprise/jakarta.enterprise.cdi-api/2.0.2/jakarta.enterprise.cdi-api-2.0.2.jar:/root/.m2/repository/jakarta/inject/jakarta.inject-api/1.0/jakarta.inject-api-1.0.jar:/root/.m2/repository/org/jboss/classfilewriter/jboss-classfilewriter/1.2.5.Final/jboss-classfilewriter-1.2.5.Final.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.0/junit-jupiter-5.11.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.0/junit-jupiter-engine-5.11.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.11.0/junit-platform-engine-1.11.0.jar:/root/.m2/repository/org/hamcrest/hamcrest/3.0/hamcrest-3.0.jar:"/>
+    <property name="test" value="org.glassfish.jersey.inject.cdi.se.DisposableSupplierTest#testDisposeComposedObjectWithPerLookupFields"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="D09AOzmPBO0nk2s2pGTvYnJpY664vFKfKzvCT0nSik="/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/openjdk-11"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/app/source/inject/cdi2-se"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="surefire.real.class.path" value="/app/source/inject/cdi2-se/target/surefire/surefirebooter-20251107114636770_7.jar"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-35-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/inject/cdi2-se/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="nondexJarDir" value="/app/source/inject/cdi2-se/.nondex"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="/app/source/inject/cdi2-se"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="license.skip" value="true"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="xml.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="jersey.config.test.container.port" value=""/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="testDisposeComposedObjectWithPerLookupFields" classname="org.glassfish.jersey.inject.cdi.se.DisposableSupplierTest" time="1.317">
+    <failure message="expected: &lt;2&gt; but was: &lt;3&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2> but was: <3>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.glassfish.jersey.inject.cdi.se.DisposableSupplierTest.lambda$testDisposeComposedObjectWithPerLookupFields$21(DisposableSupplierTest.java:372)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:288)
+	at org.glassfish.jersey.inject.cdi.se.DisposableSupplierTest.testDisposeComposedObjectWithPerLookupFields(DisposableSupplierTest.java:364)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+]]></failure>
+    <system-err><![CDATA[Nov 07, 2025 11:46:39 AM org.jboss.weld.bootstrap.WeldStartup <clinit>
+INFO: WELD-000900: 3.1.9 (Final)
+Nov 07, 2025 11:46:40 AM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Nov 07, 2025 11:46:40 AM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container c36c2a3d-5aab-4e5f-b1f2-f51719372a8e initialized
+Nov 07, 2025 11:46:41 AM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container c36c2a3d-5aab-4e5f-b1f2-f51719372a8e shut down
+]]></system-err>
+  </testcase>
+</testsuite>

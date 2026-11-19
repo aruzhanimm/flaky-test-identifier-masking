@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this analysis release and the original ReproFlake Results dataset."
+type: software
+title: "Flaky-Test Identifier Masking: Cross-Project Classification Experiments"
+version: "2026.11.19"
+date-released: 2026-11-19
+authors:
+  - family-names: "Kartam"
+    given-names: "Aruzhan"
+  - family-names: "Yerzhan"
+    given-names: "Saniya"
+  - family-names: "Golubenko"
+    given-names: "Vitaliy"
+repository-code: "https://github.com/aruzhanimm/flaky-test-identifier-masking"
+keywords:
+  - flaky tests
+  - failure logs
+  - identifier masking
+  - cross-project classification
+  - reproducibility

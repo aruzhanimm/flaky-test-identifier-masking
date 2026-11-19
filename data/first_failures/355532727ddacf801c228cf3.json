@@ -1,0 +1,81 @@
+{
+  "container": "quarkusindependentprojectstoolscodestarts8f7119echeckDefaultProject",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "quarkusindependentprojectstoolscodestarts8f7119echeckDefaultProject",
+    "project": "https://github.com/quarkusio/quarkus",
+    "revision": "8f7119e9a22437c3b5018784f4db24ea0337bce1",
+    "test": "io.quarkus.devtools.codestarts.CodestartProjectGenerationTest.checkDefaultProject",
+    "label": "ID",
+    "module": "independent-projects/tools/codestarts",
+    "zip": "quarkus=independent-projects+tools+codestarts=8f7119e",
+    "config_row": 233,
+    "configured_test": "io.quarkus.devtools.codestarts.CodestartProjectGenerationTest#checkDefaultProject",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/quarkusio/quarkus::io.quarkus.devtools.codestarts.CodestartProjectGenerationTest.checkDefaultProject",
+    "variant_id": "https://github.com/quarkusio/quarkus::io.quarkus.devtools.codestarts.CodestartProjectGenerationTest.checkDefaultProject::8f7119e9a22437c3b5018784f4db24ea0337bce1::independent-projects/tools/codestarts",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/quarkusindependentprojectstoolscodestarts8f7119echeckDefaultProject/result/Flaky/.nondex/WqDSObBuCHrg260Hcv5E28tHMd6jQSHYwc65zib7HA=/TEST-io.quarkus.devtools.codestarts.CodestartProjectGenerationTest.xml",
+        "size": 14131,
+        "compressed": 2786,
+        "crc32": "aab8421f",
+        "offset": 2113741283,
+        "method": 8,
+        "local_path": "data/extracted/12e2ba991b73f8173ed4aa5d.xml",
+        "sha256": "b3a3995f35ea373c6accbe5652488f840e42d9aec8ddc928a51609c6711b17d8",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/quarkusindependentprojectstoolscodestarts8f7119echeckDefaultProject/result/Flaky/rounds-test-results.csv",
+    "size": 22991,
+    "compressed": 5101,
+    "crc32": "543e850b",
+    "offset": 2113590301,
+    "method": 8,
+    "local_path": "data/extracted/c33db1d4bb719e5becf8611e.csv",
+    "sha256": "07d7f06aaf7a91314f82498fe2ac4e989315897e79891e3a4a36858da98bfbb4",
+    "status": "verified"
+  },
+  "reported_failure_rows": 47,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/quarkusindependentprojectstoolscodestarts8f7119echeckDefaultProject/result/Flaky/.nondex/WqDSObBuCHrg260Hcv5E28tHMd6jQSHYwc65zib7HA=/TEST-io.quarkus.devtools.codestarts.CodestartProjectGenerationTest.xml",
+    "size": 14131,
+    "compressed": 2786,
+    "crc32": "aab8421f",
+    "offset": 2113741283,
+    "method": 8,
+    "local_path": "data/extracted/12e2ba991b73f8173ed4aa5d.xml",
+    "sha256": "b3a3995f35ea373c6accbe5652488f840e42d9aec8ddc928a51609c6711b17d8",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "checkDefaultProject",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Path:\n  target/codestarts-test/default-project/config.properties\nread with charset UTF-8 does not have the expected content:\n\nMissing content at line 1:\n  [\"foo.bar=baz\"]\n\nExtra content at line 3:\n  [\"foo.bar=baz\"]",
+    "stack_trace": "java.lang.AssertionError: \n\nPath:\n  target/codestarts-test/default-project/config.properties\nread with charset UTF-8 does not have the expected content:\n\nMissing content at line 1:\n  [\"foo.bar=baz\"]\n\nExtra content at line 3:\n  [\"foo.bar=baz\"]\n\n\tat io.quarkus.devtools.codestarts.CodestartProjectGenerationTest.checkDefaultProject(CodestartProjectGenerationTest.java:82)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "text": "java.lang.AssertionError\nPath:\n  target/codestarts-test/default-project/config.properties\nread with charset UTF-8 does not have the expected content:\n\nMissing content at line 1:\n  [\"foo.bar=baz\"]\n\nExtra content at line 3:\n  [\"foo.bar=baz\"]\njava.lang.AssertionError: \n\nPath:\n  target/codestarts-test/default-project/config.properties\nread with charset UTF-8 does not have the expected content:\n\nMissing content at line 1:\n  [\"foo.bar=baz\"]\n\nExtra content at line 3:\n  [\"foo.bar=baz\"]\n\n\tat io.quarkus.devtools.codestarts.CodestartProjectGenerationTest.checkDefaultProject(CodestartProjectGenerationTest.java:82)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "4e7e868b0847a280384888157715dd339ed088d039da963d47f080392f288647"
+}

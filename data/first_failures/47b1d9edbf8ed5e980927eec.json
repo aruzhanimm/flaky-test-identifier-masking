@@ -1,0 +1,81 @@
+{
+  "container": "graphhoppercored0b8aadputDuplicate",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "graphhoppercored0b8aadputDuplicate",
+    "project": "https://github.com/graphhopper/graphhopper",
+    "revision": "d0b8aad99945a441a909248cc08e5e8c32f536a2",
+    "test": "com.graphhopper.search.StringIndexTest.putDuplicate",
+    "label": "ID",
+    "module": "core",
+    "zip": "graphhopper=core=d0b8aad",
+    "config_row": 396,
+    "configured_test": "com.graphhopper.search.StringIndexTest#putDuplicate",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/graphhopper/graphhopper::com.graphhopper.search.StringIndexTest.putDuplicate",
+    "variant_id": "https://github.com/graphhopper/graphhopper::com.graphhopper.search.StringIndexTest.putDuplicate::d0b8aad99945a441a909248cc08e5e8c32f536a2::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/graphhoppercored0b8aadputDuplicate/result/Flaky/.nondex/tUWIjqO3T7V5QqssLfdEtWAFPcQdkKKCmeK0O1EO1Cc=/TEST-com.graphhopper.search.StringIndexTest.xml",
+        "size": 12107,
+        "compressed": 2422,
+        "crc32": "e2da57f0",
+        "offset": 1989141968,
+        "method": 8,
+        "local_path": "data/extracted/90dba0dbcb55d94c0aa08137.xml",
+        "sha256": "7f4831906518056d96414180a1b6a05b2d475979262d1b890bf7561d4daa8e90",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/graphhoppercored0b8aadputDuplicate/result/Flaky/rounds-test-results.csv",
+    "size": 17516,
+    "compressed": 4996,
+    "crc32": "941b9437",
+    "offset": 1989263142,
+    "method": 8,
+    "local_path": "data/extracted/20fa205041122fdc0ca16dec.csv",
+    "sha256": "4033c3ccbf76369e71c82897cc7eb5e85c916a324576f94788ee4d8eeb1893a8",
+    "status": "verified"
+  },
+  "reported_failure_rows": 76,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/graphhoppercored0b8aadputDuplicate/result/Flaky/.nondex/tUWIjqO3T7V5QqssLfdEtWAFPcQdkKKCmeK0O1EO1Cc=/TEST-com.graphhopper.search.StringIndexTest.xml",
+    "size": 12107,
+    "compressed": 2422,
+    "crc32": "e2da57f0",
+    "offset": 1989141968,
+    "method": 8,
+    "local_path": "data/extracted/90dba0dbcb55d94c0aa08137.xml",
+    "sha256": "7f4831906518056d96414180a1b6a05b2d475979262d1b890bf7561d4daa8e90",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "putDuplicate",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <{a=longer name, b=longer name}> but was: <{b=longer name, a=longer name}>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <{a=longer name, b=longer name}> but was: <{b=longer name, a=longer name}>\n\tat com.graphhopper.search.StringIndexTest.putDuplicate(StringIndexTest.java:122)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <{a=longer name, b=longer name}> but was: <{b=longer name, a=longer name}>\norg.opentest4j.AssertionFailedError: expected: <{a=longer name, b=longer name}> but was: <{b=longer name, a=longer name}>\n\tat com.graphhopper.search.StringIndexTest.putDuplicate(StringIndexTest.java:122)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "b3cca0b57b29f128a7c40529b6c130a8ad2a57f09ce7255a13df4ac04330ea65"
+}

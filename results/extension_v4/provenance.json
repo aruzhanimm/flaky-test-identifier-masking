@@ -1,0 +1,15 @@
+{
+  "protocol_sha256": "12011b60c5a368e5f020e2f96fdf93316ed79b672033f8f3af42af0befdcc7ae",
+  "corpus_sha256": "4fbee74d76717535e80f7c40841852784a23c1907954e8227ad2ae31f87c5127",
+  "config_sha256": "31e7bee91bd23eb569ed19129c685cfcf4b181a0e96bea390d87940f1d270c05",
+  "code": {
+    "run_extension_v4.py": "6bc7a2ffe2d8512d869bf4b7f572d26902c84aa877ab8ce72d4bfce9e26f659b",
+    "mask_components.py": "4bfe5700a5629e52bde8e28bf07182989c45f469a0ea72a6012a701967951fac",
+    "representations.py": "29ccb489daf270c6d10c18d3c51a33f5435364ca2fccc9189cb0886d4bdfbffe"
+  },
+  "python": "3.12.14",
+  "sklearn": "1.9.1",
+  "started_utc": "2026-10-15T16:03:55.638741+00:00",
+  "post_hoc": true,
+  "completed_utc": "2026-10-15T16:10:26.336895+00:00"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "liquibaseliquibasecore02ffb85testAddMultipleColumnsMySql1",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "liquibaseliquibasecore02ffb85testAddMultipleColumnsMySql1",
+    "project": "https://github.com/liquibase/liquibase",
+    "revision": "02ffb85e1028038d8c07821fe89575e70c137526",
+    "test": "liquibase.sqlgenerator.core.AddColumnGeneratorDefaultClauseBeforeNotNullTest.testAddMultipleColumnsMySql",
+    "label": "ID",
+    "module": "liquibase-core",
+    "zip": "liquibase=liquibase-core=02ffb85",
+    "config_row": 787,
+    "configured_test": "liquibase.sqlgenerator.core.AddColumnGeneratorDefaultClauseBeforeNotNullTest#testAddMultipleColumnsMySql",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/liquibase/liquibase::liquibase.sqlgenerator.core.AddColumnGeneratorDefaultClauseBeforeNotNullTest.testAddMultipleColumnsMySql",
+    "variant_id": "https://github.com/liquibase/liquibase::liquibase.sqlgenerator.core.AddColumnGeneratorDefaultClauseBeforeNotNullTest.testAddMultipleColumnsMySql::02ffb85e1028038d8c07821fe89575e70c137526::liquibase-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/liquibaseliquibasecore02ffb85testAddMultipleColumnsMySql1/result/Flaky/.nondex/bJG6++6xy1Ydu+i+yXM1JpevKypgxnWzHT65HSSk=/TEST-liquibase.sqlgenerator.core.AddColumnGeneratorDefaultClauseBeforeNotNullTest.xml",
+        "size": 12168,
+        "compressed": 2476,
+        "crc32": "f1074f31",
+        "offset": 1177617054,
+        "method": 8,
+        "local_path": "data/extracted/af1423dd6feb2e1e11e090a1.xml",
+        "sha256": "3a8fb04de900cda9869d39ea1b557aacc2afbbefc59940dd77a58a76b8e9acf9",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/liquibaseliquibasecore02ffb85testAddMultipleColumnsMySql1/result/Flaky/rounds-test-results.csv",
+    "size": 22345,
+    "compressed": 5077,
+    "crc32": "ce798ac0",
+    "offset": 1176728888,
+    "method": 8,
+    "local_path": "data/extracted/66c0422f1425a39137909917.csv",
+    "sha256": "6066e00aa20a74ddcdb5ac7e1a27f5ae87d6648b00c597b673e667741b314eac",
+    "status": "verified"
+  },
+  "reported_failure_rows": 97,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/liquibaseliquibasecore02ffb85testAddMultipleColumnsMySql1/result/Flaky/.nondex/bJG6++6xy1Ydu+i+yXM1JpevKypgxnWzHT65HSSk=/TEST-liquibase.sqlgenerator.core.AddColumnGeneratorDefaultClauseBeforeNotNullTest.xml",
+    "size": 12168,
+    "compressed": 2476,
+    "crc32": "f1074f31",
+    "offset": 1177617054,
+    "method": 8,
+    "local_path": "data/extracted/af1423dd6feb2e1e11e090a1.xml",
+    "sha256": "3a8fb04de900cda9869d39ea1b557aacc2afbbefc59940dd77a58a76b8e9acf9",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testAddMultipleColumnsMySql",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<[[DEFAULT, table_name, table_name.column1, table_name.column2]]> but was:<[[table_name.column2, table_name.column1, DEFAULT, table_name]]>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<[[DEFAULT, table_name, table_name.column1, table_name.column2]]> but was:<[[table_name.column2, table_name.column1, DEFAULT, table_name]]>",
+    "text": "org.junit.ComparisonFailure\nexpected:<[[DEFAULT, table_name, table_name.column1, table_name.column2]]> but was:<[[table_name.column2, table_name.column1, DEFAULT, table_name]]>\norg.junit.ComparisonFailure: expected:<[[DEFAULT, table_name, table_name.column1, table_name.column2]]> but was:<[[table_name.column2, table_name.column1, DEFAULT, table_name]]>",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "929038434f6095dd074e2e68c3f2528e4c9e0a0f448f903f9cf57be48a8c75ee"
+}

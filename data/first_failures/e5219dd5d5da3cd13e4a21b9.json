@@ -1,0 +1,81 @@
+{
+  "container": "tribuotestsb409ba0loaderCanReconstructSavedMultiLabel",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "tribuotestsb409ba0loaderCanReconstructSavedMultiLabel",
+    "project": "https://github.com/oracle/tribuo",
+    "revision": "b409ba0d23a4834d35c72d926b46b1854487805b",
+    "test": "org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest.loaderCanReconstructSavedMultiLabel",
+    "label": "ID",
+    "module": "tests",
+    "zip": "tribuo=tests=b409ba0",
+    "config_row": 595,
+    "configured_test": "org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest#loaderCanReconstructSavedMultiLabel",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/oracle/tribuo::org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest.loaderCanReconstructSavedMultiLabel",
+    "variant_id": "https://github.com/oracle/tribuo::org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest.loaderCanReconstructSavedMultiLabel::b409ba0d23a4834d35c72d926b46b1854487805b::tests",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/tribuotestsb409ba0loaderCanReconstructSavedMultiLabel/result/Flaky/.nondex/9xbj+XbaFHPRMgcmgwsXl1xyELYZHptVW76N7o6WuM=/TEST-org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest.xml",
+        "size": 16909,
+        "compressed": 2747,
+        "crc32": "c8c144e6",
+        "offset": 1095861294,
+        "method": 8,
+        "local_path": "data/extracted/ef47c4310734b7a1353e53dd.xml",
+        "sha256": "981a5ccee9ec333db002ea3f8c1bcd8c1ab417aa4af886e69b39377cc3102665",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/tribuotestsb409ba0loaderCanReconstructSavedMultiLabel/result/Flaky/rounds-test-results.csv",
+    "size": 18757,
+    "compressed": 4962,
+    "crc32": "ea07341e",
+    "offset": 1095680944,
+    "method": 8,
+    "local_path": "data/extracted/6faf811fb01fcf67249566b0.csv",
+    "sha256": "3be89b4583912ca356563027dbb50486d2fe98ba8ddea07a21e85301dad86f48",
+    "status": "verified"
+  },
+  "reported_failure_rows": 94,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/tribuotestsb409ba0loaderCanReconstructSavedMultiLabel/result/Flaky/.nondex/9xbj+XbaFHPRMgcmgwsXl1xyELYZHptVW76N7o6WuM=/TEST-org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest.xml",
+    "size": 16909,
+    "compressed": 2747,
+    "crc32": "c8c144e6",
+    "offset": 1095861294,
+    "method": 8,
+    "local_path": "data/extracted/ef47c4310734b7a1353e53dd.xml",
+    "sha256": "981a5ccee9ec333db002ea3f8c1bcd8c1ab417aa4af886e69b39377cc3102665",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "loaderCanReconstructSavedMultiLabel",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": null,
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <[ArrayExample(numFeatures=4,output=(LabelSet={R1}),weight=1.0,features=[(A, 1.0)(B, 2.0), (C, 3.0), (D, 4.0), ]), ArrayExample(numFeatures=4,output=(LabelSet={R2,R1}),weight=1.0,features=[(A, 6.0)(B, 7.0), (C, 8.0), (D, 9.0), ]), ArrayExample(numFeatures=4,output=(LabelSet=}),weight=1.0,features=[(A, 6.0)(B, 7.0), (C, 8.0), (D, 9.0), ]), ArrayExample(numFeatures=4,output=(LabelSet={R1}),weight=1.0,features=[(A, 2.0)(B, 5.0), (C, 3.0), (D, 4.0), ]), ArrayExample(numFeatures=4,output=(LabelSet={R2}),weight=1.0,features=[(A, 1.0)(B, 2.0), (C, 5.0), (D, 9.0), ])]> but was: <[ArrayExample(numFeatures=4,output=(LabelSet={R1}),weight=1.0,features=[(A, 2.0)(B, 3.0), (C, 1.0), (D, 4.0), ]), ArrayExample(numFeatures=4,output=(LabelSet={R2,R1}),weight=1.0,features=[(A, 7.0)(B, 8.0), (C, 6.0), (D, 9.0), ]), ArrayExample(numFeatures=4,output=(LabelSet=}),weight=1.0,features=[(A, 7.0)(B, 8.0), (C, 6.0), (D, 9.0), ]), ArrayExample(numFeatures=4,output=(LabelSet={R1}),weight=1.0,features=[(A, 5.0)(B, 3.0), (C, 2.0), (D, 4.0), ]), ArrayExample(numFeatures=4,output=(LabelSet={R2}),weight=1.0,features=[(A, 2.0)(B, 5.0), (C, 1.0), (D, 9.0), ])]>\n\tat org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest.loaderCanReconstructSavedMultiLabel(CSVSaverWithMultiOutputsTest.java:97)",
+    "text": "org.opentest4j.AssertionFailedError\norg.opentest4j.AssertionFailedError: expected: <[ArrayExample(numFeatures=4,output=(LabelSet={R1}),weight=1.0,features=[(A, 1.0)(B, 2.0), (C, 3.0), (D, 4.0), ]), ArrayExample(numFeatures=4,output=(LabelSet={R2,R1}),weight=1.0,features=[(A, 6.0)(B, 7.0), (C, 8.0), (D, 9.0), ]), ArrayExample(numFeatures=4,output=(LabelSet=}),weight=1.0,features=[(A, 6.0)(B, 7.0), (C, 8.0), (D, 9.0), ]), ArrayExample(numFeatures=4,output=(LabelSet={R1}),weight=1.0,features=[(A, 2.0)(B, 5.0), (C, 3.0), (D, 4.0), ]), ArrayExample(numFeatures=4,output=(LabelSet={R2}),weight=1.0,features=[(A, 1.0)(B, 2.0), (C, 5.0), (D, 9.0), ])]> but was: <[ArrayExample(numFeatures=4,output=(LabelSet={R1}),weight=1.0,features=[(A, 2.0)(B, 3.0), (C, 1.0), (D, 4.0), ]), ArrayExample(numFeatures=4,output=(LabelSet={R2,R1}),weight=1.0,features=[(A, 7.0)(B, 8.0), (C, 6.0), (D, 9.0), ]), ArrayExample(numFeatures=4,output=(LabelSet=}),weight=1.0,features=[(A, 7.0)(B, 8.0), (C, 6.0), (D, 9.0), ]), ArrayExample(numFeatures=4,output=(LabelSet={R1}),weight=1.0,features=[(A, 5.0)(B, 3.0), (C, 2.0), (D, 4.0), ]), ArrayExample(numFeatures=4,output=(LabelSet={R2}),weight=1.0,features=[(A, 2.0)(B, 5.0), (C, 1.0), (D, 9.0), ])]>\n\tat org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest.loaderCanReconstructSavedMultiLabel(CSVSaverWithMultiOutputsTest.java:97)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "c5a2156b8fb264a4fde380d5ffefe9b991540cf9247b9794c4b359d3705bb6bb"
+}

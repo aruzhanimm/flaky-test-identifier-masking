@@ -1,0 +1,81 @@
+{
+  "container": "FluentJPA4faabd6test1",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "FluentJPA4faabd6test1",
+    "project": "https://github.com/streamx-co/fluentjpa",
+    "revision": "4faabd6739e53db9b98630e3e348d367c92e705f",
+    "test": "co.streamx.fluent.JPA.FamilyTest.test1",
+    "label": "ID",
+    "module": ".",
+    "zip": "FluentJPA=.=4faabd6",
+    "config_row": 482,
+    "configured_test": "co.streamx.fluent.JPA.FamilyTest#test1",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/streamx-co/fluentjpa::co.streamx.fluent.JPA.FamilyTest.test1",
+    "variant_id": "https://github.com/streamx-co/fluentjpa::co.streamx.fluent.JPA.FamilyTest.test1::4faabd6739e53db9b98630e3e348d367c92e705f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/FluentJPA4faabd6test1/result/Flaky/.nondex/+75se1GcTvnKmWcwT0wT8sGHDlk3NgAK0d4Owjs6w=/TEST-co.streamx.fluent.JPA.FamilyTest.xml",
+        "size": 41858,
+        "compressed": 6869,
+        "crc32": "2f7afefd",
+        "offset": 1073100557,
+        "method": 8,
+        "local_path": "data/extracted/09efff5c12e2cce3ed31c5d6.xml",
+        "sha256": "7ddcfd80bbe6db7a21d8f5cc12872d5207bd1cfbfa130ff5a219739e8f966074",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/FluentJPA4faabd6test1/result/Flaky/rounds-test-results.csv",
+    "size": 16451,
+    "compressed": 5148,
+    "crc32": "e28da5a4",
+    "offset": 1072740291,
+    "method": 8,
+    "local_path": "data/extracted/4b773f3af8c75adf29292b3d.csv",
+    "sha256": "31ef0a2b065475134175481a69c63c18e6f5ba67b393b882ff687301cbf99da9",
+    "status": "verified"
+  },
+  "reported_failure_rows": 51,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/FluentJPA4faabd6test1/result/Flaky/.nondex/+75se1GcTvnKmWcwT0wT8sGHDlk3NgAK0d4Owjs6w=/TEST-co.streamx.fluent.JPA.FamilyTest.xml",
+    "size": 41858,
+    "compressed": 6869,
+    "crc32": "2f7afefd",
+    "offset": 1073100557,
+    "method": 8,
+    "local_path": "data/extracted/09efff5c12e2cce3ed31c5d6.xml",
+    "sha256": "7ddcfd80bbe6db7a21d8f5cc12872d5207bd1cfbfa130ff5a219739e8f966074",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test1",
+    "outcome": "error",
+    "exception_type": "org.springframework.dao.DataIntegrityViolationException",
+    "message": "could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not extract ResultSet",
+    "stack_trace": "org.springframework.dao.DataIntegrityViolationException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not extract ResultSet\n\tat co.streamx.fluent.JPA.FamilyTest.test1(FamilyTest.java:68)\nCaused by: org.hibernate.exception.DataException: could not extract ResultSet\n\tat co.streamx.fluent.JPA.FamilyTest.test1(FamilyTest.java:68)\nCaused by: org.h2.jdbc.JdbcSQLDataException: \nData conversion error converting \"S\"; SQL statement:\nSELECT t1.*\nFROM Parent t0  INNER JOIN Child t1  ON (t0.id = t1.code AND t0.\"co de\" = t1.id) [22018-199]\n\tat co.streamx.fluent.JPA.FamilyTest.test1(FamilyTest.java:68)\nCaused by: java.lang.NumberFormatException: For input string: \"S\"\n\tat co.streamx.fluent.JPA.FamilyTest.test1(FamilyTest.java:68)",
+    "text": "org.springframework.dao.DataIntegrityViolationException\ncould not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not extract ResultSet\norg.springframework.dao.DataIntegrityViolationException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not extract ResultSet\n\tat co.streamx.fluent.JPA.FamilyTest.test1(FamilyTest.java:68)\nCaused by: org.hibernate.exception.DataException: could not extract ResultSet\n\tat co.streamx.fluent.JPA.FamilyTest.test1(FamilyTest.java:68)\nCaused by: org.h2.jdbc.JdbcSQLDataException: \nData conversion error converting \"S\"; SQL statement:\nSELECT t1.*\nFROM Parent t0  INNER JOIN Child t1  ON (t0.id = t1.code AND t0.\"co de\" = t1.id) [22018-199]\n\tat co.streamx.fluent.JPA.FamilyTest.test1(FamilyTest.java:68)\nCaused by: java.lang.NumberFormatException: For input string: \"S\"\n\tat co.streamx.fluent.JPA.FamilyTest.test1(FamilyTest.java:68)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "9115fedc7a157fd03d9fb56d5ae0b4533b386c6d274314ae4d8442400de0e0d6"
+}

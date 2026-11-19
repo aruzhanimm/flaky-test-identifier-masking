@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.okta.hooks.sdk.ImportHooksTest" time="1.769" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="nondexStart" value="0"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/hooks/target/test-classes:/app/source/hooks/target/classes:/root/.m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar:/root/.m2/repository/com/google/auto/service/auto-service/1.0-rc6/auto-service-1.0-rc6.jar:/root/.m2/repository/com/google/auto/service/auto-service-annotations/1.0-rc6/auto-service-annotations-1.0-rc6.jar:/root/.m2/repository/com/google/auto/auto-common/0.10/auto-common-0.10.jar:/root/.m2/repository/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/root/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar:/root/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/root/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/root/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/root/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/root/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/root/.m2/repository/org/codehaus/groovy/groovy-templates/3.0.7/groovy-templates-3.0.7.jar:/root/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/root/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-11/lib"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="sun.java.command" value="/app/source/hooks/target/surefire/surefirebooter13050332221823938644.jar /app/source/hooks/target/surefire 2025-11-07T10-53-32_676-jvmRun1 surefire6894075750567187671tmp surefire_110781900502244391327tmp"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/app/source/hooks/target/test-classes:/app/source/hooks/target/classes:/root/.m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar:/root/.m2/repository/com/google/auto/service/auto-service/1.0-rc6/auto-service-1.0-rc6.jar:/root/.m2/repository/com/google/auto/service/auto-service-annotations/1.0-rc6/auto-service-annotations-1.0-rc6.jar:/root/.m2/repository/com/google/auto/auto-common/0.10/auto-common-0.10.jar:/root/.m2/repository/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/root/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar:/root/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/root/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/root/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/root/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/root/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/root/.m2/repository/org/codehaus/groovy/groovy-templates/3.0.7/groovy-templates-3.0.7.jar:/root/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/root/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:"/>
+    <property name="test" value="com.okta.hooks.sdk.ImportHooksTest#updateUserProfile"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="jgjlydIMAgAGHg32rp6xodKV9zsRrfFhWqTxIO2VGs="/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/openjdk-11"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="basedir" value="/app/source/hooks"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexSeed" value="974622"/>
+    <property name="surefire.real.class.path" value="/app/source/hooks/target/surefire/surefirebooter13050332221823938644.jar"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-35-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/hooks/.nondex"/>
+    <property name="nondexJarDir" value="/app/source/hooks/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="/app/source/hooks"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="license.skip" value="true"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="xml.skip" value="true"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="updateUserProfile" classname="com.okta.hooks.sdk.ImportHooksTest" time="0.457">
+    <failure message="&#10;Expected: is &quot;{\&quot;commands\&quot;:[{\&quot;type\&quot;:\&quot;com.okta.user.profile.update\&quot;,\&quot;value\&quot;:{\&quot;firstName\&quot;:\&quot;Stan\&quot;}}]}&quot;&#10;     but: was &quot;{\&quot;commands\&quot;:[{\&quot;value\&quot;:{\&quot;firstName\&quot;:\&quot;Stan\&quot;},\&quot;type\&quot;:\&quot;com.okta.user.profile.update\&quot;}]}&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: is "{\"commands\":[{\"type\":\"com.okta.user.profile.update\",\"value\":{\"firstName\":\"Stan\"}}]}"
+     but: was "{\"commands\":[{\"value\":{\"firstName\":\"Stan\"},\"type\":\"com.okta.user.profile.update\"}]}"
+	at com.okta.hooks.sdk.ImportHooksTest.updateUserProfile(ImportHooksTest.groovy:50)
+</failure>
+  </testcase>
+</testsuite>

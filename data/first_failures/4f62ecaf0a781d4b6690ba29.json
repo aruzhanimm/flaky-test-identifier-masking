@@ -1,0 +1,81 @@
+{
+  "container": "elasticjobf0d",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "elasticjobf0d",
+    "project": "https://github.com/apache/shardingsphere-elasticjob",
+    "revision": "90e3a7fb1bbb5368c7cc398fcebad7291214f6a6",
+    "test": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistSequential",
+    "label": "NIO",
+    "module": "elastic-job-lite-core",
+    "zip": "elasticjobf0d",
+    "config_row": 1053,
+    "configured_test": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest#assertPersistSequential",
+    "configured_type": "nio",
+    "iterations": "10",
+    "test_id": "https://github.com/apache/shardingsphere-elasticjob::io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistSequential",
+    "variant_id": "https://github.com/apache/shardingsphere-elasticjob::io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistSequential::90e3a7fb1bbb5368c7cc398fcebad7291214f6a6::elastic-job-lite-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/elasticjobf0d/result/Flaky/rounds-test-results.csv",
+        "size": 41046,
+        "compressed": 1679,
+        "crc32": "985da7d0",
+        "offset": 2069848653,
+        "method": 8,
+        "local_path": "data/extracted/648eae5772f308808a89b9b4.csv",
+        "sha256": "f76fea5fc7a1ca42506171ae73b8c72dd04a963841edc7bc63245789b4c96f3b",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 10,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/elasticjobf0d/result/Flaky/rounds-test-results.csv",
+    "size": 41046,
+    "compressed": 1679,
+    "crc32": "985da7d0",
+    "offset": 2069848653,
+    "method": 8,
+    "local_path": "data/extracted/648eae5772f308808a89b9b4.csv",
+    "sha256": "f76fea5fc7a1ca42506171ae73b8c72dd04a963841edc7bc63245789b4c96f3b",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10,
+  "iteration": 0,
+  "source_row": 1,
+  "diagnostic_member": {
+    "path": "result/elasticjobf0d/result/Flaky/rounds-test-results.csv",
+    "size": 41046,
+    "compressed": 1679,
+    "crc32": "985da7d0",
+    "offset": 2069848653,
+    "method": 8,
+    "local_path": "data/extracted/648eae5772f308808a89b9b4.csv",
+    "sha256": "f76fea5fc7a1ca42506171ae73b8c72dd04a963841edc7bc63245789b4c96f3b",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "nio_json",
+    "testcase_name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistSequential:1",
+    "outcome": "ERROR",
+    "exception_type": null,
+    "message": null,
+    "stack_trace": "org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\norg.junit.Assert.assertThat(Assert.java:956)\norg.junit.Assert.assertThat(Assert.java:923)\nio.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistSequential(ZookeeperRegistryCenterModifyTest.java:96)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:498)\norg.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\norg.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\norg.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\norg.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\norg.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\norg.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\norg.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\norg.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\norg.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\norg.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\norg.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\norg.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\norg.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\norg.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\norg.junit.runners.ParentRunner.run(ParentRunner.java:363)\norg.junit.runners.Suite.runChild(Suite.java:128)\norg.junit.runners.Suite.runChild(Suite.java:27)\norg.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\norg.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\norg.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\norg.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\norg.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\norg.junit.runners.ParentRunner.run(ParentRunner.java:363)\norg.junit.runner.JUnitCore.run(JUnitCore.java:137)\norg.junit.runner.JUnitCore.run(JUnitCore.java:115)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeHelper(JUnitTestExecutor.java:262)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:312)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:343)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:53)\nedu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)\nscala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)\nscala.util.Try$.apply(Try.scala:209)\nedu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)\nedu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)\nedu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)",
+    "text": "org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\norg.junit.Assert.assertThat(Assert.java:956)\norg.junit.Assert.assertThat(Assert.java:923)\nio.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistSequential(ZookeeperRegistryCenterModifyTest.java:96)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:498)\norg.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\norg.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\norg.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\norg.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\norg.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\norg.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\norg.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\norg.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\norg.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\norg.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\norg.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\norg.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\norg.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\norg.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\norg.junit.runners.ParentRunner.run(ParentRunner.java:363)\norg.junit.runners.Suite.runChild(Suite.java:128)\norg.junit.runners.Suite.runChild(Suite.java:27)\norg.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\norg.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\norg.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\norg.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\norg.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\norg.junit.runners.ParentRunner.run(ParentRunner.java:363)\norg.junit.runner.JUnitCore.run(JUnitCore.java:137)\norg.junit.runner.JUnitCore.run(JUnitCore.java:115)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeHelper(JUnitTestExecutor.java:262)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:312)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:343)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:53)\nedu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)\nscala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)\nscala.util.Try$.apply(Try.scala:209)\nedu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)\nedu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)\nedu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)",
+    "missing_exception_type": true,
+    "review_flags": []
+  },
+  "text_sha256": "44aaeeb92917ad3f7adfbc531e8444c9c642ee39399ad7ff8606e42f52740cf6"
+}

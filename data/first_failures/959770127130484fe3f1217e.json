@@ -1,0 +1,81 @@
+{
+  "container": "biojavabiojavastructure3d2cf18testSerializeStructure",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "biojavabiojavastructure3d2cf18testSerializeStructure",
+    "project": "https://github.com/biojava/biojava",
+    "revision": "3d2cf18eb13a743a332ba00f4821678422ad8f94",
+    "test": "org.biojava.nbio.structure.TestStructureSerialization.testSerializeStructure",
+    "label": "ID",
+    "module": "biojava-structure",
+    "zip": "biojava=biojava-structure=3d2cf18",
+    "config_row": 581,
+    "configured_test": "org.biojava.nbio.structure.TestStructureSerialization#testSerializeStructure",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.TestStructureSerialization.testSerializeStructure",
+    "variant_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.TestStructureSerialization.testSerializeStructure::3d2cf18eb13a743a332ba00f4821678422ad8f94::biojava-structure",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/biojavabiojavastructure3d2cf18testSerializeStructure/result/Flaky/.nondex/aAOT0+g0L1ucR49Ibei9YR2MGXXwEb2oh1UuPTnfkU=/TEST-org.biojava.nbio.structure.TestStructureSerialization.xml",
+        "size": 15272,
+        "compressed": 3099,
+        "crc32": "9cba2469",
+        "offset": 343100875,
+        "method": 8,
+        "local_path": "data/extracted/069ae90ba7dbd213c3d6f9c6.xml",
+        "sha256": "9aad18707c8bede19d0c90dc128041519785e8f1dfcbe235bb0007dcb90333f4",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/biojavabiojavastructure3d2cf18testSerializeStructure/result/Flaky/rounds-test-results.csv",
+    "size": 20356,
+    "compressed": 5058,
+    "crc32": "4cc13028",
+    "offset": 342529682,
+    "method": 8,
+    "local_path": "data/extracted/cb897bb8f2d517290776b9d7.csv",
+    "sha256": "441616c2192d8266b19d74adaf900e7c85bd7608c2a77e1b35f147bb88fa6539",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/biojavabiojavastructure3d2cf18testSerializeStructure/result/Flaky/.nondex/aAOT0+g0L1ucR49Ibei9YR2MGXXwEb2oh1UuPTnfkU=/TEST-org.biojava.nbio.structure.TestStructureSerialization.xml",
+    "size": 15272,
+    "compressed": 3099,
+    "crc32": "9cba2469",
+    "offset": 343100875,
+    "method": 8,
+    "local_path": "data/extracted/069ae90ba7dbd213c3d6f9c6.xml",
+    "sha256": "9aad18707c8bede19d0c90dc128041519785e8f1dfcbe235bb0007dcb90333f4",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testSerializeStructure",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<structure  2GOX [NrBioAssemblies: 0 BioAssemblies: {} ModDate: Tue Sep 18 00:00:00 UTC 2007 CrystallographicInfo: [P 41 - 90.94 90.94 122.24, 90.00 90.00 90.00] Title: CRYSTAL STRUCTURE OF EFB-C / C3D COMPLEX ExperimentalTechniques: [X-RAY DIFFRACTION] JournalArticle: JRNL        AUTH   M.HAMMEL,G.SFYROERA,D.RICKLIN,P.MAGOTTI,J.D.LAMBRIS,B.V.GEISBRECHT,\nJRNL        TITL   A STRUCTURAL BASIS FOR COMPLEMENT INHIBITION BY STAPHYLOCOCCUS AUREUS.\nJRNL        REF    NAT.IMMUNOL.                  V.   8   430 2007 \nJRNL        REFN                   ISSN 1529-2908\n Resolution: 2.2 Rwork: 1.0 Classification: CELL ADHESION/TOXIN Rfree: 0.231 IdCode: 2GOX Authors: M.HAMMEL,B.V.GEISBRECHT DepDate: Fri Apr 14 00:00:00 UTC 2006 RelDate: Tue Mar 20 00:00:00 UTC 2007] \n chains:\nchain 0: ...> but was:<structure  2GOX [DepDate: Fri Apr 14 00:00:00 UTC 2006 RelDate: Tue Mar 20 00:00:00 UTC 2007 BioAssemblies: {} Rfree: 0.231 ModDate: Tue Sep 18 00:00:00 UTC 2007 Resolution: 2.2 Title: CRYSTAL STRUCTURE OF EFB-C / C3D COMPLEX JournalArticle: JRNL        AUTH   M.HAMMEL,G.SFYROERA,D.RICKLIN,P.MAGOTTI,J.D.LAMBRIS,B.V.GEISBRECHT,\nJRNL        TITL   A STRUCTURAL BASIS FOR COMPLEMENT INHIBITION BY STAPHYLOCOCCUS AUREUS.\nJRNL        REF    NAT.IMMUNOL.                  V.   8   430 2007 \nJRNL        REFN                   ISSN 1529-2908\n CrystallographicInfo: [P 41 - 90.94 90.94 122.24, 90.00 90.00 90.00] Authors: M.HAMMEL,B.V.GEISBRECHT Classification: CELL ADHESION/TOXIN ExperimentalTechniques: [X-RAY DIFFRACTION] Rwork: 1.0 IdCode: 2GOX NrBioAssemblies: 0] \n chains:\nchain 0: ...>",
+    "stack_trace": "org.junit.ComparisonFailure: \nexpected:<structure  2GOX [NrBioAssemblies: 0 BioAssemblies: {} ModDate: Tue Sep 18 00:00:00 UTC 2007 CrystallographicInfo: [P 41 - 90.94 90.94 122.24, 90.00 90.00 90.00] Title: CRYSTAL STRUCTURE OF EFB-C / C3D COMPLEX ExperimentalTechniques: [X-RAY DIFFRACTION] JournalArticle: JRNL        AUTH   M.HAMMEL,G.SFYROERA,D.RICKLIN,P.MAGOTTI,J.D.LAMBRIS,B.V.GEISBRECHT,\nJRNL        TITL   A STRUCTURAL BASIS FOR COMPLEMENT INHIBITION BY STAPHYLOCOCCUS AUREUS.\nJRNL        REF    NAT.IMMUNOL.                  V.   8   430 2007 \nJRNL        REFN                   ISSN 1529-2908\n Resolution: 2.2 Rwork: 1.0 Classification: CELL ADHESION/TOXIN Rfree: 0.231 IdCode: 2GOX Authors: M.HAMMEL,B.V.GEISBRECHT DepDate: Fri Apr 14 00:00:00 UTC 2006 RelDate: Tue Mar 20 00:00:00 UTC 2007] \n chains:\nchain 0: ...> but was:<structure  2GOX [DepDate: Fri Apr 14 00:00:00 UTC 2006 RelDate: Tue Mar 20 00:00:00 UTC 2007 BioAssemblies: {} Rfree: 0.231 ModDate: Tue Sep 18 00:00:00 UTC 2007 Resolution: 2.2 Title: CRYSTAL STRUCTURE OF EFB-C / C3D COMPLEX JournalArticle: JRNL        AUTH   M.HAMMEL,G.SFYROERA,D.RICKLIN,P.MAGOTTI,J.D.LAMBRIS,B.V.GEISBRECHT,\nJRNL        TITL   A STRUCTURAL BASIS FOR COMPLEMENT INHIBITION BY STAPHYLOCOCCUS AUREUS.\nJRNL        REF    NAT.IMMUNOL.                  V.   8   430 2007 \nJRNL        REFN                   ISSN 1529-2908\n CrystallographicInfo: [P 41 - 90.94 90.94 122.24, 90.00 90.00 90.00] Authors: M.HAMMEL,B.V.GEISBRECHT Classification: CELL ADHESION/TOXIN ExperimentalTechniques: [X-RAY DIFFRACTION] Rwork: 1.0 IdCode: 2GOX NrBioAssemblies: 0] \n chains:\nchain 0: ...>\n\tat org.biojava.nbio.structure.TestStructureSerialization.testSerializeStructure(TestStructureSerialization.java:68)",
+    "text": "org.junit.ComparisonFailure\nexpected:<structure  2GOX [NrBioAssemblies: 0 BioAssemblies: {} ModDate: Tue Sep 18 00:00:00 UTC 2007 CrystallographicInfo: [P 41 - 90.94 90.94 122.24, 90.00 90.00 90.00] Title: CRYSTAL STRUCTURE OF EFB-C / C3D COMPLEX ExperimentalTechniques: [X-RAY DIFFRACTION] JournalArticle: JRNL        AUTH   M.HAMMEL,G.SFYROERA,D.RICKLIN,P.MAGOTTI,J.D.LAMBRIS,B.V.GEISBRECHT,\nJRNL        TITL   A STRUCTURAL BASIS FOR COMPLEMENT INHIBITION BY STAPHYLOCOCCUS AUREUS.\nJRNL        REF    NAT.IMMUNOL.                  V.   8   430 2007 \nJRNL        REFN                   ISSN 1529-2908\n Resolution: 2.2 Rwork: 1.0 Classification: CELL ADHESION/TOXIN Rfree: 0.231 IdCode: 2GOX Authors: M.HAMMEL,B.V.GEISBRECHT DepDate: Fri Apr 14 00:00:00 UTC 2006 RelDate: Tue Mar 20 00:00:00 UTC 2007] \n chains:\nchain 0: ...> but was:<structure  2GOX [DepDate: Fri Apr 14 00:00:00 UTC 2006 RelDate: Tue Mar 20 00:00:00 UTC 2007 BioAssemblies: {} Rfree: 0.231 ModDate: Tue Sep 18 00:00:00 UTC 2007 Resolution: 2.2 Title: CRYSTAL STRUCTURE OF EFB-C / C3D COMPLEX JournalArticle: JRNL        AUTH   M.HAMMEL,G.SFYROERA,D.RICKLIN,P.MAGOTTI,J.D.LAMBRIS,B.V.GEISBRECHT,\nJRNL        TITL   A STRUCTURAL BASIS FOR COMPLEMENT INHIBITION BY STAPHYLOCOCCUS AUREUS.\nJRNL        REF    NAT.IMMUNOL.                  V.   8   430 2007 \nJRNL        REFN                   ISSN 1529-2908\n CrystallographicInfo: [P 41 - 90.94 90.94 122.24, 90.00 90.00 90.00] Authors: M.HAMMEL,B.V.GEISBRECHT Classification: CELL ADHESION/TOXIN ExperimentalTechniques: [X-RAY DIFFRACTION] Rwork: 1.0 IdCode: 2GOX NrBioAssemblies: 0] \n chains:\nchain 0: ...>\norg.junit.ComparisonFailure: \nexpected:<structure  2GOX [NrBioAssemblies: 0 BioAssemblies: {} ModDate: Tue Sep 18 00:00:00 UTC 2007 CrystallographicInfo: [P 41 - 90.94 90.94 122.24, 90.00 90.00 90.00] Title: CRYSTAL STRUCTURE OF EFB-C / C3D COMPLEX ExperimentalTechniques: [X-RAY DIFFRACTION] JournalArticle: JRNL        AUTH   M.HAMMEL,G.SFYROERA,D.RICKLIN,P.MAGOTTI,J.D.LAMBRIS,B.V.GEISBRECHT,\nJRNL        TITL   A STRUCTURAL BASIS FOR COMPLEMENT INHIBITION BY STAPHYLOCOCCUS AUREUS.\nJRNL        REF    NAT.IMMUNOL.                  V.   8   430 2007 \nJRNL        REFN                   ISSN 1529-2908\n Resolution: 2.2 Rwork: 1.0 Classification: CELL ADHESION/TOXIN Rfree: 0.231 IdCode: 2GOX Authors: M.HAMMEL,B.V.GEISBRECHT DepDate: Fri Apr 14 00:00:00 UTC 2006 RelDate: Tue Mar 20 00:00:00 UTC 2007] \n chains:\nchain 0: ...> but was:<structure  2GOX [DepDate: Fri Apr 14 00:00:00 UTC 2006 RelDate: Tue Mar 20 00:00:00 UTC 2007 BioAssemblies: {} Rfree: 0.231 ModDate: Tue Sep 18 00:00:00 UTC 2007 Resolution: 2.2 Title: CRYSTAL STRUCTURE OF EFB-C / C3D COMPLEX JournalArticle: JRNL        AUTH   M.HAMMEL,G.SFYROERA,D.RICKLIN,P.MAGOTTI,J.D.LAMBRIS,B.V.GEISBRECHT,\nJRNL        TITL   A STRUCTURAL BASIS FOR COMPLEMENT INHIBITION BY STAPHYLOCOCCUS AUREUS.\nJRNL        REF    NAT.IMMUNOL.                  V.   8   430 2007 \nJRNL        REFN                   ISSN 1529-2908\n CrystallographicInfo: [P 41 - 90.94 90.94 122.24, 90.00 90.00 90.00] Authors: M.HAMMEL,B.V.GEISBRECHT Classification: CELL ADHESION/TOXIN ExperimentalTechniques: [X-RAY DIFFRACTION] Rwork: 1.0 IdCode: 2GOX NrBioAssemblies: 0] \n chains:\nchain 0: ...>\n\tat org.biojava.nbio.structure.TestStructureSerialization.testSerializeStructure(TestStructureSerialization.java:68)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "5242688331816bde9c2d41a9b708d5444f2c659696d0966940d586311efb16e6"
+}

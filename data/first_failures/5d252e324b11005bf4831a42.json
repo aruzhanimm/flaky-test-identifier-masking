@@ -1,0 +1,81 @@
+{
+  "container": "fastjson23070b2test_for_issue6",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "fastjson23070b2test_for_issue6",
+    "project": "https://github.com/alibaba/fastjson",
+    "revision": "23070b2ccd30c5bb3d78e735b098f835756a190a",
+    "test": "com.alibaba.json.bvt.issue_1500.Issue1584.test_for_issue",
+    "label": "ID",
+    "module": ".",
+    "zip": "fastjson=.=23070b2",
+    "config_row": 193,
+    "configured_test": "com.alibaba.json.bvt.issue_1500.Issue1584#test_for_issue",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/fastjson::com.alibaba.json.bvt.issue_1500.Issue1584.test_for_issue",
+    "variant_id": "https://github.com/alibaba/fastjson::com.alibaba.json.bvt.issue_1500.Issue1584.test_for_issue::23070b2ccd30c5bb3d78e735b098f835756a190a::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/fastjson23070b2test_for_issue6/result/Flaky/.nondex/VO30qZh1E8O9VWGmoJedMHeFrv0D7qKPOd1LM+DQGts=/TEST-com.alibaba.json.bvt.issue_1500.Issue1584.xml",
+        "size": 45134,
+        "compressed": 5777,
+        "crc32": "4ef30965",
+        "offset": 928214354,
+        "method": 8,
+        "local_path": "data/extracted/de28596eb5c73ed970964f47.xml",
+        "sha256": "fd68435db71daf63f669c8d033427ae8859f88279ffe4c60caeec05aa6cb9c67",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/fastjson23070b2test_for_issue6/result/Flaky/rounds-test-results.csv",
+    "size": 17405,
+    "compressed": 4908,
+    "crc32": "1538b0c3",
+    "offset": 928093124,
+    "method": 8,
+    "local_path": "data/extracted/f36e72a7caa37c641f40bdae.csv",
+    "sha256": "b4731d0603e9e2e588cdeed28c6c5933316295a5f3270ff8d63548de21eba8ab",
+    "status": "verified"
+  },
+  "reported_failure_rows": 50,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/fastjson23070b2test_for_issue6/result/Flaky/.nondex/VO30qZh1E8O9VWGmoJedMHeFrv0D7qKPOd1LM+DQGts=/TEST-com.alibaba.json.bvt.issue_1500.Issue1584.xml",
+    "size": 45134,
+    "compressed": 5777,
+    "crc32": "4ef30965",
+    "offset": 928214354,
+    "method": 8,
+    "local_path": "data/extracted/de28596eb5c73ed970964f47.xml",
+    "sha256": "fd68435db71daf63f669c8d033427ae8859f88279ffe4c60caeec05aa6cb9c67",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test_for_issue",
+    "outcome": "failure",
+    "exception_type": "junit.framework.AssertionFailedError",
+    "message": "expected:<v> but was:<k>",
+    "stack_trace": "junit.framework.AssertionFailedError: expected:<v> but was:<k>\n\tat com.alibaba.json.bvt.issue_1500.Issue1584.test_for_issue(Issue1584.java:23)",
+    "text": "junit.framework.AssertionFailedError\nexpected:<v> but was:<k>\njunit.framework.AssertionFailedError: expected:<v> but was:<k>\n\tat com.alibaba.json.bvt.issue_1500.Issue1584.test_for_issue(Issue1584.java:23)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "e77ebeff45628117b8b37097dd007e135915a37627c93ad2b55b8dcfcbdc165c"
+}

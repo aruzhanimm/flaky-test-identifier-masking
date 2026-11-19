@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptPreparedStatementTest" time="0.865" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="nondexStart" value="0"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/sharding-jdbc/sharding-jdbc-core/target/test-classes:/app/source/sharding-jdbc/sharding-jdbc-core/target/classes:/root/.m2/repository/org/apache/shardingsphere/sharding-core-entry/4.0.0-RC3-SNAPSHOT/sharding-core-entry-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-api/4.0.0-RC3-SNAPSHOT/sharding-core-api-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-common/4.0.0-RC3-SNAPSHOT/sharding-core-common-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/codehaus/groovy/groovy/2.4.5/groovy-2.4.5-indy.jar:/root/.m2/repository/org/yaml/snakeyaml/1.16/snakeyaml-1.16.jar:/root/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-parse-common/4.0.0-RC3-SNAPSHOT/sharding-core-parse-common-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-parse-spi/4.0.0-RC3-SNAPSHOT/sharding-core-parse-spi-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/root/.m2/repository/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-parse-sql92/4.0.0-RC3-SNAPSHOT/sharding-core-parse-sql92-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-parse-mysql/4.0.0-RC3-SNAPSHOT/sharding-core-parse-mysql-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-parse-postgresql/4.0.0-RC3-SNAPSHOT/sharding-core-parse-postgresql-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-parse-oracle/4.0.0-RC3-SNAPSHOT/sharding-core-parse-oracle-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-parse-sqlserver/4.0.0-RC3-SNAPSHOT/sharding-core-parse-sqlserver-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-preprocessor/4.0.0-RC3-SNAPSHOT/sharding-core-preprocessor-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-route/4.0.0-RC3-SNAPSHOT/sharding-core-route-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-rewrite/4.0.0-RC3-SNAPSHOT/sharding-core-rewrite-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-execute/4.0.0-RC3-SNAPSHOT/sharding-core-execute-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-merge/4.0.0-RC3-SNAPSHOT/sharding-core-merge-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-transaction-core/4.0.0-RC3-SNAPSHOT/sharding-transaction-core-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-sql-test/4.0.0-RC3-SNAPSHOT/sharding-sql-test-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/com/zaxxer/HikariCP-java7/2.4.11/HikariCP-java7-2.4.11.jar:/root/.m2/repository/org/apache/commons/commons-dbcp2/2.2.0/commons-dbcp2-2.2.0.jar:/root/.m2/repository/org/apache/commons/commons-pool2/2.5.0/commons-pool2-2.5.0.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/commons-pool/commons-pool/1.6/commons-pool-1.6.jar:/root/.m2/repository/com/h2database/h2/1.4.196/h2-1.4.196.jar:/root/.m2/repository/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar:/root/.m2/repository/org/postgresql/postgresql/42.2.5/postgresql-42.2.5.jar:/root/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/6.1.7.jre7-preview/mssql-jdbc-6.1.7.jre7-preview.jar:/root/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar:/root/.m2/repository/org/projectlombok/lombok/1.16.4/lombok-1.16.4.jar:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/root/.m2/repository/org/mockito/mockito-core/2.7.21/mockito-core-2.7.21.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11.jar:/root/.m2/repository/org/objenesis/objenesis/2.5/objenesis-2.5.jar:/root/.m2/repository/org/mockito/mockito-inline/2.7.21/mockito-inline-2.7.21.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.0/logback-classic-1.2.0.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.0/logback-core-1.2.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="user.timezone" value=""/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-8/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/app/source/sharding-jdbc/sharding-jdbc-core/target/surefire/surefirebooter2982592607177646922.jar /app/source/sharding-jdbc/sharding-jdbc-core/target/surefire 2025-11-09T20-07-52_534-jvmRun1 surefire5692301720964448196tmp surefire_15738152306858573933tmp"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="test" value="org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptPreparedStatementTest#assertInsertWithBatchExecute"/>
+    <property name="surefire.test.class.path" value="/app/source/sharding-jdbc/sharding-jdbc-core/target/test-classes:/app/source/sharding-jdbc/sharding-jdbc-core/target/classes:/root/.m2/repository/org/apache/shardingsphere/sharding-core-entry/4.0.0-RC3-SNAPSHOT/sharding-core-entry-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-api/4.0.0-RC3-SNAPSHOT/sharding-core-api-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-common/4.0.0-RC3-SNAPSHOT/sharding-core-common-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/codehaus/groovy/groovy/2.4.5/groovy-2.4.5-indy.jar:/root/.m2/repository/org/yaml/snakeyaml/1.16/snakeyaml-1.16.jar:/root/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-parse-common/4.0.0-RC3-SNAPSHOT/sharding-core-parse-common-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-parse-spi/4.0.0-RC3-SNAPSHOT/sharding-core-parse-spi-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/root/.m2/repository/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-parse-sql92/4.0.0-RC3-SNAPSHOT/sharding-core-parse-sql92-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-parse-mysql/4.0.0-RC3-SNAPSHOT/sharding-core-parse-mysql-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-parse-postgresql/4.0.0-RC3-SNAPSHOT/sharding-core-parse-postgresql-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-parse-oracle/4.0.0-RC3-SNAPSHOT/sharding-core-parse-oracle-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-parse-sqlserver/4.0.0-RC3-SNAPSHOT/sharding-core-parse-sqlserver-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-preprocessor/4.0.0-RC3-SNAPSHOT/sharding-core-preprocessor-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-route/4.0.0-RC3-SNAPSHOT/sharding-core-route-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-rewrite/4.0.0-RC3-SNAPSHOT/sharding-core-rewrite-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-execute/4.0.0-RC3-SNAPSHOT/sharding-core-execute-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-core-merge/4.0.0-RC3-SNAPSHOT/sharding-core-merge-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-transaction-core/4.0.0-RC3-SNAPSHOT/sharding-transaction-core-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/org/apache/shardingsphere/sharding-sql-test/4.0.0-RC3-SNAPSHOT/sharding-sql-test-4.0.0-RC3-SNAPSHOT.jar:/root/.m2/repository/com/zaxxer/HikariCP-java7/2.4.11/HikariCP-java7-2.4.11.jar:/root/.m2/repository/org/apache/commons/commons-dbcp2/2.2.0/commons-dbcp2-2.2.0.jar:/root/.m2/repository/org/apache/commons/commons-pool2/2.5.0/commons-pool2-2.5.0.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/commons-pool/commons-pool/1.6/commons-pool-1.6.jar:/root/.m2/repository/com/h2database/h2/1.4.196/h2-1.4.196.jar:/root/.m2/repository/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar:/root/.m2/repository/org/postgresql/postgresql/42.2.5/postgresql-42.2.5.jar:/root/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/6.1.7.jre7-preview/mssql-jdbc-6.1.7.jre7-preview.jar:/root/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar:/root/.m2/repository/org/projectlombok/lombok/1.16.4/lombok-1.16.4.jar:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/root/.m2/repository/org/mockito/mockito-core/2.7.21/mockito-core-2.7.21.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11.jar:/root/.m2/repository/org/objenesis/objenesis/2.5/objenesis-2.5.jar:/root/.m2/repository/org/mockito/mockito-inline/2.7.21/mockito-inline-2.7.21.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.0/logback-classic-1.2.0.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.0/logback-core-1.2.0.jar:"/>
+    <property name="nondexExecid" value="CjI2uxwORFZ7SfabGjq7VgkVP5w+CJ1S1NcIDYWVFik="/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/local/openjdk-8/jre"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/app/source/sharding-jdbc/sharding-jdbc-core"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="1057510"/>
+    <property name="surefire.real.class.path" value="/app/source/sharding-jdbc/sharding-jdbc-core/target/surefire/surefirebooter2982592607177646922.jar"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="sun.boot.class.path" value="/app/source/sharding-jdbc/sharding-jdbc-core/.nondex/nondex-instr.jar:/root/.m2/repository/edu/illinois/nondex-common/2.1.1/nondex-common-2.1.1.jar:/root/.m2/repository/edu/illinois/nondex-annotations/2.1.1/nondex-annotations-2.1.1.jar:/usr/local/openjdk-8/jre/lib/resources.jar:/usr/local/openjdk-8/jre/lib/rt.jar:/usr/local/openjdk-8/jre/lib/sunrsasign.jar:/usr/local/openjdk-8/jre/lib/jsse.jar:/usr/local/openjdk-8/jre/lib/jce.jar:/usr/local/openjdk-8/jre/lib/charsets.jar:/usr/local/openjdk-8/jre/lib/jfr.jar:/usr/local/openjdk-8/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="java.runtime.version" value="1.8.0_342-b07"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-35-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.endorsed.dirs" value="/usr/local/openjdk-8/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/sharding-jdbc/sharding-jdbc-core/.nondex"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="nondexJarDir" value="/app/source/sharding-jdbc/sharding-jdbc-core/.nondex"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_342"/>
+    <property name="user.dir" value="/app/source/sharding-jdbc/sharding-jdbc-core"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="license.skip" value="true"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="xml.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="25.342-b07"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="java.ext.dirs" value="/usr/local/openjdk-8/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="assertInsertWithBatchExecute" classname="org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptPreparedStatementTest" time="0.863">
+    <failure message="&#10;Expected: is &lt;4&gt;&#10;     but: was &lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is <4>
+     but: was <0>
+	at org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptPreparedStatementTest.assertResultSet(EncryptPreparedStatementTest.java:163)
+	at org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptPreparedStatementTest.assertInsertWithBatchExecute(EncryptPreparedStatementTest.java:76)
+]]></failure>
+  </testcase>
+</testsuite>

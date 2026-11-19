@@ -1,0 +1,37 @@
+{
+  "container": "CAMEL-15580",
+  "metadata": {
+    "source": "JIRA",
+    "container": "CAMEL-15580",
+    "project": "https://github.com/apache/camel",
+    "revision": "d76b079b8b3bff99b6ea822aa4d15c90e1fc221c",
+    "test": "org.apache.camel.component.sjms.batch.SjmsBatchConsumerTest.testConsumption",
+    "label": "TD",
+    "module": "components/camel-sjms",
+    "zip": "CAMEL-15580",
+    "config_row": 1098,
+    "configured_test": "org.apache.camel.component.sjms.batch.SjmsBatchConsumerTest#testConsumption",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/camel::org.apache.camel.component.sjms.batch.SjmsBatchConsumerTest.testConsumption",
+    "variant_id": "https://github.com/apache/camel::org.apache.camel.component.sjms.batch.SjmsBatchConsumerTest.testConsumption::d76b079b8b3bff99b6ea822aa4d15c90e1fc221c::components/camel-sjms",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/CAMEL-15580/result/Flaky/rounds-test-results.csv",
+    "size": 20677,
+    "compressed": 769,
+    "crc32": "151ad4d0",
+    "offset": 83255764,
+    "method": 8,
+    "local_path": "data/extracted/d71c12032f01d3f59cdc09fe.csv",
+    "sha256": "6b3c8cb74ea116673156b9377a4ca2062dc90d5dbcbb40b4aaf50d7cb396fdb0",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

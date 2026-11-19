@@ -1,0 +1,81 @@
+{
+  "container": "incubatorstreampipesstreampipesconnect0d97124parseEventParkingFaciltyStatus",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "incubatorstreampipesstreampipesconnect0d97124parseEventParkingFaciltyStatus",
+    "project": "https://github.com/apache/incubator-streampipes",
+    "revision": "0d9712477bbcbf007dc2f7c53c23a311efee4d26",
+    "test": "org.apache.streampipes.connect.adapter.format.json.xml.XmlTest.parseEventParkingFaciltyStatus",
+    "label": "ID",
+    "module": "streampipes-connect",
+    "zip": "incubator-streampipes=streampipes-connect=0d97124",
+    "config_row": 269,
+    "configured_test": "org.apache.streampipes.connect.adapter.format.json.xml.XmlTest#parseEventParkingFaciltyStatus",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/incubator-streampipes::org.apache.streampipes.connect.adapter.format.json.xml.XmlTest.parseEventParkingFaciltyStatus",
+    "variant_id": "https://github.com/apache/incubator-streampipes::org.apache.streampipes.connect.adapter.format.json.xml.XmlTest.parseEventParkingFaciltyStatus::0d9712477bbcbf007dc2f7c53c23a311efee4d26::streampipes-connect",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/incubatorstreampipesstreampipesconnect0d97124parseEventParkingFaciltyStatus/result/Flaky/.nondex/WLQS4ZAtYNlXoFjHce4kctFUmGtqKtCrfBV4VvLct0k=/TEST-org.apache.streampipes.connect.adapter.format.json.xml.XmlTest.xml",
+        "size": 36182,
+        "compressed": 5242,
+        "crc32": "9eee86dc",
+        "offset": 274671887,
+        "method": 8,
+        "local_path": "data/extracted/abb0328c440a80ae4fd28d83.xml",
+        "sha256": "90217ca1ca1a78ce246d67b126eb4422ccc4afaae88626832f9f5435dbe2aec3",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/incubatorstreampipesstreampipesconnect0d97124parseEventParkingFaciltyStatus/result/Flaky/rounds-test-results.csv",
+    "size": 21467,
+    "compressed": 5092,
+    "crc32": "0690fa57",
+    "offset": 274465336,
+    "method": 8,
+    "local_path": "data/extracted/e0c43c28f19d4142175cffaa.csv",
+    "sha256": "6603430ff34520188b18e38eefeb21a2130c62d91ded59b99c100594185a111f",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/incubatorstreampipesstreampipesconnect0d97124parseEventParkingFaciltyStatus/result/Flaky/.nondex/WLQS4ZAtYNlXoFjHce4kctFUmGtqKtCrfBV4VvLct0k=/TEST-org.apache.streampipes.connect.adapter.format.json.xml.XmlTest.xml",
+    "size": 36182,
+    "compressed": 5242,
+    "crc32": "9eee86dc",
+    "offset": 274671887,
+    "method": 8,
+    "local_path": "data/extracted/abb0328c440a80ae4fd28d83.xml",
+    "sha256": "90217ca1ca1a78ce246d67b126eb4422ccc4afaae88626832f9f5435dbe2aec3",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "parseEventParkingFaciltyStatus",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<{\"[parkingAreaReference\":{\"targetClass\":\"ParkingArea\",\"id\":\"1001[Stadtmitte]\",\"version\":1.0},\"totalParkingCapacityLongTermOverride\":3376,\"parkingAreaTotalNumberOfVacantParkingSpaces\":1268,\"totalParkingCapacityShortTermOverride\":3376,\"parkingAreaOccupancy\":0.6244076,\"parkingAreaStatusTime\":\"2018-07-25T13:17:00.087+02:00\"]}> but was:<{\"[totalParkingCapacityLongTermOverride\":3376,\"totalParkingCapacityShortTermOverride\":3376,\"parkingAreaStatusTime\":\"2018-07-25T13:17:00.087+02:00\",\"parkingAreaTotalNumberOfVacantParkingSpaces\":1268,\"parkingAreaReference\":{\"version\":1.0,\"id\":\"1001[Stadtmitte]\",\"targetClass\":\"ParkingArea\"},\"parkingAreaOccupancy\":0.6244076]}>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<{\"[parkingAreaReference\":{\"targetClass\":\"ParkingArea\",\"id\":\"1001[Stadtmitte]\",\"version\":1.0},\"totalParkingCapacityLongTermOverride\":3376,\"parkingAreaTotalNumberOfVacantParkingSpaces\":1268,\"totalParkingCapacityShortTermOverride\":3376,\"parkingAreaOccupancy\":0.6244076,\"parkingAreaStatusTime\":\"2018-07-25T13:17:00.087+02:00\"]}> but was:<{\"[totalParkingCapacityLongTermOverride\":3376,\"totalParkingCapacityShortTermOverride\":3376,\"parkingAreaStatusTime\":\"2018-07-25T13:17:00.087+02:00\",\"parkingAreaTotalNumberOfVacantParkingSpaces\":1268,\"parkingAreaReference\":{\"version\":1.0,\"id\":\"1001[Stadtmitte]\",\"targetClass\":\"ParkingArea\"},\"parkingAreaOccupancy\":0.6244076]}>\n\tat org.apache.streampipes.connect.adapter.format.json.xml.XmlTest.parseEventParkingFaciltyStatus(XmlTest.java:66)",
+    "text": "org.junit.ComparisonFailure\nexpected:<{\"[parkingAreaReference\":{\"targetClass\":\"ParkingArea\",\"id\":\"1001[Stadtmitte]\",\"version\":1.0},\"totalParkingCapacityLongTermOverride\":3376,\"parkingAreaTotalNumberOfVacantParkingSpaces\":1268,\"totalParkingCapacityShortTermOverride\":3376,\"parkingAreaOccupancy\":0.6244076,\"parkingAreaStatusTime\":\"2018-07-25T13:17:00.087+02:00\"]}> but was:<{\"[totalParkingCapacityLongTermOverride\":3376,\"totalParkingCapacityShortTermOverride\":3376,\"parkingAreaStatusTime\":\"2018-07-25T13:17:00.087+02:00\",\"parkingAreaTotalNumberOfVacantParkingSpaces\":1268,\"parkingAreaReference\":{\"version\":1.0,\"id\":\"1001[Stadtmitte]\",\"targetClass\":\"ParkingArea\"},\"parkingAreaOccupancy\":0.6244076]}>\norg.junit.ComparisonFailure: expected:<{\"[parkingAreaReference\":{\"targetClass\":\"ParkingArea\",\"id\":\"1001[Stadtmitte]\",\"version\":1.0},\"totalParkingCapacityLongTermOverride\":3376,\"parkingAreaTotalNumberOfVacantParkingSpaces\":1268,\"totalParkingCapacityShortTermOverride\":3376,\"parkingAreaOccupancy\":0.6244076,\"parkingAreaStatusTime\":\"2018-07-25T13:17:00.087+02:00\"]}> but was:<{\"[totalParkingCapacityLongTermOverride\":3376,\"totalParkingCapacityShortTermOverride\":3376,\"parkingAreaStatusTime\":\"2018-07-25T13:17:00.087+02:00\",\"parkingAreaTotalNumberOfVacantParkingSpaces\":1268,\"parkingAreaReference\":{\"version\":1.0,\"id\":\"1001[Stadtmitte]\",\"targetClass\":\"ParkingArea\"},\"parkingAreaOccupancy\":0.6244076]}>\n\tat org.apache.streampipes.connect.adapter.format.json.xml.XmlTest.parseEventParkingFaciltyStatus(XmlTest.java:66)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "47251e6f548de7879d9e0284253946b342ab94e3c582c1ae106f7ac2584484cc"
+}

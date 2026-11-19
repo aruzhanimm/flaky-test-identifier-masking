@@ -1,0 +1,129 @@
+{
+  "selection": "Lexicographically first sample_id in each available change direction; no best-case selection",
+  "caution": "Linear score associations conditional on separately trained representations; not causal root-cause explanations. Changing both training and test representations changes vocabulary, IDF and coefficients.",
+  "counts": {
+    "improved": 0,
+    "harmed": 56,
+    "wrong_to_wrong": 0
+  },
+  "examples": [
+    {
+      "sample_id": "00b3436c286909c30a113235",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject21",
+      "direction": "harmed",
+      "true_label": "ID",
+      "predictions": {
+        "original": "ID",
+        "masked": "TD",
+        "majority": "ID",
+        "source_format": "ID"
+      },
+      "conditions": {
+        "original": {
+          "class_scores": {
+            "ID": 0.9067062663792125,
+            "NIO": -0.9878740340437222,
+            "OD": -0.7842300393398018,
+            "TD": 0.8653978070042921
+          },
+          "contrast": "TD minus ID",
+          "intercept_contrast": -2.413672930269417,
+          "largest_feature_contributions": [
+            {
+              "token": "failontimeout",
+              "contribution": 0.2782178183648894
+            },
+            {
+              "token": "concurrent",
+              "contribution": 0.1469275079264423
+            },
+            {
+              "token": "util concurrent",
+              "contribution": 0.1469275079264423
+            },
+            {
+              "token": "call failontimeout",
+              "contribution": 0.14006393852361446
+            },
+            {
+              "token": "callablestatement",
+              "contribution": 0.14006393852361446
+            },
+            {
+              "token": "callablestatement call",
+              "contribution": 0.14006393852361446
+            },
+            {
+              "token": "failontimeout callablestatement",
+              "contribution": 0.14006393852361446
+            },
+            {
+              "token": "failontimeout java",
+              "contribution": 0.14006393852361446
+            },
+            {
+              "token": "statements failontimeout",
+              "contribution": 0.14006393852361446
+            },
+            {
+              "token": "base",
+              "contribution": -0.12569689892977803
+            }
+          ]
+        },
+        "masked": {
+          "class_scores": {
+            "ID": 0.8993651607318516,
+            "NIO": -1.0473322609908382,
+            "OD": -0.8373890599160942,
+            "TD": 0.9853561601750636
+          },
+          "contrast": "TD minus ID",
+          "intercept_contrast": -2.384230742731417,
+          "largest_feature_contributions": [
+            {
+              "token": "failontimeout",
+              "contribution": 0.3038414728786298
+            },
+            {
+              "token": "concurrent",
+              "contribution": 0.15501418870250427
+            },
+            {
+              "token": "util concurrent",
+              "contribution": 0.15501418870250427
+            },
+            {
+              "token": "call failontimeout",
+              "contribution": 0.15296372327376254
+            },
+            {
+              "token": "callablestatement",
+              "contribution": 0.15296372327376254
+            },
+            {
+              "token": "callablestatement call",
+              "contribution": 0.15296372327376254
+            },
+            {
+              "token": "failontimeout callablestatement",
+              "contribution": 0.15296372327376254
+            },
+            {
+              "token": "failontimeout java",
+              "contribution": 0.15296372327376254
+            },
+            {
+              "token": "statements failontimeout",
+              "contribution": 0.15296372327376254
+            },
+            {
+              "token": "base",
+              "contribution": -0.13410897671634486
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

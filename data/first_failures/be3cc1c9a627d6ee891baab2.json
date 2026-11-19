@@ -1,0 +1,81 @@
+{
+  "container": "hopcoreda53373testStoreLoadMetaInJson",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "hopcoreda53373testStoreLoadMetaInJson",
+    "project": "https://github.com/apache/hop",
+    "revision": "da533730a38671c64548789e91265c6900ae67a6",
+    "test": "org.apache.hop.core.row.value.ValueMetaAvroRecordTest.testStoreLoadMetaInJson",
+    "label": "ID",
+    "module": "core",
+    "zip": "hop=core=da53373",
+    "config_row": 398,
+    "configured_test": "org.apache.hop.core.row.value.ValueMetaAvroRecordTest#testStoreLoadMetaInJson",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hop::org.apache.hop.core.row.value.ValueMetaAvroRecordTest.testStoreLoadMetaInJson",
+    "variant_id": "https://github.com/apache/hop::org.apache.hop.core.row.value.ValueMetaAvroRecordTest.testStoreLoadMetaInJson::da533730a38671c64548789e91265c6900ae67a6::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/hopcoreda53373testStoreLoadMetaInJson/result/Flaky/.nondex/PBiivfCnrmtCSKpCPQedbDwjrNmsqfSsj4UqfWMJGQ=/TEST-org.apache.hop.core.row.value.ValueMetaAvroRecordTest.xml",
+        "size": 21283,
+        "compressed": 3538,
+        "crc32": "0cc2366a",
+        "offset": 1994488766,
+        "method": 8,
+        "local_path": "data/extracted/a81d2aa7acd4ef0858e038a7.xml",
+        "sha256": "e17847acbb36829eac58e7fed31bc30f6b35118240a55ba181a6750274419886",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/hopcoreda53373testStoreLoadMetaInJson/result/Flaky/rounds-test-results.csv",
+    "size": 19074,
+    "compressed": 5061,
+    "crc32": "24601ad9",
+    "offset": 1994324010,
+    "method": 8,
+    "local_path": "data/extracted/e42f2ee4cd4ea9fdcfded19c.csv",
+    "sha256": "a5e864977ff4b72159a5223f688d6dbbd6bcb928774cf23f3df8abcaadd7ef61",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/hopcoreda53373testStoreLoadMetaInJson/result/Flaky/.nondex/PBiivfCnrmtCSKpCPQedbDwjrNmsqfSsj4UqfWMJGQ=/TEST-org.apache.hop.core.row.value.ValueMetaAvroRecordTest.xml",
+    "size": 21283,
+    "compressed": 3538,
+    "crc32": "0cc2366a",
+    "offset": 1994488766,
+    "method": 8,
+    "local_path": "data/extracted/a81d2aa7acd4ef0858e038a7.xml",
+    "sha256": "e17847acbb36829eac58e7fed31bc30f6b35118240a55ba181a6750274419886",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testStoreLoadMetaInJson",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<{\"[schema\":{\"name\":\"all_values\",\"namespace\":\"hop.apache.org\",\"doc\":\"No documentation URL for now\",\"type\":\"record\",\"fields\":[{\"name\":\"id\",\"type\":[\"long\",\"null\"]},{\"name\":\"sysdate\",\"type\":[\"string\",\"null\"]},{\"name\":\"num\",\"type\":[\"double\",\"null\"]},{\"name\":\"int\",\"type\":[\"long\",\"null\"]},{\"name\":\"str\",\"type\":[\"string\",\"null\"]},{\"name\":\"uuid\",\"type\":[\"string\",\"null\"]}]},\"precision\":-1,\"name\":\"test\",\"length\":-1,\"conversionMask\":null,\"type\":20]}> but was:<{\"[conversionMask\":null,\"name\":\"test\",\"schema\":{\"name\":\"all_values\",\"doc\":\"No documentation URL for now\",\"namespace\":\"hop.apache.org\",\"type\":\"record\",\"fields\":[{\"name\":\"id\",\"type\":[\"long\",\"null\"]},{\"type\":[\"string\",\"null\"],\"name\":\"sysdate\"},{\"name\":\"num\",\"type\":[\"double\",\"null\"]},{\"type\":[\"long\",\"null\"],\"name\":\"int\"},{\"type\":[\"string\",\"null\"],\"name\":\"str\"},{\"type\":[\"string\",\"null\"],\"name\":\"uuid\"}]},\"precision\":-1,\"type\":20,\"length\":-1]}>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<{\"[schema\":{\"name\":\"all_values\",\"namespace\":\"hop.apache.org\",\"doc\":\"No documentation URL for now\",\"type\":\"record\",\"fields\":[{\"name\":\"id\",\"type\":[\"long\",\"null\"]},{\"name\":\"sysdate\",\"type\":[\"string\",\"null\"]},{\"name\":\"num\",\"type\":[\"double\",\"null\"]},{\"name\":\"int\",\"type\":[\"long\",\"null\"]},{\"name\":\"str\",\"type\":[\"string\",\"null\"]},{\"name\":\"uuid\",\"type\":[\"string\",\"null\"]}]},\"precision\":-1,\"name\":\"test\",\"length\":-1,\"conversionMask\":null,\"type\":20]}> but was:<{\"[conversionMask\":null,\"name\":\"test\",\"schema\":{\"name\":\"all_values\",\"doc\":\"No documentation URL for now\",\"namespace\":\"hop.apache.org\",\"type\":\"record\",\"fields\":[{\"name\":\"id\",\"type\":[\"long\",\"null\"]},{\"type\":[\"string\",\"null\"],\"name\":\"sysdate\"},{\"name\":\"num\",\"type\":[\"double\",\"null\"]},{\"type\":[\"long\",\"null\"],\"name\":\"int\"},{\"type\":[\"string\",\"null\"],\"name\":\"str\"},{\"type\":[\"string\",\"null\"],\"name\":\"uuid\"}]},\"precision\":-1,\"type\":20,\"length\":-1]}>\n\tat org.apache.hop.core.row.value.ValueMetaAvroRecordTest.testStoreLoadMetaInJson(ValueMetaAvroRecordTest.java:171)",
+    "text": "org.junit.ComparisonFailure\nexpected:<{\"[schema\":{\"name\":\"all_values\",\"namespace\":\"hop.apache.org\",\"doc\":\"No documentation URL for now\",\"type\":\"record\",\"fields\":[{\"name\":\"id\",\"type\":[\"long\",\"null\"]},{\"name\":\"sysdate\",\"type\":[\"string\",\"null\"]},{\"name\":\"num\",\"type\":[\"double\",\"null\"]},{\"name\":\"int\",\"type\":[\"long\",\"null\"]},{\"name\":\"str\",\"type\":[\"string\",\"null\"]},{\"name\":\"uuid\",\"type\":[\"string\",\"null\"]}]},\"precision\":-1,\"name\":\"test\",\"length\":-1,\"conversionMask\":null,\"type\":20]}> but was:<{\"[conversionMask\":null,\"name\":\"test\",\"schema\":{\"name\":\"all_values\",\"doc\":\"No documentation URL for now\",\"namespace\":\"hop.apache.org\",\"type\":\"record\",\"fields\":[{\"name\":\"id\",\"type\":[\"long\",\"null\"]},{\"type\":[\"string\",\"null\"],\"name\":\"sysdate\"},{\"name\":\"num\",\"type\":[\"double\",\"null\"]},{\"type\":[\"long\",\"null\"],\"name\":\"int\"},{\"type\":[\"string\",\"null\"],\"name\":\"str\"},{\"type\":[\"string\",\"null\"],\"name\":\"uuid\"}]},\"precision\":-1,\"type\":20,\"length\":-1]}>\norg.junit.ComparisonFailure: expected:<{\"[schema\":{\"name\":\"all_values\",\"namespace\":\"hop.apache.org\",\"doc\":\"No documentation URL for now\",\"type\":\"record\",\"fields\":[{\"name\":\"id\",\"type\":[\"long\",\"null\"]},{\"name\":\"sysdate\",\"type\":[\"string\",\"null\"]},{\"name\":\"num\",\"type\":[\"double\",\"null\"]},{\"name\":\"int\",\"type\":[\"long\",\"null\"]},{\"name\":\"str\",\"type\":[\"string\",\"null\"]},{\"name\":\"uuid\",\"type\":[\"string\",\"null\"]}]},\"precision\":-1,\"name\":\"test\",\"length\":-1,\"conversionMask\":null,\"type\":20]}> but was:<{\"[conversionMask\":null,\"name\":\"test\",\"schema\":{\"name\":\"all_values\",\"doc\":\"No documentation URL for now\",\"namespace\":\"hop.apache.org\",\"type\":\"record\",\"fields\":[{\"name\":\"id\",\"type\":[\"long\",\"null\"]},{\"type\":[\"string\",\"null\"],\"name\":\"sysdate\"},{\"name\":\"num\",\"type\":[\"double\",\"null\"]},{\"type\":[\"long\",\"null\"],\"name\":\"int\"},{\"type\":[\"string\",\"null\"],\"name\":\"str\"},{\"type\":[\"string\",\"null\"],\"name\":\"uuid\"}]},\"precision\":-1,\"type\":20,\"length\":-1]}>\n\tat org.apache.hop.core.row.value.ValueMetaAvroRecordTest.testStoreLoadMetaInJson(ValueMetaAvroRecordTest.java:171)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "90e70865a9f53723104763d99f58b392ace27f501f7396b263712c44792777a0"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "snakeyamlengine9d2bca8loadRecursiveMap2",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "snakeyamlengine9d2bca8loadRecursiveMap2",
+    "project": "https://github.com/snakeyaml/snakeyaml-engine",
+    "revision": "9d2bca887ad1be7575bae2e427d074e2c49ff109",
+    "test": "org.snakeyaml.engine.usecases.recursive.RecursiveMapTest.loadRecursiveMap2",
+    "label": "ID",
+    "module": ".",
+    "zip": "snakeyaml-engine=.=9d2bca8",
+    "config_row": 694,
+    "configured_test": "org.snakeyaml.engine.usecases.recursive.RecursiveMapTest#loadRecursiveMap2",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/snakeyaml/snakeyaml-engine::org.snakeyaml.engine.usecases.recursive.RecursiveMapTest.loadRecursiveMap2",
+    "variant_id": "https://github.com/snakeyaml/snakeyaml-engine::org.snakeyaml.engine.usecases.recursive.RecursiveMapTest.loadRecursiveMap2::9d2bca887ad1be7575bae2e427d074e2c49ff109::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/snakeyamlengine9d2bca8loadRecursiveMap2/result/Flaky/.nondex/X66McPQ4NyFmbJ2CUHFq4KcPZals4tfitRZ8oej4eiY=/TEST-org.snakeyaml.engine.usecases.recursive.RecursiveMapTest.xml",
+        "size": 8982,
+        "compressed": 2122,
+        "crc32": "9aee3a92",
+        "offset": 2218339065,
+        "method": 8,
+        "local_path": "data/extracted/4172afa8d3637f37271a2e2c.xml",
+        "sha256": "bfb3525fed6cb3fe4cab1e49710440b6dcdf58ed201c026677e6e24078aff139",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/snakeyamlengine9d2bca8loadRecursiveMap2/result/Flaky/rounds-test-results.csv",
+    "size": 18950,
+    "compressed": 5042,
+    "crc32": "b712dc16",
+    "offset": 2217791606,
+    "method": 8,
+    "local_path": "data/extracted/2a527172491afb076c6fb00b.csv",
+    "sha256": "93ad9df489caa3ca3057e69735a31d975d36066e432b0d2d5e019bae7c818861",
+    "status": "verified"
+  },
+  "reported_failure_rows": 68,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/snakeyamlengine9d2bca8loadRecursiveMap2/result/Flaky/.nondex/X66McPQ4NyFmbJ2CUHFq4KcPZals4tfitRZ8oej4eiY=/TEST-org.snakeyaml.engine.usecases.recursive.RecursiveMapTest.xml",
+    "size": 8982,
+    "compressed": 2122,
+    "crc32": "9aee3a92",
+    "offset": 2218339065,
+    "method": 8,
+    "local_path": "data/extracted/4172afa8d3637f37271a2e2c.xml",
+    "sha256": "bfb3525fed6cb3fe4cab1e49710440b6dcdf58ed201c026677e6e24078aff139",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "loadRecursiveMap2",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <&id001\nnext:\n  next: *id001\n  name: second\nname: first\n> but was: <&id001\nname: first\nnext:\n  next: *id001\n  name: second\n>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: \nexpected: <&id001\nnext:\n  next: *id001\n  name: second\nname: first\n> but was: <&id001\nname: first\nnext:\n  next: *id001\n  name: second\n>\n\tat org.snakeyaml.engine.usecases.recursive.RecursiveMapTest.loadRecursiveMap2(RecursiveMapTest.java:58)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <&id001\nnext:\n  next: *id001\n  name: second\nname: first\n> but was: <&id001\nname: first\nnext:\n  next: *id001\n  name: second\n>\norg.opentest4j.AssertionFailedError: \nexpected: <&id001\nnext:\n  next: *id001\n  name: second\nname: first\n> but was: <&id001\nname: first\nnext:\n  next: *id001\n  name: second\n>\n\tat org.snakeyaml.engine.usecases.recursive.RecursiveMapTest.loadRecursiveMap2(RecursiveMapTest.java:58)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "792bf177ace41367ba682f2956c6dbad7711a266e1d7bb2c6940deaf2a8caaa5"
+}

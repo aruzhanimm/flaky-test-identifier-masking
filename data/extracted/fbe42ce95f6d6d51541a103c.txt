@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.curator.framework.recipes.leader.TestLeaderSelectorCluster
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 209.608 s <<< FAILURE! - in org.apache.curator.framework.recipes.leader.TestLeaderSelectorCluster
+org.apache.curator.framework.recipes.leader.TestLeaderSelectorCluster.testLostRestart  Time elapsed: 209.607 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.apache.curator.framework.recipes.leader.TestLeaderSelectorCluster.testLostRestart(TestLeaderSelectorCluster.java:181)
+

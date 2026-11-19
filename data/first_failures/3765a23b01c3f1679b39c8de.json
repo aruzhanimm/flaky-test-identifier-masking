@@ -1,0 +1,81 @@
+{
+  "container": "jsoniod0c8b93testReconstituteMap",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jsoniod0c8b93testReconstituteMap",
+    "project": "https://github.com/jdereg/json-io",
+    "revision": "d0c8b93cb45d0415d5ca8cb6a7e4aafaff7d5969",
+    "test": "com.cedarsoftware.io.MapsTest.testReconstituteMap",
+    "label": "ID",
+    "module": ".",
+    "zip": "json-io=.=d0c8b93",
+    "config_row": 243,
+    "configured_test": "com.cedarsoftware.io.MapsTest#testReconstituteMap",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/jdereg/json-io::com.cedarsoftware.io.MapsTest.testReconstituteMap",
+    "variant_id": "https://github.com/jdereg/json-io::com.cedarsoftware.io.MapsTest.testReconstituteMap::d0c8b93cb45d0415d5ca8cb6a7e4aafaff7d5969::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/jsoniod0c8b93testReconstituteMap/result/Flaky/.nondex/sAOaSUTmQi0Wr4HSeeLDZvz5UL+W6jJbCj6Kl5nc8=/TEST-com.cedarsoftware.io.MapsTest.xml",
+        "size": 10694,
+        "compressed": 2373,
+        "crc32": "a8cbd666",
+        "offset": 237382638,
+        "method": 8,
+        "local_path": "data/extracted/1ec22b89420f48219846e862.xml",
+        "sha256": "22404bca49eafe298805adf74edb30b61091f80bf964abfd9d543444310ef6a4",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jsoniod0c8b93testReconstituteMap/result/Flaky/rounds-test-results.csv",
+    "size": 16324,
+    "compressed": 5019,
+    "crc32": "4d76d7a4",
+    "offset": 236923202,
+    "method": 8,
+    "local_path": "data/extracted/fd8acf22e48922f185fc69d8.csv",
+    "sha256": "a2779f21ab556a6be0a5c25887a1bb75728afb99f02a702f7ccd5d2003a22811",
+    "status": "verified"
+  },
+  "reported_failure_rows": 82,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/jsoniod0c8b93testReconstituteMap/result/Flaky/.nondex/sAOaSUTmQi0Wr4HSeeLDZvz5UL+W6jJbCj6Kl5nc8=/TEST-com.cedarsoftware.io.MapsTest.xml",
+    "size": 10694,
+    "compressed": 2373,
+    "crc32": "a8cbd666",
+    "offset": 237382638,
+    "method": 8,
+    "local_path": "data/extracted/1ec22b89420f48219846e862.xml",
+    "sha256": "22404bca49eafe298805adf74edb30b61091f80bf964abfd9d543444310ef6a4",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testReconstituteMap",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <null> but was: <0.123>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <null> but was: <0.123>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)\n\tat com.cedarsoftware.io.MapsTest.assertMap(MapsTest.java:453)\n\tat com.cedarsoftware.io.MapsTest.testReconstituteMap(MapsTest.java:497)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <null> but was: <0.123>\norg.opentest4j.AssertionFailedError: expected: <null> but was: <0.123>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)\n\tat com.cedarsoftware.io.MapsTest.assertMap(MapsTest.java:453)\n\tat com.cedarsoftware.io.MapsTest.testReconstituteMap(MapsTest.java:497)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "7955cdbfd150c30409ff5c0f4918888d1569eb5528f82874b4d284f7d737ecfc"
+}

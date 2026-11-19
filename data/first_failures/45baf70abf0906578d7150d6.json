@@ -1,0 +1,81 @@
+{
+  "container": "assetsharecommonscore79fcce8doPost",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "assetsharecommonscore79fcce8doPost",
+    "project": "https://github.com/adobe/asset-share-commons",
+    "revision": "79fcce8819b133a86dae80f55a2af93bab22a3e5",
+    "test": "com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsDownloadServletTest.doPost",
+    "label": "ID",
+    "module": "core",
+    "zip": "asset-share-commons=core=79fcce8",
+    "config_row": 585,
+    "configured_test": "com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsDownloadServletTest#doPost",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/adobe/asset-share-commons::com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsDownloadServletTest.doPost",
+    "variant_id": "https://github.com/adobe/asset-share-commons::com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsDownloadServletTest.doPost::79fcce8819b133a86dae80f55a2af93bab22a3e5::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/assetsharecommonscore79fcce8doPost/result/Flaky/.nondex/EVaGC9zAcdSNngRjAt3HDK0bXIFrk5FZJRUKo+3NzGo=/TEST-com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsDownloadServletTest.xml",
+        "size": 39382,
+        "compressed": 4958,
+        "crc32": "12e05f51",
+        "offset": 320989953,
+        "method": 8,
+        "local_path": "data/extracted/4b04c6d69eb0d49421a3c38a.xml",
+        "sha256": "f57b674b3cc93d1e5f3a3984f35f46bb536e821cb66e0f2a50d64381c88e8c1e",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/assetsharecommonscore79fcce8doPost/result/Flaky/rounds-test-results.csv",
+    "size": 23720,
+    "compressed": 5149,
+    "crc32": "cfb0072e",
+    "offset": 320722913,
+    "method": 8,
+    "local_path": "data/extracted/98c2d869dd56d44faf8ed129.csv",
+    "sha256": "774e4ac877441a07a2929cda18b61e7366640de4011611800f55172fd3fe725e",
+    "status": "verified"
+  },
+  "reported_failure_rows": 89,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/assetsharecommonscore79fcce8doPost/result/Flaky/.nondex/EVaGC9zAcdSNngRjAt3HDK0bXIFrk5FZJRUKo+3NzGo=/TEST-com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsDownloadServletTest.xml",
+    "size": 39382,
+    "compressed": 4958,
+    "crc32": "12e05f51",
+    "offset": 320989953,
+    "method": 8,
+    "local_path": "data/extracted/4b04c6d69eb0d49421a3c38a.xml",
+    "sha256": "f57b674b3cc93d1e5f3a3984f35f46bb536e821cb66e0f2a50d64381c88e8c1e",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "doPost",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "expected:<334> but was:<370>",
+    "stack_trace": "java.lang.AssertionError: expected:<334> but was:<370>\n\tat com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsDownloadServletTest.doPost(AssetRenditionsDownloadServletTest.java:157)",
+    "text": "java.lang.AssertionError\nexpected:<334> but was:<370>\njava.lang.AssertionError: expected:<334> but was:<370>\n\tat com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsDownloadServletTest.doPost(AssetRenditionsDownloadServletTest.java:157)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "f53f8287068630c323575f95916b916da034c2995f71e1469963026cc0ac3a26"
+}

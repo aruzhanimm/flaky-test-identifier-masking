@@ -1,0 +1,81 @@
+{
+  "container": "innodbjavareaderinnodbjavareader24a95d8testQueryBySkAgeSalaryMysql80",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "innodbjavareaderinnodbjavareader24a95d8testQueryBySkAgeSalaryMysql80",
+    "project": "https://github.com/alibaba/innodb-java-reader",
+    "revision": "24a95d8005d480d460c3004fad89cfa295b9cbb4",
+    "test": "com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkAgeSalaryMysql80",
+    "label": "ID",
+    "module": "innodb-java-reader",
+    "zip": "innodb-java-reader=innodb-java-reader=24a95d8",
+    "config_row": 304,
+    "configured_test": "com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest#testQueryBySkAgeSalaryMysql80",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/innodb-java-reader::com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkAgeSalaryMysql80",
+    "variant_id": "https://github.com/alibaba/innodb-java-reader::com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkAgeSalaryMysql80::24a95d8005d480d460c3004fad89cfa295b9cbb4::innodb-java-reader",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/innodbjavareaderinnodbjavareader24a95d8testQueryBySkAgeSalaryMysql80/result/Flaky/.nondex/pY735mOix31r5Ce8P2wGyB2vWDaRqPPuQelk7o69c08=/TEST-com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.xml",
+        "size": 11545,
+        "compressed": 2544,
+        "crc32": "fd7f3cb6",
+        "offset": 1877273062,
+        "method": 8,
+        "local_path": "data/extracted/74620c0c7612f13c59c5bdc8.xml",
+        "sha256": "332410cea2d4d1d454b92ab82fcff5b1fa74ad79e24818ede3ac02380621cb91",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/innodbjavareaderinnodbjavareader24a95d8testQueryBySkAgeSalaryMysql80/result/Flaky/rounds-test-results.csv",
+    "size": 20659,
+    "compressed": 5023,
+    "crc32": "95c41a3d",
+    "offset": 1877110778,
+    "method": 8,
+    "local_path": "data/extracted/200dd01a13153f94e3795a8c.csv",
+    "sha256": "dd43c7aabdbf7855aecc1399cf67a8448767b0aa74aae35ada42bdb566cd0082",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/innodbjavareaderinnodbjavareader24a95d8testQueryBySkAgeSalaryMysql80/result/Flaky/.nondex/pY735mOix31r5Ce8P2wGyB2vWDaRqPPuQelk7o69c08=/TEST-com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.xml",
+    "size": 11545,
+    "compressed": 2544,
+    "crc32": "fd7f3cb6",
+    "offset": 1877273062,
+    "method": 8,
+    "local_path": "data/extracted/74620c0c7612f13c59c5bdc8.xml",
+    "sha256": "332410cea2d4d1d454b92ab82fcff5b1fa74ad79e24818ede3ac02380621cb91",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testQueryBySkAgeSalaryMysql80",
+    "outcome": "error",
+    "exception_type": "java.lang.NullPointerException:",
+    "message": null,
+    "stack_trace": "java.lang.NullPointerException: null\n\tat java.base/java.util.ArrayList.<init>(ArrayList.java:179)\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.someRowsOrderBy2(SimpleSkTableReaderTest.java:1687)\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkAgeSalary(SimpleSkTableReaderTest.java:685)\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkAgeSalaryMysql80(SimpleSkTableReaderTest.java:673)",
+    "text": "java.lang.NullPointerException:\njava.lang.NullPointerException: null\n\tat java.base/java.util.ArrayList.<init>(ArrayList.java:179)\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.someRowsOrderBy2(SimpleSkTableReaderTest.java:1687)\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkAgeSalary(SimpleSkTableReaderTest.java:685)\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkAgeSalaryMysql80(SimpleSkTableReaderTest.java:673)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "b40d364fc95df220b045ad0b518e1fa1212ba29dd389c5d24596501905071ff4"
+}

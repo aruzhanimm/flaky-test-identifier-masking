@@ -1,0 +1,81 @@
+{
+  "container": "quickcheckc1c71",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "quickcheckc1c71",
+    "project": "https://github.com/pholser/junit-quickcheck",
+    "revision": "14cb34602fb1b970a96d165f43a2739c79a1ef25",
+    "test": "com.pholser.junit.quickcheck.ShrinkingTest.assumptionFailureWhileShrinking",
+    "label": "NIO",
+    "module": "core",
+    "zip": "quickcheckc1c",
+    "config_row": 999,
+    "configured_test": "com.pholser.junit.quickcheck.ShrinkingTest#assumptionFailureWhileShrinking",
+    "configured_type": "nio",
+    "iterations": "10",
+    "test_id": "https://github.com/pholser/junit-quickcheck::com.pholser.junit.quickcheck.ShrinkingTest.assumptionFailureWhileShrinking",
+    "variant_id": "https://github.com/pholser/junit-quickcheck::com.pholser.junit.quickcheck.ShrinkingTest.assumptionFailureWhileShrinking::14cb34602fb1b970a96d165f43a2739c79a1ef25::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/quickcheckc1c71/result/Flaky/rounds-test-results.csv",
+        "size": 40586,
+        "compressed": 1612,
+        "crc32": "cedefb59",
+        "offset": 49011016,
+        "method": 8,
+        "local_path": "data/extracted/79d48655137b773034589d62.csv",
+        "sha256": "689d2dd12f8198c3c1f38c2718c60d7df569695be82415361c9f4ad739a67d4f",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 10,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/quickcheckc1c71/result/Flaky/rounds-test-results.csv",
+    "size": 40586,
+    "compressed": 1612,
+    "crc32": "cedefb59",
+    "offset": 49011016,
+    "method": 8,
+    "local_path": "data/extracted/79d48655137b773034589d62.csv",
+    "sha256": "689d2dd12f8198c3c1f38c2718c60d7df569695be82415361c9f4ad739a67d4f",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10,
+  "iteration": 0,
+  "source_row": 1,
+  "diagnostic_member": {
+    "path": "result/quickcheckc1c71/result/Flaky/rounds-test-results.csv",
+    "size": 40586,
+    "compressed": 1612,
+    "crc32": "cedefb59",
+    "offset": 49011016,
+    "method": 8,
+    "local_path": "data/extracted/79d48655137b773034589d62.csv",
+    "sha256": "689d2dd12f8198c3c1f38c2718c60d7df569695be82415361c9f4ad739a67d4f",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "nio_json",
+    "testcase_name": "com.pholser.junit.quickcheck.ShrinkingTest.assumptionFailureWhileShrinking:1",
+    "outcome": "ERROR",
+    "exception_type": null,
+    "message": null,
+    "stack_trace": "org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\norg.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\ncom.pholser.junit.quickcheck.ShrinkingTest.assumptionFailureWhileShrinking(ShrinkingTest.java:101)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:498)\norg.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\norg.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\norg.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\norg.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\norg.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\norg.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\norg.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\norg.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\norg.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\norg.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\norg.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\norg.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\norg.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\norg.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\norg.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\norg.junit.runners.ParentRunner.run(ParentRunner.java:413)\norg.junit.runners.Suite.runChild(Suite.java:128)\norg.junit.runners.Suite.runChild(Suite.java:27)\norg.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\norg.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\norg.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\norg.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\norg.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\norg.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\norg.junit.runners.ParentRunner.run(ParentRunner.java:413)\norg.junit.runner.JUnitCore.run(JUnitCore.java:137)\norg.junit.runner.JUnitCore.run(JUnitCore.java:115)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeHelper(JUnitTestExecutor.java:262)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:312)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:343)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:53)\nedu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)\nscala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)\nscala.util.Try$.apply(Try.scala:209)\nedu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)\nedu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)\nedu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)",
+    "text": "org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\norg.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\ncom.pholser.junit.quickcheck.ShrinkingTest.assumptionFailureWhileShrinking(ShrinkingTest.java:101)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:498)\norg.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\norg.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\norg.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\norg.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\norg.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\norg.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\norg.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\norg.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\norg.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\norg.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\norg.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\norg.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\norg.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\norg.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\norg.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\norg.junit.runners.ParentRunner.run(ParentRunner.java:413)\norg.junit.runners.Suite.runChild(Suite.java:128)\norg.junit.runners.Suite.runChild(Suite.java:27)\norg.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\norg.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\norg.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\norg.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\norg.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\norg.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\norg.junit.runners.ParentRunner.run(ParentRunner.java:413)\norg.junit.runner.JUnitCore.run(JUnitCore.java:137)\norg.junit.runner.JUnitCore.run(JUnitCore.java:115)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeHelper(JUnitTestExecutor.java:262)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:312)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:343)\nedu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:53)\nedu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)\nscala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)\nscala.util.Try$.apply(Try.scala:209)\nedu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)\nedu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)\nedu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)",
+    "missing_exception_type": true,
+    "review_flags": []
+  },
+  "text_sha256": "c5d6c3274928ccc2aa3a5b2d790697021d0d6303e1381be3086b181a579bfd2d"
+}

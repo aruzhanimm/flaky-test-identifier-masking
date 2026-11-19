@@ -1,0 +1,81 @@
+{
+  "container": "castlejavaa5e9ef9jsonSerialized13",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "castlejavaa5e9ef9jsonSerialized13",
+    "project": "https://github.com/castle/castle-java",
+    "revision": "a5e9ef94b46b4ba6accf630c5d50ed53dc86183f",
+    "test": "io.castle.client.model.CastleUserAddressTest.jsonSerialized",
+    "label": "ID",
+    "module": ".",
+    "zip": "castle-java=.=a5e9ef9",
+    "config_row": 63,
+    "configured_test": "io.castle.client.model.CastleUserAddressTest#jsonSerialized",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/castle/castle-java::io.castle.client.model.CastleUserAddressTest.jsonSerialized",
+    "variant_id": "https://github.com/castle/castle-java::io.castle.client.model.CastleUserAddressTest.jsonSerialized::a5e9ef94b46b4ba6accf630c5d50ed53dc86183f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/castlejavaa5e9ef9jsonSerialized13/result/Flaky/.nondex/hy44H88xYFZqfnKh5mHeQBc4VIZn6rhfaxv2cfQCE=/TEST-io.castle.client.model.CastleUserAddressTest.xml",
+        "size": 12880,
+        "compressed": 2672,
+        "crc32": "a33875e4",
+        "offset": 638628930,
+        "method": 8,
+        "local_path": "data/extracted/79ffd542d2f44bc65fefeb12.xml",
+        "sha256": "4134b35edbc3aac738486e539162fa9f9d2496c7d1130d4aec184325a082b14b",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/castlejavaa5e9ef9jsonSerialized13/result/Flaky/rounds-test-results.csv",
+    "size": 17861,
+    "compressed": 4909,
+    "crc32": "0e9d7771",
+    "offset": 638485012,
+    "method": 8,
+    "local_path": "data/extracted/ddff5c9e8c315f92112e1121.csv",
+    "sha256": "756623df4c9492822b2b101954fe125b4c6b10d01471c057bb483f5690d67860",
+    "status": "verified"
+  },
+  "reported_failure_rows": 99,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/castlejavaa5e9ef9jsonSerialized13/result/Flaky/.nondex/hy44H88xYFZqfnKh5mHeQBc4VIZn6rhfaxv2cfQCE=/TEST-io.castle.client.model.CastleUserAddressTest.xml",
+    "size": 12880,
+    "compressed": 2672,
+    "crc32": "a33875e4",
+    "offset": 638628930,
+    "method": 8,
+    "local_path": "data/extracted/79ffd542d2f44bc65fefeb12.xml",
+    "sha256": "4134b35edbc3aac738486e539162fa9f9d2496c7d1130d4aec184325a082b14b",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "jsonSerialized",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<...t 1\",\"city\":\"city\",\"[postal_code\":\"12345\",\"region\":\"region\",\"country\":\"country]\"}\"> but was:<...t 1\",\"city\":\"city\",\"[region\":\"region\",\"country\":\"country\",\"postal_code\":\"12345]\"}\">",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<...t 1\",\"city\":\"city\",\"[postal_code\":\"12345\",\"region\":\"region\",\"country\":\"country]\"}\"> but was:<...t 1\",\"city\":\"city\",\"[region\":\"region\",\"country\":\"country\",\"postal_code\":\"12345]\"}\">\n\tat io.castle.client.model.CastleUserAddressTest.jsonSerialized(CastleUserAddressTest.java:25)",
+    "text": "org.junit.ComparisonFailure\nexpected:<...t 1\",\"city\":\"city\",\"[postal_code\":\"12345\",\"region\":\"region\",\"country\":\"country]\"}\"> but was:<...t 1\",\"city\":\"city\",\"[region\":\"region\",\"country\":\"country\",\"postal_code\":\"12345]\"}\">\norg.junit.ComparisonFailure: expected:<...t 1\",\"city\":\"city\",\"[postal_code\":\"12345\",\"region\":\"region\",\"country\":\"country]\"}\"> but was:<...t 1\",\"city\":\"city\",\"[region\":\"region\",\"country\":\"country\",\"postal_code\":\"12345]\"}\">\n\tat io.castle.client.model.CastleUserAddressTest.jsonSerialized(CastleUserAddressTest.java:25)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "b256593da9f53354709bf8423c517bae9951fcc40fa6d27e7fbbd8e2c6736096"
+}

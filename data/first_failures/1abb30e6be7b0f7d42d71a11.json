@@ -1,0 +1,81 @@
+{
+  "container": "castlejavaa5e9ef9properties",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "castlejavaa5e9ef9properties",
+    "project": "https://github.com/castle/castle-java",
+    "revision": "a5e9ef94b46b4ba6accf630c5d50ed53dc86183f",
+    "test": "io.castle.client.model.CastleMessageTest.properties",
+    "label": "ID",
+    "module": ".",
+    "zip": "castle-java=.=a5e9ef9",
+    "config_row": 42,
+    "configured_test": "io.castle.client.model.CastleMessageTest#properties",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/castle/castle-java::io.castle.client.model.CastleMessageTest.properties",
+    "variant_id": "https://github.com/castle/castle-java::io.castle.client.model.CastleMessageTest.properties::a5e9ef94b46b4ba6accf630c5d50ed53dc86183f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/castlejavaa5e9ef9properties/result/Flaky/.nondex/4eHq8D39ySRqc63C30Io193OhyHVo3j6c78X+UvYA8=/TEST-io.castle.client.model.CastleMessageTest.xml",
+        "size": 12653,
+        "compressed": 2637,
+        "crc32": "08410f81",
+        "offset": 610202302,
+        "method": 8,
+        "local_path": "data/extracted/9da2ca59da0c1658cb3a1a89.xml",
+        "sha256": "3c98309149b6ac9965c62554db5c831b6af7d1ddaef17fd856692f20995fc712",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/castlejavaa5e9ef9properties/result/Flaky/rounds-test-results.csv",
+    "size": 17324,
+    "compressed": 4911,
+    "crc32": "2eed2214",
+    "offset": 610027822,
+    "method": 8,
+    "local_path": "data/extracted/e9470ebee37f9b1494eca47e.csv",
+    "sha256": "9e131b69f741cb534c55412174734e646b6ed74549020912628ec3e4b47b8406",
+    "status": "verified"
+  },
+  "reported_failure_rows": 58,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/castlejavaa5e9ef9properties/result/Flaky/.nondex/4eHq8D39ySRqc63C30Io193OhyHVo3j6c78X+UvYA8=/TEST-io.castle.client.model.CastleMessageTest.xml",
+    "size": 12653,
+    "compressed": 2637,
+    "crc32": "08410f81",
+    "offset": 610202302,
+    "method": 8,
+    "local_path": "data/extracted/9da2ca59da0c1658cb3a1a89.xml",
+    "sha256": "3c98309149b6ac9965c62554db5c831b6af7d1ddaef17fd856692f20995fc712",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "properties",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<\"{\"[event\":\"event\",\"properties\":{\"key\":\"value\"}]}\"> but was:<\"{\"[properties\":{\"key\":\"value\"},\"event\":\"event\"]}\">",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<\"{\"[event\":\"event\",\"properties\":{\"key\":\"value\"}]}\"> but was:<\"{\"[properties\":{\"key\":\"value\"},\"event\":\"event\"]}\">\n\tat io.castle.client.model.CastleMessageTest.properties(CastleMessageTest.java:86)",
+    "text": "org.junit.ComparisonFailure\nexpected:<\"{\"[event\":\"event\",\"properties\":{\"key\":\"value\"}]}\"> but was:<\"{\"[properties\":{\"key\":\"value\"},\"event\":\"event\"]}\">\norg.junit.ComparisonFailure: expected:<\"{\"[event\":\"event\",\"properties\":{\"key\":\"value\"}]}\"> but was:<\"{\"[properties\":{\"key\":\"value\"},\"event\":\"event\"]}\">\n\tat io.castle.client.model.CastleMessageTest.properties(CastleMessageTest.java:86)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "b34a311b343df7897e8626be3ebf266a1e298dc4ff35c4024b29e3ef13b1b3ed"
+}

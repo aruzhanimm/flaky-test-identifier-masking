@@ -1,0 +1,81 @@
+{
+  "container": "feignjsonf21d32aencodesObject",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "feignjsonf21d32aencodesObject",
+    "project": "https://github.com/openfeign/feign",
+    "revision": "f21d32a7d9d9401f8f12bf000038682e1984345a",
+    "test": "feign.json.JsonEncoderTest.encodesObject",
+    "label": "ID",
+    "module": "json",
+    "zip": "feign=json=f21d32a",
+    "config_row": 468,
+    "configured_test": "feign.json.JsonEncoderTest#encodesObject",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/openfeign/feign::feign.json.JsonEncoderTest.encodesObject",
+    "variant_id": "https://github.com/openfeign/feign::feign.json.JsonEncoderTest.encodesObject::f21d32a7d9d9401f8f12bf000038682e1984345a::json",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/feignjsonf21d32aencodesObject/result/Flaky/.nondex/UcLxgWXxNRu6an1kf8N49nDh1e9yPUEfkeJMXd9ae9k=/TEST-feign.json.JsonEncoderTest.xml",
+        "size": 12000,
+        "compressed": 2678,
+        "crc32": "2a772a29",
+        "offset": 946115965,
+        "method": 8,
+        "local_path": "data/extracted/31512046c1ba060ed38b067b.xml",
+        "sha256": "79bdf60c6816fc8296859da2e40ab9f87b1e8f92163b88cf213c4402c245627f",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/feignjsonf21d32aencodesObject/result/Flaky/rounds-test-results.csv",
+    "size": 16273,
+    "compressed": 4924,
+    "crc32": "0dfab112",
+    "offset": 945948204,
+    "method": 8,
+    "local_path": "data/extracted/1e481a16a57bccf608787bf5.csv",
+    "sha256": "e80bab42f1bbbc1a256f964963d49100ccacebf36968e778d1d5514ef0371c40",
+    "status": "verified"
+  },
+  "reported_failure_rows": 57,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/feignjsonf21d32aencodesObject/result/Flaky/.nondex/UcLxgWXxNRu6an1kf8N49nDh1e9yPUEfkeJMXd9ae9k=/TEST-feign.json.JsonEncoderTest.xml",
+    "size": 12000,
+    "compressed": 2678,
+    "crc32": "2a772a29",
+    "offset": 946115965,
+    "method": 8,
+    "local_path": "data/extracted/31512046c1ba060ed38b067b.xml",
+    "sha256": "79bdf60c6816fc8296859da2e40ab9f87b1e8f92163b88cf213c4402c245627f",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "encodesObject",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<{\"[a\":\"b\",\"c\":1]}> but was:<{\"[c\":1,\"a\":\"b\"]}>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<{\"[a\":\"b\",\"c\":1]}> but was:<{\"[c\":1,\"a\":\"b\"]}>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat feign.json.JsonEncoderTest.encodesObject(JsonEncoderTest.java:52)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)",
+    "text": "org.junit.ComparisonFailure\nexpected:<{\"[a\":\"b\",\"c\":1]}> but was:<{\"[c\":1,\"a\":\"b\"]}>\norg.junit.ComparisonFailure: expected:<{\"[a\":\"b\",\"c\":1]}> but was:<{\"[c\":1,\"a\":\"b\"]}>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat feign.json.JsonEncoderTest.encodesObject(JsonEncoderTest.java:52)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "1440fa1253dd0fd3b5d23688a83a9b7eeb4bae3959f2aa1955733ac313c4cd11"
+}

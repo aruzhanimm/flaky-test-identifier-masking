@@ -1,0 +1,81 @@
+{
+  "container": "fastjson2d60941test_dupType2",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "fastjson2d60941test_dupType2",
+    "project": "https://github.com/alibaba/fastjson",
+    "revision": "2d609415d64353dd67c0dee8ab103ec3cf79473f",
+    "test": "com.alibaba.json.bvt.writeClassName.WriteDuplicateType.test_dupType2",
+    "label": "ID",
+    "module": ".",
+    "zip": "fastjson=.=2d60941",
+    "config_row": 28,
+    "configured_test": "com.alibaba.json.bvt.writeClassName.WriteDuplicateType#test_dupType2",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/fastjson::com.alibaba.json.bvt.writeClassName.WriteDuplicateType.test_dupType2",
+    "variant_id": "https://github.com/alibaba/fastjson::com.alibaba.json.bvt.writeClassName.WriteDuplicateType.test_dupType2::2d609415d64353dd67c0dee8ab103ec3cf79473f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/fastjson2d60941test_dupType2/result/Flaky/.nondex/SxSyivfAydV1S5HUfXG3dL8TiBtsE47JU9jzLEci7M=/TEST-com.alibaba.json.bvt.writeClassName.WriteDuplicateType.xml",
+        "size": 9896,
+        "compressed": 2271,
+        "crc32": "1a072e49",
+        "offset": 595614324,
+        "method": 8,
+        "local_path": "data/extracted/a5ab5d8426b9c827ffc4400a.xml",
+        "sha256": "58a3b62e6e4db26e0ec5be130913fd733a140ce82f18ca51a24ba15bf0567723",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/fastjson2d60941test_dupType2/result/Flaky/rounds-test-results.csv",
+    "size": 18657,
+    "compressed": 4861,
+    "crc32": "f5cf78ee",
+    "offset": 595464564,
+    "method": 8,
+    "local_path": "data/extracted/f698c3d042647ebbd8af5c13.csv",
+    "sha256": "fe6acbcfdfb2df182ae9dd8b35f2587575bcbb4b1214aabad049433de7c35269",
+    "status": "verified"
+  },
+  "reported_failure_rows": 54,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/fastjson2d60941test_dupType2/result/Flaky/.nondex/SxSyivfAydV1S5HUfXG3dL8TiBtsE47JU9jzLEci7M=/TEST-com.alibaba.json.bvt.writeClassName.WriteDuplicateType.xml",
+    "size": 9896,
+    "compressed": 2271,
+    "crc32": "1a072e49",
+    "offset": 595614324,
+    "method": 8,
+    "local_path": "data/extracted/a5ab5d8426b9c827ffc4400a.xml",
+    "sha256": "58a3b62e6e4db26e0ec5be130913fd733a140ce82f18ca51a24ba15bf0567723",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test_dupType2",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<...edHashMap\",\"1001\":{\"[@type\":\"com.alibaba.json.bvt.writeClassName.WriteDuplicateType$DianDianCart\",\"id\":1001]}}> but was:<...edHashMap\",\"1001\":{\"[id\":1001,\"@type\":\"com.alibaba.json.bvt.writeClassName.WriteDuplicateType$DianDianCart\"]}}>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<...edHashMap\",\"1001\":{\"[@type\":\"com.alibaba.json.bvt.writeClassName.WriteDuplicateType$DianDianCart\",\"id\":1001]}}> but was:<...edHashMap\",\"1001\":{\"[id\":1001,\"@type\":\"com.alibaba.json.bvt.writeClassName.WriteDuplicateType$DianDianCart\"]}}>\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat com.alibaba.json.bvt.writeClassName.WriteDuplicateType.test_dupType2(WriteDuplicateType.java:44)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat junit.framework.TestCase.runTest(TestCase.java:176)\n\tat junit.framework.TestCase.runBare(TestCase.java:141)\n\tat junit.framework.TestResult$1.protect(TestResult.java:122)\n\tat junit.framework.TestResult.runProtected(TestResult.java:142)\n\tat junit.framework.TestResult.run(TestResult.java:125)\n\tat junit.framework.TestCase.run(TestCase.java:129)\n\tat junit.framework.TestSuite.runTest(TestSuite.java:252)\n\tat junit.framework.TestSuite.run(TestSuite.java:247)\n\tat org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:62)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:139)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)",
+    "text": "org.junit.ComparisonFailure\nexpected:<...edHashMap\",\"1001\":{\"[@type\":\"com.alibaba.json.bvt.writeClassName.WriteDuplicateType$DianDianCart\",\"id\":1001]}}> but was:<...edHashMap\",\"1001\":{\"[id\":1001,\"@type\":\"com.alibaba.json.bvt.writeClassName.WriteDuplicateType$DianDianCart\"]}}>\norg.junit.ComparisonFailure: expected:<...edHashMap\",\"1001\":{\"[@type\":\"com.alibaba.json.bvt.writeClassName.WriteDuplicateType$DianDianCart\",\"id\":1001]}}> but was:<...edHashMap\",\"1001\":{\"[id\":1001,\"@type\":\"com.alibaba.json.bvt.writeClassName.WriteDuplicateType$DianDianCart\"]}}>\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat com.alibaba.json.bvt.writeClassName.WriteDuplicateType.test_dupType2(WriteDuplicateType.java:44)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat junit.framework.TestCase.runTest(TestCase.java:176)\n\tat junit.framework.TestCase.runBare(TestCase.java:141)\n\tat junit.framework.TestResult$1.protect(TestResult.java:122)\n\tat junit.framework.TestResult.runProtected(TestResult.java:142)\n\tat junit.framework.TestResult.run(TestResult.java:125)\n\tat junit.framework.TestCase.run(TestCase.java:129)\n\tat junit.framework.TestSuite.runTest(TestSuite.java:252)\n\tat junit.framework.TestSuite.run(TestSuite.java:247)\n\tat org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:62)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:139)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "03b2ca3c9fa1da7664211ae8cdab7c93f6e0949bb5f5f3059c8cbe81b3cb1674"
+}

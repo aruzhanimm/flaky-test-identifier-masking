@@ -1,0 +1,81 @@
+{
+  "container": "hoppluginstransformsxmlaa24b9atestParseXmlWithPrefixes_WhenSetEnableNamespaceAsTrue",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "hoppluginstransformsxmlaa24b9atestParseXmlWithPrefixes_WhenSetEnableNamespaceAsTrue",
+    "project": "https://github.com/apache/hop",
+    "revision": "aa24b9a39895e13945d6f75ca94fbb2446f6b5f5",
+    "test": "org.apache.hop.pipeline.transforms.xml.xmlinputstream.XmlInputStreamTest.testParseXmlWithPrefixes_WhenSetEnableNamespaceAsTrue",
+    "label": "ID",
+    "module": "plugins/transforms/xml",
+    "zip": "hop=plugins+transforms+xml=aa24b9a",
+    "config_row": 403,
+    "configured_test": "org.apache.hop.pipeline.transforms.xml.xmlinputstream.XmlInputStreamTest#testParseXmlWithPrefixes_WhenSetEnableNamespaceAsTrue",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hop::org.apache.hop.pipeline.transforms.xml.xmlinputstream.XmlInputStreamTest.testParseXmlWithPrefixes_WhenSetEnableNamespaceAsTrue",
+    "variant_id": "https://github.com/apache/hop::org.apache.hop.pipeline.transforms.xml.xmlinputstream.XmlInputStreamTest.testParseXmlWithPrefixes_WhenSetEnableNamespaceAsTrue::aa24b9a39895e13945d6f75ca94fbb2446f6b5f5::plugins/transforms/xml",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/hoppluginstransformsxmlaa24b9atestParseXmlWithPrefixes_WhenSetEnableNamespaceAsTrue/result/Flaky/.nondex/MY7XHX6GNBd2OEBoJtjyFqofVOmQIZFKuZO2fJDOUQI=/TEST-org.apache.hop.pipeline.transforms.xml.xmlinputstream.XmlInputStreamTest.xml",
+        "size": 25819,
+        "compressed": 3941,
+        "crc32": "ccd47985",
+        "offset": 2251279922,
+        "method": 8,
+        "local_path": "data/extracted/cc036e7ffffd160098ef38ff.xml",
+        "sha256": "1563cdc3ecc9b714415b9e3187034aec5b4d0c49079407f1ff3b6cfb737b7197",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/hoppluginstransformsxmlaa24b9atestParseXmlWithPrefixes_WhenSetEnableNamespaceAsTrue/result/Flaky/rounds-test-results.csv",
+    "size": 22596,
+    "compressed": 5175,
+    "crc32": "3cb703e3",
+    "offset": 2250805534,
+    "method": 8,
+    "local_path": "data/extracted/8668368b51e05d0b0009fffd.csv",
+    "sha256": "c3e621090cf9c8ceaa80fe4a9db140403979e337237a5bd11201d5f2c5c6696a",
+    "status": "verified"
+  },
+  "reported_failure_rows": 50,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/hoppluginstransformsxmlaa24b9atestParseXmlWithPrefixes_WhenSetEnableNamespaceAsTrue/result/Flaky/.nondex/MY7XHX6GNBd2OEBoJtjyFqofVOmQIZFKuZO2fJDOUQI=/TEST-org.apache.hop.pipeline.transforms.xml.xmlinputstream.XmlInputStreamTest.xml",
+    "size": 25819,
+    "compressed": 3941,
+    "crc32": "ccd47985",
+    "offset": 2251279922,
+    "method": 8,
+    "local_path": "data/extracted/cc036e7ffffd160098ef38ff.xml",
+    "sha256": "1563cdc3ecc9b714415b9e3187034aec5b4d0c49079407f1ff3b6cfb737b7197",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testParseXmlWithPrefixes_WhenSetEnableNamespaceAsTrue",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "Incorrect xml data name -  expected:<F[ruits]:attribute> but was:<F[ish]:attribute>",
+    "stack_trace": "org.junit.ComparisonFailure: Incorrect xml data name -  expected:<F[ruits]:attribute> but was:<F[ish]:attribute>\n\tat org.apache.hop.pipeline.transforms.xml.xmlinputstream.XmlInputStreamTest.testParseXmlWithPrefixes_WhenSetEnableNamespaceAsTrue(XmlInputStreamTest.java:136)",
+    "text": "org.junit.ComparisonFailure\nIncorrect xml data name -  expected:<F[ruits]:attribute> but was:<F[ish]:attribute>\norg.junit.ComparisonFailure: Incorrect xml data name -  expected:<F[ruits]:attribute> but was:<F[ish]:attribute>\n\tat org.apache.hop.pipeline.transforms.xml.xmlinputstream.XmlInputStreamTest.testParseXmlWithPrefixes_WhenSetEnableNamespaceAsTrue(XmlInputStreamTest.java:136)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "463364a6a04779b1067c3774fb67d9d4dc0cb762af41fad7f40bc1cb5b95d78b"
+}

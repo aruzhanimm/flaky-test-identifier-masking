@@ -1,0 +1,37 @@
+{
+  "container": "ZOOKEEPER-4327-testRequestThrottler",
+  "metadata": {
+    "source": "JIRA",
+    "container": "ZOOKEEPER-4327-testRequestThrottler",
+    "project": "https://github.com/apache/zookeeper",
+    "revision": "06467dc8c20e6c7357c19904f6214bb406262ba2",
+    "test": "org.apache.zookeeper.server.RequestThrottlerTest.testRequestThrottler",
+    "label": "TD",
+    "module": "zookeeper-server",
+    "zip": "ZOOKEEPER-4327",
+    "config_row": 1100,
+    "configured_test": "org.apache.zookeeper.server.RequestThrottlerTest#testRequestThrottler",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/zookeeper::org.apache.zookeeper.server.RequestThrottlerTest.testRequestThrottler",
+    "variant_id": "https://github.com/apache/zookeeper::org.apache.zookeeper.server.RequestThrottlerTest.testRequestThrottler::06467dc8c20e6c7357c19904f6214bb406262ba2::zookeeper-server",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ZOOKEEPER-4327-testRequestThrottler/result/Flaky/rounds-test-results.csv",
+    "size": 18475,
+    "compressed": 626,
+    "crc32": "6e640e73",
+    "offset": 184692985,
+    "method": 8,
+    "local_path": "data/extracted/38240c6f5626296c8250c7a2.csv",
+    "sha256": "032635769787f53b5d0f8288e3d47d492d6f1810305548961215df49f2010532",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

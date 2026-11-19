@@ -1,0 +1,81 @@
+{
+  "container": "jerseytestse2eef6418ctestOptionsNoWadl",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jerseytestse2eef6418ctestOptionsNoWadl",
+    "project": "https://github.com/eclipse-ee4j/jersey",
+    "revision": "ef6418caf6ee8cc5af89c87ce6052c60bd6fcd26",
+    "test": "org.glassfish.jersey.tests.e2e.server.wadl.NoJAXBNoWadlTest.testOptionsNoWadl",
+    "label": "ID",
+    "module": "tests/e2e",
+    "zip": "jersey=tests+e2e=ef6418c",
+    "config_row": 790,
+    "configured_test": "org.glassfish.jersey.tests.e2e.server.wadl.NoJAXBNoWadlTest#testOptionsNoWadl",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/eclipse-ee4j/jersey::org.glassfish.jersey.tests.e2e.server.wadl.NoJAXBNoWadlTest.testOptionsNoWadl",
+    "variant_id": "https://github.com/eclipse-ee4j/jersey::org.glassfish.jersey.tests.e2e.server.wadl.NoJAXBNoWadlTest.testOptionsNoWadl::ef6418caf6ee8cc5af89c87ce6052c60bd6fcd26::tests/e2e",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/jerseytestse2eef6418ctestOptionsNoWadl/result/Flaky/.nondex/tXuAL0cnDyNByeKs3uxxmJ+VqCNGJ2VTZxnvq7xe+Cs=/TEST-org.glassfish.jersey.tests.e2e.server.wadl.NoJAXBNoWadlTest.xml",
+        "size": 40590,
+        "compressed": 4511,
+        "crc32": "77c33cdf",
+        "offset": 1140438174,
+        "method": 8,
+        "local_path": "data/extracted/b95c2326a320d7521658e169.xml",
+        "sha256": "c47bd77a8e823fa95bbe557bb6f93a66c499262f66d16f26b877b56c681b50b1",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jerseytestse2eef6418ctestOptionsNoWadl/result/Flaky/rounds-test-results.csv",
+    "size": 19982,
+    "compressed": 5159,
+    "crc32": "ea81e5a2",
+    "offset": 1140133779,
+    "method": 8,
+    "local_path": "data/extracted/58e50d019b14736b1bd99d49.csv",
+    "sha256": "64337c413375e9060d74f9ee12d7709246c451211a7003ccb67882fe57ecdd16",
+    "status": "verified"
+  },
+  "reported_failure_rows": 50,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/jerseytestse2eef6418ctestOptionsNoWadl/result/Flaky/.nondex/tXuAL0cnDyNByeKs3uxxmJ+VqCNGJ2VTZxnvq7xe+Cs=/TEST-org.glassfish.jersey.tests.e2e.server.wadl.NoJAXBNoWadlTest.xml",
+    "size": 40590,
+    "compressed": 4511,
+    "crc32": "77c33cdf",
+    "offset": 1140438174,
+    "method": 8,
+    "local_path": "data/extracted/b95c2326a320d7521658e169.xml",
+    "sha256": "c47bd77a8e823fa95bbe557bb6f93a66c499262f66d16f26b877b56c681b50b1",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testOptionsNoWadl",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <OPTIONS,PUT> but was: <PUT,OPTIONS>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <OPTIONS,PUT> but was: <PUT,OPTIONS>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat org.glassfish.jersey.tests.e2e.server.wadl.NoJAXBNoWadlTest.testOptionsNoWadl(NoJAXBNoWadlTest.java:77)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)\n\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)\n\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)\n\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)\n\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <OPTIONS,PUT> but was: <PUT,OPTIONS>\norg.opentest4j.AssertionFailedError: expected: <OPTIONS,PUT> but was: <PUT,OPTIONS>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat org.glassfish.jersey.tests.e2e.server.wadl.NoJAXBNoWadlTest.testOptionsNoWadl(NoJAXBNoWadlTest.java:77)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)\n\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)\n\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)\n\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)\n\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "35bf1e4e5bf56b95626df0c64284b0958d9858504fc42d892b6a2d9fbb254d03"
+}

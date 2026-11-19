@@ -1,0 +1,81 @@
+{
+  "container": "jetcachejetcachetest953f622test14",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jetcachejetcachetest953f622test14",
+    "project": "https://github.com/alibaba/jetcache",
+    "revision": "953f622a84427701884c8190b74e429a73f41962",
+    "test": "com.alicp.jetcache.embedded.CaffeineCacheTest.test",
+    "label": "ID",
+    "module": "jetcache-test",
+    "zip": "jetcache=jetcache-test=953f622",
+    "config_row": 792,
+    "configured_test": "com.alicp.jetcache.embedded.CaffeineCacheTest#test",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/jetcache::com.alicp.jetcache.embedded.CaffeineCacheTest.test",
+    "variant_id": "https://github.com/alibaba/jetcache::com.alicp.jetcache.embedded.CaffeineCacheTest.test::953f622a84427701884c8190b74e429a73f41962::jetcache-test",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/jetcachejetcachetest953f622test14/result/Flaky/.nondex/Ynb+SrwhcOqCSd6jLaGL14720CAITd9KdOVxts1KA=/TEST-com.alicp.jetcache.embedded.CaffeineCacheTest.xml",
+        "size": 7375,
+        "compressed": 1919,
+        "crc32": "8bd677d1",
+        "offset": 1142318123,
+        "method": 8,
+        "local_path": "data/extracted/b2a37c87f47907807c54d13f.xml",
+        "sha256": "ab9a440a7e67120c94d4832c2c33d72d6885f857ac67e27b7eece51980c118ee",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jetcachejetcachetest953f622test14/result/Flaky/rounds-test-results.csv",
+    "size": 19041,
+    "compressed": 5116,
+    "crc32": "9d3272f6",
+    "offset": 1141902037,
+    "method": 8,
+    "local_path": "data/extracted/e04f07da1bffc5a4a9babbae.csv",
+    "sha256": "c561fbe434fa174fe6e82cfb7d4decbf82d319bde196c79efdaa1ab1c505d4cc",
+    "status": "verified"
+  },
+  "reported_failure_rows": 47,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/jetcachejetcachetest953f622test14/result/Flaky/.nondex/Ynb+SrwhcOqCSd6jLaGL14720CAITd9KdOVxts1KA=/TEST-com.alicp.jetcache.embedded.CaffeineCacheTest.xml",
+    "size": 7375,
+    "compressed": 1919,
+    "crc32": "8bd677d1",
+    "offset": 1142318123,
+    "method": 8,
+    "local_path": "data/extracted/b2a37c87f47907807c54d13f.xml",
+    "sha256": "ab9a440a7e67120c94d4832c2c33d72d6885f857ac67e27b7eece51980c118ee",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<LoadingCache_Key2_V[1]> but was:<LoadingCache_Key2_V[2]>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<LoadingCache_Key2_V[1]> but was:<LoadingCache_Key2_V[2]>\n\tat com.alicp.jetcache.embedded.CaffeineCacheTest.test(CaffeineCacheTest.java:22)",
+    "text": "org.junit.ComparisonFailure\nexpected:<LoadingCache_Key2_V[1]> but was:<LoadingCache_Key2_V[2]>\norg.junit.ComparisonFailure: expected:<LoadingCache_Key2_V[1]> but was:<LoadingCache_Key2_V[2]>\n\tat com.alicp.jetcache.embedded.CaffeineCacheTest.test(CaffeineCacheTest.java:22)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "92d0b9bd7e7f29db644dacc04231652ca64e564ff8197e1e7f84faea991e9561"
+}

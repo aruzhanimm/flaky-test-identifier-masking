@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest" time="0.393" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="nondexStart" value="0"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/junit4/target/test-classes:/app/source/junit4/target/classes:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/com/google/auto/value/auto-value-annotations/1.7.4/auto-value-annotations-1.7.4.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/com/google/guava/guava/32.0.0-jre/guava-32.0.0-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/root/.m2/repository/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar:/root/.m2/repository/com/google/truth/truth/1.1.2/truth-1.1.2.jar:/root/.m2/repository/org/ow2/asm/asm/9.0/asm-9.0.jar:/root/.m2/repository/com/google/protobuf/protobuf-javalite/3.20.3/protobuf-javalite-3.20.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-11/lib"/>
+    <property name="sun.java.command" value="/app/source/junit4/target/surefire/surefirebooter5476696040953617003.jar /app/source/junit4/target/surefire 2025-11-06T22-01-17_485-jvmRun1 surefire3682708444263214557tmp surefire_114442286399294646434tmp"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest#test[AnnotationInheritedFromBaseClass:SUCCESS_ALWAYS]"/>
+    <property name="surefire.test.class.path" value="/app/source/junit4/target/test-classes:/app/source/junit4/target/classes:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/com/google/auto/value/auto-value-annotations/1.7.4/auto-value-annotations-1.7.4.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/com/google/guava/guava/32.0.0-jre/guava-32.0.0-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/root/.m2/repository/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar:/root/.m2/repository/com/google/truth/truth/1.1.2/truth-1.1.2.jar:/root/.m2/repository/org/ow2/asm/asm/9.0/asm-9.0.jar:/root/.m2/repository/com/google/protobuf/protobuf-javalite/3.20.3/protobuf-javalite-3.20.3.jar:"/>
+    <property name="nondexExecid" value="yPOE8DpSn9bjCUr81fsMC0W0wJRzkLWyrTk5XCFD60g="/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/openjdk-11"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/app/source/junit4"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="surefire.real.class.path" value="/app/source/junit4/target/surefire/surefirebooter5476696040953617003.jar"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-34-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/junit4/.nondex"/>
+    <property name="nondexJarDir" value="/app/source/junit4/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="/app/source/junit4"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="license.skip" value="true"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="xml.skip" value="true"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="test[AnnotationInheritedFromBaseClass:SUCCESS_ALWAYS]" classname="com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest" time="0.393">
+    <failure message="Test failed unexpectedly:&#10;&#10;&lt;&lt;testInChild[boolInChild=false,boolInBase=false,THREE](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)&gt;&gt; java.lang.IllegalStateException: The method parameter should have matched a TestParameterAnnotation&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValue(TestParameterAnnotationMethodProcessor.java:1131)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.maybeGetTestMethodParameters(TestParameterAnnotationMethodProcessor.java:675)&#10;	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.lambda$getTestMethodParameters$2(TestMethodProcessorList.java:109)&#10;	at com.google.common.collect.Iterators$6.transform(Iterators.java:828)&#10;	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:52)&#10;	at com.google.common.collect.Iterators$5.computeNext(Iterators.java:671)&#10;	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:145)&#10;	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:140)&#10;	at com.google.common.collect.TransformedIterator.hasNext(TransformedIterator.java:46)&#10;	at com.google.common.collect.FluentIterable.first(FluentIterable.java:515)&#10;	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.getTestMethodParameters(TestMethodProcessorList.java:112)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodInvoker(PluggableTestRunner.java:245)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:212)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)&#10;&#10;------------------------------------&#10;&lt;&lt;testInChild[boolInChild=false,boolInBase=true,TWO](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)&gt;&gt; java.lang.IllegalStateException: The method parameter should have matched a TestParameterAnnotation&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValue(TestParameterAnnotationMethodProcessor.java:1131)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.maybeGetTestMethodParameters(TestParameterAnnotationMethodProcessor.java:675)&#10;	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.lambda$getTestMethodParameters$2(TestMethodProcessorList.java:109)&#10;	at com.google.common.collect.Iterators$6.transform(Iterators.java:828)&#10;	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:52)&#10;	at com.google.common.collect.Iterators$5.computeNext(Iterators.java:671)&#10;	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:145)&#10;	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:140)&#10;	at com.google.common.collect.TransformedIterator.hasNext(TransformedIterator.java:46)&#10;	at com.google.common.collect.FluentIterable.first(FluentIterable.java:515)&#10;	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.getTestMethodParameters(TestMethodProcessorList.java:112)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodInvoker(PluggableTestRunner.java:245)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:212)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)&#10;&#10;------------------------------------&#10;&lt;&lt;testInChild[boolInChild=false,boolInBase=true,THREE](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)&gt;&gt; java.lang.IllegalStateException: The method parameter should have matched a TestParameterAnnotation&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValue(TestParameterAnnotationMethodProcessor.java:1131)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.maybeGetTestMethodParameters(TestParameterAnnotationMethodProcessor.java:675)&#10;	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.lambda$getTestMethodParameters$2(TestMethodProcessorList.java:109)&#10;	at com.google.common.collect.Iterators$6.transform(Iterators.java:828)&#10;	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:52)&#10;	at com.google.common.collect.Iterators$5.computeNext(Iterators.java:671)&#10;	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:145)&#10;	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:140)&#10;	at com.google.common.collect.TransformedIterator.hasNext(TransformedIterator.java:46)&#10;	at com.google.common.collect.FluentIterable.first(FluentIterable.java:515)&#10;	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.getTestMethodParameters(TestMethodProcessorList.java:112)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodInvoker(PluggableTestRunner.java:245)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:212)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)&#10;&#10;------------------------------------&#10;&lt;&lt;testInChild[boolInChild=true,boolInBase=false,TWO](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)&gt;&gt; java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4&#10;	at com.google.common.collect.RegularImmutableList.get(RegularImmutableList.java:77)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValuesForTest(TestParameterAnnotationMethodProcessor.java:785)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.postProcessTestInstance(TestParameterAnnotationMethodProcessor.java:1033)&#10;	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.postProcessTestInstance(TestMethodProcessorList.java:127)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.createTestForMethod(PluggableTestRunner.java:337)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.access$000(PluggableTestRunner.java:52)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner$1.runReflectiveCall(PluggableTestRunner.java:205)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:207)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)&#10;&#10;------------------------------------&#10;&lt;&lt;testInChild[boolInChild=true,boolInBase=false,THREE](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)&gt;&gt; java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 4&#10;	at com.google.common.collect.RegularImmutableList.get(RegularImmutableList.java:77)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValuesForTest(TestParameterAnnotationMethodProcessor.java:785)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.postProcessTestInstance(TestParameterAnnotationMethodProcessor.java:1033)&#10;	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.postProcessTestInstance(TestMethodProcessorList.java:127)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.createTestForMethod(PluggableTestRunner.java:337)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.access$000(PluggableTestRunner.java:52)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner$1.runReflectiveCall(PluggableTestRunner.java:205)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:207)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)&#10;&#10;------------------------------------&#10;&lt;&lt;testInChild[boolInChild=true,boolInBase=true,TWO](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)&gt;&gt; java.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 4&#10;	at com.google.common.collect.RegularImmutableList.get(RegularImmutableList.java:77)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValuesForTest(TestParameterAnnotationMethodProcessor.java:785)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.postProcessTestInstance(TestParameterAnnotationMethodProcessor.java:1033)&#10;	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.postProcessTestInstance(TestMethodProcessorList.java:127)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.createTestForMethod(PluggableTestRunner.java:337)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.access$000(PluggableTestRunner.java:52)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner$1.runReflectiveCall(PluggableTestRunner.java:205)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:207)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)&#10;&#10;------------------------------------&#10;&lt;&lt;testInChild[boolInChild=true,boolInBase=true,THREE](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)&gt;&gt; java.lang.ArrayIndexOutOfBoundsException: Index 7 out of bounds for length 4&#10;	at com.google.common.collect.RegularImmutableList.get(RegularImmutableList.java:77)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValuesForTest(TestParameterAnnotationMethodProcessor.java:785)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.postProcessTestInstance(TestParameterAnnotationMethodProcessor.java:1033)&#10;	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.postProcessTestInstance(TestMethodProcessorList.java:127)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.createTestForMethod(PluggableTestRunner.java:337)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.access$000(PluggableTestRunner.java:52)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner$1.runReflectiveCall(PluggableTestRunner.java:205)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:207)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)&#10;&#10;------------------------------------&#10;&lt;&lt;testInBase[boolInChild=false,boolInBase=false,TWO](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)&gt;&gt; java.lang.IllegalStateException: The method parameter should have matched a TestParameterAnnotation&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValue(TestParameterAnnotationMethodProcessor.java:1131)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.maybeGetTestMethodParameters(TestParameterAnnotationMethodProcessor.java:675)&#10;	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.lambda$getTestMethodParameters$2(TestMethodProcessorList.java:109)&#10;	at com.google.common.collect.Iterators$6.transform(Iterators.java:828)&#10;	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:52)&#10;	at com.google.common.collect.Iterators$5.computeNext(Iterators.java:671)&#10;	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:145)&#10;	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:140)&#10;	at com.google.common.collect.TransformedIterator.hasNext(TransformedIterator.java:46)&#10;	at com.google.common.collect.FluentIterable.first(FluentIterable.java:515)&#10;	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.getTestMethodParameters(TestMethodProcessorList.java:112)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodInvoker(PluggableTestRunner.java:245)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:212)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)&#10;&#10;------------------------------------&#10;&lt;&lt;testInBase[boolInChild=false,boolInBase=true,TWO](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)&gt;&gt; java.lang.IllegalStateException: The method parameter should have matched a TestParameterAnnotation&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValue(TestParameterAnnotationMethodProcessor.java:1131)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.maybeGetTestMethodParameters(TestParameterAnnotationMethodProcessor.java:675)&#10;	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.lambda$getTestMethodParameters$2(TestMethodProcessorList.java:109)&#10;	at com.google.common.collect.Iterators$6.transform(Iterators.java:828)&#10;	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:52)&#10;	at com.google.common.collect.Iterators$5.computeNext(Iterators.java:671)&#10;	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:145)&#10;	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:140)&#10;	at com.google.common.collect.TransformedIterator.hasNext(TransformedIterator.java:46)&#10;	at com.google.common.collect.FluentIterable.first(FluentIterable.java:515)&#10;	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.getTestMethodParameters(TestMethodProcessorList.java:112)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodInvoker(PluggableTestRunner.java:245)&#10;	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:212)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)&#10;	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)&#10;	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#10;	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#10;	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#10;	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)&#10;	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)&#10;&#10;------------------------------------&#10;&lt;&lt;testInBase[boolInChild=true,boolInBase=false,ONE](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)&gt;&gt; java.lang.ArrayIndexOutOfBoundsException&#10;&#10;------------------------------------&#10;&lt;&lt;testInBase[boolInChild=true,boolInBase=true,ONE](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)&gt;&gt; java.lang.ArrayIndexOutOfBoundsException&#10;&#10;------------------------------------&#10;&lt;&lt;testInBase[boolInChild=true,boolInBase=true,TWO](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)&gt;&gt; java.lang.ArrayIndexOutOfBoundsException&#10;&#10;------------------------------------&#10;&lt;&lt;com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass&gt;&gt; &#10;----------------------&#10;ImmutableMap.&lt;String, String&gt;builder()&#10;    .put(&quot;testInChild[boolInChild=false,boolInBase=false,TWO]&quot;, &quot;false:false:TWO&quot;)&#10;    .put(&quot;abstractTestInBase[boolInChild=false,boolInBase=false]&quot;, &quot;false:false&quot;)&#10;    .put(&quot;abstractTestInBase[boolInChild=false,boolInBase=true]&quot;, &quot;false:false&quot;)&#10;    .put(&quot;abstractTestInBase[boolInChild=true,boolInBase=false]&quot;, &quot;true:false&quot;)&#10;    .put(&quot;abstractTestInBase[boolInChild=true,boolInBase=true]&quot;, &quot;true:true&quot;)&#10;    .put(&quot;overridableTestInBase[boolInChild=false,boolInBase=false]&quot;, &quot;false:false&quot;)&#10;    .put(&quot;overridableTestInBase[boolInChild=false,boolInBase=true]&quot;, &quot;false:false&quot;)&#10;    .put(&quot;overridableTestInBase[boolInChild=true,boolInBase=false]&quot;, &quot;false:true&quot;)&#10;    .put(&quot;overridableTestInBase[boolInChild=true,boolInBase=true]&quot;, &quot;true:true&quot;)&#10;    .put(&quot;testInBase[boolInChild=false,boolInBase=false,ONE]&quot;, &quot;false:ONE&quot;)&#10;    .put(&quot;testInBase[boolInChild=false,boolInBase=true,ONE]&quot;, &quot;false:ONE&quot;)&#10;    .put(&quot;testInBase[boolInChild=true,boolInBase=false,TWO]&quot;, &quot;false:TWO&quot;)&#10;    .build()&#10;----------------------&#10;&#10;keys with wrong values&#10;for key       : abstractTestInBase[boolInChild=false,boolInBase=true]&#10;expected value: true:false&#10;but got value : false:false&#10;for key       : abstractTestInBase[boolInChild=true,boolInBase=false]&#10;expected value: false:true&#10;but got value : true:false&#10;for key       : overridableTestInBase[boolInChild=false,boolInBase=true]&#10;expected value: true:false&#10;but got value : false:false&#10;for key       : testInBase[boolInChild=false,boolInBase=true,ONE]&#10;expected value: true:ONE&#10;but got value : false:ONE&#10;missing keys&#10;for key       : testInChild[boolInChild=false,boolInBase=false,THREE]&#10;expected value: false:false:THREE&#10;for key       : testInChild[boolInChild=false,boolInBase=true,TWO]&#10;expected value: true:false:TWO&#10;for key       : testInChild[boolInChild=false,boolInBase=true,THREE]&#10;expected value: true:false:THREE&#10;for key       : testInChild[boolInChild=true,boolInBase=false,TWO]&#10;expected value: false:true:TWO&#10;for key       : testInChild[boolInChild=true,boolInBase=false,THREE]&#10;expected value: false:true:THREE&#10;for key       : testInChild[boolInChild=true,boolInBase=true,TWO]&#10;expected value: true:true:TWO&#10;for key       : testInChild[boolInChild=true,boolInBase=true,THREE]&#10;expected value: true:true:THREE&#10;for key       : testInBase[boolInChild=false,boolInBase=false,TWO]&#10;expected value: false:TWO&#10;for key       : testInBase[boolInChild=false,boolInBase=true,TWO]&#10;expected value: true:TWO&#10;for key       : testInBase[boolInChild=true,boolInBase=false,ONE]&#10;expected value: false:ONE&#10;for key       : testInBase[boolInChild=true,boolInBase=true,ONE]&#10;expected value: true:ONE&#10;for key       : testInBase[boolInChild=true,boolInBase=true,TWO]&#10;expected value: true:TWO&#10;---&#10;expected      : {testInChild[boolInChild=false,boolInBase=false,TWO]=false:false:TWO, testInChild[boolInChild=false,boolInBase=false,THREE]=false:false:THREE, testInChild[boolInChild=false,boolInBase=true,TWO]=true:false:TWO, testInChild[boolInChild=false,boolInBase=true,THREE]=true:false:THREE, testInChild[boolInChild=true,boolInBase=false,TWO]=false:true:TWO, testInChild[boolInChild=true,boolInBase=false,THREE]=false:true:THREE, testInChild[boolInChild=true,boolInBase=true,TWO]=true:true:TWO, testInChild[boolInChild=true,boolInBase=true,THREE]=true:true:THREE, abstractTestInBase[boolInChild=false,boolInBase=false]=false:false, abstractTestInBase[boolInChild=false,boolInBase=true]=true:false, abstractTestInBase[boolInChild=true,boolInBase=false]=false:true, abstractTestInBase[boolInChild=true,boolInBase=true]=true:true, overridableTestInBase[boolInChild=false,boolInBase=false]=false:false, overridableTestInBase[boolInChild=false,boolInBase=true]=true:false, overridableTestInBase[boolInChild=true,boolInBase=false]=false:true, overridableTestInBase[boolInChild=true,boolInBase=true]=true:true, testInBase[boolInChild=false,boolInBase=false,ONE]=false:ONE, testInBase[boolInChild=false,boolInBase=false,TWO]=false:TWO, testInBase[boolInChild=false,boolInBase=true,ONE]=true:ONE, testInBase[boolInChild=false,boolInBase=true,TWO]=true:TWO, testInBase[boolInChild=true,boolInBase=false,ONE]=false:ONE, testInBase[boolInChild=true,boolInBase=false,TWO]=false:TWO, testInBase[boolInChild=true,boolInBase=true,ONE]=true:ONE, testInBase[boolInChild=true,boolInBase=true,TWO]=true:TWO}&#10;but was       : {testInChild[boolInChild=false,boolInBase=false,TWO]=false:false:TWO, abstractTestInBase[boolInChild=false,boolInBase=false]=false:false, abstractTestInBase[boolInChild=false,boolInBase=true]=false:false, abstractTestInBase[boolInChild=true,boolInBase=false]=true:false, abstractTestInBase[boolInChild=true,boolInBase=true]=true:true, overridableTestInBase[boolInChild=false,boolInBase=false]=false:false, overridableTestInBase[boolInChild=false,boolInBase=true]=false:false, overridableTestInBase[boolInChild=true,boolInBase=false]=false:true, overridableTestInBase[boolInChild=true,boolInBase=true]=true:true, testInBase[boolInChild=false,boolInBase=false,ONE]=false:ONE, testInBase[boolInChild=false,boolInBase=true,ONE]=false:ONE, testInBase[boolInChild=true,boolInBase=false,TWO]=false:TWO}&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Test failed unexpectedly:
+
+<<testInChild[boolInChild=false,boolInBase=false,THREE](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)>> java.lang.IllegalStateException: The method parameter should have matched a TestParameterAnnotation
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValue(TestParameterAnnotationMethodProcessor.java:1131)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.maybeGetTestMethodParameters(TestParameterAnnotationMethodProcessor.java:675)
+	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.lambda$getTestMethodParameters$2(TestMethodProcessorList.java:109)
+	at com.google.common.collect.Iterators$6.transform(Iterators.java:828)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:52)
+	at com.google.common.collect.Iterators$5.computeNext(Iterators.java:671)
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:145)
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:140)
+	at com.google.common.collect.TransformedIterator.hasNext(TransformedIterator.java:46)
+	at com.google.common.collect.FluentIterable.first(FluentIterable.java:515)
+	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.getTestMethodParameters(TestMethodProcessorList.java:112)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodInvoker(PluggableTestRunner.java:245)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:212)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+------------------------------------
+<<testInChild[boolInChild=false,boolInBase=true,TWO](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)>> java.lang.IllegalStateException: The method parameter should have matched a TestParameterAnnotation
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValue(TestParameterAnnotationMethodProcessor.java:1131)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.maybeGetTestMethodParameters(TestParameterAnnotationMethodProcessor.java:675)
+	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.lambda$getTestMethodParameters$2(TestMethodProcessorList.java:109)
+	at com.google.common.collect.Iterators$6.transform(Iterators.java:828)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:52)
+	at com.google.common.collect.Iterators$5.computeNext(Iterators.java:671)
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:145)
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:140)
+	at com.google.common.collect.TransformedIterator.hasNext(TransformedIterator.java:46)
+	at com.google.common.collect.FluentIterable.first(FluentIterable.java:515)
+	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.getTestMethodParameters(TestMethodProcessorList.java:112)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodInvoker(PluggableTestRunner.java:245)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:212)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+------------------------------------
+<<testInChild[boolInChild=false,boolInBase=true,THREE](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)>> java.lang.IllegalStateException: The method parameter should have matched a TestParameterAnnotation
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValue(TestParameterAnnotationMethodProcessor.java:1131)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.maybeGetTestMethodParameters(TestParameterAnnotationMethodProcessor.java:675)
+	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.lambda$getTestMethodParameters$2(TestMethodProcessorList.java:109)
+	at com.google.common.collect.Iterators$6.transform(Iterators.java:828)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:52)
+	at com.google.common.collect.Iterators$5.computeNext(Iterators.java:671)
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:145)
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:140)
+	at com.google.common.collect.TransformedIterator.hasNext(TransformedIterator.java:46)
+	at com.google.common.collect.FluentIterable.first(FluentIterable.java:515)
+	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.getTestMethodParameters(TestMethodProcessorList.java:112)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodInvoker(PluggableTestRunner.java:245)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:212)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+------------------------------------
+<<testInChild[boolInChild=true,boolInBase=false,TWO](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)>> java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
+	at com.google.common.collect.RegularImmutableList.get(RegularImmutableList.java:77)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValuesForTest(TestParameterAnnotationMethodProcessor.java:785)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.postProcessTestInstance(TestParameterAnnotationMethodProcessor.java:1033)
+	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.postProcessTestInstance(TestMethodProcessorList.java:127)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.createTestForMethod(PluggableTestRunner.java:337)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.access$000(PluggableTestRunner.java:52)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner$1.runReflectiveCall(PluggableTestRunner.java:205)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:207)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+------------------------------------
+<<testInChild[boolInChild=true,boolInBase=false,THREE](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)>> java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 4
+	at com.google.common.collect.RegularImmutableList.get(RegularImmutableList.java:77)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValuesForTest(TestParameterAnnotationMethodProcessor.java:785)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.postProcessTestInstance(TestParameterAnnotationMethodProcessor.java:1033)
+	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.postProcessTestInstance(TestMethodProcessorList.java:127)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.createTestForMethod(PluggableTestRunner.java:337)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.access$000(PluggableTestRunner.java:52)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner$1.runReflectiveCall(PluggableTestRunner.java:205)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:207)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+------------------------------------
+<<testInChild[boolInChild=true,boolInBase=true,TWO](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)>> java.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 4
+	at com.google.common.collect.RegularImmutableList.get(RegularImmutableList.java:77)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValuesForTest(TestParameterAnnotationMethodProcessor.java:785)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.postProcessTestInstance(TestParameterAnnotationMethodProcessor.java:1033)
+	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.postProcessTestInstance(TestMethodProcessorList.java:127)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.createTestForMethod(PluggableTestRunner.java:337)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.access$000(PluggableTestRunner.java:52)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner$1.runReflectiveCall(PluggableTestRunner.java:205)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:207)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+------------------------------------
+<<testInChild[boolInChild=true,boolInBase=true,THREE](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)>> java.lang.ArrayIndexOutOfBoundsException: Index 7 out of bounds for length 4
+	at com.google.common.collect.RegularImmutableList.get(RegularImmutableList.java:77)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValuesForTest(TestParameterAnnotationMethodProcessor.java:785)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.postProcessTestInstance(TestParameterAnnotationMethodProcessor.java:1033)
+	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.postProcessTestInstance(TestMethodProcessorList.java:127)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.createTestForMethod(PluggableTestRunner.java:337)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.access$000(PluggableTestRunner.java:52)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner$1.runReflectiveCall(PluggableTestRunner.java:205)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:207)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+------------------------------------
+<<testInBase[boolInChild=false,boolInBase=false,TWO](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)>> java.lang.IllegalStateException: The method parameter should have matched a TestParameterAnnotation
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValue(TestParameterAnnotationMethodProcessor.java:1131)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.maybeGetTestMethodParameters(TestParameterAnnotationMethodProcessor.java:675)
+	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.lambda$getTestMethodParameters$2(TestMethodProcessorList.java:109)
+	at com.google.common.collect.Iterators$6.transform(Iterators.java:828)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:52)
+	at com.google.common.collect.Iterators$5.computeNext(Iterators.java:671)
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:145)
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:140)
+	at com.google.common.collect.TransformedIterator.hasNext(TransformedIterator.java:46)
+	at com.google.common.collect.FluentIterable.first(FluentIterable.java:515)
+	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.getTestMethodParameters(TestMethodProcessorList.java:112)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodInvoker(PluggableTestRunner.java:245)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:212)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+------------------------------------
+<<testInBase[boolInChild=false,boolInBase=true,TWO](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)>> java.lang.IllegalStateException: The method parameter should have matched a TestParameterAnnotation
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.getParameterValue(TestParameterAnnotationMethodProcessor.java:1131)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessor.maybeGetTestMethodParameters(TestParameterAnnotationMethodProcessor.java:675)
+	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.lambda$getTestMethodParameters$2(TestMethodProcessorList.java:109)
+	at com.google.common.collect.Iterators$6.transform(Iterators.java:828)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:52)
+	at com.google.common.collect.Iterators$5.computeNext(Iterators.java:671)
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:145)
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:140)
+	at com.google.common.collect.TransformedIterator.hasNext(TransformedIterator.java:46)
+	at com.google.common.collect.FluentIterable.first(FluentIterable.java:515)
+	at com.google.testing.junit.testparameterinjector.TestMethodProcessorList.getTestMethodParameters(TestMethodProcessorList.java:112)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodInvoker(PluggableTestRunner.java:245)
+	at com.google.testing.junit.testparameterinjector.PluggableTestRunner.methodBlock(PluggableTestRunner.java:212)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndGetFailures(SharedTestUtilitiesJUnit4.java:83)
+	at com.google.testing.junit.testparameterinjector.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures(SharedTestUtilitiesJUnit4.java:48)
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+------------------------------------
+<<testInBase[boolInChild=true,boolInBase=false,ONE](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)>> java.lang.ArrayIndexOutOfBoundsException
+
+------------------------------------
+<<testInBase[boolInChild=true,boolInBase=true,ONE](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)>> java.lang.ArrayIndexOutOfBoundsException
+
+------------------------------------
+<<testInBase[boolInChild=true,boolInBase=true,TWO](com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass)>> java.lang.ArrayIndexOutOfBoundsException
+
+------------------------------------
+<<com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest$AnnotationInheritedFromBaseClass>> 
+----------------------
+ImmutableMap.<String, String>builder()
+    .put("testInChild[boolInChild=false,boolInBase=false,TWO]", "false:false:TWO")
+    .put("abstractTestInBase[boolInChild=false,boolInBase=false]", "false:false")
+    .put("abstractTestInBase[boolInChild=false,boolInBase=true]", "false:false")
+    .put("abstractTestInBase[boolInChild=true,boolInBase=false]", "true:false")
+    .put("abstractTestInBase[boolInChild=true,boolInBase=true]", "true:true")
+    .put("overridableTestInBase[boolInChild=false,boolInBase=false]", "false:false")
+    .put("overridableTestInBase[boolInChild=false,boolInBase=true]", "false:false")
+    .put("overridableTestInBase[boolInChild=true,boolInBase=false]", "false:true")
+    .put("overridableTestInBase[boolInChild=true,boolInBase=true]", "true:true")
+    .put("testInBase[boolInChild=false,boolInBase=false,ONE]", "false:ONE")
+    .put("testInBase[boolInChild=false,boolInBase=true,ONE]", "false:ONE")
+    .put("testInBase[boolInChild=true,boolInBase=false,TWO]", "false:TWO")
+    .build()
+----------------------
+
+keys with wrong values
+for key       : abstractTestInBase[boolInChild=false,boolInBase=true]
+expected value: true:false
+but got value : false:false
+for key       : abstractTestInBase[boolInChild=true,boolInBase=false]
+expected value: false:true
+but got value : true:false
+for key       : overridableTestInBase[boolInChild=false,boolInBase=true]
+expected value: true:false
+but got value : false:false
+for key       : testInBase[boolInChild=false,boolInBase=true,ONE]
+expected value: true:ONE
+but got value : false:ONE
+missing keys
+for key       : testInChild[boolInChild=false,boolInBase=false,THREE]
+expected value: false:false:THREE
+for key       : testInChild[boolInChild=false,boolInBase=true,TWO]
+expected value: true:false:TWO
+for key       : testInChild[boolInChild=false,boolInBase=true,THREE]
+expected value: true:false:THREE
+for key       : testInChild[boolInChild=true,boolInBase=false,TWO]
+expected value: false:true:TWO
+for key       : testInChild[boolInChild=true,boolInBase=false,THREE]
+expected value: false:true:THREE
+for key       : testInChild[boolInChild=true,boolInBase=true,TWO]
+expected value: true:true:TWO
+for key       : testInChild[boolInChild=true,boolInBase=true,THREE]
+expected value: true:true:THREE
+for key       : testInBase[boolInChild=false,boolInBase=false,TWO]
+expected value: false:TWO
+for key       : testInBase[boolInChild=false,boolInBase=true,TWO]
+expected value: true:TWO
+for key       : testInBase[boolInChild=true,boolInBase=false,ONE]
+expected value: false:ONE
+for key       : testInBase[boolInChild=true,boolInBase=true,ONE]
+expected value: true:ONE
+for key       : testInBase[boolInChild=true,boolInBase=true,TWO]
+expected value: true:TWO
+---
+expected      : {testInChild[boolInChild=false,boolInBase=false,TWO]=false:false:TWO, testInChild[boolInChild=false,boolInBase=false,THREE]=false:false:THREE, testInChild[boolInChild=false,boolInBase=true,TWO]=true:false:TWO, testInChild[boolInChild=false,boolInBase=true,THREE]=true:false:THREE, testInChild[boolInChild=true,boolInBase=false,TWO]=false:true:TWO, testInChild[boolInChild=true,boolInBase=false,THREE]=false:true:THREE, testInChild[boolInChild=true,boolInBase=true,TWO]=true:true:TWO, testInChild[boolInChild=true,boolInBase=true,THREE]=true:true:THREE, abstractTestInBase[boolInChild=false,boolInBase=false]=false:false, abstractTestInBase[boolInChild=false,boolInBase=true]=true:false, abstractTestInBase[boolInChild=true,boolInBase=false]=false:true, abstractTestInBase[boolInChild=true,boolInBase=true]=true:true, overridableTestInBase[boolInChild=false,boolInBase=false]=false:false, overridableTestInBase[boolInChild=false,boolInBase=true]=true:false, overridableTestInBase[boolInChild=true,boolInBase=false]=false:true, overridableTestInBase[boolInChild=true,boolInBase=true]=true:true, testInBase[boolInChild=false,boolInBase=false,ONE]=false:ONE, testInBase[boolInChild=false,boolInBase=false,TWO]=false:TWO, testInBase[boolInChild=false,boolInBase=true,ONE]=true:ONE, testInBase[boolInChild=false,boolInBase=true,TWO]=true:TWO, testInBase[boolInChild=true,boolInBase=false,ONE]=false:ONE, testInBase[boolInChild=true,boolInBase=false,TWO]=false:TWO, testInBase[boolInChild=true,boolInBase=true,ONE]=true:ONE, testInBase[boolInChild=true,boolInBase=true,TWO]=true:TWO}
+but was       : {testInChild[boolInChild=false,boolInBase=false,TWO]=false:false:TWO, abstractTestInBase[boolInChild=false,boolInBase=false]=false:false, abstractTestInBase[boolInChild=false,boolInBase=true]=false:false, abstractTestInBase[boolInChild=true,boolInBase=false]=true:false, abstractTestInBase[boolInChild=true,boolInBase=true]=true:true, overridableTestInBase[boolInChild=false,boolInBase=false]=false:false, overridableTestInBase[boolInChild=false,boolInBase=true]=false:false, overridableTestInBase[boolInChild=true,boolInBase=false]=false:true, overridableTestInBase[boolInChild=true,boolInBase=true]=true:true, testInBase[boolInChild=false,boolInBase=false,ONE]=false:ONE, testInBase[boolInChild=false,boolInBase=true,ONE]=false:ONE, testInBase[boolInChild=true,boolInBase=false,TWO]=false:TWO}
+
+	at com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)
+]]></failure>
+  </testcase>
+</testsuite>

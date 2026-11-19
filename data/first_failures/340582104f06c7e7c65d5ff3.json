@@ -1,0 +1,81 @@
+{
+  "container": "fastjsone59c1betest1_245",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "fastjsone59c1betest1_245",
+    "project": "https://github.com/alibaba/fastjson",
+    "revision": "e59c1be9219e1e8ed8ebd48603b9f5567654a468",
+    "test": "com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case3Test.test1_2",
+    "label": "ID",
+    "module": ".",
+    "zip": "fastjson=.=e59c1be",
+    "config_row": 192,
+    "configured_test": "com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case3Test#test1_2",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/fastjson::com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case3Test.test1_2",
+    "variant_id": "https://github.com/alibaba/fastjson::com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case3Test.test1_2::e59c1be9219e1e8ed8ebd48603b9f5567654a468::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/fastjsone59c1betest1_245/result/Flaky/.nondex/k2GfuFQVEPg0BUDuoot8CW9X2zgJev7kDg4R+MdsvI=/TEST-com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case3Test.xml",
+        "size": 46765,
+        "compressed": 6422,
+        "crc32": "498aad90",
+        "offset": 927290846,
+        "method": 8,
+        "local_path": "data/extracted/5a9f7fc9576542afa2f8edf0.xml",
+        "sha256": "185db9f75d7294d571bbd0035107ac8064b5aee055ce2a18533704493f804237",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/fastjsone59c1betest1_245/result/Flaky/rounds-test-results.csv",
+    "size": 22255,
+    "compressed": 5056,
+    "crc32": "6762ed47",
+    "offset": 927152800,
+    "method": 8,
+    "local_path": "data/extracted/a024e4fcd8dfe57bcdd65b6f.csv",
+    "sha256": "b1495921c086738f5b51cdf6e4c233c4821e15447f4912f88f0eb95a898dd18c",
+    "status": "verified"
+  },
+  "reported_failure_rows": 63,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/fastjsone59c1betest1_245/result/Flaky/.nondex/k2GfuFQVEPg0BUDuoot8CW9X2zgJev7kDg4R+MdsvI=/TEST-com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case3Test.xml",
+    "size": 46765,
+    "compressed": 6422,
+    "crc32": "498aad90",
+    "offset": 927290846,
+    "method": 8,
+    "local_path": "data/extracted/5a9f7fc9576542afa2f8edf0.xml",
+    "sha256": "185db9f75d7294d571bbd0035107ac8064b5aee055ce2a18533704493f804237",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test1_2",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Response content expected:</**/fnUpdateSome({\"name\":\"\u54c8\u54c8\u54c8\",\"id\":123})> but was:</**/fnUpdateSome({\"id\":123,\"name\":\"\u54c8\u54c8\u54c8\"})>",
+    "stack_trace": "java.lang.AssertionError: Response content expected:</**/fnUpdateSome({\"name\":\"\u54c8\u54c8\u54c8\",\"id\":123})> but was:</**/fnUpdateSome({\"id\":123,\"name\":\"\u54c8\u54c8\u54c8\"})>\n\tat com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case3Test.test1_2(FastJsonpHttpMessageConverter4Case3Test.java:106)",
+    "text": "java.lang.AssertionError\nResponse content expected:</**/fnUpdateSome({\"name\":\"\u54c8\u54c8\u54c8\",\"id\":123})> but was:</**/fnUpdateSome({\"id\":123,\"name\":\"\u54c8\u54c8\u54c8\"})>\njava.lang.AssertionError: Response content expected:</**/fnUpdateSome({\"name\":\"\u54c8\u54c8\u54c8\",\"id\":123})> but was:</**/fnUpdateSome({\"id\":123,\"name\":\"\u54c8\u54c8\u54c8\"})>\n\tat com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case3Test.test1_2(FastJsonpHttpMessageConverter4Case3Test.java:106)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "378dfb8f675a4f6f4fd9cd826a0bdce43ba0587586e23a560490a6baf4d6fbaf"
+}

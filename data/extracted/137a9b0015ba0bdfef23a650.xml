@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.apache.shenyu.common.utils.GsonUtilsTest" time="0.199" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="nondexStart" value="0"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/shenyu-common/target/test-classes:/app/source/shenyu-common/target/classes:/root/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.2.2.RELEASE/spring-boot-starter-json-2.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter/2.2.2.RELEASE/spring-boot-starter-2.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/spring-expression/5.2.2.RELEASE/spring-expression-5.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.2.2.RELEASE/spring-boot-starter-logging-2.2.2.RELEASE.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.12.1/log4j-to-slf4j-2.12.1.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar:/root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.jar:/root/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/root/.m2/repository/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/spring-jcl/5.2.2.RELEASE/spring-jcl-5.2.2.RELEASE.jar:/root/.m2/repository/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar:/root/.m2/repository/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.1/jackson-module-parameter-names-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar:/root/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/root/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.5.2/junit-jupiter-5.5.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/root/.m2/repository/org/junit/vintage/junit-vintage-engine/5.5.2/junit-vintage-engine-5.5.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar:/root/.m2/repository/org/hamcrest/hamcrest-library/2.1/hamcrest-library-2.1.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/root/.m2/repository/org/mockito/mockito-junit-jupiter/3.5.15/mockito-junit-jupiter-3.5.15.jar:/root/.m2/repository/org/mockito/mockito-core/3.5.15/mockito-core-3.5.15.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.12.6/byte-buddy-1.12.6.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.4/byte-buddy-agent-1.10.4.jar:/root/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/root/.m2/repository/org/mockito/mockito-inline/3.5.15/mockito-inline-3.5.15.jar:/root/.m2/repository/org/awaitility/awaitility/4.0.3/awaitility-4.0.3.jar:/root/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/root/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-11/lib"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="sun.java.command" value="/app/source/shenyu-common/target/surefire/surefirebooter2245097738306231.jar /app/source/shenyu-common/target/surefire 2025-11-09T19-17-26_217-jvmRun1 surefire1710426104963745036tmp surefire_113518992483033377775tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/app/source/shenyu-common/target/test-classes:/app/source/shenyu-common/target/classes:/root/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.2.2.RELEASE/spring-boot-starter-json-2.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter/2.2.2.RELEASE/spring-boot-starter-2.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/spring-expression/5.2.2.RELEASE/spring-expression-5.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.2.2.RELEASE/spring-boot-starter-logging-2.2.2.RELEASE.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.12.1/log4j-to-slf4j-2.12.1.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar:/root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.jar:/root/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/root/.m2/repository/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/spring-jcl/5.2.2.RELEASE/spring-jcl-5.2.2.RELEASE.jar:/root/.m2/repository/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar:/root/.m2/repository/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar:/root/.m2/repository/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.1/jackson-module-parameter-names-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar:/root/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/root/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.5.2/junit-jupiter-5.5.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/root/.m2/repository/org/junit/vintage/junit-vintage-engine/5.5.2/junit-vintage-engine-5.5.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar:/root/.m2/repository/org/hamcrest/hamcrest-library/2.1/hamcrest-library-2.1.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/root/.m2/repository/org/mockito/mockito-junit-jupiter/3.5.15/mockito-junit-jupiter-3.5.15.jar:/root/.m2/repository/org/mockito/mockito-core/3.5.15/mockito-core-3.5.15.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.12.6/byte-buddy-1.12.6.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.4/byte-buddy-agent-1.10.4.jar:/root/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/root/.m2/repository/org/mockito/mockito-inline/3.5.15/mockito-inline-3.5.15.jar:/root/.m2/repository/org/awaitility/awaitility/4.0.3/awaitility-4.0.3.jar:/root/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/root/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:"/>
+    <property name="test" value="org.apache.shenyu.common.utils.GsonUtilsTest#testToJson"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="btpxebSsqWhelEsqvOqfKf48FkVo9XJEM5dBfXBadw="/>
+    <property name="user.home" value="/root"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/openjdk-11"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/app/source/shenyu-common"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="surefire.real.class.path" value="/app/source/shenyu-common/target/surefire/surefirebooter2245097738306231.jar"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-35-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/shenyu-common/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="nondexJarDir" value="/app/source/shenyu-common/.nondex"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="/app/source/shenyu-common"/>
+    <property name="license.skip" value="true"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="xml.skip" value="true"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="testToJson" classname="org.apache.shenyu.common.utils.GsonUtilsTest" time="0.176">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <{"bool":true,"iNumber":1,"fNumber":1.0,"dNumber":1.0,"bigDecimal":1,"string":"test","testList":["list_string_0","list_string_1","list_string_2","list_string_3","list_string_4","list_string_5","list_string_6","list_string_7","list_string_8","list_string_9"],"testMap":{"map_key_2":"map_value_2","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_7":"map_value_7","map_key_6":"map_value_6","map_key_5":"map_value_5","map_key_4":"map_value_4","map_key_3":"map_value_3"},"emptyList":[],"emptyMap":{},"nestedMap":{"map_2":{},"map_1":{"map_key_2":"map_value_2","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_7":"map_value_7","map_key_6":"map_value_6","map_key_5":"map_value_5","map_key_4":"map_value_4","map_key_3":"map_value_3"},"bool":false}}> but was: <{"emptyMap":{},"testList":["list_string_0","list_string_1","list_string_2","list_string_3","list_string_4","list_string_5","list_string_6","list_string_7","list_string_8","list_string_9"],"bigDecimal":1,"testMap":{"map_key_8":"map_value_8","map_key_5":"map_value_5","map_key_9":"map_value_9","map_key_1":"map_value_1","map_key_4":"map_value_4","map_key_2":"map_value_2","map_key_0":"map_value_0","map_key_6":"map_value_6","map_key_3":"map_value_3","map_key_7":"map_value_7"},"fNumber":1.0,"string":"test","iNumber":1,"emptyList":[],"bool":true,"dNumber":1.0,"nestedMap":{"map_2":{},"bool":false,"map_1":{"map_key_1":"map_value_1","map_key_5":"map_value_5","map_key_8":"map_value_8","map_key_2":"map_value_2","map_key_3":"map_value_3","map_key_9":"map_value_9","map_key_6":"map_value_6","map_key_7":"map_value_7","map_key_4":"map_value_4","map_key_0":"map_value_0"}}}>
+	at org.apache.shenyu.common.utils.GsonUtilsTest.testToJson(GsonUtilsTest.java:70)
+]]></failure>
+  </testcase>
+</testsuite>

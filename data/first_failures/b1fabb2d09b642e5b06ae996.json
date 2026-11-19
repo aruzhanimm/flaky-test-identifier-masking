@@ -1,0 +1,81 @@
+{
+  "container": "jsonioa6f9b6btestEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jsonioa6f9b6btestEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded",
+    "project": "https://github.com/jdereg/json-io",
+    "revision": "a6f9b6bbf0bd99cd9fa681d7ffeceb90ea87461e",
+    "test": "com.cedarsoftware.io.CollectionTests.testEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded",
+    "label": "ID",
+    "module": ".",
+    "zip": "json-io=.=a6f9b6b",
+    "config_row": 357,
+    "configured_test": "com.cedarsoftware.io.CollectionTests#testEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/jdereg/json-io::com.cedarsoftware.io.CollectionTests.testEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded",
+    "variant_id": "https://github.com/jdereg/json-io::com.cedarsoftware.io.CollectionTests.testEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded::a6f9b6bbf0bd99cd9fa681d7ffeceb90ea87461e::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/jsonioa6f9b6btestEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded/result/Flaky/.nondex/YKr5BFj+JLTHAYtl62zD8zNxmwva0q1Rrqj2FvxU=/TEST-com.cedarsoftware.io.CollectionTests.xml",
+        "size": 11507,
+        "compressed": 2534,
+        "crc32": "29418ff8",
+        "offset": 284420947,
+        "method": 8,
+        "local_path": "data/extracted/bd99cdb6ba2ab373e2d7f6c8.xml",
+        "sha256": "ec6bceee4cfdfa6954d98c5f395a81bf89bd37a70315a24c7927f656b9af15b1",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jsonioa6f9b6btestEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded/result/Flaky/rounds-test-results.csv",
+    "size": 16916,
+    "compressed": 5093,
+    "crc32": "7e2787d6",
+    "offset": 284038187,
+    "method": 8,
+    "local_path": "data/extracted/c170b6fab1880eb1b28cbb4b.csv",
+    "sha256": "c84c4d42bf0719400b29ad14ed45b383f2fbc4c86f2e39a58871e55864ad7a6f",
+    "status": "verified"
+  },
+  "reported_failure_rows": 55,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/jsonioa6f9b6btestEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded/result/Flaky/.nondex/YKr5BFj+JLTHAYtl62zD8zNxmwva0q1Rrqj2FvxU=/TEST-com.cedarsoftware.io.CollectionTests.xml",
+    "size": 11507,
+    "compressed": 2534,
+    "crc32": "29418ff8",
+    "offset": 284420947,
+    "method": 8,
+    "local_path": "data/extracted/bd99cdb6ba2ab373e2d7f6c8.xml",
+    "sha256": "ec6bceee4cfdfa6954d98c5f395a81bf89bd37a70315a24c7927f656b9af15b1",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <{\"@type\":\"ArrayList\",\"@items\":[{\"@type\":\"com.cedarsoftware.io.CollectionTests$TestEnum4\",\"age\":21,\"foo\":\"bar\",\"name\":\"B\"}]}> but was: <{\"@type\":\"ArrayList\",\"@items\":[{\"@type\":\"com.cedarsoftware.io.CollectionTests$TestEnum4\",\"foo\":\"bar\",\"age\":21,\"name\":\"B\"}]}>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <{\"@type\":\"ArrayList\",\"@items\":[{\"@type\":\"com.cedarsoftware.io.CollectionTests$TestEnum4\",\"age\":21,\"foo\":\"bar\",\"name\":\"B\"}]}> but was: <{\"@type\":\"ArrayList\",\"@items\":[{\"@type\":\"com.cedarsoftware.io.CollectionTests$TestEnum4\",\"foo\":\"bar\",\"age\":21,\"name\":\"B\"}]}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)\n\tat com.cedarsoftware.io.CollectionTests.testEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded(CollectionTests.java:396)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <{\"@type\":\"ArrayList\",\"@items\":[{\"@type\":\"com.cedarsoftware.io.CollectionTests$TestEnum4\",\"age\":21,\"foo\":\"bar\",\"name\":\"B\"}]}> but was: <{\"@type\":\"ArrayList\",\"@items\":[{\"@type\":\"com.cedarsoftware.io.CollectionTests$TestEnum4\",\"foo\":\"bar\",\"age\":21,\"name\":\"B\"}]}>\norg.opentest4j.AssertionFailedError: expected: <{\"@type\":\"ArrayList\",\"@items\":[{\"@type\":\"com.cedarsoftware.io.CollectionTests$TestEnum4\",\"age\":21,\"foo\":\"bar\",\"name\":\"B\"}]}> but was: <{\"@type\":\"ArrayList\",\"@items\":[{\"@type\":\"com.cedarsoftware.io.CollectionTests$TestEnum4\",\"foo\":\"bar\",\"age\":21,\"name\":\"B\"}]}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)\n\tat com.cedarsoftware.io.CollectionTests.testEnumsInsideOfACollection_whenWritingAsObject_withPrivateMembersIncluded(CollectionTests.java:396)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "e41cb7876c1382a5d1db7ce2ae52f1c72d4db56187249bbb2815e373ff2a5499"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "assetsharecommonscore79fcce8getZipEntryName_GenerateUniqueZipFileNameEntry",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "assetsharecommonscore79fcce8getZipEntryName_GenerateUniqueZipFileNameEntry",
+    "project": "https://github.com/adobe/asset-share-commons",
+    "revision": "79fcce8819b133a86dae80f55a2af93bab22a3e5",
+    "test": "com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest.getZipEntryName_GenerateUniqueZipFileNameEntry",
+    "label": "ID",
+    "module": "core",
+    "zip": "asset-share-commons=core=79fcce8",
+    "config_row": 587,
+    "configured_test": "com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest#getZipEntryName_GenerateUniqueZipFileNameEntry",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/adobe/asset-share-commons::com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest.getZipEntryName_GenerateUniqueZipFileNameEntry",
+    "variant_id": "https://github.com/adobe/asset-share-commons::com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest.getZipEntryName_GenerateUniqueZipFileNameEntry::79fcce8819b133a86dae80f55a2af93bab22a3e5::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/assetsharecommonscore79fcce8getZipEntryName_GenerateUniqueZipFileNameEntry/result/Flaky/.nondex/UECQLLamwZL6bFJxorlR2BTv0BceLaLlVp3Lsx5d58=/TEST-com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest.xml",
+        "size": 39572,
+        "compressed": 5043,
+        "crc32": "2eb8822c",
+        "offset": 2067778253,
+        "method": 8,
+        "local_path": "data/extracted/7b9075000bf01a7d35a70216.xml",
+        "sha256": "d2f0e6b4e6f591dab5fb77dc9979c0a199b4d4b012659c3986deb4c2af10acd7",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/assetsharecommonscore79fcce8getZipEntryName_GenerateUniqueZipFileNameEntry/result/Flaky/rounds-test-results.csv",
+    "size": 23247,
+    "compressed": 5137,
+    "crc32": "2d0123e5",
+    "offset": 2067508458,
+    "method": 8,
+    "local_path": "data/extracted/a48c6a389849f0c631d789ea.csv",
+    "sha256": "c28bf99ad8554bd0ab6399cef7c52fcf2612ef93ae401ef0568988cf7189521f",
+    "status": "verified"
+  },
+  "reported_failure_rows": 96,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/assetsharecommonscore79fcce8getZipEntryName_GenerateUniqueZipFileNameEntry/result/Flaky/.nondex/UECQLLamwZL6bFJxorlR2BTv0BceLaLlVp3Lsx5d58=/TEST-com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest.xml",
+    "size": 39572,
+    "compressed": 5043,
+    "crc32": "2eb8822c",
+    "offset": 2067778253,
+    "method": 8,
+    "local_path": "data/extracted/7b9075000bf01a7d35a70216.xml",
+    "sha256": "d2f0e6b4e6f591dab5fb77dc9979c0a199b4d4b012659c3986deb4c2af10acd7",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "getZipEntryName_GenerateUniqueZipFileNameEntry",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<[1-test__my-rendition.png]> but was:<[png__${rendition.name}.test]>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<[1-test__my-rendition.png]> but was:<[png__${rendition.name}.test]>\n\tat com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest.getZipEntryName_GenerateUniqueZipFileNameEntry(AssetRenditionsZipperImplTest.java:208)",
+    "text": "org.junit.ComparisonFailure\nexpected:<[1-test__my-rendition.png]> but was:<[png__${rendition.name}.test]>\norg.junit.ComparisonFailure: expected:<[1-test__my-rendition.png]> but was:<[png__${rendition.name}.test]>\n\tat com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest.getZipEntryName_GenerateUniqueZipFileNameEntry(AssetRenditionsZipperImplTest.java:208)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "0f1f09d34b74ab06e785b2229f49b74e4808b3423416d5ebbb4497936d50bebf"
+}

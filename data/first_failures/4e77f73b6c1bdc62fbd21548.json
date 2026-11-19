@@ -1,0 +1,81 @@
+{
+  "container": "hutoolhutoolcore33121a4getCombinationAnnotationsWithClassTest",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "hutoolhutoolcore33121a4getCombinationAnnotationsWithClassTest",
+    "project": "https://github.com/dromara/hutool",
+    "revision": "33121a4764c8cbc869b8bb449c23ea7a8979e522",
+    "test": "cn.hutool.core.annotation.AnnotationUtilTest.getCombinationAnnotationsWithClassTest",
+    "label": "ID",
+    "module": "hutool-core",
+    "zip": "hutool=hutool-core=33121a4",
+    "config_row": 444,
+    "configured_test": "cn.hutool.core.annotation.AnnotationUtilTest#getCombinationAnnotationsWithClassTest",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/dromara/hutool::cn.hutool.core.annotation.AnnotationUtilTest.getCombinationAnnotationsWithClassTest",
+    "variant_id": "https://github.com/dromara/hutool::cn.hutool.core.annotation.AnnotationUtilTest.getCombinationAnnotationsWithClassTest::33121a4764c8cbc869b8bb449c23ea7a8979e522::hutool-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 7,
+      "iteration": 6,
+      "member": {
+        "path": "result/hutoolhutoolcore33121a4getCombinationAnnotationsWithClassTest/result/Flaky/.nondex/knfISpPsFOD6yOsTgc80MezTRR99zzHE56PBR52Ji0=/TEST-cn.hutool.core.annotation.AnnotationUtilTest.xml",
+        "size": 10121,
+        "compressed": 2263,
+        "crc32": "366e4278",
+        "offset": 2155638664,
+        "method": 8,
+        "local_path": "data/extracted/c7f45e7da824b718c144fe89.xml",
+        "sha256": "e4f45c4ca6f93bc25b81582c1ff85156c0cd36cee2a2072a1d3c5a2f0f926f35",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/hutoolhutoolcore33121a4getCombinationAnnotationsWithClassTest/result/Flaky/rounds-test-results.csv",
+    "size": 18703,
+    "compressed": 4990,
+    "crc32": "b9ac8289",
+    "offset": 2155070954,
+    "method": 8,
+    "local_path": "data/extracted/248e7b0cbed4be67b2f2282a.csv",
+    "sha256": "1739662933e21b3f6d3fea74b7c03399cd99756ae8495ed8ca5ce36cdb41a9d1",
+    "status": "verified"
+  },
+  "reported_failure_rows": 44,
+  "iteration": 6,
+  "source_row": 7,
+  "diagnostic_member": {
+    "path": "result/hutoolhutoolcore33121a4getCombinationAnnotationsWithClassTest/result/Flaky/.nondex/knfISpPsFOD6yOsTgc80MezTRR99zzHE56PBR52Ji0=/TEST-cn.hutool.core.annotation.AnnotationUtilTest.xml",
+    "size": 10121,
+    "compressed": 2263,
+    "crc32": "366e4278",
+    "offset": 2155638664,
+    "method": 8,
+    "local_path": "data/extracted/c7f45e7da824b718c144fe89.xml",
+    "sha256": "e4f45c4ca6f93bc25b81582c1ff85156c0cd36cee2a2072a1d3c5a2f0f926f35",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "getCombinationAnnotationsWithClassTest",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<[\u6d4b\u8bd5]> but was:<[repeat-annotation]>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<[\u6d4b\u8bd5]> but was:<[repeat-annotation]>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat cn.hutool.core.annotation.AnnotationUtilTest.getCombinationAnnotationsWithClassTest(AnnotationUtilTest.java:32)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:62)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:139)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)",
+    "text": "org.junit.ComparisonFailure\nexpected:<[\u6d4b\u8bd5]> but was:<[repeat-annotation]>\norg.junit.ComparisonFailure: expected:<[\u6d4b\u8bd5]> but was:<[repeat-annotation]>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat cn.hutool.core.annotation.AnnotationUtilTest.getCombinationAnnotationsWithClassTest(AnnotationUtilTest.java:32)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:62)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:139)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "c82b0d47cac69ac14a2272e4a2976a921e8e7c64cf76753e45473d6e46e8ffd0"
+}

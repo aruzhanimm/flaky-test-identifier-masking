@@ -1,0 +1,81 @@
+{
+  "container": "nacosapi65917ectestSerialize3",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "nacosapi65917ectestSerialize3",
+    "project": "https://github.com/alibaba/nacos",
+    "revision": "65917ec986fdcd6e42e2fab70f9d9dc43f57cd43",
+    "test": "com.alibaba.nacos.api.remote.ability.ServerRemoteAbilityTest.testSerialize",
+    "label": "ID",
+    "module": "api",
+    "zip": "nacos=api=65917ec",
+    "config_row": 250,
+    "configured_test": "com.alibaba.nacos.api.remote.ability.ServerRemoteAbilityTest#testSerialize",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/nacos::com.alibaba.nacos.api.remote.ability.ServerRemoteAbilityTest.testSerialize",
+    "variant_id": "https://github.com/alibaba/nacos::com.alibaba.nacos.api.remote.ability.ServerRemoteAbilityTest.testSerialize::65917ec986fdcd6e42e2fab70f9d9dc43f57cd43::api",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/nacosapi65917ectestSerialize3/result/Flaky/.nondex/WXNMtQ76ZA16zKvX4owHlohakYKj6dEWOdPI3xzc=/TEST-com.alibaba.nacos.api.remote.ability.ServerRemoteAbilityTest.xml",
+        "size": 6879,
+        "compressed": 1835,
+        "crc32": "cd61370a",
+        "offset": 247147921,
+        "method": 8,
+        "local_path": "data/extracted/824211d07d9faddff4d9f749.xml",
+        "sha256": "b2a1b6b6f586a9d387d040794a0b3f7a9517d946607488f9cb75cb0d72f9dbed",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/nacosapi65917ectestSerialize3/result/Flaky/rounds-test-results.csv",
+    "size": 19499,
+    "compressed": 4981,
+    "crc32": "b4a88546",
+    "offset": 246952342,
+    "method": 8,
+    "local_path": "data/extracted/4f86e50e7e28af75916b584b.csv",
+    "sha256": "319bbba6e761ed7bd79e6613c85f6dbbfbb2babb4bd027178a7ac1b11f864947",
+    "status": "verified"
+  },
+  "reported_failure_rows": 46,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/nacosapi65917ectestSerialize3/result/Flaky/.nondex/WXNMtQ76ZA16zKvX4owHlohakYKj6dEWOdPI3xzc=/TEST-com.alibaba.nacos.api.remote.ability.ServerRemoteAbilityTest.xml",
+    "size": 6879,
+    "compressed": 1835,
+    "crc32": "cd61370a",
+    "offset": 247147921,
+    "method": 8,
+    "local_path": "data/extracted/824211d07d9faddff4d9f749.xml",
+    "sha256": "b2a1b6b6f586a9d387d040794a0b3f7a9517d946607488f9cb75cb0d72f9dbed",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testSerialize",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<{\"[supportRemoteConnection\":false,\"grpcReportEnabled\":tru]e}> but was:<{\"[grpcReportEnabled\":true,\"supportRemoteConnection\":fals]e}>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<{\"[supportRemoteConnection\":false,\"grpcReportEnabled\":tru]e}> but was:<{\"[grpcReportEnabled\":true,\"supportRemoteConnection\":fals]e}>\n\tat com.alibaba.nacos.api.remote.ability.ServerRemoteAbilityTest.testSerialize(ServerRemoteAbilityTest.java:54)",
+    "text": "org.junit.ComparisonFailure\nexpected:<{\"[supportRemoteConnection\":false,\"grpcReportEnabled\":tru]e}> but was:<{\"[grpcReportEnabled\":true,\"supportRemoteConnection\":fals]e}>\norg.junit.ComparisonFailure: expected:<{\"[supportRemoteConnection\":false,\"grpcReportEnabled\":tru]e}> but was:<{\"[grpcReportEnabled\":true,\"supportRemoteConnection\":fals]e}>\n\tat com.alibaba.nacos.api.remote.ability.ServerRemoteAbilityTest.testSerialize(ServerRemoteAbilityTest.java:54)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "9390a485808b9dd9c26f82675374e3b687a9297dba775e50839d3a6b4b745fd8"
+}

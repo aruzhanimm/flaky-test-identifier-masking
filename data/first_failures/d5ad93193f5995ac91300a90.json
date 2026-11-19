@@ -1,0 +1,81 @@
+{
+  "container": "oktahookssdkjavahooks8bf25c8tokenExpiration",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "oktahookssdkjavahooks8bf25c8tokenExpiration",
+    "project": "https://github.com/okta/okta-hooks-sdk-java",
+    "revision": "8bf25c84b54e788040ae2272e1578bc625e871d4",
+    "test": "com.okta.hooks.sdk.TokenHooksTest.tokenExpiration",
+    "label": "ID",
+    "module": "hooks",
+    "zip": "okta-hooks-sdk-java=hooks=8bf25c8",
+    "config_row": 748,
+    "configured_test": "com.okta.hooks.sdk.TokenHooksTest#tokenExpiration",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.TokenHooksTest.tokenExpiration",
+    "variant_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.TokenHooksTest.tokenExpiration::8bf25c84b54e788040ae2272e1578bc625e871d4::hooks",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/oktahookssdkjavahooks8bf25c8tokenExpiration/result/Flaky/.nondex/60oSqWPGNVHg5c2Zks3raebNxBPDcADD07u5T6HJHI0=/TEST-com.okta.hooks.sdk.TokenHooksTest.xml",
+        "size": 12326,
+        "compressed": 2493,
+        "crc32": "349f6866",
+        "offset": 1336736615,
+        "method": 8,
+        "local_path": "data/extracted/7e02ce4375e8373fddc4c05b.xml",
+        "sha256": "c12b4f0c016efe65ac0458f9225f0cb598c4d83808f71335ae39777652afe040",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8tokenExpiration/result/Flaky/rounds-test-results.csv",
+    "size": 17164,
+    "compressed": 5134,
+    "crc32": "394edac9",
+    "offset": 1331871018,
+    "method": 8,
+    "local_path": "data/extracted/5ca13714d26065f988dc0f08.csv",
+    "sha256": "2a3a1eef1117104593209c70f6dd534fad6bdc289ad9aa940016c7828d189294",
+    "status": "verified"
+  },
+  "reported_failure_rows": 91,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8tokenExpiration/result/Flaky/.nondex/60oSqWPGNVHg5c2Zks3raebNxBPDcADD07u5T6HJHI0=/TEST-com.okta.hooks.sdk.TokenHooksTest.xml",
+    "size": 12326,
+    "compressed": 2493,
+    "crc32": "349f6866",
+    "offset": 1336736615,
+    "method": 8,
+    "local_path": "data/extracted/7e02ce4375e8373fddc4c05b.xml",
+    "sha256": "c12b4f0c016efe65ac0458f9225f0cb598c4d83808f71335ae39777652afe040",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "tokenExpiration",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.access.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":4242}]},{\\\"type\\\":\\\"com.okta.identity.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":2424}]}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":4242}],\\\"type\\\":\\\"com.okta.access.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":2424}],\\\"type\\\":\\\"com.okta.identity.patch\\\"}]}\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.access.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":4242}]},{\\\"type\\\":\\\"com.okta.identity.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":2424}]}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":4242}],\\\"type\\\":\\\"com.okta.access.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":2424}],\\\"type\\\":\\\"com.okta.identity.patch\\\"}]}\"\n\tat com.okta.hooks.sdk.TokenHooksTest.tokenExpiration(TokenHooksTest.groovy:282)",
+    "text": "java.lang.AssertionError\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.access.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":4242}]},{\\\"type\\\":\\\"com.okta.identity.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":2424}]}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":4242}],\\\"type\\\":\\\"com.okta.access.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":2424}],\\\"type\\\":\\\"com.okta.identity.patch\\\"}]}\"\njava.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.access.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":4242}]},{\\\"type\\\":\\\"com.okta.identity.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":2424}]}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":4242}],\\\"type\\\":\\\"com.okta.access.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/token/lifetime/expiration\\\",\\\"value\\\":2424}],\\\"type\\\":\\\"com.okta.identity.patch\\\"}]}\"\n\tat com.okta.hooks.sdk.TokenHooksTest.tokenExpiration(TokenHooksTest.groovy:282)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "64a116a7ad52b1c00f0dcf198b0bb2bc9c525a6bacc508b827d7ef0233de5122"
+}

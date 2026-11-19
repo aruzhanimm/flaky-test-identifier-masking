@@ -1,0 +1,81 @@
+{
+  "container": "oktahookssdkjavahooks8bf25c8complexError",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "oktahookssdkjavahooks8bf25c8complexError",
+    "project": "https://github.com/okta/okta-hooks-sdk-java",
+    "revision": "8bf25c84b54e788040ae2272e1578bc625e871d4",
+    "test": "com.okta.hooks.sdk.UserRegHooksTest.complexError",
+    "label": "ID",
+    "module": "hooks",
+    "zip": "okta-hooks-sdk-java=hooks=8bf25c8",
+    "config_row": 750,
+    "configured_test": "com.okta.hooks.sdk.UserRegHooksTest#complexError",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.UserRegHooksTest.complexError",
+    "variant_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.UserRegHooksTest.complexError::8bf25c84b54e788040ae2272e1578bc625e871d4::hooks",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/oktahookssdkjavahooks8bf25c8complexError/result/Flaky/.nondex/q+CbmCUKlgEeBWRhr6vCoTNx0X2uRNfljIDrlJURDk=/TEST-com.okta.hooks.sdk.UserRegHooksTest.xml",
+        "size": 13146,
+        "compressed": 2668,
+        "crc32": "3efb1ae8",
+        "offset": 1274116592,
+        "method": 8,
+        "local_path": "data/extracted/081a048fd15913ada2deaf85.xml",
+        "sha256": "73bd0eb9814c5b72c5224c3fd33eac626adc1cb231e478e8b1254e459f9ffac6",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8complexError/result/Flaky/rounds-test-results.csv",
+    "size": 17347,
+    "compressed": 5093,
+    "crc32": "85644678",
+    "offset": 1268784793,
+    "method": 8,
+    "local_path": "data/extracted/bd66880290456bd5f4a4e185.csv",
+    "sha256": "41790aea122009dcc1496ca0014ff0714acb4fdb5b4ff82864d982f78f0cb0e4",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8complexError/result/Flaky/.nondex/q+CbmCUKlgEeBWRhr6vCoTNx0X2uRNfljIDrlJURDk=/TEST-com.okta.hooks.sdk.UserRegHooksTest.xml",
+    "size": 13146,
+    "compressed": 2668,
+    "crc32": "3efb1ae8",
+    "offset": 1274116592,
+    "method": 8,
+    "local_path": "data/extracted/081a048fd15913ada2deaf85.xml",
+    "sha256": "73bd0eb9814c5b72c5224c3fd33eac626adc1cb231e478e8b1254e459f9ffac6",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "complexError",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: is \"{\\\"error\\\":{\\\"errorSummary\\\":\\\"Errors were found in the user profile\\\",\\\"errorCauses\\\":[{\\\"errorSummary\\\":\\\"You specified an invalid email domain\\\",\\\"reason\\\":\\\"INVALID_EMAIL_DOMAIN\\\",\\\"locationType\\\":\\\"body\\\",\\\"location\\\":\\\"data.userProfile.login\\\",\\\"domain\\\":\\\"end-user\\\"},{\\\"errorSummary\\\":\\\"You failed this test\\\",\\\"reason\\\":\\\"EXPECTED_TEST_ERROR\\\",\\\"locationType\\\":\\\"arm\\\",\\\"location\\\":\\\"data.fake.location\\\",\\\"domain\\\":\\\"foobar\\\"}]}}\"\n     but: was \"{\\\"error\\\":{\\\"errorSummary\\\":\\\"Errors were found in the user profile\\\",\\\"errorCauses\\\":[{\\\"reason\\\":\\\"INVALID_EMAIL_DOMAIN\\\",\\\"location\\\":\\\"data.userProfile.login\\\",\\\"locationType\\\":\\\"body\\\",\\\"errorSummary\\\":\\\"You specified an invalid email domain\\\",\\\"domain\\\":\\\"end-user\\\"},{\\\"reason\\\":\\\"EXPECTED_TEST_ERROR\\\",\\\"location\\\":\\\"data.fake.location\\\",\\\"locationType\\\":\\\"arm\\\",\\\"errorSummary\\\":\\\"You failed this test\\\",\\\"domain\\\":\\\"foobar\\\"}]}}\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: is \"{\\\"error\\\":{\\\"errorSummary\\\":\\\"Errors were found in the user profile\\\",\\\"errorCauses\\\":[{\\\"errorSummary\\\":\\\"You specified an invalid email domain\\\",\\\"reason\\\":\\\"INVALID_EMAIL_DOMAIN\\\",\\\"locationType\\\":\\\"body\\\",\\\"location\\\":\\\"data.userProfile.login\\\",\\\"domain\\\":\\\"end-user\\\"},{\\\"errorSummary\\\":\\\"You failed this test\\\",\\\"reason\\\":\\\"EXPECTED_TEST_ERROR\\\",\\\"locationType\\\":\\\"arm\\\",\\\"location\\\":\\\"data.fake.location\\\",\\\"domain\\\":\\\"foobar\\\"}]}}\"\n     but: was \"{\\\"error\\\":{\\\"errorSummary\\\":\\\"Errors were found in the user profile\\\",\\\"errorCauses\\\":[{\\\"reason\\\":\\\"INVALID_EMAIL_DOMAIN\\\",\\\"location\\\":\\\"data.userProfile.login\\\",\\\"locationType\\\":\\\"body\\\",\\\"errorSummary\\\":\\\"You specified an invalid email domain\\\",\\\"domain\\\":\\\"end-user\\\"},{\\\"reason\\\":\\\"EXPECTED_TEST_ERROR\\\",\\\"location\\\":\\\"data.fake.location\\\",\\\"locationType\\\":\\\"arm\\\",\\\"errorSummary\\\":\\\"You failed this test\\\",\\\"domain\\\":\\\"foobar\\\"}]}}\"\n\tat com.okta.hooks.sdk.UserRegHooksTest.complexError(UserRegHooksTest.groovy:89)",
+    "text": "java.lang.AssertionError\nExpected: is \"{\\\"error\\\":{\\\"errorSummary\\\":\\\"Errors were found in the user profile\\\",\\\"errorCauses\\\":[{\\\"errorSummary\\\":\\\"You specified an invalid email domain\\\",\\\"reason\\\":\\\"INVALID_EMAIL_DOMAIN\\\",\\\"locationType\\\":\\\"body\\\",\\\"location\\\":\\\"data.userProfile.login\\\",\\\"domain\\\":\\\"end-user\\\"},{\\\"errorSummary\\\":\\\"You failed this test\\\",\\\"reason\\\":\\\"EXPECTED_TEST_ERROR\\\",\\\"locationType\\\":\\\"arm\\\",\\\"location\\\":\\\"data.fake.location\\\",\\\"domain\\\":\\\"foobar\\\"}]}}\"\n     but: was \"{\\\"error\\\":{\\\"errorSummary\\\":\\\"Errors were found in the user profile\\\",\\\"errorCauses\\\":[{\\\"reason\\\":\\\"INVALID_EMAIL_DOMAIN\\\",\\\"location\\\":\\\"data.userProfile.login\\\",\\\"locationType\\\":\\\"body\\\",\\\"errorSummary\\\":\\\"You specified an invalid email domain\\\",\\\"domain\\\":\\\"end-user\\\"},{\\\"reason\\\":\\\"EXPECTED_TEST_ERROR\\\",\\\"location\\\":\\\"data.fake.location\\\",\\\"locationType\\\":\\\"arm\\\",\\\"errorSummary\\\":\\\"You failed this test\\\",\\\"domain\\\":\\\"foobar\\\"}]}}\"\njava.lang.AssertionError: \n\nExpected: is \"{\\\"error\\\":{\\\"errorSummary\\\":\\\"Errors were found in the user profile\\\",\\\"errorCauses\\\":[{\\\"errorSummary\\\":\\\"You specified an invalid email domain\\\",\\\"reason\\\":\\\"INVALID_EMAIL_DOMAIN\\\",\\\"locationType\\\":\\\"body\\\",\\\"location\\\":\\\"data.userProfile.login\\\",\\\"domain\\\":\\\"end-user\\\"},{\\\"errorSummary\\\":\\\"You failed this test\\\",\\\"reason\\\":\\\"EXPECTED_TEST_ERROR\\\",\\\"locationType\\\":\\\"arm\\\",\\\"location\\\":\\\"data.fake.location\\\",\\\"domain\\\":\\\"foobar\\\"}]}}\"\n     but: was \"{\\\"error\\\":{\\\"errorSummary\\\":\\\"Errors were found in the user profile\\\",\\\"errorCauses\\\":[{\\\"reason\\\":\\\"INVALID_EMAIL_DOMAIN\\\",\\\"location\\\":\\\"data.userProfile.login\\\",\\\"locationType\\\":\\\"body\\\",\\\"errorSummary\\\":\\\"You specified an invalid email domain\\\",\\\"domain\\\":\\\"end-user\\\"},{\\\"reason\\\":\\\"EXPECTED_TEST_ERROR\\\",\\\"location\\\":\\\"data.fake.location\\\",\\\"locationType\\\":\\\"arm\\\",\\\"errorSummary\\\":\\\"You failed this test\\\",\\\"domain\\\":\\\"foobar\\\"}]}}\"\n\tat com.okta.hooks.sdk.UserRegHooksTest.complexError(UserRegHooksTest.groovy:89)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "df49dfb37a2d906b0419e00d87c1fa83c319db24fbf24b85db9c124c484d7c77"
+}

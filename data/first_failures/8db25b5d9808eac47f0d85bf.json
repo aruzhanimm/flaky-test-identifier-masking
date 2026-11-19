@@ -1,0 +1,81 @@
+{
+  "container": "vjtoolsvjkit2d3ca35threeTypeMappers",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "vjtoolsvjkit2d3ca35threeTypeMappers",
+    "project": "https://github.com/vipshop/vjtools",
+    "revision": "2d3ca35c3e23bfe754a20ad6dc782b34236aa2d0",
+    "test": "com.vip.vjtools.vjkit.mapper.JsonMapperTest.threeTypeMappers",
+    "label": "ID",
+    "module": "vjkit",
+    "zip": "vjtools=vjkit=2d3ca35",
+    "config_row": 215,
+    "configured_test": "com.vip.vjtools.vjkit.mapper.JsonMapperTest#threeTypeMappers",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/vipshop/vjtools::com.vip.vjtools.vjkit.mapper.JsonMapperTest.threeTypeMappers",
+    "variant_id": "https://github.com/vipshop/vjtools::com.vip.vjtools.vjkit.mapper.JsonMapperTest.threeTypeMappers::2d3ca35c3e23bfe754a20ad6dc782b34236aa2d0::vjkit",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/vjtoolsvjkit2d3ca35threeTypeMappers/result/Flaky/.nondex/xpjx9cOyALqymPjmqxbsL6hGhCZ23el6Hn07JzNMzPY=/TEST-com.vip.vjtools.vjkit.mapper.JsonMapperTest.xml",
+        "size": 10410,
+        "compressed": 2286,
+        "crc32": "cc455761",
+        "offset": 799087769,
+        "method": 8,
+        "local_path": "data/extracted/70670bb545971b505ac83845.xml",
+        "sha256": "e1b7b362032e07b78d94bc5ae197a42cfc096c3f04e9e18bf570988dbf5cdde3",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/vjtoolsvjkit2d3ca35threeTypeMappers/result/Flaky/rounds-test-results.csv",
+    "size": 18163,
+    "compressed": 4810,
+    "crc32": "0503b4c5",
+    "offset": 798839815,
+    "method": 8,
+    "local_path": "data/extracted/fa0a089bffe405f127c1b8d0.csv",
+    "sha256": "1f3c096bcf33311470d573df1e6aab089bd072f5a1d1bd4007e5bb49764d3142",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/vjtoolsvjkit2d3ca35threeTypeMappers/result/Flaky/.nondex/xpjx9cOyALqymPjmqxbsL6hGhCZ23el6Hn07JzNMzPY=/TEST-com.vip.vjtools.vjkit.mapper.JsonMapperTest.xml",
+    "size": 10410,
+    "compressed": 2286,
+    "crc32": "cc455761",
+    "offset": 799087769,
+    "method": 8,
+    "local_path": "data/extracted/70670bb545971b505ac83845.xml",
+    "sha256": "e1b7b362032e07b78d94bc5ae197a42cfc096c3f04e9e18bf570988dbf5cdde3",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "threeTypeMappers",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<\"{\"[name\":\"A\",\"defaultValue\":\"hello\",\"nullValue\":null],\"emptyValue\":[]}\"> but was:<\"{\"[defaultValue\":\"hello\",\"nullValue\":null,\"name\":\"A\"],\"emptyValue\":[]}\">",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<\"{\"[name\":\"A\",\"defaultValue\":\"hello\",\"nullValue\":null],\"emptyValue\":[]}\"> but was:<\"{\"[defaultValue\":\"hello\",\"nullValue\":null,\"name\":\"A\"],\"emptyValue\":[]}\">\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat com.vip.vjtools.vjkit.mapper.JsonMapperTest.threeTypeMappers(JsonMapperTest.java:153)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:62)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:139)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)",
+    "text": "org.junit.ComparisonFailure\nexpected:<\"{\"[name\":\"A\",\"defaultValue\":\"hello\",\"nullValue\":null],\"emptyValue\":[]}\"> but was:<\"{\"[defaultValue\":\"hello\",\"nullValue\":null,\"name\":\"A\"],\"emptyValue\":[]}\">\norg.junit.ComparisonFailure: expected:<\"{\"[name\":\"A\",\"defaultValue\":\"hello\",\"nullValue\":null],\"emptyValue\":[]}\"> but was:<\"{\"[defaultValue\":\"hello\",\"nullValue\":null,\"name\":\"A\"],\"emptyValue\":[]}\">\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat com.vip.vjtools.vjkit.mapper.JsonMapperTest.threeTypeMappers(JsonMapperTest.java:153)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:62)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:139)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "022f5618c91a783f7806f5b04fb49b03d1103495f862f725bec9d4c3f2a83325"
+}

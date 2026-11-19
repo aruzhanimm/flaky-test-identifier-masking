@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.jboss.as.cli.impl.aesh.HelpSupportTestCase" time="0.196" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="user.region" value="US"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-11/lib"/>
+    <property name="sun.java.command" value="/app/source/cli/target/surefire/surefirebooter18034972999253358818.jar /app/source/cli/target/surefire 2025-11-06T06-47-58_485-jvmRun1 surefire14153632662356264579tmp surefire_111952785794602891773tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="nondexExecid" value="v0AWZHhSGbY2iumKAhDbKwYaTCXpQ0dalEC8ubB+sw="/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/openjdk-11"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="basedir" value="/app/source/cli"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="root"/>
+    <property name="test.level" value="INFO"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/cli/.nondex"/>
+    <property name="nondexJarDir" value="/app/source/cli/.nondex"/>
+    <property name="java.io.tmpdir" value="/app/source/cli/target"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="license.skip" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="xml.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="pgpverify.skip" value="true"/>
+    <property name="org.jboss.model.test.cache.strict" value="true"/>
+    <property name="nondexStart" value="0"/>
+    <property name="java.class.path" value="/app/source/cli/target/test-classes:/app/source/cli/target/classes:/root/.m2/repository/org/aesh/readline/2.2/readline-2.2.jar:/root/.m2/repository/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar:/root/.m2/repository/org/aesh/aesh/2.4/aesh-2.4.jar:/root/.m2/repository/org/aesh/aesh-extensions/1.8/aesh-extensions-1.8.jar:/root/.m2/repository/org/jboss/staxmapper/1.3.0.Final/staxmapper-1.3.0.Final.jar:/root/.m2/repository/org/jboss/modules/jboss-modules/2.1.0.Final/jboss-modules-2.1.0.Final.jar:/root/.m2/repository/org/wildfly/common/wildfly-common/1.6.0.Final/wildfly-common-1.6.0.Final.jar:/root/.m2/repository/org/wildfly/core/wildfly-controller-client/20.0.0.Beta6-SNAPSHOT/wildfly-controller-client-20.0.0.Beta6-SNAPSHOT.jar:/root/.m2/repository/org/wildfly/core/wildfly-protocol/20.0.0.Beta6-SNAPSHOT/wildfly-protocol-20.0.0.Beta6-SNAPSHOT.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-auth-server/2.0.0.Final/wildfly-elytron-auth-server-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-http/2.0.0.Final/wildfly-elytron-http-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-client/2.0.0.Final/wildfly-elytron-client-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-auth-util/2.0.0.Final/wildfly-elytron-auth-util-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-mechanism-gssapi/2.0.0.Final/wildfly-elytron-mechanism-gssapi-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-credential-source-impl/2.0.0.Final/wildfly-elytron-credential-source-impl-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-credential-store/2.0.0.Final/wildfly-elytron-credential-store-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-mechanism/2.0.0.Final/wildfly-elytron-mechanism-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-sasl/2.0.0.Final/wildfly-elytron-sasl-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-ssl/2.0.0.Final/wildfly-elytron-ssl-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-anonymous/2.0.0.Final/wildfly-elytron-sasl-anonymous-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-localuser/2.0.0.Final/wildfly-elytron-sasl-localuser-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-realm/2.0.0.Final/wildfly-elytron-realm-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-encryption/2.0.0.Final/wildfly-elytron-encryption-2.0.0.Final.jar:/root/.m2/repository/org/jboss/jboss-dmr/1.6.1.Final/jboss-dmr-1.6.1.Final.jar:/root/.m2/repository/org/jboss/threads/jboss-threads/2.4.0.Final/jboss-threads-2.4.0.Final.jar:/root/.m2/repository/org/wildfly/core/wildfly-embedded/20.0.0.Beta6-SNAPSHOT/wildfly-embedded-20.0.0.Beta6-SNAPSHOT.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-auth/2.0.0.Final/wildfly-elytron-auth-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-util/2.0.0.Final/wildfly-elytron-util-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-base/2.0.0.Final/wildfly-elytron-base-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-credential/2.0.0.Final/wildfly-elytron-credential-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-asn1/2.0.0.Final/wildfly-elytron-asn1-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-keystore/2.0.0.Final/wildfly-elytron-keystore-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-provider-util/2.0.0.Final/wildfly-elytron-provider-util-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-x500/2.0.0.Final/wildfly-elytron-x500-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-password-impl/2.0.0.Final/wildfly-elytron-password-impl-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-security-manager/2.0.0.Final/wildfly-elytron-security-manager-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-permission/2.0.0.Final/wildfly-elytron-permission-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-security-manager-action/2.0.0.Final/wildfly-elytron-security-manager-action-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-x500-cert-acme/2.0.0.Final/wildfly-elytron-x500-cert-acme-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-x500-cert/2.0.0.Final/wildfly-elytron-x500-cert-2.0.0.Final.jar:/root/.m2/repository/org/apache/sshd/sshd-common/2.9.2/sshd-common-2.9.2.jar:/root/.m2/repository/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-x500-cert-util/2.0.0.Final/wildfly-elytron-x500-cert-util-2.0.0.Final.jar:/root/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar:/root/.m2/repository/org/jboss/logging/jboss-logging-annotations/2.2.1.Final/jboss-logging-annotations-2.2.1.Final.jar:/root/.m2/repository/org/jboss/logging/jboss-logging-processor/2.2.1.Final/jboss-logging-processor-2.2.1.Final.jar:/root/.m2/repository/org/jboss/jdeparser/jdeparser/2.0.3.Final/jdeparser-2.0.3.Final.jar:/root/.m2/repository/org/jboss/logmanager/jboss-logmanager/2.1.19.Final/jboss-logmanager-2.1.19.Final.jar:/root/.m2/repository/org/jboss/remoting/jboss-remoting/5.0.27.Final/jboss-remoting-5.0.27.Final.jar:/root/.m2/repository/org/jboss/xnio/xnio-api/3.8.8.Final/xnio-api-3.8.8.Final.jar:/root/.m2/repository/org/wildfly/client/wildfly-client-config/1.0.1.Final/wildfly-client-config-1.0.1.Final.jar:/root/.m2/repository/org/jboss/remotingjmx/remoting-jmx/3.0.4.Final/remoting-jmx-3.0.4.Final.jar:/root/.m2/repository/org/jboss/marshalling/jboss-marshalling/2.1.1.Final/jboss-marshalling-2.1.1.Final.jar:/root/.m2/repository/org/jboss/marshalling/jboss-marshalling-river/2.1.1.Final/jboss-marshalling-river-2.1.1.Final.jar:/root/.m2/repository/org/jboss/xnio/xnio-nio/3.8.8.Final/xnio-nio-3.8.8.Final.jar:/root/.m2/repository/org/jboss/jboss-vfs/3.2.17.Final/jboss-vfs-3.2.17.Final.jar:/root/.m2/repository/org/jboss/stdio/jboss-stdio/1.1.0.Final/jboss-stdio-1.1.0.Final.jar:/root/.m2/repository/jakarta/json/jakarta.json-api/2.1.1/jakarta.json-api-2.1.1.jar:/root/.m2/repository/org/eclipse/parsson/parsson/1.1.1/parsson-1.1.1.jar:/root/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="org.jboss.model.test.classpath.cache" value="target/model-test-cache"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="rat.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="surefire.test.class.path" value="/app/source/cli/target/test-classes:/app/source/cli/target/classes:/root/.m2/repository/org/aesh/readline/2.2/readline-2.2.jar:/root/.m2/repository/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar:/root/.m2/repository/org/aesh/aesh/2.4/aesh-2.4.jar:/root/.m2/repository/org/aesh/aesh-extensions/1.8/aesh-extensions-1.8.jar:/root/.m2/repository/org/jboss/staxmapper/1.3.0.Final/staxmapper-1.3.0.Final.jar:/root/.m2/repository/org/jboss/modules/jboss-modules/2.1.0.Final/jboss-modules-2.1.0.Final.jar:/root/.m2/repository/org/wildfly/common/wildfly-common/1.6.0.Final/wildfly-common-1.6.0.Final.jar:/root/.m2/repository/org/wildfly/core/wildfly-controller-client/20.0.0.Beta6-SNAPSHOT/wildfly-controller-client-20.0.0.Beta6-SNAPSHOT.jar:/root/.m2/repository/org/wildfly/core/wildfly-protocol/20.0.0.Beta6-SNAPSHOT/wildfly-protocol-20.0.0.Beta6-SNAPSHOT.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-auth-server/2.0.0.Final/wildfly-elytron-auth-server-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-http/2.0.0.Final/wildfly-elytron-http-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-client/2.0.0.Final/wildfly-elytron-client-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-auth-util/2.0.0.Final/wildfly-elytron-auth-util-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-mechanism-gssapi/2.0.0.Final/wildfly-elytron-mechanism-gssapi-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-credential-source-impl/2.0.0.Final/wildfly-elytron-credential-source-impl-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-credential-store/2.0.0.Final/wildfly-elytron-credential-store-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-mechanism/2.0.0.Final/wildfly-elytron-mechanism-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-sasl/2.0.0.Final/wildfly-elytron-sasl-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-ssl/2.0.0.Final/wildfly-elytron-ssl-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-anonymous/2.0.0.Final/wildfly-elytron-sasl-anonymous-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-localuser/2.0.0.Final/wildfly-elytron-sasl-localuser-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-realm/2.0.0.Final/wildfly-elytron-realm-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-encryption/2.0.0.Final/wildfly-elytron-encryption-2.0.0.Final.jar:/root/.m2/repository/org/jboss/jboss-dmr/1.6.1.Final/jboss-dmr-1.6.1.Final.jar:/root/.m2/repository/org/jboss/threads/jboss-threads/2.4.0.Final/jboss-threads-2.4.0.Final.jar:/root/.m2/repository/org/wildfly/core/wildfly-embedded/20.0.0.Beta6-SNAPSHOT/wildfly-embedded-20.0.0.Beta6-SNAPSHOT.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-auth/2.0.0.Final/wildfly-elytron-auth-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-util/2.0.0.Final/wildfly-elytron-util-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-base/2.0.0.Final/wildfly-elytron-base-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-credential/2.0.0.Final/wildfly-elytron-credential-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-asn1/2.0.0.Final/wildfly-elytron-asn1-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-keystore/2.0.0.Final/wildfly-elytron-keystore-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-provider-util/2.0.0.Final/wildfly-elytron-provider-util-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-x500/2.0.0.Final/wildfly-elytron-x500-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-password-impl/2.0.0.Final/wildfly-elytron-password-impl-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-security-manager/2.0.0.Final/wildfly-elytron-security-manager-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-permission/2.0.0.Final/wildfly-elytron-permission-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-security-manager-action/2.0.0.Final/wildfly-elytron-security-manager-action-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-x500-cert-acme/2.0.0.Final/wildfly-elytron-x500-cert-acme-2.0.0.Final.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-x500-cert/2.0.0.Final/wildfly-elytron-x500-cert-2.0.0.Final.jar:/root/.m2/repository/org/apache/sshd/sshd-common/2.9.2/sshd-common-2.9.2.jar:/root/.m2/repository/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar:/root/.m2/repository/org/wildfly/security/wildfly-elytron-x500-cert-util/2.0.0.Final/wildfly-elytron-x500-cert-util-2.0.0.Final.jar:/root/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar:/root/.m2/repository/org/jboss/logging/jboss-logging-annotations/2.2.1.Final/jboss-logging-annotations-2.2.1.Final.jar:/root/.m2/repository/org/jboss/logging/jboss-logging-processor/2.2.1.Final/jboss-logging-processor-2.2.1.Final.jar:/root/.m2/repository/org/jboss/jdeparser/jdeparser/2.0.3.Final/jdeparser-2.0.3.Final.jar:/root/.m2/repository/org/jboss/logmanager/jboss-logmanager/2.1.19.Final/jboss-logmanager-2.1.19.Final.jar:/root/.m2/repository/org/jboss/remoting/jboss-remoting/5.0.27.Final/jboss-remoting-5.0.27.Final.jar:/root/.m2/repository/org/jboss/xnio/xnio-api/3.8.8.Final/xnio-api-3.8.8.Final.jar:/root/.m2/repository/org/wildfly/client/wildfly-client-config/1.0.1.Final/wildfly-client-config-1.0.1.Final.jar:/root/.m2/repository/org/jboss/remotingjmx/remoting-jmx/3.0.4.Final/remoting-jmx-3.0.4.Final.jar:/root/.m2/repository/org/jboss/marshalling/jboss-marshalling/2.1.1.Final/jboss-marshalling-2.1.1.Final.jar:/root/.m2/repository/org/jboss/marshalling/jboss-marshalling-river/2.1.1.Final/jboss-marshalling-river-2.1.1.Final.jar:/root/.m2/repository/org/jboss/xnio/xnio-nio/3.8.8.Final/xnio-nio-3.8.8.Final.jar:/root/.m2/repository/org/jboss/jboss-vfs/3.2.17.Final/jboss-vfs-3.2.17.Final.jar:/root/.m2/repository/org/jboss/stdio/jboss-stdio/1.1.0.Final/jboss-stdio-1.1.0.Final.jar:/root/.m2/repository/jakarta/json/jakarta.json-api/2.1.1/jakarta.json-api-2.1.1.jar:/root/.m2/repository/org/eclipse/parsson/parsson/1.1.1/parsson-1.1.1.jar:/root/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="test" value="org.jboss.as.cli.impl.aesh.HelpSupportTestCase#testStandalone"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="974622"/>
+    <property name="surefire.real.class.path" value="/app/source/cli/target/surefire/surefirebooter18034972999253358818.jar"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="jboss.cli.config" value="/app/source/cli/../build/src/main/resources/bin/jboss-cli.xml"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-33-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="jboss.remoting.leakdebugging" value="false"/>
+    <property name="user.dir" value="/app/source/cli"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="org.jboss.model.test.cache.root" value="[pom.xml,testsuite]"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="java.util.logging.manager" value="org.jboss.logmanager.LogManager"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testStandalone" classname="org.jboss.as.cli.impl.aesh.HelpSupportTestCase" time="0.195">
+    <failure message="org.jboss.as.cli.impl.aesh.Commands$Standalone$Command10. EXPECTED [command1 [&lt;argument&gt;] ( [--all-server-groups] | [--replace] | [--server-groups] )]. FOUND [command1 [&lt;argument&gt;] ( [--all-server-groups] | [--server-groups] | [--replace] )] expected:&lt;...server-groups] | [--[replace] | [--server-groups]] )&gt; but was:&lt;...server-groups] | [--[server-groups] | [--replace]] )&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: org.jboss.as.cli.impl.aesh.Commands$Standalone$Command10. EXPECTED [command1 [<argument>] ( [--all-server-groups] | [--replace] | [--server-groups] )]. FOUND [command1 [<argument>] ( [--all-server-groups] | [--server-groups] | [--replace] )] expected:<...server-groups] | [--[replace] | [--server-groups]] )> but was:<...server-groups] | [--[server-groups] | [--replace]] )>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.jboss.as.cli.impl.aesh.HelpSupportTestCase.testStandalone(HelpSupportTestCase.java:93)
+	at org.jboss.as.cli.impl.aesh.HelpSupportTestCase.testStandalone(HelpSupportTestCase.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></failure>
+  </testcase>
+</testsuite>

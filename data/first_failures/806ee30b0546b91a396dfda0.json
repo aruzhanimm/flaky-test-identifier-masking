@@ -1,0 +1,81 @@
+{
+  "container": "tribuotestsb409ba0savesMultipleRegression",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "tribuotestsb409ba0savesMultipleRegression",
+    "project": "https://github.com/oracle/tribuo",
+    "revision": "b409ba0d23a4834d35c72d926b46b1854487805b",
+    "test": "org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest.savesMultipleRegression",
+    "label": "ID",
+    "module": "tests",
+    "zip": "tribuo=tests=b409ba0",
+    "config_row": 598,
+    "configured_test": "org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest#savesMultipleRegression",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/oracle/tribuo::org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest.savesMultipleRegression",
+    "variant_id": "https://github.com/oracle/tribuo::org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest.savesMultipleRegression::b409ba0d23a4834d35c72d926b46b1854487805b::tests",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/tribuotestsb409ba0savesMultipleRegression/result/Flaky/.nondex/UhKf9X0768Sg4IUO53J3DnLMe4n6mEdktCbkQwzkRN0=/TEST-org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest.xml",
+        "size": 16181,
+        "compressed": 2668,
+        "crc32": "54f1647f",
+        "offset": 1099444373,
+        "method": 8,
+        "local_path": "data/extracted/1658d55a21078601b35c43ed.xml",
+        "sha256": "f015e424a412ff4202e551678e64133de116481cd9e9e3674a547c47f6a37f49",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/tribuotestsb409ba0savesMultipleRegression/result/Flaky/rounds-test-results.csv",
+    "size": 18737,
+    "compressed": 4985,
+    "crc32": "e73923b4",
+    "offset": 1099276157,
+    "method": 8,
+    "local_path": "data/extracted/7110cca5be6d1d277c380385.csv",
+    "sha256": "7324ba497d0a6904481a509b2c1885f9f0532b685e8453f3536abd766ef3a252",
+    "status": "verified"
+  },
+  "reported_failure_rows": 83,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/tribuotestsb409ba0savesMultipleRegression/result/Flaky/.nondex/UhKf9X0768Sg4IUO53J3DnLMe4n6mEdktCbkQwzkRN0=/TEST-org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest.xml",
+    "size": 16181,
+    "compressed": 2668,
+    "crc32": "54f1647f",
+    "offset": 1099444373,
+    "method": 8,
+    "local_path": "data/extracted/1658d55a21078601b35c43ed.xml",
+    "sha256": "f015e424a412ff4202e551678e64133de116481cd9e9e3674a547c47f6a37f49",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "savesMultipleRegression",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": null,
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <[ArrayExample(numFeatures=3,output=(dim1,0.1),(dim2,0.0),weight=1.0,features=[(A, 1.0)(B, 0.0), (C, 0.0), ]), ArrayExample(numFeatures=3,output=(dim1,0.0),(dim2,0.0),weight=1.0,features=[(A, 1.0)(B, 0.0), (C, 0.1), ])]> but was: <[ArrayExample(numFeatures=3,output=(dim1,0.1),(dim2,0.0),weight=1.0,features=[(A, 1.0)(B, 0.0), (C, 0.0), ]), ArrayExample(numFeatures=3,output=(dim1,0.0),(dim2,0.0),weight=1.0,features=[(A, 1.0)(B, 0.1), (C, 0.0), ])]>\n\tat org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest.savesMultipleRegression(CSVSaverWithMultiOutputsTest.java:136)",
+    "text": "org.opentest4j.AssertionFailedError\norg.opentest4j.AssertionFailedError: expected: <[ArrayExample(numFeatures=3,output=(dim1,0.1),(dim2,0.0),weight=1.0,features=[(A, 1.0)(B, 0.0), (C, 0.0), ]), ArrayExample(numFeatures=3,output=(dim1,0.0),(dim2,0.0),weight=1.0,features=[(A, 1.0)(B, 0.0), (C, 0.1), ])]> but was: <[ArrayExample(numFeatures=3,output=(dim1,0.1),(dim2,0.0),weight=1.0,features=[(A, 1.0)(B, 0.0), (C, 0.0), ]), ArrayExample(numFeatures=3,output=(dim1,0.0),(dim2,0.0),weight=1.0,features=[(A, 1.0)(B, 0.1), (C, 0.0), ])]>\n\tat org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest.savesMultipleRegression(CSVSaverWithMultiOutputsTest.java:136)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "51335a84297f1448e8463ee3e8e7cd1a5f4fdd2384b97525b1705d226b24fd47"
+}

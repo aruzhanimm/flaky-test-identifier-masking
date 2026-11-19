@@ -1,0 +1,81 @@
+{
+  "container": "opennlpopennlptools57c685etestNgramModel",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "opennlpopennlptools57c685etestNgramModel",
+    "project": "https://github.com/apache/opennlp",
+    "revision": "57c685eef695a8b951ada343c3914104963445c8",
+    "test": "opennlp.tools.languagemodel.NgramLanguageModelTest.testNgramModel",
+    "label": "ID",
+    "module": "opennlp-tools",
+    "zip": "opennlp=opennlp-tools=57c685e",
+    "config_row": 732,
+    "configured_test": "opennlp.tools.languagemodel.NgramLanguageModelTest#testNgramModel",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/opennlp::opennlp.tools.languagemodel.NgramLanguageModelTest.testNgramModel",
+    "variant_id": "https://github.com/apache/opennlp::opennlp.tools.languagemodel.NgramLanguageModelTest.testNgramModel::57c685eef695a8b951ada343c3914104963445c8::opennlp-tools",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/opennlpopennlptools57c685etestNgramModel/result/Flaky/.nondex/cgiRfQX7769BgjxcEKSoJx0K+yzSquM2uTCBkKJ38o=/TEST-opennlp.tools.languagemodel.NgramLanguageModelTest.xml",
+        "size": 7658,
+        "compressed": 1910,
+        "crc32": "90647f4c",
+        "offset": 2204669974,
+        "method": 8,
+        "local_path": "data/extracted/64a9fb2edd1e4972b77aa1d8.xml",
+        "sha256": "53801b8808c363616f6d9e4d2e0bf525fe5b84f9d26d6e6ba72db7a7cbc1030a",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/opennlpopennlptools57c685etestNgramModel/result/Flaky/rounds-test-results.csv",
+    "size": 19516,
+    "compressed": 4966,
+    "crc32": "c070328a",
+    "offset": 2205020847,
+    "method": 8,
+    "local_path": "data/extracted/e976f42dde4bdce0dbdf1cbb.csv",
+    "sha256": "246a0149ce7c02dcafe380b884d1dc58bab24d67116b31700380df28d976c3a7",
+    "status": "verified"
+  },
+  "reported_failure_rows": 56,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/opennlpopennlptools57c685etestNgramModel/result/Flaky/.nondex/cgiRfQX7769BgjxcEKSoJx0K+yzSquM2uTCBkKJ38o=/TEST-opennlp.tools.languagemodel.NgramLanguageModelTest.xml",
+    "size": 7658,
+    "compressed": 1910,
+    "crc32": "90647f4c",
+    "offset": 2204669974,
+    "method": 8,
+    "local_path": "data/extracted/64a9fb2edd1e4972b77aa1d8.xml",
+    "sha256": "53801b8808c363616f6d9e4d2e0bf525fe5b84f9d26d6e6ba72db7a7cbc1030a",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testNgramModel",
+    "outcome": "failure",
+    "exception_type": "org.junit.internal.ArrayComparisonFailure",
+    "message": "arrays first differed at element [0]; expected:<[the]> but was:<[something]>",
+    "stack_trace": "org.junit.internal.ArrayComparisonFailure: arrays first differed at element [0]; expected:<[the]> but was:<[something]>\n\tat opennlp.tools.languagemodel.NgramLanguageModelTest.testNgramModel(NgramLanguageModelTest.java:67)\nCaused by: org.junit.ComparisonFailure: expected:<[the]> but was:<[something]>\n\tat opennlp.tools.languagemodel.NgramLanguageModelTest.testNgramModel(NgramLanguageModelTest.java:67)",
+    "text": "org.junit.internal.ArrayComparisonFailure\narrays first differed at element [0]; expected:<[the]> but was:<[something]>\norg.junit.internal.ArrayComparisonFailure: arrays first differed at element [0]; expected:<[the]> but was:<[something]>\n\tat opennlp.tools.languagemodel.NgramLanguageModelTest.testNgramModel(NgramLanguageModelTest.java:67)\nCaused by: org.junit.ComparisonFailure: expected:<[the]> but was:<[something]>\n\tat opennlp.tools.languagemodel.NgramLanguageModelTest.testNgramModel(NgramLanguageModelTest.java:67)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "c3e4c6b187fb6d1891c03dfb420e0d59bb300e5bc2a61472dd9f27eea443d39a"
+}

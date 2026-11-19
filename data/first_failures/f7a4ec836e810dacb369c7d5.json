@@ -1,0 +1,81 @@
+{
+  "container": "assetsharecommonscore79fcce8pack",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "assetsharecommonscore79fcce8pack",
+    "project": "https://github.com/adobe/asset-share-commons",
+    "revision": "79fcce8819b133a86dae80f55a2af93bab22a3e5",
+    "test": "com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest.pack",
+    "label": "ID",
+    "module": "core",
+    "zip": "asset-share-commons=core=79fcce8",
+    "config_row": 588,
+    "configured_test": "com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest#pack",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/adobe/asset-share-commons::com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest.pack",
+    "variant_id": "https://github.com/adobe/asset-share-commons::com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest.pack::79fcce8819b133a86dae80f55a2af93bab22a3e5::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/assetsharecommonscore79fcce8pack/result/Flaky/.nondex/5wkv5weMSu+yPo7SCAvRoD10lCYjAcEgNBrZGuUia+8=/TEST-com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest.xml",
+        "size": 39350,
+        "compressed": 4991,
+        "crc32": "914010f5",
+        "offset": 324691131,
+        "method": 8,
+        "local_path": "data/extracted/d31e56259b625119c9f2675a.xml",
+        "sha256": "5d15163173f0bd5eef59b860c4b8df1c594d66bcab227066ab7954b23d702b92",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/assetsharecommonscore79fcce8pack/result/Flaky/rounds-test-results.csv",
+    "size": 23187,
+    "compressed": 5159,
+    "crc32": "a516632f",
+    "offset": 324434178,
+    "method": 8,
+    "local_path": "data/extracted/a27c5a161e30ce33caa25d96.csv",
+    "sha256": "8abb1c6d943443a80536acb4ee4face0afa3fe23201fda523a694ee1085b59e4",
+    "status": "verified"
+  },
+  "reported_failure_rows": 87,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/assetsharecommonscore79fcce8pack/result/Flaky/.nondex/5wkv5weMSu+yPo7SCAvRoD10lCYjAcEgNBrZGuUia+8=/TEST-com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest.xml",
+    "size": 39350,
+    "compressed": 4991,
+    "crc32": "914010f5",
+    "offset": 324691131,
+    "method": 8,
+    "local_path": "data/extracted/d31e56259b625119c9f2675a.xml",
+    "sha256": "5d15163173f0bd5eef59b860c4b8df1c594d66bcab227066ab7954b23d702b92",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "pack",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "expected:<334> but was:<342>",
+    "stack_trace": "java.lang.AssertionError: expected:<334> but was:<342>\n\tat com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest.pack(AssetRenditionsZipperImplTest.java:231)",
+    "text": "java.lang.AssertionError\nexpected:<334> but was:<342>\njava.lang.AssertionError: expected:<334> but was:<342>\n\tat com.adobe.aem.commons.assetshare.content.renditions.download.impl.AssetRenditionsZipperImplTest.pack(AssetRenditionsZipperImplTest.java:231)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "fc8592fd4bdc1ab9c995c7f58ecda5adbc95726abd57115dfab08238fd819e99"
+}

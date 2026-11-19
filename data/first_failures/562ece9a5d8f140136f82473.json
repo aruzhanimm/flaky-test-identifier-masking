@@ -1,0 +1,37 @@
+{
+  "container": "HADOOP-10394_testDoFilterAuthenticationWithDomainPath",
+  "metadata": {
+    "source": "JIRA",
+    "container": "HADOOP-10394_testDoFilterAuthenticationWithDomainPath",
+    "project": "https://github.com/apache/hadoop",
+    "revision": "d74ec9dd20cee35e9201e8a08b8bbcc76481a967",
+    "test": "org.apache.hadoop.security.authentication.server.TestAuthenticationFilter.testDoFilterAuthenticationWithDomainPath",
+    "label": "TD",
+    "module": "hadoop-common-project/hadoop-auth",
+    "zip": "HADOOP-10394",
+    "config_row": 1071,
+    "configured_test": "org.apache.hadoop.security.authentication.server.TestAuthenticationFilter#testDoFilterAuthenticationWithDomainPath",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hadoop::org.apache.hadoop.security.authentication.server.TestAuthenticationFilter.testDoFilterAuthenticationWithDomainPath",
+    "variant_id": "https://github.com/apache/hadoop::org.apache.hadoop.security.authentication.server.TestAuthenticationFilter.testDoFilterAuthenticationWithDomainPath::d74ec9dd20cee35e9201e8a08b8bbcc76481a967::hadoop-common-project/hadoop-auth",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/HADOOP-10394_testDoFilterAuthenticationWithDomainPath/result/Flaky/rounds-test-results.csv",
+    "size": 27179,
+    "compressed": 750,
+    "crc32": "eb81f377",
+    "offset": 89472162,
+    "method": 8,
+    "local_path": "data/extracted/a58068d46129eda4843e8df0.csv",
+    "sha256": "d27e24dc5f59c438d1137ee9edddc0ea53c7fc0c762547d478e0632f39075541",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

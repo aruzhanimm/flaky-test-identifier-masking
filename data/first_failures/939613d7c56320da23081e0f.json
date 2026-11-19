@@ -1,0 +1,81 @@
+{
+  "container": "sakailtitsugiutil80bf214testRSAFromString",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "sakailtitsugiutil80bf214testRSAFromString",
+    "project": "https://github.com/sakaiproject/sakai",
+    "revision": "80bf214c45d43913ab18b374f19d6dd69730c583",
+    "test": "org.tsugi.lti13.LTI13NimbusTest.testRSAFromString",
+    "label": "ID",
+    "module": "lti/tsugi-util",
+    "zip": "sakai=lti+tsugi-util=80bf214",
+    "config_row": 708,
+    "configured_test": "org.tsugi.lti13.LTI13NimbusTest#testRSAFromString",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/sakaiproject/sakai::org.tsugi.lti13.LTI13NimbusTest.testRSAFromString",
+    "variant_id": "https://github.com/sakaiproject/sakai::org.tsugi.lti13.LTI13NimbusTest.testRSAFromString::80bf214c45d43913ab18b374f19d6dd69730c583::lti/tsugi-util",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/sakailtitsugiutil80bf214testRSAFromString/result/Flaky/.nondex/1Eq59l44l+tKr1o7g7D9L3bMFKAs6dQMujoZjsFSlc=/TEST-org.tsugi.lti13.LTI13NimbusTest.xml",
+        "size": 15470,
+        "compressed": 3325,
+        "crc32": "7a23a034",
+        "offset": 2217034278,
+        "method": 8,
+        "local_path": "data/extracted/1eaf0e25a3487460f0a1f3f7.xml",
+        "sha256": "7338dca02950a4a09c56b98dca48e22f66200feface3f5bcb9040ca6c5461cdd",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/sakailtitsugiutil80bf214testRSAFromString/result/Flaky/rounds-test-results.csv",
+    "size": 17791,
+    "compressed": 5090,
+    "crc32": "fc77837e",
+    "offset": 2216560436,
+    "method": 8,
+    "local_path": "data/extracted/a51725b937f71d26be13a5a0.csv",
+    "sha256": "7c1d23c097bc678d551495629bd126e65ebf0d7138f9429dfa2ca6f9eef8ba06",
+    "status": "verified"
+  },
+  "reported_failure_rows": 82,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/sakailtitsugiutil80bf214testRSAFromString/result/Flaky/.nondex/1Eq59l44l+tKr1o7g7D9L3bMFKAs6dQMujoZjsFSlc=/TEST-org.tsugi.lti13.LTI13NimbusTest.xml",
+    "size": 15470,
+    "compressed": 3325,
+    "crc32": "7a23a034",
+    "offset": 2217034278,
+    "method": 8,
+    "local_path": "data/extracted/1eaf0e25a3487460f0a1f3f7.xml",
+    "sha256": "7338dca02950a4a09c56b98dca48e22f66200feface3f5bcb9040ca6c5461cdd",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testRSAFromString",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.tsugi.lti13.LTI13NimbusTest.testRSAFromString(LTI13NimbusTest.java:92)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.tsugi.lti13.LTI13NimbusTest.testRSAFromString(LTI13NimbusTest.java:92)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "2eca8ad4ae2d0ece396549eb527f485ec3cdbcba6c79314d9de55d1da0f9d99a"
+}

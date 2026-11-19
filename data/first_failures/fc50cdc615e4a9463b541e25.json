@@ -1,0 +1,81 @@
+{
+  "container": "opennlpopennlptools57c685etestPlainTextModel",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "opennlpopennlptools57c685etestPlainTextModel",
+    "project": "https://github.com/apache/opennlp",
+    "revision": "57c685eef695a8b951ada343c3914104963445c8",
+    "test": "opennlp.tools.ml.naivebayes.NaiveBayesSerializedCorrectnessTest.testPlainTextModel",
+    "label": "ID",
+    "module": "opennlp-tools",
+    "zip": "opennlp=opennlp-tools=57c685e",
+    "config_row": 734,
+    "configured_test": "opennlp.tools.ml.naivebayes.NaiveBayesSerializedCorrectnessTest#testPlainTextModel",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/opennlp::opennlp.tools.ml.naivebayes.NaiveBayesSerializedCorrectnessTest.testPlainTextModel",
+    "variant_id": "https://github.com/apache/opennlp::opennlp.tools.ml.naivebayes.NaiveBayesSerializedCorrectnessTest.testPlainTextModel::57c685eef695a8b951ada343c3914104963445c8::opennlp-tools",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/opennlpopennlptools57c685etestPlainTextModel/result/Flaky/.nondex/mmTN9k66VfIRosdLUvScvcsjmZRYl78rdHqiY5kO01g=/TEST-opennlp.tools.ml.naivebayes.NaiveBayesSerializedCorrectnessTest.xml",
+        "size": 8676,
+        "compressed": 2180,
+        "crc32": "777f09f0",
+        "offset": 1408816108,
+        "method": 8,
+        "local_path": "data/extracted/b6a99e9dd45a36f940149552.xml",
+        "sha256": "41c7e5587da025faafe5bf91d798a8b15a4db69aa65c4fd53b8b154f27e5d580",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/opennlpopennlptools57c685etestPlainTextModel/result/Flaky/rounds-test-results.csv",
+    "size": 20959,
+    "compressed": 5013,
+    "crc32": "27131ba2",
+    "offset": 1408166062,
+    "method": 8,
+    "local_path": "data/extracted/3a11f38baba3dbe6177da6ea.csv",
+    "sha256": "047984462e56d65e8f05109d7f348423517080491117d0ed93e3c82fe182849e",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/opennlpopennlptools57c685etestPlainTextModel/result/Flaky/.nondex/mmTN9k66VfIRosdLUvScvcsjmZRYl78rdHqiY5kO01g=/TEST-opennlp.tools.ml.naivebayes.NaiveBayesSerializedCorrectnessTest.xml",
+    "size": 8676,
+    "compressed": 2180,
+    "crc32": "777f09f0",
+    "offset": 1408816108,
+    "method": 8,
+    "local_path": "data/extracted/b6a99e9dd45a36f940149552.xml",
+    "sha256": "41c7e5587da025faafe5bf91d798a8b15a4db69aa65c4fd53b8b154f27e5d580",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testPlainTextModel",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<...ports\n1\n7 0 1\n7\nbow=[barca\nbow=states\nbow=the\nbow=united\nbow=nations\nbow=and\nbow=manchester\n0.0\n1.0\n1.0\n0.0\n2.0\n0.0\n2.0\n1.0\n1.0\n0.0\n1.0\n1.0\n0.0\n2].0\n> but was:<...ports\n1\n7 0 1\n7\nbow=[nations\nbow=barca\nbow=manchester\nbow=states\nbow=the\nbow=united\nbow=and\n1.0\n0.0\n0.0\n1.0\n0.0\n2.0\n1.0\n0.0\n2.0\n0.0\n2.0\n1.0\n1.0\n1].0\n>",
+    "stack_trace": "org.junit.ComparisonFailure: \nexpected:<...ports\n1\n7 0 1\n7\nbow=[barca\nbow=states\nbow=the\nbow=united\nbow=nations\nbow=and\nbow=manchester\n0.0\n1.0\n1.0\n0.0\n2.0\n0.0\n2.0\n1.0\n1.0\n0.0\n1.0\n1.0\n0.0\n2].0\n> but was:<...ports\n1\n7 0 1\n7\nbow=[nations\nbow=barca\nbow=manchester\nbow=states\nbow=the\nbow=united\nbow=and\n1.0\n0.0\n0.0\n1.0\n0.0\n2.0\n1.0\n0.0\n2.0\n0.0\n2.0\n1.0\n1.0\n1].0\n>\n\tat opennlp.tools.ml.naivebayes.NaiveBayesSerializedCorrectnessTest.testPlainTextModel(NaiveBayesSerializedCorrectnessTest.java:150)",
+    "text": "org.junit.ComparisonFailure\nexpected:<...ports\n1\n7 0 1\n7\nbow=[barca\nbow=states\nbow=the\nbow=united\nbow=nations\nbow=and\nbow=manchester\n0.0\n1.0\n1.0\n0.0\n2.0\n0.0\n2.0\n1.0\n1.0\n0.0\n1.0\n1.0\n0.0\n2].0\n> but was:<...ports\n1\n7 0 1\n7\nbow=[nations\nbow=barca\nbow=manchester\nbow=states\nbow=the\nbow=united\nbow=and\n1.0\n0.0\n0.0\n1.0\n0.0\n2.0\n1.0\n0.0\n2.0\n0.0\n2.0\n1.0\n1.0\n1].0\n>\norg.junit.ComparisonFailure: \nexpected:<...ports\n1\n7 0 1\n7\nbow=[barca\nbow=states\nbow=the\nbow=united\nbow=nations\nbow=and\nbow=manchester\n0.0\n1.0\n1.0\n0.0\n2.0\n0.0\n2.0\n1.0\n1.0\n0.0\n1.0\n1.0\n0.0\n2].0\n> but was:<...ports\n1\n7 0 1\n7\nbow=[nations\nbow=barca\nbow=manchester\nbow=states\nbow=the\nbow=united\nbow=and\n1.0\n0.0\n0.0\n1.0\n0.0\n2.0\n1.0\n0.0\n2.0\n0.0\n2.0\n1.0\n1.0\n1].0\n>\n\tat opennlp.tools.ml.naivebayes.NaiveBayesSerializedCorrectnessTest.testPlainTextModel(NaiveBayesSerializedCorrectnessTest.java:150)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "bf33ff3b4a655612e9d7350b41ff487aaa8200c2012e1a07bb9cbd2c551fbf7f"
+}

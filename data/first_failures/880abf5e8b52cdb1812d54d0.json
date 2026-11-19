@@ -1,0 +1,81 @@
+{
+  "container": "Strutspluginsrestfe3b78etestObjectToXml",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "Strutspluginsrestfe3b78etestObjectToXml",
+    "project": "https://github.com/apache/struts",
+    "revision": "fe3b78e7f155f547384bdf3bf8744d6785517618",
+    "test": "org.apache.struts2.rest.handler.JacksonXmlHandlerTest.testObjectToXml",
+    "label": "ID",
+    "module": "plugins/rest",
+    "zip": "Struts=plugins+rest=fe3b78e",
+    "config_row": 676,
+    "configured_test": "org.apache.struts2.rest.handler.JacksonXmlHandlerTest#testObjectToXml",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/struts::org.apache.struts2.rest.handler.JacksonXmlHandlerTest.testObjectToXml",
+    "variant_id": "https://github.com/apache/struts::org.apache.struts2.rest.handler.JacksonXmlHandlerTest.testObjectToXml::fe3b78e7f155f547384bdf3bf8744d6785517618::plugins/rest",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/Strutspluginsrestfe3b78etestObjectToXml/result/Flaky/.nondex/qlpYXMCxAL7cvl0jY+Embk2GSr6aos1dqRWMJl0Ss=/TEST-org.apache.struts2.rest.handler.JacksonXmlHandlerTest.xml",
+        "size": 13928,
+        "compressed": 2736,
+        "crc32": "ebdd2025",
+        "offset": 1622735263,
+        "method": 8,
+        "local_path": "data/extracted/322b7d23addbd2d988f7caa0.xml",
+        "sha256": "f20b60a3f855e4c52805b94a53beb5afa7d1c8ab7b5074e932f56654cbbe2e53",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/Strutspluginsrestfe3b78etestObjectToXml/result/Flaky/rounds-test-results.csv",
+    "size": 19792,
+    "compressed": 5127,
+    "crc32": "c2044f77",
+    "offset": 1622159518,
+    "method": 8,
+    "local_path": "data/extracted/0cf1ba4a3179c8e765893212.csv",
+    "sha256": "c03b4570b80de7c62477c1df98f7beea27effa8aa282ee89dbc07ab84d290d0f",
+    "status": "verified"
+  },
+  "reported_failure_rows": 78,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/Strutspluginsrestfe3b78etestObjectToXml/result/Flaky/.nondex/qlpYXMCxAL7cvl0jY+Embk2GSr6aos1dqRWMJl0Ss=/TEST-org.apache.struts2.rest.handler.JacksonXmlHandlerTest.xml",
+    "size": 13928,
+    "compressed": 2736,
+    "crc32": "ebdd2025",
+    "offset": 1622735263,
+    "method": 8,
+    "local_path": "data/extracted/322b7d23addbd2d988f7caa0.xml",
+    "sha256": "f20b60a3f855e4c52805b94a53beb5afa7d1c8ab7b5074e932f56654cbbe2e53",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testObjectToXml",
+    "outcome": "failure",
+    "exception_type": "junit.framework.ComparisonFailure",
+    "message": "expected:<...an><name>Jan</name><[age>12</age><parents><parents>Adam</parents><parents>Ewa</parents></parents]></SimpleBean>> but was:<...an><name>Jan</name><[parents><parents>Adam</parents><parents>Ewa</parents></parents><age>12</age]></SimpleBean>>",
+    "stack_trace": "junit.framework.ComparisonFailure: expected:<...an><name>Jan</name><[age>12</age><parents><parents>Adam</parents><parents>Ewa</parents></parents]></SimpleBean>> but was:<...an><name>Jan</name><[parents><parents>Adam</parents><parents>Ewa</parents></parents><age>12</age]></SimpleBean>>\n\tat org.apache.struts2.rest.handler.JacksonXmlHandlerTest.testObjectToXml(JacksonXmlHandlerTest.java:66)",
+    "text": "junit.framework.ComparisonFailure\nexpected:<...an><name>Jan</name><[age>12</age><parents><parents>Adam</parents><parents>Ewa</parents></parents]></SimpleBean>> but was:<...an><name>Jan</name><[parents><parents>Adam</parents><parents>Ewa</parents></parents><age>12</age]></SimpleBean>>\njunit.framework.ComparisonFailure: expected:<...an><name>Jan</name><[age>12</age><parents><parents>Adam</parents><parents>Ewa</parents></parents]></SimpleBean>> but was:<...an><name>Jan</name><[parents><parents>Adam</parents><parents>Ewa</parents></parents><age>12</age]></SimpleBean>>\n\tat org.apache.struts2.rest.handler.JacksonXmlHandlerTest.testObjectToXml(JacksonXmlHandlerTest.java:66)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "fa5546945068f43f9097792267e5270d4bf8a7e1653a1d004c70b7bada150882"
+}

@@ -1,0 +1,230 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< org.apache.apex:apex-engine >---------------------
+[INFO] Building Apache Apex (incubating) Stream Processing Engine 3.4.0-incubating-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ apex-engine ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ apex-engine ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-release-dependencies) @ apex-engine ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ apex-engine ---
+[INFO] 
+[INFO] --- git-commit-id-plugin:2.1.13:revision (create-git-version-info) @ apex-engine ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (create-client-mvn-generated-classpath) @ apex-engine ---
+[INFO] Wrote classpath file '/app/source/engine/target/mvn-generated-runtime-classpath'.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (create-client-mvn-generated-classpath-no-hadoop) @ apex-engine ---
+[INFO] Wrote classpath file '/app/source/engine/target/mvn-generated-runtime-classpath-no-hadoop'.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ apex-engine ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ apex-engine ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 197 source files to /app/source/engine/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/cli/DTCli.java:[69,16] sun.misc.Signal is internal proprietary API and may be removed in a future release
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/cli/DTCli.java:[70,16] sun.misc.SignalHandler is internal proprietary API and may be removed in a future release
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/plan/logical/LogicalPlan.java:[224,15] setCounters(java.lang.Object) in com.datatorrent.api.Context has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/plan/logical/LogicalPlan.java:[300,17] setCounters(java.lang.Object) in com.datatorrent.api.Context has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/plan/logical/LogicalPlan.java:[427,17] setCounters(java.lang.Object) in com.datatorrent.api.Context has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/plan/logical/LogicalPlan.java:[861,17] setCounters(java.lang.Object) in com.datatorrent.api.Context has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/plan/logical/LogicalPlan.java:[1243,17] setCounters(java.lang.Object) in com.datatorrent.api.Context has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/api/OperatorDeployInfo.java:[68,15] setCounters(java.lang.Object) in com.datatorrent.api.Context has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/api/OperatorDeployInfo.java:[189,17] setCounters(java.lang.Object) in com.datatorrent.api.Context has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/api/OperatorDeployInfo.java:[260,17] setCounters(java.lang.Object) in com.datatorrent.api.Context has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/api/BaseContext.java:[70,15] setCounters(java.lang.Object) in com.datatorrent.api.Context has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/StreamingContainerManager.java:[1640,62] COUNTERS_AGGREGATOR in com.datatorrent.api.Context.OperatorContext has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/StreamingContainerManager.java:[1641,44] counters in com.datatorrent.api.Stats.OperatorStats has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/StreamingContainerManager.java:[2428,74] counters in com.datatorrent.api.Stats.OperatorStats has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/engine/Node.java:[461,43] com.datatorrent.api.Operator.CheckpointListener in com.datatorrent.api.Operator has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/engine/Node.java:[462,23] com.datatorrent.api.Operator.CheckpointListener in com.datatorrent.api.Operator has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/engine/Node.java:[551,37] com.datatorrent.api.Operator.CheckpointListener in com.datatorrent.api.Operator has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/engine/Node.java:[552,17] com.datatorrent.api.Operator.CheckpointListener in com.datatorrent.api.Operator has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/engine/OperatorContext.java:[134,10] counters in com.datatorrent.api.Stats.OperatorStats has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/engine/OperatorContext.java:[134,26] counters in com.datatorrent.stram.api.BaseContext has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/engine/OperatorContext.java:[135,9] counters in com.datatorrent.stram.api.BaseContext has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/engine/StreamContext.java:[83,15] setCounters(java.lang.Object) in com.datatorrent.api.Context has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/engine/StreamingContainer.java:[767,59] com.datatorrent.api.Operator.CheckpointListener in com.datatorrent.api.Operator has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/engine/StreamingContainer.java:[774,27] com.datatorrent.api.Operator.CheckpointListener in com.datatorrent.api.Operator has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/stream/BufferServerSubscriber.java:[118,11] suspendRead() in com.datatorrent.netlet.AbstractClient has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/stream/BufferServerSubscriber.java:[293,15] resumeRead() in com.datatorrent.netlet.AbstractClient has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/engine/Slider.java:[34,158] com.datatorrent.api.Operator.CheckpointListener in com.datatorrent.api.Operator has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/engine/Slider.java:[197,28] com.datatorrent.api.Operator.CheckpointListener in com.datatorrent.api.Operator has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/engine/Slider.java:[198,9] com.datatorrent.api.Operator.CheckpointListener in com.datatorrent.api.Operator has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/engine/Slider.java:[205,28] com.datatorrent.api.Operator.CheckpointListener in com.datatorrent.api.Operator has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/engine/Slider.java:[206,9] com.datatorrent.api.Operator.CheckpointListener in com.datatorrent.api.Operator has been deprecated
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/client/StramClientUtils.java:[773,63] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Object for a varargs call
+  cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/security/StramWSFilterInitializer.java:[89,69] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Object for a varargs call
+  cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/cli/DTCli.java:[971,23] sun.misc.Signal is internal proprietary API and may be removed in a future release
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/cli/DTCli.java:[971,42] sun.misc.SignalHandler is internal proprietary API and may be removed in a future release
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/cli/DTCli.java:[974,26] sun.misc.Signal is internal proprietary API and may be removed in a future release
+[WARNING] /app/source/engine/src/main/java/com/datatorrent/stram/cli/DTCli.java:[971,5] sun.misc.Signal is internal proprietary API and may be removed in a future release
+[INFO] /app/source/engine/src/main/java/com/datatorrent/stram/plan/logical/LogicalPlan.java: Some input files use unchecked or unsafe operations.
+[INFO] /app/source/engine/src/main/java/com/datatorrent/stram/plan/logical/LogicalPlan.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.14:check (default) @ apex-engine ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (create-mvn-generated-classpath) @ apex-engine ---
+[INFO] Wrote classpath file '/app/source/engine/target/test-classes/mvn-generated-classpath'.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ apex-engine ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 26 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ apex-engine ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.14.1:test (default-test) @ apex-engine ---
+[INFO] Surefire report directory: /app/source/engine/target/surefire-reports
+[INFO] Using configured provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+Running com.datatorrent.stram.plan.logical.DelayOperatorTest
+2025-09-08 00:33:05,030 [main] WARN  util.NativeCodeLoader <clinit> - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2025-09-08 00:33:05,083 [main] INFO  util.AsyncFSStorageAgent save - using /app/source/engine/target/chkp4505287310790555082 as the basepath for checkpointing.
+2025-09-08 00:33:05,281 [main] INFO  storage.DiskStorage <init> - using /app/source/engine/target as the basepath for spooling.
+2025-09-08 00:33:05,286 [ProcessWideEventLoop] INFO  server.Server registered - Server started listening at /0:0:0:0:0:0:0:0:35909
+2025-09-08 00:33:05,286 [main] INFO  stram.StramLocalCluster <init> - Buffer server started: /0:0:0:0:0:0:0:0:35909
+2025-09-08 00:33:05,294 [main] WARN  stram.Journal write - Journal output stream is null. Skipping write to the WAL.
+2025-09-08 00:33:05,294 [main] INFO  stram.StramLocalCluster <init> - Started container container-0
+2025-09-08 00:33:05,295 [main] WARN  stram.Journal write - Journal output stream is null. Skipping write to the WAL.
+2025-09-08 00:33:05,295 [main] INFO  stram.StramLocalCluster <init> - Started container container-1
+2025-09-08 00:33:05,295 [main] WARN  stram.Journal write - Journal output stream is null. Skipping write to the WAL.
+2025-09-08 00:33:05,295 [main] INFO  stram.StramLocalCluster <init> - Started container container-2
+2025-09-08 00:33:05,300 [container-0] INFO  storage.DiskStorage <init> - using /app/source/engine/target as the basepath for spooling.
+2025-09-08 00:33:05,300 [container-1] INFO  storage.DiskStorage <init> - using /app/source/engine/target as the basepath for spooling.
+2025-09-08 00:33:05,300 [container-2] INFO  storage.DiskStorage <init> - using /app/source/engine/target as the basepath for spooling.
+2025-09-08 00:33:05,300 [ProcessWideEventLoop] INFO  server.Server registered - Server started listening at /0:0:0:0:0:0:0:0:44137
+2025-09-08 00:33:05,301 [ProcessWideEventLoop] INFO  server.Server registered - Server started listening at /0:0:0:0:0:0:0:0:33283
+2025-09-08 00:33:05,302 [ProcessWideEventLoop] INFO  server.Server registered - Server started listening at /0:0:0:0:0:0:0:0:36301
+2025-09-08 00:33:05,316 [container-2] INFO  stram.StramLocalCluster log - container-2 msg: [container-2] Entering heartbeat loop..
+2025-09-08 00:33:05,316 [container-1] INFO  stram.StramLocalCluster log - container-1 msg: [container-1] Entering heartbeat loop..
+2025-09-08 00:33:05,316 [container-0] INFO  stram.StramLocalCluster log - container-0 msg: [container-0] Entering heartbeat loop..
+2025-09-08 00:33:06,337 [container-1] INFO  stram.StreamingContainerManager processHeartbeat - Container container-1 buffer server: 30b05c330b9d:33283
+2025-09-08 00:33:06,337 [container-0] INFO  stram.StreamingContainerManager processHeartbeat - Container container-0 buffer server: 30b05c330b9d:44137
+2025-09-08 00:33:06,337 [container-2] INFO  stram.StreamingContainerManager processHeartbeat - Container container-2 buffer server: 30b05c330b9d:36301
+2025-09-08 00:33:06,344 [container-2] INFO  engine.StreamingContainer processHeartbeatResponse - Deploy request: [OperatorDeployInfo[id=1,name=DUMMY,type=INPUT,checkpoint={ffffffffffffffff, 0, 0},inputs=[],outputs=[OperatorDeployInfo.OutputDeployInfo[portName=outport,streamId=dummy_to_operator,bufferServer=30b05c330b9d]]]]
+2025-09-08 00:33:06,346 [container-0] INFO  engine.StreamingContainer processHeartbeatResponse - Deploy request: [OperatorDeployInfo[id=3,name=opDelay,type=GENERIC,checkpoint={ffffffffffffffff, 0, 0},inputs=[OperatorDeployInfo.InputDeployInfo[portName=input,streamId=operator_to_delay,sourceNodeId=2,sourcePortName=output,locality=<null>,partitionMask=0,partitionKeys=<null>]],outputs=[OperatorDeployInfo.OutputDeployInfo[portName=output,streamId=delay_to_operator,bufferServer=30b05c330b9d]]]]
+2025-09-08 00:33:06,346 [container-1] INFO  engine.StreamingContainer processHeartbeatResponse - Deploy request: [OperatorDeployInfo[id=2,name=FIB,type=GENERIC,checkpoint={ffffffffffffffff, 0, 0},inputs=[OperatorDeployInfo.InputDeployInfo[portName=dummyInputPort,streamId=dummy_to_operator,sourceNodeId=1,sourcePortName=outport,locality=<null>,partitionMask=0,partitionKeys=<null>], OperatorDeployInfo.InputDeployInfo[portName=input,streamId=delay_to_operator,sourceNodeId=3,sourcePortName=output,locality=<null>,partitionMask=0,partitionKeys=<null>]],outputs=[OperatorDeployInfo.OutputDeployInfo[portName=output,streamId=operator_to_delay,bufferServer=30b05c330b9d]]]]
+2025-09-08 00:33:06,363 [container-2] INFO  engine.WindowGenerator activate - Catching up from 1757291585300 to 1757291586363
+2025-09-08 00:33:06,369 [ProcessWideEventLoop] INFO  server.Server onMessage - Received publisher request: PublishRequestTuple{version=1.0, identifier=1.outport.1, windowId=ffffffffffffffff}
+2025-09-08 00:33:06,394 [ProcessWideEventLoop] INFO  server.Server onMessage - Received publisher request: PublishRequestTuple{version=1.0, identifier=3.output.1, windowId=ffffffffffffffff}
+2025-09-08 00:33:06,412 [ProcessWideEventLoop] INFO  server.Server onMessage - Received publisher request: PublishRequestTuple{version=1.0, identifier=2.output.1, windowId=ffffffffffffffff}
+2025-09-08 00:33:06,430 [ProcessWideEventLoop] INFO  server.Server onMessage - Received subscriber request: SubscribeRequestTuple{version=1.0, identifier=tcp://30b05c330b9d:36301/1.outport.1, windowId=ffffffffffffffff, type=dummy_to_operator/2.dummyInputPort, upstreamIdentifier=1.outport.1, mask=0, partitions=null, bufferSize=0}
+2025-09-08 00:33:06,433 [ProcessWideEventLoop] INFO  server.Server onMessage - Received subscriber request: SubscribeRequestTuple{version=1.0, identifier=tcp://30b05c330b9d:44137/3.output.1, windowId=ffffffffffffffff, type=delay_to_operator/2.input, upstreamIdentifier=3.output.1, mask=0, partitions=null, bufferSize=0}
+2025-09-08 00:33:06,434 [ProcessWideEventLoop] INFO  server.Server onMessage - Received subscriber request: SubscribeRequestTuple{version=1.0, identifier=tcp://30b05c330b9d:33283/2.output.1, windowId=ffffffffffffffff, type=operator_to_delay/3.input, upstreamIdentifier=2.output.1, mask=0, partitions=null, bufferSize=0}
+2025-09-08 00:33:07,365 [container-0] WARN  stram.Journal write - Journal output stream is null. Skipping write to the WAL.
+2025-09-08 00:33:07,365 [container-1] WARN  stram.Journal write - Journal output stream is null. Skipping write to the WAL.
+2025-09-08 00:33:07,367 [container-2] WARN  stram.Journal write - Journal output stream is null. Skipping write to the WAL.
+2025-09-08 00:33:08,300 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=3.output.1, windowId=68be2447}
+2025-09-08 00:33:08,303 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=3.output.1, windowId=68be2447}
+2025-09-08 00:33:08,303 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=3.output.1, windowId=68be2447}
+2025-09-08 00:33:08,304 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=2.output.1, windowId=68be2447}
+2025-09-08 00:33:08,304 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=2.output.1, windowId=68be2447}
+2025-09-08 00:33:08,304 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=1.outport.1, windowId=68be2447}
+2025-09-08 00:33:08,304 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=2.output.1, windowId=68be2447}
+2025-09-08 00:33:08,305 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=1.outport.1, windowId=68be2447}
+2025-09-08 00:33:08,305 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=1.outport.1, windowId=68be2447}
+2025-09-08 00:33:09,302 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=3.output.1, windowId=68be2449}
+2025-09-08 00:33:09,303 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=2.output.1, windowId=68be2449}
+2025-09-08 00:33:09,303 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=1.outport.1, windowId=68be2449}
+2025-09-08 00:33:10,304 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=3.output.1, windowId=68be244d}
+2025-09-08 00:33:10,305 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=3.output.1, windowId=68be244d}
+2025-09-08 00:33:10,305 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=2.output.1, windowId=68be244d}
+2025-09-08 00:33:10,305 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=2.output.1, windowId=68be244d}
+2025-09-08 00:33:10,306 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=1.outport.1, windowId=68be244d}
+2025-09-08 00:33:10,306 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=1.outport.1, windowId=68be244d}
+2025-09-08 00:33:10,387 [2/FIB:FailableFibonacciOperator] ERROR engine.StreamingContainer run - Operator set [OperatorDeployInfo[id=2,name=FIB,type=GENERIC,checkpoint={ffffffffffffffff, 0, 0},inputs=[OperatorDeployInfo.InputDeployInfo[portName=dummyInputPort,streamId=dummy_to_operator,sourceNodeId=1,sourcePortName=outport,locality=<null>,partitionMask=0,partitionKeys=<null>], OperatorDeployInfo.InputDeployInfo[portName=input,streamId=delay_to_operator,sourceNodeId=3,sourcePortName=output,locality=<null>,partitionMask=0,partitionKeys=<null>]],outputs=[OperatorDeployInfo.OutputDeployInfo[portName=output,streamId=operator_to_delay,bufferServer=30b05c330b9d]]]] stopped running due to an exception.
+java.lang.RuntimeException: simulating failure
+	at com.datatorrent.stram.plan.logical.DelayOperatorTest$FailableFibonacciOperator.beginWindow(DelayOperatorTest.java:237)
+	at com.datatorrent.stram.engine.GenericNode.run(GenericNode.java:310)
+	at com.datatorrent.stram.engine.StreamingContainer$2.run(StreamingContainer.java:1388)
+2025-09-08 00:33:10,393 [2/FIB:FailableFibonacciOperator] INFO  stram.StramLocalCluster log - container-1 msg: Stopped running due to an exception. java.lang.RuntimeException: simulating failure
+	at com.datatorrent.stram.plan.logical.DelayOperatorTest$FailableFibonacciOperator.beginWindow(DelayOperatorTest.java:237)
+	at com.datatorrent.stram.engine.GenericNode.run(GenericNode.java:310)
+	at com.datatorrent.stram.engine.StreamingContainer$2.run(StreamingContainer.java:1388)
+
+2025-09-08 00:33:11,304 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=3.output.1, windowId=68be244f}
+2025-09-08 00:33:11,306 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=2.output.1, windowId=68be244f}
+2025-09-08 00:33:11,306 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=1.outport.1, windowId=68be244f}
+2025-09-08 00:33:11,371 [container-1] WARN  stram.Journal write - Journal output stream is null. Skipping write to the WAL.
+2025-09-08 00:33:11,371 [container-1] WARN  stram.StreamingContainerManager processOperatorFailure - Operator failure: PTOperator[id=2,name=FIB] count: 1
+2025-09-08 00:33:11,371 [container-1] ERROR stram.StreamingContainerManager processOperatorFailure - Initiating container restart after operator failure PTOperator[id=2,name=FIB]
+2025-09-08 00:33:11,372 [container-1] INFO  engine.StreamingContainer processHeartbeatResponse - Undeploy request: [2]
+2025-09-08 00:33:11,372 [container-1] INFO  engine.StreamingContainer undeploy - Undeploy complete.
+2025-09-08 00:33:12,304 [main] INFO  engine.StreamingContainer processHeartbeatResponse - Received shutdown request
+2025-09-08 00:33:12,304 [main] INFO  stram.StramLocalCluster run - Container container-1 restart.
+2025-09-08 00:33:12,304 [main] INFO  stram.StreamingContainerManager scheduleContainerRestart - Initiating recovery for container-1@localhost
+2025-09-08 00:33:12,305 [main] INFO  stram.StreamingContainerManager scheduleContainerRestart - Affected operators [PTOperator[id=3,name=opDelay], PTOperator[id=2,name=FIB]]
+2025-09-08 00:33:12,305 [main] WARN  stram.Journal write - Journal output stream is null. Skipping write to the WAL.
+2025-09-08 00:33:12,305 [main] WARN  stram.Journal write - Journal output stream is null. Skipping write to the WAL.
+2025-09-08 00:33:12,305 [main] WARN  stram.Journal write - Journal output stream is null. Skipping write to the WAL.
+2025-09-08 00:33:12,306 [main] INFO  stram.StreamingContainerManager assignContainer - Removing container agent container-1
+2025-09-08 00:33:12,306 [ProcessWideEventLoop] INFO  server.Server onMessage - Received reset all request: ResetRequestTuple{version=1.0, identifier=3.output.1, windowId=0}
+2025-09-08 00:33:12,306 [main] WARN  stram.Journal write - Journal output stream is null. Skipping write to the WAL.
+2025-09-08 00:33:12,307 [main] INFO  stram.StramLocalCluster <init> - Started container container-3
+2025-09-08 00:33:12,307 [container-3] INFO  storage.DiskStorage <init> - using /app/source/engine/target as the basepath for spooling.
+2025-09-08 00:33:12,307 [main] WARN  stram.StreamingContainerManager purgeCheckpoints - purge request w/o buffer server address source PTOperator.PTOutput[o=PTOperator[id=2,name=FIB],port=output,stream=operator_to_delay] container PTContainer[id=2(container-3),state=ALLOCATED,operators=[PTOperator[id=2,name=FIB]]] checkpoints [{68be244100000011, 0, 0}]
+2025-09-08 00:33:12,307 [ProcessWideEventLoop] INFO  server.Server registered - Server started listening at /0:0:0:0:0:0:0:0:39935
+2025-09-08 00:33:12,308 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=3.output.1, windowId=68be2451}
+2025-09-08 00:33:12,308 [container-3] INFO  stram.StramLocalCluster log - container-3 msg: [container-3] Entering heartbeat loop..
+2025-09-08 00:33:12,309 [ProcessWideEventLoop] INFO  server.Server onMessage - Received purge request: PurgeRequestTuple{version=1.0, identifier=1.outport.1, windowId=68be2451}
+2025-09-08 00:33:12,371 [container-0] INFO  engine.StreamingContainer processHeartbeatResponse - Undeploy request: [3]
+2025-09-08 00:33:12,373 [container-1] ERROR stram.StreamingContainerManager processHeartbeat - Unknown container container-1
+2025-09-08 00:33:12,373 [container-1] INFO  engine.StreamingContainer processHeartbeatResponse - Received shutdown request
+2025-09-08 00:33:12,373 [container-1] INFO  stram.StramLocalCluster log - container-1 msg: [container-1] Exiting heartbeat loop..
+2025-09-08 00:33:12,374 [ProcessWideEventLoop] INFO  server.Server unregistered - Server stopped listening at /0:0:0:0:0:0:0:0:33283
+2025-09-08 00:33:12,374 [container-1] INFO  stram.StramLocalCluster run - Container container-1 terminating.
+2025-09-08 00:33:12,379 [container-0] INFO  engine.StreamingContainer undeploy - Undeploy complete.
+2025-09-08 00:33:13,309 [container-3] INFO  stram.StreamingContainerManager processHeartbeat - Container container-3 buffer server: 30b05c330b9d:39935
+2025-09-08 00:33:13,310 [container-3] INFO  engine.StreamingContainer heartbeatLoop - Waiting for pending request.
+2025-09-08 00:33:13,380 [container-0] WARN  stram.Journal write - Journal output stream is null. Skipping write to the WAL.
+2025-09-08 00:33:13,382 [container-0] INFO  engine.StreamingContainer processHeartbeatResponse - Deploy request: [OperatorDeployInfo[id=3,name=opDelay,type=GENERIC,checkpoint={68be244100000011, 0, 0},inputs=[OperatorDeployInfo.InputDeployInfo[portName=input,streamId=operator_to_delay,sourceNodeId=2,sourcePortName=output,locality=<null>,partitionMask=0,partitionKeys=<null>]],outputs=[OperatorDeployInfo.OutputDeployInfo[portName=output,streamId=delay_to_operator,bufferServer=30b05c330b9d]]]]
+2025-09-08 00:33:13,385 [ProcessWideEventLoop] INFO  server.Server onMessage - Received publisher request: PublishRequestTuple{version=1.0, identifier=3.output.1, windowId=68be2451}
+2025-09-08 00:33:13,407 [ProcessWideEventLoop] INFO  server.Server onMessage - Received subscriber request: SubscribeRequestTuple{version=1.0, identifier=tcp://30b05c330b9d:39935/2.output.1, windowId=68be2451, type=operator_to_delay/3.input, upstreamIdentifier=2.output.1, mask=0, partitions=null, bufferSize=0}
+2025-09-08 00:33:13,812 [container-3] INFO  engine.StreamingContainer processHeartbeatResponse - Deploy request: [OperatorDeployInfo[id=2,name=FIB,type=GENERIC,checkpoint={68be244100000011, 0, 0},inputs=[OperatorDeployInfo.InputDeployInfo[portName=dummyInputPort,streamId=dummy_to_operator,sourceNodeId=1,sourcePortName=outport,locality=<null>,partitionMask=0,partitionKeys=<null>], OperatorDeployInfo.InputDeployInfo[portName=input,streamId=delay_to_operator,sourceNodeId=3,sourcePortName=output,locality=<null>,partitionMask=0,partitionKeys=<null>]],outputs=[OperatorDeployInfo.OutputDeployInfo[portName=output,streamId=operator_to_delay,bufferServer=30b05c330b9d]]]]
+2025-09-08 00:33:13,815 [ProcessWideEventLoop] INFO  server.Server onMessage - Received publisher request: PublishRequestTuple{version=1.0, identifier=2.output.1, windowId=68be2451}
+2025-09-08 00:33:13,816 [ProcessWideEventLoop] INFO  server.Server onMessage - Received subscriber request: SubscribeRequestTuple{version=1.0, identifier=tcp://30b05c330b9d:36301/1.outport.1, windowId=68be2451, type=dummy_to_operator/2.dummyInputPort, upstreamIdentifier=1.outport.1, mask=0, partitions=null, bufferSize=0}
+2025-09-08 00:33:13,816 [ProcessWideEventLoop] INFO  server.Server onMessage - Received subscriber request: SubscribeRequestTuple{version=1.0, identifier=tcp://30b05c330b9d:44137/3.output.1, windowId=68be2451, type=delay_to_operator/2.input, upstreamIdentifier=3.output.1, mask=0, partitions=null, bufferSize=0}
+2025-09-08 00:33:14,310 [container-2] INFO  engine.StreamingContainer processHeartbeatResponse - Received shutdown request
+2025-09-08 00:33:14,312 [container-2] INFO  stram.StramLocalCluster log - container-2 msg: [container-2] Exiting heartbeat loop..
+2025-09-08 00:33:14,310 [container-3] INFO  engine.StreamingContainer processHeartbeatResponse - Received shutdown request
+2025-09-08 00:33:14,312 [container-3] INFO  stram.StramLocalCluster log - container-3 msg: [container-3] Exiting heartbeat loop..
+2025-09-08 00:33:14,310 [container-0] INFO  engine.StreamingContainer processHeartbeatResponse - Received shutdown request
+2025-09-08 00:33:14,313 [container-0] INFO  stram.StramLocalCluster log - container-0 msg: [container-0] Exiting heartbeat loop..
+2025-09-08 00:33:14,316 [main] INFO  stram.StramLocalCluster run - Application finished.
+2025-09-08 00:33:14,321 [container-0] INFO  stram.StramLocalCluster run - Container container-0 terminating.
+2025-09-08 00:33:14,321 [ProcessWideEventLoop] INFO  server.Server unregistered - Server stopped listening at /0:0:0:0:0:0:0:0:44137
+2025-09-08 00:33:14,323 [container-3] INFO  stram.StramLocalCluster run - Container container-3 terminating.
+2025-09-08 00:33:14,324 [ProcessWideEventLoop] INFO  server.Server unregistered - Server stopped listening at /0:0:0:0:0:0:0:0:39935
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.553 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.827 s
+[INFO] Finished at: 2025-09-08T00:33:14Z
+[INFO] ------------------------------------------------------------------------

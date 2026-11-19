@@ -1,0 +1,37 @@
+{
+  "container": "HDFS-15702",
+  "metadata": {
+    "source": "JIRA",
+    "container": "HDFS-15702",
+    "project": "https://github.com/apache/hadoop",
+    "revision": "d4fd675a95c16f6ecd8d8514cc3c0bef34bc9eff",
+    "test": "org.apache.hadoop.hdfs.TestDecommission.testAllocAndIBRWhileDecommission",
+    "label": "TD",
+    "module": "hadoop-hdfs-project/hadoop-hdfs",
+    "zip": "HDFS-15702",
+    "config_row": 1068,
+    "configured_test": "org.apache.hadoop.hdfs.TestDecommission#testAllocAndIBRWhileDecommission",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hadoop::org.apache.hadoop.hdfs.TestDecommission.testAllocAndIBRWhileDecommission",
+    "variant_id": "https://github.com/apache/hadoop::org.apache.hadoop.hdfs.TestDecommission.testAllocAndIBRWhileDecommission::d4fd675a95c16f6ecd8d8514cc3c0bef34bc9eff::hadoop-hdfs-project/hadoop-hdfs",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/HDFS-15702/result/Flaky/rounds-test-results.csv",
+    "size": 19379,
+    "compressed": 724,
+    "crc32": "11457223",
+    "offset": 110899818,
+    "method": 8,
+    "local_path": "data/extracted/5fd2519fcb91ad2d07b02fa3.csv",
+    "sha256": "c892249bcef7707ee01d99df1ec21ef60fad605c568a5a0bbe2b1ff25e30ee27",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

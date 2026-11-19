@@ -1,0 +1,81 @@
+{
+  "container": "shenyushenyuadmin02696b4testRuleHandler4",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "shenyushenyuadmin02696b4testRuleHandler4",
+    "project": "https://github.com/apache/shenyu",
+    "revision": "02696b41e6865540a982b4a8fca84c825825b74a",
+    "test": "org.apache.shenyu.admin.service.register.ShenyuClientRegisterSofaServiceImplTest.testRuleHandler",
+    "label": "ID",
+    "module": "shenyu-admin",
+    "zip": "shenyu=shenyu-admin=02696b4",
+    "config_row": 722,
+    "configured_test": "org.apache.shenyu.admin.service.register.ShenyuClientRegisterSofaServiceImplTest#testRuleHandler",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/shenyu::org.apache.shenyu.admin.service.register.ShenyuClientRegisterSofaServiceImplTest.testRuleHandler",
+    "variant_id": "https://github.com/apache/shenyu::org.apache.shenyu.admin.service.register.ShenyuClientRegisterSofaServiceImplTest.testRuleHandler::02696b41e6865540a982b4a8fca84c825825b74a::shenyu-admin",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/shenyushenyuadmin02696b4testRuleHandler4/result/Flaky/.nondex/ahA3DlHpRus2NIgUepVqAYZedqMbn3h0P4EiayTxzw=/TEST-org.apache.shenyu.admin.service.register.ShenyuClientRegisterSofaServiceImplTest.xml",
+        "size": 50035,
+        "compressed": 6057,
+        "crc32": "e11d0bae",
+        "offset": 1599043903,
+        "method": 8,
+        "local_path": "data/extracted/bd0474a184ae5704d457198c.xml",
+        "sha256": "73b595b9ced5b9e7b1d26747871db7babdb489b123fe16771eb109469b3868ea",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/shenyushenyuadmin02696b4testRuleHandler4/result/Flaky/rounds-test-results.csv",
+    "size": 22493,
+    "compressed": 5194,
+    "crc32": "f7315ba9",
+    "offset": 1598375761,
+    "method": 8,
+    "local_path": "data/extracted/4bd443c896cd5a33b0de9df9.csv",
+    "sha256": "cee3573efcb1719d4862454fcd3b987db4a0cb071b3c8f04891167e1631a8d80",
+    "status": "verified"
+  },
+  "reported_failure_rows": 81,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/shenyushenyuadmin02696b4testRuleHandler4/result/Flaky/.nondex/ahA3DlHpRus2NIgUepVqAYZedqMbn3h0P4EiayTxzw=/TEST-org.apache.shenyu.admin.service.register.ShenyuClientRegisterSofaServiceImplTest.xml",
+    "size": 50035,
+    "compressed": 6057,
+    "crc32": "e11d0bae",
+    "offset": 1599043903,
+    "method": 8,
+    "local_path": "data/extracted/bd0474a184ae5704d457198c.xml",
+    "sha256": "73b595b9ced5b9e7b1d26747871db7babdb489b123fe16771eb109469b3868ea",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testRuleHandler",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": null,
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <{\"retries\":0,\"loadBalance\":\"random\",\"timeout\":3000}> but was: <{\"loadBalance\":\"random\",\"timeout\":3000,\"retries\":0}>\n\tat org.apache.shenyu.admin.service.register.ShenyuClientRegisterSofaServiceImplTest.testRuleHandler(ShenyuClientRegisterSofaServiceImplTest.java:70)",
+    "text": "org.opentest4j.AssertionFailedError\norg.opentest4j.AssertionFailedError: expected: <{\"retries\":0,\"loadBalance\":\"random\",\"timeout\":3000}> but was: <{\"loadBalance\":\"random\",\"timeout\":3000,\"retries\":0}>\n\tat org.apache.shenyu.admin.service.register.ShenyuClientRegisterSofaServiceImplTest.testRuleHandler(ShenyuClientRegisterSofaServiceImplTest.java:70)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "851f86c35c290b0165e1097237887e74362b588dd298f72925aa5cfc853c8872"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "jsonschemacore43fda7dtoStringWithUnprocessedProps",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jsonschemacore43fda7dtoStringWithUnprocessedProps",
+    "project": "https://github.com/everit-org/json-schema",
+    "revision": "43fda7d4fae927f88b9326ffee88fcc21c95c23e",
+    "test": "org.everit.json.schema.ObjectSchemaTest.toStringWithUnprocessedProps",
+    "label": "ID",
+    "module": "core",
+    "zip": "json-schema=core=43fda7d",
+    "config_row": 332,
+    "configured_test": "org.everit.json.schema.ObjectSchemaTest#toStringWithUnprocessedProps",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/everit-org/json-schema::org.everit.json.schema.ObjectSchemaTest.toStringWithUnprocessedProps",
+    "variant_id": "https://github.com/everit-org/json-schema::org.everit.json.schema.ObjectSchemaTest.toStringWithUnprocessedProps::43fda7d4fae927f88b9326ffee88fcc21c95c23e::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/jsonschemacore43fda7dtoStringWithUnprocessedProps/result/Flaky/.nondex/wahTvpuqJeJODumdc0lRZXAQvhj9gRp1IqeVQGLqYEk=/TEST-org.everit.json.schema.ObjectSchemaTest.xml",
+        "size": 14220,
+        "compressed": 2813,
+        "crc32": "9a66762b",
+        "offset": 1913465804,
+        "method": 8,
+        "local_path": "data/extracted/1f9e382c61dc6c8f3ca764d2.xml",
+        "sha256": "881a8cd6c37bcb7b9ce45ef3fd5392deab71a453441434126ea8168b4829cadc",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jsonschemacore43fda7dtoStringWithUnprocessedProps/result/Flaky/rounds-test-results.csv",
+    "size": 17489,
+    "compressed": 5067,
+    "crc32": "dbebc737",
+    "offset": 1913316244,
+    "method": 8,
+    "local_path": "data/extracted/a02fd9897027103adff544ea.csv",
+    "sha256": "f226fd6343d043d8f1c27e8b524edcc8bcee5d12c9adea5bb5ec87fe68badeca",
+    "status": "verified"
+  },
+  "reported_failure_rows": 47,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/jsonschemacore43fda7dtoStringWithUnprocessedProps/result/Flaky/.nondex/wahTvpuqJeJODumdc0lRZXAQvhj9gRp1IqeVQGLqYEk=/TEST-org.everit.json.schema.ObjectSchemaTest.xml",
+    "size": 14220,
+    "compressed": 2813,
+    "crc32": "9a66762b",
+    "offset": 1913465804,
+    "method": 8,
+    "local_path": "data/extracted/1f9e382c61dc6c8f3ca764d2.xml",
+    "sha256": "881a8cd6c37bcb7b9ce45ef3fd5392deab71a453441434126ea8168b4829cadc",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "toStringWithUnprocessedProps",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: {\n  \"unproc1\": false,\n  \"unproc5\": [\n    2,\n    3,\n    null\n  ],\n  \"unproc3\": 2,\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"unproc4\": {\"a\": 1},\n  \"maxProperties\": 4,\n  \"minProperties\": 3,\n  \"unproc2\": null,\n  \"unproc0\": true,\n  \"type\": \"object\",\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"dependencies\": {\"prop1\": [\n    \"prop2\",\n    \"prop3\"\n  ]},\n  \"required\": [\"numprop\"]\n}\n     but: was {\n  \"type\": \"object\",\n  \"minProperties\": 3,\n  \"dependencies\": {\"prop1\": [\n    \"prop3\",\n    \"prop2\"\n  ]},\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"unproc1\": false,\n  \"maxProperties\": 4,\n  \"unproc2\": null,\n  \"unproc0\": true,\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"unproc5\": [\n    2,\n    3,\n    null\n  ],\n  \"unproc3\": 2,\n  \"required\": [\"numprop\"],\n  \"unproc4\": {\"a\": 1}\n}",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: {\n  \"unproc1\": false,\n  \"unproc5\": [\n    2,\n    3,\n    null\n  ],\n  \"unproc3\": 2,\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"unproc4\": {\"a\": 1},\n  \"maxProperties\": 4,\n  \"minProperties\": 3,\n  \"unproc2\": null,\n  \"unproc0\": true,\n  \"type\": \"object\",\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"dependencies\": {\"prop1\": [\n    \"prop2\",\n    \"prop3\"\n  ]},\n  \"required\": [\"numprop\"]\n}\n     but: was {\n  \"type\": \"object\",\n  \"minProperties\": 3,\n  \"dependencies\": {\"prop1\": [\n    \"prop3\",\n    \"prop2\"\n  ]},\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"unproc1\": false,\n  \"maxProperties\": 4,\n  \"unproc2\": null,\n  \"unproc0\": true,\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"unproc5\": [\n    2,\n    3,\n    null\n  ],\n  \"unproc3\": 2,\n  \"required\": [\"numprop\"],\n  \"unproc4\": {\"a\": 1}\n}\n\tat org.everit.json.schema.ObjectSchemaTest.toStringWithUnprocessedProps(ObjectSchemaTest.java:415)",
+    "text": "java.lang.AssertionError\nExpected: {\n  \"unproc1\": false,\n  \"unproc5\": [\n    2,\n    3,\n    null\n  ],\n  \"unproc3\": 2,\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"unproc4\": {\"a\": 1},\n  \"maxProperties\": 4,\n  \"minProperties\": 3,\n  \"unproc2\": null,\n  \"unproc0\": true,\n  \"type\": \"object\",\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"dependencies\": {\"prop1\": [\n    \"prop2\",\n    \"prop3\"\n  ]},\n  \"required\": [\"numprop\"]\n}\n     but: was {\n  \"type\": \"object\",\n  \"minProperties\": 3,\n  \"dependencies\": {\"prop1\": [\n    \"prop3\",\n    \"prop2\"\n  ]},\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"unproc1\": false,\n  \"maxProperties\": 4,\n  \"unproc2\": null,\n  \"unproc0\": true,\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"unproc5\": [\n    2,\n    3,\n    null\n  ],\n  \"unproc3\": 2,\n  \"required\": [\"numprop\"],\n  \"unproc4\": {\"a\": 1}\n}\njava.lang.AssertionError: \n\nExpected: {\n  \"unproc1\": false,\n  \"unproc5\": [\n    2,\n    3,\n    null\n  ],\n  \"unproc3\": 2,\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"unproc4\": {\"a\": 1},\n  \"maxProperties\": 4,\n  \"minProperties\": 3,\n  \"unproc2\": null,\n  \"unproc0\": true,\n  \"type\": \"object\",\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"dependencies\": {\"prop1\": [\n    \"prop2\",\n    \"prop3\"\n  ]},\n  \"required\": [\"numprop\"]\n}\n     but: was {\n  \"type\": \"object\",\n  \"minProperties\": 3,\n  \"dependencies\": {\"prop1\": [\n    \"prop3\",\n    \"prop2\"\n  ]},\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"unproc1\": false,\n  \"maxProperties\": 4,\n  \"unproc2\": null,\n  \"unproc0\": true,\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"unproc5\": [\n    2,\n    3,\n    null\n  ],\n  \"unproc3\": 2,\n  \"required\": [\"numprop\"],\n  \"unproc4\": {\"a\": 1}\n}\n\tat org.everit.json.schema.ObjectSchemaTest.toStringWithUnprocessedProps(ObjectSchemaTest.java:415)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "e669fde3158e04efcec4f1fd853e840ad4ed021ea5ec07e23f1b9d96a4f70306"
+}

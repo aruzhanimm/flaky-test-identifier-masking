@@ -1,0 +1,81 @@
+{
+  "container": "graylog2servergraylog2server27269f2summarizeUsersReturnsListOfUsersWithoutTheCurrent",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "graylog2servergraylog2server27269f2summarizeUsersReturnsListOfUsersWithoutTheCurrent",
+    "project": "https://github.com/graylog2/graylog2-server",
+    "revision": "27269f2dfe36c12bd88adad661e613660eeb5cca",
+    "test": "org.graylog.plugins.views.search.rest.ViewSharingResourceTest.summarizeUsersReturnsListOfUsersWithoutTheCurrent",
+    "label": "ID",
+    "module": "graylog2-server",
+    "zip": "graylog2-server=graylog2-server=27269f2",
+    "config_row": 7,
+    "configured_test": "org.graylog.plugins.views.search.rest.ViewSharingResourceTest#summarizeUsersReturnsListOfUsersWithoutTheCurrent",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/graylog2/graylog2-server::org.graylog.plugins.views.search.rest.ViewSharingResourceTest.summarizeUsersReturnsListOfUsersWithoutTheCurrent",
+    "variant_id": "https://github.com/graylog2/graylog2-server::org.graylog.plugins.views.search.rest.ViewSharingResourceTest.summarizeUsersReturnsListOfUsersWithoutTheCurrent::27269f2dfe36c12bd88adad661e613660eeb5cca::graylog2-server",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/graylog2servergraylog2server27269f2summarizeUsersReturnsListOfUsersWithoutTheCurrent/result/Flaky/.nondex/e4AIoktCPtRjDCiis33y+vmrd62LnE03BH2f7C4nKMk=/TEST-org.graylog.plugins.views.search.rest.ViewSharingResourceTest.xml",
+        "size": 66307,
+        "compressed": 7694,
+        "crc32": "b66afefa",
+        "offset": 558854571,
+        "method": 8,
+        "local_path": "data/extracted/c828e4180148142111469167.xml",
+        "sha256": "14a1d1dbf09378f672011e13d50aacd639d6cbbc8a94014700c284bc08f2d732",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/graylog2servergraylog2server27269f2summarizeUsersReturnsListOfUsersWithoutTheCurrent/result/Flaky/rounds-test-results.csv",
+    "size": 20839,
+    "compressed": 5107,
+    "crc32": "50d3334f",
+    "offset": 558697684,
+    "method": 8,
+    "local_path": "data/extracted/b53360537af6d02069739361.csv",
+    "sha256": "0fcd8e643a8910ec3f9a4fd034635eabe1f8b0427661aec06dcd77ad1985d408",
+    "status": "verified"
+  },
+  "reported_failure_rows": 57,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/graylog2servergraylog2server27269f2summarizeUsersReturnsListOfUsersWithoutTheCurrent/result/Flaky/.nondex/e4AIoktCPtRjDCiis33y+vmrd62LnE03BH2f7C4nKMk=/TEST-org.graylog.plugins.views.search.rest.ViewSharingResourceTest.xml",
+    "size": 66307,
+    "compressed": 7694,
+    "crc32": "b66afefa",
+    "offset": 558854571,
+    "method": 8,
+    "local_path": "data/extracted/c828e4180148142111469167.xml",
+    "sha256": "14a1d1dbf09378f672011e13d50aacd639d6cbbc8a94014700c284bc08f2d732",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "summarizeUsersReturnsListOfUsersWithoutTheCurrent",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Actual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <UserShortSummary{username=friedrich, fullname=Friedrich Merz}>\nwhereas expected element was:\n  <UserShortSummary{username=franz, fullname=Franz Josef Strauss}>",
+    "stack_trace": "java.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <UserShortSummary{username=friedrich, fullname=Friedrich Merz}>\nwhereas expected element was:\n  <UserShortSummary{username=franz, fullname=Franz Josef Strauss}>\n\n\tat org.graylog.plugins.views.search.rest.ViewSharingResourceTest.summarizeUsersReturnsListOfUsersWithoutTheCurrent(ViewSharingResourceTest.java:91)",
+    "text": "java.lang.AssertionError\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <UserShortSummary{username=friedrich, fullname=Friedrich Merz}>\nwhereas expected element was:\n  <UserShortSummary{username=franz, fullname=Franz Josef Strauss}>\njava.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <UserShortSummary{username=friedrich, fullname=Friedrich Merz}>\nwhereas expected element was:\n  <UserShortSummary{username=franz, fullname=Franz Josef Strauss}>\n\n\tat org.graylog.plugins.views.search.rest.ViewSharingResourceTest.summarizeUsersReturnsListOfUsersWithoutTheCurrent(ViewSharingResourceTest.java:91)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "cb636cf46c4d6e7c22be7db883cc43a56e1ce5ab3622462f63dc1e19b662f9fb"
+}

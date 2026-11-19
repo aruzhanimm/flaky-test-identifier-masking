@@ -1,0 +1,81 @@
+{
+  "container": "moquettebrokerbfe4ff9testRetainedOnTopicReturnsWildcardTopicMatch",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "moquettebrokerbfe4ff9testRetainedOnTopicReturnsWildcardTopicMatch",
+    "project": "https://github.com/moquette-io/moquette",
+    "revision": "bfe4ff9b016cca73caa924bdca47af8d1186dd7c",
+    "test": "io.moquette.broker.MemoryRetainedRepositoryTest.testRetainedOnTopicReturnsWildcardTopicMatch",
+    "label": "ID",
+    "module": "broker",
+    "zip": "moquette=broker=bfe4ff9",
+    "config_row": 782,
+    "configured_test": "io.moquette.broker.MemoryRetainedRepositoryTest#testRetainedOnTopicReturnsWildcardTopicMatch",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/moquette-io/moquette::io.moquette.broker.MemoryRetainedRepositoryTest.testRetainedOnTopicReturnsWildcardTopicMatch",
+    "variant_id": "https://github.com/moquette-io/moquette::io.moquette.broker.MemoryRetainedRepositoryTest.testRetainedOnTopicReturnsWildcardTopicMatch::bfe4ff9b016cca73caa924bdca47af8d1186dd7c::broker",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/moquettebrokerbfe4ff9testRetainedOnTopicReturnsWildcardTopicMatch/result/Flaky/.nondex/uOJP0J8iO0Zipy64OwvtZo+WtgTNszfzKF9NVrgbRQU=/TEST-io.moquette.broker.MemoryRetainedRepositoryTest.xml",
+        "size": 18261,
+        "compressed": 2986,
+        "crc32": "fcec9fd7",
+        "offset": 1185763388,
+        "method": 8,
+        "local_path": "data/extracted/5cf461d8b22f32af0913c749.xml",
+        "sha256": "f5fedfdd788b6ca4ad8a62bc21dc79e8b512559f5d95d2edb802c17c5e259467",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/moquettebrokerbfe4ff9testRetainedOnTopicReturnsWildcardTopicMatch/result/Flaky/rounds-test-results.csv",
+    "size": 18535,
+    "compressed": 5014,
+    "crc32": "93842937",
+    "offset": 1185582505,
+    "method": 8,
+    "local_path": "data/extracted/c1dc883be939603d10ca4e38.csv",
+    "sha256": "4614b4110294171b59360eb81516c1986dff9af3bc9497d60870ef41969b440d",
+    "status": "verified"
+  },
+  "reported_failure_rows": 55,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/moquettebrokerbfe4ff9testRetainedOnTopicReturnsWildcardTopicMatch/result/Flaky/.nondex/uOJP0J8iO0Zipy64OwvtZo+WtgTNszfzKF9NVrgbRQU=/TEST-io.moquette.broker.MemoryRetainedRepositoryTest.xml",
+    "size": 18261,
+    "compressed": 2986,
+    "crc32": "fcec9fd7",
+    "offset": 1185763388,
+    "method": 8,
+    "local_path": "data/extracted/5cf461d8b22f32af0913c749.xml",
+    "sha256": "f5fedfdd788b6ca4ad8a62bc21dc79e8b512559f5d95d2edb802c17c5e259467",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testRetainedOnTopicReturnsWildcardTopicMatch",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <foo/bar/baz> but was: <foo/baz/bar>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <foo/bar/baz> but was: <foo/baz/bar>\n\tat io.moquette.broker.MemoryRetainedRepositoryTest.testRetainedOnTopicReturnsWildcardTopicMatch(MemoryRetainedRepositoryTest.java:87)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <foo/bar/baz> but was: <foo/baz/bar>\norg.opentest4j.AssertionFailedError: expected: <foo/bar/baz> but was: <foo/baz/bar>\n\tat io.moquette.broker.MemoryRetainedRepositoryTest.testRetainedOnTopicReturnsWildcardTopicMatch(MemoryRetainedRepositoryTest.java:87)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "a153ec460c838683a76819bdd7d79bab8d1e22d8c8015cf287f2694221b5664b"
+}

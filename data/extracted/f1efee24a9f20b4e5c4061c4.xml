@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.j256.ormlite.table.DatabaseTableConfigTest" time="0.865" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="nondexStart" value="0"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/root/.m2/repository/org/apache/maven/surefire/surefire-booter/3.3.1/surefire-booter-3.3.1.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-api/3.3.1/surefire-api-3.3.1.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.3.1/surefire-extensions-spi-3.3.1.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.3.1/surefire-shared-utils-3.3.1.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.3.1/surefire-logger-api-3.3.1.jar:/app/source/target/test-classes:/app/source/target/classes:/root/.m2/repository/ch/qos/logback/logback-core/1.4.12/logback-core-1.4.12.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.4.12/logback-classic-1.4.12.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/root/.m2/repository/org/slf4j/slf4j-simple/1.7.32/slf4j-simple-1.7.32.jar:/root/.m2/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar:/root/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.3/junit-jupiter-api-5.10.3.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.10.3/junit-platform-commons-1.10.3.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/easymock/easymock/3.4/easymock-3.4.jar:/root/.m2/repository/org/objenesis/objenesis/2.2/objenesis-2.2.jar:/root/.m2/repository/com/h2database/h2/2.2.224/h2-2.2.224.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.21.1/log4j-core-2.21.1.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-junit-platform/3.3.1/surefire-junit-platform-3.3.1.jar:/root/.m2/repository/org/apache/maven/surefire/common-java5/3.3.1/common-java5-3.3.1.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-8/jre/lib/amd64"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /app/source/target/surefire 2025-11-07T09-36-59_725-jvmRun1 surefire-20251107093700153_7tmp surefire_3-20251107093700153_8tmp"/>
+    <property name="surefire.test.class.path" value="/app/source/target/test-classes:/app/source/target/classes:/root/.m2/repository/ch/qos/logback/logback-core/1.4.12/logback-core-1.4.12.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.4.12/logback-classic-1.4.12.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/root/.m2/repository/org/slf4j/slf4j-simple/1.7.32/slf4j-simple-1.7.32.jar:/root/.m2/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar:/root/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.3/junit-jupiter-api-5.10.3.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.10.3/junit-platform-commons-1.10.3.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/easymock/easymock/3.4/easymock-3.4.jar:/root/.m2/repository/org/objenesis/objenesis/2.2/objenesis-2.2.jar:/root/.m2/repository/com/h2database/h2/2.2.224/h2-2.2.224.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.21.1/log4j-core-2.21.1.jar:"/>
+    <property name="test" value="com.j256.ormlite.table.DatabaseTableConfigTest#testMultiAfter"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="9IlQvJCyuf5W5XyOw+VfC+NcxFGaQ5woVFSFMgcXbM4="/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/local/openjdk-8/jre"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/app/source"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexSeed" value="974622"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="sun.boot.class.path" value="/app/source/.nondex/nondex-instr.jar:/root/.m2/repository/edu/illinois/nondex-common/2.1.1/nondex-common-2.1.1.jar:/root/.m2/repository/edu/illinois/nondex-annotations/2.1.1/nondex-annotations-2.1.1.jar:/usr/local/openjdk-8/jre/lib/resources.jar:/usr/local/openjdk-8/jre/lib/rt.jar:/usr/local/openjdk-8/jre/lib/sunrsasign.jar:/usr/local/openjdk-8/jre/lib/jsse.jar:/usr/local/openjdk-8/jre/lib/jce.jar:/usr/local/openjdk-8/jre/lib/charsets.jar:/usr/local/openjdk-8/jre/lib/jfr.jar:/usr/local/openjdk-8/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="java.runtime.version" value="1.8.0_342-b07"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-35-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.endorsed.dirs" value="/usr/local/openjdk-8/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/.nondex"/>
+    <property name="nondexJarDir" value="/app/source/.nondex"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_342"/>
+    <property name="user.dir" value="/app/source"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="license.skip" value="true"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="xml.skip" value="true"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="25.342-b07"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.ext.dirs" value="/usr/local/openjdk-8/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="testMultiAfter" classname="com.j256.ormlite.table.DatabaseTableConfigTest" time="0.095">
+    <failure message="expected: &lt;a1&gt; but was: &lt;a2&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <a1> but was: <a2>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.j256.ormlite.table.DatabaseTableConfigTest.testMultiAfter(DatabaseTableConfigTest.java:277)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+]]></failure>
+  </testcase>
+</testsuite>

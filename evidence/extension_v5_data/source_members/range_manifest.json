@@ -1,0 +1,302 @@
+[
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=5c39308.zip/content",
+    "range": [
+      83,
+      112
+    ],
+    "bytes": 30,
+    "sha256": "fa642237c0e84bb0710020a4166ec328a55fc188176972091d384476aff162ae",
+    "utc": "2026-11-19T08:25:58.077803+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=5c39308.zip/content",
+    "range": [
+      113,
+      151
+    ],
+    "bytes": 39,
+    "sha256": "1a26750c5c594b984b082dccac38ab36e920ee9d77b3bfdced4b212b61671ae9",
+    "utc": "2026-11-19T08:25:59.749652+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=5c39308.zip/content",
+    "range": [
+      180,
+      279
+    ],
+    "bytes": 100,
+    "sha256": "e2559ca15ab996101c88b02b230628ffd92dd8f1ed97924bb4435bed413f6d2d",
+    "utc": "2026-11-19T08:26:02.402545+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=5c39308.zip/content",
+    "range": [
+      108953123,
+      108953152
+    ],
+    "bytes": 30,
+    "sha256": "9840118e6d407a2b4347ff91d56f206f76365fcc53a06f5252352da4be2873c9",
+    "utc": "2026-11-19T08:26:04.057525+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=5c39308.zip/content",
+    "range": [
+      108953153,
+      108953265
+    ],
+    "bytes": 113,
+    "sha256": "427c2234103cb6de871650fc97513f34eee86c5ebbcca94f8a164a64945e7e57",
+    "utc": "2026-11-19T08:26:08.824000+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=5c39308.zip/content",
+    "range": [
+      108953294,
+      108959936
+    ],
+    "bytes": 6643,
+    "sha256": "9a6dc7c5d0fb5c80f612659385e965e0293e9bc6d4f42f63873286d1d501fa2f",
+    "utc": "2026-11-19T08:26:10.550859+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=5c39308.zip/content",
+    "range": [
+      109040487,
+      109040516
+    ],
+    "bytes": 30,
+    "sha256": "812ac33b496f3d1a8e11c2d5d5b64c70224ae67df469ef98f172bb2e2fb95ea0",
+    "utc": "2026-11-19T08:26:12.876841+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=5c39308.zip/content",
+    "range": [
+      109040517,
+      109040612
+    ],
+    "bytes": 96,
+    "sha256": "89b28154d67e069c0489fcf3f66c71df1ec59f36bc80169b2bcfc3fd5c7e7198",
+    "utc": "2026-11-19T08:26:15.523593+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=5c39308.zip/content",
+    "range": [
+      109040641,
+      109044548
+    ],
+    "bytes": 3908,
+    "sha256": "e63522247527bfbe3e1eade205673adb827b945b5e6d8be827992de965fcfbd8",
+    "utc": "2026-11-19T08:26:45.340805+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=80439b6.zip/content",
+    "range": [
+      83,
+      112
+    ],
+    "bytes": 30,
+    "sha256": "1cc8d8f951e49de340f45bd754a9caa428bba2b8b362ffa47713fd727a32addc",
+    "utc": "2026-11-19T08:26:50.288168+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=80439b6.zip/content",
+    "range": [
+      113,
+      151
+    ],
+    "bytes": 39,
+    "sha256": "b94239c4ebd9c32557409e732cc1621579a5571a18c3df87cbfe1b3420fc46f0",
+    "utc": "2026-11-19T08:26:52.956758+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=80439b6.zip/content",
+    "range": [
+      180,
+      279
+    ],
+    "bytes": 100,
+    "sha256": "e2559ca15ab996101c88b02b230628ffd92dd8f1ed97924bb4435bed413f6d2d",
+    "utc": "2026-11-19T08:27:01.751023+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=80439b6.zip/content",
+    "range": [
+      109002228,
+      109002257
+    ],
+    "bytes": 30,
+    "sha256": "3781ed88f57e978c707b030327e48d388bdac6f8715f51f34bc92e2952966162",
+    "utc": "2026-11-19T08:27:03.388346+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=80439b6.zip/content",
+    "range": [
+      109002258,
+      109002370
+    ],
+    "bytes": 113,
+    "sha256": "bfd2cd92669be6bfcbf3eb1adf1c119f67872030f70ea7895cf2c82391a6f707",
+    "utc": "2026-11-19T08:27:05.032521+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=80439b6.zip/content",
+    "range": [
+      109002399,
+      109009056
+    ],
+    "bytes": 6658,
+    "sha256": "9a485f9355f5e7adc2075603668425fea70c5a034ae9f1ba13e81d82e8806129",
+    "utc": "2026-11-19T08:27:09.873894+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=80439b6.zip/content",
+    "range": [
+      109089608,
+      109089637
+    ],
+    "bytes": 30,
+    "sha256": "fc3b219456286b274101e6a831fc7e24ba0fccc5735623f444a8e8f9ef63b4fd",
+    "utc": "2026-11-19T08:27:11.588259+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=80439b6.zip/content",
+    "range": [
+      109089638,
+      109089733
+    ],
+    "bytes": 96,
+    "sha256": "8fc43818573db65b4773e43929f084719aa15f9e2975c00535ca99325a396b6d",
+    "utc": "2026-11-19T08:27:14.226249+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18634501/files/elide=elide-core=80439b6.zip/content",
+    "range": [
+      109089762,
+      109093669
+    ],
+    "bytes": 3908,
+    "sha256": "e63522247527bfbe3e1eade205673adb827b945b5e6d8be827992de965fcfbd8",
+    "utc": "2026-11-19T08:27:16.904974+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18605131/files/wildfly-core=cli=ff32351.zip/content",
+    "range": [
+      83,
+      112
+    ],
+    "bytes": 30,
+    "sha256": "a28d38c3df167c3aaae19ca7793c784055acde3ab5a00bacb0bc6cbe9bb28c7b",
+    "utc": "2026-11-19T08:27:19.657948+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18605131/files/wildfly-core=cli=ff32351.zip/content",
+    "range": [
+      113,
+      151
+    ],
+    "bytes": 39,
+    "sha256": "29c0e1691268c86c558f0e6d777c3914a50be9c6ba7eeebd027a6546e08f1a99",
+    "utc": "2026-11-19T08:27:21.388362+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18605131/files/wildfly-core=cli=ff32351.zip/content",
+    "range": [
+      180,
+      285
+    ],
+    "bytes": 106,
+    "sha256": "5934d38f0ed6cc616dfdbb9a2c82d99896a0e79d4bd1cb004d39fcb5151bead8",
+    "utc": "2026-11-19T08:27:23.021553+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18605131/files/wildfly-core=cli=ff32351.zip/content",
+    "range": [
+      118426535,
+      118426564
+    ],
+    "bytes": 30,
+    "sha256": "cbec0e21ac352d98cd69c306a21dea3575fade3994d7710885634e860d5334f5",
+    "utc": "2026-11-19T08:27:25.672919+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18605131/files/wildfly-core=cli=ff32351.zip/content",
+    "range": [
+      118426565,
+      118426664
+    ],
+    "bytes": 100,
+    "sha256": "59cf9ba157c55948bbd4a99d6f93c5b1204a159ef897f08ff3e7cf2b5617e82c",
+    "utc": "2026-11-19T08:27:42.435191+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18605131/files/wildfly-core=cli=ff32351.zip/content",
+    "range": [
+      118426693,
+      118428239
+    ],
+    "bytes": 1547,
+    "sha256": "5550ffecac5d5801b357c568e21f3737c7d950a873f7da93524704960f768780",
+    "utc": "2026-11-19T08:27:51.290366+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18474558/files/CURATOR-671.zip/content",
+    "range": [
+      70,
+      99
+    ],
+    "bytes": 30,
+    "sha256": "31e5806bf918d269c5b3701d6bd312368e213ccebb68d368ce3b622e0d7f5682",
+    "utc": "2026-11-19T08:27:54.086422+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18474558/files/CURATOR-671.zip/content",
+    "range": [
+      100,
+      125
+    ],
+    "bytes": 26,
+    "sha256": "afd776e9213f624bf5ac8f4315151546e4aea2c3244972e259571b55ff7bb025",
+    "utc": "2026-11-19T08:27:58.862578+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18474558/files/CURATOR-671.zip/content",
+    "range": [
+      154,
+      301
+    ],
+    "bytes": 148,
+    "sha256": "ff8e75484f8902afc69a2893c84feb07ac7997fe05cb863ea07f9af9f231038d",
+    "utc": "2026-11-19T08:28:00.559161+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18474558/files/CURATOR-671.zip/content",
+    "range": [
+      121116722,
+      121116751
+    ],
+    "bytes": 30,
+    "sha256": "46348a24e1a644c563cedb28272d82f4d770518c1966d6eb47c01d3710da5689",
+    "utc": "2026-11-19T08:28:02.230522+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18474558/files/CURATOR-671.zip/content",
+    "range": [
+      121116752,
+      121116873
+    ],
+    "bytes": 122,
+    "sha256": "7be759352ec854507ab26cdaf9da6683157ff7b1d30e783250ab82bf40a7ee58",
+    "utc": "2026-11-19T08:28:03.876000+00:00"
+  },
+  {
+    "url": "https://zenodo.org/api/records/18474558/files/CURATOR-671.zip/content",
+    "range": [
+      121116902,
+      121118770
+    ],
+    "bytes": 1869,
+    "sha256": "7b65b2e4f7b50af4dda9b4189ba3c9cdbd071194ca17f4d6522bdfede31eb63f",
+    "utc": "2026-11-19T08:28:06.516042+00:00"
+  }
+]

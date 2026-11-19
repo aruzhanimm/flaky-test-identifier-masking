@@ -1,0 +1,81 @@
+{
+  "container": "hiveserdea6e13c9testLazyBinaryColumnarSerDeWithEmptyBinary",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "hiveserdea6e13c9testLazyBinaryColumnarSerDeWithEmptyBinary",
+    "project": "https://github.com/apache/hive",
+    "revision": "a6e13c978b83f4319b806870fa7c7ab8cbbec81a",
+    "test": "org.apache.hadoop.hive.serde2.columnar.TestLazyBinaryColumnarSerDe.testLazyBinaryColumnarSerDeWithEmptyBinary",
+    "label": "ID",
+    "module": "serde",
+    "zip": "hive=serde=a6e13c9",
+    "config_row": 271,
+    "configured_test": "org.apache.hadoop.hive.serde2.columnar.TestLazyBinaryColumnarSerDe#testLazyBinaryColumnarSerDeWithEmptyBinary",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hive::org.apache.hadoop.hive.serde2.columnar.TestLazyBinaryColumnarSerDe.testLazyBinaryColumnarSerDeWithEmptyBinary",
+    "variant_id": "https://github.com/apache/hive::org.apache.hadoop.hive.serde2.columnar.TestLazyBinaryColumnarSerDe.testLazyBinaryColumnarSerDeWithEmptyBinary::a6e13c978b83f4319b806870fa7c7ab8cbbec81a::serde",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/hiveserdea6e13c9testLazyBinaryColumnarSerDeWithEmptyBinary/result/Flaky/.nondex/8ikbMherIsIDCJFa8iAgH29hnH5kPZHrwihewkX9PnU=/TEST-org.apache.hadoop.hive.serde2.columnar.TestLazyBinaryColumnarSerDe.xml",
+        "size": 86082,
+        "compressed": 11374,
+        "crc32": "d63a3f4e",
+        "offset": 444986056,
+        "method": 8,
+        "local_path": "data/extracted/3a71d1cbac780accb5920903.xml",
+        "sha256": "64ee1dfcefdd1536faf078fa27ea97064a7baacbe055b98c05ba1e4badc5ddc2",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/hiveserdea6e13c9testLazyBinaryColumnarSerDeWithEmptyBinary/result/Flaky/rounds-test-results.csv",
+    "size": 20458,
+    "compressed": 5129,
+    "crc32": "e78926dc",
+    "offset": 444519540,
+    "method": 8,
+    "local_path": "data/extracted/ee1a531b48fd30fde4ef4470.csv",
+    "sha256": "2f23cf85e722998db0772eb1a8af3f3380fc77186a00c659eefb5df96282508c",
+    "status": "verified"
+  },
+  "reported_failure_rows": 99,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/hiveserdea6e13c9testLazyBinaryColumnarSerDeWithEmptyBinary/result/Flaky/.nondex/8ikbMherIsIDCJFa8iAgH29hnH5kPZHrwihewkX9PnU=/TEST-org.apache.hadoop.hive.serde2.columnar.TestLazyBinaryColumnarSerDe.xml",
+    "size": 86082,
+    "compressed": 11374,
+    "crc32": "d63a3f4e",
+    "offset": 444986056,
+    "method": 8,
+    "local_path": "data/extracted/3a71d1cbac780accb5920903.xml",
+    "sha256": "64ee1dfcefdd1536faf078fa27ea97064a7baacbe055b98c05ba1e4badc5ddc2",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testLazyBinaryColumnarSerDeWithEmptyBinary",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<[cannot get field java.lang.Integer org.apache.hadoop.hive.serde2.columnar.TestLazyBinaryColumnarSerDe$InnerStruct.mInt from class java.lang.Integer 3003]> but was:<[LazyBinaryColumnarSerde cannot serialize a non-null zero length binary field. Consider using either LazyBinarySerde or ColumnarSerde.]>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<[cannot get field java.lang.Integer org.apache.hadoop.hive.serde2.columnar.TestLazyBinaryColumnarSerDe$InnerStruct.mInt from class java.lang.Integer 3003]> but was:<[LazyBinaryColumnarSerde cannot serialize a non-null zero length binary field. Consider using either LazyBinarySerde or ColumnarSerde.]>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat org.apache.hadoop.hive.serde2.columnar.TestLazyBinaryColumnarSerDe.testLazyBinaryColumnarSerDeWithEmptyBinary(TestLazyBinaryColumnarSerDe.java:180)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)",
+    "text": "org.junit.ComparisonFailure\nexpected:<[cannot get field java.lang.Integer org.apache.hadoop.hive.serde2.columnar.TestLazyBinaryColumnarSerDe$InnerStruct.mInt from class java.lang.Integer 3003]> but was:<[LazyBinaryColumnarSerde cannot serialize a non-null zero length binary field. Consider using either LazyBinarySerde or ColumnarSerde.]>\norg.junit.ComparisonFailure: expected:<[cannot get field java.lang.Integer org.apache.hadoop.hive.serde2.columnar.TestLazyBinaryColumnarSerDe$InnerStruct.mInt from class java.lang.Integer 3003]> but was:<[LazyBinaryColumnarSerde cannot serialize a non-null zero length binary field. Consider using either LazyBinarySerde or ColumnarSerde.]>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat org.apache.hadoop.hive.serde2.columnar.TestLazyBinaryColumnarSerDe.testLazyBinaryColumnarSerDeWithEmptyBinary(TestLazyBinaryColumnarSerDe.java:180)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "9207a3f02fef565284d1da31b0a052eb2a1477daa833d75399eee897ec61d986"
+}

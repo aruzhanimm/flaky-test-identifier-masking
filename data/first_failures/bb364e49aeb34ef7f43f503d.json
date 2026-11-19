@@ -1,0 +1,81 @@
+{
+  "container": "fastjson23070b2test_for_multimap3",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "fastjson23070b2test_for_multimap3",
+    "project": "https://github.com/alibaba/fastjson",
+    "revision": "23070b2ccd30c5bb3d78e735b098f835756a190a",
+    "test": "com.alibaba.json.bvt.guava.HashMultimapTest.test_for_multimap",
+    "label": "ID",
+    "module": ".",
+    "zip": "fastjson=.=23070b2",
+    "config_row": 180,
+    "configured_test": "com.alibaba.json.bvt.guava.HashMultimapTest#test_for_multimap",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/fastjson::com.alibaba.json.bvt.guava.HashMultimapTest.test_for_multimap",
+    "variant_id": "https://github.com/alibaba/fastjson::com.alibaba.json.bvt.guava.HashMultimapTest.test_for_multimap::23070b2ccd30c5bb3d78e735b098f835756a190a::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/fastjson23070b2test_for_multimap3/result/Flaky/.nondex/08sqe19CkqRL7ofYnMchBBTFEgYK0RiSKDWmDKOR+4=/TEST-com.alibaba.json.bvt.guava.HashMultimapTest.xml",
+        "size": 45285,
+        "compressed": 5791,
+        "crc32": "6a13b345",
+        "offset": 909263075,
+        "method": 8,
+        "local_path": "data/extracted/8067b3e7ec652b68a765a6d1.xml",
+        "sha256": "e6e0b8c47f21d8e56575624a7b8531c72a577e7ad5040d3b1fbdf5321cd0e402",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/fastjson23070b2test_for_multimap3/result/Flaky/rounds-test-results.csv",
+    "size": 17577,
+    "compressed": 4930,
+    "crc32": "0c5e7067",
+    "offset": 909140780,
+    "method": 8,
+    "local_path": "data/extracted/e13acc9c101ddb11799ef2cb.csv",
+    "sha256": "a658e64ce13451f6fe997780322116d443bd798f90dc257608b917ffcf8caa1f",
+    "status": "verified"
+  },
+  "reported_failure_rows": 43,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/fastjson23070b2test_for_multimap3/result/Flaky/.nondex/08sqe19CkqRL7ofYnMchBBTFEgYK0RiSKDWmDKOR+4=/TEST-com.alibaba.json.bvt.guava.HashMultimapTest.xml",
+    "size": 45285,
+    "compressed": 5791,
+    "crc32": "6a13b345",
+    "offset": 909263075,
+    "method": 8,
+    "local_path": "data/extracted/8067b3e7ec652b68a765a6d1.xml",
+    "sha256": "e6e0b8c47f21d8e56575624a7b8531c72a577e7ad5040d3b1fbdf5321cd0e402",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test_for_multimap",
+    "outcome": "failure",
+    "exception_type": "junit.framework.ComparisonFailure",
+    "message": "expected:<{\"name\":[\"[a\",\"b]\"]}> but was:<{\"name\":[\"[b\",\"a]\"]}>",
+    "stack_trace": "junit.framework.ComparisonFailure: expected:<{\"name\":[\"[a\",\"b]\"]}> but was:<{\"name\":[\"[b\",\"a]\"]}>\n\tat com.alibaba.json.bvt.guava.HashMultimapTest.test_for_multimap(HashMultimapTest.java:19)",
+    "text": "junit.framework.ComparisonFailure\nexpected:<{\"name\":[\"[a\",\"b]\"]}> but was:<{\"name\":[\"[b\",\"a]\"]}>\njunit.framework.ComparisonFailure: expected:<{\"name\":[\"[a\",\"b]\"]}> but was:<{\"name\":[\"[b\",\"a]\"]}>\n\tat com.alibaba.json.bvt.guava.HashMultimapTest.test_for_multimap(HashMultimapTest.java:19)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "afd51d369f19517dafabe13a836984cb7df3b40d37af3fe69215341d16b2c167"
+}

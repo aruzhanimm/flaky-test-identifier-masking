@@ -1,0 +1,81 @@
+{
+  "container": "biojavabiojavastructure65ad15ftestCalciumParsing",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "biojavabiojavastructure65ad15ftestCalciumParsing",
+    "project": "https://github.com/biojava/biojava",
+    "revision": "65ad15fe58dcedd258fee1c14505e424c8536efc",
+    "test": "org.biojava.nbio.structure.TestParsingCalcium.testCalciumParsing",
+    "label": "ID",
+    "module": "biojava-structure",
+    "zip": "biojava=biojava-structure=65ad15f",
+    "config_row": 580,
+    "configured_test": "org.biojava.nbio.structure.TestParsingCalcium#testCalciumParsing",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.TestParsingCalcium.testCalciumParsing",
+    "variant_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.TestParsingCalcium.testCalciumParsing::65ad15fe58dcedd258fee1c14505e424c8536efc::biojava-structure",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/biojavabiojavastructure65ad15ftestCalciumParsing/result/Flaky/.nondex/fy+QUVViEFDsQv6WVNa4z84WADe1otb6+IrDM0A+fvw=/TEST-org.biojava.nbio.structure.TestParsingCalcium.xml",
+        "size": 11986,
+        "compressed": 2502,
+        "crc32": "80e5a6a8",
+        "offset": 349088828,
+        "method": 8,
+        "local_path": "data/extracted/7fec23975d1b99aa51a539a3.xml",
+        "sha256": "f9d01fe5c731530619096d24088acec0712470453cc898febf3855e5e5d692c0",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestCalciumParsing/result/Flaky/rounds-test-results.csv",
+    "size": 19340,
+    "compressed": 5021,
+    "crc32": "d580695f",
+    "offset": 348961635,
+    "method": 8,
+    "local_path": "data/extracted/ff8f05b94dd03741c65e3f7d.csv",
+    "sha256": "bcb5d1e742c1edc96a0219693d2d598b5221f9571da6d4c9b205ec822912f46e",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestCalciumParsing/result/Flaky/.nondex/fy+QUVViEFDsQv6WVNa4z84WADe1otb6+IrDM0A+fvw=/TEST-org.biojava.nbio.structure.TestParsingCalcium.xml",
+    "size": 11986,
+    "compressed": 2502,
+    "crc32": "80e5a6a8",
+    "offset": 349088828,
+    "method": 8,
+    "local_path": "data/extracted/7fec23975d1b99aa51a539a3.xml",
+    "sha256": "f9d01fe5c731530619096d24088acec0712470453cc898febf3855e5e5d692c0",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testCalciumParsing",
+    "outcome": "error",
+    "exception_type": "java.net.UnknownHostException",
+    "message": "mmtf.rcsb.org",
+    "stack_trace": "java.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.TestParsingCalcium.testCalciumParsing(TestParsingCalcium.java:48)",
+    "text": "java.net.UnknownHostException\nmmtf.rcsb.org\njava.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.TestParsingCalcium.testCalciumParsing(TestParsingCalcium.java:48)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "4656838a8d4e941bd16dbaacf86e927ef7ffc2071b1503ee5abc2d37f6b75ed6"
+}

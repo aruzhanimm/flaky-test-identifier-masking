@@ -1,0 +1,81 @@
+{
+  "container": "Stratamodulesdata50114f2of_override",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "Stratamodulesdata50114f2of_override",
+    "project": "https://github.com/opengamma/strata",
+    "revision": "50114f27805a89b6bac7bbc186bb9f78a327bd2b",
+    "test": "com.opengamma.strata.data.scenario.ExtendedScenarioMarketDataTest.of_override",
+    "label": "ID",
+    "module": "modules/data",
+    "zip": "Strata=modules+data=50114f2",
+    "config_row": 688,
+    "configured_test": "com.opengamma.strata.data.scenario.ExtendedScenarioMarketDataTest#of_override",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/opengamma/strata::com.opengamma.strata.data.scenario.ExtendedScenarioMarketDataTest.of_override",
+    "variant_id": "https://github.com/opengamma/strata::com.opengamma.strata.data.scenario.ExtendedScenarioMarketDataTest.of_override::50114f27805a89b6bac7bbc186bb9f78a327bd2b::modules/data",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/Stratamodulesdata50114f2of_override/result/Flaky/.nondex/qWHtR32cnR305ofB3xMp+CQ7Qk9EaWRGq1zH7xLtYso=/TEST-com.opengamma.strata.data.scenario.ExtendedScenarioMarketDataTest.xml",
+        "size": 10311,
+        "compressed": 2216,
+        "crc32": "be54c83f",
+        "offset": 1614463828,
+        "method": 8,
+        "local_path": "data/extracted/7a4839ee22ede8102d2cd227.xml",
+        "sha256": "1231433f142c79cf3fd709d0638e1429cea45adf84529411c906bbc7aa0ff181",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/Stratamodulesdata50114f2of_override/result/Flaky/rounds-test-results.csv",
+    "size": 20887,
+    "compressed": 5121,
+    "crc32": "09587f88",
+    "offset": 1613983136,
+    "method": 8,
+    "local_path": "data/extracted/6e6dafd858afa9cbe344102a.csv",
+    "sha256": "5a45269118c73bd360452cdbabdbd886b6eaec73b0b0eed502fe864baa461d11",
+    "status": "verified"
+  },
+  "reported_failure_rows": 45,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/Stratamodulesdata50114f2of_override/result/Flaky/.nondex/qWHtR32cnR305ofB3xMp+CQ7Qk9EaWRGq1zH7xLtYso=/TEST-com.opengamma.strata.data.scenario.ExtendedScenarioMarketDataTest.xml",
+    "size": 10311,
+    "compressed": 2216,
+    "crc32": "be54c83f",
+    "offset": 1614463828,
+    "method": 8,
+    "local_path": "data/extracted/7a4839ee22ede8102d2cd227.xml",
+    "sha256": "1231433f142c79cf3fd709d0638e1429cea45adf84529411c906bbc7aa0ff181",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "of_override",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  2\nwhereas expected element was:\n  1\n\n\tat com.opengamma.strata.data.scenario.ExtendedScenarioMarketDataTest.of_override(ExtendedScenarioMarketDataTest.java:85)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  2\nwhereas expected element was:\n  1\n\n\tat com.opengamma.strata.data.scenario.ExtendedScenarioMarketDataTest.of_override(ExtendedScenarioMarketDataTest.java:85)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "805a8d6eeeb4e7a859b3a9856b6b570a07fe9ab04b22c13df11b86e14f048a5e"
+}

@@ -1,0 +1,98 @@
+{
+  "container": "YARN-9768",
+  "metadata": {
+    "source": "JIRA",
+    "container": "YARN-9768",
+    "project": "https://github.com/apache/hadoop",
+    "revision": "10461e01932bcd82a9d4e3ab8109df7ead560b14",
+    "test": "org.apache.hadoop.yarn.server.resourcemanager.security.TestDelegationTokenRenewer.testTokenThreadTimeout",
+    "label": "TD",
+    "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-resourcemanager",
+    "zip": "YARN-9768",
+    "config_row": 1096,
+    "configured_test": "org.apache.hadoop.yarn.server.resourcemanager.security.TestDelegationTokenRenewer#testTokenThreadTimeout",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hadoop::org.apache.hadoop.yarn.server.resourcemanager.security.TestDelegationTokenRenewer.testTokenThreadTimeout",
+    "variant_id": "https://github.com/apache/hadoop::org.apache.hadoop.yarn.server.resourcemanager.security.TestDelegationTokenRenewer.testTokenThreadTimeout::10461e01932bcd82a9d4e3ab8109df7ead560b14::hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-resourcemanager",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/YARN-9768/result/Flaky/surefire-reports/reports-1/org.apache.hadoop.yarn.server.resourcemanager.security.TestDelegationTokenRenewer.txt",
+        "size": 1871,
+        "compressed": 560,
+        "crc32": "c0364699",
+        "offset": 2048882021,
+        "method": 8,
+        "local_path": "data/extracted/db1430317ec2ededcfe5396a.txt",
+        "sha256": "9eb530bea38845e06db74130e4af991ea33480b05a733fee6666f826e02bdcb9",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/YARN-9768/result/Flaky/surefire-reports/reports-1/org.apache.hadoop.yarn.server.resourcemanager.security.TestDelegationTokenRenewer.txt",
+        "size": 1871,
+        "compressed": 560,
+        "crc32": "c0364699",
+        "offset": 2048882021,
+        "method": 8,
+        "local_path": "data/extracted/db1430317ec2ededcfe5396a.txt",
+        "sha256": "9eb530bea38845e06db74130e4af991ea33480b05a733fee6666f826e02bdcb9",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/YARN-9768/result/Flaky/rounds-test-results.csv",
+    "size": 32307,
+    "compressed": 897,
+    "crc32": "cbad92cc",
+    "offset": 2047903892,
+    "method": 8,
+    "local_path": "data/extracted/534b3370a8c14c5578432b8e.csv",
+    "sha256": "31387d9e6ea9c69d1690b3c69d38a34470b8b8aae9977c91065a3e155499c4bf",
+    "status": "verified"
+  },
+  "reported_failure_rows": 23,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/YARN-9768/result/Flaky/surefire-reports/reports-1/org.apache.hadoop.yarn.server.resourcemanager.security.TestDelegationTokenRenewer.txt",
+    "size": 1871,
+    "compressed": 560,
+    "crc32": "c0364699",
+    "offset": 2048882021,
+    "method": 8,
+    "local_path": "data/extracted/db1430317ec2ededcfe5396a.txt",
+    "sha256": "9eb530bea38845e06db74130e4af991ea33480b05a733fee6666f826e02bdcb9",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "testTokenThreadTimeout",
+    "outcome": "error",
+    "exception_type": "org.junit.runners.model.TestTimedOutException",
+    "message": "test timed out after 30000 milliseconds",
+    "stack_trace": "org.junit.runners.model.TestTimedOutException: test timed out after 30000 milliseconds\n\tat java.lang.Thread.sleep(Native Method)\n\tat org.apache.hadoop.test.GenericTestUtils.waitFor(GenericTestUtils.java:394)\n\tat org.apache.hadoop.yarn.server.resourcemanager.security.TestDelegationTokenRenewer.testTokenThreadTimeout(TestDelegationTokenRenewer.java:1690)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.lang.Thread.run(Thread.java:750)",
+    "text": "org.junit.runners.model.TestTimedOutException\ntest timed out after 30000 milliseconds\norg.junit.runners.model.TestTimedOutException: test timed out after 30000 milliseconds\n\tat java.lang.Thread.sleep(Native Method)\n\tat org.apache.hadoop.test.GenericTestUtils.waitFor(GenericTestUtils.java:394)\n\tat org.apache.hadoop.yarn.server.resourcemanager.security.TestDelegationTokenRenewer.testTokenThreadTimeout(TestDelegationTokenRenewer.java:1690)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.lang.Thread.run(Thread.java:750)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "4132dfe722fe5be94125ac6f659f32fd8f62a96136019cb271c8eaf14a5f441a"
+}

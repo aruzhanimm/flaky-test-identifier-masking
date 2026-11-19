@@ -1,0 +1,81 @@
+{
+  "container": "innodbjavareaderinnodbjavareader24a95d8testQueryBySkLevel80",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "innodbjavareaderinnodbjavareader24a95d8testQueryBySkLevel80",
+    "project": "https://github.com/alibaba/innodb-java-reader",
+    "revision": "24a95d8005d480d460c3004fad89cfa295b9cbb4",
+    "test": "com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkLevel80",
+    "label": "ID",
+    "module": "innodb-java-reader",
+    "zip": "innodb-java-reader=innodb-java-reader=24a95d8",
+    "config_row": 319,
+    "configured_test": "com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest#testQueryBySkLevel80",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/innodb-java-reader::com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkLevel80",
+    "variant_id": "https://github.com/alibaba/innodb-java-reader::com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkLevel80::24a95d8005d480d460c3004fad89cfa295b9cbb4::innodb-java-reader",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/innodbjavareaderinnodbjavareader24a95d8testQueryBySkLevel80/result/Flaky/.nondex/xmBUVzAk7zuMgGbUa6rnVyzfF1kw8WMGP3rFGVI=/TEST-com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.xml",
+        "size": 11836,
+        "compressed": 2672,
+        "crc32": "000bfa7c",
+        "offset": 1895243256,
+        "method": 8,
+        "local_path": "data/extracted/3066ba168864678323195ff6.xml",
+        "sha256": "9966f878ac483778fdbd113c7979ba52b85ca390974ce63b87a935a3a6c722a0",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/innodbjavareaderinnodbjavareader24a95d8testQueryBySkLevel80/result/Flaky/rounds-test-results.csv",
+    "size": 20659,
+    "compressed": 5069,
+    "crc32": "de84e623",
+    "offset": 1894964364,
+    "method": 8,
+    "local_path": "data/extracted/9e492207d165f730b4049f07.csv",
+    "sha256": "d9f3d3d0dd799dba3959d9f0ed43d94100f31bd6aabb523796c0cbe67bb5b7fc",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/innodbjavareaderinnodbjavareader24a95d8testQueryBySkLevel80/result/Flaky/.nondex/xmBUVzAk7zuMgGbUa6rnVyzfF1kw8WMGP3rFGVI=/TEST-com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.xml",
+    "size": 11836,
+    "compressed": 2672,
+    "crc32": "000bfa7c",
+    "offset": 1895243256,
+    "method": 8,
+    "local_path": "data/extracted/3066ba168864678323195ff6.xml",
+    "sha256": "9966f878ac483778fdbd113c7979ba52b85ca390974ce63b87a935a3a6c722a0",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testQueryBySkLevel80",
+    "outcome": "error",
+    "exception_type": "java.lang.NullPointerException:",
+    "message": null,
+    "stack_trace": "java.lang.NullPointerException: null\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.lambda$testQueryBySk$65(SimpleSkTableReaderTest.java:1637)",
+    "text": "java.lang.NullPointerException:\njava.lang.NullPointerException: null\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.lambda$testQueryBySk$65(SimpleSkTableReaderTest.java:1637)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "7851a614af3729b7789295f4fa744d522aa770e598c089b4303515d7614a8465"
+}

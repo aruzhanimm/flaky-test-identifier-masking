@@ -1,0 +1,81 @@
+{
+  "container": "jerseyinjectcdi2seff5f5a8testDisposeComposedObjectWithPerLookupFields",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jerseyinjectcdi2seff5f5a8testDisposeComposedObjectWithPerLookupFields",
+    "project": "https://github.com/eclipse-ee4j/jersey",
+    "revision": "ff5f5a884050abb774bb4ef9d56193a6b1b9d2d2",
+    "test": "org.glassfish.jersey.inject.cdi.se.DisposableSupplierTest.testDisposeComposedObjectWithPerLookupFields",
+    "label": "ID",
+    "module": "inject/cdi2-se",
+    "zip": "jersey=inject+cdi2-se=ff5f5a8",
+    "config_row": 367,
+    "configured_test": "org.glassfish.jersey.inject.cdi.se.DisposableSupplierTest#testDisposeComposedObjectWithPerLookupFields",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/eclipse-ee4j/jersey::org.glassfish.jersey.inject.cdi.se.DisposableSupplierTest.testDisposeComposedObjectWithPerLookupFields",
+    "variant_id": "https://github.com/eclipse-ee4j/jersey::org.glassfish.jersey.inject.cdi.se.DisposableSupplierTest.testDisposeComposedObjectWithPerLookupFields::ff5f5a884050abb774bb4ef9d56193a6b1b9d2d2::inject/cdi2-se",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/jerseyinjectcdi2seff5f5a8testDisposeComposedObjectWithPerLookupFields/result/Flaky/.nondex/D09AOzmPBO0nk2s2pGTvYnJpY664vFKfKzvCT0nSik=/TEST-org.glassfish.jersey.inject.cdi.se.DisposableSupplierTest.xml",
+        "size": 14581,
+        "compressed": 3020,
+        "crc32": "35239920",
+        "offset": 299190164,
+        "method": 8,
+        "local_path": "data/extracted/e0bc6fb1730ac48bfa33df62.xml",
+        "sha256": "6aff69f5b324920cb2fe6c905d6589067e06acde884ba6e3e25a48f43ad310be",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jerseyinjectcdi2seff5f5a8testDisposeComposedObjectWithPerLookupFields/result/Flaky/rounds-test-results.csv",
+    "size": 20388,
+    "compressed": 5136,
+    "crc32": "dfdc4345",
+    "offset": 299015052,
+    "method": 8,
+    "local_path": "data/extracted/85af9a9e29db4ad6195796a1.csv",
+    "sha256": "95c8b5be3466f43733fb2051f041de119544093e6c1c79639bb97ed877331a6a",
+    "status": "verified"
+  },
+  "reported_failure_rows": 83,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/jerseyinjectcdi2seff5f5a8testDisposeComposedObjectWithPerLookupFields/result/Flaky/.nondex/D09AOzmPBO0nk2s2pGTvYnJpY664vFKfKzvCT0nSik=/TEST-org.glassfish.jersey.inject.cdi.se.DisposableSupplierTest.xml",
+    "size": 14581,
+    "compressed": 3020,
+    "crc32": "35239920",
+    "offset": 299190164,
+    "method": 8,
+    "local_path": "data/extracted/e0bc6fb1730ac48bfa33df62.xml",
+    "sha256": "6aff69f5b324920cb2fe6c905d6589067e06acde884ba6e3e25a48f43ad310be",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testDisposeComposedObjectWithPerLookupFields",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <2> but was: <3>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <2> but was: <3>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat org.glassfish.jersey.inject.cdi.se.DisposableSupplierTest.lambda$testDisposeComposedObjectWithPerLookupFields$21(DisposableSupplierTest.java:372)\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:292)\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:274)\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:244)\n\tat org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:288)\n\tat org.glassfish.jersey.inject.cdi.se.DisposableSupplierTest.testDisposeComposedObjectWithPerLookupFields(DisposableSupplierTest.java:364)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)\n\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)\n\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)\n\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)\n\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <2> but was: <3>\norg.opentest4j.AssertionFailedError: expected: <2> but was: <3>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat org.glassfish.jersey.inject.cdi.se.DisposableSupplierTest.lambda$testDisposeComposedObjectWithPerLookupFields$21(DisposableSupplierTest.java:372)\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:292)\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:274)\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:244)\n\tat org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:288)\n\tat org.glassfish.jersey.inject.cdi.se.DisposableSupplierTest.testDisposeComposedObjectWithPerLookupFields(DisposableSupplierTest.java:364)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)\n\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)\n\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)\n\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)\n\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "51412e184f11090e8aeca1bb41058afee840afc123db07ef5cd4f20e41c101c8"
+}

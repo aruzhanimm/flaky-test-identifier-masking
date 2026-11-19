@@ -1,0 +1,81 @@
+{
+  "container": "cloudstackpluginsnetworkelementsopendaylightadec811gsonNeutronPortMarshalingTest",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "cloudstackpluginsnetworkelementsopendaylightadec811gsonNeutronPortMarshalingTest",
+    "project": "https://github.com/apache/cloudstack",
+    "revision": "adec8110521b0f93458d411dc689c91fd5a59004",
+    "test": "org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest.gsonNeutronPortMarshalingTest",
+    "label": "ID",
+    "module": "plugins/network-elements/opendaylight",
+    "zip": "cloudstack=plugins+network-elements+opendaylight=adec811",
+    "config_row": 60,
+    "configured_test": "org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest#gsonNeutronPortMarshalingTest",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/cloudstack::org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest.gsonNeutronPortMarshalingTest",
+    "variant_id": "https://github.com/apache/cloudstack::org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest.gsonNeutronPortMarshalingTest::adec8110521b0f93458d411dc689c91fd5a59004::plugins/network-elements/opendaylight",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/cloudstackpluginsnetworkelementsopendaylightadec811gsonNeutronPortMarshalingTest/result/Flaky/.nondex/+5v+ZnFhc2LBXnasS9kcCtFVFwa6osjtusznQ426UU4=/TEST-org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest.xml",
+        "size": 38177,
+        "compressed": 5364,
+        "crc32": "3587ed77",
+        "offset": 631656015,
+        "method": 8,
+        "local_path": "data/extracted/c8df6192dc6737901cc013fc.xml",
+        "sha256": "ac51724e922e056276bdb8e30f105fb16a815b5213ee429d1d455386885dfc64",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/cloudstackpluginsnetworkelementsopendaylightadec811gsonNeutronPortMarshalingTest/result/Flaky/rounds-test-results.csv",
+    "size": 24271,
+    "compressed": 5062,
+    "crc32": "fcccc5c4",
+    "offset": 631464930,
+    "method": 8,
+    "local_path": "data/extracted/493a051040d40f33a96b30e5.csv",
+    "sha256": "035098a45959776beef9edca2a7c68c34d01e482ae480dec89ac4003f5e30570",
+    "status": "verified"
+  },
+  "reported_failure_rows": 41,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/cloudstackpluginsnetworkelementsopendaylightadec811gsonNeutronPortMarshalingTest/result/Flaky/.nondex/+5v+ZnFhc2LBXnasS9kcCtFVFwa6osjtusznQ426UU4=/TEST-org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest.xml",
+    "size": 38177,
+    "compressed": 5364,
+    "crc32": "3587ed77",
+    "offset": 631656015,
+    "method": 8,
+    "local_path": "data/extracted/c8df6192dc6737901cc013fc.xml",
+    "sha256": "ac51724e922e056276bdb8e30f105fb16a815b5213ee429d1d455386885dfc64",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "gsonNeutronPortMarshalingTest",
+    "outcome": "failure",
+    "exception_type": "junit.framework.ComparisonFailure",
+    "message": "expected:<{\"node\":{\"[id\":\"node-test\",\"type\":\"]test\"}}> but was:<{\"node\":{\"[type\":\"test\",\"id\":\"node-]test\"}}>",
+    "stack_trace": "junit.framework.ComparisonFailure: expected:<{\"node\":{\"[id\":\"node-test\",\"type\":\"]test\"}}> but was:<{\"node\":{\"[type\":\"test\",\"id\":\"node-]test\"}}>\n\tat org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest.gsonNeutronPortMarshalingTest(NeutronNodeAdapterTest.java:51)",
+    "text": "junit.framework.ComparisonFailure\nexpected:<{\"node\":{\"[id\":\"node-test\",\"type\":\"]test\"}}> but was:<{\"node\":{\"[type\":\"test\",\"id\":\"node-]test\"}}>\njunit.framework.ComparisonFailure: expected:<{\"node\":{\"[id\":\"node-test\",\"type\":\"]test\"}}> but was:<{\"node\":{\"[type\":\"test\",\"id\":\"node-]test\"}}>\n\tat org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest.gsonNeutronPortMarshalingTest(NeutronNodeAdapterTest.java:51)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "79b5c76f609e2fafb2e24872103c142aea5b2cecdd757dfb953b90a01076d63f"
+}

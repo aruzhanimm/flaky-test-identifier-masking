@@ -1,0 +1,81 @@
+{
+  "container": "mavendependencyplugin7ae0abatestGetDependencies",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "mavendependencyplugin7ae0abatestGetDependencies",
+    "project": "https://github.com/apache/maven-dependency-plugin",
+    "revision": "7ae0aba59c3243cffd0f9407b919fd4e413dbd57",
+    "test": "org.apache.maven.plugins.dependency.fromDependencies.TestCopyDependenciesMojo.testGetDependencies",
+    "label": "ID",
+    "module": ".",
+    "zip": "maven-dependency-plugin=.=7ae0aba",
+    "config_row": 766,
+    "configured_test": "org.apache.maven.plugins.dependency.fromDependencies.TestCopyDependenciesMojo#testGetDependencies",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/maven-dependency-plugin::org.apache.maven.plugins.dependency.fromDependencies.TestCopyDependenciesMojo.testGetDependencies",
+    "variant_id": "https://github.com/apache/maven-dependency-plugin::org.apache.maven.plugins.dependency.fromDependencies.TestCopyDependenciesMojo.testGetDependencies::7ae0aba59c3243cffd0f9407b919fd4e413dbd57::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/mavendependencyplugin7ae0abatestGetDependencies/result/Flaky/.nondex/FAJ9yg6R2CrMVQQ9qojH1H6Ku3y7cbda5Lik+pQ6l2k=/TEST-org.apache.maven.plugins.dependency.fromDependencies.TestCopyDependenciesMojo.xml",
+        "size": 28053,
+        "compressed": 4117,
+        "crc32": "ee05810d",
+        "offset": 1183093898,
+        "method": 8,
+        "local_path": "data/extracted/40fcb6fde1096bc8d0e903e2.xml",
+        "sha256": "396f519c75ee4b15e529783fa5c2a80354f53244062fe1678227598ff63713a3",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/mavendependencyplugin7ae0abatestGetDependencies/result/Flaky/rounds-test-results.csv",
+    "size": 21176,
+    "compressed": 5157,
+    "crc32": "624ce2cf",
+    "offset": 1182382564,
+    "method": 8,
+    "local_path": "data/extracted/429615212bb57d8e666de707.csv",
+    "sha256": "5d2f05077f6dcac9b14b12fa28770c91005d97c34fb62034d3bc2a1f88cd6b2c",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/mavendependencyplugin7ae0abatestGetDependencies/result/Flaky/.nondex/FAJ9yg6R2CrMVQQ9qojH1H6Ku3y7cbda5Lik+pQ6l2k=/TEST-org.apache.maven.plugins.dependency.fromDependencies.TestCopyDependenciesMojo.xml",
+    "size": 28053,
+    "compressed": 4117,
+    "crc32": "ee05810d",
+    "offset": 1183093898,
+    "method": 8,
+    "local_path": "data/extracted/40fcb6fde1096bc8d0e903e2.xml",
+    "sha256": "396f519c75ee4b15e529783fa5c2a80354f53244062fe1678227598ff63713a3",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testGetDependencies",
+    "outcome": "failure",
+    "exception_type": "junit.framework.ComparisonFailure",
+    "message": "expected:<...tem:jar:1.0:system, [g:provided:jar:1.0:provided, testGroupId:release:jar:1.0:compile, g:test:jar:1.0:test, testGroupId:snapshot:jar:2.0-SNAPSHOT:compile, g:compile:jar:1.0:compile]]> but was:<...tem:jar:1.0:system, [testGroupId:release:jar:1.0:compile, testGroupId:snapshot:jar:2.0-SNAPSHOT:compile, g:provided:jar:1.0:provided, g:compile:jar:1.0:compile, g:test:jar:1.0:test]]>",
+    "stack_trace": "junit.framework.ComparisonFailure: expected:<...tem:jar:1.0:system, [g:provided:jar:1.0:provided, testGroupId:release:jar:1.0:compile, g:test:jar:1.0:test, testGroupId:snapshot:jar:2.0-SNAPSHOT:compile, g:compile:jar:1.0:compile]]> but was:<...tem:jar:1.0:system, [testGroupId:release:jar:1.0:compile, testGroupId:snapshot:jar:2.0-SNAPSHOT:compile, g:provided:jar:1.0:provided, g:compile:jar:1.0:compile, g:test:jar:1.0:test]]>\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\n\tat junit.framework.TestCase.assertEquals(TestCase.java:260)\n\tat org.apache.maven.plugins.dependency.fromDependencies.TestCopyDependenciesMojo.testGetDependencies(TestCopyDependenciesMojo.java:567)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat junit.framework.TestCase.runTest(TestCase.java:177)\n\tat junit.framework.TestCase.runBare(TestCase.java:142)\n\tat junit.framework.TestResult$1.protect(TestResult.java:122)\n\tat junit.framework.TestResult.runProtected(TestResult.java:142)\n\tat junit.framework.TestResult.run(TestResult.java:125)\n\tat junit.framework.TestCase.run(TestCase.java:130)\n\tat junit.framework.TestSuite.runTest(TestSuite.java:241)\n\tat junit.framework.TestSuite.run(TestSuite.java:236)",
+    "text": "junit.framework.ComparisonFailure\nexpected:<...tem:jar:1.0:system, [g:provided:jar:1.0:provided, testGroupId:release:jar:1.0:compile, g:test:jar:1.0:test, testGroupId:snapshot:jar:2.0-SNAPSHOT:compile, g:compile:jar:1.0:compile]]> but was:<...tem:jar:1.0:system, [testGroupId:release:jar:1.0:compile, testGroupId:snapshot:jar:2.0-SNAPSHOT:compile, g:provided:jar:1.0:provided, g:compile:jar:1.0:compile, g:test:jar:1.0:test]]>\njunit.framework.ComparisonFailure: expected:<...tem:jar:1.0:system, [g:provided:jar:1.0:provided, testGroupId:release:jar:1.0:compile, g:test:jar:1.0:test, testGroupId:snapshot:jar:2.0-SNAPSHOT:compile, g:compile:jar:1.0:compile]]> but was:<...tem:jar:1.0:system, [testGroupId:release:jar:1.0:compile, testGroupId:snapshot:jar:2.0-SNAPSHOT:compile, g:provided:jar:1.0:provided, g:compile:jar:1.0:compile, g:test:jar:1.0:test]]>\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\n\tat junit.framework.TestCase.assertEquals(TestCase.java:260)\n\tat org.apache.maven.plugins.dependency.fromDependencies.TestCopyDependenciesMojo.testGetDependencies(TestCopyDependenciesMojo.java:567)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat junit.framework.TestCase.runTest(TestCase.java:177)\n\tat junit.framework.TestCase.runBare(TestCase.java:142)\n\tat junit.framework.TestResult$1.protect(TestResult.java:122)\n\tat junit.framework.TestResult.runProtected(TestResult.java:142)\n\tat junit.framework.TestResult.run(TestResult.java:125)\n\tat junit.framework.TestCase.run(TestCase.java:130)\n\tat junit.framework.TestSuite.runTest(TestSuite.java:241)\n\tat junit.framework.TestSuite.run(TestSuite.java:236)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "37a4c1eb72b05f441480b01be1f5e98ad376ea121b6194188b934f28c64d60a0"
+}

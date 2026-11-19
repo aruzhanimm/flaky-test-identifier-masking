@@ -1,0 +1,37 @@
+{
+  "container": "CAMEL-12025-testToWithExchange",
+  "metadata": {
+    "source": "JIRA",
+    "container": "CAMEL-12025-testToWithExchange",
+    "project": "https://github.com/apache/camel",
+    "revision": "c501ba7e6d8c94ad3c26c78a4ee941fdd745717f",
+    "test": "org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest.testToWithExchange",
+    "label": "TD",
+    "module": "components/camel-reactor",
+    "zip": "CAMEL-12025",
+    "config_row": 1105,
+    "configured_test": "org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest#testToWithExchange",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/camel::org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest.testToWithExchange",
+    "variant_id": "https://github.com/apache/camel::org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest.testToWithExchange::c501ba7e6d8c94ad3c26c78a4ee941fdd745717f::components/camel-reactor",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/CAMEL-12025-testToWithExchange/result/Flaky/rounds-test-results.csv",
+    "size": 22881,
+    "compressed": 713,
+    "crc32": "a03333a1",
+    "offset": 82486458,
+    "method": 8,
+    "local_path": "data/extracted/a1c6cd6330c75c415cd6a1ae.csv",
+    "sha256": "937b24f5db1ad182b0a0eea4a2f54ccab4fcae35cd74377a9075ce6a5c81f2e6",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

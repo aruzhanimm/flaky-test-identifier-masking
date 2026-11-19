@@ -1,0 +1,81 @@
+{
+  "container": "commonslang182b250testSelfInstanceTwoVarsReflectionObjectCycle",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "commonslang182b250testSelfInstanceTwoVarsReflectionObjectCycle",
+    "project": "https://github.com/apache/commons-lang",
+    "revision": "182b2506b304463f8f1a9ad765c6db0420fa356f",
+    "test": "org.apache.commons.lang3.builder.ToStringBuilderTest.testSelfInstanceTwoVarsReflectionObjectCycle",
+    "label": "ID",
+    "module": ".",
+    "zip": "commons-lang=.=182b250",
+    "config_row": 567,
+    "configured_test": "org.apache.commons.lang3.builder.ToStringBuilderTest#testSelfInstanceTwoVarsReflectionObjectCycle",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.ToStringBuilderTest.testSelfInstanceTwoVarsReflectionObjectCycle",
+    "variant_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.ToStringBuilderTest.testSelfInstanceTwoVarsReflectionObjectCycle::182b2506b304463f8f1a9ad765c6db0420fa356f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/commonslang182b250testSelfInstanceTwoVarsReflectionObjectCycle/result/Flaky/.nondex/Y70E4xZnjnIWov1O7WQn1xSsaTDWCLwPpbeIeEhKBc=/TEST-org.apache.commons.lang3.builder.ToStringBuilderTest.xml",
+        "size": 10852,
+        "compressed": 2264,
+        "crc32": "0b30a02e",
+        "offset": 412839056,
+        "method": 8,
+        "local_path": "data/extracted/3627ed8274d695257e8e0498.xml",
+        "sha256": "1c738af6f6a68d20d5c4a4b1b9fb449c830e9c975d5c912cbc5a51a9e909883f",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/commonslang182b250testSelfInstanceTwoVarsReflectionObjectCycle/result/Flaky/rounds-test-results.csv",
+    "size": 18493,
+    "compressed": 4951,
+    "crc32": "c5ab934f",
+    "offset": 412354376,
+    "method": 8,
+    "local_path": "data/extracted/bbba7dcd054afc80cff2dd2d.csv",
+    "sha256": "9653b07c1b5fd40e187b254f5ce333e7711d22db41061407447d50d25469cb4b",
+    "status": "verified"
+  },
+  "reported_failure_rows": 41,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/commonslang182b250testSelfInstanceTwoVarsReflectionObjectCycle/result/Flaky/.nondex/Y70E4xZnjnIWov1O7WQn1xSsaTDWCLwPpbeIeEhKBc=/TEST-org.apache.commons.lang3.builder.ToStringBuilderTest.xml",
+    "size": 10852,
+    "compressed": 2264,
+    "crc32": "0b30a02e",
+    "offset": 412839056,
+    "method": 8,
+    "local_path": "data/extracted/3627ed8274d695257e8e0498.xml",
+    "sha256": "1c738af6f6a68d20d5c4a4b1b9fb449c830e9c975d5c912cbc5a51a9e909883f",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testSelfInstanceTwoVarsReflectionObjectCycle",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14[typeIsSelf=org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14,otherType=The Other Type]> but was: <org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14[otherType=The Other Type,typeIsSelf=org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14]>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14[typeIsSelf=org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14,otherType=The Other Type]> but was: <org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14[otherType=The Other Type,typeIsSelf=org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14]>\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.testSelfInstanceTwoVarsReflectionObjectCycle(ToStringBuilderTest.java:546)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14[typeIsSelf=org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14,otherType=The Other Type]> but was: <org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14[otherType=The Other Type,typeIsSelf=org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14]>\norg.opentest4j.AssertionFailedError: expected: <org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14[typeIsSelf=org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14,otherType=The Other Type]> but was: <org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14[otherType=The Other Type,typeIsSelf=org.apache.commons.lang3.builder.ToStringBuilderTest$SelfInstanceTwoVarsReflectionTestFixture@32464a14]>\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.testSelfInstanceTwoVarsReflectionObjectCycle(ToStringBuilderTest.java:546)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "8406436b3ef3db76e8003858e379e219256f7cfb71300ec49957e103817187c2"
+}

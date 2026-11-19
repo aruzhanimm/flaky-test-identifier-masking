@@ -1,0 +1,3304 @@
+[
+  {
+    "fold": 0,
+    "condition": "original",
+    "training_documents": 929,
+    "evaluation_documents": 122,
+    "vocabulary_size": 20589,
+    "vocabulary_sha256": "e0ee580edcedb60eb31cb7c61a580a36a11cb62d76a6c001ad920987c3f89273",
+    "coef_sha256": "aba4dcff9ddc3bc4f848ce99d925e3d7dbd8978f6889387302c71e81e696d810",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.27367600000070524
+  },
+  {
+    "fold": 0,
+    "condition": "masked",
+    "training_documents": 929,
+    "evaluation_documents": 122,
+    "vocabulary_size": 16607,
+    "vocabulary_sha256": "06669873e4a838ef5a88634cf04f5a5269d729f421822e30533d0258c7b19271",
+    "coef_sha256": "6aa0852c0bafb5eb084fda5604ca636778a2c5255f98264fffcd6a54d430183c",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.27017869999872346
+  },
+  {
+    "fold": 1,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21142,
+    "vocabulary_sha256": "df885f3a2f71bb14384663e953126b89ce588adfbc78b96486c80dab70cd81c7",
+    "coef_sha256": "96424c5b968c687fe117b826163d5762dc7919d97877239fb8d2ac34bcdf5b4c",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3184347999995225
+  },
+  {
+    "fold": 1,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16835,
+    "vocabulary_sha256": "59e40cf9a38ebc94e14ad1f59d71b2997f01c2e1c407f0f5fa0b8c747033bd05",
+    "coef_sha256": "b575253df07401cb5d7cf29cb0a48c2260756b4a9482d671f9a368d83b453a93",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2519460000003164
+  },
+  {
+    "fold": 2,
+    "condition": "original",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 21128,
+    "vocabulary_sha256": "2a68769f57b29ecd01cc205575bf4f305a6799ada915122eb064cf74637ec007",
+    "coef_sha256": "0173492afd907bc3432d2b803efd06c45c3c061986f06fc046c3e98017267e62",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.3154008999990765
+  },
+  {
+    "fold": 2,
+    "condition": "masked",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 16837,
+    "vocabulary_sha256": "1ae48d7facfea601f008a6e7c4cb05aa92fca9e42b0278fef3cf66b232256330",
+    "coef_sha256": "8bd6186fff993e335ab4bf0e436f52c29c02dd54ed489eef99bd084e9f75b199",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24928369999906863
+  },
+  {
+    "fold": 3,
+    "condition": "original",
+    "training_documents": 1039,
+    "evaluation_documents": 12,
+    "vocabulary_size": 21092,
+    "vocabulary_sha256": "3080ae29346da8f218a6ed50a55c10f76f5d2d7c16c85cfe1a28c52100c8e0ed",
+    "coef_sha256": "8aa8667e8a2419b222d2210d782e360dbb8f9449f772bb2cd697ca4d2f09559d",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.3050098000003345
+  },
+  {
+    "fold": 3,
+    "condition": "masked",
+    "training_documents": 1039,
+    "evaluation_documents": 12,
+    "vocabulary_size": 16818,
+    "vocabulary_sha256": "9d64e474c469bbacdecb4aa9e03c3f7faa25254d5ea907dbceee8b74f06f87ec",
+    "coef_sha256": "4db8563f4e2eb5d30d26d40a010adecdc25d1ddbfd835bb153bae14fac8d8534",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2635262000003422
+  },
+  {
+    "fold": 4,
+    "condition": "original",
+    "training_documents": 1046,
+    "evaluation_documents": 5,
+    "vocabulary_size": 21033,
+    "vocabulary_sha256": "c141844208151b3be56ad87f7f96117f09d063bb81aad00962046e30c3e72e27",
+    "coef_sha256": "8b5e4295f7439159cc055d126c2610d75664d1127aab3ffcf37b54e9d6c1e687",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29428419999931066
+  },
+  {
+    "fold": 4,
+    "condition": "masked",
+    "training_documents": 1046,
+    "evaluation_documents": 5,
+    "vocabulary_size": 16743,
+    "vocabulary_sha256": "39adc4fe4753d2cf6679461e808fec3a8a4f05fec9551a94d3c9a1edad9c4da0",
+    "coef_sha256": "85dca915b518ff86e671a734fca98dbca94740e34022ba78ee99b021202d17f7",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.25014050000027055
+  },
+  {
+    "fold": 5,
+    "condition": "original",
+    "training_documents": 1046,
+    "evaluation_documents": 5,
+    "vocabulary_size": 21128,
+    "vocabulary_sha256": "d28a9d9088a55b162b482bcb6fc65506c3cc8d2de9f6fb8ace37ffb6ee089152",
+    "coef_sha256": "1225307c4b98e01e7f08a94f4de703fe2382606db0e27eb1e3c30ec848e0ade7",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.30253350000020873
+  },
+  {
+    "fold": 5,
+    "condition": "masked",
+    "training_documents": 1046,
+    "evaluation_documents": 5,
+    "vocabulary_size": 16837,
+    "vocabulary_sha256": "c5b5837f65d29b75bf10e21d45b39eaac138c84b331fb4d03311ffbe99d7273e",
+    "coef_sha256": "92cbe526249d71e338678db6b08878f03d29d37c231e28a39bfadd30bb31274c",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24766690000069502
+  },
+  {
+    "fold": 6,
+    "condition": "original",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 21103,
+    "vocabulary_sha256": "e0a9c6618b12e1ce7f43d2424cdef779f326d18c6aa83040ecc5f3823a96fccd",
+    "coef_sha256": "152e74f239965520f7d710304289e9e27577e467cbf810813c059f4ff393eec4",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.3201226000001043
+  },
+  {
+    "fold": 6,
+    "condition": "masked",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 16801,
+    "vocabulary_sha256": "5e0b68770a2a3c1e8d5dacd80fd31163754ce7c9b9ff30af1af2346b3f27f900",
+    "coef_sha256": "1f7f1c241b57adaf0ea5be138e80459a2134856bacc5d0cceaebc2dee4128ab9",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24998070000037842
+  },
+  {
+    "fold": 7,
+    "condition": "original",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 21131,
+    "vocabulary_sha256": "549c844e43b2182d6a2e73086c79f0814988988654c98d52fee4c5453dc87ff7",
+    "coef_sha256": "c00fa243a8413ba8207c74a3c3682eeb2b8f9c7828f6e15f7e6c83a3dbb4c523",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.3149756000002526
+  },
+  {
+    "fold": 7,
+    "condition": "masked",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 16834,
+    "vocabulary_sha256": "fb0d049c05d929e0eadd1ef24aa6b470f6a66450a6c29c44f1501658ed7e3ce8",
+    "coef_sha256": "b9d3313a174716a8d88424d55fc8a63e8fced859162e44c59e130a5a5e54145d",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2521895999998378
+  },
+  {
+    "fold": 8,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21160,
+    "vocabulary_sha256": "018bd8b7763efab14a9b3c634ce304c0dd28911e22090b35b89c3242c43e28c7",
+    "coef_sha256": "cbd24e11ba9f850b5f2e4ce63a10cf57044aafa0ecb48a455c69c337e27f6edf",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.3182018999996217
+  },
+  {
+    "fold": 8,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16853,
+    "vocabulary_sha256": "7b24684fe4050cae0adb406757ffe0f2d85cc89c73c365aac2fa4e5218484d72",
+    "coef_sha256": "889f84e84b822fcd19064ab70186bcc5a719c1ae0e13b06db341204d8311676e",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2467543000002479
+  },
+  {
+    "fold": 9,
+    "condition": "original",
+    "training_documents": 1044,
+    "evaluation_documents": 7,
+    "vocabulary_size": 19052,
+    "vocabulary_sha256": "8eede9ddc5ae6c94da8f5e2e001fb8fa03e0afa519f6778af08d47c1c5fe7273",
+    "coef_sha256": "b8ccd0dcf2687904521588bdf960294af7ffe4ac43fbc6c1c9934ad6ce149d18",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.2883065000005445
+  },
+  {
+    "fold": 9,
+    "condition": "masked",
+    "training_documents": 1044,
+    "evaluation_documents": 7,
+    "vocabulary_size": 14760,
+    "vocabulary_sha256": "68d6fd986b01e4d2775bfc853bdd05cb21e010f8cb649ff7acc7007121f4b0ac",
+    "coef_sha256": "c2b69927d20f84a51c8db1cc05935cbdcfee86beff71e4aaedce35df28bd13c8",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.23462490000019898
+  },
+  {
+    "fold": 10,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21081,
+    "vocabulary_sha256": "0c4900a022081a9eb19b2c1ef1b518984ee403971302cf98826db141faa312e1",
+    "coef_sha256": "9a08011df58e6125d9179bdb857b6cccc383e381a035e5fb433e98009aee6322",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2950700000001234
+  },
+  {
+    "fold": 10,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16764,
+    "vocabulary_sha256": "dacf5b1798f7a553f3ee6d3d821442386e1b7c05e58f5f9994c098fa9f8a845a",
+    "coef_sha256": "110c941a9fee6efd64f498329bca70465ee2dd1445eb8472176614d29b9dcf13",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.243976499999917
+  },
+  {
+    "fold": 11,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21116,
+    "vocabulary_sha256": "7fa78d5012c792612bc08fcb891d5473081305d3db085469fef4734d239fd6f9",
+    "coef_sha256": "6db4343b39d8a87237cfd9465b06c09901c082c2946cc9fc532e542f00935676",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.31008339999971213
+  },
+  {
+    "fold": 11,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16804,
+    "vocabulary_sha256": "cbd0b1c2249852bb49305fe008512e3af3db0eafa41b60b70a1762b529dce7be",
+    "coef_sha256": "94220755693219a2fb944ac38ede16829eda9c72ea910f96f3717785224cfc6e",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2409021000003122
+  },
+  {
+    "fold": 12,
+    "condition": "original",
+    "training_documents": 1044,
+    "evaluation_documents": 7,
+    "vocabulary_size": 21025,
+    "vocabulary_sha256": "cdfbc67809b4f2ef4fef487d4e78994b02252b04be57a4a85bb7591dc108b006",
+    "coef_sha256": "198afa461662a5b6357c6ab19c65494e2c7deaf59e5939d89c18fb938f09b7c9",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.28766369999902963
+  },
+  {
+    "fold": 12,
+    "condition": "masked",
+    "training_documents": 1044,
+    "evaluation_documents": 7,
+    "vocabulary_size": 16744,
+    "vocabulary_sha256": "21500c25ace47ea34d0e7a47b30b2bbc76fca4bb2f3b5349cf0172b4fa715f01",
+    "coef_sha256": "eee97d65df860b66db7134a99895a57bb4ed60d245117a8f7e7b50206e2f5731",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2500373999992007
+  },
+  {
+    "fold": 13,
+    "condition": "original",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 21065,
+    "vocabulary_sha256": "a2de50eeed5c707be3cf5cc9a4eaff515436d92443d34f6188b312bab126cd49",
+    "coef_sha256": "7caef8541b2e723582315269eb2e3945667f1d0219e14e4a8d8ed84ce9cf2d8e",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3129005999999208
+  },
+  {
+    "fold": 13,
+    "condition": "masked",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 16776,
+    "vocabulary_sha256": "3be85b4d7e6ad333ed3e98b7c3d28600ce4dbce46b2ab976e9797c3137c57e24",
+    "coef_sha256": "1769d8bb387def62ccbe93719275346e0819b8f21656aa61eed9f71bceaa239e",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24846230000002834
+  },
+  {
+    "fold": 14,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21082,
+    "vocabulary_sha256": "a2e1d7bf7d371a4c670b4248e93b3b3b3baf8db0a2534f9ebf92fc2dfb1219a1",
+    "coef_sha256": "e87ed220d794db113a6d8d7c31c0ae0c7d90b797c413cd531ab828128fda1fbf",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3095164999995177
+  },
+  {
+    "fold": 14,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16776,
+    "vocabulary_sha256": "09c96fc498aa84fb3ab2a0de5ede701141f9a1069ab61d80895e7cf2ff241e06",
+    "coef_sha256": "9945554daeec23f083cf8d50f24248dba771f48fc7ae5df8797baf494cb20ae7",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24747910000041884
+  },
+  {
+    "fold": 15,
+    "condition": "original",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 21137,
+    "vocabulary_sha256": "778cd59b91378dd24306db7201898e35da2c1202a25c91e48bb592704e7501a0",
+    "coef_sha256": "9140a45d7cf887c33fb6ec949415669a26d3dfac1bd48334e2029e8492cdbab7",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.3022629000006418
+  },
+  {
+    "fold": 15,
+    "condition": "masked",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 16833,
+    "vocabulary_sha256": "97505d93e38a05bd15d69360ac865552bad98de0472061edd7beee3a177863e6",
+    "coef_sha256": "63315098a6b47bf6d75c2b1420e017691d056e2cf8c785699bf194cf84e57ead",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24325219999991532
+  },
+  {
+    "fold": 16,
+    "condition": "original",
+    "training_documents": 1040,
+    "evaluation_documents": 11,
+    "vocabulary_size": 21005,
+    "vocabulary_sha256": "a53ecbad4f3d9cd809f7a729b9ffb92d16074b6c0e115d7c81426d7b89758c20",
+    "coef_sha256": "0a9ddae128ceed774bad741237d8d1e2add0c9441e0f28df6042f22ab1ca114b",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.2858957999997074
+  },
+  {
+    "fold": 16,
+    "condition": "masked",
+    "training_documents": 1040,
+    "evaluation_documents": 11,
+    "vocabulary_size": 16748,
+    "vocabulary_sha256": "981d2b475446cb212d30d7890c00c49230381dc45c6ff75ff8476597728d35d5",
+    "coef_sha256": "1ccbf7afccef2cbba8ade7dcbad389107da888cf87b4d16ec7c1774b397303f4",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.248221800000465
+  },
+  {
+    "fold": 17,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21088,
+    "vocabulary_sha256": "385341540f597df54196f93aaa817c75fd487b56ddfe93a859c87f13cf30ba12",
+    "coef_sha256": "40891128f7edfc432c3cae3d73ce6a4994bf6f2ea4c37712683ca51c06ad6ffb",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.30293109999911394
+  },
+  {
+    "fold": 17,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16777,
+    "vocabulary_sha256": "d9748d865190d81bb5e29f3d4869e1746a06a927c1179acc19943a3c47b2eb24",
+    "coef_sha256": "d091c2959656ad6cb35fd52a1d8f7fc7cda0f477befcc38b489bd423f25af54a",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2423341999983677
+  },
+  {
+    "fold": 18,
+    "condition": "original",
+    "training_documents": 1045,
+    "evaluation_documents": 6,
+    "vocabulary_size": 20997,
+    "vocabulary_sha256": "c465a64fc12371240c952fde068f4cac3a8e96ff044fa6ea39edd0ec9701c2ee",
+    "coef_sha256": "19e8f161a55406efd0a591a084679cead95fbdcaeef7c593e30255ad7c3e66ed",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.30670939999981783
+  },
+  {
+    "fold": 18,
+    "condition": "masked",
+    "training_documents": 1045,
+    "evaluation_documents": 6,
+    "vocabulary_size": 16707,
+    "vocabulary_sha256": "0828820f801254338ecc2291c9e6232a59350c27a268a377bbd7ae2e9511f0f7",
+    "coef_sha256": "b4dfb875bb558c5c492aa1825c695d6df4c2586e628beb447ec987ff1d3f5d5e",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2466657999993913
+  },
+  {
+    "fold": 19,
+    "condition": "original",
+    "training_documents": 1043,
+    "evaluation_documents": 8,
+    "vocabulary_size": 20814,
+    "vocabulary_sha256": "e40daa2664c73181ae34aaa1183e88ae04cf730c7ba549ea741e66ef80ef3e8e",
+    "coef_sha256": "0ff87369d3d61e9a1c333272a1c5b9535e7f8a3081628fa937a37a1b7407e2a9",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.27667620000102033
+  },
+  {
+    "fold": 19,
+    "condition": "masked",
+    "training_documents": 1043,
+    "evaluation_documents": 8,
+    "vocabulary_size": 16537,
+    "vocabulary_sha256": "5243da851021cb6dbc992e129bb6d3c372778ebeba102bda306e438a0ef4dc90",
+    "coef_sha256": "cdabbf82dade907e7a95a7102cd31d612508b53a5aa9f8d937ef914e30b894f9",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2428801999994903
+  },
+  {
+    "fold": 20,
+    "condition": "original",
+    "training_documents": 1044,
+    "evaluation_documents": 7,
+    "vocabulary_size": 21135,
+    "vocabulary_sha256": "b65556b1d0565380b20074d67f675221731d57bc045be83299bbbc402e298367",
+    "coef_sha256": "90c21e85700e5fedd0f111a249e4090cd476ef38b7a6e3a5970ca9c6ce5ff7ae",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.2867788000003202
+  },
+  {
+    "fold": 20,
+    "condition": "masked",
+    "training_documents": 1044,
+    "evaluation_documents": 7,
+    "vocabulary_size": 16843,
+    "vocabulary_sha256": "9f3232c16f8e030386d39d9895aa10b0f693da19860523f29cf5374649bcd5be",
+    "coef_sha256": "45aacf2dc9d14b61b6ad6e1f50045a030fce82b4f46b886112dd43f964d446f8",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.25081089999912365
+  },
+  {
+    "fold": 21,
+    "condition": "original",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 21118,
+    "vocabulary_sha256": "2fc942dfc53873dc134be4d3e17f8bd9c3ac3821420dc212c2b151e06fe5c127",
+    "coef_sha256": "54b45fe21a8f0d01ee9b4773297bdc80bc9127c02746b914d03e5045fdec6188",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.2922166999996989
+  },
+  {
+    "fold": 21,
+    "condition": "masked",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 16812,
+    "vocabulary_sha256": "b3dfc7f2fcba1d9e8757223f8cb221449da0594c8dfb47e655d110b494750996",
+    "coef_sha256": "830dbe8635a1b1c4f902b59d14bf325cd3d6bba965ce9c7561a1ce36d068b5af",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2492050000000745
+  },
+  {
+    "fold": 22,
+    "condition": "original",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 21150,
+    "vocabulary_sha256": "efc3b1969f23c0570a720afde94bd09fd4997fe871a52fb646610a8ef7ebeecb",
+    "coef_sha256": "ae344145909eca0ce38602fbe561e5093ad57c57191f29f412e91aa6a060e75d",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.28919520000090415
+  },
+  {
+    "fold": 22,
+    "condition": "masked",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 16840,
+    "vocabulary_sha256": "0efcc66eb440515b8771d74e8b477309179f249300fc78ee1671b7ba44cca3fa",
+    "coef_sha256": "ae2e2cbcc57f85257983a513da00be0a83943b746d22d45ecfc8dc3b195604e5",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24129030000040075
+  },
+  {
+    "fold": 23,
+    "condition": "original",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 21088,
+    "vocabulary_sha256": "7f5dd7984a38a16e4b79bd21160a468be04b83c7d5be4da374d40698c551c993",
+    "coef_sha256": "c4fe5bbf9d6c4db3cd37283af38039ebe296d186d13257346f826dbd5c9628c2",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3095589000004111
+  },
+  {
+    "fold": 23,
+    "condition": "masked",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 16784,
+    "vocabulary_sha256": "9bd843a730b94cc8c66cf649c5183f7ccaa807a7f61ed8bf7d42a89bdf5184cc",
+    "coef_sha256": "8c429a69593389e03a658158fbfbe693d2faddf938d75b97bc18a54c99e6eea7",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24082310000085272
+  },
+  {
+    "fold": 24,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21123,
+    "vocabulary_sha256": "2e52f7076eb1a215ce25ceec3292517e84c3364b36d31d2a99ecbbee9ccc4688",
+    "coef_sha256": "fa20690eb0e49f6ca6896afbcf93c85d5ee0487cf0386638f1ff3c7255839d82",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.29782999999952153
+  },
+  {
+    "fold": 24,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16820,
+    "vocabulary_sha256": "3d4eb899fde359e702b519d7d13a5e6ff367b8410eb2d4cd53b53422381bad67",
+    "coef_sha256": "e682c63092667e286bf04f05ca030e1038dc6de3acceab27407fba6017208194",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24215349999940372
+  },
+  {
+    "fold": 25,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21166,
+    "vocabulary_sha256": "18e7d8d6dfa8c5d1631708e734387cecf8c0e482d8c7c61a3622e1cb22753b34",
+    "coef_sha256": "332a9000cddc5310f946c6cc9fcb39a17c556ed0a792a90d2a02aa5ee07308b7",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2952507999998488
+  },
+  {
+    "fold": 25,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16852,
+    "vocabulary_sha256": "4c184876e639f194c60552de80459676513ac9d850de4ba69bb664772117c52d",
+    "coef_sha256": "238dba25164247b4ab6dfea7eef67c2bbe09a12b3d1a668fb1ae5796b910410e",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24611510000067938
+  },
+  {
+    "fold": 26,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21121,
+    "vocabulary_sha256": "2e5331d81d0ffe0633e3599c631a83606fd289e63db063ace96497b4e2cdc08b",
+    "coef_sha256": "61a236169065b3a2ccaef1a64197366a11663a819c92c091c2f161a91212b2bf",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.2741258000005473
+  },
+  {
+    "fold": 26,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16810,
+    "vocabulary_sha256": "a674c9fecf5504c8cf5b8a0e0788b7450df3ca8a2fc5b534c840017e183b7397",
+    "coef_sha256": "bcba3de8cc108d583dba307de457014dc2ea2ec483ef951f871b0debaa0e15cf",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24516850000145496
+  },
+  {
+    "fold": 27,
+    "condition": "original",
+    "training_documents": 1032,
+    "evaluation_documents": 19,
+    "vocabulary_size": 20813,
+    "vocabulary_sha256": "083d6c11dab076cb62ee4c103265b56b43886c8d6e13b4ae5b61c5faa7bc8ab2",
+    "coef_sha256": "7dc34b36bf076c42252d7ea768152d0765c5e3506f3cc3d378cfa26ec988d58d",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.28160010000101465
+  },
+  {
+    "fold": 27,
+    "condition": "masked",
+    "training_documents": 1032,
+    "evaluation_documents": 19,
+    "vocabulary_size": 16556,
+    "vocabulary_sha256": "2a5352749693097c0e4d084e73e506a3ee9125108c7a574a795a5078b755ef6e",
+    "coef_sha256": "c26e430d6bd14c82b9e5b0ae383c2d50e511dcdc39fd26c8088a7ddbb25a1e14",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24863840000034543
+  },
+  {
+    "fold": 28,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21168,
+    "vocabulary_sha256": "940ac9ec2f4c8cc769c9b1105482df6accd2f08b4bfd8ea2614922295f53a6f0",
+    "coef_sha256": "01956d44b516f4f59857363449405d092b3eb941da081ff68b26d3d18fff21bd",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.32087270000010903
+  },
+  {
+    "fold": 28,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16854,
+    "vocabulary_sha256": "38f042ecfc2dd4fc1cb8c37237367b55731fbc16d9ff37d341b026365eeee7e9",
+    "coef_sha256": "43becbe26a1bafd9406c995a4664aa9036844345175b7883acd7ca3ffd8f7978",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2517229999994015
+  },
+  {
+    "fold": 29,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21133,
+    "vocabulary_sha256": "805204257034264ec8ae13360a49912c0c207b1e7f62dceba11c99f18c707013",
+    "coef_sha256": "610a10c5beea41c11266febc9c853c94996162f19bfbe0d80949b071657f0896",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.29630139999972016
+  },
+  {
+    "fold": 29,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16828,
+    "vocabulary_sha256": "3eb2718d111608f8ae263bcdc95c107afe053589f577b705ff4f3c24206784cc",
+    "coef_sha256": "3fd43527e11c47fc92fb86f8995cd38b63aa9ffc513d71cf747b2736ce2ea923",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.25520979999964766
+  },
+  {
+    "fold": 30,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21172,
+    "vocabulary_sha256": "e41819bb1cdc71705c7bde2ea67ce1dabdc0abfe52a499c8795a148d6564e156",
+    "coef_sha256": "0174bced4d8506a4539128f60afd6915b3d2281067514147615d910d5589663b",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.30998360000012326
+  },
+  {
+    "fold": 30,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16850,
+    "vocabulary_sha256": "2dd2bbadace0a89ade6221bd02b42adab81b5e5990c78a304a3ab51b661a84bc",
+    "coef_sha256": "20a8186b27f8c4b5772561ccf0c478c280c19089fc0606e13d95ed08e243ed0a",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.25271819999943546
+  },
+  {
+    "fold": 31,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21176,
+    "vocabulary_sha256": "5ab61c37e9288e64dca18836cbe381c249e210a0f51b73e8eb888ca959eb0d7a",
+    "coef_sha256": "c5f0fbb915da6acb936c3011eafe21f89353b60c5192e89e7afaece34da624b8",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3158653000009508
+  },
+  {
+    "fold": 31,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16854,
+    "vocabulary_sha256": "38f042ecfc2dd4fc1cb8c37237367b55731fbc16d9ff37d341b026365eeee7e9",
+    "coef_sha256": "47e2b47e8290a65bd37e52c3da007fad8a4a6ad47f2e0d4d8f2e452ac8fb024f",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24981970000044385
+  },
+  {
+    "fold": 32,
+    "condition": "original",
+    "training_documents": 1043,
+    "evaluation_documents": 8,
+    "vocabulary_size": 21093,
+    "vocabulary_sha256": "1b187ed3defed721957bd0aaa90081a9921ebcd66007d6b3458a6bad82ce8dd2",
+    "coef_sha256": "90616381f1f658965797dff2500aca32b9b6b79c54f696ca15923fb9863d8b36",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.2905804000001808
+  },
+  {
+    "fold": 32,
+    "condition": "masked",
+    "training_documents": 1043,
+    "evaluation_documents": 8,
+    "vocabulary_size": 16805,
+    "vocabulary_sha256": "8be8860760de1eafdeda2992f183b334c2c8e5e86088d61234fb7e36b0864a76",
+    "coef_sha256": "56ace62a8982d85020005a0792e4e9641b6f5e0421381087ae78e17511a70ff7",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2450860000008106
+  },
+  {
+    "fold": 33,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21165,
+    "vocabulary_sha256": "9d3d1bd09e90510638dcbf7c2759330f3af771baffb5748c430dc1e586c46b97",
+    "coef_sha256": "337f2a5e98f30ea21b32f2171a5a22c86d97604a557f74a69414bd9116a33036",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.32800179999867396
+  },
+  {
+    "fold": 33,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16851,
+    "vocabulary_sha256": "eb1f4402b6546460d1df5fff85ea337ea01f7fad487ec30d59891c694dd0e258",
+    "coef_sha256": "76887526c83ad1f2a3f210a65408d765b9f056b78bd9a7e32a0c80c1769566f5",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.25721729999895615
+  },
+  {
+    "fold": 34,
+    "condition": "original",
+    "training_documents": 1043,
+    "evaluation_documents": 8,
+    "vocabulary_size": 21062,
+    "vocabulary_sha256": "e1947991a522a2628eec6a5557c19cb53f6f8e92010503ea5ac800c4282a2b58",
+    "coef_sha256": "0865ab8cc1fc4c06165b22bf09b87d256b83b3705ff46398e932aa6bddc5239c",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.29193149999991874
+  },
+  {
+    "fold": 34,
+    "condition": "masked",
+    "training_documents": 1043,
+    "evaluation_documents": 8,
+    "vocabulary_size": 16783,
+    "vocabulary_sha256": "1799851d33b5507a8c82fb948d39a87d795fc4f2b425a7f0504fa27e18dd5b97",
+    "coef_sha256": "e19162cf116f3930c9c77fddde00bb424dcf89b3986ced830b24f0be708a301e",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.27159820000088075
+  },
+  {
+    "fold": 35,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21101,
+    "vocabulary_sha256": "09d9a86b84703d2bf6fc62278c2baa6fbb9a1615d41670081395eb23ea4f899d",
+    "coef_sha256": "4c6f0415e4a01927b55e1e295da08b839c11a64453c9b96cac6279fc9dfde3f8",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.30700549999892246
+  },
+  {
+    "fold": 35,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16789,
+    "vocabulary_sha256": "c10044e656e4e246eff23c08c5edf01cd87a2c6dc8d65cfea5309f6c655dfca5",
+    "coef_sha256": "a430f10c0d14863a410257300d72718ec5ab9504650f368ff89c2277781767c3",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24328539999987697
+  },
+  {
+    "fold": 36,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21126,
+    "vocabulary_sha256": "f535a0bf7e49f294d2990b0eace9a9a5f676400be163e92d0e0821e0aa680acf",
+    "coef_sha256": "cd2ab18d9ab36750af78ab2ae170d18b2d7b1090f214e12551f01441bddca153",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.30900839999958407
+  },
+  {
+    "fold": 36,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16814,
+    "vocabulary_sha256": "ff82dd9c7016bafd960bd2dae95fb1795477eec0f2a6aa3f3addd3842e26bf03",
+    "coef_sha256": "9ff67afbc64ff03be095b7fcd766282749d551acec15023f1fd774f47e9d0472",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24432729999898584
+  },
+  {
+    "fold": 37,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21093,
+    "vocabulary_sha256": "90ef213b7a22d79c0509e96837734438de81f08a35de9ac3f35eee30ea8fad57",
+    "coef_sha256": "1597208ad88a00fe78ffeb4811472a9419e6fc72a635de20faf2a0a00ffb8583",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3010278000001563
+  },
+  {
+    "fold": 37,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16787,
+    "vocabulary_sha256": "185ce1280d47c649b4f7c6de40535f5abc771dbeab586d71e28a8c40af3d1d39",
+    "coef_sha256": "020c44c08a847fee60a24c097e31220dfe9db1ae92b1bd45fd64a88716cf9126",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24500629999965895
+  },
+  {
+    "fold": 38,
+    "condition": "original",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 21114,
+    "vocabulary_sha256": "013705b5a2d1dabcb6c499daf510ca9b195c7e2b266985830c8b4cc4c45d4fa7",
+    "coef_sha256": "aa4ab94f43e0b34f2225d1b58c84aa95e4088ac6307bfba72407c4e2f9ab052a",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3085919000004651
+  },
+  {
+    "fold": 38,
+    "condition": "masked",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 16816,
+    "vocabulary_sha256": "3e99c2790abce4e5f14666c1c35ee2a7ed89fe9dfccbcf75fce91b50f5585858",
+    "coef_sha256": "065c5d080a143f383bd323545fb4d110aa44000519b38c3b7bccd6664ed1a91a",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2431246000014653
+  },
+  {
+    "fold": 39,
+    "condition": "original",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 21136,
+    "vocabulary_sha256": "bfe7df6ccab867bb8eda6a56389e2e07a4d4c5f2f253400bf4f237f8655d4820",
+    "coef_sha256": "1e50850c52c7f82a3605e3b79f6f59635ea4ebe04800e54443833597b9960649",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.301779000001261
+  },
+  {
+    "fold": 39,
+    "condition": "masked",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 16830,
+    "vocabulary_sha256": "5a1ff2ec3dc0eee8a15a12e4f10b488a2a7b1d21c64231738d63f158a56a2de8",
+    "coef_sha256": "b578a64192d20f351ff5fa407974c29c9905c07696ecae27b12ac59aa3843774",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24489840000023833
+  },
+  {
+    "fold": 40,
+    "condition": "original",
+    "training_documents": 1042,
+    "evaluation_documents": 9,
+    "vocabulary_size": 21020,
+    "vocabulary_sha256": "e317dc4f193ebad00c9ffe5129f16721f34aadafe385bfa908ab4a5cdd5f01ed",
+    "coef_sha256": "cde578c98b88a8c2908cd14879e324d1a2dbfd4ac78596ea112cbce6bce2283d",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3037846000006539
+  },
+  {
+    "fold": 40,
+    "condition": "masked",
+    "training_documents": 1042,
+    "evaluation_documents": 9,
+    "vocabulary_size": 16712,
+    "vocabulary_sha256": "0a414c6fbb9243673d19c8f2c078d586dfd1ec0d1a9050c66a5b6654a4bc06a1",
+    "coef_sha256": "a9171aac2441f5361686d12cb3f44220e33809e6b8f4a835e0b7d1dac7315fba",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24250299999948766
+  },
+  {
+    "fold": 41,
+    "condition": "original",
+    "training_documents": 1029,
+    "evaluation_documents": 22,
+    "vocabulary_size": 20782,
+    "vocabulary_sha256": "fd0b856dbbb9fcc2ca96aa61608a443c17eac0219f6cffa8ce3c03d1db45974f",
+    "coef_sha256": "510c5b5b586bf6dd8448f92c2c9d3ca77e0f4eb8e8acf0b5e581edc87adaa4d1",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.2705268999998225
+  },
+  {
+    "fold": 41,
+    "condition": "masked",
+    "training_documents": 1029,
+    "evaluation_documents": 22,
+    "vocabulary_size": 16539,
+    "vocabulary_sha256": "04c51c2eac1ed4c937c1321aff3e609d7939650dbaebbc0a16076e51fe9e00eb",
+    "coef_sha256": "ee072bdceac0231bd14a291ed08e1d540d1377964493c89d9b50afda657497f1",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.23902860000089277
+  },
+  {
+    "fold": 42,
+    "condition": "original",
+    "training_documents": 1005,
+    "evaluation_documents": 46,
+    "vocabulary_size": 21134,
+    "vocabulary_sha256": "b84febd2e08d14e317ae211db0dfe54040b798b44276ff721417799010f9a326",
+    "coef_sha256": "d8dc9ea315b15ec76a9274e5d3b2beba9848ef6a7841c14bbb65ce37741fbf1a",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2887542999997095
+  },
+  {
+    "fold": 42,
+    "condition": "masked",
+    "training_documents": 1005,
+    "evaluation_documents": 46,
+    "vocabulary_size": 16830,
+    "vocabulary_sha256": "f024d857844f82d9cb5142eebea43e4fd0b59973852223488df2cfb807a86237",
+    "coef_sha256": "12ec83a73561e9cd0dbdf3cf0423f28d0de32b5ae6477b5e92e6a4eab64818e7",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2672357000010379
+  },
+  {
+    "fold": 43,
+    "condition": "original",
+    "training_documents": 1041,
+    "evaluation_documents": 10,
+    "vocabulary_size": 20956,
+    "vocabulary_sha256": "7ade10adaa2d42f4539cfe61b7376ca05d5cc451d2d8aeffdefced958b1011cc",
+    "coef_sha256": "988ebd7888aa7a88b67abbeb900017b9bc1631fa1d2677b6a9790e66cafe6a5e",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.30601969999952416
+  },
+  {
+    "fold": 43,
+    "condition": "masked",
+    "training_documents": 1041,
+    "evaluation_documents": 10,
+    "vocabulary_size": 16681,
+    "vocabulary_sha256": "34b2fd5bda062bb7ebf76e11e6a58ebf7bf0636374e4dfb1eb8cb1267d08e4d0",
+    "coef_sha256": "b1a67b713dd0710d4e98047e7858e4a3cb60b96e22d584463b363666c6f4d10a",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2457224000008864
+  },
+  {
+    "fold": 44,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21121,
+    "vocabulary_sha256": "e22db4c5d0bf407d1d3cccf1f0cc79c031c31e4a6f3883555c9b3e88a756b9e3",
+    "coef_sha256": "bdf661567502bf166da9ba80b29a481cf5761f8504af53c5e9a5aecf3b022f67",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.30785850000029313
+  },
+  {
+    "fold": 44,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16812,
+    "vocabulary_sha256": "0c4b9f40725a78af9b0e6af51deba3e968658592da66d803d39a4da2d9b6878b",
+    "coef_sha256": "72438fb154d732945f3984f3ac15e3133daae55c9e9235711799381b527a4b78",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24291049999919778
+  },
+  {
+    "fold": 45,
+    "condition": "original",
+    "training_documents": 1042,
+    "evaluation_documents": 9,
+    "vocabulary_size": 21129,
+    "vocabulary_sha256": "6047eef9ac51555cef27d5fff5af331e75fe279b227fb002c606a4fb6ce9e5b6",
+    "coef_sha256": "c549b33df1dfde991f29bc8a8682116310f74e03b66eae46c01c31848a6ea879",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.2796832000003633
+  },
+  {
+    "fold": 45,
+    "condition": "masked",
+    "training_documents": 1042,
+    "evaluation_documents": 9,
+    "vocabulary_size": 16854,
+    "vocabulary_sha256": "38f042ecfc2dd4fc1cb8c37237367b55731fbc16d9ff37d341b026365eeee7e9",
+    "coef_sha256": "26fd412322b0a71ef08503d505c82154811edb599b8c1f284449aa77f0e20fcd",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2494622000012896
+  },
+  {
+    "fold": 46,
+    "condition": "original",
+    "training_documents": 1042,
+    "evaluation_documents": 9,
+    "vocabulary_size": 21092,
+    "vocabulary_sha256": "79888fe21901a56b117c1587d457e516e5db542381c4c454418562506215718b",
+    "coef_sha256": "2c77b53eaf0088290a3d871c0e6f85bef9aa0dffc2df8c63f843b6f2a9cc7d84",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.2864238000001933
+  },
+  {
+    "fold": 46,
+    "condition": "masked",
+    "training_documents": 1042,
+    "evaluation_documents": 9,
+    "vocabulary_size": 16808,
+    "vocabulary_sha256": "bae503028f2c9f4bbe8c1f977fe10806e099b5067f4dbef699b5a16b2e6bbe36",
+    "coef_sha256": "e8db8d6aad4b64f141c9d54daa1afb24a6376d3532e450b8a6929eaeefce1595",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2537245999992592
+  },
+  {
+    "fold": 47,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21123,
+    "vocabulary_sha256": "ee284e4fbfa731ac83cfa72b4fc9703c3ba1dcca1e3d7496fb2a3f4fff9c1e7c",
+    "coef_sha256": "7c31e03b749bf9c9abce67cf7a95ed2b2b73ab9ea12d616f8549291c6611d30f",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.29445510000005015
+  },
+  {
+    "fold": 47,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16811,
+    "vocabulary_sha256": "0e635214a05d438418f16f0730f61d1ed9932ed6edae5b004eb5e83bbfb919ea",
+    "coef_sha256": "8b2d96ec239dbc2661598844eb609b552abe68eaef8898e238c3db2360ef29b8",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24927480000042124
+  },
+  {
+    "fold": 48,
+    "condition": "original",
+    "training_documents": 1043,
+    "evaluation_documents": 8,
+    "vocabulary_size": 20949,
+    "vocabulary_sha256": "1315dc9e38a8f7975e6a0dc0dd61bf4a006a72451a9a72fd5f1bfd5ecfaecb8d",
+    "coef_sha256": "52a5f9b0964ffc362d5d4d038a979253702549ed13d097f23a55725e67b6c39d",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.28405670000029204
+  },
+  {
+    "fold": 48,
+    "condition": "masked",
+    "training_documents": 1043,
+    "evaluation_documents": 8,
+    "vocabulary_size": 16683,
+    "vocabulary_sha256": "5280ced57f687e4885e8cac27ff0f845d8f1ecd3408a996a00e18fe31e78b5e5",
+    "coef_sha256": "d50c0ccca17194f15482734dace515321b25dab9197d1940238687ad419cc44c",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24964919999911217
+  },
+  {
+    "fold": 49,
+    "condition": "original",
+    "training_documents": 1043,
+    "evaluation_documents": 8,
+    "vocabulary_size": 21071,
+    "vocabulary_sha256": "9f92a4a7c00b5796ed70163a96edeb95c2a05d2d31fc2b5f6840488982ccd2aa",
+    "coef_sha256": "2a99dbaaf05defdf85806fdb561387335473524370e31ea7e9e7edbe9e2786dc",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.3001836000003095
+  },
+  {
+    "fold": 49,
+    "condition": "masked",
+    "training_documents": 1043,
+    "evaluation_documents": 8,
+    "vocabulary_size": 16817,
+    "vocabulary_sha256": "4196ab435feac982349fae95c12ddccbdb4741972cf2fd8a2a963de98083c0f4",
+    "coef_sha256": "18c15b7129baaa44882d125c4b6d130c3ee109538cbd3a79b82a0c4045f64433",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.25513890000001993
+  },
+  {
+    "fold": 50,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21164,
+    "vocabulary_sha256": "89a72494f3a081cdd9f620e600b1987f9586341bd0ebfab931d17fe6cca56914",
+    "coef_sha256": "defb365f590ca42f15c416d390d321057faaa28f35e0657fcf1b13ff14f5adac",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.31227149999904213
+  },
+  {
+    "fold": 50,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16854,
+    "vocabulary_sha256": "38f042ecfc2dd4fc1cb8c37237367b55731fbc16d9ff37d341b026365eeee7e9",
+    "coef_sha256": "765e4d734a12aef685ec2f09751bb2fd502efcb0676dec058cbeab6c8eee6113",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2447081000009348
+  },
+  {
+    "fold": 51,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21074,
+    "vocabulary_sha256": "f31536b08dc9aed6e12dfc31ba187fc6b7ad9975bb8661fdbc5b59700deb8d70",
+    "coef_sha256": "d80547878a9af7ede5fcb1d9cf183702e96cb6aedbb767b7871b54dd92c077ac",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3020450999993045
+  },
+  {
+    "fold": 51,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16760,
+    "vocabulary_sha256": "71b7c5cf04f6f2e58a46e3965be75cac0095b5d00e46a7f6d30ac01a6ed809f0",
+    "coef_sha256": "e10356e72c66c6de7e67d908994b35186af66f85ac10c135a38db0a7b71c46f2",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2445110000007844
+  },
+  {
+    "fold": 52,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21152,
+    "vocabulary_sha256": "fcda170b8d9ae52a32277a8697fbcade24242e57bd62bc2b42f040f91807584b",
+    "coef_sha256": "3780868c77ac751ae421397a47a4f1f5c53d78ccdba89ea773346180628b0b5f",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2981197000008251
+  },
+  {
+    "fold": 52,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16840,
+    "vocabulary_sha256": "e0a937e312833e9e199fd14915da0282e08d1a9aee5350bd39041c2679800ab4",
+    "coef_sha256": "a2794c6d2d23f038e1649cfcdadf7ae9eb625dd8e7ab13e7d3e50c0fa3192674",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24437650000072608
+  },
+  {
+    "fold": 53,
+    "condition": "original",
+    "training_documents": 1006,
+    "evaluation_documents": 45,
+    "vocabulary_size": 21003,
+    "vocabulary_sha256": "52d0d5316aa0d83c399fe08ce5e1616129b61452cac713b992ee832db45cd4a0",
+    "coef_sha256": "2e45207435069bb3d5ad7dcff4b93bd654784e82c10b4180cc76af6900c1e25b",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.2768689999993512
+  },
+  {
+    "fold": 53,
+    "condition": "masked",
+    "training_documents": 1006,
+    "evaluation_documents": 45,
+    "vocabulary_size": 16763,
+    "vocabulary_sha256": "c172b7bb82cd81a449c4b4ca13fef6692cff45c209865a5755f736b7b9edcfb2",
+    "coef_sha256": "19f032af9859abee535896d247d65524fa674d7f3dda2e95ec7ded5551ee58fc",
+    "iterations": [
+      25
+    ],
+    "seconds": 0.273687400000199
+  },
+  {
+    "fold": 54,
+    "condition": "original",
+    "training_documents": 1045,
+    "evaluation_documents": 6,
+    "vocabulary_size": 20850,
+    "vocabulary_sha256": "eb0a8a28e8e4e9d39fe9c9ddbe25565fd4d1fa7ca2ab4c97ece4fcd4b854c84d",
+    "coef_sha256": "7ad3ea7d5f5b6b2cf8c6fc1f9eebba094b9aedd566de898f9ca96dcb97108b19",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.28599600000052305
+  },
+  {
+    "fold": 54,
+    "condition": "masked",
+    "training_documents": 1045,
+    "evaluation_documents": 6,
+    "vocabulary_size": 16589,
+    "vocabulary_sha256": "22e31bc54f23e265a20ba1a2b40dbfa0b67976ec94bd13f279cf1a2648f3ba27",
+    "coef_sha256": "1b32e5e035c593acd9b8200a78f58b9a3bf62f6b8da2814fca431f92396f1760",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26226929999938875
+  },
+  {
+    "fold": 55,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21151,
+    "vocabulary_sha256": "eccfb5edf3da182dd698423bcbaaf12f42dd72dd1010c1a8508ace413acca626",
+    "coef_sha256": "b23da7e98f2168a0c941c68379b655993e8ad347fd3e521fdf26f0edd4ab9d01",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29418900000018766
+  },
+  {
+    "fold": 55,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16843,
+    "vocabulary_sha256": "cd1d3de98c7d0becae8100fc78d9a07578b91178b12376f03df812505ac67352",
+    "coef_sha256": "cc14268f0008d9d082e4348c5db156ccf4b2113fc0bc35880c9500c75a1803fc",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24436559999958263
+  },
+  {
+    "fold": 56,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21137,
+    "vocabulary_sha256": "a089c57a4a81c336cce7058bcc5ae219a2851fd482bdc7433659da78603ae7b8",
+    "coef_sha256": "b479975e4c1d2d97b95d6de363c913214e6fcb3576e2d34aacc95a265d0b4eb0",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.29741219999959867
+  },
+  {
+    "fold": 56,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16834,
+    "vocabulary_sha256": "ab084314c0e20ace3af42ac57ac73f397874d7652054e04bbb93c19c799d4989",
+    "coef_sha256": "4b4eb8a22080c627caefd8324882fa6213bffb0bfdf71b898fcd4e1b814bebb6",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2641297999998642
+  },
+  {
+    "fold": 57,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21164,
+    "vocabulary_sha256": "b083e2365060d01ccec7465b1045c42fb25d314bd09026c992ef6ee70ceb0469",
+    "coef_sha256": "1d80a80cce76763de81af22e1a1443ee7a16eb74b2dd0a8e0fda4d76e9b64cb6",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.30112689999987197
+  },
+  {
+    "fold": 57,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16852,
+    "vocabulary_sha256": "5f75c41d1d421f69b59d71ebd846d5fb40cd61601fca77f909769a17225cce84",
+    "coef_sha256": "64f4459cc5e388376af96aae2898f26d8647df0b9b7a90fe4bb0e598195ed262",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24952590000066266
+  },
+  {
+    "fold": 58,
+    "condition": "original",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 21142,
+    "vocabulary_sha256": "cee85aa213815517f3bd5d83cd47b7d29ff1ac24dfa430311be4bcfb28e6cf6c",
+    "coef_sha256": "5333226a69fca26b0c3df41351d1668e78a821a9d9f22189c9719fd28d407d2f",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.3006194999998115
+  },
+  {
+    "fold": 58,
+    "condition": "masked",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 16844,
+    "vocabulary_sha256": "2833fe2d7e47f6f4f5090e02321eb2c7c61102243c10b4651243ee7537998172",
+    "coef_sha256": "0574c485f6f425754a4cafff56e441dd7def2023d1f5ac7a01587eadef0ca001",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2552116999995633
+  },
+  {
+    "fold": 59,
+    "condition": "original",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 21092,
+    "vocabulary_sha256": "03796456d68ba097887acc139f93e41c6771b975d32865cafda682a601652c2a",
+    "coef_sha256": "4d927c4b263be189a53662876beec3e90caf54508d8c8dd88d08bbf53a043760",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.3019304999997985
+  },
+  {
+    "fold": 59,
+    "condition": "masked",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 16786,
+    "vocabulary_sha256": "1ba7450c17e85b9fb45fa02196efe4ee1f580d8dc0cb7ae283aa29d468a684ed",
+    "coef_sha256": "f68ef2e7e24a260596cdb0b3e36523025f8bc380b0ca445f88bc5c48eb1f6dcd",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2519505999989633
+  },
+  {
+    "fold": 60,
+    "condition": "original",
+    "training_documents": 1039,
+    "evaluation_documents": 12,
+    "vocabulary_size": 21011,
+    "vocabulary_sha256": "5c290e1b4c81b9b331ec0cfb5a9f94f52d6adc5ebdc81bb9f83bf86e30eec870",
+    "coef_sha256": "bc657405e0f3dfea277b3ec6121744f456df794143bb6cbc3fcace11e8dcd2ab",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.30539219999991474
+  },
+  {
+    "fold": 60,
+    "condition": "masked",
+    "training_documents": 1039,
+    "evaluation_documents": 12,
+    "vocabulary_size": 16738,
+    "vocabulary_sha256": "7e2b78687d0b47f2f6c2bed9232d1f75f9268d27400c57fd22e99117ba3ac1dd",
+    "coef_sha256": "895c3decd4a49d3770c9dd45d131dd1a5ac2451d2752f705628afc7deac7977d",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2701216999994358
+  },
+  {
+    "fold": 61,
+    "condition": "original",
+    "training_documents": 1028,
+    "evaluation_documents": 23,
+    "vocabulary_size": 20947,
+    "vocabulary_sha256": "5e05248e0459ab11df4e85613f3bed61eb7d4b8a02dc925030a3cdfb7ffd2f1c",
+    "coef_sha256": "9b6dcb0e08defe15c948b0d317e1e5db997e5a7c1580e00ddf106bfe4e6b8e07",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.30784569999923406
+  },
+  {
+    "fold": 61,
+    "condition": "masked",
+    "training_documents": 1028,
+    "evaluation_documents": 23,
+    "vocabulary_size": 16745,
+    "vocabulary_sha256": "399c5325efc5d947ff79ef3b0a52396933e30ec30e131f2371e22fbe9a5fa335",
+    "coef_sha256": "6f658cadf4998e5303842bfd01aa7ca28c2a51f049d1f0c060a7f98f118f3895",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.25287480000042706
+  },
+  {
+    "fold": 62,
+    "condition": "original",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 21121,
+    "vocabulary_sha256": "09bb6703234788b72d3b38fb563273bc15ab242bae40649f705a869be5487abf",
+    "coef_sha256": "c310d85dc6e1acc75df1a2d815585fc12d9566aeb3c8f0fe657bce8cddaf97a7",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.2980731999996351
+  },
+  {
+    "fold": 62,
+    "condition": "masked",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 16819,
+    "vocabulary_sha256": "f7503514bacda14e27cdc5d273de6a8a277602dbb35b4ab720c1ac3691ec3a9b",
+    "coef_sha256": "bf4ff2ebb449c897a774c2deff911231fefdf7255dc53af92e4f98c1488e5355",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2527453000002424
+  },
+  {
+    "fold": 63,
+    "condition": "original",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 21100,
+    "vocabulary_sha256": "98fa43903c9e53aa240705b6206129f17e763b6c00097a143a3dd548f0687920",
+    "coef_sha256": "e862d90b16cb75245eedb41cb12d7e0ca1b9e71c10895e7ae2000b50ae21e8b2",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.31113379999987956
+  },
+  {
+    "fold": 63,
+    "condition": "masked",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 16805,
+    "vocabulary_sha256": "fca54e5d36dcca3bb64eec8b5808533ab870af58c1b05cc34ebf0e680887b450",
+    "coef_sha256": "60b28e9b63f7ae30d21f89aab2806ddbc6536de5a9142ec45ac4d3b510ac5801",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.25353630000063276
+  },
+  {
+    "fold": 64,
+    "condition": "original",
+    "training_documents": 1039,
+    "evaluation_documents": 12,
+    "vocabulary_size": 21036,
+    "vocabulary_sha256": "69746d137a3856b3c833e8112b6c6383a6fc03dbee2b8b8c15268912d7c879ec",
+    "coef_sha256": "8d19c27ab28631cfb90e81b499692385a47208c35679c44bfdfb75c93a2f21e9",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.29520269999920856
+  },
+  {
+    "fold": 64,
+    "condition": "masked",
+    "training_documents": 1039,
+    "evaluation_documents": 12,
+    "vocabulary_size": 16769,
+    "vocabulary_sha256": "14cf19a718fd1e8ea985dc5ef15af3a22d783dff996d738ce536ac514d169798",
+    "coef_sha256": "ef5d8dc86cd1e80ec0d81f7d1745d6ac7afbdd9854b4893c44c198f2fb0010af",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24842830000125105
+  },
+  {
+    "fold": 65,
+    "condition": "original",
+    "training_documents": 1046,
+    "evaluation_documents": 5,
+    "vocabulary_size": 21044,
+    "vocabulary_sha256": "0e0d71ee076bd460056c2adb8ee4d72f50edfc5a179865b826a976309c519500",
+    "coef_sha256": "816264c07b6120d76d33cc945b07e70448709e3e6daaf1507672db8dbecbea3c",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.3042535000004136
+  },
+  {
+    "fold": 65,
+    "condition": "masked",
+    "training_documents": 1046,
+    "evaluation_documents": 5,
+    "vocabulary_size": 16752,
+    "vocabulary_sha256": "a197e6390c373050e8f9a3f69985f83287a1ea4e2265f58ad1cde684c3d222cf",
+    "coef_sha256": "d84dd62a1109df81de4e24642b8287bd646670c105c35602ad4cdb00e6f5e7ba",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24457860000075016
+  },
+  {
+    "fold": 66,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21158,
+    "vocabulary_sha256": "f386e4fa85c751d59c140fa6183101837beb5fbe786fb01def8f45da1f87feb9",
+    "coef_sha256": "094615a5eead3fc8e2f1873acb8f81a469670c99c6e4f8000cde40e34ea27383",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.30689779999920574
+  },
+  {
+    "fold": 66,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16845,
+    "vocabulary_sha256": "890d00b405fa1363e6f012fb97ff0a9e3d806094be46227216d05c2e67d94d7e",
+    "coef_sha256": "cd0c93876432b9020acf69600b155d00e6a153aab6b84862f86383b868ddbf0f",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24123260000123992
+  },
+  {
+    "fold": 67,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21164,
+    "vocabulary_sha256": "4da7269c5d4852cb99f19d91ab115ccf05da90c947bd9be4991cc7fe0404c08f",
+    "coef_sha256": "f9d5bfcf4e7abace79d8d16fa30f9676216513e3dc03cf4f878ef81e506d61a3",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2997950999997556
+  },
+  {
+    "fold": 67,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16852,
+    "vocabulary_sha256": "00411dea4b8aebe728dd82dd1d7003e0cc7c999ace5c1c1f6e84316df531c032",
+    "coef_sha256": "6880e3358ba3dc9e5b8189f08d1719608a8c9e4de7b73d344d5080486b0f3790",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24513979999937874
+  },
+  {
+    "fold": 68,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21158,
+    "vocabulary_sha256": "f329ad334ec89d9371ead17adb5db5f02a0e8e0f52d771f1a66509f5dfb848e3",
+    "coef_sha256": "97e9c67edc16d1532bcf237157268fa68dd356870f3617b977cf8149333f5b9a",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.3026262000003044
+  },
+  {
+    "fold": 68,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16845,
+    "vocabulary_sha256": "0bf4e53783cb073f999e531745f82894d6bbc57505750020bca4ed0ecddcd71d",
+    "coef_sha256": "bb56cf88842dd67d0903ed62414f7eb860fe981ab1cd5ee527184d36b8b912ef",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24373329999980342
+  },
+  {
+    "fold": 69,
+    "condition": "original",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 21132,
+    "vocabulary_sha256": "5a473620f457549a6b359d98ea223ae879510d3b598863af0b72fc7bf20110d7",
+    "coef_sha256": "8cb637c85bc33c589dbbc95d15e971e3ceeacb027aa5d53565eec6a17bf15065",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.2829985000007582
+  },
+  {
+    "fold": 69,
+    "condition": "masked",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 16831,
+    "vocabulary_sha256": "65748496ab0d9e41d35decd5792593633e2021e60755ace6253ea6aee53e0f0a",
+    "coef_sha256": "844b5729e70182cd49b1bd85ee5c3be110e73563e3455efda57a3c0646895b20",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24427680000007967
+  },
+  {
+    "fold": 70,
+    "condition": "original",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 21144,
+    "vocabulary_sha256": "30c91243fe6a6f8cc17468fd04289f8f3f93998cd01d9465352b5242ac1ca0db",
+    "coef_sha256": "7f11db36ccad746a931d0ac85aa3ee37e2daef3c3d3ef9fa54f94045f93a0bbd",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2931131000004825
+  },
+  {
+    "fold": 70,
+    "condition": "masked",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 16851,
+    "vocabulary_sha256": "4ce04ef27664b84aaa1923404604a772336e1b11cff0522cf3fbe764d3537c45",
+    "coef_sha256": "83d46feaf1c583cf2e68e5ae397fed8b6d9ee860a18e1fae356d98dcdb10aa6a",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2418878999997105
+  },
+  {
+    "fold": 71,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21150,
+    "vocabulary_sha256": "ddf2ee1d7e9462b62e4cd346fab30153ba2fc40b720ed16f6f0d44e9cfa28dd0",
+    "coef_sha256": "8f88962faf2614589fec11d5da46af97713a537fd02f7ce2f160d68a2bcfc0d8",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3000739999988582
+  },
+  {
+    "fold": 71,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16839,
+    "vocabulary_sha256": "3412fecf8d65471ef3b93ac03959af6c5d2dc61bd44e584eba785b3569c93cd5",
+    "coef_sha256": "a7896796656a8b493cd5fad00428dc553d15809314e3186c5e4c1e889f99059d",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24408720000064932
+  },
+  {
+    "fold": 72,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21148,
+    "vocabulary_sha256": "b8cd4ae8b41f65b58751387b5d74e7f93a03494f17327ce8257e406805476588",
+    "coef_sha256": "d9c329f6f3cab7ebd194f9bbda545b6ec1f51b937f157a067e65c5272960d328",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3058132000005571
+  },
+  {
+    "fold": 72,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16840,
+    "vocabulary_sha256": "bcb0ac8944e8ec574fdfe33a59d2041867f014412d93f21d20bf6e9086efc8dd",
+    "coef_sha256": "c720c397a352728c87786df54cc66e7ecacfcdbef01ae78ef8c231f263ce86b5",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24500890000126674
+  },
+  {
+    "fold": 73,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21156,
+    "vocabulary_sha256": "d10d3285269bbe169aef13e3197b6968ae2ea2724a1fff72b8f2ff22b11b2164",
+    "coef_sha256": "da76a9ef559ab362216a92353bd65c1be23fbebfb1d405e6c52b66c5091203db",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.30015260000072885
+  },
+  {
+    "fold": 73,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16845,
+    "vocabulary_sha256": "2ba8e67804740f5d9b4bf3b184fe609291559e820bea0adf3929b1e1e2808263",
+    "coef_sha256": "d9d0b4d7488ed839c7156f95bb26a3ab042f1fa8d87a8fb2dd3c87cd0fcbd32b",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2498902999996062
+  },
+  {
+    "fold": 74,
+    "condition": "original",
+    "training_documents": 1005,
+    "evaluation_documents": 46,
+    "vocabulary_size": 21085,
+    "vocabulary_sha256": "2d94a142653b979dff8fb3f2051c746f591356949128dda45ea3a54379dd188c",
+    "coef_sha256": "debc8d98396ec2d99462aa75e8d55fee59ee0f828354368b7f9f5a7381dc0336",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.30196350000005623
+  },
+  {
+    "fold": 74,
+    "condition": "masked",
+    "training_documents": 1005,
+    "evaluation_documents": 46,
+    "vocabulary_size": 16791,
+    "vocabulary_sha256": "c7e70ec4e42ab41144c976a5d5047ef6c27bb2b168b71e66332acc3fc687679c",
+    "coef_sha256": "9869b6805f63a112a4fd126f534c10abcfadd443d34ab5169e1a51f13d71f68e",
+    "iterations": [
+      25
+    ],
+    "seconds": 0.2746417999987898
+  },
+  {
+    "fold": 75,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21147,
+    "vocabulary_sha256": "0285eb6557b692944593af2b140af55f8e38b3da3cced7b82e7d3339d531b240",
+    "coef_sha256": "746788d57eccb6f6247dbb1ca8a2639558a280bbe683fb198d61c60d1175b7e2",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.27410500000041793
+  },
+  {
+    "fold": 75,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16837,
+    "vocabulary_sha256": "70f69e7bcc69480176fed8de174ead69f05c264deeffb58e704911bc0eb0c3e5",
+    "coef_sha256": "97cfc032f4977d03586417c932dae79905155531939e87b360beea621ee5765e",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24985819999892556
+  },
+  {
+    "fold": 76,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21163,
+    "vocabulary_sha256": "e562d3ff2b0bff55f8ae131ba1366b1b1343f70fa6963119da5bf880e1bd5a8a",
+    "coef_sha256": "fbe51c6e2d91ec52fea67e30d6dd9380c50e875d6ed9997d10480293e6a82501",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.3051924000010331
+  },
+  {
+    "fold": 76,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16852,
+    "vocabulary_sha256": "22fc6b86bd4b3113ddf14cc4e0260d8e4e1e617d0c78ad1ff47cb74ac43d80c7",
+    "coef_sha256": "abe2d57e43c399d9a74ffc7d62d024329099076a4fc617365ef4c0582e25024b",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.25286179999966407
+  },
+  {
+    "fold": 77,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21154,
+    "vocabulary_sha256": "f3e0f29be17b9a6928fdc2f6a4ccc3a6522c57cc455ac825cb47fe8c77d86bdc",
+    "coef_sha256": "ef204bdce1e29690bb3032c29e35cfcb1483058b92aeafcf7f17d49c1ebf2b8e",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.32634760000109964
+  },
+  {
+    "fold": 77,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16844,
+    "vocabulary_sha256": "ef11d8e4dcffd9c50d88e2283e2d940c18c8bc1a4bfa8e99befed5f037c2d5fb",
+    "coef_sha256": "ded46f3e9b35918d155b234016b621b7f6ee916f889d09a16dfebb1988a86b71",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2548837000013009
+  },
+  {
+    "fold": 78,
+    "condition": "original",
+    "training_documents": 1000,
+    "evaluation_documents": 51,
+    "vocabulary_size": 20263,
+    "vocabulary_sha256": "943141ed05450e015754b51bd1fd27954469685d24cc85cdbbc2ab7ebc81f4e2",
+    "coef_sha256": "9ff932de4a749afce74e415ecaa6a4e427ac5391892fdd0a3b7d1dc46475d9b6",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.29236820000005537
+  },
+  {
+    "fold": 78,
+    "condition": "masked",
+    "training_documents": 1000,
+    "evaluation_documents": 51,
+    "vocabulary_size": 15958,
+    "vocabulary_sha256": "ec9286ac5a4bfc7b2f3cec760e1f4b9fd56ffca7276cb610f5b2ecf6fea8ed13",
+    "coef_sha256": "69bf998331d4dd36032c140136845e2b069476ffe4e1ee0383b00f89552640d4",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24695149999934074
+  },
+  {
+    "fold": 79,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21062,
+    "vocabulary_sha256": "44d155cd42cd331815f2fd9d6fd24fc96514753a4b6670dcfd59b4185e7aeade",
+    "coef_sha256": "9cb1dcac414fe30311bba719627222c7815e01230bac4a056ffd43cc9a8ebe9b",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.32043419999899925
+  },
+  {
+    "fold": 79,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16750,
+    "vocabulary_sha256": "6683e961a03ab528d9310200145edd13f802f563e4f384d5cf1349b03041baf3",
+    "coef_sha256": "562ec36be1e7fcf45f4bfe8db356566ba5ff9b7a5ea1f758b2bb8422a4f8786a",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24895360000118671
+  },
+  {
+    "fold": 80,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21154,
+    "vocabulary_sha256": "8cc1555d93d969724b136e09487f0e1d038ded594b6bc98626d1956d912d12da",
+    "coef_sha256": "51268cca6c869a9852c6a057c110eaff4086df7deab21aa499777def6d6030ae",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.2969548000000941
+  },
+  {
+    "fold": 80,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16844,
+    "vocabulary_sha256": "2532c74d8036f662c99cf8a2bd35a6beb594a0851b08613cf80c8db626f7b390",
+    "coef_sha256": "e9efb4782a1bae2e5e2223bf94c3850fa4c06f89d91b41f2287bb8d508033ab6",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24356900000020687
+  },
+  {
+    "fold": 81,
+    "condition": "original",
+    "training_documents": 1046,
+    "evaluation_documents": 5,
+    "vocabulary_size": 21123,
+    "vocabulary_sha256": "0f2bbfa354c8a4c3404e9ed7c44276f3d4e2a468972e6d880d3e6933c43bfa21",
+    "coef_sha256": "911ab710ab888f252a30975f4389c66c212b37cb573d4cd4b88afad53ce2c10c",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.2937271000009787
+  },
+  {
+    "fold": 81,
+    "condition": "masked",
+    "training_documents": 1046,
+    "evaluation_documents": 5,
+    "vocabulary_size": 16833,
+    "vocabulary_sha256": "8c1526a9345e378313ff656b7426f459a047e1bf4379c4714426a3972df331ef",
+    "coef_sha256": "7b6ea8afeb72c62eeb1cd083e46e6b967a7349c1bf2dc6a6d409a4a8d7a33d37",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2435499000002892
+  },
+  {
+    "fold": 82,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21158,
+    "vocabulary_sha256": "59df51cb6d8ddb1d46696990f8695e6d65d2fc9937512f7615536d18344f547d",
+    "coef_sha256": "f6d85b76cebdbc802fc105ed8612958a12c2a97926f7f79c3722a2ebf70e3918",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.293436500000098
+  },
+  {
+    "fold": 82,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16849,
+    "vocabulary_sha256": "27c177ec36826cbd98b22b8a24773e2d27188070c90d4271fb6460c497a026b5",
+    "coef_sha256": "4604ffb667db72297c9f73981f7ab1dec19482ade03b1b5ddec752aa599a8b7a",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.23748429999977816
+  },
+  {
+    "fold": 83,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21133,
+    "vocabulary_sha256": "4b05ab230ea9de1dfa4b37b06cfdb78f8a5e6b5cc8494f0da506a7d84961612e",
+    "coef_sha256": "db080a37e3f7973f24589e90881ff51e45fdb2e63bc69c0585c6010a15c2360e",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.2820614000011119
+  },
+  {
+    "fold": 83,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16831,
+    "vocabulary_sha256": "9a1456957e41a0e82f5298db0d42fcb9f7441205e6e585f1c320ea32fff6bb67",
+    "coef_sha256": "03a853775481d7e058222ae069c6aa1b84ad1d9166d5109a88cb590172035fe5",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24008219999996072
+  },
+  {
+    "fold": 84,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21164,
+    "vocabulary_sha256": "9e38dcd6ae70319d9c1b58862e9545af84558b6a6fcb9639328fde233c950d5a",
+    "coef_sha256": "3b5598f8c5b304d32bdb8d68acd9f1be153997f09d54008af9a31ba4dbd2f9b5",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.29561959999955434
+  },
+  {
+    "fold": 84,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16853,
+    "vocabulary_sha256": "703f9d54c916b06e48492e91802c8adc66ec202a84a29836f177411a102b6b1b",
+    "coef_sha256": "6d136c03d519d67655fe424ea80f2055ec249fb89c56d9837aec768e7872487a",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.23963720000028843
+  },
+  {
+    "fold": 85,
+    "condition": "original",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 21137,
+    "vocabulary_sha256": "77509764195a2ce9b2833b6b6acf360407f371450f55741c9133dcc6b86b96b5",
+    "coef_sha256": "47d3a57069ff4d640dd21b529e5bfc605b6231b28346e4ef39e474cf12bdcc8b",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2874229999997624
+  },
+  {
+    "fold": 85,
+    "condition": "masked",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 16836,
+    "vocabulary_sha256": "929b7e15f9fe771276ed40781084a3d4f93d7dbd55d42420e1efa9d210fecd0a",
+    "coef_sha256": "6243e21f8ad15f093d694bba516b2c643c3d9d9d145903795af877f06899e899",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24063329999989946
+  },
+  {
+    "fold": 86,
+    "condition": "original",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 21075,
+    "vocabulary_sha256": "0ee6a5e0234190267d3d92bc6611797221de532fc0af668a0b14e923742f26d5",
+    "coef_sha256": "fbe2484edc164b9131359b91c31b34949dcde433b2127639e09b1295bf743778",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.30374920000031125
+  },
+  {
+    "fold": 86,
+    "condition": "masked",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 16779,
+    "vocabulary_sha256": "e6ae492480c56821c8d860f8f88cebcc28e01a9020c0704326093e4253754c3a",
+    "coef_sha256": "e8b03ee70ffe6b7f009b6d0ac2120bb80c7033be2173b9aafff54ebff8f4d75b",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24019769999904383
+  },
+  {
+    "fold": 87,
+    "condition": "original",
+    "training_documents": 1043,
+    "evaluation_documents": 8,
+    "vocabulary_size": 21055,
+    "vocabulary_sha256": "19f5bd942f56cdbcf2085e756d4b12af2b3139f9f18317daf167deed18f77039",
+    "coef_sha256": "ff6154cdba8cfed20f1ef2502f0c279d7ca1087c1005e8df13985cf40176711a",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.2848895999995875
+  },
+  {
+    "fold": 87,
+    "condition": "masked",
+    "training_documents": 1043,
+    "evaluation_documents": 8,
+    "vocabulary_size": 16790,
+    "vocabulary_sha256": "c107fc4d697890efe8aa163c9d2360a4aae824df0a451283d05e4faaecea585e",
+    "coef_sha256": "fdefdef9141fa5c766db6fcf430409ea166017371068421831bf9f8ec1af865d",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.26094379999995
+  },
+  {
+    "fold": 88,
+    "condition": "original",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 21065,
+    "vocabulary_sha256": "3e729f0c3187a1c419099afd2b6ebc406230e13706e6a657c7c5a9f9196d46ce",
+    "coef_sha256": "01836ca7757daa4f35057b028b79098528396bf37c6acefa04f5bebfb758ea94",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.28314180000052147
+  },
+  {
+    "fold": 88,
+    "condition": "masked",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 16762,
+    "vocabulary_sha256": "f87590bbe48b5345d352c7d785f88d6b5eb38af19bf2341eba51bcdc33f3dc80",
+    "coef_sha256": "e82d39dd57b57b0f43e4bb424e1847dfd7a609e3e0f28b4d973964da21e2726c",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2405388999995921
+  },
+  {
+    "fold": 89,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21163,
+    "vocabulary_sha256": "2cf9937353955b0b585717d8ba6340343e75f38eca90c5d9d06f5e7c1efbc2de",
+    "coef_sha256": "aff3d68e21e5ed2094f919faac8643a4c0f2a6b6f71e508bf2b20b3a039be1c6",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.31501810000008845
+  },
+  {
+    "fold": 89,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16851,
+    "vocabulary_sha256": "87bfff9c4de9935020415a70e36cdc52d1192cc0a238aaea1104db129b74eb4d",
+    "coef_sha256": "7bd1e4e00e470dadfd7e9bd6bdc6fd42b207af504729c1d97ad56d0e75de63b3",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24239260000103968
+  },
+  {
+    "fold": 90,
+    "condition": "original",
+    "training_documents": 1042,
+    "evaluation_documents": 9,
+    "vocabulary_size": 21000,
+    "vocabulary_sha256": "15bfc479802801d0db22f625c94dab4936daff7179cd91a1d8a94a94f7f94605",
+    "coef_sha256": "a9d9818040f17fae8329ca280782b8bd14d7ff9b9b4e6d694cc275c1dba9679c",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.304874600000403
+  },
+  {
+    "fold": 90,
+    "condition": "masked",
+    "training_documents": 1042,
+    "evaluation_documents": 9,
+    "vocabulary_size": 16734,
+    "vocabulary_sha256": "ec69bb05ab9c5b4adc9f3a446fdd6afaeceb00c4be5293caa344b354c90b1519",
+    "coef_sha256": "040c5ca780a80ba7716403fc195a57f0216d5489607e84abaa777b6d0b263ff7",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.26977219999935187
+  },
+  {
+    "fold": 91,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 20281,
+    "vocabulary_sha256": "e644bf0a5aa069d806000a89ecc98a79ec8bc9106b706520bf24ad67152bacae",
+    "coef_sha256": "c4bab7d35a4bc4e21062d4985bc946fabdd0cbe867b7a8a7deb99280316f29e4",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.29882759999964037
+  },
+  {
+    "fold": 91,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 15978,
+    "vocabulary_sha256": "6ed1322efdd2ac17a00a8ec20bb200d4d74542d295dbe94da6b47e3a5debd9ec",
+    "coef_sha256": "0002c0135af0954fd1391324c2f6b0e1bd0e3640e752dc061110d02254e6b12a",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.23297490000004473
+  },
+  {
+    "fold": 92,
+    "condition": "original",
+    "training_documents": 1001,
+    "evaluation_documents": 50,
+    "vocabulary_size": 20546,
+    "vocabulary_sha256": "c644453085f5fe10afbe99c629c38cd69185e108fa5557f83fb1c46ce85e61b2",
+    "coef_sha256": "92b8f74e5ceb16f246e0db1798989cc4a815f91fde533bd88e66ff8bfeed3ff7",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.30145919999995385
+  },
+  {
+    "fold": 92,
+    "condition": "masked",
+    "training_documents": 1001,
+    "evaluation_documents": 50,
+    "vocabulary_size": 16477,
+    "vocabulary_sha256": "95ab6d553fc6ae3be521346d5662595172644f94de0f97ae5c637ea387ea6f89",
+    "coef_sha256": "21a8930545b8cf3bc39bafae54a59daa4c3750b8cb99ad055ac0535286d67a37",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24314029999914055
+  },
+  {
+    "fold": 93,
+    "condition": "original",
+    "training_documents": 1039,
+    "evaluation_documents": 12,
+    "vocabulary_size": 21046,
+    "vocabulary_sha256": "39f622d925cb34ac2d26db5c1afd41171e4116bd8c663bd791afec0579b5aee3",
+    "coef_sha256": "159455a8f37561bd5693d725120e6eb238a47573661c33ac4030f8cdb208371f",
+    "iterations": [
+      16
+    ],
+    "seconds": 0.2760682000007364
+  },
+  {
+    "fold": 93,
+    "condition": "masked",
+    "training_documents": 1039,
+    "evaluation_documents": 12,
+    "vocabulary_size": 16772,
+    "vocabulary_sha256": "c34abbc563fe249efaa58bc547739a37019949fabf9e846aaf06f846b270eeb3",
+    "coef_sha256": "38f71a209dc2be7211af28b7f63f989ae4d33775a23a974910c6146127696e2d",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24959190000117815
+  },
+  {
+    "fold": 94,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21063,
+    "vocabulary_sha256": "49a058cf372790b7a64ea0decac4786f577238354d468243e7280dd927a58041",
+    "coef_sha256": "9b3d35e927e12650f3b27eedba5098ae1441ba08599666021ad01047eb63cb0f",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.3122133999986545
+  },
+  {
+    "fold": 94,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16743,
+    "vocabulary_sha256": "6361922baeb56a03dc6cf4ef92fb6c3e699bb96ef0d5c7128d5d42f4bbdedefd",
+    "coef_sha256": "aa61a996346451a34b83a539b74d035f1bb02ceb264213f6c8ba93cd67d4ca74",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2525773000015761
+  },
+  {
+    "fold": 95,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21156,
+    "vocabulary_sha256": "8ff1ce4888acb4b019053763c7979664d560d989fe4243f17f37acf20cb977cc",
+    "coef_sha256": "9e589bb5b922752cf20fe80d49126f2b16815994e4af3b6929053f56933a3be6",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29739470000095025
+  },
+  {
+    "fold": 95,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16846,
+    "vocabulary_sha256": "846e717d39f7b326669ee6afd875c9ca8f4b8d5180266c31a903d37f66e9e877",
+    "coef_sha256": "930bc984791d5eb5fc95ad030c54a89857046f85402a4237b0d26750e90946cf",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24700290000146197
+  },
+  {
+    "fold": 96,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21160,
+    "vocabulary_sha256": "1b2b4c332d0e19e5eb214a006f17dda1c97a6832ccce2c386b278c3f6c22ec2d",
+    "coef_sha256": "5c68bd1ab6ab8cb8bb72306e0b2cb584d2e79f9dc03547aa42257c2bdb7d29aa",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3059036000013293
+  },
+  {
+    "fold": 96,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16850,
+    "vocabulary_sha256": "80af0e57be4e814f7863b2b76df540447e9c82643d452387dec6b41411a3d725",
+    "coef_sha256": "97be1765adf36cff963fb7270ae0c4e75a30d515109fcddc5438d79eecd50376",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2418945999997959
+  },
+  {
+    "fold": 97,
+    "condition": "original",
+    "training_documents": 1040,
+    "evaluation_documents": 11,
+    "vocabulary_size": 20193,
+    "vocabulary_sha256": "0e0ee5d7d331f7c290e7720d7329a9459a69dcdfa8fa768b797a112f95b473ef",
+    "coef_sha256": "20756ae63e3ce8029ab49c38fef9cba455e9506e36bfd8e4cb889d529b8015f4",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.2883267999986856
+  },
+  {
+    "fold": 97,
+    "condition": "masked",
+    "training_documents": 1040,
+    "evaluation_documents": 11,
+    "vocabulary_size": 15927,
+    "vocabulary_sha256": "5024a6b2f8d74853c76c88d9a2b3c502f302bb88cd543e0a4d5255a62004c5d5",
+    "coef_sha256": "2ccc475b8d1936dbcb6c5c29413afaff7b0f67cf97b4633f02e7aad681a99a7e",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2319348999990325
+  },
+  {
+    "fold": 98,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21103,
+    "vocabulary_sha256": "6f2918d317b15493c2752b07ca7c65d0262530ec8651952bde3c207fc619837f",
+    "coef_sha256": "10561b13fbb36c54ebb889250b91232c6c627cedfb40d15ee42e11dd0dc3c51a",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.296720300000743
+  },
+  {
+    "fold": 98,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16786,
+    "vocabulary_sha256": "fb6c5542c8cdc27b2c90e319b1a7c11d15cd0f4fa635d71d34ab19ec7cf839c1",
+    "coef_sha256": "9c5474ef5775345d5c3425988bf4d83ab222a03029922637b4e8b2cd88fc8b23",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2411984999998822
+  },
+  {
+    "fold": 99,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21148,
+    "vocabulary_sha256": "80c0b1c9a9518f6c01466210b4b3c522cb377e5d1fe495d03953acf6aa439fd1",
+    "coef_sha256": "42432de4311fac309012db0b9c6423eed70fbe05457620f71a03d8e0255472e6",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2984802999999374
+  },
+  {
+    "fold": 99,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16836,
+    "vocabulary_sha256": "d20eed44ca519c20e3d37a4dc5f408eafd87bc44b8a666731dfff7a196f1d07d",
+    "coef_sha256": "9b069642f1d01f2d1a9a0bbbf2efa83069fcfa2c6c7ace2ca31d09017fa7e827",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2416333000001032
+  },
+  {
+    "fold": 100,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21156,
+    "vocabulary_sha256": "20322526ce6832eb827ab647b84606ab0c82e79289c1a11b2115cd1218bb6137",
+    "coef_sha256": "706f109c73e2b32a9dff15254cb1ab37dbb2b873c0749caeb595b4529a993f6d",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3787967000007484
+  },
+  {
+    "fold": 100,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16848,
+    "vocabulary_sha256": "e163e607742db58998198b20ae16788b54e17fbc6131454cdb101da4db16a9b3",
+    "coef_sha256": "298b057cef6df42267dcf22f6aba3e5b2d88af64c73ed72704975f4724ee6d21",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.26610510000136856
+  },
+  {
+    "fold": 101,
+    "condition": "original",
+    "training_documents": 1039,
+    "evaluation_documents": 12,
+    "vocabulary_size": 21101,
+    "vocabulary_sha256": "c515f4c66f0e4cd29979428e5d249922694ef77959b96796c347b1ce7bebad5e",
+    "coef_sha256": "ddbd97d73b4322f71c68fb309d139b19c7dca931ca3d220a4b7185b931e317db",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.27660370000012335
+  },
+  {
+    "fold": 101,
+    "condition": "masked",
+    "training_documents": 1039,
+    "evaluation_documents": 12,
+    "vocabulary_size": 16833,
+    "vocabulary_sha256": "a62f864b5a16ceb8324a5ae969dc90b1f8e0232ed1e4815f45f827ca3c189ca2",
+    "coef_sha256": "6ec1f9450a171fb5198e95e7f4412a72b37e63b4e8fb7c8b6e6f68dfafeca2f8",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24556830000074115
+  },
+  {
+    "fold": 102,
+    "condition": "original",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 21128,
+    "vocabulary_sha256": "525d1f6e71f8c7dae6673e87b9fb1a3b78a6e772afe736263d9364e5eff5b8f1",
+    "coef_sha256": "0a80c4bb54b740ca4f9a824dc19443a7280f8346757b1a46549f29dac15b3812",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.30502119999982824
+  },
+  {
+    "fold": 102,
+    "condition": "masked",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 16823,
+    "vocabulary_sha256": "12c2cc46efe16de02f5a83b396b85abfc53ab82bb72fbcf4017a4a4c72939c39",
+    "coef_sha256": "e5f3fe47d82e3e5ee324cb5f3fe2941af3578b0d689c6fc8c9acfe7ce22e1adf",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.23341769999933604
+  },
+  {
+    "fold": 103,
+    "condition": "original",
+    "training_documents": 1006,
+    "evaluation_documents": 45,
+    "vocabulary_size": 20209,
+    "vocabulary_sha256": "9aedc25a7ff717a2170e6964f63d728145407b3e66d675d80153aa7b63ef84cb",
+    "coef_sha256": "9e04ee78d8938d3844d199cd995dfc3c406d510a8ace386a8619de82048f1b6e",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.2903391999989253
+  },
+  {
+    "fold": 103,
+    "condition": "masked",
+    "training_documents": 1006,
+    "evaluation_documents": 45,
+    "vocabulary_size": 16042,
+    "vocabulary_sha256": "bb14c8d0b37a419951af7452d1c643b21f13e650aa3e7da803951320898fa9a6",
+    "coef_sha256": "f58d6d245587288ea03aaf5d43b1550b2ab0e8e3ceafbe670ad47705a45f3ee4",
+    "iterations": [
+      26
+    ],
+    "seconds": 0.27228889999969397
+  },
+  {
+    "fold": 104,
+    "condition": "original",
+    "training_documents": 1046,
+    "evaluation_documents": 5,
+    "vocabulary_size": 21090,
+    "vocabulary_sha256": "33ffc885b545318111a87978de37be53394425c598af0e2af23aaf7f85465a26",
+    "coef_sha256": "e3c3083340c28ed843aa12e84b361a7d7628bdfdb8e7dbbde8869f4379e8a336",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.2900673000003735
+  },
+  {
+    "fold": 104,
+    "condition": "masked",
+    "training_documents": 1046,
+    "evaluation_documents": 5,
+    "vocabulary_size": 16792,
+    "vocabulary_sha256": "b4e0515c6c3852a1d8957c90baa4b930be0c953247072f1ad4d02c6356d72244",
+    "coef_sha256": "45645a805a50d7d20b234dbf386fd580fe7c78eabc10cc0cd775fa6d4da11895",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24349829999846406
+  },
+  {
+    "fold": 105,
+    "condition": "original",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 21012,
+    "vocabulary_sha256": "ea99cd30b2aa3a32c21ca367d23590db8d2eb380af897dcab66ae8e5c0c06144",
+    "coef_sha256": "5072b191b5a763ddae8952600284b71819b07c174997321bff6aeef20d4f24ca",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.2859687000000122
+  },
+  {
+    "fold": 105,
+    "condition": "masked",
+    "training_documents": 1047,
+    "evaluation_documents": 4,
+    "vocabulary_size": 16719,
+    "vocabulary_sha256": "3e288bce96d794df423d7ff245b05a6ec28a47714d5f6c890c95260b524b95ab",
+    "coef_sha256": "cb67e339477121dd3aaf3b466ec8c718016eedfe70b948e839ae31e98d038978",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2451158999992913
+  },
+  {
+    "fold": 106,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21149,
+    "vocabulary_sha256": "ff683b41a618a2af29d771f3c959db84273ae16419435266c17aa43f8f69407c",
+    "coef_sha256": "5693df60ee2ce4888eb53b314ae75d144d6509bef31e823a950b677e29531b71",
+    "iterations": [
+      21
+    ],
+    "seconds": 0.29846940000061295
+  },
+  {
+    "fold": 106,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16839,
+    "vocabulary_sha256": "c5876cad9fcae260f3a8c145108c7af6280a521994258e582368ef7ede45bd1d",
+    "coef_sha256": "7a11d7602e74f3c4f46d1ef3e3930525d2f9c76c3c586013d112cb7fc225b19e",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2434030000003986
+  },
+  {
+    "fold": 107,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21164,
+    "vocabulary_sha256": "cbe2b281ba507b7852d26a97700f720616a63b3b8547d21dedb70b7aaf5be0a5",
+    "coef_sha256": "7f1420467ee64019c1c47c7dce46fc8e30818e50d15fd7d04219435fd9d83e13",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.2993291999991925
+  },
+  {
+    "fold": 107,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16852,
+    "vocabulary_sha256": "249e4f7c3451ddd721816da89cdf1685fce12d6dd376e841e1c9761004eddb40",
+    "coef_sha256": "98e4647caf64c5b9987bc24969a4c9491903f98cf5f0ae024ac4b7f5b8207765",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24728770000001532
+  },
+  {
+    "fold": 108,
+    "condition": "original",
+    "training_documents": 1038,
+    "evaluation_documents": 13,
+    "vocabulary_size": 21009,
+    "vocabulary_sha256": "877facd2fbab5feaa2db45eb591364d3d3f6f1ea27fb9f01b426b18306014523",
+    "coef_sha256": "12d98dae29c6e9e0d689a3d05e09d2c85c1566a938864c5de04fbf8a7a5b8a6b",
+    "iterations": [
+      19
+    ],
+    "seconds": 0.2850413000014669
+  },
+  {
+    "fold": 108,
+    "condition": "masked",
+    "training_documents": 1038,
+    "evaluation_documents": 13,
+    "vocabulary_size": 16754,
+    "vocabulary_sha256": "28a30eb8de8224de326fa5b4ed4fe98a0cf11fa144afbf5e751710505f02c0f8",
+    "coef_sha256": "80f42e09477fd965f918726f9d4b201380949e52837f5e436c6de5427972adf3",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24882760000036797
+  },
+  {
+    "fold": 109,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21160,
+    "vocabulary_sha256": "7adde6848c5b9c13c6a8b972542b6bf098d7496ade7ab75d1a1a387f3feb29a6",
+    "coef_sha256": "2ed5bc71b7ff9f9cc547c966fbc1440c1463f60b0e46b0f8154a9a06b046b8b6",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.30597060000036436
+  },
+  {
+    "fold": 109,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16847,
+    "vocabulary_sha256": "f9279c96474745c75e8dcbf9fe57908319596b22fc90a9b9763b00da9edab97d",
+    "coef_sha256": "306159056692d496a5676ed9ef3dc6f81cf7c4b313b4cd03b31200646e7729fe",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2468272000005527
+  },
+  {
+    "fold": 110,
+    "condition": "original",
+    "training_documents": 1041,
+    "evaluation_documents": 10,
+    "vocabulary_size": 20857,
+    "vocabulary_sha256": "e7bfde3bae66b4211b2c2d916cd163658672cb49c706d05d368016e19dd2b815",
+    "coef_sha256": "d264d65b27642ab92cb6c2ce6a519fecbcc7e5cc12e2af521e3a65acf4dc8670",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.28139199999895936
+  },
+  {
+    "fold": 110,
+    "condition": "masked",
+    "training_documents": 1041,
+    "evaluation_documents": 10,
+    "vocabulary_size": 16583,
+    "vocabulary_sha256": "0e49e34a54adbb2d81c847c14f2c3d035f7e11c8fe37c4a9afc47488ead73c36",
+    "coef_sha256": "42d8f284378977438c5ecc363a30d8af51e5887e5fdb700a080a117227897f33",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2510703999996622
+  },
+  {
+    "fold": 111,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21166,
+    "vocabulary_sha256": "16252da666b3aedd14e9c8d24e198050899ac95db9de496bc49f1c68181a79bc",
+    "coef_sha256": "f8e5505538e7eb9bff2349dccf8cd22e234b443d7487a8be750f201d707db60c",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.3094061000010697
+  },
+  {
+    "fold": 111,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16854,
+    "vocabulary_sha256": "38f042ecfc2dd4fc1cb8c37237367b55731fbc16d9ff37d341b026365eeee7e9",
+    "coef_sha256": "c62fe3bc9c65ecb8f49da0b227292d296c0be0dfbac5534bb743d53bebd6884d",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2447833999995055
+  },
+  {
+    "fold": 112,
+    "condition": "original",
+    "training_documents": 1038,
+    "evaluation_documents": 13,
+    "vocabulary_size": 20839,
+    "vocabulary_sha256": "8a79bf2f18608a7d2fc46b3a64ca007f9ef013e6caaa43ba8188df5289553de0",
+    "coef_sha256": "ba426af7eb925b1d64dedf4e188477b1e56ec91d8da590fa147c3764f8c1c83f",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2704542000010406
+  },
+  {
+    "fold": 112,
+    "condition": "masked",
+    "training_documents": 1038,
+    "evaluation_documents": 13,
+    "vocabulary_size": 16576,
+    "vocabulary_sha256": "09998d58c59d41193cf9b30c2b18dc1d2acc5795b797db8ccc7cee4dd402ab4a",
+    "coef_sha256": "777eca74a715d049381a629ccb49f18d9889bd01ea63eac4c54f5fa6fbd75fdd",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24109730000054697
+  },
+  {
+    "fold": 113,
+    "condition": "original",
+    "training_documents": 1020,
+    "evaluation_documents": 31,
+    "vocabulary_size": 20872,
+    "vocabulary_sha256": "b4e7f531951c24bc56a047f885a2b9821cb08e6390b4c4429826c309dcc1a68f",
+    "coef_sha256": "fa90ec62c3dbe6d981b33507c04ebec16feec8a3fc327643eb1b6e738e215451",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.2943438000002061
+  },
+  {
+    "fold": 113,
+    "condition": "masked",
+    "training_documents": 1020,
+    "evaluation_documents": 31,
+    "vocabulary_size": 16661,
+    "vocabulary_sha256": "ce9b376a1bf10a3bb0776bbc436fa86f084b025819b499734e004b9c7fbc029f",
+    "coef_sha256": "1b0c989e249b89ed7ca11d0fc87ab7d41a9d4c97af4f08b8ac5fb890e743a0f4",
+    "iterations": [
+      26
+    ],
+    "seconds": 0.27592770000046585
+  },
+  {
+    "fold": 114,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21136,
+    "vocabulary_sha256": "8154ad1d948d0399f89e9dc22fdaf54da1ad5453b4fba3ed0c0e3d191aad77e0",
+    "coef_sha256": "dfc9171d7053a02c2c9f78e6de6c6cb544a0caefad6b5709dae838d5c119ab04",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.29821739999897545
+  },
+  {
+    "fold": 114,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16821,
+    "vocabulary_sha256": "cc7914fb5981eab35ef0f6bacdff868b3c4694a6fbdf0906d30d78a274fafc53",
+    "coef_sha256": "28db178940eacfd4347a9d2ec20cb5c9b8e1fc63ea6fca876ce697c741cd857b",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.23781890000100248
+  },
+  {
+    "fold": 115,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21148,
+    "vocabulary_sha256": "2f66320579f5c5187c326ec04ebc1779301220092ada8204d86d9733682e36f5",
+    "coef_sha256": "f153cfe917a24e0e1458c15423a20d73511e58f93fe18a907957d59690fbfd1a",
+    "iterations": [
+      22
+    ],
+    "seconds": 0.2963836999988416
+  },
+  {
+    "fold": 115,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16829,
+    "vocabulary_sha256": "526fec9634395195e97a095c142049d9a690aa321229c3c3a6c17e7fa183a2a3",
+    "coef_sha256": "522f1700daaa7a7f3285f0e606a81716213acad072e362e1d4b32cdbed727152",
+    "iterations": [
+      19
+    ],
+    "seconds": 0.2518352999995841
+  },
+  {
+    "fold": 116,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21145,
+    "vocabulary_sha256": "05d6cc380a10f680b337a716345cc30ae548517748db1c747d858f589e8fd6bf",
+    "coef_sha256": "ca9268d060bd9e8af2c75084106a88a7116c75b1bfa261fd491403ce5f7f8bba",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.28519219999907364
+  },
+  {
+    "fold": 116,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16834,
+    "vocabulary_sha256": "020d1fbc88e167423d90552679b1968bc11066bb1c6509e75d52f8780e0f431e",
+    "coef_sha256": "ca4850fc340fa57d78d3bfb3ab4a899315ffd5149626468a245065d1a5b406c6",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24270880000040052
+  },
+  {
+    "fold": 117,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21166,
+    "vocabulary_sha256": "92dafc1cb1b927a9f6c19e4769452c623d70e11e1d5f6975eee9a8074f196d50",
+    "coef_sha256": "cdc4f712eac2eff303ef2728c9d495b20f159cdffeb8d8c33c9d20a57790cb1c",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.3042909999985568
+  },
+  {
+    "fold": 117,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16854,
+    "vocabulary_sha256": "38f042ecfc2dd4fc1cb8c37237367b55731fbc16d9ff37d341b026365eeee7e9",
+    "coef_sha256": "bff2b5270847a8df428b479da4e39347c963eb94843e19c1b229682ea257d464",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2457687000005535
+  },
+  {
+    "fold": 118,
+    "condition": "original",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 21123,
+    "vocabulary_sha256": "ce44ee1c9a78c5223cd64458e0c16e54fa867a3e46305caf16ba5e78c3cbdbdb",
+    "coef_sha256": "ff369baef1299c518a593121f6a7b6465c668aaa2cdb35ff32b8da7a1aeea6b3",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.2820932000013272
+  },
+  {
+    "fold": 118,
+    "condition": "masked",
+    "training_documents": 1049,
+    "evaluation_documents": 2,
+    "vocabulary_size": 16815,
+    "vocabulary_sha256": "e340e8633fb5543e6bb7cdea0466f0d437b69c14b8c5059320b71b7d9ed72f99",
+    "coef_sha256": "99467375b2673eea1e691032ac709e52bb8abd719b7dcda7b47010b4da2948f1",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24536429999898246
+  },
+  {
+    "fold": 119,
+    "condition": "original",
+    "training_documents": 964,
+    "evaluation_documents": 87,
+    "vocabulary_size": 20141,
+    "vocabulary_sha256": "e7312ee1b342f06956a95cc1b9b92bb1e5fe6f37bfe930b9408cd6f73175d9f2",
+    "coef_sha256": "cc3f586b669dac40cfe95df683923953852d4c241740c15354bc2bd38040fac6",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2686962999996467
+  },
+  {
+    "fold": 119,
+    "condition": "masked",
+    "training_documents": 964,
+    "evaluation_documents": 87,
+    "vocabulary_size": 16034,
+    "vocabulary_sha256": "90b326fb4fabb0e2db978501eb03dcac34db39a79a92660560fed6e5bf34a26f",
+    "coef_sha256": "1c471dc64f068975a3b1c7a68934a71c5d4d28504fdfa9bc091a00f554c83a17",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.263554799999838
+  },
+  {
+    "fold": 120,
+    "condition": "original",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 21149,
+    "vocabulary_sha256": "19d7c4c1c5e953b22f416793439a4f19674959c799e3584f0c9fa22c29a3a48d",
+    "coef_sha256": "a6983da2ac82030ed9cc22aff4a54fe948dac84a2243775610f4c27cea855d5b",
+    "iterations": [
+      20
+    ],
+    "seconds": 0.29166409999925236
+  },
+  {
+    "fold": 120,
+    "condition": "masked",
+    "training_documents": 1048,
+    "evaluation_documents": 3,
+    "vocabulary_size": 16845,
+    "vocabulary_sha256": "ec7637480ccdec84a117a62a2b4bf94e347f10b674ff6aac8ad31444816e682d",
+    "coef_sha256": "d6aa78392d7c96761bd5d11547daa52e2a151c50c4bc05716c3b705f31b1e257",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24835469999925408
+  },
+  {
+    "fold": 121,
+    "condition": "original",
+    "training_documents": 1039,
+    "evaluation_documents": 12,
+    "vocabulary_size": 20982,
+    "vocabulary_sha256": "c6155251a63aca5a25e12b4db9bf49d8c94b9a35bff8fb0d3ebe9b0ece8886d3",
+    "coef_sha256": "4304adcbea389338dfdf75d4a1b867c39fb5a78ec27e0338f0996e118fe9d49e",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.2836318999998184
+  },
+  {
+    "fold": 121,
+    "condition": "masked",
+    "training_documents": 1039,
+    "evaluation_documents": 12,
+    "vocabulary_size": 16737,
+    "vocabulary_sha256": "ae45e342fdbe289bdd0f0a86f8ff854cbb91e33a580e9e783499a15e1cb992e6",
+    "coef_sha256": "2f88742747fb4b80218fb4845914111f28853732571b8c05d44a06b464ebab49",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24525499999981548
+  },
+  {
+    "fold": 122,
+    "condition": "original",
+    "training_documents": 1037,
+    "evaluation_documents": 14,
+    "vocabulary_size": 20899,
+    "vocabulary_sha256": "c3bdd599c8514a494f41f0b1399044655a4f6b127effeb2e3a53275c8f5bfa73",
+    "coef_sha256": "405bb6c1c74e5bbec0281408a5831db14c193bc1a434e52cd4acec0ce2d960bb",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.2782512999983737
+  },
+  {
+    "fold": 122,
+    "condition": "masked",
+    "training_documents": 1037,
+    "evaluation_documents": 14,
+    "vocabulary_size": 16671,
+    "vocabulary_sha256": "bd307f2de5d10954a6ab0834cfe4876a0b377783e259e8146dfa93af5a0f93c5",
+    "coef_sha256": "ef643ddb376d77027041892ee69793fde68f933a29165c4a6086a9421293149c",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2481207999990147
+  },
+  {
+    "fold": 123,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21163,
+    "vocabulary_sha256": "1e7745c937d2fe8617bcde10ce69b8a588f45cc18413e7ec3b6f328b28a91a0c",
+    "coef_sha256": "e734fa21b81887018069644e39e85a5ae1a8f41dd214cce81a3e9ea135fe2591",
+    "iterations": [
+      24
+    ],
+    "seconds": 0.31328360000043176
+  },
+  {
+    "fold": 123,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16851,
+    "vocabulary_sha256": "3d73d9887a2942d0e0813be28f2694fb0925cb725f65392e0036c035e8ddd84a",
+    "coef_sha256": "023f46aa69d1e0ea02a8d8f69ce3d81b80490dfd59dd529a26e60ec0d222b87b",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.24840920000133337
+  },
+  {
+    "fold": 124,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21141,
+    "vocabulary_sha256": "ff711579b98ed8c197f3930b9885f1d8bc61160341a4e92e2a3c141728c847b9",
+    "coef_sha256": "eccfa83c9ac7ec2f87d4de9f2f6b459922aebc5bbba2c9bda109692df62d65c4",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.30521650000082445
+  },
+  {
+    "fold": 124,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16829,
+    "vocabulary_sha256": "0b2fcfbf23b619e42266e9ebd618f542755843401dc4ee97db93dd7d738a4c5e",
+    "coef_sha256": "2276c043c92ed1b2d9bc96da0d91f55fd10e61e21879ec189f79171cd70cca71",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2449079999987589
+  },
+  {
+    "fold": 125,
+    "condition": "original",
+    "training_documents": 1038,
+    "evaluation_documents": 13,
+    "vocabulary_size": 20965,
+    "vocabulary_sha256": "a8c51bd1ba09cea87ff6e40f1310c066ae27a95bf7e393688c56b11c07855a38",
+    "coef_sha256": "2362f1db29e326a1f518d5682afb7cd1846c36444ff3bf00b6d71dc6c0fae90a",
+    "iterations": [
+      18
+    ],
+    "seconds": 0.27620200000092154
+  },
+  {
+    "fold": 125,
+    "condition": "masked",
+    "training_documents": 1038,
+    "evaluation_documents": 13,
+    "vocabulary_size": 16709,
+    "vocabulary_sha256": "4016fe020b61190d384bc4e46fe48ddd2a20c5621b8d45c98d5e297c9e5af362",
+    "coef_sha256": "14c7e1f0c688e523f58ed0cc2fd52ed6f1ff4a744576d08f267e4b86584adfa0",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2470524000000296
+  },
+  {
+    "fold": 126,
+    "condition": "original",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 21160,
+    "vocabulary_sha256": "a58f3084f33f6e81a891d59956aafac666e15bcfef4dd79d27c977005b3c799c",
+    "coef_sha256": "021695191a7f154685c359692f74241c8ef4bddb7cbfb5f75fcb8ccf43dfebf6",
+    "iterations": [
+      23
+    ],
+    "seconds": 0.3000006999991456
+  },
+  {
+    "fold": 126,
+    "condition": "masked",
+    "training_documents": 1050,
+    "evaluation_documents": 1,
+    "vocabulary_size": 16848,
+    "vocabulary_sha256": "aed64eb9a42e1a534eaca1dd542398c0ae355b1b5e3b2c3c0f1dea72d110563f",
+    "coef_sha256": "f9e4f3bd0acd0b3316794302a9624111d6835d924f2b7179c1b926520fc448f9",
+    "iterations": [
+      17
+    ],
+    "seconds": 0.2427079999997659
+  }
+]

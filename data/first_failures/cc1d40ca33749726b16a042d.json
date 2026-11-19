@@ -1,0 +1,37 @@
+{
+  "container": "BOOKKEEPER-784",
+  "metadata": {
+    "source": "JIRA",
+    "container": "BOOKKEEPER-784",
+    "project": "https://github.com/apache/bookkeeper",
+    "revision": "c918051659f9f9231989531304a0a0a15f0f939e",
+    "test": "org.apache.bookkeeper.client.BookKeeperCloseTest.testLedgerCheck",
+    "label": "UNCLASSIFIED",
+    "module": "bookkeeper-server",
+    "zip": "BOOKKEEPER-784",
+    "config_row": 1115,
+    "configured_test": "org.apache.bookkeeper.client.BookKeeperCloseTest#testLedgerCheck",
+    "configured_type": "unclassified",
+    "iterations": "102",
+    "test_id": "https://github.com/apache/bookkeeper::org.apache.bookkeeper.client.BookKeeperCloseTest.testLedgerCheck",
+    "variant_id": "https://github.com/apache/bookkeeper::org.apache.bookkeeper.client.BookKeeperCloseTest.testLedgerCheck::c918051659f9f9231989531304a0a0a15f0f939e::bookkeeper-server",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "unclassified",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/BOOKKEEPER-784/result/Flaky/rounds-test-results.csv",
+    "size": 18180,
+    "compressed": 638,
+    "crc32": "9cd57d57",
+    "offset": 74147756,
+    "method": 8,
+    "local_path": "data/extracted/8530b4c2874cf8cd450ae9c0.csv",
+    "sha256": "0fa80abd1363ca4f005278970a928e496b7a58983fef6f4731cc16cdc3fecd9e",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100
+}

@@ -1,0 +1,81 @@
+{
+  "container": "fastjson2fastjson1compatible885f3d4test_for_issue1",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "fastjson2fastjson1compatible885f3d4test_for_issue1",
+    "project": "https://github.com/alibaba/fastjson2",
+    "revision": "885f3d45e13b6c84510cde4672a0bfaa7ef42acd",
+    "test": "com.alibaba.fastjson.issue_1100.Issue1177_1.test_for_issue",
+    "label": "ID",
+    "module": "fastjson1-compatible",
+    "zip": "fastjson2=fastjson1-compatible=885f3d4",
+    "config_row": 461,
+    "configured_test": "com.alibaba.fastjson.issue_1100.Issue1177_1#test_for_issue",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/fastjson2::com.alibaba.fastjson.issue_1100.Issue1177_1.test_for_issue",
+    "variant_id": "https://github.com/alibaba/fastjson2::com.alibaba.fastjson.issue_1100.Issue1177_1.test_for_issue::885f3d45e13b6c84510cde4672a0bfaa7ef42acd::fastjson1-compatible",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/fastjson2fastjson1compatible885f3d4test_for_issue1/result/Flaky/.nondex/Bv+qJgbH5XADXiJ1CzTM5wJBATZkFmTvekdKcTM15eI=/TEST-com.alibaba.fastjson.issue_1100.Issue1177_1.xml",
+        "size": 42692,
+        "compressed": 5652,
+        "crc32": "29edec91",
+        "offset": 540843415,
+        "method": 8,
+        "local_path": "data/extracted/22792fea708370416247dadd.xml",
+        "sha256": "64ad7ab90faa1df44d03be7d97bbadc8df910384073a2c772fc3a44ae953fd3b",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/fastjson2fastjson1compatible885f3d4test_for_issue1/result/Flaky/rounds-test-results.csv",
+    "size": 19512,
+    "compressed": 5107,
+    "crc32": "9df34c48",
+    "offset": 540229069,
+    "method": 8,
+    "local_path": "data/extracted/fe54bb0a79b82e6d026a386a.csv",
+    "sha256": "5446b9dd6148b26b0813ebad421019128a44de902f571994f2cd38f676dec1be",
+    "status": "verified"
+  },
+  "reported_failure_rows": 55,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/fastjson2fastjson1compatible885f3d4test_for_issue1/result/Flaky/.nondex/Bv+qJgbH5XADXiJ1CzTM5wJBATZkFmTvekdKcTM15eI=/TEST-com.alibaba.fastjson.issue_1100.Issue1177_1.xml",
+    "size": 42692,
+    "compressed": 5652,
+    "crc32": "29edec91",
+    "offset": 540843415,
+    "method": 8,
+    "local_path": "data/extracted/22792fea708370416247dadd.xml",
+    "sha256": "64ad7ab90faa1df44d03be7d97bbadc8df910384073a2c772fc3a44ae953fd3b",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test_for_issue",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <{\"a\":{\"x\":\"y2\"},\"b\":{\"x\":\"y2\"}}> but was: <{\"b\":{\"x\":\"y2\"},\"a\":{\"x\":\"y2\"}}>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <{\"a\":{\"x\":\"y2\"},\"b\":{\"x\":\"y2\"}}> but was: <{\"b\":{\"x\":\"y2\"},\"a\":{\"x\":\"y2\"}}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat com.alibaba.fastjson.issue_1100.Issue1177_1.test_for_issue(Issue1177_1.java:22)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <{\"a\":{\"x\":\"y2\"},\"b\":{\"x\":\"y2\"}}> but was: <{\"b\":{\"x\":\"y2\"},\"a\":{\"x\":\"y2\"}}>\norg.opentest4j.AssertionFailedError: expected: <{\"a\":{\"x\":\"y2\"},\"b\":{\"x\":\"y2\"}}> but was: <{\"b\":{\"x\":\"y2\"},\"a\":{\"x\":\"y2\"}}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat com.alibaba.fastjson.issue_1100.Issue1177_1.test_for_issue(Issue1177_1.java:22)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "cd71c9e82de31f7ab222c32c2458b1e723bb99c745b373b605a04b349d76cb38"
+}

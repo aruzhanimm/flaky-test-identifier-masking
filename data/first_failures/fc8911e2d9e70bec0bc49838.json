@@ -1,0 +1,81 @@
+{
+  "container": "tyrustestse2enondeployablee02af53clientMaxMessageSizeTooLargeTest",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "tyrustestse2enondeployablee02af53clientMaxMessageSizeTooLargeTest",
+    "project": "https://github.com/eclipse-ee4j/tyrus",
+    "revision": "e02af5363a95b4dc74d0c1abf8291d127075bbb0",
+    "test": "org.glassfish.tyrus.test.e2e.non_deployable.MaxMessageSizeDeploymentTest.clientMaxMessageSizeTooLargeTest",
+    "label": "ID",
+    "module": "tests/e2e/non-deployable",
+    "zip": "tyrus=tests+e2e+non-deployable=e02af53",
+    "config_row": 591,
+    "configured_test": "org.glassfish.tyrus.test.e2e.non_deployable.MaxMessageSizeDeploymentTest#clientMaxMessageSizeTooLargeTest",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/eclipse-ee4j/tyrus::org.glassfish.tyrus.test.e2e.non_deployable.MaxMessageSizeDeploymentTest.clientMaxMessageSizeTooLargeTest",
+    "variant_id": "https://github.com/eclipse-ee4j/tyrus::org.glassfish.tyrus.test.e2e.non_deployable.MaxMessageSizeDeploymentTest.clientMaxMessageSizeTooLargeTest::e02af5363a95b4dc74d0c1abf8291d127075bbb0::tests/e2e/non-deployable",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/tyrustestse2enondeployablee02af53clientMaxMessageSizeTooLargeTest/result/Flaky/.nondex/6MB79acPb4dAqMmxLFXed9vZE3etMMrQlcgUb4xVtE=/TEST-org.glassfish.tyrus.test.e2e.non_deployable.MaxMessageSizeDeploymentTest.xml",
+        "size": 8269,
+        "compressed": 2033,
+        "crc32": "f51385e8",
+        "offset": 1119352616,
+        "method": 8,
+        "local_path": "data/extracted/dfce50b656e25d2701bdd726.xml",
+        "sha256": "0be4dd58975cd8a3e7ad824ec4d66f2688a70e2c96a8ecbb252950eec12a88a1",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/tyrustestse2enondeployablee02af53clientMaxMessageSizeTooLargeTest/result/Flaky/rounds-test-results.csv",
+    "size": 22914,
+    "compressed": 5036,
+    "crc32": "49620736",
+    "offset": 1119216247,
+    "method": 8,
+    "local_path": "data/extracted/4cce6f2a0dc3629ca2bcf09b.csv",
+    "sha256": "f2415a80be53d1812f9418f2688c372b024ac5f522620b1b2b91d685a3ebaf41",
+    "status": "verified"
+  },
+  "reported_failure_rows": 90,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/tyrustestse2enondeployablee02af53clientMaxMessageSizeTooLargeTest/result/Flaky/.nondex/6MB79acPb4dAqMmxLFXed9vZE3etMMrQlcgUb4xVtE=/TEST-org.glassfish.tyrus.test.e2e.non_deployable.MaxMessageSizeDeploymentTest.xml",
+    "size": 8269,
+    "compressed": 2033,
+    "crc32": "f51385e8",
+    "offset": 1119352616,
+    "method": 8,
+    "local_path": "data/extracted/dfce50b656e25d2701bdd726.xml",
+    "sha256": "0be4dd58975cd8a3e7ad824ec4d66f2688a70e2c96a8ecbb252950eec12a88a1",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "clientMaxMessageSizeTooLargeTest",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError:",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError: null\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.glassfish.tyrus.test.e2e.non_deployable.MaxMessageSizeDeploymentTest.clientMaxMessageSizeTooLargeTest(MaxMessageSizeDeploymentTest.java:163)",
+    "text": "java.lang.AssertionError:\njava.lang.AssertionError: null\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.glassfish.tyrus.test.e2e.non_deployable.MaxMessageSizeDeploymentTest.clientMaxMessageSizeTooLargeTest(MaxMessageSizeDeploymentTest.java:163)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "61dd6f7eac316cf6f18541a830c4a48e801bb01ac640545a490803248037a05d"
+}

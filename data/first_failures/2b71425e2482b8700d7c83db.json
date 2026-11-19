@@ -1,0 +1,81 @@
+{
+  "container": "furyfurycore68ca4bftestTraverseExpression",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "furyfurycore68ca4bftestTraverseExpression",
+    "project": "https://github.com/apache/fury",
+    "revision": "68ca4bfd6ce4f6454a9c7736fbe154891cbc44a5",
+    "test": "org.apache.fury.codegen.ExpressionVisitorTest.testTraverseExpression",
+    "label": "ID",
+    "module": "fury-core",
+    "zip": "fury=fury-core=68ca4bf",
+    "config_row": 176,
+    "configured_test": "org.apache.fury.codegen.ExpressionVisitorTest#testTraverseExpression",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/fury::org.apache.fury.codegen.ExpressionVisitorTest.testTraverseExpression",
+    "variant_id": "https://github.com/apache/fury::org.apache.fury.codegen.ExpressionVisitorTest.testTraverseExpression::68ca4bfd6ce4f6454a9c7736fbe154891cbc44a5::fury-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/furyfurycore68ca4bftestTraverseExpression/result/Flaky/.nondex/++T7pR4IKei6ewzCIQ3OlEQ4EIdopla0MDmP85BIjHU=/TEST-org.apache.fury.codegen.ExpressionVisitorTest.xml",
+        "size": 11436,
+        "compressed": 2428,
+        "crc32": "3629469b",
+        "offset": 891133686,
+        "method": 8,
+        "local_path": "data/extracted/4244db30de69494849322085.xml",
+        "sha256": "2ba18a51dfd13186842990068329909c3bfec7c1b9a3e3022d617499941b28ed",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/furyfurycore68ca4bftestTraverseExpression/result/Flaky/rounds-test-results.csv",
+    "size": 18761,
+    "compressed": 5005,
+    "crc32": "a63b3633",
+    "offset": 890561518,
+    "method": 8,
+    "local_path": "data/extracted/c4bae571a522a289af29aaff.csv",
+    "sha256": "626ad363cc699323a17e7473ea24a02a1db1bfb5d8fa013e75d9e34e6ba7cb58",
+    "status": "verified"
+  },
+  "reported_failure_rows": 98,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/furyfurycore68ca4bftestTraverseExpression/result/Flaky/.nondex/++T7pR4IKei6ewzCIQ3OlEQ4EIdopla0MDmP85BIjHU=/TEST-org.apache.fury.codegen.ExpressionVisitorTest.xml",
+    "size": 11436,
+    "compressed": 2428,
+    "crc32": "3629469b",
+    "offset": 891133686,
+    "method": 8,
+    "local_path": "data/extracted/4244db30de69494849322085.xml",
+    "sha256": "2ba18a51dfd13186842990068329909c3bfec7c1b9a3e3022d617499941b28ed",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testTraverseExpression",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Lists differ at element [2]: 10 != 1 expected [10] but found [1]",
+    "stack_trace": "java.lang.AssertionError: Lists differ at element [2]: 10 != 1 expected [10] but found [1]\n\tat org.apache.fury.codegen.ExpressionVisitorTest.testTraverseExpression(ExpressionVisitorTest.java:66)",
+    "text": "java.lang.AssertionError\nLists differ at element [2]: 10 != 1 expected [10] but found [1]\njava.lang.AssertionError: Lists differ at element [2]: 10 != 1 expected [10] but found [1]\n\tat org.apache.fury.codegen.ExpressionVisitorTest.testTraverseExpression(ExpressionVisitorTest.java:66)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "511804a11e93c49a9d3138a6a0943e4148b160615b6b4e203481ec8057891ce9"
+}

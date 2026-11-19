@@ -1,0 +1,101 @@
+{
+  "container": "OOZIE-3685",
+  "metadata": {
+    "source": "JIRA",
+    "container": "OOZIE-3685",
+    "project": "https://github.com/apache/oozie",
+    "revision": "6a7b5e0d1c46d57abb4c406379ac82e437ad2cfc",
+    "test": "org.apache.oozie.command.coord.TestCoordActionInputCheckXCommand.testCoordActionInputCheckXCommandUniqueness",
+    "label": "TD",
+    "module": "core",
+    "zip": "OOZIE-3685",
+    "config_row": 1064,
+    "configured_test": "org.apache.oozie.command.coord.TestCoordActionInputCheckXCommand#testCoordActionInputCheckXCommandUniqueness",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/oozie::org.apache.oozie.command.coord.TestCoordActionInputCheckXCommand.testCoordActionInputCheckXCommandUniqueness",
+    "variant_id": "https://github.com/apache/oozie::org.apache.oozie.command.coord.TestCoordActionInputCheckXCommand.testCoordActionInputCheckXCommandUniqueness::6a7b5e0d1c46d57abb4c406379ac82e437ad2cfc::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 7,
+      "iteration": 6,
+      "member": {
+        "path": "result/OOZIE-3685/result/Flaky/surefire-reports/reports-6/org.apache.oozie.command.coord.TestCoordActionInputCheckXCommand.txt",
+        "size": 3992,
+        "compressed": 818,
+        "crc32": "9b67ab7a",
+        "offset": 134483898,
+        "method": 8,
+        "local_path": "data/extracted/559cdd83ca3ac5e758461929.txt",
+        "sha256": "a8adfe971e9c2a03ecb72fc182b8eb86c6f590b33bd0b238291ba1de7ee2c080",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 7,
+      "iteration": 6,
+      "member": {
+        "path": "result/OOZIE-3685/result/Flaky/surefire-reports/reports-6/org.apache.oozie.command.coord.TestCoordActionInputCheckXCommand.txt",
+        "size": 3992,
+        "compressed": 818,
+        "crc32": "9b67ab7a",
+        "offset": 134483898,
+        "method": 8,
+        "local_path": "data/extracted/559cdd83ca3ac5e758461929.txt",
+        "sha256": "a8adfe971e9c2a03ecb72fc182b8eb86c6f590b33bd0b238291ba1de7ee2c080",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 98,
+  "table_issues": [
+    "bad_iteration_61",
+    "bad_iteration_83"
+  ],
+  "table_member": {
+    "path": "result/OOZIE-3685/result/Flaky/rounds-test-results.csv",
+    "size": 23081,
+    "compressed": 882,
+    "crc32": "8e45bf91",
+    "offset": 134724711,
+    "method": 8,
+    "local_path": "data/extracted/bffbc774aaaf46733d8d92e7.csv",
+    "sha256": "a317b963f1bdba30ad7fdde0211427bcb2a27c1d8ad9d6f2591f2b10949746e8",
+    "status": "verified"
+  },
+  "reported_failure_rows": 62,
+  "iteration": 6,
+  "source_row": 7,
+  "diagnostic_member": {
+    "path": "result/OOZIE-3685/result/Flaky/surefire-reports/reports-6/org.apache.oozie.command.coord.TestCoordActionInputCheckXCommand.txt",
+    "size": 3992,
+    "compressed": 818,
+    "crc32": "9b67ab7a",
+    "offset": 134483898,
+    "method": 8,
+    "local_path": "data/extracted/559cdd83ca3ac5e758461929.txt",
+    "sha256": "a8adfe971e9c2a03ecb72fc182b8eb86c6f590b33bd0b238291ba1de7ee2c080",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "testCoordActionInputCheckXCommandUniqueness",
+    "outcome": "failure",
+    "exception_type": "junit.framework.AssertionFailedError",
+    "message": null,
+    "stack_trace": "junit.framework.AssertionFailedError\n\tat junit.framework.Assert.fail(Assert.java:55)\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\n\tat junit.framework.TestCase.assertTrue(TestCase.java:201)\n\tat org.apache.oozie.command.coord.TestCoordActionInputCheckXCommand.testCoordActionInputCheckXCommandUniqueness(TestCoordActionInputCheckXCommand.java:151)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat junit.framework.TestCase.runTest(TestCase.java:176)\n\tat junit.framework.TestCase.runBare(TestCase.java:141)\n\tat junit.framework.TestResult$1.protect(TestResult.java:122)\n\tat junit.framework.TestResult.runProtected(TestResult.java:142)\n\tat junit.framework.TestResult.run(TestResult.java:125)\n\tat junit.framework.TestCase.run(TestCase.java:129)\n\tat junit.framework.TestSuite.runTest(TestSuite.java:255)\n\tat junit.framework.TestSuite.run(TestSuite.java:250)\n\tat org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)\n\tat org.junit.runners.Suite.runChild(Suite.java:127)\n\tat org.junit.runners.Suite.runChild(Suite.java:26)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat org.junit.runners.Suite.runChild(Suite.java:127)\n\tat org.junit.runners.Suite.runChild(Suite.java:26)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:410)\n\tat org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:367)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat org.apache.maven.surefire.junitcore.pc.ParallelComputerBuilder$PC$1.run(ParallelComputerBuilder.java:590)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)",
+    "text": "junit.framework.AssertionFailedError\njunit.framework.AssertionFailedError\n\tat junit.framework.Assert.fail(Assert.java:55)\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\n\tat junit.framework.TestCase.assertTrue(TestCase.java:201)\n\tat org.apache.oozie.command.coord.TestCoordActionInputCheckXCommand.testCoordActionInputCheckXCommandUniqueness(TestCoordActionInputCheckXCommand.java:151)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat junit.framework.TestCase.runTest(TestCase.java:176)\n\tat junit.framework.TestCase.runBare(TestCase.java:141)\n\tat junit.framework.TestResult$1.protect(TestResult.java:122)\n\tat junit.framework.TestResult.runProtected(TestResult.java:142)\n\tat junit.framework.TestResult.run(TestResult.java:125)\n\tat junit.framework.TestCase.run(TestCase.java:129)\n\tat junit.framework.TestSuite.runTest(TestSuite.java:255)\n\tat junit.framework.TestSuite.run(TestSuite.java:250)\n\tat org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)\n\tat org.junit.runners.Suite.runChild(Suite.java:127)\n\tat org.junit.runners.Suite.runChild(Suite.java:26)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat org.junit.runners.Suite.runChild(Suite.java:127)\n\tat org.junit.runners.Suite.runChild(Suite.java:26)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:410)\n\tat org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:367)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat org.apache.maven.surefire.junitcore.pc.ParallelComputerBuilder$PC$1.run(ParallelComputerBuilder.java:590)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "9aa87e0aa51aaa632dd23f73731e48f1871ef81e339be2f26c8cb4e93aee7bfd"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "ecoschemacatalogstore95ee43btestPutRemove1",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ecoschemacatalogstore95ee43btestPutRemove1",
+    "project": "https://github.com/epam/eco-schema-catalog",
+    "revision": "95ee43bba89845d162f5d54a6046c14f7edc4755",
+    "test": "com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testPutRemove1",
+    "label": "ID",
+    "module": "store",
+    "zip": "eco-schema-catalog=store=95ee43b",
+    "config_row": 36,
+    "configured_test": "com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest#testPutRemove1",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/epam/eco-schema-catalog::com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testPutRemove1",
+    "variant_id": "https://github.com/epam/eco-schema-catalog::com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testPutRemove1::95ee43bba89845d162f5d54a6046c14f7edc4755::store",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/ecoschemacatalogstore95ee43btestPutRemove1/result/Flaky/.nondex/C+IHrWhoLUSWlz+9fPZepUS0t+YCZJjPKlghJrEIXZ0=/TEST-com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.xml",
+        "size": 7228,
+        "compressed": 1866,
+        "crc32": "d0bd6043",
+        "offset": 604758078,
+        "method": 8,
+        "local_path": "data/extracted/ca79235fa7659e58388570b1.xml",
+        "sha256": "0fc9c28efd9f76855a73ed08f5172057f03a700b4e55cb9cd6022f9c10cd3c60",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ecoschemacatalogstore95ee43btestPutRemove1/result/Flaky/rounds-test-results.csv",
+    "size": 21142,
+    "compressed": 4937,
+    "crc32": "277a336e",
+    "offset": 604609365,
+    "method": 8,
+    "local_path": "data/extracted/6671caf2f53afce0c5fb6ee6.csv",
+    "sha256": "11f28d0a59b4241478ce3c4b0ff86c6188783fc2ca000fa3252dbf0aabf83943",
+    "status": "verified"
+  },
+  "reported_failure_rows": 89,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/ecoschemacatalogstore95ee43btestPutRemove1/result/Flaky/.nondex/C+IHrWhoLUSWlz+9fPZepUS0t+YCZJjPKlghJrEIXZ0=/TEST-com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.xml",
+    "size": 7228,
+    "compressed": 1866,
+    "crc32": "d0bd6043",
+    "offset": 604758078,
+    "method": 8,
+    "local_path": "data/extracted/ca79235fa7659e58388570b1.xml",
+    "sha256": "0fc9c28efd9f76855a73ed08f5172057f03a700b4e55cb9cd6022f9c10cd3c60",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testPutRemove1",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "expected:<null> but was:<{doc: doc7, attributes: {}, updatedAt: Wed Nov 05 11:54:17 UTC 2025, updatedBy: me}>",
+    "stack_trace": "java.lang.AssertionError: expected:<null> but was:<{doc: doc7, attributes: {}, updatedAt: Wed Nov 05 11:54:17 UTC 2025, updatedBy: me}>\n\tat com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testPutRemove1(InheritingMetadataContainerTest.java:608)",
+    "text": "java.lang.AssertionError\nexpected:<null> but was:<{doc: doc7, attributes: {}, updatedAt: Wed Nov 05 11:54:17 UTC 2025, updatedBy: me}>\njava.lang.AssertionError: expected:<null> but was:<{doc: doc7, attributes: {}, updatedAt: Wed Nov 05 11:54:17 UTC 2025, updatedBy: me}>\n\tat com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testPutRemove1(InheritingMetadataContainerTest.java:608)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "f6f1b673c3c08e7bb574ce19aef30a88db4eb9b2a021e1ec1918c1764b869464"
+}

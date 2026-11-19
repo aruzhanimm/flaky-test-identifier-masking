@@ -1,0 +1,81 @@
+{
+  "container": "servicecombjavachassisfoundationsfoundationvertxf37cdb1parameterMap_merge",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "servicecombjavachassisfoundationsfoundationvertxf37cdb1parameterMap_merge",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "revision": "f37cdb10d1aa35d14469b7613f99b23348ae5851",
+    "test": "org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.parameterMap_merge",
+    "label": "ID",
+    "module": "foundations/foundation-vertx",
+    "zip": "servicecomb-java-chassis=foundations+foundation-vertx=f37cdb1",
+    "config_row": 205,
+    "configured_test": "org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx#parameterMap_merge",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.parameterMap_merge",
+    "variant_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.parameterMap_merge::f37cdb10d1aa35d14469b7613f99b23348ae5851::foundations/foundation-vertx",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 12,
+      "iteration": 11,
+      "member": {
+        "path": "result/servicecombjavachassisfoundationsfoundationvertxf37cdb1parameterMap_merge/result/Flaky/.nondex/odGAN+kK3cv63szBiVklX+fHiTjJqC51jYFPNCWkwsU=/TEST-org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.xml",
+        "size": 23268,
+        "compressed": 3424,
+        "crc32": "5c503bd2",
+        "offset": 785347250,
+        "method": 8,
+        "local_path": "data/extracted/6c5b2ac75480c56792f9c292.xml",
+        "sha256": "0c0b02417e7268f7bdbd8aeb82d2f6ea8d865217a45dbe3341233c2228d0c0ef",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/servicecombjavachassisfoundationsfoundationvertxf37cdb1parameterMap_merge/result/Flaky/rounds-test-results.csv",
+    "size": 23720,
+    "compressed": 5098,
+    "crc32": "07bea46b",
+    "offset": 785081032,
+    "method": 8,
+    "local_path": "data/extracted/3ffb55b063a2e37b81a233bb.csv",
+    "sha256": "caa01ca13aed61d6c8735aaf9d24c46c5b2889a4e45973f45aa15ad6bbb19efe",
+    "status": "verified"
+  },
+  "reported_failure_rows": 48,
+  "iteration": 11,
+  "source_row": 12,
+  "diagnostic_member": {
+    "path": "result/servicecombjavachassisfoundationsfoundationvertxf37cdb1parameterMap_merge/result/Flaky/.nondex/odGAN+kK3cv63szBiVklX+fHiTjJqC51jYFPNCWkwsU=/TEST-org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.xml",
+    "size": 23268,
+    "compressed": 3424,
+    "crc32": "5c503bd2",
+    "offset": 785347250,
+    "method": 8,
+    "local_path": "data/extracted/6c5b2ac75480c56792f9c292.xml",
+    "sha256": "0c0b02417e7268f7bdbd8aeb82d2f6ea8d865217a45dbe3341233c2228d0c0ef",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "parameterMap_merge",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: iterable containing [\"p1\", \"p2\"]\n     but: item 0: was \"p2\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: iterable containing [\"p1\", \"p2\"]\n     but: item 0: was \"p2\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.parameterMap_merge(TestStandardHttpServletRequestEx.java:134)",
+    "text": "java.lang.AssertionError\nExpected: iterable containing [\"p1\", \"p2\"]\n     but: item 0: was \"p2\"\njava.lang.AssertionError: \n\nExpected: iterable containing [\"p1\", \"p2\"]\n     but: item 0: was \"p2\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.parameterMap_merge(TestStandardHttpServletRequestEx.java:134)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "0be62f651215ff7de626569444681091c257045caf2a261fb6f8e64c0e0b902d"
+}

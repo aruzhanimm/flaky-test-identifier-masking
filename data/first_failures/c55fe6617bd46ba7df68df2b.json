@@ -1,0 +1,81 @@
+{
+  "container": "classgraphbd4a7f4testJSON",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "classgraphbd4a7f4testJSON",
+    "project": "https://github.com/classgraph/classgraph",
+    "revision": "bd4a7f4b59a85989feba6b9a7b3b9b98198d512e",
+    "test": "io.github.classgraph.json.JSONSerializationTest.testJSON",
+    "label": "ID",
+    "module": ".",
+    "zip": "classgraph=.=bd4a7f4",
+    "config_row": 582,
+    "configured_test": "io.github.classgraph.json.JSONSerializationTest#testJSON",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/classgraph/classgraph::io.github.classgraph.json.JSONSerializationTest.testJSON",
+    "variant_id": "https://github.com/classgraph/classgraph::io.github.classgraph.json.JSONSerializationTest.testJSON::bd4a7f4b59a85989feba6b9a7b3b9b98198d512e::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/classgraphbd4a7f4testJSON/result/Flaky/.nondex/l77w2pakPGc3kRIOktw92NhO+aVnaygJeZZQk7ytNuk=/TEST-io.github.classgraph.json.JSONSerializationTest.xml",
+        "size": 15579,
+        "compressed": 2951,
+        "crc32": "26511478",
+        "offset": 355785494,
+        "method": 8,
+        "local_path": "data/extracted/7b4ab2f8770c69b10d187cb9.xml",
+        "sha256": "c84bd3039529e109f1014a87d89bdf379747069f3e72cc7a9779687277cb16b6",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/classgraphbd4a7f4testJSON/result/Flaky/rounds-test-results.csv",
+    "size": 18163,
+    "compressed": 4892,
+    "crc32": "c0232036",
+    "offset": 355645876,
+    "method": 8,
+    "local_path": "data/extracted/b92a6de7f7a059c72213ac03.csv",
+    "sha256": "6bdcae36f008cff37110f7386985fb665c6b0c2f9156a1e1c1a3c6ef6259f5de",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/classgraphbd4a7f4testJSON/result/Flaky/.nondex/l77w2pakPGc3kRIOktw92NhO+aVnaygJeZZQk7ytNuk=/TEST-io.github.classgraph.json.JSONSerializationTest.xml",
+    "size": 15579,
+    "compressed": 2951,
+    "crc32": "26511478",
+    "offset": 355785494,
+    "method": 8,
+    "local_path": "data/extracted/7b4ab2f8770c69b10d187cb9.xml",
+    "sha256": "c84bd3039529e109f1014a87d89bdf379747069f3e72cc7a9779687277cb16b6",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testJSON",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "Expecting:\n <\"{\"f\":{\"z\":1.5,\"map\":{\"1.5\":1.5},\"list\":[1.5,1.5,1.5],\"q\":{\"b\":1.5,\"arr\":[1.5,1.5,1.5],\"a\":{\"x\":[1.5],\"y\":\"x\"}},\"wxy\":123},\"e\":{\"map\":{\"3\":3},\"list\":[3,3,3],\"q\":{\"b\":3,\"arr\":[3,3,3],\"a\":{\"x\":[3],\"y\":\"x\"}},\"z\":42,\"c\":{\"b\":5,\"arr\":[5,5,5],\"a\":{\"x\":[5],\"y\":\"x\"}}}}\">\nto be equal to:\n <\"{\"e\":{\"q\":{\"b\":3,\"a\":{\"x\":[3],\"y\":\"x\"},\"arr\":[3,3,3]},\"map\":{\"3\":3},\"list\":[3,3,3],\"c\":{\"b\":5,\"a\":{\"x\":[5],\"y\":\"x\"},\"arr\":[5,5,5]},\"z\":42},\"f\":{\"z\":1.5,\"q\":{\"b\":1.5,\"a\":{\"x\":[1.5],\"y\":\"x\"},\"arr\":[1.5,1.5,1.5]},\"map\":{\"1.5\":1.5},\"list\":[1.5,1.5,1.5],\"wxy\":123}}\">\nbut was not.",
+    "stack_trace": "org.opentest4j.AssertionFailedError: \n\nExpecting:\n <\"{\"f\":{\"z\":1.5,\"map\":{\"1.5\":1.5},\"list\":[1.5,1.5,1.5],\"q\":{\"b\":1.5,\"arr\":[1.5,1.5,1.5],\"a\":{\"x\":[1.5],\"y\":\"x\"}},\"wxy\":123},\"e\":{\"map\":{\"3\":3},\"list\":[3,3,3],\"q\":{\"b\":3,\"arr\":[3,3,3],\"a\":{\"x\":[3],\"y\":\"x\"}},\"z\":42,\"c\":{\"b\":5,\"arr\":[5,5,5],\"a\":{\"x\":[5],\"y\":\"x\"}}}}\">\nto be equal to:\n <\"{\"e\":{\"q\":{\"b\":3,\"a\":{\"x\":[3],\"y\":\"x\"},\"arr\":[3,3,3]},\"map\":{\"3\":3},\"list\":[3,3,3],\"c\":{\"b\":5,\"a\":{\"x\":[5],\"y\":\"x\"},\"arr\":[5,5,5]},\"z\":42},\"f\":{\"z\":1.5,\"q\":{\"b\":1.5,\"a\":{\"x\":[1.5],\"y\":\"x\"},\"arr\":[1.5,1.5,1.5]},\"map\":{\"1.5\":1.5},\"list\":[1.5,1.5,1.5],\"wxy\":123}}\">\nbut was not.\n\tat io.github.classgraph.json.JSONSerializationTest.testJSON(JSONSerializationTest.java:263)",
+    "text": "org.opentest4j.AssertionFailedError\nExpecting:\n <\"{\"f\":{\"z\":1.5,\"map\":{\"1.5\":1.5},\"list\":[1.5,1.5,1.5],\"q\":{\"b\":1.5,\"arr\":[1.5,1.5,1.5],\"a\":{\"x\":[1.5],\"y\":\"x\"}},\"wxy\":123},\"e\":{\"map\":{\"3\":3},\"list\":[3,3,3],\"q\":{\"b\":3,\"arr\":[3,3,3],\"a\":{\"x\":[3],\"y\":\"x\"}},\"z\":42,\"c\":{\"b\":5,\"arr\":[5,5,5],\"a\":{\"x\":[5],\"y\":\"x\"}}}}\">\nto be equal to:\n <\"{\"e\":{\"q\":{\"b\":3,\"a\":{\"x\":[3],\"y\":\"x\"},\"arr\":[3,3,3]},\"map\":{\"3\":3},\"list\":[3,3,3],\"c\":{\"b\":5,\"a\":{\"x\":[5],\"y\":\"x\"},\"arr\":[5,5,5]},\"z\":42},\"f\":{\"z\":1.5,\"q\":{\"b\":1.5,\"a\":{\"x\":[1.5],\"y\":\"x\"},\"arr\":[1.5,1.5,1.5]},\"map\":{\"1.5\":1.5},\"list\":[1.5,1.5,1.5],\"wxy\":123}}\">\nbut was not.\norg.opentest4j.AssertionFailedError: \n\nExpecting:\n <\"{\"f\":{\"z\":1.5,\"map\":{\"1.5\":1.5},\"list\":[1.5,1.5,1.5],\"q\":{\"b\":1.5,\"arr\":[1.5,1.5,1.5],\"a\":{\"x\":[1.5],\"y\":\"x\"}},\"wxy\":123},\"e\":{\"map\":{\"3\":3},\"list\":[3,3,3],\"q\":{\"b\":3,\"arr\":[3,3,3],\"a\":{\"x\":[3],\"y\":\"x\"}},\"z\":42,\"c\":{\"b\":5,\"arr\":[5,5,5],\"a\":{\"x\":[5],\"y\":\"x\"}}}}\">\nto be equal to:\n <\"{\"e\":{\"q\":{\"b\":3,\"a\":{\"x\":[3],\"y\":\"x\"},\"arr\":[3,3,3]},\"map\":{\"3\":3},\"list\":[3,3,3],\"c\":{\"b\":5,\"a\":{\"x\":[5],\"y\":\"x\"},\"arr\":[5,5,5]},\"z\":42},\"f\":{\"z\":1.5,\"q\":{\"b\":1.5,\"a\":{\"x\":[1.5],\"y\":\"x\"},\"arr\":[1.5,1.5,1.5]},\"map\":{\"1.5\":1.5},\"list\":[1.5,1.5,1.5],\"wxy\":123}}\">\nbut was not.\n\tat io.github.classgraph.json.JSONSerializationTest.testJSON(JSONSerializationTest.java:263)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "7c0ce9bccd4cb0094d9bea4c7743fa0fc7c9dbadbb4962c6fee99faee42b2e5c"
+}

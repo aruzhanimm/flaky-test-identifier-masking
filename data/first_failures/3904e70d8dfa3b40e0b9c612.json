@@ -1,0 +1,218 @@
+{
+  "container": "quickcheck4864",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "quickcheck4864",
+    "project": "https://github.com/pholser/junit-quickcheck",
+    "revision": "2591c7e16793f4d036a9839525b23c9a114b2eb9",
+    "test": "com.pholser.junit.quickcheck.PropertyTupleSampleSizeTest.shouldFeedADefaultNumberOfValuesToAProperty",
+    "label": "NIO",
+    "module": "core",
+    "zip": "quickcheck485",
+    "config_row": 1014,
+    "configured_test": "com.pholser.junit.quickcheck.PropertyTupleSampleSizeTest#shouldFeedADefaultNumberOfValuesToAProperty",
+    "configured_type": "nio",
+    "iterations": "10",
+    "test_id": "https://github.com/pholser/junit-quickcheck::com.pholser.junit.quickcheck.PropertyTupleSampleSizeTest.shouldFeedADefaultNumberOfValuesToAProperty",
+    "variant_id": "https://github.com/pholser/junit-quickcheck::com.pholser.junit.quickcheck.PropertyTupleSampleSizeTest.shouldFeedADefaultNumberOfValuesToAProperty::2591c7e16793f4d036a9839525b23c9a114b2eb9::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/quickcheck4864/result/Flaky/rounds-test-results.csv",
+        "size": 9780,
+        "compressed": 573,
+        "crc32": "2e7426a6",
+        "offset": 28165421,
+        "method": 8,
+        "local_path": "data/extracted/44f4dbf4942b07d8a29665b2.csv",
+        "sha256": "4a71f8656c5d8482a53de0737a2346bd234c6ed373c8badd1acc98d548b6db58",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/quickcheck4864/result/Flaky/rounds-test-results.csv",
+        "size": 9780,
+        "compressed": 573,
+        "crc32": "2e7426a6",
+        "offset": 28165421,
+        "method": 8,
+        "local_path": "data/extracted/44f4dbf4942b07d8a29665b2.csv",
+        "sha256": "4a71f8656c5d8482a53de0737a2346bd234c6ed373c8badd1acc98d548b6db58",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/quickcheck4864/result/Flaky/rounds-test-results.csv",
+        "size": 9780,
+        "compressed": 573,
+        "crc32": "2e7426a6",
+        "offset": 28165421,
+        "method": 8,
+        "local_path": "data/extracted/44f4dbf4942b07d8a29665b2.csv",
+        "sha256": "4a71f8656c5d8482a53de0737a2346bd234c6ed373c8badd1acc98d548b6db58",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/quickcheck4864/result/Flaky/rounds-test-results.csv",
+        "size": 9780,
+        "compressed": 573,
+        "crc32": "2e7426a6",
+        "offset": 28165421,
+        "method": 8,
+        "local_path": "data/extracted/44f4dbf4942b07d8a29665b2.csv",
+        "sha256": "4a71f8656c5d8482a53de0737a2346bd234c6ed373c8badd1acc98d548b6db58",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 5,
+      "iteration": 4,
+      "member": {
+        "path": "result/quickcheck4864/result/Flaky/rounds-test-results.csv",
+        "size": 9780,
+        "compressed": 573,
+        "crc32": "2e7426a6",
+        "offset": 28165421,
+        "method": 8,
+        "local_path": "data/extracted/44f4dbf4942b07d8a29665b2.csv",
+        "sha256": "4a71f8656c5d8482a53de0737a2346bd234c6ed373c8badd1acc98d548b6db58",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 6,
+      "iteration": 5,
+      "member": {
+        "path": "result/quickcheck4864/result/Flaky/rounds-test-results.csv",
+        "size": 9780,
+        "compressed": 573,
+        "crc32": "2e7426a6",
+        "offset": 28165421,
+        "method": 8,
+        "local_path": "data/extracted/44f4dbf4942b07d8a29665b2.csv",
+        "sha256": "4a71f8656c5d8482a53de0737a2346bd234c6ed373c8badd1acc98d548b6db58",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 7,
+      "iteration": 6,
+      "member": {
+        "path": "result/quickcheck4864/result/Flaky/rounds-test-results.csv",
+        "size": 9780,
+        "compressed": 573,
+        "crc32": "2e7426a6",
+        "offset": 28165421,
+        "method": 8,
+        "local_path": "data/extracted/44f4dbf4942b07d8a29665b2.csv",
+        "sha256": "4a71f8656c5d8482a53de0737a2346bd234c6ed373c8badd1acc98d548b6db58",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 8,
+      "iteration": 7,
+      "member": {
+        "path": "result/quickcheck4864/result/Flaky/rounds-test-results.csv",
+        "size": 9780,
+        "compressed": 573,
+        "crc32": "2e7426a6",
+        "offset": 28165421,
+        "method": 8,
+        "local_path": "data/extracted/44f4dbf4942b07d8a29665b2.csv",
+        "sha256": "4a71f8656c5d8482a53de0737a2346bd234c6ed373c8badd1acc98d548b6db58",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 9,
+      "iteration": 8,
+      "member": {
+        "path": "result/quickcheck4864/result/Flaky/rounds-test-results.csv",
+        "size": 9780,
+        "compressed": 573,
+        "crc32": "2e7426a6",
+        "offset": 28165421,
+        "method": 8,
+        "local_path": "data/extracted/44f4dbf4942b07d8a29665b2.csv",
+        "sha256": "4a71f8656c5d8482a53de0737a2346bd234c6ed373c8badd1acc98d548b6db58",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 10,
+      "iteration": 9,
+      "member": {
+        "path": "result/quickcheck4864/result/Flaky/rounds-test-results.csv",
+        "size": 9780,
+        "compressed": 573,
+        "crc32": "2e7426a6",
+        "offset": 28165421,
+        "method": 8,
+        "local_path": "data/extracted/44f4dbf4942b07d8a29665b2.csv",
+        "sha256": "4a71f8656c5d8482a53de0737a2346bd234c6ed373c8badd1acc98d548b6db58",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    }
+  ],
+  "status": "no_confirmed_target_diagnostic",
+  "outcome_rows": 10,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/quickcheck4864/result/Flaky/rounds-test-results.csv",
+    "size": 9780,
+    "compressed": 573,
+    "crc32": "2e7426a6",
+    "offset": 28165421,
+    "method": 8,
+    "local_path": "data/extracted/44f4dbf4942b07d8a29665b2.csv",
+    "sha256": "4a71f8656c5d8482a53de0737a2346bd234c6ed373c8badd1acc98d548b6db58",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10
+}

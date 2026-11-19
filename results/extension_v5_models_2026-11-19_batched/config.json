@@ -1,0 +1,157 @@
+{
+  "original": {
+    "protocol": "protocol_v3_RU.txt",
+    "seed": 20261013,
+    "primary_labels": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "sensitivity_labels": [
+      "ID",
+      "OD",
+      "TD"
+    ],
+    "minimum_project_groups_per_class": 3,
+    "cv": "LeaveOneGroupOut",
+    "vectorizer": {
+      "lowercase": true,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "token_pattern": "(?u)\\b\\w\\w+\\b",
+      "min_df": 1,
+      "max_features": 30000,
+      "sublinear_tf": true,
+      "norm": "l2"
+    },
+    "classifier": {
+      "C": 1.0,
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "class_weight": "balanced",
+      "random_state": 20261013
+    },
+    "bootstrap_resamples": 5000,
+    "zero_division": 0,
+    "test_unit": "one representative confirmed target failure per canonical test",
+    "status": "Frozen before final modelling; numerical hyperparameters unchanged from pre-pilot config v1"
+  },
+  "word": {
+    "lowercase": true,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "token_pattern": "(?u)\\b\\w\\w+\\b",
+    "min_df": 1,
+    "max_features": 30000,
+    "sublinear_tf": true,
+    "norm": "l2"
+  },
+  "char": {
+    "analyzer": "char",
+    "ngram_range": [
+      3,
+      5
+    ],
+    "lowercase": true,
+    "min_df": 1,
+    "max_features": 30000,
+    "sublinear_tf": true,
+    "norm": "l2"
+  },
+  "learners": {
+    "lr": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 2000,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": 20261013,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "svc": {
+      "C": 1,
+      "class_weight": "balanced",
+      "dual": "auto",
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "loss": "squared_hinge",
+      "max_iter": 10000,
+      "multi_class": "ovr",
+      "penalty": "l2",
+      "random_state": 20261013,
+      "tol": 0.0001,
+      "verbose": 0
+    },
+    "cnb": {
+      "alpha": 1.0,
+      "class_prior": null,
+      "fit_prior": true,
+      "force_alpha": true,
+      "norm": false
+    },
+    "lr_c0p1": {
+      "C": 0.1,
+      "class_weight": "balanced",
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 2000,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": 20261013,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "lr_c10": {
+      "C": 10.0,
+      "class_weight": "balanced",
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 2000,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": 20261013,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "conditions": [
+    "word_lr_original",
+    "word_lr_masked",
+    "word_svc_original",
+    "word_svc_masked",
+    "word_cnb_original",
+    "word_cnb_masked",
+    "char_lr_original",
+    "char_lr_masked",
+    "char_svc_original",
+    "char_svc_masked",
+    "char_cnb_original",
+    "char_cnb_masked",
+    "word_lr_c0p1_original",
+    "word_lr_c0p1_masked",
+    "word_lr_c10_original",
+    "word_lr_c10_masked"
+  ],
+  "bootstrap_resamples": 5000,
+  "bootstrap_seed": 20261013
+}

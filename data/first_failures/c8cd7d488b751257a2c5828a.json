@@ -1,0 +1,81 @@
+{
+  "container": "biojavabiojavastructure65ad15ftestBasePair",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "biojavabiojavastructure65ad15ftestBasePair",
+    "project": "https://github.com/biojava/biojava",
+    "revision": "65ad15fe58dcedd258fee1c14505e424c8536efc",
+    "test": "org.biojava.nbio.structure.basepairs.TestBasePairParameters.testBasePair",
+    "label": "ID",
+    "module": "biojava-structure",
+    "zip": "biojava=biojava-structure=65ad15f",
+    "config_row": 569,
+    "configured_test": "org.biojava.nbio.structure.basepairs.TestBasePairParameters#testBasePair",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.basepairs.TestBasePairParameters.testBasePair",
+    "variant_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.basepairs.TestBasePairParameters.testBasePair::65ad15fe58dcedd258fee1c14505e424c8536efc::biojava-structure",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/biojavabiojavastructure65ad15ftestBasePair/result/Flaky/.nondex/mr6p9MFH8fzBH1Pm7eyafZNguMzmN3R5u2fcOmw+Oc=/TEST-org.biojava.nbio.structure.basepairs.TestBasePairParameters.xml",
+        "size": 12025,
+        "compressed": 2502,
+        "crc32": "2f43088d",
+        "offset": 346890169,
+        "method": 8,
+        "local_path": "data/extracted/3149b6969e3d37e4f8626aef.xml",
+        "sha256": "78a159321edc9669d9f513f42fa40c14d57c9d1a3199d59585c1ac50abdd6294",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestBasePair/result/Flaky/rounds-test-results.csv",
+    "size": 20769,
+    "compressed": 5050,
+    "crc32": "866e6e10",
+    "offset": 346763568,
+    "method": 8,
+    "local_path": "data/extracted/18a66ce706da4e68c8700b12.csv",
+    "sha256": "44bf20e52563a26cb79ca740233caaa2270b0f38cb1c4fa630c89900f0290451",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestBasePair/result/Flaky/.nondex/mr6p9MFH8fzBH1Pm7eyafZNguMzmN3R5u2fcOmw+Oc=/TEST-org.biojava.nbio.structure.basepairs.TestBasePairParameters.xml",
+    "size": 12025,
+    "compressed": 2502,
+    "crc32": "2f43088d",
+    "offset": 346890169,
+    "method": 8,
+    "local_path": "data/extracted/3149b6969e3d37e4f8626aef.xml",
+    "sha256": "78a159321edc9669d9f513f42fa40c14d57c9d1a3199d59585c1ac50abdd6294",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testBasePair",
+    "outcome": "error",
+    "exception_type": "java.net.UnknownHostException",
+    "message": "mmtf.rcsb.org",
+    "stack_trace": "java.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.basepairs.TestBasePairParameters.testBasePair(TestBasePairParameters.java:47)",
+    "text": "java.net.UnknownHostException\nmmtf.rcsb.org\njava.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.basepairs.TestBasePairParameters.testBasePair(TestBasePairParameters.java:47)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "899581ce5ac246d352174ec847c8e066cd6931755ee39a5b1f32acd51aea8db0"
+}

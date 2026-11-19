@@ -1,0 +1,5844 @@
+[
+  {
+    "fold": 0,
+    "fit_text": "O",
+    "vocabulary_size": 20589,
+    "vocabulary_sha256": "e0ee580edcedb60eb31cb7c61a580a36a11cb62d76a6c001ad920987c3f89273",
+    "idf_sha256": "623c0fb880cc7f6ffefcb0b24b8915bd1c5a8f0b14730055e4beb18046a029c2",
+    "training_nnz": {
+      "O": 138280,
+      "M": 126262
+    },
+    "test_nnz": {
+      "O": 24692,
+      "M": 24563
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 0,
+    "fit_text": "M",
+    "vocabulary_size": 16607,
+    "vocabulary_sha256": "06669873e4a838ef5a88634cf04f5a5269d729f421822e30533d0258c7b19271",
+    "idf_sha256": "1b5373f8d2b6b4d04ca70891115738d5c78403098c8710ec683435b6ca466d04",
+    "training_nnz": {
+      "O": 128494,
+      "M": 132729
+    },
+    "test_nnz": {
+      "O": 24690,
+      "M": 25163
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 1,
+    "fit_text": "O",
+    "vocabulary_size": 21142,
+    "vocabulary_sha256": "df885f3a2f71bb14384663e953126b89ce588adfbc78b96486c80dab70cd81c7",
+    "idf_sha256": "01f7e9bd757c67483a18697d4fcc4dc45cc0e4ea2c564bbf823abbd6d27c2b8b",
+    "training_nnz": {
+      "O": 165315,
+      "M": 151790
+    },
+    "test_nnz": {
+      "O": 442,
+      "M": 430
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 1,
+    "fit_text": "M",
+    "vocabulary_size": 16835,
+    "vocabulary_sha256": "59e40cf9a38ebc94e14ad1f59d71b2997f01c2e1c407f0f5fa0b8c747033bd05",
+    "idf_sha256": "638568c0e352753f8d8a777b2a4b12bdcac63b43d2a0054a755583d6be62e926",
+    "training_nnz": {
+      "O": 154504,
+      "M": 158964
+    },
+    "test_nnz": {
+      "O": 440,
+      "M": 442
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 2,
+    "fit_text": "O",
+    "vocabulary_size": 21128,
+    "vocabulary_sha256": "2a68769f57b29ecd01cc205575bf4f305a6799ada915122eb064cf74637ec007",
+    "idf_sha256": "d650a38d6541e5d208b2a098b077befefc3d021428f9534cbc1cab07a6813236",
+    "training_nnz": {
+      "O": 165623,
+      "M": 152158
+    },
+    "test_nnz": {
+      "O": 90,
+      "M": 70
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 2,
+    "fit_text": "M",
+    "vocabulary_size": 16837,
+    "vocabulary_sha256": "1ae48d7facfea601f008a6e7c4cb05aa92fca9e42b0278fef3cf66b232256330",
+    "idf_sha256": "69d163ef520f1f1f8508bd8ba713b51f4d6d23cac55cc9272613d8000e1998d0",
+    "training_nnz": {
+      "O": 154862,
+      "M": 159320
+    },
+    "test_nnz": {
+      "O": 90,
+      "M": 94
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 3,
+    "fit_text": "O",
+    "vocabulary_size": 21092,
+    "vocabulary_sha256": "3080ae29346da8f218a6ed50a55c10f76f5d2d7c16c85cfe1a28c52100c8e0ed",
+    "idf_sha256": "5399f5ebdeca485c4faba9dd5a31b56f1025d057c5efabf82be0c54e46ca7cf5",
+    "training_nnz": {
+      "O": 163345,
+      "M": 149886
+    },
+    "test_nnz": {
+      "O": 2329,
+      "M": 2314
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 3,
+    "fit_text": "M",
+    "vocabulary_size": 16818,
+    "vocabulary_sha256": "9d64e474c469bbacdecb4aa9e03c3f7faa25254d5ea907dbceee8b74f06f87ec",
+    "idf_sha256": "35ba248f6833b4ef1b900857c74db00b820dfb53e2c4f1b1d56f38a4f2a9a941",
+    "training_nnz": {
+      "O": 152607,
+      "M": 157000
+    },
+    "test_nnz": {
+      "O": 2317,
+      "M": 2386
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 4,
+    "fit_text": "O",
+    "vocabulary_size": 21033,
+    "vocabulary_sha256": "c141844208151b3be56ad87f7f96117f09d063bb81aad00962046e30c3e72e27",
+    "idf_sha256": "752fb932c2193fd2cf68beaa4a4950ee69c0156f5e2f4d35381a2ca55666ef8d",
+    "training_nnz": {
+      "O": 165512,
+      "M": 152027
+    },
+    "test_nnz": {
+      "O": 105,
+      "M": 92
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 4,
+    "fit_text": "M",
+    "vocabulary_size": 16743,
+    "vocabulary_sha256": "39adc4fe4753d2cf6679461e808fec3a8a4f05fec9551a94d3c9a1edad9c4da0",
+    "idf_sha256": "37bd2a97dc032c15060f3fb99969897149036481cbf25c799b386ca06fb9e90f",
+    "training_nnz": {
+      "O": 154736,
+      "M": 159183
+    },
+    "test_nnz": {
+      "O": 102,
+      "M": 119
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 5,
+    "fit_text": "O",
+    "vocabulary_size": 21128,
+    "vocabulary_sha256": "d28a9d9088a55b162b482bcb6fc65506c3cc8d2de9f6fb8ace37ffb6ee089152",
+    "idf_sha256": "628e663d4aae955ae69f83c54540835ac57adf578045b903644acdd59f6a592e",
+    "training_nnz": {
+      "O": 165639,
+      "M": 152148
+    },
+    "test_nnz": {
+      "O": 106,
+      "M": 92
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 5,
+    "fit_text": "M",
+    "vocabulary_size": 16837,
+    "vocabulary_sha256": "c5b5837f65d29b75bf10e21d45b39eaac138c84b331fb4d03311ffbe99d7273e",
+    "idf_sha256": "80d8ac44ea8fa15c0856295876beab1c086b2c53b6888f65e9a58504424b8dcf",
+    "training_nnz": {
+      "O": 154862,
+      "M": 159304
+    },
+    "test_nnz": {
+      "O": 102,
+      "M": 122
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 6,
+    "fit_text": "O",
+    "vocabulary_size": 21103,
+    "vocabulary_sha256": "e0a9c6618b12e1ce7f43d2424cdef779f326d18c6aa83040ecc5f3823a96fccd",
+    "idf_sha256": "e114d0d4a3c0f2bbf21dc306ce8b1ca52d3e1132f58c9c7c7bb37964275a9ca6",
+    "training_nnz": {
+      "O": 165407,
+      "M": 151904
+    },
+    "test_nnz": {
+      "O": 325,
+      "M": 302
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 6,
+    "fit_text": "M",
+    "vocabulary_size": 16801,
+    "vocabulary_sha256": "5e0b68770a2a3c1e8d5dacd80fd31163754ce7c9b9ff30af1af2346b3f27f900",
+    "idf_sha256": "e591947ae60deda31442645804b029d636d51912ea5fca962efcbddecc935cc6",
+    "training_nnz": {
+      "O": 154604,
+      "M": 159068
+    },
+    "test_nnz": {
+      "O": 324,
+      "M": 319
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 7,
+    "fit_text": "O",
+    "vocabulary_size": 21131,
+    "vocabulary_sha256": "549c844e43b2182d6a2e73086c79f0814988988654c98d52fee4c5453dc87ff7",
+    "idf_sha256": "b499bf3b5154e33f635aee697726b25f6ea2883b6847b43c33059f1293ed38d1",
+    "training_nnz": {
+      "O": 165644,
+      "M": 152147
+    },
+    "test_nnz": {
+      "O": 95,
+      "M": 83
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 7,
+    "fit_text": "M",
+    "vocabulary_size": 16834,
+    "vocabulary_sha256": "fb0d049c05d929e0eadd1ef24aa6b470f6a66450a6c29c44f1501658ed7e3ce8",
+    "idf_sha256": "eec6e0b4edf9c13885565dab9ae3c1d0dd05171a281aab9b393a7523bd2eeba6",
+    "training_nnz": {
+      "O": 154859,
+      "M": 159309
+    },
+    "test_nnz": {
+      "O": 95,
+      "M": 107
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 8,
+    "fit_text": "O",
+    "vocabulary_size": 21160,
+    "vocabulary_sha256": "018bd8b7763efab14a9b3c634ce304c0dd28911e22090b35b89c3242c43e28c7",
+    "idf_sha256": "9d56f89db744efc7e9c3bfc0d896a77aa9b653ac9f750352ab6d9fd26a1a76ee",
+    "training_nnz": {
+      "O": 165719,
+      "M": 152190
+    },
+    "test_nnz": {
+      "O": 74,
+      "M": 66
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 8,
+    "fit_text": "M",
+    "vocabulary_size": 16853,
+    "vocabulary_sha256": "7b24684fe4050cae0adb406757ffe0f2d85cc89c73c365aac2fa4e5218484d72",
+    "idf_sha256": "12065aad6092a5ebb6fca85868d4bbe5e9341ebf90c3d0f40eaca44143717eba",
+    "training_nnz": {
+      "O": 154908,
+      "M": 159364
+    },
+    "test_nnz": {
+      "O": 72,
+      "M": 78
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 9,
+    "fit_text": "O",
+    "vocabulary_size": 19052,
+    "vocabulary_sha256": "8eede9ddc5ae6c94da8f5e2e001fb8fa03e0afa519f6778af08d47c1c5fe7273",
+    "idf_sha256": "5af19745944a582dcbbd6ef04c7d01b874600e19ae8bbd9b168e26b2323fede5",
+    "training_nnz": {
+      "O": 162160,
+      "M": 148667
+    },
+    "test_nnz": {
+      "O": 1495,
+      "M": 1479
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 9,
+    "fit_text": "M",
+    "vocabulary_size": 14760,
+    "vocabulary_sha256": "68d6fd986b01e4d2775bfc853bdd05cb21e010f8cb649ff7acc7007121f4b0ac",
+    "idf_sha256": "37e269ea345a336895c0a9a0c9e70bc3e0f47e1840e57974c90c1b4ef0b2a09b",
+    "training_nnz": {
+      "O": 151382,
+      "M": 155805
+    },
+    "test_nnz": {
+      "O": 1486,
+      "M": 1520
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 10,
+    "fit_text": "O",
+    "vocabulary_size": 21081,
+    "vocabulary_sha256": "0c4900a022081a9eb19b2c1ef1b518984ee403971302cf98826db141faa312e1",
+    "idf_sha256": "7132d09d96cc7d5bf83e1c35a07a00b03dd4dec7a29c40321d026ee93425a8d2",
+    "training_nnz": {
+      "O": 165608,
+      "M": 152058
+    },
+    "test_nnz": {
+      "O": 116,
+      "M": 117
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 10,
+    "fit_text": "M",
+    "vocabulary_size": 16764,
+    "vocabulary_sha256": "dacf5b1798f7a553f3ee6d3d821442386e1b7c05e58f5f9994c098fa9f8a845a",
+    "idf_sha256": "61a7a82b15077d175801e48e12aaaa87bacaebbda5429f9c2f28749207320a6b",
+    "training_nnz": {
+      "O": 154774,
+      "M": 159231
+    },
+    "test_nnz": {
+      "O": 114,
+      "M": 123
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 11,
+    "fit_text": "O",
+    "vocabulary_size": 21116,
+    "vocabulary_sha256": "7fa78d5012c792612bc08fcb891d5473081305d3db085469fef4734d239fd6f9",
+    "idf_sha256": "31d785a17ad69dacd6c63d39c190db8d36f63de78c3d01ca823ecfbd0856c3df",
+    "training_nnz": {
+      "O": 165563,
+      "M": 152014
+    },
+    "test_nnz": {
+      "O": 196,
+      "M": 194
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 11,
+    "fit_text": "M",
+    "vocabulary_size": 16804,
+    "vocabulary_sha256": "cbd0b1c2249852bb49305fe008512e3af3db0eafa41b60b70a1762b529dce7be",
+    "idf_sha256": "a31099a095adb4348501ae0837c3afb24c71d49b93e53cfd9a8edf0d6bcea6f2",
+    "training_nnz": {
+      "O": 154736,
+      "M": 159194
+    },
+    "test_nnz": {
+      "O": 196,
+      "M": 200
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 12,
+    "fit_text": "O",
+    "vocabulary_size": 21025,
+    "vocabulary_sha256": "cdfbc67809b4f2ef4fef487d4e78994b02252b04be57a4a85bb7591dc108b006",
+    "idf_sha256": "943e711cce35ca727b9c9d9e13d8d426eea729fb3eddcd6b498e0e21345fa29c",
+    "training_nnz": {
+      "O": 164955,
+      "M": 151490
+    },
+    "test_nnz": {
+      "O": 686,
+      "M": 661
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 12,
+    "fit_text": "M",
+    "vocabulary_size": 16744,
+    "vocabulary_sha256": "21500c25ace47ea34d0e7a47b30b2bbc76fca4bb2f3b5349cf0172b4fa715f01",
+    "idf_sha256": "3ec2b2bcebcbe7b9bdbb2ff0575d7c63bde397dd1a7540a088b1b0ca5bfe2d2e",
+    "training_nnz": {
+      "O": 154189,
+      "M": 158622
+    },
+    "test_nnz": {
+      "O": 686,
+      "M": 706
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 13,
+    "fit_text": "O",
+    "vocabulary_size": 21065,
+    "vocabulary_sha256": "a2de50eeed5c707be3cf5cc9a4eaff515436d92443d34f6188b312bab126cd49",
+    "idf_sha256": "87841e48b08e16a4970aae471e1ccba98653e6cbaf5ef4d1f62acd7f414cbcfd",
+    "training_nnz": {
+      "O": 165119,
+      "M": 151620
+    },
+    "test_nnz": {
+      "O": 442,
+      "M": 434
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 13,
+    "fit_text": "M",
+    "vocabulary_size": 16776,
+    "vocabulary_sha256": "3be85b4d7e6ad333ed3e98b7c3d28600ce4dbce46b2ab976e9797c3137c57e24",
+    "idf_sha256": "f4e09feda367c9384d41c8d8702d1bbc766448a975c207db4dafcfe4d0049422",
+    "training_nnz": {
+      "O": 154331,
+      "M": 158772
+    },
+    "test_nnz": {
+      "O": 428,
+      "M": 458
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 14,
+    "fit_text": "O",
+    "vocabulary_size": 21082,
+    "vocabulary_sha256": "a2e1d7bf7d371a4c670b4248e93b3b3b3baf8db0a2534f9ebf92fc2dfb1219a1",
+    "idf_sha256": "7a8aa73c72ea552137be797719445bb249b6889d5d25f19c38dfb2e6dade3275",
+    "training_nnz": {
+      "O": 165651,
+      "M": 152132
+    },
+    "test_nnz": {
+      "O": 64,
+      "M": 48
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 14,
+    "fit_text": "M",
+    "vocabulary_size": 16776,
+    "vocabulary_sha256": "09c96fc498aa84fb3ab2a0de5ede701141f9a1069ab61d80895e7cf2ff241e06",
+    "idf_sha256": "5bd9e1332700ee6f44d212679bdaad4b5be0638c6d8382c732208919bfb95e73",
+    "training_nnz": {
+      "O": 154844,
+      "M": 159306
+    },
+    "test_nnz": {
+      "O": 60,
+      "M": 60
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 15,
+    "fit_text": "O",
+    "vocabulary_size": 21137,
+    "vocabulary_sha256": "778cd59b91378dd24306db7201898e35da2c1202a25c91e48bb592704e7501a0",
+    "idf_sha256": "2a0d9ab3fe26eb5eef645c49cdfe17176840dda557e276a36d30faa8d3cbf951",
+    "training_nnz": {
+      "O": 165144,
+      "M": 151631
+    },
+    "test_nnz": {
+      "O": 605,
+      "M": 597
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 15,
+    "fit_text": "M",
+    "vocabulary_size": 16833,
+    "vocabulary_sha256": "97505d93e38a05bd15d69360ac865552bad98de0472061edd7beee3a177863e6",
+    "idf_sha256": "a39ff6fa240308c0abd7f324e22fb9f3155e61a4006bc5965be6c043e05d23de",
+    "training_nnz": {
+      "O": 154349,
+      "M": 158799
+    },
+    "test_nnz": {
+      "O": 603,
+      "M": 615
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 16,
+    "fit_text": "O",
+    "vocabulary_size": 21005,
+    "vocabulary_sha256": "a53ecbad4f3d9cd809f7a729b9ffb92d16074b6c0e115d7c81426d7b89758c20",
+    "idf_sha256": "ed34f4f51edcbce4e96d66399427f8573674656fd175065e5b1473538b73bb75",
+    "training_nnz": {
+      "O": 165101,
+      "M": 151726
+    },
+    "test_nnz": {
+      "O": 448,
+      "M": 379
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 16,
+    "fit_text": "M",
+    "vocabulary_size": 16748,
+    "vocabulary_sha256": "981d2b475446cb212d30d7890c00c49230381dc45c6ff75ff8476597728d35d5",
+    "idf_sha256": "b4f5aed28809c863687e1f4f1e0266c644632d92fe87b44096dcd4d227f84e66",
+    "training_nnz": {
+      "O": 154395,
+      "M": 158842
+    },
+    "test_nnz": {
+      "O": 434,
+      "M": 449
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 17,
+    "fit_text": "O",
+    "vocabulary_size": 21088,
+    "vocabulary_sha256": "385341540f597df54196f93aaa817c75fd487b56ddfe93a859c87f13cf30ba12",
+    "idf_sha256": "24df61fb9f79dd2da179049fdaa491acb74fa37f6b27221ccec93f1d35834e48",
+    "training_nnz": {
+      "O": 165322,
+      "M": 151779
+    },
+    "test_nnz": {
+      "O": 404,
+      "M": 404
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 17,
+    "fit_text": "M",
+    "vocabulary_size": 16777,
+    "vocabulary_sha256": "d9748d865190d81bb5e29f3d4869e1746a06a927c1179acc19943a3c47b2eb24",
+    "idf_sha256": "bf02ef950070570477d27880da207b2fc0800b49b072f795758b4b81795dc7a1",
+    "training_nnz": {
+      "O": 154499,
+      "M": 158949
+    },
+    "test_nnz": {
+      "O": 404,
+      "M": 418
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 18,
+    "fit_text": "O",
+    "vocabulary_size": 20997,
+    "vocabulary_sha256": "c465a64fc12371240c952fde068f4cac3a8e96ff044fa6ea39edd0ec9701c2ee",
+    "idf_sha256": "17546a9f076672d542ddec367582e1abacc9127e6a17a08b950cbcab503e2353",
+    "training_nnz": {
+      "O": 164370,
+      "M": 150538
+    },
+    "test_nnz": {
+      "O": 1176,
+      "M": 1164
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 18,
+    "fit_text": "M",
+    "vocabulary_size": 16707,
+    "vocabulary_sha256": "0828820f801254338ecc2291c9e6232a59350c27a268a377bbd7ae2e9511f0f7",
+    "idf_sha256": "1aef5e9c9a40f7f21152aa96e80beddbf56d512028c761a82ff9365ecd709ceb",
+    "training_nnz": {
+      "O": 153588,
+      "M": 158019
+    },
+    "test_nnz": {
+      "O": 1167,
+      "M": 1197
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 19,
+    "fit_text": "O",
+    "vocabulary_size": 20814,
+    "vocabulary_sha256": "e40daa2664c73181ae34aaa1183e88ae04cf730c7ba549ea741e66ef80ef3e8e",
+    "idf_sha256": "ff77dc7aa85a0387ad5415056de5e5b56b4e1dee3ce73d961553138d276f46cc",
+    "training_nnz": {
+      "O": 165092,
+      "M": 151663
+    },
+    "test_nnz": {
+      "O": 240,
+      "M": 194
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 19,
+    "fit_text": "M",
+    "vocabulary_size": 16537,
+    "vocabulary_sha256": "5243da851021cb6dbc992e129bb6d3c372778ebeba102bda306e438a0ef4dc90",
+    "idf_sha256": "b9356d68472242db6a231ee568003a87db979c26f0c6ce5fbda44ee26ea7862d",
+    "training_nnz": {
+      "O": 154344,
+      "M": 158801
+    },
+    "test_nnz": {
+      "O": 229,
+      "M": 239
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 20,
+    "fit_text": "O",
+    "vocabulary_size": 21135,
+    "vocabulary_sha256": "b65556b1d0565380b20074d67f675221731d57bc045be83299bbbc402e298367",
+    "idf_sha256": "1e1c252325891d32bcd4da6a3a737bb0dace0c6b985a2b0bf5c2c60d2e6f220c",
+    "training_nnz": {
+      "O": 165530,
+      "M": 152067
+    },
+    "test_nnz": {
+      "O": 147,
+      "M": 133
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 20,
+    "fit_text": "M",
+    "vocabulary_size": 16843,
+    "vocabulary_sha256": "9f3232c16f8e030386d39d9895aa10b0f693da19860523f29cf5374649bcd5be",
+    "idf_sha256": "3ab14c786b340cf6a9bd4b613feee3d3e77a5623ae9700d846c07447569e17a6",
+    "training_nnz": {
+      "O": 154784,
+      "M": 159211
+    },
+    "test_nnz": {
+      "O": 140,
+      "M": 175
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 21,
+    "fit_text": "O",
+    "vocabulary_size": 21118,
+    "vocabulary_sha256": "2fc942dfc53873dc134be4d3e17f8bd9c3ac3821420dc212c2b151e06fe5c127",
+    "idf_sha256": "9710f316deabf3f7fa6d9bc7ed13259c701dd80c5aad0ada0f7249b2fdfde472",
+    "training_nnz": {
+      "O": 165621,
+      "M": 152099
+    },
+    "test_nnz": {
+      "O": 78,
+      "M": 69
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 21,
+    "fit_text": "M",
+    "vocabulary_size": 16812,
+    "vocabulary_sha256": "b3dfc7f2fcba1d9e8757223f8cb221449da0594c8dfb47e655d110b494750996",
+    "idf_sha256": "8fd27eb865323d575d09c4222d263c033038139ed7e228fe1e185ec49b7d01fa",
+    "training_nnz": {
+      "O": 154814,
+      "M": 159267
+    },
+    "test_nnz": {
+      "O": 78,
+      "M": 87
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 22,
+    "fit_text": "O",
+    "vocabulary_size": 21150,
+    "vocabulary_sha256": "efc3b1969f23c0570a720afde94bd09fd4997fe871a52fb646610a8ef7ebeecb",
+    "idf_sha256": "2d49e0b14edfa245cebab873768eb1e26fe7ff6da1f000e995560ad1f96b1ca6",
+    "training_nnz": {
+      "O": 165743,
+      "M": 152196
+    },
+    "test_nnz": {
+      "O": 48,
+      "M": 46
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 22,
+    "fit_text": "M",
+    "vocabulary_size": 16840,
+    "vocabulary_sha256": "0efcc66eb440515b8771d74e8b477309179f249300fc78ee1671b7ba44cca3fa",
+    "idf_sha256": "b78421b28f25aa3ce2dbe1eec2ff6f658325f169d75cfba8a7178c939398e217",
+    "training_nnz": {
+      "O": 154918,
+      "M": 159376
+    },
+    "test_nnz": {
+      "O": 48,
+      "M": 52
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 23,
+    "fit_text": "O",
+    "vocabulary_size": 21088,
+    "vocabulary_sha256": "7f5dd7984a38a16e4b79bd21160a468be04b83c7d5be4da374d40698c551c993",
+    "idf_sha256": "924807793db8970862558b091ea3d5c0a1d562dde534120971c27de4ab51c726",
+    "training_nnz": {
+      "O": 165428,
+      "M": 151925
+    },
+    "test_nnz": {
+      "O": 234,
+      "M": 229
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 23,
+    "fit_text": "M",
+    "vocabulary_size": 16784,
+    "vocabulary_sha256": "9bd843a730b94cc8c66cf649c5183f7ccaa807a7f61ed8bf7d42a89bdf5184cc",
+    "idf_sha256": "9ad0482ff92835a645d55f19ecfd18e42dd1c947153bd0c511dde1464bc6a017",
+    "training_nnz": {
+      "O": 154628,
+      "M": 159083
+    },
+    "test_nnz": {
+      "O": 234,
+      "M": 249
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 24,
+    "fit_text": "O",
+    "vocabulary_size": 21123,
+    "vocabulary_sha256": "2e52f7076eb1a215ce25ceec3292517e84c3364b36d31d2a99ecbbee9ccc4688",
+    "idf_sha256": "6beae2e36a8ee8f8aab10f514656f53eb10719a61b0a05f9887c5c79c8a3a0a1",
+    "training_nnz": {
+      "O": 165703,
+      "M": 152174
+    },
+    "test_nnz": {
+      "O": 61,
+      "M": 50
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 24,
+    "fit_text": "M",
+    "vocabulary_size": 16820,
+    "vocabulary_sha256": "3d4eb899fde359e702b519d7d13a5e6ff367b8410eb2d4cd53b53422381bad67",
+    "idf_sha256": "3f95da4e03f66a41172dcf0b50676462b457f8422aba929776149059f44aaf44",
+    "training_nnz": {
+      "O": 154889,
+      "M": 159348
+    },
+    "test_nnz": {
+      "O": 59,
+      "M": 62
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 25,
+    "fit_text": "O",
+    "vocabulary_size": 21166,
+    "vocabulary_sha256": "18e7d8d6dfa8c5d1631708e734387cecf8c0e482d8c7c61a3622e1cb22753b34",
+    "idf_sha256": "b1882922e6da0d65a281c9732396b79731625f005f55dcea4ebfd1f0d96fc85a",
+    "training_nnz": {
+      "O": 165789,
+      "M": 152241
+    },
+    "test_nnz": {
+      "O": 20,
+      "M": 15
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 25,
+    "fit_text": "M",
+    "vocabulary_size": 16852,
+    "vocabulary_sha256": "4c184876e639f194c60552de80459676513ac9d850de4ba69bb664772117c52d",
+    "idf_sha256": "f258feaace4600e45e0516c845b152898c0199c62621aa8eb65ca5e8cd58dc2c",
+    "training_nnz": {
+      "O": 154960,
+      "M": 159421
+    },
+    "test_nnz": {
+      "O": 20,
+      "M": 21
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 26,
+    "fit_text": "O",
+    "vocabulary_size": 21121,
+    "vocabulary_sha256": "2e5331d81d0ffe0633e3599c631a83606fd289e63db063ace96497b4e2cdc08b",
+    "idf_sha256": "947958235aeacb832b7649742ab6b4aa06c6927e81f38891feb66ed5fd97e073",
+    "training_nnz": {
+      "O": 165363,
+      "M": 151822
+    },
+    "test_nnz": {
+      "O": 365,
+      "M": 367
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 26,
+    "fit_text": "M",
+    "vocabulary_size": 16810,
+    "vocabulary_sha256": "a674c9fecf5504c8cf5b8a0e0788b7450df3ca8a2fc5b534c840017e183b7397",
+    "idf_sha256": "440f36ef98f825336a659f1a16710a20561eaa376a30de3ed3ad5b1df9f595a9",
+    "training_nnz": {
+      "O": 154548,
+      "M": 158988
+    },
+    "test_nnz": {
+      "O": 365,
+      "M": 381
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 27,
+    "fit_text": "O",
+    "vocabulary_size": 20813,
+    "vocabulary_sha256": "083d6c11dab076cb62ee4c103265b56b43886c8d6e13b4ae5b61c5faa7bc8ab2",
+    "idf_sha256": "e37fe030d6715729d232e371393576715aad96d5841318abde323b70bfffa6ca",
+    "training_nnz": {
+      "O": 164473,
+      "M": 151165
+    },
+    "test_nnz": {
+      "O": 513,
+      "M": 490
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 27,
+    "fit_text": "M",
+    "vocabulary_size": 16556,
+    "vocabulary_sha256": "2a5352749693097c0e4d084e73e506a3ee9125108c7a574a795a5078b755ef6e",
+    "idf_sha256": "3172b05af9ffc25e2c6d9af409a2eef45c3ec054f1594ea07d2b8d7b5d6a7084",
+    "training_nnz": {
+      "O": 153854,
+      "M": 158197
+    },
+    "test_nnz": {
+      "O": 471,
+      "M": 543
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 28,
+    "fit_text": "O",
+    "vocabulary_size": 21168,
+    "vocabulary_sha256": "940ac9ec2f4c8cc769c9b1105482df6accd2f08b4bfd8ea2614922295f53a6f0",
+    "idf_sha256": "103e2839fbe438526958d74393ae042840ad69095286b9d80f3936b22c0b8c42",
+    "training_nnz": {
+      "O": 165788,
+      "M": 152241
+    },
+    "test_nnz": {
+      "O": 23,
+      "M": 17
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 28,
+    "fit_text": "M",
+    "vocabulary_size": 16854,
+    "vocabulary_sha256": "38f042ecfc2dd4fc1cb8c37237367b55731fbc16d9ff37d341b026365eeee7e9",
+    "idf_sha256": "1ae0168f24f379cd818b01af75422c6eb4063effe27693a622121e5efc679117",
+    "training_nnz": {
+      "O": 154961,
+      "M": 159421
+    },
+    "test_nnz": {
+      "O": 21,
+      "M": 23
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 29,
+    "fit_text": "O",
+    "vocabulary_size": 21133,
+    "vocabulary_sha256": "805204257034264ec8ae13360a49912c0c207b1e7f62dceba11c99f18c707013",
+    "idf_sha256": "68415951d96fdbead5c2ce50e81769a35e0e9e7b7c4f2e0cf719277f1c59fc7e",
+    "training_nnz": {
+      "O": 165726,
+      "M": 152197
+    },
+    "test_nnz": {
+      "O": 39,
+      "M": 35
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 29,
+    "fit_text": "M",
+    "vocabulary_size": 16828,
+    "vocabulary_sha256": "3eb2718d111608f8ae263bcdc95c107afe053589f577b705ff4f3c24206784cc",
+    "idf_sha256": "f2e026ab7f84cb2738b82c35f0f9716a8418ac9c646dd34e8085b6f3ca222d97",
+    "training_nnz": {
+      "O": 154919,
+      "M": 159371
+    },
+    "test_nnz": {
+      "O": 37,
+      "M": 47
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 30,
+    "fit_text": "O",
+    "vocabulary_size": 21172,
+    "vocabulary_sha256": "e41819bb1cdc71705c7bde2ea67ce1dabdc0abfe52a499c8795a148d6564e156",
+    "idf_sha256": "6bf2d7cf71ebefd5969d2839ceb29b477e19aa7e482b45e7e7d15a8a6aa18889",
+    "training_nnz": {
+      "O": 165790,
+      "M": 152229
+    },
+    "test_nnz": {
+      "O": 25,
+      "M": 25
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 30,
+    "fit_text": "M",
+    "vocabulary_size": 16850,
+    "vocabulary_sha256": "2dd2bbadace0a89ade6221bd02b42adab81b5e5990c78a304a3ab51b661a84bc",
+    "idf_sha256": "7c27743a49d314b5fb75da8d9635e6c95b4110741aaeb6ed9d04ae99295fbe3f",
+    "training_nnz": {
+      "O": 154953,
+      "M": 159415
+    },
+    "test_nnz": {
+      "O": 25,
+      "M": 25
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 31,
+    "fit_text": "O",
+    "vocabulary_size": 21176,
+    "vocabulary_sha256": "5ab61c37e9288e64dca18836cbe381c249e210a0f51b73e8eb888ca959eb0d7a",
+    "idf_sha256": "28482c0b755e1e6bb72821f0f4e092145b166fba5d08bb9a668bbf81b11f6a10",
+    "training_nnz": {
+      "O": 165805,
+      "M": 152244
+    },
+    "test_nnz": {
+      "O": 14,
+      "M": 14
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 31,
+    "fit_text": "M",
+    "vocabulary_size": 16854,
+    "vocabulary_sha256": "38f042ecfc2dd4fc1cb8c37237367b55731fbc16d9ff37d341b026365eeee7e9",
+    "idf_sha256": "4c85ac584fdfa63ba31365fb4bfc20b678636a85e868705b67fa7a384b15ac06",
+    "training_nnz": {
+      "O": 154968,
+      "M": 159430
+    },
+    "test_nnz": {
+      "O": 14,
+      "M": 14
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 32,
+    "fit_text": "O",
+    "vocabulary_size": 21093,
+    "vocabulary_sha256": "1b187ed3defed721957bd0aaa90081a9921ebcd66007d6b3458a6bad82ce8dd2",
+    "idf_sha256": "9a803b304a9dda3d74998bb27eda928a270dc5f31c7e0720677b472933c6892c",
+    "training_nnz": {
+      "O": 165414,
+      "M": 151965
+    },
+    "test_nnz": {
+      "O": 239,
+      "M": 199
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 32,
+    "fit_text": "M",
+    "vocabulary_size": 16805,
+    "vocabulary_sha256": "8be8860760de1eafdeda2992f183b334c2c8e5e86088d61234fb7e36b0864a76",
+    "idf_sha256": "3a6e27d180ea52c80430bd42534626ee4a5159a20e663c744d22a7ddebea446c",
+    "training_nnz": {
+      "O": 154657,
+      "M": 159103
+    },
+    "test_nnz": {
+      "O": 215,
+      "M": 239
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 33,
+    "fit_text": "O",
+    "vocabulary_size": 21165,
+    "vocabulary_sha256": "9d3d1bd09e90510638dcbf7c2759330f3af771baffb5748c430dc1e586c46b97",
+    "idf_sha256": "51e016f5548d61928d97a7b41a832843078f1665ee2204305deb4ca4aa333dea",
+    "training_nnz": {
+      "O": 165604,
+      "M": 152055
+    },
+    "test_nnz": {
+      "O": 204,
+      "M": 200
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 33,
+    "fit_text": "M",
+    "vocabulary_size": 16851,
+    "vocabulary_sha256": "eb1f4402b6546460d1df5fff85ea337ea01f7fad487ec30d59891c694dd0e258",
+    "idf_sha256": "9886fff53a3a3ebb0bd0fd805224dffc2ec96e19d2f627e21c4579d4d7376ab3",
+    "training_nnz": {
+      "O": 154776,
+      "M": 159235
+    },
+    "test_nnz": {
+      "O": 203,
+      "M": 206
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 34,
+    "fit_text": "O",
+    "vocabulary_size": 21062,
+    "vocabulary_sha256": "e1947991a522a2628eec6a5557c19cb53f6f8e92010503ea5ac800c4282a2b58",
+    "idf_sha256": "3eaf84ce09678886bd3edadd16f3377caf6e7ee8acf96a132b72f814c1c998fd",
+    "training_nnz": {
+      "O": 163937,
+      "M": 150499
+    },
+    "test_nnz": {
+      "O": 1713,
+      "M": 1680
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 34,
+    "fit_text": "M",
+    "vocabulary_size": 16783,
+    "vocabulary_sha256": "1799851d33b5507a8c82fb948d39a87d795fc4f2b425a7f0504fa27e18dd5b97",
+    "idf_sha256": "77d63139af1a67c05322a6d513efc661a727907e6ccf3f4d34d2b36fd8f70e1b",
+    "training_nnz": {
+      "O": 153198,
+      "M": 157623
+    },
+    "test_nnz": {
+      "O": 1705,
+      "M": 1734
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 35,
+    "fit_text": "O",
+    "vocabulary_size": 21101,
+    "vocabulary_sha256": "09d9a86b84703d2bf6fc62278c2baa6fbb9a1615d41670081395eb23ea4f899d",
+    "idf_sha256": "a070eed0e909a4422abd31506b68fea877c4ae3137cbc11fde4787003a6566b0",
+    "training_nnz": {
+      "O": 165697,
+      "M": 152149
+    },
+    "test_nnz": {
+      "O": 47,
+      "M": 45
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 35,
+    "fit_text": "M",
+    "vocabulary_size": 16789,
+    "vocabulary_sha256": "c10044e656e4e246eff23c08c5edf01cd87a2c6dc8d65cfea5309f6c655dfca5",
+    "idf_sha256": "231d6edacc945d14981e4c6630ed3a02cef9059e1d019f9cf2011304d2d155cb",
+    "training_nnz": {
+      "O": 154870,
+      "M": 159329
+    },
+    "test_nnz": {
+      "O": 46,
+      "M": 50
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 36,
+    "fit_text": "O",
+    "vocabulary_size": 21126,
+    "vocabulary_sha256": "f535a0bf7e49f294d2990b0eace9a9a5f676400be163e92d0e0821e0aa680acf",
+    "idf_sha256": "980bd1e1aa8af80f63df7757db740c7fd1862b588dbcb4dafb41dbcfa068d9c2",
+    "training_nnz": {
+      "O": 165578,
+      "M": 152031
+    },
+    "test_nnz": {
+      "O": 191,
+      "M": 187
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 36,
+    "fit_text": "M",
+    "vocabulary_size": 16814,
+    "vocabulary_sha256": "ff82dd9c7016bafd960bd2dae95fb1795477eec0f2a6aa3f3addd3842e26bf03",
+    "idf_sha256": "c8ff2cb0ac249790720e5b45716ce87a34c0ffd12a7c8a4e583d8eb5a047dc1f",
+    "training_nnz": {
+      "O": 154752,
+      "M": 159211
+    },
+    "test_nnz": {
+      "O": 190,
+      "M": 193
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 37,
+    "fit_text": "O",
+    "vocabulary_size": 21093,
+    "vocabulary_sha256": "90ef213b7a22d79c0509e96837734438de81f08a35de9ac3f35eee30ea8fad57",
+    "idf_sha256": "0329b6749a70d6d83b006c793741ffc3dadacd490e44f6d75684da082ae2d3b7",
+    "training_nnz": {
+      "O": 165474,
+      "M": 151932
+    },
+    "test_nnz": {
+      "O": 261,
+      "M": 260
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 37,
+    "fit_text": "M",
+    "vocabulary_size": 16787,
+    "vocabulary_sha256": "185ce1280d47c649b4f7c6de40535f5abc771dbeab586d71e28a8c40af3d1d39",
+    "idf_sha256": "70fbd049a0adfc026b3bab87dfdf405a5aa4eb168bc41b98d4788403886eccb6",
+    "training_nnz": {
+      "O": 154655,
+      "M": 159102
+    },
+    "test_nnz": {
+      "O": 261,
+      "M": 275
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 38,
+    "fit_text": "O",
+    "vocabulary_size": 21114,
+    "vocabulary_sha256": "013705b5a2d1dabcb6c499daf510ca9b195c7e2b266985830c8b4cc4c45d4fa7",
+    "idf_sha256": "fdced3055ecac6d74162f2be8298c654d8ca0170b99133f0ce7708b8fb11b159",
+    "training_nnz": {
+      "O": 165667,
+      "M": 152140
+    },
+    "test_nnz": {
+      "O": 70,
+      "M": 67
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 38,
+    "fit_text": "M",
+    "vocabulary_size": 16816,
+    "vocabulary_sha256": "3e99c2790abce4e5f14666c1c35ee2a7ed89fe9dfccbcf75fce91b50f5585858",
+    "idf_sha256": "2aa4f23b2052b8ee4e5a0492011f1093672dfa5ae712361f8b36b8ef3e502c2e",
+    "training_nnz": {
+      "O": 154861,
+      "M": 159308
+    },
+    "test_nnz": {
+      "O": 70,
+      "M": 85
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 39,
+    "fit_text": "O",
+    "vocabulary_size": 21136,
+    "vocabulary_sha256": "bfe7df6ccab867bb8eda6a56389e2e07a4d4c5f2f253400bf4f237f8655d4820",
+    "idf_sha256": "d0d8941bdbc2b9466792e5bdb79787715a87374548cac7a828bb2d803eff795f",
+    "training_nnz": {
+      "O": 165074,
+      "M": 151540
+    },
+    "test_nnz": {
+      "O": 682,
+      "M": 680
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 39,
+    "fit_text": "M",
+    "vocabulary_size": 16830,
+    "vocabulary_sha256": "5a1ff2ec3dc0eee8a15a12e4f10b488a2a7b1d21c64231738d63f158a56a2de8",
+    "idf_sha256": "026076028a0e71a53757c76294330654b37865bf0a87185ec984dcc05d6f4542",
+    "training_nnz": {
+      "O": 154262,
+      "M": 158708
+    },
+    "test_nnz": {
+      "O": 682,
+      "M": 692
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 40,
+    "fit_text": "O",
+    "vocabulary_size": 21020,
+    "vocabulary_sha256": "e317dc4f193ebad00c9ffe5129f16721f34aadafe385bfa908ab4a5cdd5f01ed",
+    "idf_sha256": "451d7822b9d51e92bb64dbc6eb980ac670c6e9050028ff127a88631c94a4e6f1",
+    "training_nnz": {
+      "O": 162974,
+      "M": 149471
+    },
+    "test_nnz": {
+      "O": 2603,
+      "M": 2583
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 40,
+    "fit_text": "M",
+    "vocabulary_size": 16712,
+    "vocabulary_sha256": "0a414c6fbb9243673d19c8f2c078d586dfd1ec0d1a9050c66a5b6654a4bc06a1",
+    "idf_sha256": "4e6baf2fe9a17d03d0663eb0df9d2ed058f18c2cf51c35eadab5751e8bad168c",
+    "training_nnz": {
+      "O": 152151,
+      "M": 156621
+    },
+    "test_nnz": {
+      "O": 2590,
+      "M": 2601
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 41,
+    "fit_text": "O",
+    "vocabulary_size": 20782,
+    "vocabulary_sha256": "fd0b856dbbb9fcc2ca96aa61608a443c17eac0219f6cffa8ce3c03d1db45974f",
+    "idf_sha256": "4790b6411e91066eced1c5c90cf86603cdb09411d5f6bc932aa10d8d802ec6ca",
+    "training_nnz": {
+      "O": 164470,
+      "M": 151314
+    },
+    "test_nnz": {
+      "O": 692,
+      "M": 527
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 41,
+    "fit_text": "M",
+    "vocabulary_size": 16539,
+    "vocabulary_sha256": "04c51c2eac1ed4c937c1321aff3e609d7939650dbaebbc0a16076e51fe9e00eb",
+    "idf_sha256": "c0b8143e16dc4dfc599cb94ef6c1a04ea049d43d35d238bded05c6e35ee3ed4f",
+    "training_nnz": {
+      "O": 153860,
+      "M": 158287
+    },
+    "test_nnz": {
+      "O": 692,
+      "M": 692
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 42,
+    "fit_text": "O",
+    "vocabulary_size": 21134,
+    "vocabulary_sha256": "b84febd2e08d14e317ae211db0dfe54040b798b44276ff721417799010f9a326",
+    "idf_sha256": "8386980fd8956bae407db2d2872355e4144f951a32beab5f8b0bb5bb14980fee",
+    "training_nnz": {
+      "O": 158321,
+      "M": 145044
+    },
+    "test_nnz": {
+      "O": 6832,
+      "M": 6860
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 42,
+    "fit_text": "M",
+    "vocabulary_size": 16830,
+    "vocabulary_sha256": "f024d857844f82d9cb5142eebea43e4fd0b59973852223488df2cfb807a86237",
+    "idf_sha256": "7e30f4b57579de341f2fa64e3497230af041dadc3efca6bcd269726c7c3f8443",
+    "training_nnz": {
+      "O": 147760,
+      "M": 151994
+    },
+    "test_nnz": {
+      "O": 6832,
+      "M": 6976
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 43,
+    "fit_text": "O",
+    "vocabulary_size": 20956,
+    "vocabulary_sha256": "7ade10adaa2d42f4539cfe61b7376ca05d5cc451d2d8aeffdefced958b1011cc",
+    "idf_sha256": "54a8fb4404f50824758aa3fcdf96d5c59968b675dfd5ca7ede4236702ac0a913",
+    "training_nnz": {
+      "O": 163414,
+      "M": 149969
+    },
+    "test_nnz": {
+      "O": 2035,
+      "M": 2024
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 43,
+    "fit_text": "M",
+    "vocabulary_size": 16681,
+    "vocabulary_sha256": "34b2fd5bda062bb7ebf76e11e6a58ebf7bf0636374e4dfb1eb8cb1267d08e4d0",
+    "idf_sha256": "a4a3af4676bcd48cd32e9084b655c3ae77c180cf96ac1ecaa14ca9d6a98c7794",
+    "training_nnz": {
+      "O": 152666,
+      "M": 157075
+    },
+    "test_nnz": {
+      "O": 2034,
+      "M": 2092
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 44,
+    "fit_text": "O",
+    "vocabulary_size": 21121,
+    "vocabulary_sha256": "e22db4c5d0bf407d1d3cccf1f0cc79c031c31e4a6f3883555c9b3e88a756b9e3",
+    "idf_sha256": "d8ccffa131f775823c8a67128d8d18cd5c908c4988bdc63224a76df77bbb0d64",
+    "training_nnz": {
+      "O": 165340,
+      "M": 151805
+    },
+    "test_nnz": {
+      "O": 412,
+      "M": 408
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 44,
+    "fit_text": "M",
+    "vocabulary_size": 16812,
+    "vocabulary_sha256": "0c4b9f40725a78af9b0e6af51deba3e968658592da66d803d39a4da2d9b6878b",
+    "idf_sha256": "88739740e199b2c4cb48d2d7ebb2223979ed7cf920ba85b0fb477452368bd446",
+    "training_nnz": {
+      "O": 154521,
+      "M": 158975
+    },
+    "test_nnz": {
+      "O": 411,
+      "M": 423
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 45,
+    "fit_text": "O",
+    "vocabulary_size": 21129,
+    "vocabulary_sha256": "6047eef9ac51555cef27d5fff5af331e75fe279b227fb002c606a4fb6ce9e5b6",
+    "idf_sha256": "9713cedc9be17744d800a1daaebbf63567bc1fdbaffa9e0cff652b986d75484e",
+    "training_nnz": {
+      "O": 165282,
+      "M": 151853
+    },
+    "test_nnz": {
+      "O": 432,
+      "M": 405
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 45,
+    "fit_text": "M",
+    "vocabulary_size": 16854,
+    "vocabulary_sha256": "38f042ecfc2dd4fc1cb8c37237367b55731fbc16d9ff37d341b026365eeee7e9",
+    "idf_sha256": "3354fb60297b6c120add0e0a0e5f117e7a38dafc64b794b973fa89dc86c15d15",
+    "training_nnz": {
+      "O": 154550,
+      "M": 158985
+    },
+    "test_nnz": {
+      "O": 432,
+      "M": 459
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 46,
+    "fit_text": "O",
+    "vocabulary_size": 21092,
+    "vocabulary_sha256": "79888fe21901a56b117c1587d457e516e5db542381c4c454418562506215718b",
+    "idf_sha256": "5981cfa6f86734f6e7f63dbdbbe679d49bf6ea224a149faa9ddeb13790241376",
+    "training_nnz": {
+      "O": 165379,
+      "M": 151980
+    },
+    "test_nnz": {
+      "O": 207,
+      "M": 171
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 46,
+    "fit_text": "M",
+    "vocabulary_size": 16808,
+    "vocabulary_sha256": "bae503028f2c9f4bbe8c1f977fe10806e099b5067f4dbef699b5a16b2e6bbe36",
+    "idf_sha256": "4a370023f770e9a7b89ad494cf16f5e32bc6c3d44db84a066e37f37983d9d0e2",
+    "training_nnz": {
+      "O": 154668,
+      "M": 159112
+    },
+    "test_nnz": {
+      "O": 207,
+      "M": 225
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 47,
+    "fit_text": "O",
+    "vocabulary_size": 21123,
+    "vocabulary_sha256": "ee284e4fbfa731ac83cfa72b4fc9703c3ba1dcca1e3d7496fb2a3f4fff9c1e7c",
+    "idf_sha256": "737d71b39d0b21a014977cc14821b44c8cc536dff38f114020994ac9a97869cf",
+    "training_nnz": {
+      "O": 165560,
+      "M": 152011
+    },
+    "test_nnz": {
+      "O": 206,
+      "M": 206
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 47,
+    "fit_text": "M",
+    "vocabulary_size": 16811,
+    "vocabulary_sha256": "0e635214a05d438418f16f0730f61d1ed9932ed6edae5b004eb5e83bbfb919ea",
+    "idf_sha256": "6221bd274506a6e3590c94dfc27154edaaf7d4e58c9e3d511572f102a5e4c384",
+    "training_nnz": {
+      "O": 154735,
+      "M": 159189
+    },
+    "test_nnz": {
+      "O": 206,
+      "M": 212
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 48,
+    "fit_text": "O",
+    "vocabulary_size": 20949,
+    "vocabulary_sha256": "1315dc9e38a8f7975e6a0dc0dd61bf4a006a72451a9a72fd5f1bfd5ecfaecb8d",
+    "idf_sha256": "10c344e54810e7c87684758741358933d3a60d09c989f3a3c4321abf906db5fd",
+    "training_nnz": {
+      "O": 165268,
+      "M": 151842
+    },
+    "test_nnz": {
+      "O": 226,
+      "M": 199
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 48,
+    "fit_text": "M",
+    "vocabulary_size": 16683,
+    "vocabulary_sha256": "5280ced57f687e4885e8cac27ff0f845d8f1ecd3408a996a00e18fe31e78b5e5",
+    "idf_sha256": "42a6801f296cace88a9d0f9b2c7c2c7de9f6a0446f40f74ab3071950d467f38e",
+    "training_nnz": {
+      "O": 154537,
+      "M": 158978
+    },
+    "test_nnz": {
+      "O": 223,
+      "M": 244
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 49,
+    "fit_text": "O",
+    "vocabulary_size": 21071,
+    "vocabulary_sha256": "9f92a4a7c00b5796ed70163a96edeb95c2a05d2d31fc2b5f6840488982ccd2aa",
+    "idf_sha256": "9272afe707ad0f39016e531f4866b06afca495462ddb8faf19b76141a0eecdd5",
+    "training_nnz": {
+      "O": 164971,
+      "M": 151702
+    },
+    "test_nnz": {
+      "O": 553,
+      "M": 503
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 49,
+    "fit_text": "M",
+    "vocabulary_size": 16817,
+    "vocabulary_sha256": "4196ab435feac982349fae95c12ddccbdb4741972cf2fd8a2a963de98083c0f4",
+    "idf_sha256": "a5d179417203109a765c00955b7699185ecca1604ba4d0a4bad3cdab994b17a3",
+    "training_nnz": {
+      "O": 154358,
+      "M": 158804
+    },
+    "test_nnz": {
+      "O": 551,
+      "M": 551
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 50,
+    "fit_text": "O",
+    "vocabulary_size": 21164,
+    "vocabulary_sha256": "89a72494f3a081cdd9f620e600b1987f9586341bd0ebfab931d17fe6cca56914",
+    "idf_sha256": "ec2cc319d714f3e88f104e19b8edcddde9d774139a983ef984a4cba48a6370f2",
+    "training_nnz": {
+      "O": 165596,
+      "M": 152051
+    },
+    "test_nnz": {
+      "O": 211,
+      "M": 207
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 50,
+    "fit_text": "M",
+    "vocabulary_size": 16854,
+    "vocabulary_sha256": "38f042ecfc2dd4fc1cb8c37237367b55731fbc16d9ff37d341b026365eeee7e9",
+    "idf_sha256": "9e61c275fe9d8e91b9c4ae8b3d4ba48c95bd67b1911d226059d7924f60990eab",
+    "training_nnz": {
+      "O": 154771,
+      "M": 159231
+    },
+    "test_nnz": {
+      "O": 211,
+      "M": 213
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 51,
+    "fit_text": "O",
+    "vocabulary_size": 21074,
+    "vocabulary_sha256": "f31536b08dc9aed6e12dfc31ba187fc6b7ad9975bb8661fdbc5b59700deb8d70",
+    "idf_sha256": "4b5bb575990a9d4527aa0d6e8f7f98c843b81b6ca037ef94977cb4623304e5c9",
+    "training_nnz": {
+      "O": 165405,
+      "M": 151858
+    },
+    "test_nnz": {
+      "O": 312,
+      "M": 306
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 51,
+    "fit_text": "M",
+    "vocabulary_size": 16760,
+    "vocabulary_sha256": "71b7c5cf04f6f2e58a46e3965be75cac0095b5d00e46a7f6d30ac01a6ed809f0",
+    "idf_sha256": "421ce87f148da8708bbdb10c4778a64841034289270d78c1b902ef617b508373",
+    "training_nnz": {
+      "O": 154579,
+      "M": 159038
+    },
+    "test_nnz": {
+      "O": 309,
+      "M": 312
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 52,
+    "fit_text": "O",
+    "vocabulary_size": 21152,
+    "vocabulary_sha256": "fcda170b8d9ae52a32277a8697fbcade24242e57bd62bc2b42f040f91807584b",
+    "idf_sha256": "ef421809d9c7a320387513dbd27150a17374e1a70b037eeb24df541fc4e5c2fc",
+    "training_nnz": {
+      "O": 165762,
+      "M": 152215
+    },
+    "test_nnz": {
+      "O": 33,
+      "M": 29
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 52,
+    "fit_text": "M",
+    "vocabulary_size": 16840,
+    "vocabulary_sha256": "e0a937e312833e9e199fd14915da0282e08d1a9aee5350bd39041c2679800ab4",
+    "idf_sha256": "ff77ab6d1c1b604dd03906b8e686797ee92871812f16c2ac384322b9f0144af8",
+    "training_nnz": {
+      "O": 154936,
+      "M": 159395
+    },
+    "test_nnz": {
+      "O": 32,
+      "M": 35
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 53,
+    "fit_text": "O",
+    "vocabulary_size": 21003,
+    "vocabulary_sha256": "52d0d5316aa0d83c399fe08ce5e1616129b61452cac713b992ee832db45cd4a0",
+    "idf_sha256": "7bf34937d528aaba44d71f5597190f696ab87b35b408a3b0b2a354591edebd70",
+    "training_nnz": {
+      "O": 163845,
+      "M": 151118
+    },
+    "test_nnz": {
+      "O": 999,
+      "M": 774
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 53,
+    "fit_text": "M",
+    "vocabulary_size": 16763,
+    "vocabulary_sha256": "c172b7bb82cd81a449c4b4ca13fef6692cff45c209865a5755f736b7b9edcfb2",
+    "idf_sha256": "4542fb73f06fd89551afc81f5cf2d14b219c7ffc11d673e90720f28ef100ff37",
+    "training_nnz": {
+      "O": 153617,
+      "M": 157965
+    },
+    "test_nnz": {
+      "O": 999,
+      "M": 1002
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 54,
+    "fit_text": "O",
+    "vocabulary_size": 20850,
+    "vocabulary_sha256": "eb0a8a28e8e4e9d39fe9c9ddbe25565fd4d1fa7ca2ab4c97ece4fcd4b854c84d",
+    "idf_sha256": "6ef78c2274e0e95a06b432efba85a420f2f31e976fa82cc76692d632bfb0f851",
+    "training_nnz": {
+      "O": 164700,
+      "M": 151249
+    },
+    "test_nnz": {
+      "O": 785,
+      "M": 752
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 54,
+    "fit_text": "M",
+    "vocabulary_size": 16589,
+    "vocabulary_sha256": "22e31bc54f23e265a20ba1a2b40dbfa0b67976ec94bd13f279cf1a2648f3ba27",
+    "idf_sha256": "872decdef2d4f21a597def54c97648877bc75afd9724c4cfe2ef257f46fe57f7",
+    "training_nnz": {
+      "O": 153940,
+      "M": 158388
+    },
+    "test_nnz": {
+      "O": 785,
+      "M": 790
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 55,
+    "fit_text": "O",
+    "vocabulary_size": 21151,
+    "vocabulary_sha256": "eccfb5edf3da182dd698423bcbaaf12f42dd72dd1010c1a8508ace413acca626",
+    "idf_sha256": "d32106adea48e141d32f105718b746cea2ad35fcb76f68ada07c168da19241b2",
+    "training_nnz": {
+      "O": 165602,
+      "M": 152061
+    },
+    "test_nnz": {
+      "O": 192,
+      "M": 186
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 55,
+    "fit_text": "M",
+    "vocabulary_size": 16843,
+    "vocabulary_sha256": "cd1d3de98c7d0becae8100fc78d9a07578b91178b12376f03df812505ac67352",
+    "idf_sha256": "72dfd517ec3b74e565d04f1c8ada6fd008e0f2ed8dfb832ae35361c597362b5e",
+    "training_nnz": {
+      "O": 154781,
+      "M": 159241
+    },
+    "test_nnz": {
+      "O": 190,
+      "M": 192
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 56,
+    "fit_text": "O",
+    "vocabulary_size": 21137,
+    "vocabulary_sha256": "a089c57a4a81c336cce7058bcc5ae219a2851fd482bdc7433659da78603ae7b8",
+    "idf_sha256": "314ad22b170b158ceb8208bd794190992d10c86ce7321209f409bdf41d5e564a",
+    "training_nnz": {
+      "O": 165364,
+      "M": 151829
+    },
+    "test_nnz": {
+      "O": 410,
+      "M": 405
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 56,
+    "fit_text": "M",
+    "vocabulary_size": 16834,
+    "vocabulary_sha256": "ab084314c0e20ace3af42ac57ac73f397874d7652054e04bbb93c19c799d4989",
+    "idf_sha256": "87a6025b452026616d1948f681858acb33e05d95609152dba99703cc216ad200",
+    "training_nnz": {
+      "O": 154548,
+      "M": 159003
+    },
+    "test_nnz": {
+      "O": 410,
+      "M": 417
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 57,
+    "fit_text": "O",
+    "vocabulary_size": 21164,
+    "vocabulary_sha256": "b083e2365060d01ccec7465b1045c42fb25d314bd09026c992ef6ee70ceb0469",
+    "idf_sha256": "93e7278074026cda3b11f035ee5a87e232dcc581b9f44f0070a2ced9fead2d4a",
+    "training_nnz": {
+      "O": 165781,
+      "M": 152232
+    },
+    "test_nnz": {
+      "O": 26,
+      "M": 24
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 57,
+    "fit_text": "M",
+    "vocabulary_size": 16852,
+    "vocabulary_sha256": "5f75c41d1d421f69b59d71ebd846d5fb40cd61601fca77f909769a17225cce84",
+    "idf_sha256": "11381bccd1a2bd8aa327abc5548b94d8e952426faf000353b7c2e6e2140391f5",
+    "training_nnz": {
+      "O": 154954,
+      "M": 159412
+    },
+    "test_nnz": {
+      "O": 26,
+      "M": 30
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 58,
+    "fit_text": "O",
+    "vocabulary_size": 21142,
+    "vocabulary_sha256": "cee85aa213815517f3bd5d83cd47b7d29ff1ac24dfa430311be4bcfb28e6cf6c",
+    "idf_sha256": "e7c610abbff417426a3958bb9270a48a727a2658437a14a099d97c69b01e7ec6",
+    "training_nnz": {
+      "O": 165694,
+      "M": 152181
+    },
+    "test_nnz": {
+      "O": 66,
+      "M": 57
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 58,
+    "fit_text": "M",
+    "vocabulary_size": 16844,
+    "vocabulary_sha256": "2833fe2d7e47f6f4f5090e02321eb2c7c61102243c10b4651243ee7537998172",
+    "idf_sha256": "5de43a8188b541a5d476d86b0f17f8ea0048670ce10906235d6a8793dcf1bf6f",
+    "training_nnz": {
+      "O": 154896,
+      "M": 159349
+    },
+    "test_nnz": {
+      "O": 66,
+      "M": 75
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 59,
+    "fit_text": "O",
+    "vocabulary_size": 21092,
+    "vocabulary_sha256": "03796456d68ba097887acc139f93e41c6771b975d32865cafda682a601652c2a",
+    "idf_sha256": "cc2ffd84bc4e0cf381d20faf93e54147d0f8aa974e7cdc342dcf092986075b2d",
+    "training_nnz": {
+      "O": 164595,
+      "M": 151074
+    },
+    "test_nnz": {
+      "O": 935,
+      "M": 939
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 59,
+    "fit_text": "M",
+    "vocabulary_size": 16786,
+    "vocabulary_sha256": "1ba7450c17e85b9fb45fa02196efe4ee1f580d8dc0cb7ae283aa29d468a684ed",
+    "idf_sha256": "3111d0b7021057e03b39822d450ca41cc1765e6169e3ce19ee706322527ad29b",
+    "training_nnz": {
+      "O": 153796,
+      "M": 158220
+    },
+    "test_nnz": {
+      "O": 930,
+      "M": 966
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 60,
+    "fit_text": "O",
+    "vocabulary_size": 21011,
+    "vocabulary_sha256": "5c290e1b4c81b9b331ec0cfb5a9f94f52d6adc5ebdc81bb9f83bf86e30eec870",
+    "idf_sha256": "780a09e517f9979b8ed050a5fe577a8556aa5f938b762591358848e37fd8260e",
+    "training_nnz": {
+      "O": 163206,
+      "M": 149813
+    },
+    "test_nnz": {
+      "O": 2239,
+      "M": 2227
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 60,
+    "fit_text": "M",
+    "vocabulary_size": 16738,
+    "vocabulary_sha256": "7e2b78687d0b47f2f6c2bed9232d1f75f9268d27400c57fd22e99117ba3ac1dd",
+    "idf_sha256": "ab19ec9e7038dd4af813dd1bc002dfbcfd0d46c5c26f1a6571e481a51cf58891",
+    "training_nnz": {
+      "O": 152525,
+      "M": 156927
+    },
+    "test_nnz": {
+      "O": 2239,
+      "M": 2299
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 61,
+    "fit_text": "O",
+    "vocabulary_size": 20947,
+    "vocabulary_sha256": "5e05248e0459ab11df4e85613f3bed61eb7d4b8a02dc925030a3cdfb7ffd2f1c",
+    "idf_sha256": "4f63341d10dea6d0a41277935b1eee08274c5f15371536e1dac70121d1831237",
+    "training_nnz": {
+      "O": 162749,
+      "M": 149594
+    },
+    "test_nnz": {
+      "O": 2663,
+      "M": 2484
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 61,
+    "fit_text": "M",
+    "vocabulary_size": 16745,
+    "vocabulary_sha256": "399c5325efc5d947ff79ef3b0a52396933e30ec30e131f2371e22fbe9a5fa335",
+    "idf_sha256": "9b6c4c12881dea876acf6aba55038e5a682bf95caace4f0cac4601d45ff65968",
+    "training_nnz": {
+      "O": 152168,
+      "M": 156640
+    },
+    "test_nnz": {
+      "O": 2632,
+      "M": 2622
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 62,
+    "fit_text": "O",
+    "vocabulary_size": 21121,
+    "vocabulary_sha256": "09bb6703234788b72d3b38fb563273bc15ab242bae40649f705a869be5487abf",
+    "idf_sha256": "8579e6931f63dbe2152f0164d9ece2456e14e7de949d370ac3f9b76114a33955",
+    "training_nnz": {
+      "O": 165623,
+      "M": 152114
+    },
+    "test_nnz": {
+      "O": 87,
+      "M": 79
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 62,
+    "fit_text": "M",
+    "vocabulary_size": 16819,
+    "vocabulary_sha256": "f7503514bacda14e27cdc5d273de6a8a277602dbb35b4ab720c1ac3691ec3a9b",
+    "idf_sha256": "3c1fcedf5592837ea9af204449aa4485691d4f2959c57ebdbdfc90fd32d8f404",
+    "training_nnz": {
+      "O": 154834,
+      "M": 159276
+    },
+    "test_nnz": {
+      "O": 83,
+      "M": 103
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 63,
+    "fit_text": "O",
+    "vocabulary_size": 21100,
+    "vocabulary_sha256": "98fa43903c9e53aa240705b6206129f17e763b6c00097a143a3dd548f0687920",
+    "idf_sha256": "9f73d2fa31e701b4d95bbeadebce56b456b53460641cb9b95e58428f0926b4fa",
+    "training_nnz": {
+      "O": 165574,
+      "M": 152063
+    },
+    "test_nnz": {
+      "O": 135,
+      "M": 131
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 63,
+    "fit_text": "M",
+    "vocabulary_size": 16805,
+    "vocabulary_sha256": "fca54e5d36dcca3bb64eec8b5808533ab870af58c1b05cc34ebf0e680887b450",
+    "idf_sha256": "d645fd799712db0ccd41531e7a584d2c16bf5239d71845d2d564bd84fdefe4ce",
+    "training_nnz": {
+      "O": 154783,
+      "M": 159225
+    },
+    "test_nnz": {
+      "O": 135,
+      "M": 155
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 64,
+    "fit_text": "O",
+    "vocabulary_size": 21036,
+    "vocabulary_sha256": "69746d137a3856b3c833e8112b6c6383a6fc03dbee2b8b8c15268912d7c879ec",
+    "idf_sha256": "4cfb826936076e79224334b25e744a9b73da634c355a3be7a519f42b0cec97d0",
+    "training_nnz": {
+      "O": 164909,
+      "M": 151503
+    },
+    "test_nnz": {
+      "O": 630,
+      "M": 593
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 64,
+    "fit_text": "M",
+    "vocabulary_size": 16769,
+    "vocabulary_sha256": "14cf19a718fd1e8ea985dc5ef15af3a22d783dff996d738ce536ac514d169798",
+    "idf_sha256": "6820346c536fae6aa9aa0bf771a2192ec3777bcff77c202a825e63fee16892f0",
+    "training_nnz": {
+      "O": 154186,
+      "M": 158607
+    },
+    "test_nnz": {
+      "O": 624,
+      "M": 665
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 65,
+    "fit_text": "O",
+    "vocabulary_size": 21044,
+    "vocabulary_sha256": "0e0d71ee076bd460056c2adb8ee4d72f50edfc5a179865b826a976309c519500",
+    "idf_sha256": "2b4d1f749a43e6c6e4d64f947aef85e85df7acc92334c7e8edb91885ef29fb3d",
+    "training_nnz": {
+      "O": 164751,
+      "M": 151240
+    },
+    "test_nnz": {
+      "O": 908,
+      "M": 908
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 65,
+    "fit_text": "M",
+    "vocabulary_size": 16752,
+    "vocabulary_sha256": "a197e6390c373050e8f9a3f69985f83287a1ea4e2265f58ad1cde684c3d222cf",
+    "idf_sha256": "fd20343d69610bf6443fb2dd000571b4a0ff944e1258e2cd971c098915fbf467",
+    "training_nnz": {
+      "O": 153963,
+      "M": 158396
+    },
+    "test_nnz": {
+      "O": 907,
+      "M": 937
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 66,
+    "fit_text": "O",
+    "vocabulary_size": 21158,
+    "vocabulary_sha256": "f386e4fa85c751d59c140fa6183101837beb5fbe786fb01def8f45da1f87feb9",
+    "idf_sha256": "ebfbc227df3211d78df98ba115fdbfe9c0cd757572e056af2c4c7ff88702b42b",
+    "training_nnz": {
+      "O": 165735,
+      "M": 152188
+    },
+    "test_nnz": {
+      "O": 54,
+      "M": 52
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 66,
+    "fit_text": "M",
+    "vocabulary_size": 16845,
+    "vocabulary_sha256": "890d00b405fa1363e6f012fb97ff0a9e3d806094be46227216d05c2e67d94d7e",
+    "idf_sha256": "6f1340ab5ea81177a5e7ab656077f2a4807124062c7175521b8841d105402af7",
+    "training_nnz": {
+      "O": 154910,
+      "M": 159362
+    },
+    "test_nnz": {
+      "O": 54,
+      "M": 64
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 67,
+    "fit_text": "O",
+    "vocabulary_size": 21164,
+    "vocabulary_sha256": "4da7269c5d4852cb99f19d91ab115ccf05da90c947bd9be4991cc7fe0404c08f",
+    "idf_sha256": "8e3f75c6f60f0317e4e0876b8d04d78931f8447f9057373f4d914ef9f59d4772",
+    "training_nnz": {
+      "O": 165779,
+      "M": 152232
+    },
+    "test_nnz": {
+      "O": 28,
+      "M": 24
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 67,
+    "fit_text": "M",
+    "vocabulary_size": 16852,
+    "vocabulary_sha256": "00411dea4b8aebe728dd82dd1d7003e0cc7c999ace5c1c1f6e84316df531c032",
+    "idf_sha256": "1d473dd691f79d7b883fcad0bd832761f8f1c5e8a887afb6e86081a803e56ea8",
+    "training_nnz": {
+      "O": 154952,
+      "M": 159412
+    },
+    "test_nnz": {
+      "O": 28,
+      "M": 30
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 68,
+    "fit_text": "O",
+    "vocabulary_size": 21158,
+    "vocabulary_sha256": "f329ad334ec89d9371ead17adb5db5f02a0e8e0f52d771f1a66509f5dfb848e3",
+    "idf_sha256": "7d7f64f13b32272ff3d1500d1cb7f0cdfcd9dbccd345d2b06c92e6c807b63188",
+    "training_nnz": {
+      "O": 165711,
+      "M": 152162
+    },
+    "test_nnz": {
+      "O": 90,
+      "M": 87
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 68,
+    "fit_text": "M",
+    "vocabulary_size": 16845,
+    "vocabulary_sha256": "0bf4e53783cb073f999e531745f82894d6bbc57505750020bca4ed0ecddcd71d",
+    "idf_sha256": "d458cc0bd60a7371f9963bea4e1f0a4c2dc8946bf1d694fb4489f28b0b32551e",
+    "training_nnz": {
+      "O": 154884,
+      "M": 159342
+    },
+    "test_nnz": {
+      "O": 89,
+      "M": 93
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 69,
+    "fit_text": "O",
+    "vocabulary_size": 21132,
+    "vocabulary_sha256": "5a473620f457549a6b359d98ea223ae879510d3b598863af0b72fc7bf20110d7",
+    "idf_sha256": "6d9ac497629bc8d49141925ab4175e21a880ef91d54db7abbdcefcedc831c5bb",
+    "training_nnz": {
+      "O": 165038,
+      "M": 151529
+    },
+    "test_nnz": {
+      "O": 727,
+      "M": 706
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 69,
+    "fit_text": "M",
+    "vocabulary_size": 16831,
+    "vocabulary_sha256": "65748496ab0d9e41d35decd5792593633e2021e60755ace6253ea6aee53e0f0a",
+    "idf_sha256": "270af338b9b2216f4ad30100f0e54e7d1ee5d8e978cd88153a9d4c93669f7c3c",
+    "training_nnz": {
+      "O": 154244,
+      "M": 158697
+    },
+    "test_nnz": {
+      "O": 715,
+      "M": 724
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 70,
+    "fit_text": "O",
+    "vocabulary_size": 21144,
+    "vocabulary_sha256": "30c91243fe6a6f8cc17468fd04289f8f3f93998cd01d9465352b5242ac1ca0db",
+    "idf_sha256": "389fd7187d0fe2a6343158c813f5362444175661724831dd2d91172974f8974a",
+    "training_nnz": {
+      "O": 164979,
+      "M": 151498
+    },
+    "test_nnz": {
+      "O": 771,
+      "M": 755
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 70,
+    "fit_text": "M",
+    "vocabulary_size": 16851,
+    "vocabulary_sha256": "4ce04ef27664b84aaa1923404604a772336e1b11cff0522cf3fbe764d3537c45",
+    "idf_sha256": "d70aa5cee19036a9767c8907adea2d3434c74e359048fec46c5b57a4682555de",
+    "training_nnz": {
+      "O": 154206,
+      "M": 158660
+    },
+    "test_nnz": {
+      "O": 771,
+      "M": 779
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 71,
+    "fit_text": "O",
+    "vocabulary_size": 21150,
+    "vocabulary_sha256": "ddf2ee1d7e9462b62e4cd346fab30153ba2fc40b720ed16f6f0d44e9cfa28dd0",
+    "idf_sha256": "fceb9c84521604008782f91e893a38efe021da9a9736513ac6c45499f44d23af",
+    "training_nnz": {
+      "O": 165763,
+      "M": 152216
+    },
+    "test_nnz": {
+      "O": 30,
+      "M": 27
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 71,
+    "fit_text": "M",
+    "vocabulary_size": 16839,
+    "vocabulary_sha256": "3412fecf8d65471ef3b93ac03959af6c5d2dc61bd44e584eba785b3569c93cd5",
+    "idf_sha256": "0a7fcf716e73ab7623605f2bafa1caee001bbf8114fcf56ac7bc73d637b23304",
+    "training_nnz": {
+      "O": 154938,
+      "M": 159396
+    },
+    "test_nnz": {
+      "O": 29,
+      "M": 33
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 72,
+    "fit_text": "O",
+    "vocabulary_size": 21148,
+    "vocabulary_sha256": "b8cd4ae8b41f65b58751387b5d74e7f93a03494f17327ce8257e406805476588",
+    "idf_sha256": "1b47ab12bbe821990a9c847d9e6497aa8683b4b9857e7a20a7b27a0cb7aa33f9",
+    "training_nnz": {
+      "O": 165387,
+      "M": 151862
+    },
+    "test_nnz": {
+      "O": 390,
+      "M": 376
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 72,
+    "fit_text": "M",
+    "vocabulary_size": 16840,
+    "vocabulary_sha256": "bcb0ac8944e8ec574fdfe33a59d2041867f014412d93f21d20bf6e9086efc8dd",
+    "idf_sha256": "a0c60bb5a46482a25177a7fef7557eaee1f188cdc66babd0461bee3cbea74368",
+    "training_nnz": {
+      "O": 154574,
+      "M": 159036
+    },
+    "test_nnz": {
+      "O": 388,
+      "M": 388
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 73,
+    "fit_text": "O",
+    "vocabulary_size": 21156,
+    "vocabulary_sha256": "d10d3285269bbe169aef13e3197b6968ae2ea2724a1fff72b8f2ff22b11b2164",
+    "idf_sha256": "6527e3fc22a2e147bf131510f58221f0d8fd0186122170c0a0e8675e3c399fbf",
+    "training_nnz": {
+      "O": 165780,
+      "M": 152235
+    },
+    "test_nnz": {
+      "O": 19,
+      "M": 14
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 73,
+    "fit_text": "M",
+    "vocabulary_size": 16845,
+    "vocabulary_sha256": "2ba8e67804740f5d9b4bf3b184fe609291559e820bea0adf3929b1e1e2808263",
+    "idf_sha256": "4d6f8557231c48bb23c94854462e726f2cd50b069841c7c6cc43db46a342ba43",
+    "training_nnz": {
+      "O": 154954,
+      "M": 159415
+    },
+    "test_nnz": {
+      "O": 19,
+      "M": 20
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 74,
+    "fit_text": "O",
+    "vocabulary_size": 21085,
+    "vocabulary_sha256": "2d94a142653b979dff8fb3f2051c746f591356949128dda45ea3a54379dd188c",
+    "idf_sha256": "bce6d456872136552b35258f36b4e613859217dd8374a1a4bbe7fc603f905db7",
+    "training_nnz": {
+      "O": 162524,
+      "M": 149235
+    },
+    "test_nnz": {
+      "O": 1711,
+      "M": 1745
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 74,
+    "fit_text": "M",
+    "vocabulary_size": 16791,
+    "vocabulary_sha256": "c7e70ec4e42ab41144c976a5d5047ef6c27bb2b168b71e66332acc3fc687679c",
+    "idf_sha256": "a2aa2da4d63b55f8ba2120401b72bba32a31b4ccb93ac4447a7d76259d7a087d",
+    "training_nnz": {
+      "O": 151991,
+      "M": 156208
+    },
+    "test_nnz": {
+      "O": 1710,
+      "M": 1948
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 75,
+    "fit_text": "O",
+    "vocabulary_size": 21147,
+    "vocabulary_sha256": "0285eb6557b692944593af2b140af55f8e38b3da3cced7b82e7d3339d531b240",
+    "idf_sha256": "1f072d177b16d43689cf03619fdfe4166714956ee6f9387f0b4a139022dcc6db",
+    "training_nnz": {
+      "O": 165349,
+      "M": 151808
+    },
+    "test_nnz": {
+      "O": 426,
+      "M": 424
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 75,
+    "fit_text": "M",
+    "vocabulary_size": 16837,
+    "vocabulary_sha256": "70f69e7bcc69480176fed8de174ead69f05c264deeffb58e704911bc0eb0c3e5",
+    "idf_sha256": "fb06bf6e8a18f519048ef0e74898002d39be7ded2d36a515c36bf88b07f374dd",
+    "training_nnz": {
+      "O": 154530,
+      "M": 158982
+    },
+    "test_nnz": {
+      "O": 426,
+      "M": 436
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 76,
+    "fit_text": "O",
+    "vocabulary_size": 21163,
+    "vocabulary_sha256": "e562d3ff2b0bff55f8ae131ba1366b1b1343f70fa6963119da5bf880e1bd5a8a",
+    "idf_sha256": "133d023345e2e10eb51da8b75ad1b9f1cd30429fff2194298ee1eb9b6e322fb3",
+    "training_nnz": {
+      "O": 165611,
+      "M": 152062
+    },
+    "test_nnz": {
+      "O": 195,
+      "M": 194
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 76,
+    "fit_text": "M",
+    "vocabulary_size": 16852,
+    "vocabulary_sha256": "22fc6b86bd4b3113ddf14cc4e0260d8e4e1e617d0c78ad1ff47cb74ac43d80c7",
+    "idf_sha256": "70414268577c78ae2a9560931b5fade3ba57be81546fef03c60d74f6d941166a",
+    "training_nnz": {
+      "O": 154785,
+      "M": 159242
+    },
+    "test_nnz": {
+      "O": 195,
+      "M": 200
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 77,
+    "fit_text": "O",
+    "vocabulary_size": 21154,
+    "vocabulary_sha256": "f3e0f29be17b9a6928fdc2f6a4ccc3a6522c57cc455ac825cb47fe8c77d86bdc",
+    "idf_sha256": "d13ae5bae819ab8786947b57ee10783ae633ebffa60f09bc4e74397383f6b65f",
+    "training_nnz": {
+      "O": 165521,
+      "M": 151972
+    },
+    "test_nnz": {
+      "O": 276,
+      "M": 276
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 77,
+    "fit_text": "M",
+    "vocabulary_size": 16844,
+    "vocabulary_sha256": "ef11d8e4dcffd9c50d88e2283e2d940c18c8bc1a4bfa8e99befed5f037c2d5fb",
+    "idf_sha256": "be89b90340bb98025b8aca20477b9348e199d28b631472e80df7d9281b4c6d3e",
+    "training_nnz": {
+      "O": 154696,
+      "M": 159152
+    },
+    "test_nnz": {
+      "O": 276,
+      "M": 282
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 78,
+    "fit_text": "O",
+    "vocabulary_size": 20263,
+    "vocabulary_sha256": "943141ed05450e015754b51bd1fd27954469685d24cc85cdbbc2ab7ebc81f4e2",
+    "idf_sha256": "4b5f68d2ee71499351a345d6c3cfc1a36b75cb8e0aa5181cd6349542e9067357",
+    "training_nnz": {
+      "O": 158300,
+      "M": 144987
+    },
+    "test_nnz": {
+      "O": 4285,
+      "M": 4293
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 78,
+    "fit_text": "M",
+    "vocabulary_size": 15958,
+    "vocabulary_sha256": "ec9286ac5a4bfc7b2f3cec760e1f4b9fd56ffca7276cb610f5b2ecf6fea8ed13",
+    "idf_sha256": "7dd4cdcf70a3cfebc53a78d0b61bfaffa7cbd7b6cb45fc29fbf854c4553b0dcc",
+    "training_nnz": {
+      "O": 147686,
+      "M": 151930
+    },
+    "test_nnz": {
+      "O": 4267,
+      "M": 4393
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 79,
+    "fit_text": "O",
+    "vocabulary_size": 21062,
+    "vocabulary_sha256": "44d155cd42cd331815f2fd9d6fd24fc96514753a4b6670dcfd59b4185e7aeade",
+    "idf_sha256": "a64cea4c875526288dbe547b4c6f83a5e6d3aced7e6472cb3c6505c821dc6bc7",
+    "training_nnz": {
+      "O": 165429,
+      "M": 151882
+    },
+    "test_nnz": {
+      "O": 276,
+      "M": 275
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 79,
+    "fit_text": "M",
+    "vocabulary_size": 16750,
+    "vocabulary_sha256": "6683e961a03ab528d9310200145edd13f802f563e4f384d5cf1349b03041baf3",
+    "idf_sha256": "20c68852a6fd84cf87d2fac607f026463d79db4d450479a1ad459a4655ee907e",
+    "training_nnz": {
+      "O": 154606,
+      "M": 159059
+    },
+    "test_nnz": {
+      "O": 275,
+      "M": 281
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 80,
+    "fit_text": "O",
+    "vocabulary_size": 21154,
+    "vocabulary_sha256": "8cc1555d93d969724b136e09487f0e1d038ded594b6bc98626d1956d912d12da",
+    "idf_sha256": "2557e7cf06379986dc57aeba316d29f560cc980ea3c33f821a3ce5d2add07bfc",
+    "training_nnz": {
+      "O": 165748,
+      "M": 152211
+    },
+    "test_nnz": {
+      "O": 43,
+      "M": 37
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 80,
+    "fit_text": "M",
+    "vocabulary_size": 16844,
+    "vocabulary_sha256": "2532c74d8036f662c99cf8a2bd35a6beb594a0851b08613cf80c8db626f7b390",
+    "idf_sha256": "c540653e179030011cb532e8ef9f1edf6bf6f7bc66f39dfd0dc2072eb4862ad6",
+    "training_nnz": {
+      "O": 154931,
+      "M": 159385
+    },
+    "test_nnz": {
+      "O": 41,
+      "M": 49
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 81,
+    "fit_text": "O",
+    "vocabulary_size": 21123,
+    "vocabulary_sha256": "0f2bbfa354c8a4c3404e9ed7c44276f3d4e2a468972e6d880d3e6933c43bfa21",
+    "idf_sha256": "b405844a0097f627dd37c4c22d5a66aa6d4c36060d0868fe847228ddcd4be40e",
+    "training_nnz": {
+      "O": 164693,
+      "M": 151208
+    },
+    "test_nnz": {
+      "O": 1034,
+      "M": 1024
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 81,
+    "fit_text": "M",
+    "vocabulary_size": 16833,
+    "vocabulary_sha256": "8c1526a9345e378313ff656b7426f459a047e1bf4379c4714426a3972df331ef",
+    "idf_sha256": "0b7394767dbe920e2f93e9ba2d893a72a9f503e7f68c007475a6df479b0a465f",
+    "training_nnz": {
+      "O": 153922,
+      "M": 158364
+    },
+    "test_nnz": {
+      "O": 1034,
+      "M": 1054
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 82,
+    "fit_text": "O",
+    "vocabulary_size": 21158,
+    "vocabulary_sha256": "59df51cb6d8ddb1d46696990f8695e6d65d2fc9937512f7615536d18344f547d",
+    "idf_sha256": "e8c6687d4d4fa62819a706f6c7c2e3ec76fd081f3e37eba95cefa6a5b96c4695",
+    "training_nnz": {
+      "O": 165560,
+      "M": 152015
+    },
+    "test_nnz": {
+      "O": 241,
+      "M": 238
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 82,
+    "fit_text": "M",
+    "vocabulary_size": 16849,
+    "vocabulary_sha256": "27c177ec36826cbd98b22b8a24773e2d27188070c90d4271fb6460c497a026b5",
+    "idf_sha256": "b54a5ae1f06f521134d797fdd0e00403995f043eb8fb184d8487a61edb1097c1",
+    "training_nnz": {
+      "O": 154737,
+      "M": 159195
+    },
+    "test_nnz": {
+      "O": 240,
+      "M": 244
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 83,
+    "fit_text": "O",
+    "vocabulary_size": 21133,
+    "vocabulary_sha256": "4b05ab230ea9de1dfa4b37b06cfdb78f8a5e6b5cc8494f0da506a7d84961612e",
+    "idf_sha256": "abe21e062cd9dfe9c6a67ae695056312fd45b35e2e800e8d4d6f0c7a8442df0b",
+    "training_nnz": {
+      "O": 165684,
+      "M": 152163
+    },
+    "test_nnz": {
+      "O": 71,
+      "M": 58
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 83,
+    "fit_text": "M",
+    "vocabulary_size": 16831,
+    "vocabulary_sha256": "9a1456957e41a0e82f5298db0d42fcb9f7441205e6e585f1c320ea32fff6bb67",
+    "idf_sha256": "52133b6472b938c7f938006c5b9f01149f466ec01a13a2559b8b597924c159de",
+    "training_nnz": {
+      "O": 154875,
+      "M": 159337
+    },
+    "test_nnz": {
+      "O": 70,
+      "M": 70
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 84,
+    "fit_text": "O",
+    "vocabulary_size": 21164,
+    "vocabulary_sha256": "9e38dcd6ae70319d9c1b58862e9545af84558b6a6fcb9639328fde233c950d5a",
+    "idf_sha256": "0c7af5021f16be11f4e262356896bf71a8ece2c50e15259befee1e0763346c78",
+    "training_nnz": {
+      "O": 165768,
+      "M": 152222
+    },
+    "test_nnz": {
+      "O": 39,
+      "M": 35
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 84,
+    "fit_text": "M",
+    "vocabulary_size": 16853,
+    "vocabulary_sha256": "703f9d54c916b06e48492e91802c8adc66ec202a84a29836f177411a102b6b1b",
+    "idf_sha256": "49cb3aeacd38ed1d838aaaf074556b25103f22a84973b4ce7b65eb5d2d4051c4",
+    "training_nnz": {
+      "O": 154942,
+      "M": 159402
+    },
+    "test_nnz": {
+      "O": 39,
+      "M": 41
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 85,
+    "fit_text": "O",
+    "vocabulary_size": 21137,
+    "vocabulary_sha256": "77509764195a2ce9b2833b6b6acf360407f371450f55741c9133dcc6b86b96b5",
+    "idf_sha256": "73de9efa24c6835741c433f86f85bdbe3fb0d3cd4c71c0c97ab27ef4f4e7945f",
+    "training_nnz": {
+      "O": 165170,
+      "M": 151645
+    },
+    "test_nnz": {
+      "O": 595,
+      "M": 590
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 85,
+    "fit_text": "M",
+    "vocabulary_size": 16836,
+    "vocabulary_sha256": "929b7e15f9fe771276ed40781084a3d4f93d7dbd55d42420e1efa9d210fecd0a",
+    "idf_sha256": "d787ee569ce3be2ae932f06c14c9c1cc626dfca3de584598ad6526464e87384c",
+    "training_nnz": {
+      "O": 154364,
+      "M": 158813
+    },
+    "test_nnz": {
+      "O": 595,
+      "M": 608
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 86,
+    "fit_text": "O",
+    "vocabulary_size": 21075,
+    "vocabulary_sha256": "0ee6a5e0234190267d3d92bc6611797221de532fc0af668a0b14e923742f26d5",
+    "idf_sha256": "9adb587b8a839c4f44359cbec88e8e6eecc735aaeca17116c93b7c86c9eb5caf",
+    "training_nnz": {
+      "O": 165589,
+      "M": 152084
+    },
+    "test_nnz": {
+      "O": 99,
+      "M": 86
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 86,
+    "fit_text": "M",
+    "vocabulary_size": 16779,
+    "vocabulary_sha256": "e6ae492480c56821c8d860f8f88cebcc28e01a9020c0704326093e4253754c3a",
+    "idf_sha256": "96e48f3aca0a0b9c381cba0e21828aedec18eb9e7324e9f1d911e7a539823bd6",
+    "training_nnz": {
+      "O": 154743,
+      "M": 159246
+    },
+    "test_nnz": {
+      "O": 90,
+      "M": 107
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 87,
+    "fit_text": "O",
+    "vocabulary_size": 21055,
+    "vocabulary_sha256": "19f5bd942f56cdbcf2085e756d4b12af2b3139f9f18317daf167deed18f77039",
+    "idf_sha256": "e55e79eb59a888c900d51dd11b340058411039177726cd0bb97c5fd8c097957d",
+    "training_nnz": {
+      "O": 164058,
+      "M": 150614
+    },
+    "test_nnz": {
+      "O": 1548,
+      "M": 1528
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 87,
+    "fit_text": "M",
+    "vocabulary_size": 16790,
+    "vocabulary_sha256": "c107fc4d697890efe8aa163c9d2360a4aae824df0a451283d05e4faaecea585e",
+    "idf_sha256": "605df3c1f83e6ea6a8421cc1b469db92b03dc05352faf628f1f9b5389956092e",
+    "training_nnz": {
+      "O": 153319,
+      "M": 157748
+    },
+    "test_nnz": {
+      "O": 1542,
+      "M": 1574
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 88,
+    "fit_text": "O",
+    "vocabulary_size": 21065,
+    "vocabulary_sha256": "3e729f0c3187a1c419099afd2b6ebc406230e13706e6a657c7c5a9f9196d46ce",
+    "idf_sha256": "f3118b8f28cb23729ba8c9c0e5b43797929124479c3b193ea6d635503d20ac92",
+    "training_nnz": {
+      "O": 165539,
+      "M": 152033
+    },
+    "test_nnz": {
+      "O": 107,
+      "M": 92
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 88,
+    "fit_text": "M",
+    "vocabulary_size": 16762,
+    "vocabulary_sha256": "f87590bbe48b5345d352c7d785f88d6b5eb38af19bf2341eba51bcdc33f3dc80",
+    "idf_sha256": "411a32c0c0c1601986ac39db70c192926783d1de8b47e965338a1071102c4f9e",
+    "training_nnz": {
+      "O": 154742,
+      "M": 159195
+    },
+    "test_nnz": {
+      "O": 107,
+      "M": 116
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 89,
+    "fit_text": "O",
+    "vocabulary_size": 21163,
+    "vocabulary_sha256": "2cf9937353955b0b585717d8ba6340343e75f38eca90c5d9d06f5e7c1efbc2de",
+    "idf_sha256": "766e6202c2b1414b81eb9131fb7b4d87ea14c66291102ca1d300e2fc40f81c10",
+    "training_nnz": {
+      "O": 165756,
+      "M": 152209
+    },
+    "test_nnz": {
+      "O": 50,
+      "M": 46
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 89,
+    "fit_text": "M",
+    "vocabulary_size": 16851,
+    "vocabulary_sha256": "87bfff9c4de9935020415a70e36cdc52d1192cc0a238aaea1104db129b74eb4d",
+    "idf_sha256": "316029a393f6c12d978f713df3ab0c4f3c05c9686b90d53ea1bafa6454989be1",
+    "training_nnz": {
+      "O": 154929,
+      "M": 159389
+    },
+    "test_nnz": {
+      "O": 50,
+      "M": 52
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 90,
+    "fit_text": "O",
+    "vocabulary_size": 21000,
+    "vocabulary_sha256": "15bfc479802801d0db22f625c94dab4936daff7179cd91a1d8a94a94f7f94605",
+    "idf_sha256": "44565b509f37bffc2b9db903af8f5720569e0c61f89dbe6606d3a55f4f29a694",
+    "training_nnz": {
+      "O": 164049,
+      "M": 150635
+    },
+    "test_nnz": {
+      "O": 1542,
+      "M": 1500
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 90,
+    "fit_text": "M",
+    "vocabulary_size": 16734,
+    "vocabulary_sha256": "ec69bb05ab9c5b4adc9f3a446fdd6afaeceb00c4be5293caa344b354c90b1519",
+    "idf_sha256": "04b6032d4d32edb1cd7532fd4d21c307202edf97eddff8cb1487b0726aaef406",
+    "training_nnz": {
+      "O": 153307,
+      "M": 157752
+    },
+    "test_nnz": {
+      "O": 1536,
+      "M": 1551
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 91,
+    "fit_text": "O",
+    "vocabulary_size": 20281,
+    "vocabulary_sha256": "e644bf0a5aa069d806000a89ecc98a79ec8bc9106b706520bf24ad67152bacae",
+    "idf_sha256": "7231dcebc7ae7dad88277090266d134efb531b49aac76383e9ef2b1ffc4d2471",
+    "training_nnz": {
+      "O": 163403,
+      "M": 149874
+    },
+    "test_nnz": {
+      "O": 1145,
+      "M": 1145
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 91,
+    "fit_text": "M",
+    "vocabulary_size": 15978,
+    "vocabulary_sha256": "6ed1322efdd2ac17a00a8ec20bb200d4d74542d295dbe94da6b47e3a5debd9ec",
+    "idf_sha256": "1bd071b60091e57c139262e4610f444f45cc65f8ee22e70488ca71fe576d95a9",
+    "training_nnz": {
+      "O": 152598,
+      "M": 157048
+    },
+    "test_nnz": {
+      "O": 1145,
+      "M": 1157
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 92,
+    "fit_text": "O",
+    "vocabulary_size": 20546,
+    "vocabulary_sha256": "c644453085f5fe10afbe99c629c38cd69185e108fa5557f83fb1c46ce85e61b2",
+    "idf_sha256": "374b842f3d0ba81f9187a370694c2ce22f69f7f6561811636c5d596f65286c21",
+    "training_nnz": {
+      "O": 159917,
+      "M": 147114
+    },
+    "test_nnz": {
+      "O": 4874,
+      "M": 4581
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 92,
+    "fit_text": "M",
+    "vocabulary_size": 16477,
+    "vocabulary_sha256": "95ab6d553fc6ae3be521346d5662595172644f94de0f97ae5c637ea387ea6f89",
+    "idf_sha256": "593c58b98c5ba2177e70f6df45bd89e07ee83f4184350115539ed569e24f6db9",
+    "training_nnz": {
+      "O": 149577,
+      "M": 154000
+    },
+    "test_nnz": {
+      "O": 4822,
+      "M": 4879
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 93,
+    "fit_text": "O",
+    "vocabulary_size": 21046,
+    "vocabulary_sha256": "39f622d925cb34ac2d26db5c1afd41171e4116bd8c663bd791afec0579b5aee3",
+    "idf_sha256": "9a85b679fb6f4b86c45a76dfd03127e8333b24bb61abde38b73386947d9463a2",
+    "training_nnz": {
+      "O": 165067,
+      "M": 151702
+    },
+    "test_nnz": {
+      "O": 413,
+      "M": 345
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 93,
+    "fit_text": "M",
+    "vocabulary_size": 16772,
+    "vocabulary_sha256": "c34abbc563fe249efaa58bc547739a37019949fabf9e846aaf06f846b270eeb3",
+    "idf_sha256": "9d1356b0394e028a80f942424539213393a2b25bc780ac234058c5500e2e829c",
+    "training_nnz": {
+      "O": 154356,
+      "M": 158792
+    },
+    "test_nnz": {
+      "O": 381,
+      "M": 414
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 94,
+    "fit_text": "O",
+    "vocabulary_size": 21063,
+    "vocabulary_sha256": "49a058cf372790b7a64ea0decac4786f577238354d468243e7280dd927a58041",
+    "idf_sha256": "7124c1f7cdda6b4277ce66d9b0ae88ab67eb03a7907ce82b914dc3b7dd383178",
+    "training_nnz": {
+      "O": 165325,
+      "M": 151773
+    },
+    "test_nnz": {
+      "O": 381,
+      "M": 382
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 94,
+    "fit_text": "M",
+    "vocabulary_size": 16743,
+    "vocabulary_sha256": "6361922baeb56a03dc6cf4ef92fb6c3e699bb96ef0d5c7128d5d42f4bbdedefd",
+    "idf_sha256": "8695a635158b8598cbee92a191ba42531e3c7b9dcf167f7558aad2cb4ca6dfa9",
+    "training_nnz": {
+      "O": 154498,
+      "M": 158950
+    },
+    "test_nnz": {
+      "O": 381,
+      "M": 383
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 95,
+    "fit_text": "O",
+    "vocabulary_size": 21156,
+    "vocabulary_sha256": "8ff1ce4888acb4b019053763c7979664d560d989fe4243f17f37acf20cb977cc",
+    "idf_sha256": "b9b791a73d6b710c2f9ae520c1e33635e9b5eb291493604e00c02acaf7019612",
+    "training_nnz": {
+      "O": 165590,
+      "M": 152045
+    },
+    "test_nnz": {
+      "O": 209,
+      "M": 206
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 95,
+    "fit_text": "M",
+    "vocabulary_size": 16846,
+    "vocabulary_sha256": "846e717d39f7b326669ee6afd875c9ca8f4b8d5180266c31a903d37f66e9e877",
+    "idf_sha256": "aa75d9d0a7c35d0cb1b4b0b73e7b238801e0b23f3f4abcee4b6b5f819880382a",
+    "training_nnz": {
+      "O": 154766,
+      "M": 159223
+    },
+    "test_nnz": {
+      "O": 209,
+      "M": 213
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 96,
+    "fit_text": "O",
+    "vocabulary_size": 21160,
+    "vocabulary_sha256": "1b2b4c332d0e19e5eb214a006f17dda1c97a6832ccce2c386b278c3f6c22ec2d",
+    "idf_sha256": "bde3d384f0433b3a50b3e84966add4134b92925577ae66da9ad3d00a625e9707",
+    "training_nnz": {
+      "O": 165600,
+      "M": 152053
+    },
+    "test_nnz": {
+      "O": 203,
+      "M": 201
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 96,
+    "fit_text": "M",
+    "vocabulary_size": 16850,
+    "vocabulary_sha256": "80af0e57be4e814f7863b2b76df540447e9c82643d452387dec6b41411a3d725",
+    "idf_sha256": "fe12d097593ea5939baeb6ce3b9db1774cdaca404c4d2253846ee3c2a6aeaeca",
+    "training_nnz": {
+      "O": 154775,
+      "M": 159233
+    },
+    "test_nnz": {
+      "O": 203,
+      "M": 207
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 97,
+    "fit_text": "O",
+    "vocabulary_size": 20193,
+    "vocabulary_sha256": "0e0ee5d7d331f7c290e7720d7329a9459a69dcdfa8fa768b797a112f95b473ef",
+    "idf_sha256": "722329305a3fee6c6d6d2b25a445599d4961b0edda40929960c480bdca1fa843",
+    "training_nnz": {
+      "O": 161924,
+      "M": 148556
+    },
+    "test_nnz": {
+      "O": 2789,
+      "M": 2696
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 97,
+    "fit_text": "M",
+    "vocabulary_size": 15927,
+    "vocabulary_sha256": "5024a6b2f8d74853c76c88d9a2b3c502f302bb88cd543e0a4d5255a62004c5d5",
+    "idf_sha256": "206dc2fc35da9fcfd9812a182f10cfd228e4ae770b7f89c843eb1d9b07429df7",
+    "training_nnz": {
+      "O": 151192,
+      "M": 155674
+    },
+    "test_nnz": {
+      "O": 2727,
+      "M": 2747
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 98,
+    "fit_text": "O",
+    "vocabulary_size": 21103,
+    "vocabulary_sha256": "6f2918d317b15493c2752b07ca7c65d0262530ec8651952bde3c207fc619837f",
+    "idf_sha256": "04b704adc5be12d3cea42a9be0af5b916df8cc984bdca3c00025682f1d80a543",
+    "training_nnz": {
+      "O": 165700,
+      "M": 152145
+    },
+    "test_nnz": {
+      "O": 46,
+      "M": 46
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 98,
+    "fit_text": "M",
+    "vocabulary_size": 16786,
+    "vocabulary_sha256": "fb6c5542c8cdc27b2c90e319b1a7c11d15cd0f4fa635d71d34ab19ec7cf839c1",
+    "idf_sha256": "4dd682e1b7b2c11b34aba7775faca3700a0d64558c58bfe21390c43e2b22fdc4",
+    "training_nnz": {
+      "O": 154864,
+      "M": 159325
+    },
+    "test_nnz": {
+      "O": 45,
+      "M": 51
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 99,
+    "fit_text": "O",
+    "vocabulary_size": 21148,
+    "vocabulary_sha256": "80c0b1c9a9518f6c01466210b4b3c522cb377e5d1fe495d03953acf6aa439fd1",
+    "idf_sha256": "6ecf45c71fca492dc49559515cfb10735d7245ee00d3a27edaa787199bffc9b1",
+    "training_nnz": {
+      "O": 165418,
+      "M": 151877
+    },
+    "test_nnz": {
+      "O": 373,
+      "M": 363
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 99,
+    "fit_text": "M",
+    "vocabulary_size": 16836,
+    "vocabulary_sha256": "d20eed44ca519c20e3d37a4dc5f408eafd87bc44b8a666731dfff7a196f1d07d",
+    "idf_sha256": "031c6684aa767291bb3b2759673363dc9db5d41a476aed2beb9c3fdd6c76c7b7",
+    "training_nnz": {
+      "O": 154593,
+      "M": 159057
+    },
+    "test_nnz": {
+      "O": 371,
+      "M": 369
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 100,
+    "fit_text": "O",
+    "vocabulary_size": 21156,
+    "vocabulary_sha256": "20322526ce6832eb827ab647b84606ab0c82e79289c1a11b2115cd1218bb6137",
+    "idf_sha256": "3e1ff0ac70bad519299ac8bbb049248fc04e6e1fe6b0cab751cf2d6201c91710",
+    "training_nnz": {
+      "O": 165604,
+      "M": 152057
+    },
+    "test_nnz": {
+      "O": 195,
+      "M": 195
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 100,
+    "fit_text": "M",
+    "vocabulary_size": 16848,
+    "vocabulary_sha256": "e163e607742db58998198b20ae16788b54e17fbc6131454cdb101da4db16a9b3",
+    "idf_sha256": "920b1270206b925b472e59354938de6e064b2f8918893bea49ec1fd83468634a",
+    "training_nnz": {
+      "O": 154781,
+      "M": 159237
+    },
+    "test_nnz": {
+      "O": 195,
+      "M": 201
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 101,
+    "fit_text": "O",
+    "vocabulary_size": 21101,
+    "vocabulary_sha256": "c515f4c66f0e4cd29979428e5d249922694ef77959b96796c347b1ce7bebad5e",
+    "idf_sha256": "2b988f69b8759fce60136a24967e2d210eb4cb154533c87161cd1358563a44ae",
+    "training_nnz": {
+      "O": 165353,
+      "M": 151996
+    },
+    "test_nnz": {
+      "O": 318,
+      "M": 234
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 101,
+    "fit_text": "M",
+    "vocabulary_size": 16833,
+    "vocabulary_sha256": "a62f864b5a16ceb8324a5ae969dc90b1f8e0232ed1e4815f45f827ca3c189ca2",
+    "idf_sha256": "463bd30dfe245e1e7be11d077fb42dae0439a9fc12d431b50ef1f4d9363a748c",
+    "training_nnz": {
+      "O": 154696,
+      "M": 159098
+    },
+    "test_nnz": {
+      "O": 258,
+      "M": 306
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 102,
+    "fit_text": "O",
+    "vocabulary_size": 21128,
+    "vocabulary_sha256": "525d1f6e71f8c7dae6673e87b9fb1a3b78a6e772afe736263d9364e5eff5b8f1",
+    "idf_sha256": "69bb6bf683b906c6ae0513d82a6e5a99d2d190a6760b96077ad57be41e380517",
+    "training_nnz": {
+      "O": 165107,
+      "M": 151587
+    },
+    "test_nnz": {
+      "O": 658,
+      "M": 645
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 102,
+    "fit_text": "M",
+    "vocabulary_size": 16823,
+    "vocabulary_sha256": "12c2cc46efe16de02f5a83b396b85abfc53ab82bb72fbcf4017a4a4c72939c39",
+    "idf_sha256": "601951c723f8be929923856a21ea1bbf00afbc38e38b8f5f8b91c97adc5dfad0",
+    "training_nnz": {
+      "O": 154289,
+      "M": 158753
+    },
+    "test_nnz": {
+      "O": 648,
+      "M": 660
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 103,
+    "fit_text": "O",
+    "vocabulary_size": 20209,
+    "vocabulary_sha256": "9aedc25a7ff717a2170e6964f63d728145407b3e66d675d80153aa7b63ef84cb",
+    "idf_sha256": "3aa6de82d8035ece71a6b9fa0ce678d59cb25eef0f9fe33d34bbcaccbd06e84e",
+    "training_nnz": {
+      "O": 153244,
+      "M": 140369
+    },
+    "test_nnz": {
+      "O": 9694,
+      "M": 9599
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 103,
+    "fit_text": "M",
+    "vocabulary_size": 16042,
+    "vocabulary_sha256": "bb14c8d0b37a419951af7452d1c643b21f13e650aa3e7da803951320898fa9a6",
+    "idf_sha256": "306be1da8c6b5cb4c1f3063495272cff83f942c4a8536aac2691013596e3a8cf",
+    "training_nnz": {
+      "O": 142971,
+      "M": 147179
+    },
+    "test_nnz": {
+      "O": 9691,
+      "M": 9949
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 104,
+    "fit_text": "O",
+    "vocabulary_size": 21090,
+    "vocabulary_sha256": "33ffc885b545318111a87978de37be53394425c598af0e2af23aaf7f85465a26",
+    "idf_sha256": "55f9f0af4b90e7f7486f829af5f631d1b10a312aa2e60c82f1156222ee3a336c",
+    "training_nnz": {
+      "O": 164568,
+      "M": 151047
+    },
+    "test_nnz": {
+      "O": 924,
+      "M": 929
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 104,
+    "fit_text": "M",
+    "vocabulary_size": 16792,
+    "vocabulary_sha256": "b4e0515c6c3852a1d8957c90baa4b930be0c953247072f1ad4d02c6356d72244",
+    "idf_sha256": "2818c2f1fd85b4dfbcac197182dbb8bae13d86f77b0f85a532ebec6eea138ec5",
+    "training_nnz": {
+      "O": 153776,
+      "M": 158193
+    },
+    "test_nnz": {
+      "O": 924,
+      "M": 964
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 105,
+    "fit_text": "O",
+    "vocabulary_size": 21012,
+    "vocabulary_sha256": "ea99cd30b2aa3a32c21ca367d23590db8d2eb380af897dcab66ae8e5c0c06144",
+    "idf_sha256": "31f8510d6297bdc1b50a6e9bf43483beca3e71c80826087c30960f93b2119455",
+    "training_nnz": {
+      "O": 164667,
+      "M": 151158
+    },
+    "test_nnz": {
+      "O": 838,
+      "M": 828
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 105,
+    "fit_text": "M",
+    "vocabulary_size": 16719,
+    "vocabulary_sha256": "3e288bce96d794df423d7ff245b05a6ec28a47714d5f6c890c95260b524b95ab",
+    "idf_sha256": "4cdf595d2a9c050a8491d8d972b841dca9ddeebf30f65de8f525a8851a2fd6ff",
+    "training_nnz": {
+      "O": 153864,
+      "M": 158320
+    },
+    "test_nnz": {
+      "O": 836,
+      "M": 850
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 106,
+    "fit_text": "O",
+    "vocabulary_size": 21149,
+    "vocabulary_sha256": "ff683b41a618a2af29d771f3c959db84273ae16419435266c17aa43f8f69407c",
+    "idf_sha256": "1b5ec3eda9330cde7ef0780692aa78c90e14681f40770da4cbf92f8f4b5fca92",
+    "training_nnz": {
+      "O": 165582,
+      "M": 152039
+    },
+    "test_nnz": {
+      "O": 210,
+      "M": 204
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 106,
+    "fit_text": "M",
+    "vocabulary_size": 16839,
+    "vocabulary_sha256": "c5876cad9fcae260f3a8c145108c7af6280a521994258e582368ef7ede45bd1d",
+    "idf_sha256": "7827af0cf2e21e140e586c81980f2be6a910e9d2a2ce3d0611c284ca86c2e4ce",
+    "training_nnz": {
+      "O": 154757,
+      "M": 159219
+    },
+    "test_nnz": {
+      "O": 210,
+      "M": 210
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 107,
+    "fit_text": "O",
+    "vocabulary_size": 21164,
+    "vocabulary_sha256": "cbe2b281ba507b7852d26a97700f720616a63b3b8547d21dedb70b7aaf5be0a5",
+    "idf_sha256": "52fe2213277c0c99be53e91197133a12700609edc693918c6f477a0193085d79",
+    "training_nnz": {
+      "O": 165779,
+      "M": 152232
+    },
+    "test_nnz": {
+      "O": 28,
+      "M": 24
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 107,
+    "fit_text": "M",
+    "vocabulary_size": 16852,
+    "vocabulary_sha256": "249e4f7c3451ddd721816da89cdf1685fce12d6dd376e841e1c9761004eddb40",
+    "idf_sha256": "391efc6d231a95e3536dc4422ac1819f34dcbf9fd4a7febf6dcc94e7d1f832a8",
+    "training_nnz": {
+      "O": 154952,
+      "M": 159412
+    },
+    "test_nnz": {
+      "O": 28,
+      "M": 30
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 108,
+    "fit_text": "O",
+    "vocabulary_size": 21009,
+    "vocabulary_sha256": "877facd2fbab5feaa2db45eb591364d3d3f6f1ea27fb9f01b426b18306014523",
+    "idf_sha256": "9c4a2ce51d7619c692d20984e3549221766c20c297e9d371298fb0a44866a38c",
+    "training_nnz": {
+      "O": 165087,
+      "M": 151726
+    },
+    "test_nnz": {
+      "O": 451,
+      "M": 407
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 108,
+    "fit_text": "M",
+    "vocabulary_size": 16754,
+    "vocabulary_sha256": "28a30eb8de8224de326fa5b4ed4fe98a0cf11fa144afbf5e751710505f02c0f8",
+    "idf_sha256": "55492e1661dfc34280872d139b65907271aeaa2d426205aca316e64afc9792e0",
+    "training_nnz": {
+      "O": 154411,
+      "M": 158834
+    },
+    "test_nnz": {
+      "O": 431,
+      "M": 483
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 109,
+    "fit_text": "O",
+    "vocabulary_size": 21160,
+    "vocabulary_sha256": "7adde6848c5b9c13c6a8b972542b6bf098d7496ade7ab75d1a1a387f3feb29a6",
+    "idf_sha256": "8e3dda4c3f080b8fca2f50dcb9a6458f075887de983ec2247aabcff27d986073",
+    "training_nnz": {
+      "O": 165786,
+      "M": 152237
+    },
+    "test_nnz": {
+      "O": 17,
+      "M": 14
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 109,
+    "fit_text": "M",
+    "vocabulary_size": 16847,
+    "vocabulary_sha256": "f9279c96474745c75e8dcbf9fe57908319596b22fc90a9b9763b00da9edab97d",
+    "idf_sha256": "9c032243d6e95a50d045067bdc5bc1e44fa4129e0c62f147941eafbe6c473219",
+    "training_nnz": {
+      "O": 154958,
+      "M": 159417
+    },
+    "test_nnz": {
+      "O": 17,
+      "M": 20
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 110,
+    "fit_text": "O",
+    "vocabulary_size": 20857,
+    "vocabulary_sha256": "e7bfde3bae66b4211b2c2d916cd163658672cb49c706d05d368016e19dd2b815",
+    "idf_sha256": "77ff19a43a1001fd656660612b1b89ed374c4908d38bd2f6e277b77c6c4b9c1d",
+    "training_nnz": {
+      "O": 161252,
+      "M": 147881
+    },
+    "test_nnz": {
+      "O": 3391,
+      "M": 3322
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 110,
+    "fit_text": "M",
+    "vocabulary_size": 16583,
+    "vocabulary_sha256": "0e49e34a54adbb2d81c847c14f2c3d035f7e11c8fe37c4a9afc47488ead73c36",
+    "idf_sha256": "f63688041810c87ba9c53bc81696b2383e4b4e4c116a67b8cab6c9f6a2d89807",
+    "training_nnz": {
+      "O": 150526,
+      "M": 154907
+    },
+    "test_nnz": {
+      "O": 3391,
+      "M": 3418
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 111,
+    "fit_text": "O",
+    "vocabulary_size": 21166,
+    "vocabulary_sha256": "16252da666b3aedd14e9c8d24e198050899ac95db9de496bc49f1c68181a79bc",
+    "idf_sha256": "d2678329a04328182f3fd62a8de43a9ccdfce56910bc1e50914b90a16ee5d45c",
+    "training_nnz": {
+      "O": 165758,
+      "M": 152213
+    },
+    "test_nnz": {
+      "O": 51,
+      "M": 45
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 111,
+    "fit_text": "M",
+    "vocabulary_size": 16854,
+    "vocabulary_sha256": "38f042ecfc2dd4fc1cb8c37237367b55731fbc16d9ff37d341b026365eeee7e9",
+    "idf_sha256": "10b475123cc9840d435d11fc834c87b627bc48ca880ad5f0d94c4a6b6e7b7b82",
+    "training_nnz": {
+      "O": 154931,
+      "M": 159393
+    },
+    "test_nnz": {
+      "O": 51,
+      "M": 51
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 112,
+    "fit_text": "O",
+    "vocabulary_size": 20839,
+    "vocabulary_sha256": "8a79bf2f18608a7d2fc46b3a64ca007f9ef013e6caaa43ba8188df5289553de0",
+    "idf_sha256": "04b35b1d87e6cdedd21125886f3068060369e0ee38b42c8591431fcac7353929",
+    "training_nnz": {
+      "O": 164760,
+      "M": 151384
+    },
+    "test_nnz": {
+      "O": 450,
+      "M": 399
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 112,
+    "fit_text": "M",
+    "vocabulary_size": 16576,
+    "vocabulary_sha256": "09998d58c59d41193cf9b30c2b18dc1d2acc5795b797db8ccc7cee4dd402ab4a",
+    "idf_sha256": "1e3975258141a2c22640daa0de2da7e9c50d7f4393b165be5d4b69e6a45b5607",
+    "training_nnz": {
+      "O": 154014,
+      "M": 158487
+    },
+    "test_nnz": {
+      "O": 449,
+      "M": 478
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 113,
+    "fit_text": "O",
+    "vocabulary_size": 20872,
+    "vocabulary_sha256": "b4e7f531951c24bc56a047f885a2b9821cb08e6390b4c4429826c309dcc1a68f",
+    "idf_sha256": "b4fe40087c056100a80fb280550e322f66f6160dc1d1b6e13bbcb4956c859404",
+    "training_nnz": {
+      "O": 158374,
+      "M": 145089
+    },
+    "test_nnz": {
+      "O": 6001,
+      "M": 6027
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 113,
+    "fit_text": "M",
+    "vocabulary_size": 16661,
+    "vocabulary_sha256": "ce9b376a1bf10a3bb0776bbc436fa86f084b025819b499734e004b9c7fbc029f",
+    "idf_sha256": "10d3e2c51ec4628c49994a42e0dae4d11aae80e19df999ff4a3d582f3fefdc9f",
+    "training_nnz": {
+      "O": 147829,
+      "M": 152014
+    },
+    "test_nnz": {
+      "O": 5963,
+      "M": 6201
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 114,
+    "fit_text": "O",
+    "vocabulary_size": 21136,
+    "vocabulary_sha256": "8154ad1d948d0399f89e9dc22fdaf54da1ad5453b4fba3ed0c0e3d191aad77e0",
+    "idf_sha256": "5837588e0dfb6cb7b9826cc041987aee080c7ec90b195bb876e538f8d0a1404c",
+    "training_nnz": {
+      "O": 165551,
+      "M": 152000
+    },
+    "test_nnz": {
+      "O": 228,
+      "M": 229
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 114,
+    "fit_text": "M",
+    "vocabulary_size": 16821,
+    "vocabulary_sha256": "cc7914fb5981eab35ef0f6bacdff868b3c4694a6fbdf0906d30d78a274fafc53",
+    "idf_sha256": "fadd832f4d6f8d6a94a099f15b857b56e1d6d27cd649c63d885d13b11aa93f87",
+    "training_nnz": {
+      "O": 154712,
+      "M": 159176
+    },
+    "test_nnz": {
+      "O": 226,
+      "M": 235
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 115,
+    "fit_text": "O",
+    "vocabulary_size": 21148,
+    "vocabulary_sha256": "2f66320579f5c5187c326ec04ebc1779301220092ada8204d86d9733682e36f5",
+    "idf_sha256": "32a3a0c1fae92c785afa4d287be934ce79deac1709ee2c0fcb50f23007e2ce01",
+    "training_nnz": {
+      "O": 165617,
+      "M": 152062
+    },
+    "test_nnz": {
+      "O": 174,
+      "M": 175
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 115,
+    "fit_text": "M",
+    "vocabulary_size": 16829,
+    "vocabulary_sha256": "526fec9634395195e97a095c142049d9a690aa321229c3c3a6c17e7fa183a2a3",
+    "idf_sha256": "af48562f8186400000d2fb4f5476e16c70ffb00f957a5ce3fb863593a64bbe72",
+    "training_nnz": {
+      "O": 154787,
+      "M": 159242
+    },
+    "test_nnz": {
+      "O": 174,
+      "M": 177
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 116,
+    "fit_text": "O",
+    "vocabulary_size": 21145,
+    "vocabulary_sha256": "05d6cc380a10f680b337a716345cc30ae548517748db1c747d858f589e8fd6bf",
+    "idf_sha256": "227016a0211ba42bd266b0376eef8437417be6b5025b0b19a7fff3c522110ad9",
+    "training_nnz": {
+      "O": 165728,
+      "M": 152191
+    },
+    "test_nnz": {
+      "O": 54,
+      "M": 46
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 116,
+    "fit_text": "M",
+    "vocabulary_size": 16834,
+    "vocabulary_sha256": "020d1fbc88e167423d90552679b1968bc11066bb1c6509e75d52f8780e0f431e",
+    "idf_sha256": "1b17c04525401ba1a837c0b7ff2fd774624a56dee7b4657776c99cbd01d7e82f",
+    "training_nnz": {
+      "O": 154911,
+      "M": 159365
+    },
+    "test_nnz": {
+      "O": 50,
+      "M": 58
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 117,
+    "fit_text": "O",
+    "vocabulary_size": 21166,
+    "vocabulary_sha256": "92dafc1cb1b927a9f6c19e4769452c623d70e11e1d5f6975eee9a8074f196d50",
+    "idf_sha256": "6947212106fcbc0c4e4fcf21a67cb01f35bd39e635658ad267a82405e4616046",
+    "training_nnz": {
+      "O": 165785,
+      "M": 152237
+    },
+    "test_nnz": {
+      "O": 24,
+      "M": 21
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 117,
+    "fit_text": "M",
+    "vocabulary_size": 16854,
+    "vocabulary_sha256": "38f042ecfc2dd4fc1cb8c37237367b55731fbc16d9ff37d341b026365eeee7e9",
+    "idf_sha256": "9290e5728dd4d9d4f19288dcbd3471737f00cd26b19b1c7c477db8a089376ce0",
+    "training_nnz": {
+      "O": 154958,
+      "M": 159417
+    },
+    "test_nnz": {
+      "O": 24,
+      "M": 27
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 118,
+    "fit_text": "O",
+    "vocabulary_size": 21123,
+    "vocabulary_sha256": "ce44ee1c9a78c5223cd64458e0c16e54fa867a3e46305caf16ba5e78c3cbdbdb",
+    "idf_sha256": "6fb68f8039329d754c5d5052cacbac21eaf4f0d32e6bca3bfe7fa15f1b148875",
+    "training_nnz": {
+      "O": 165458,
+      "M": 151914
+    },
+    "test_nnz": {
+      "O": 267,
+      "M": 266
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 118,
+    "fit_text": "M",
+    "vocabulary_size": 16815,
+    "vocabulary_sha256": "e340e8633fb5543e6bb7cdea0466f0d437b69c14b8c5059320b71b7d9ed72f99",
+    "idf_sha256": "4dd0a6f21578dc6682620621869ff2e15263112568f528e9d651c8b3438f7e0b",
+    "training_nnz": {
+      "O": 154637,
+      "M": 159090
+    },
+    "test_nnz": {
+      "O": 267,
+      "M": 276
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 119,
+    "fit_text": "O",
+    "vocabulary_size": 20141,
+    "vocabulary_sha256": "e7312ee1b342f06956a95cc1b9b92bb1e5fe6f37bfe930b9408cd6f73175d9f2",
+    "idf_sha256": "3e4f333e43d4af3fa5d63af2cfe86f8a53ee2786f9b650ade8fc4958149036f4",
+    "training_nnz": {
+      "O": 150662,
+      "M": 137968
+    },
+    "test_nnz": {
+      "O": 9644,
+      "M": 9724
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 119,
+    "fit_text": "M",
+    "vocabulary_size": 16034,
+    "vocabulary_sha256": "90b326fb4fabb0e2db978501eb03dcac34db39a79a92660560fed6e5bf34a26f",
+    "idf_sha256": "06055be56e05bcbd77f4c82cb9a575ae8b618173fdbc57144fd197f0ec179a2b",
+    "training_nnz": {
+      "O": 140761,
+      "M": 144251
+    },
+    "test_nnz": {
+      "O": 9643,
+      "M": 10294
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 120,
+    "fit_text": "O",
+    "vocabulary_size": 21149,
+    "vocabulary_sha256": "19d7c4c1c5e953b22f416793439a4f19674959c799e3584f0c9fa22c29a3a48d",
+    "idf_sha256": "8349962c587c2bc9a4ff61a9646869d4cd980d25a8f8dcf64d7c94d40774a1c8",
+    "training_nnz": {
+      "O": 165682,
+      "M": 152151
+    },
+    "test_nnz": {
+      "O": 102,
+      "M": 94
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 120,
+    "fit_text": "M",
+    "vocabulary_size": 16845,
+    "vocabulary_sha256": "ec7637480ccdec84a117a62a2b4bf94e347f10b674ff6aac8ad31444816e682d",
+    "idf_sha256": "f9c363b539760fa77551bbd587796c1b0c2df26b794b69ef94b67a51a89a73b3",
+    "training_nnz": {
+      "O": 154867,
+      "M": 159325
+    },
+    "test_nnz": {
+      "O": 102,
+      "M": 106
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 121,
+    "fit_text": "O",
+    "vocabulary_size": 20982,
+    "vocabulary_sha256": "c6155251a63aca5a25e12b4db9bf49d8c94b9a35bff8fb0d3ebe9b0ece8886d3",
+    "idf_sha256": "35403fa1a2667670295a704641d69f61b03aec67fe066820e3badd2fe922fe6a",
+    "training_nnz": {
+      "O": 163631,
+      "M": 150258
+    },
+    "test_nnz": {
+      "O": 1882,
+      "M": 1832
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 121,
+    "fit_text": "M",
+    "vocabulary_size": 16737,
+    "vocabulary_sha256": "ae45e342fdbe289bdd0f0a86f8ff854cbb91e33a580e9e783499a15e1cb992e6",
+    "idf_sha256": "941b3d8134cebf86528d0e3f8a27bd4f23443488c985d68e4e295688141c84be",
+    "training_nnz": {
+      "O": 152942,
+      "M": 157372
+    },
+    "test_nnz": {
+      "O": 1872,
+      "M": 1904
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 122,
+    "fit_text": "O",
+    "vocabulary_size": 20899,
+    "vocabulary_sha256": "c3bdd599c8514a494f41f0b1399044655a4f6b127effeb2e3a53275c8f5bfa73",
+    "idf_sha256": "2e766655f07d0fc7175cfd5ac8ca425c0a0b26948ae192481550219fb9e78e09",
+    "training_nnz": {
+      "O": 165200,
+      "M": 151841
+    },
+    "test_nnz": {
+      "O": 158,
+      "M": 138
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 122,
+    "fit_text": "M",
+    "vocabulary_size": 16671,
+    "vocabulary_sha256": "bd307f2de5d10954a6ab0834cfe4876a0b377783e259e8146dfa93af5a0f93c5",
+    "idf_sha256": "138492773d50789c1940451be1f6fdac370e20c8386273f8bb6e2ad9f3b468b7",
+    "training_nnz": {
+      "O": 154532,
+      "M": 158942
+    },
+    "test_nnz": {
+      "O": 158,
+      "M": 221
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 123,
+    "fit_text": "O",
+    "vocabulary_size": 21163,
+    "vocabulary_sha256": "1e7745c937d2fe8617bcde10ce69b8a588f45cc18413e7ec3b6f328b28a91a0c",
+    "idf_sha256": "f52df0d8417683f4cc496acd0cd0fa5862d4ccbc411d93182aa2d37290741c54",
+    "training_nnz": {
+      "O": 165786,
+      "M": 152239
+    },
+    "test_nnz": {
+      "O": 20,
+      "M": 16
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 123,
+    "fit_text": "M",
+    "vocabulary_size": 16851,
+    "vocabulary_sha256": "3d73d9887a2942d0e0813be28f2694fb0925cb725f65392e0036c035e8ddd84a",
+    "idf_sha256": "4445def2722f3f8ababb5efbc6f5cc62ef159bb0a4433797a85a18f4cd57f524",
+    "training_nnz": {
+      "O": 154961,
+      "M": 159419
+    },
+    "test_nnz": {
+      "O": 18,
+      "M": 22
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 124,
+    "fit_text": "O",
+    "vocabulary_size": 21141,
+    "vocabulary_sha256": "ff711579b98ed8c197f3930b9885f1d8bc61160341a4e92e2a3c141728c847b9",
+    "idf_sha256": "14f0963e97f166f9209ab95a94e5269abf3d99c8757fcad9eca77de37c03a03c",
+    "training_nnz": {
+      "O": 165760,
+      "M": 152213
+    },
+    "test_nnz": {
+      "O": 24,
+      "M": 20
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 124,
+    "fit_text": "M",
+    "vocabulary_size": 16829,
+    "vocabulary_sha256": "0b2fcfbf23b619e42266e9ebd618f542755843401dc4ee97db93dd7d738a4c5e",
+    "idf_sha256": "0295b976e3c86425df7a3ea4ceb82799c4ef4378f626f79aa525d3c356632ad1",
+    "training_nnz": {
+      "O": 154934,
+      "M": 159393
+    },
+    "test_nnz": {
+      "O": 23,
+      "M": 26
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 125,
+    "fit_text": "O",
+    "vocabulary_size": 20965,
+    "vocabulary_sha256": "a8c51bd1ba09cea87ff6e40f1310c066ae27a95bf7e393688c56b11c07855a38",
+    "idf_sha256": "3a4e02da2f6b69929b89e75faf2df786d7e470383975f7c756d58d8139d3d350",
+    "training_nnz": {
+      "O": 165262,
+      "M": 151866
+    },
+    "test_nnz": {
+      "O": 270,
+      "M": 223
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 125,
+    "fit_text": "M",
+    "vocabulary_size": 16709,
+    "vocabulary_sha256": "4016fe020b61190d384bc4e46fe48ddd2a20c5621b8d45c98d5e297c9e5af362",
+    "idf_sha256": "1178bb4e95041aadfc0baf271fe41450ba3ff1b6ac29e42fb519f86a6422b1d5",
+    "training_nnz": {
+      "O": 154538,
+      "M": 158992
+    },
+    "test_nnz": {
+      "O": 265,
+      "M": 281
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 126,
+    "fit_text": "O",
+    "vocabulary_size": 21160,
+    "vocabulary_sha256": "a58f3084f33f6e81a891d59956aafac666e15bcfef4dd79d27c977005b3c799c",
+    "idf_sha256": "39711f289e7e1d577db434fee06d63ed838ba66359d5b81954f03a502e8e8b77",
+    "training_nnz": {
+      "O": 165779,
+      "M": 152235
+    },
+    "test_nnz": {
+      "O": 24,
+      "M": 17
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  },
+  {
+    "fold": 126,
+    "fit_text": "M",
+    "vocabulary_size": 16848,
+    "vocabulary_sha256": "aed64eb9a42e1a534eaca1dd542398c0ae355b1b5e3b2c3c0f1dea72d110563f",
+    "idf_sha256": "eadb4a60c5db78919983d52afaebb3ca1795f015ad0c171cfe283dedc70ecfa5",
+    "training_nnz": {
+      "O": 154952,
+      "M": 159415
+    },
+    "test_nnz": {
+      "O": 24,
+      "M": 23
+    },
+    "zero_training_documents": {
+      "O": 0,
+      "M": 0
+    },
+    "zero_test_documents": {
+      "O": 0,
+      "M": 0
+    }
+  }
+]

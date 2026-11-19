@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.languagetool.rules.de.LineExpanderTest" time="0.755" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="nondexStart" value="0"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/root/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0/surefire-booter-3.0.0.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0/surefire-api-3.0.0.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0/surefire-extensions-spi-3.0.0.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0/surefire-logger-api-3.0.0.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0/surefire-shared-utils-3.0.0.jar:/app/source/languagetool-language-modules/de/target/test-classes:/app/source/languagetool-language-modules/de/target/classes:/root/.m2/repository/de/danielnaber/german-pos-dict/1.2.4/german-pos-dict-1.2.4.jar:/root/.m2/repository/de/danielnaber/jwordsplitter/4.7/jwordsplitter-4.7.jar:/root/.m2/repository/edu/washington/cs/knowitall/openregex/1.1.1/openregex-1.1.1.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/root/.m2/repository/org/languagetool/languagetool-core/6.6-SNAPSHOT/languagetool-core-6.6-SNAPSHOT.jar:/root/.m2/repository/com/carrotsearch/hppc/0.8.2/hppc-0.8.2.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.0/jackson-databind-2.18.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.0/jackson-annotations-2.18.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.0/jackson-core-2.18.0.jar:/root/.m2/repository/com/gitlab/dumonts/hunspell/2.1.2/hunspell-2.1.2.jar:/root/.m2/repository/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/root/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/root/.m2/repository/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/root/.m2/repository/com/google/protobuf/protobuf-java/3.25.5/protobuf-java-3.25.5.jar:/root/.m2/repository/com/hankcs/aho-corasick-double-array-trie/1.2.2/aho-corasick-double-array-trie-1.2.2.jar:/root/.m2/repository/com/optimaize/languagedetector/language-detector/0.6/language-detector-0.6.jar:/root/.m2/repository/net/arnx/jsonic/1.2.11/jsonic-1.2.11.jar:/root/.m2/repository/com/intellij/annotations/12.0/annotations-12.0.jar:/root/.m2/repository/commons-logging/commons-logging/1.3.4/commons-logging-1.3.4.jar:/root/.m2/repository/commons-validator/commons-validator/1.9.0/commons-validator-1.9.0.jar:/root/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-circuitbreaker/1.7.1/resilience4j-circuitbreaker-1.7.1.jar:/root/.m2/repository/io/vavr/vavr/0.10.2/vavr-0.10.2.jar:/root/.m2/repository/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-core/1.7.1/resilience4j-core-1.7.1.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-micrometer/1.7.1/resilience4j-micrometer-1.7.1.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-api/1.42.1/opentelemetry-api-1.42.1.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-context/1.42.1/opentelemetry-context-1.42.1.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.30.1-alpha/opentelemetry-semconv-1.30.1-alpha.jar:/root/.m2/repository/io/grpc/grpc-netty-shaded/1.68.0/grpc-netty-shaded-1.68.0.jar:/root/.m2/repository/io/grpc/grpc-util/1.68.0/grpc-util-1.68.0.jar:/root/.m2/repository/io/grpc/grpc-core/1.68.0/grpc-core-1.68.0.jar:/root/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/root/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/root/.m2/repository/io/grpc/grpc-context/1.68.0/grpc-context-1.68.0.jar:/root/.m2/repository/io/perfmark/perfmark-api/0.27.0/perfmark-api-0.27.0.jar:/root/.m2/repository/io/grpc/grpc-api/1.68.0/grpc-api-1.68.0.jar:/root/.m2/repository/io/grpc/grpc-protobuf/1.68.0/grpc-protobuf-1.68.0.jar:/root/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.41.0/proto-google-common-protos-2.41.0.jar:/root/.m2/repository/io/grpc/grpc-protobuf-lite/1.68.0/grpc-protobuf-lite-1.68.0.jar:/root/.m2/repository/io/grpc/grpc-stub/1.68.0/grpc-stub-1.68.0.jar:/root/.m2/repository/io/micrometer/micrometer-registry-prometheus/1.7.12/micrometer-registry-prometheus-1.7.12.jar:/root/.m2/repository/io/micrometer/micrometer-core/1.7.12/micrometer-core-1.7.12.jar:/root/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/root/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/root/.m2/repository/io/prometheus/simpleclient_common/0.10.0/simpleclient_common-0.10.0.jar:/root/.m2/repository/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_guava/0.16.0/simpleclient_guava-0.16.0.jar:/root/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/root/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/root/.m2/repository/javax/measure/unit-api/1.0/unit-api-1.0.jar:/root/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/root/.m2/repository/net/loomchild/segment/2.0.3/segment-2.0.3.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/root/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/root/.m2/repository/org/apache/commons/commons-pool2/2.12.0/commons-pool2-2.12.0.jar:/root/.m2/repository/org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar:/root/.m2/repository/org/apache/lucene/lucene-backward-codecs/5.5.5/lucene-backward-codecs-5.5.5.jar:/root/.m2/repository/org/apache/lucene/lucene-core/5.5.5/lucene-core-5.5.5.jar:/root/.m2/repository/org/carrot2/morfologik-fsa/2.1.9/morfologik-fsa-2.1.9.jar:/root/.m2/repository/org/carrot2/morfologik-fsa-builders/2.1.9/morfologik-fsa-builders-2.1.9.jar:/root/.m2/repository/org/carrot2/morfologik-speller/2.1.9/morfologik-speller-2.1.9.jar:/root/.m2/repository/org/carrot2/morfologik-stemming/2.1.9/morfologik-stemming-2.1.9.jar:/root/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.jar:/root/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.jar:/root/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/root/.m2/repository/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar:/root/.m2/repository/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.jar:/root/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/root/.m2/repository/org/jetbrains/annotations/25.0.0/annotations-25.0.0.jar:/root/.m2/repository/it/unimi/dsi/fastutil-core/8.5.14/fastutil-core-8.5.14.jar:/root/.m2/repository/org/json/json/20240303/json-20240303.jar:/root/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/root/.m2/repository/tech/units/indriya/1.3/indriya-1.3.jar:/root/.m2/repository/tech/uom/lib/uom-lib-common/1.1/uom-lib-common-1.1.jar:/root/.m2/repository/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/languagetool/languagetool-core/6.6-SNAPSHOT/languagetool-core-6.6-SNAPSHOT-tests.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-junit47/3.0.0/surefire-junit47-3.0.0.jar:/root/.m2/repository/org/apache/maven/surefire/common-java5/3.0.0/common-java5-3.0.0.jar:/root/.m2/repository/org/apache/maven/surefire/common-junit3/3.0.0/common-junit3-3.0.0.jar:/root/.m2/repository/org/apache/maven/surefire/common-junit4/3.0.0/common-junit4-3.0.0.jar:/root/.m2/repository/org/apache/maven/surefire/common-junit48/3.0.0/common-junit48-3.0.0.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-grouper/3.0.0/surefire-grouper-3.0.0.jar"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="os.name" value="Linux"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/java/openjdk/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /app/source/languagetool-language-modules/de/target/surefire 2025-11-07T18-55-58_840-jvmRun1 surefire-20251107185558897_4tmp surefire_1-20251107185558897_5tmp"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="org.languagetool.rules.de.LineExpanderTest#testExpansion"/>
+    <property name="surefire.test.class.path" value="/app/source/languagetool-language-modules/de/target/test-classes:/app/source/languagetool-language-modules/de/target/classes:/root/.m2/repository/de/danielnaber/german-pos-dict/1.2.4/german-pos-dict-1.2.4.jar:/root/.m2/repository/de/danielnaber/jwordsplitter/4.7/jwordsplitter-4.7.jar:/root/.m2/repository/edu/washington/cs/knowitall/openregex/1.1.1/openregex-1.1.1.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/root/.m2/repository/org/languagetool/languagetool-core/6.6-SNAPSHOT/languagetool-core-6.6-SNAPSHOT.jar:/root/.m2/repository/com/carrotsearch/hppc/0.8.2/hppc-0.8.2.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.0/jackson-databind-2.18.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.0/jackson-annotations-2.18.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.0/jackson-core-2.18.0.jar:/root/.m2/repository/com/gitlab/dumonts/hunspell/2.1.2/hunspell-2.1.2.jar:/root/.m2/repository/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/root/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/root/.m2/repository/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/root/.m2/repository/com/google/protobuf/protobuf-java/3.25.5/protobuf-java-3.25.5.jar:/root/.m2/repository/com/hankcs/aho-corasick-double-array-trie/1.2.2/aho-corasick-double-array-trie-1.2.2.jar:/root/.m2/repository/com/optimaize/languagedetector/language-detector/0.6/language-detector-0.6.jar:/root/.m2/repository/net/arnx/jsonic/1.2.11/jsonic-1.2.11.jar:/root/.m2/repository/com/intellij/annotations/12.0/annotations-12.0.jar:/root/.m2/repository/commons-logging/commons-logging/1.3.4/commons-logging-1.3.4.jar:/root/.m2/repository/commons-validator/commons-validator/1.9.0/commons-validator-1.9.0.jar:/root/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-circuitbreaker/1.7.1/resilience4j-circuitbreaker-1.7.1.jar:/root/.m2/repository/io/vavr/vavr/0.10.2/vavr-0.10.2.jar:/root/.m2/repository/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-core/1.7.1/resilience4j-core-1.7.1.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-micrometer/1.7.1/resilience4j-micrometer-1.7.1.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-api/1.42.1/opentelemetry-api-1.42.1.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-context/1.42.1/opentelemetry-context-1.42.1.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.30.1-alpha/opentelemetry-semconv-1.30.1-alpha.jar:/root/.m2/repository/io/grpc/grpc-netty-shaded/1.68.0/grpc-netty-shaded-1.68.0.jar:/root/.m2/repository/io/grpc/grpc-util/1.68.0/grpc-util-1.68.0.jar:/root/.m2/repository/io/grpc/grpc-core/1.68.0/grpc-core-1.68.0.jar:/root/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/root/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/root/.m2/repository/io/grpc/grpc-context/1.68.0/grpc-context-1.68.0.jar:/root/.m2/repository/io/perfmark/perfmark-api/0.27.0/perfmark-api-0.27.0.jar:/root/.m2/repository/io/grpc/grpc-api/1.68.0/grpc-api-1.68.0.jar:/root/.m2/repository/io/grpc/grpc-protobuf/1.68.0/grpc-protobuf-1.68.0.jar:/root/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.41.0/proto-google-common-protos-2.41.0.jar:/root/.m2/repository/io/grpc/grpc-protobuf-lite/1.68.0/grpc-protobuf-lite-1.68.0.jar:/root/.m2/repository/io/grpc/grpc-stub/1.68.0/grpc-stub-1.68.0.jar:/root/.m2/repository/io/micrometer/micrometer-registry-prometheus/1.7.12/micrometer-registry-prometheus-1.7.12.jar:/root/.m2/repository/io/micrometer/micrometer-core/1.7.12/micrometer-core-1.7.12.jar:/root/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/root/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/root/.m2/repository/io/prometheus/simpleclient_common/0.10.0/simpleclient_common-0.10.0.jar:/root/.m2/repository/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_guava/0.16.0/simpleclient_guava-0.16.0.jar:/root/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/root/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/root/.m2/repository/javax/measure/unit-api/1.0/unit-api-1.0.jar:/root/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/root/.m2/repository/net/loomchild/segment/2.0.3/segment-2.0.3.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/root/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/root/.m2/repository/org/apache/commons/commons-pool2/2.12.0/commons-pool2-2.12.0.jar:/root/.m2/repository/org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar:/root/.m2/repository/org/apache/lucene/lucene-backward-codecs/5.5.5/lucene-backward-codecs-5.5.5.jar:/root/.m2/repository/org/apache/lucene/lucene-core/5.5.5/lucene-core-5.5.5.jar:/root/.m2/repository/org/carrot2/morfologik-fsa/2.1.9/morfologik-fsa-2.1.9.jar:/root/.m2/repository/org/carrot2/morfologik-fsa-builders/2.1.9/morfologik-fsa-builders-2.1.9.jar:/root/.m2/repository/org/carrot2/morfologik-speller/2.1.9/morfologik-speller-2.1.9.jar:/root/.m2/repository/org/carrot2/morfologik-stemming/2.1.9/morfologik-stemming-2.1.9.jar:/root/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.jar:/root/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.jar:/root/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/root/.m2/repository/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar:/root/.m2/repository/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.jar:/root/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/root/.m2/repository/org/jetbrains/annotations/25.0.0/annotations-25.0.0.jar:/root/.m2/repository/it/unimi/dsi/fastutil-core/8.5.14/fastutil-core-8.5.14.jar:/root/.m2/repository/org/json/json/20240303/json-20240303.jar:/root/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/root/.m2/repository/tech/units/indriya/1.3/indriya-1.3.jar:/root/.m2/repository/tech/uom/lib/uom-lib-common/1.1/uom-lib-common-1.1.jar:/root/.m2/repository/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/languagetool/languagetool-core/6.6-SNAPSHOT/languagetool-core-6.6-SNAPSHOT-tests.jar:"/>
+    <property name="nondexExecid" value="N4rZV973x5YDO7pl03PEhyzTaBkh61mBDyyel5NSj8A="/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/opt/java/openjdk"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="basedir" value="/app/source/languagetool-language-modules/de"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-35-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/languagetool-language-modules/de/.nondex"/>
+    <property name="nondexJarDir" value="/app/source/languagetool-language-modules/de/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="/app/source/languagetool-language-modules/de"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="license.skip" value="true"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="xml.skip" value="true"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="testExpansion" classname="org.languagetool.rules.de.LineExpanderTest" time="0.742">
+    <failure message="&#10;Expected: is &quot;[rübermach, rübergemacht, rübermachest, rübermachst, rübermache, rübermachen, rübermachet, rübermachte, rübermachend, rübermachten, rübermacht, rübermachtest, rübermachtet, rüberzumachen, Rübermachens]&quot;&#10;     but: was &quot;[rübermachend, rübermachte, rübermachet, rübermachen, rübergemacht, rübermachtet, rübermacht, rübermach, rübermachst, rübermachtest, rübermachest, rübermachten, rübermache, rüberzumachen, Rübermachens]&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is "[rübermach, rübergemacht, rübermachest, rübermachst, rübermache, rübermachen, rübermachet, rübermachte, rübermachend, rübermachten, rübermacht, rübermachtest, rübermachtet, rüberzumachen, Rübermachens]"
+     but: was "[rübermachend, rübermachte, rübermachet, rübermachen, rübergemacht, rübermachtet, rübermacht, rübermach, rübermachst, rübermachtest, rübermachest, rübermachten, rübermache, rüberzumachen, Rübermachens]"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:964)
+	at org.junit.Assert.assertThat(Assert.java:930)
+	at org.languagetool.rules.de.LineExpanderTest.testExpansion(LineExpanderTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

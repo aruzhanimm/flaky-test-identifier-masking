@@ -1,0 +1,72 @@
+{
+  "training_tests": 1051,
+  "evaluation_tests": 5,
+  "evaluation_projects": 1,
+  "evaluation_labels": {
+    "ID": 5
+  },
+  "metrics": {
+    "lr_original": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "predicted_label_counts": {
+        "ID": 5
+      }
+    },
+    "lr_masked": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "predicted_label_counts": {
+        "ID": 5
+      }
+    },
+    "svc_original": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "predicted_label_counts": {
+        "ID": 5
+      }
+    },
+    "svc_masked": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "predicted_label_counts": {
+        "ID": 5
+      }
+    },
+    "majority": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "predicted_label_counts": {
+        "ID": 5
+      }
+    },
+    "source_format": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "predicted_label_counts": {
+        "ID": 5
+      }
+    }
+  },
+  "paired_changes": {
+    "lr": {
+      "changed": 0,
+      "harmful": 0,
+      "helpful": 0
+    },
+    "svc": {
+      "changed": 0,
+      "harmful": 0,
+      "helpful": 0
+    }
+  },
+  "fit_seconds": 1.0142837999999301,
+  "interpretation": "One-project all-ID holdout. Accuracy cannot establish four-category discrimination; majority and format-only rules also predict ID."
+}

@@ -1,0 +1,81 @@
+{
+  "container": "graylog2servergraylog2serverf169d54serializeParameter",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "graylog2servergraylog2serverf169d54serializeParameter",
+    "project": "https://github.com/graylog2/graylog2-server",
+    "revision": "f169d5423375d509cb7b64fa2cabb76cf5aec18f",
+    "test": "org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.serializeParameter",
+    "label": "ID",
+    "module": "graylog2-server",
+    "zip": "graylog2-server=graylog2-server=f169d54",
+    "config_row": 13,
+    "configured_test": "org.graylog2.contentpacks.model.entities.references.ValueReferenceTest#serializeParameter",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/graylog2/graylog2-server::org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.serializeParameter",
+    "variant_id": "https://github.com/graylog2/graylog2-server::org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.serializeParameter::f169d5423375d509cb7b64fa2cabb76cf5aec18f::graylog2-server",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/graylog2servergraylog2serverf169d54serializeParameter/result/Flaky/.nondex/Es13Ast0F5jKmoDhBzzXLSxZYMZb1+oMsOttFeqVpJE=/TEST-org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.xml",
+        "size": 65148,
+        "compressed": 7623,
+        "crc32": "b70868e9",
+        "offset": 571735294,
+        "method": 8,
+        "local_path": "data/extracted/0643a20664382f47996d8462.xml",
+        "sha256": "18a1e77191b91a2520347659ae9bbc0c854efb1accff3df4dc4ee4f322a54b41",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/graylog2servergraylog2serverf169d54serializeParameter/result/Flaky/rounds-test-results.csv",
+    "size": 21715,
+    "compressed": 4981,
+    "crc32": "8aa12874",
+    "offset": 571616450,
+    "method": 8,
+    "local_path": "data/extracted/79f7a2a1a97bf39d33d377e8.csv",
+    "sha256": "387386697f38a42a46dfff91f7b3fd49f481a6d5ac886a574a512c7977f4aa99",
+    "status": "verified"
+  },
+  "reported_failure_rows": 52,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/graylog2servergraylog2serverf169d54serializeParameter/result/Flaky/.nondex/Es13Ast0F5jKmoDhBzzXLSxZYMZb1+oMsOttFeqVpJE=/TEST-org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.xml",
+    "size": 65148,
+    "compressed": 7623,
+    "crc32": "b70868e9",
+    "offset": 571735294,
+    "method": 8,
+    "local_path": "data/extracted/0643a20664382f47996d8462.xml",
+    "sha256": "18a1e77191b91a2520347659ae9bbc0c854efb1accff3df4dc4ee4f322a54b41",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "serializeParameter",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<\"{\"@[type\":\"parameter\",\"@value\":\"Test]\"}\"> but was:<\"{\"@[value\":\"Test\",\"@type\":\"parameter]\"}\">",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<\"{\"@[type\":\"parameter\",\"@value\":\"Test]\"}\"> but was:<\"{\"@[value\":\"Test\",\"@type\":\"parameter]\"}\">\n\tat org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.serializeParameter(ValueReferenceTest.java:181)",
+    "text": "org.junit.ComparisonFailure\nexpected:<\"{\"@[type\":\"parameter\",\"@value\":\"Test]\"}\"> but was:<\"{\"@[value\":\"Test\",\"@type\":\"parameter]\"}\">\norg.junit.ComparisonFailure: expected:<\"{\"@[type\":\"parameter\",\"@value\":\"Test]\"}\"> but was:<\"{\"@[value\":\"Test\",\"@type\":\"parameter]\"}\">\n\tat org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.serializeParameter(ValueReferenceTest.java:181)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "50487f8b5ff44ca73fca4229f64ce31a7dd92f4e573cc6370428afcb7c39014f"
+}

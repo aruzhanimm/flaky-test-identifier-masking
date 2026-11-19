@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.j256.ormlite.table.SchemaUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.017 s <<< FAILURE! - in com.j256.ormlite.table.SchemaUtilsTest
+com.j256.ormlite.table.SchemaUtilsTest.testCreateSchemaName  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+  Unexpected method call LogBackend.isLevelEnabled(INFO):
+    LogBackend.isLevelEnabled(INFO): expected: 1, actual: 2
+	at org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:44)
+	at org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:94)
+	at com.sun.proxy.$Proxy10.isLevelEnabled(Unknown Source)
+	at com.j256.ormlite.logger.BaseLogger.logIfEnabled(BaseLogger.java:86)
+	at com.j256.ormlite.logger.Logger.info(Logger.java:252)
+	at com.j256.ormlite.table.SchemaUtils.addDropSchemaStatements(SchemaUtils.java:168)
+	at com.j256.ormlite.table.SchemaUtils.doDropSchema(SchemaUtils.java:151)
+	at com.j256.ormlite.table.SchemaUtils.dropSchema(SchemaUtils.java:145)
+	at com.j256.ormlite.table.SchemaUtilsTest.testCreateSchemaName(SchemaUtilsTest.java:34)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+

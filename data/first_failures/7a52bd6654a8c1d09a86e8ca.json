@@ -1,0 +1,81 @@
+{
+  "container": "typescriptgeneratortypescriptgeneratorcore0841f94testSorting",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "typescriptgeneratortypescriptgeneratorcore0841f94testSorting",
+    "project": "https://github.com/vojtechhabarta/typescript-generator",
+    "revision": "0841f94c6a5e2de85e6323a51140a5e3b2934feb",
+    "test": "cz.habarta.typescript.generator.EnumConstantsExtensionTest.testSorting",
+    "label": "ID",
+    "module": "typescript-generator-core",
+    "zip": "typescript-generator=typescript-generator-core=0841f94",
+    "config_row": 603,
+    "configured_test": "cz.habarta.typescript.generator.EnumConstantsExtensionTest#testSorting",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/vojtechhabarta/typescript-generator::cz.habarta.typescript.generator.EnumConstantsExtensionTest.testSorting",
+    "variant_id": "https://github.com/vojtechhabarta/typescript-generator::cz.habarta.typescript.generator.EnumConstantsExtensionTest.testSorting::0841f94c6a5e2de85e6323a51140a5e3b2934feb::typescript-generator-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/typescriptgeneratortypescriptgeneratorcore0841f94testSorting/result/Flaky/.nondex/Cn1Z8BTkxjrpKoc76CfVaUMslKoWOQpN4cFCDvrR4K0=/TEST-cz.habarta.typescript.generator.EnumConstantsExtensionTest.xml",
+        "size": 25828,
+        "compressed": 4179,
+        "crc32": "dce78cca",
+        "offset": 2156361267,
+        "method": 8,
+        "local_path": "data/extracted/69b4144b2cdb2de3044c76ca.xml",
+        "sha256": "b4a047293524388e98c845c590d8615f74fd1ce5de272c7a26ac8b1ae01794e2",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/typescriptgeneratortypescriptgeneratorcore0841f94testSorting/result/Flaky/rounds-test-results.csv",
+    "size": 21643,
+    "compressed": 5018,
+    "crc32": "3ce166e8",
+    "offset": 2156010937,
+    "method": 8,
+    "local_path": "data/extracted/6a16b8ef194f3af3136b9cdc.csv",
+    "sha256": "39b2bd3ea50064532f370214e05bf767df21e07563ec44cabd4ed4b77db96a76",
+    "status": "verified"
+  },
+  "reported_failure_rows": 95,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/typescriptgeneratortypescriptgeneratorcore0841f94testSorting/result/Flaky/.nondex/Cn1Z8BTkxjrpKoc76CfVaUMslKoWOQpN4cFCDvrR4K0=/TEST-cz.habarta.typescript.generator.EnumConstantsExtensionTest.xml",
+    "size": 25828,
+    "compressed": 4179,
+    "crc32": "dce78cca",
+    "offset": 2156361267,
+    "method": 8,
+    "local_path": "data/extracted/69b4144b2cdb2de3044c76ca.xml",
+    "sha256": "b4a047293524388e98c845c590d8615f74fd1ce5de272c7a26ac8b1ae01794e2",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testSorting",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<\ntype Direction = \"[East\" | \"North\" | \"West\" | \"South\";\n\ntype Emotions = \"Happy\";\n\n\n// Added by 'EnumConstantsExtension' extension\n\nconst Direction = {\n    East: <Direction>\"East\",\n    North: <Direction>\"North\",\n    West: <Direction>\"West\",\n    South: <Direction>\"South]\",\n}\n\nconst Emotions...> but was:<\ntype Direction = \"[North\" | \"South\" | \"East\" | \"West\";\n\ntype Emotions = \"Happy\";\n\n\n// Added by 'EnumConstantsExtension' extension\n\nconst Direction = {\n    North: <Direction>\"North\",\n    South: <Direction>\"South\",\n    East: <Direction>\"East\",\n    West: <Direction>\"West]\",\n}\n\nconst Emotions...>",
+    "stack_trace": "org.junit.ComparisonFailure: \nexpected:<\ntype Direction = \"[East\" | \"North\" | \"West\" | \"South\";\n\ntype Emotions = \"Happy\";\n\n\n// Added by 'EnumConstantsExtension' extension\n\nconst Direction = {\n    East: <Direction>\"East\",\n    North: <Direction>\"North\",\n    West: <Direction>\"West\",\n    South: <Direction>\"South]\",\n}\n\nconst Emotions...> but was:<\ntype Direction = \"[North\" | \"South\" | \"East\" | \"West\";\n\ntype Emotions = \"Happy\";\n\n\n// Added by 'EnumConstantsExtension' extension\n\nconst Direction = {\n    North: <Direction>\"North\",\n    South: <Direction>\"South\",\n    East: <Direction>\"East\",\n    West: <Direction>\"West]\",\n}\n\nconst Emotions...>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat cz.habarta.typescript.generator.EnumConstantsExtensionTest.testSorting(EnumConstantsExtensionTest.java:70)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)",
+    "text": "org.junit.ComparisonFailure\nexpected:<\ntype Direction = \"[East\" | \"North\" | \"West\" | \"South\";\n\ntype Emotions = \"Happy\";\n\n\n// Added by 'EnumConstantsExtension' extension\n\nconst Direction = {\n    East: <Direction>\"East\",\n    North: <Direction>\"North\",\n    West: <Direction>\"West\",\n    South: <Direction>\"South]\",\n}\n\nconst Emotions...> but was:<\ntype Direction = \"[North\" | \"South\" | \"East\" | \"West\";\n\ntype Emotions = \"Happy\";\n\n\n// Added by 'EnumConstantsExtension' extension\n\nconst Direction = {\n    North: <Direction>\"North\",\n    South: <Direction>\"South\",\n    East: <Direction>\"East\",\n    West: <Direction>\"West]\",\n}\n\nconst Emotions...>\norg.junit.ComparisonFailure: \nexpected:<\ntype Direction = \"[East\" | \"North\" | \"West\" | \"South\";\n\ntype Emotions = \"Happy\";\n\n\n// Added by 'EnumConstantsExtension' extension\n\nconst Direction = {\n    East: <Direction>\"East\",\n    North: <Direction>\"North\",\n    West: <Direction>\"West\",\n    South: <Direction>\"South]\",\n}\n\nconst Emotions...> but was:<\ntype Direction = \"[North\" | \"South\" | \"East\" | \"West\";\n\ntype Emotions = \"Happy\";\n\n\n// Added by 'EnumConstantsExtension' extension\n\nconst Direction = {\n    North: <Direction>\"North\",\n    South: <Direction>\"South\",\n    East: <Direction>\"East\",\n    West: <Direction>\"West]\",\n}\n\nconst Emotions...>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat cz.habarta.typescript.generator.EnumConstantsExtensionTest.testSorting(EnumConstantsExtensionTest.java:70)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "8109f370fb50d711686aceda056379e46cfe58e91a8b3d53d007fb2d0ebb5fe3"
+}

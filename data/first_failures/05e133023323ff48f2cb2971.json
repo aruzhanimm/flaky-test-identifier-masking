@@ -1,0 +1,81 @@
+{
+  "container": "avrolangjavaavro7fd098atestAvroDoc",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "avrolangjavaavro7fd098atestAvroDoc",
+    "project": "https://github.com/apache/avro",
+    "revision": "7fd098a56064ece218c66ba1d2ad78bd358f6009",
+    "test": "org.apache.avro.reflect.TestReflect.testAvroDoc",
+    "label": "ID",
+    "module": "lang/java/avro",
+    "zip": "avro=lang+java+avro=7fd098a",
+    "config_row": 68,
+    "configured_test": "org.apache.avro.reflect.TestReflect#testAvroDoc",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/avro::org.apache.avro.reflect.TestReflect.testAvroDoc",
+    "variant_id": "https://github.com/apache/avro::org.apache.avro.reflect.TestReflect.testAvroDoc::7fd098a56064ece218c66ba1d2ad78bd358f6009::lang/java/avro",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/avrolangjavaavro7fd098atestAvroDoc/result/Flaky/.nondex/nqLRY8FRMNW+oPq1NDtSUEhXVCFxo1A2BDor9jWGEPM=/TEST-org.apache.avro.reflect.TestReflect.xml",
+        "size": 14554,
+        "compressed": 2929,
+        "crc32": "6e651213",
+        "offset": 644210461,
+        "method": 8,
+        "local_path": "data/extracted/300b0bff377ff94cc26450ed.xml",
+        "sha256": "a9f0d6ed5efaffcf5398b996f9ed1113957b8cef4c012e2e99be0c32f8a9c0dc",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/avrolangjavaavro7fd098atestAvroDoc/result/Flaky/rounds-test-results.csv",
+    "size": 18205,
+    "compressed": 4923,
+    "crc32": "cb07fb48",
+    "offset": 644016021,
+    "method": 8,
+    "local_path": "data/extracted/16ed810a16075377a05f9cf6.csv",
+    "sha256": "7003c0cd69fd42d525a47af5bb339a8b61539f364bdaa750bb7f7f9edd66f3c1",
+    "status": "verified"
+  },
+  "reported_failure_rows": 82,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/avrolangjavaavro7fd098atestAvroDoc/result/Flaky/.nondex/nqLRY8FRMNW+oPq1NDtSUEhXVCFxo1A2BDor9jWGEPM=/TEST-org.apache.avro.reflect.TestReflect.xml",
+    "size": 14554,
+    "compressed": 2929,
+    "crc32": "6e651213",
+    "offset": 644210461,
+    "method": 8,
+    "local_path": "data/extracted/300b0bff377ff94cc26450ed.xml",
+    "sha256": "a9f0d6ed5efaffcf5398b996f9ed1113957b8cef4c012e2e99be0c32f8a9c0dc",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testAvroDoc",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<...,\"fields\":[{\"name\":\"[foo\",\"type\":\"int\",\"doc\":\"Some Documentation\"},{\"name\":\"enums\",\"type\":{\"type\":\"enum\",\"name\":\"DocTestEnum\",\"symbols\":[\"ENUM_1\",\"ENUM_2\"]},\"doc\":\"Some other Documentation\"},{\"name\":\"defaultTest\",\"type\":{\"type\":\"record\",\"name\":\"DefaultTest\",\"fields\":[{\"name\":\"foo\",\"type\":\"int\",\"default\":1}]},\"doc\":\"And agai]n\"}]}> but was:<...,\"fields\":[{\"name\":\"[defaultTest\",\"type\":{\"type\":\"record\",\"name\":\"DefaultTest\",\"fields\":[{\"name\":\"foo\",\"type\":\"int\",\"default\":1}]},\"doc\":\"And again\"},{\"name\":\"enums\",\"type\":{\"type\":\"enum\",\"name\":\"DocTestEnum\",\"symbols\":[\"ENUM_1\",\"ENUM_2\"]},\"doc\":\"Some other Documentation\"},{\"name\":\"foo\",\"type\":\"int\",\"doc\":\"Some Documentatio]n\"}]}>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<...,\"fields\":[{\"name\":\"[foo\",\"type\":\"int\",\"doc\":\"Some Documentation\"},{\"name\":\"enums\",\"type\":{\"type\":\"enum\",\"name\":\"DocTestEnum\",\"symbols\":[\"ENUM_1\",\"ENUM_2\"]},\"doc\":\"Some other Documentation\"},{\"name\":\"defaultTest\",\"type\":{\"type\":\"record\",\"name\":\"DefaultTest\",\"fields\":[{\"name\":\"foo\",\"type\":\"int\",\"default\":1}]},\"doc\":\"And agai]n\"}]}> but was:<...,\"fields\":[{\"name\":\"[defaultTest\",\"type\":{\"type\":\"record\",\"name\":\"DefaultTest\",\"fields\":[{\"name\":\"foo\",\"type\":\"int\",\"default\":1}]},\"doc\":\"And again\"},{\"name\":\"enums\",\"type\":{\"type\":\"enum\",\"name\":\"DocTestEnum\",\"symbols\":[\"ENUM_1\",\"ENUM_2\"]},\"doc\":\"Some other Documentation\"},{\"name\":\"foo\",\"type\":\"int\",\"doc\":\"Some Documentatio]n\"}]}>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat org.apache.avro.reflect.TestReflect.check(TestReflect.java:704)\n\tat org.apache.avro.reflect.TestReflect.testAvroDoc(TestReflect.java:1319)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)",
+    "text": "org.junit.ComparisonFailure\nexpected:<...,\"fields\":[{\"name\":\"[foo\",\"type\":\"int\",\"doc\":\"Some Documentation\"},{\"name\":\"enums\",\"type\":{\"type\":\"enum\",\"name\":\"DocTestEnum\",\"symbols\":[\"ENUM_1\",\"ENUM_2\"]},\"doc\":\"Some other Documentation\"},{\"name\":\"defaultTest\",\"type\":{\"type\":\"record\",\"name\":\"DefaultTest\",\"fields\":[{\"name\":\"foo\",\"type\":\"int\",\"default\":1}]},\"doc\":\"And agai]n\"}]}> but was:<...,\"fields\":[{\"name\":\"[defaultTest\",\"type\":{\"type\":\"record\",\"name\":\"DefaultTest\",\"fields\":[{\"name\":\"foo\",\"type\":\"int\",\"default\":1}]},\"doc\":\"And again\"},{\"name\":\"enums\",\"type\":{\"type\":\"enum\",\"name\":\"DocTestEnum\",\"symbols\":[\"ENUM_1\",\"ENUM_2\"]},\"doc\":\"Some other Documentation\"},{\"name\":\"foo\",\"type\":\"int\",\"doc\":\"Some Documentatio]n\"}]}>\norg.junit.ComparisonFailure: expected:<...,\"fields\":[{\"name\":\"[foo\",\"type\":\"int\",\"doc\":\"Some Documentation\"},{\"name\":\"enums\",\"type\":{\"type\":\"enum\",\"name\":\"DocTestEnum\",\"symbols\":[\"ENUM_1\",\"ENUM_2\"]},\"doc\":\"Some other Documentation\"},{\"name\":\"defaultTest\",\"type\":{\"type\":\"record\",\"name\":\"DefaultTest\",\"fields\":[{\"name\":\"foo\",\"type\":\"int\",\"default\":1}]},\"doc\":\"And agai]n\"}]}> but was:<...,\"fields\":[{\"name\":\"[defaultTest\",\"type\":{\"type\":\"record\",\"name\":\"DefaultTest\",\"fields\":[{\"name\":\"foo\",\"type\":\"int\",\"default\":1}]},\"doc\":\"And again\"},{\"name\":\"enums\",\"type\":{\"type\":\"enum\",\"name\":\"DocTestEnum\",\"symbols\":[\"ENUM_1\",\"ENUM_2\"]},\"doc\":\"Some other Documentation\"},{\"name\":\"foo\",\"type\":\"int\",\"doc\":\"Some Documentatio]n\"}]}>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat org.apache.avro.reflect.TestReflect.check(TestReflect.java:704)\n\tat org.apache.avro.reflect.TestReflect.testAvroDoc(TestReflect.java:1319)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "7366353dc2fc7ce20e06f44f8a6506f09d6657c8c683210a3d6ecb1bc848b1d7"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "commonslang182b250testSummary",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "commonslang182b250testSummary",
+    "project": "https://github.com/apache/commons-lang",
+    "revision": "182b2506b304463f8f1a9ad765c6db0420fa356f",
+    "test": "org.apache.commons.lang3.builder.ReflectionToStringBuilderSummaryTest.testSummary",
+    "label": "ID",
+    "module": ".",
+    "zip": "commons-lang=.=182b250",
+    "config_row": 562,
+    "configured_test": "org.apache.commons.lang3.builder.ReflectionToStringBuilderSummaryTest#testSummary",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.ReflectionToStringBuilderSummaryTest.testSummary",
+    "variant_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.ReflectionToStringBuilderSummaryTest.testSummary::182b2506b304463f8f1a9ad765c6db0420fa356f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/commonslang182b250testSummary/result/Flaky/.nondex/rj406flSAkPUqd1HyCNI2rboKIllTOYVaW+4dk8jV2I=/TEST-org.apache.commons.lang3.builder.ReflectionToStringBuilderSummaryTest.xml",
+        "size": 10054,
+        "compressed": 2223,
+        "crc32": "6ef30705",
+        "offset": 416796112,
+        "method": 8,
+        "local_path": "data/extracted/7332fb2775305ef154fe2b2d.xml",
+        "sha256": "d994084ed984ce0a9056a83d3cb80266ee02da186592e2f21c56ac3e6d991842",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/commonslang182b250testSummary/result/Flaky/rounds-test-results.csv",
+    "size": 20223,
+    "compressed": 4930,
+    "crc32": "feda62a5",
+    "offset": 416675496,
+    "method": 8,
+    "local_path": "data/extracted/d9495a519890aee80014d550.csv",
+    "sha256": "32cb721928d9e03a5a2673faf125e7147ba3bc131c1e9d61746d00f77560b648",
+    "status": "verified"
+  },
+  "reported_failure_rows": 51,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/commonslang182b250testSummary/result/Flaky/.nondex/rj406flSAkPUqd1HyCNI2rboKIllTOYVaW+4dk8jV2I=/TEST-org.apache.commons.lang3.builder.ReflectionToStringBuilderSummaryTest.xml",
+    "size": 10054,
+    "compressed": 2223,
+    "crc32": "6ef30705",
+    "offset": 416796112,
+    "method": 8,
+    "local_path": "data/extracted/7332fb2775305ef154fe2b2d.xml",
+    "sha256": "d994084ed984ce0a9056a83d3cb80266ee02da186592e2f21c56ac3e6d991842",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testSummary",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <[stringField=string,summaryString=<String>]> but was: <[summaryString=<String>,stringField=string]>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <[stringField=string,summaryString=<String>]> but was: <[summaryString=<String>,stringField=string]>\n\tat org.apache.commons.lang3.builder.ReflectionToStringBuilderSummaryTest.testSummary(ReflectionToStringBuilderSummaryTest.java:33)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <[stringField=string,summaryString=<String>]> but was: <[summaryString=<String>,stringField=string]>\norg.opentest4j.AssertionFailedError: expected: <[stringField=string,summaryString=<String>]> but was: <[summaryString=<String>,stringField=string]>\n\tat org.apache.commons.lang3.builder.ReflectionToStringBuilderSummaryTest.testSummary(ReflectionToStringBuilderSummaryTest.java:33)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "800cbf3bae287ae3feb4d8f52abf53ad70b3b2841ea5d14f01586566bc7962c3"
+}

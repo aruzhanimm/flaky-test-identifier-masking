@@ -1,0 +1,81 @@
+{
+  "container": "immutablesvaluefixtureb21e6bbanyGetterSetter",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "immutablesvaluefixtureb21e6bbanyGetterSetter",
+    "project": "https://github.com/immutables/immutables",
+    "revision": "b21e6bbfbb9038100532416c81e8270951c3e03a",
+    "test": "org.immutables.fixture.jackson.ObjectMappedTest.anyGetterSetter",
+    "label": "ID",
+    "module": "value-fixture",
+    "zip": "immutables=value-fixture=b21e6bb",
+    "config_row": 369,
+    "configured_test": "org.immutables.fixture.jackson.ObjectMappedTest#anyGetterSetter",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/immutables/immutables::org.immutables.fixture.jackson.ObjectMappedTest.anyGetterSetter",
+    "variant_id": "https://github.com/immutables/immutables::org.immutables.fixture.jackson.ObjectMappedTest.anyGetterSetter::b21e6bbfbb9038100532416c81e8270951c3e03a::value-fixture",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/immutablesvaluefixtureb21e6bbanyGetterSetter/result/Flaky/.nondex/1GmRfvoJ50fn2u3RDh7j8nLpXpe8kE+jl6Y3B39ZmC4=/TEST-org.immutables.fixture.jackson.ObjectMappedTest.xml",
+        "size": 14745,
+        "compressed": 2686,
+        "crc32": "d7688546",
+        "offset": 301840757,
+        "method": 8,
+        "local_path": "data/extracted/dca4a1b9fbba3ac3723f6595.xml",
+        "sha256": "91e0951511df7335af02efe883754e6e20fc6939e0c09f83a7b89b98c582d186",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/immutablesvaluefixtureb21e6bbanyGetterSetter/result/Flaky/rounds-test-results.csv",
+    "size": 19207,
+    "compressed": 5117,
+    "crc32": "db7e10f4",
+    "offset": 301622636,
+    "method": 8,
+    "local_path": "data/extracted/66b87918815bde9c42377887.csv",
+    "sha256": "27fd4e1f9f35ff17ece35b6add116438ce401b269eb8d74b9a5991d37fb9e99a",
+    "status": "verified"
+  },
+  "reported_failure_rows": 48,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/immutablesvaluefixtureb21e6bbanyGetterSetter/result/Flaky/.nondex/1GmRfvoJ50fn2u3RDh7j8nLpXpe8kE+jl6Y3B39ZmC4=/TEST-org.immutables.fixture.jackson.ObjectMappedTest.xml",
+    "size": 14745,
+    "compressed": 2686,
+    "crc32": "d7688546",
+    "offset": 301840757,
+    "method": 8,
+    "local_path": "data/extracted/dca4a1b9fbba3ac3723f6595.xml",
+    "sha256": "91e0951511df7335af02efe883754e6e20fc6939e0c09f83a7b89b98c582d186",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "anyGetterSetter",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: <{\"[A\":1,\"B\":true]}> \n     but: was <{\"[B\":true,\"A\":1]}>",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: <{\"[A\":1,\"B\":true]}> \n     but: was <{\"[B\":true,\"A\":1]}>\n\tat org.immutables.fixture.jackson.ObjectMappedTest.anyGetterSetter(ObjectMappedTest.java:153)",
+    "text": "java.lang.AssertionError\nExpected: <{\"[A\":1,\"B\":true]}> \n     but: was <{\"[B\":true,\"A\":1]}>\njava.lang.AssertionError: \n\nExpected: <{\"[A\":1,\"B\":true]}> \n     but: was <{\"[B\":true,\"A\":1]}>\n\tat org.immutables.fixture.jackson.ObjectMappedTest.anyGetterSetter(ObjectMappedTest.java:153)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "d8e079176e6bd688528553c77d2d304b5e6e1137910d2b7adb8209a9b58ab2a7"
+}

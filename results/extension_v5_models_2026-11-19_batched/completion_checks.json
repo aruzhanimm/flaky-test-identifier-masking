@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "tests": 1051,
+  "project_groups": 127,
+  "conditions": 16,
+  "classifier_fits": 2032,
+  "vectorizer_fits": 508,
+  "successful_fold_compute_seconds": 617.7929396999996,
+  "prediction_reproduction_mismatches": 0,
+  "fitted_state_reproduction_mismatches": 0,
+  "independent_count_metrics_match_sklearn": true,
+  "convergence_warnings": 0,
+  "historical_tfidf_failure_retained": "failure.json",
+  "failure_interpretation": "One nonfinite TF-IDF failure was not reproduced; unchanged full fold repeated and independently diagnosed with exact fitted hashes and predictions. See operational notes. No values were sanitised or dropped.",
+  "metrics_sha256": "918c6ff692dc1043f87b4bf90cf8ebd98a770ead4f3f37a4bc60ee7c885500ad",
+  "predictions_sha256": "7ca3498b109da81f1f39674d7438990ad6494294cc136e5ff30a0f7fe40eac39"
+}

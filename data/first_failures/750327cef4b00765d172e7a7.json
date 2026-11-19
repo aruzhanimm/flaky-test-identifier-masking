@@ -1,0 +1,98 @@
+{
+  "container": "CURATOR-671",
+  "metadata": {
+    "source": "JIRA",
+    "container": "CURATOR-671",
+    "project": "https://github.com/apache/apache/curator",
+    "revision": "a469dfb229c0d42c07048d95d070703331e2c429",
+    "test": "org.apache.curator.framework.recipes.leader.TestLeaderSelectorCluster.testLostRestart",
+    "label": "TD",
+    "module": "curator-recipes",
+    "zip": "CURATOR-671",
+    "config_row": 1092,
+    "configured_test": "org.apache.curator.framework.recipes.leader.TestLeaderSelectorCluster#testLostRestart",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/apache/curator::org.apache.curator.framework.recipes.leader.TestLeaderSelectorCluster.testLostRestart",
+    "variant_id": "https://github.com/apache/apache/curator::org.apache.curator.framework.recipes.leader.TestLeaderSelectorCluster.testLostRestart::a469dfb229c0d42c07048d95d070703331e2c429::curator-recipes",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 7,
+      "iteration": 6,
+      "member": {
+        "path": "result/CURATOR-671/result/Flaky/surefire-reports/reports-6/org.apache.curator.framework.recipes.leader.TestLeaderSelectorCluster.txt",
+        "size": 725,
+        "compressed": 242,
+        "crc32": "77541065",
+        "offset": 86333850,
+        "method": 8,
+        "local_path": "data/extracted/fbe42ce95f6d6d51541a103c.txt",
+        "sha256": "23b48b8b57a62504ab5f51b3d9d748e141041c03f8523431cef528b5c646c092",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 7,
+      "iteration": 6,
+      "member": {
+        "path": "result/CURATOR-671/result/Flaky/surefire-reports/reports-6/org.apache.curator.framework.recipes.leader.TestLeaderSelectorCluster.txt",
+        "size": 725,
+        "compressed": 242,
+        "crc32": "77541065",
+        "offset": 86333850,
+        "method": 8,
+        "local_path": "data/extracted/fbe42ce95f6d6d51541a103c.txt",
+        "sha256": "23b48b8b57a62504ab5f51b3d9d748e141041c03f8523431cef528b5c646c092",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/CURATOR-671/result/Flaky/rounds-test-results.csv",
+    "size": 22126,
+    "compressed": 798,
+    "crc32": "056b8572",
+    "offset": 86162632,
+    "method": 8,
+    "local_path": "data/extracted/1bcdb824c372424c56be9b90.csv",
+    "sha256": "ec5f8d1cc1ede0d3737d1b38872bbf9bc439eade4807b8312e9065ad2b37bb98",
+    "status": "verified"
+  },
+  "reported_failure_rows": 9,
+  "iteration": 6,
+  "source_row": 7,
+  "diagnostic_member": {
+    "path": "result/CURATOR-671/result/Flaky/surefire-reports/reports-6/org.apache.curator.framework.recipes.leader.TestLeaderSelectorCluster.txt",
+    "size": 725,
+    "compressed": 242,
+    "crc32": "77541065",
+    "offset": 86333850,
+    "method": 8,
+    "local_path": "data/extracted/fbe42ce95f6d6d51541a103c.txt",
+    "sha256": "23b48b8b57a62504ab5f51b3d9d748e141041c03f8523431cef528b5c646c092",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "testLostRestart",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <true> but was: <false>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <true> but was: <false>\n\tat org.apache.curator.framework.recipes.leader.TestLeaderSelectorCluster.testLostRestart(TestLeaderSelectorCluster.java:181)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <true> but was: <false>\norg.opentest4j.AssertionFailedError: expected: <true> but was: <false>\n\tat org.apache.curator.framework.recipes.leader.TestLeaderSelectorCluster.testLostRestart(TestLeaderSelectorCluster.java:181)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "e11cac80ac97438ce2487a4e8bc0c3cd77d8fbf5c1026951ff3dab899d71f7d7"
+}

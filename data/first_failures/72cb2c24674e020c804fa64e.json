@@ -1,0 +1,81 @@
+{
+  "container": "nifinificommonsnifirecord7823156testInferTypeWithMapNonStringKeys",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "nifinificommonsnifirecord7823156testInferTypeWithMapNonStringKeys",
+    "project": "https://github.com/apache/nifi",
+    "revision": "7823156606ca541ef9cae7192b092efd2cfe4e9a",
+    "test": "org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapNonStringKeys",
+    "label": "ID",
+    "module": "nifi-commons/nifi-record",
+    "zip": "nifi=nifi-commons+nifi-record=7823156",
+    "config_row": 777,
+    "configured_test": "org.apache.nifi.serialization.record.TestDataTypeUtils#testInferTypeWithMapNonStringKeys",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/nifi::org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapNonStringKeys",
+    "variant_id": "https://github.com/apache/nifi::org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapNonStringKeys::7823156606ca541ef9cae7192b092efd2cfe4e9a::nifi-commons/nifi-record",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/nifinificommonsnifirecord7823156testInferTypeWithMapNonStringKeys/result/Flaky/.nondex/9xHtTtVrA9qbxvusu16jTzcMeiudxBSZe1G8aevEaMY=/TEST-org.apache.nifi.serialization.record.TestDataTypeUtils.xml",
+        "size": 10267,
+        "compressed": 2198,
+        "crc32": "98bdc856",
+        "offset": 1190936531,
+        "method": 8,
+        "local_path": "data/extracted/ca2026c77dc284743f692616.xml",
+        "sha256": "101884703df992771672534c232e9d31944e6c6c42f7f40de2272a28f9514f61",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/nifinificommonsnifirecord7823156testInferTypeWithMapNonStringKeys/result/Flaky/rounds-test-results.csv",
+    "size": 20985,
+    "compressed": 5093,
+    "crc32": "6540e21d",
+    "offset": 1190403258,
+    "method": 8,
+    "local_path": "data/extracted/57aab448812740d283dc9bc8.csv",
+    "sha256": "cb258cb90e827ea98e48f033f4c1eb278b1b133eb3f35b864f4a1da0dd489211",
+    "status": "verified"
+  },
+  "reported_failure_rows": 40,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/nifinificommonsnifirecord7823156testInferTypeWithMapNonStringKeys/result/Flaky/.nondex/9xHtTtVrA9qbxvusu16jTzcMeiudxBSZe1G8aevEaMY=/TEST-org.apache.nifi.serialization.record.TestDataTypeUtils.xml",
+    "size": 10267,
+    "compressed": 2198,
+    "crc32": "98bdc856",
+    "offset": 1190936531,
+    "method": 8,
+    "local_path": "data/extracted/ca2026c77dc284743f692616.xml",
+    "sha256": "101884703df992771672534c232e9d31944e6c6c42f7f40de2272a28f9514f61",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testInferTypeWithMapNonStringKeys",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": null,
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: org.apache.nifi.serialization.record.type.RecordDataType@7dfd3c81<RECORD> but was: org.apache.nifi.serialization.record.type.RecordDataType@2584b82d<RECORD>\n\tat org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapNonStringKeys(TestDataTypeUtils.java:639)",
+    "text": "org.opentest4j.AssertionFailedError\norg.opentest4j.AssertionFailedError: expected: org.apache.nifi.serialization.record.type.RecordDataType@7dfd3c81<RECORD> but was: org.apache.nifi.serialization.record.type.RecordDataType@2584b82d<RECORD>\n\tat org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapNonStringKeys(TestDataTypeUtils.java:639)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "a104eaf4e442d591739a94a5a34234e667c1f044ee4a9aae5291f224b6636721"
+}

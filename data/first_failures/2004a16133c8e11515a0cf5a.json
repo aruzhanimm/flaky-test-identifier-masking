@@ -1,0 +1,81 @@
+{
+  "container": "r2dbcmysql7ce04e3stringifySet",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "r2dbcmysql7ce04e3stringifySet",
+    "project": "https://github.com/mirromutth/r2dbc-mysql",
+    "revision": "7ce04e337791793e0f6ed1b0d4dd0d73c735af51",
+    "test": "dev.miku.r2dbc.mysql.codec.SetCodecTest.stringifySet",
+    "label": "ID",
+    "module": ".",
+    "zip": "r2dbc-mysql=.=7ce04e3",
+    "config_row": 239,
+    "configured_test": "dev.miku.r2dbc.mysql.codec.SetCodecTest#stringifySet",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/mirromutth/r2dbc-mysql::dev.miku.r2dbc.mysql.codec.SetCodecTest.stringifySet",
+    "variant_id": "https://github.com/mirromutth/r2dbc-mysql::dev.miku.r2dbc.mysql.codec.SetCodecTest.stringifySet::7ce04e337791793e0f6ed1b0d4dd0d73c735af51::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/r2dbcmysql7ce04e3stringifySet/result/Flaky/.nondex/406VgHUTqRIQaJlLPBLbTjahLxfuqpaBlXodFrls+M=/TEST-dev.miku.r2dbc.mysql.codec.SetCodecTest.xml",
+        "size": 19981,
+        "compressed": 3157,
+        "crc32": "f09ae6e8",
+        "offset": 2059385783,
+        "method": 8,
+        "local_path": "data/extracted/0dee8e8ef6df9aa9f3537836.xml",
+        "sha256": "d822ba1afb4a156d84c519422d453828beb26344e71ddd38bae41cd45e04168f",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/r2dbcmysql7ce04e3stringifySet/result/Flaky/rounds-test-results.csv",
+    "size": 17345,
+    "compressed": 4969,
+    "crc32": "22c70673",
+    "offset": 2059268661,
+    "method": 8,
+    "local_path": "data/extracted/2b95535119e36ab4d9b9170c.csv",
+    "sha256": "4044f971657f0d9902dd39a221f06f145b7408375e59b1bc87a97c8f0b1dd0da",
+    "status": "verified"
+  },
+  "reported_failure_rows": 96,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/r2dbcmysql7ce04e3stringifySet/result/Flaky/.nondex/406VgHUTqRIQaJlLPBLbTjahLxfuqpaBlXodFrls+M=/TEST-dev.miku.r2dbc.mysql.codec.SetCodecTest.xml",
+    "size": 19981,
+    "compressed": 3157,
+    "crc32": "f09ae6e8",
+    "offset": 2059385783,
+    "method": 8,
+    "local_path": "data/extracted/0dee8e8ef6df9aa9f3537836.xml",
+    "sha256": "d822ba1afb4a156d84c519422d453828beb26344e71ddd38bae41cd45e04168f",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "stringifySet",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: \"'Hello,world!'\"\n but was: \"'world!,Hello'\"",
+    "stack_trace": "org.opentest4j.AssertionFailedError: \n\nexpected: \"'Hello,world!'\"\n but was: \"'world!,Hello'\"\n\tat dev.miku.r2dbc.mysql.codec.SetCodecTest.stringifySet(SetCodecTest.java:138)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: \"'Hello,world!'\"\n but was: \"'world!,Hello'\"\norg.opentest4j.AssertionFailedError: \n\nexpected: \"'Hello,world!'\"\n but was: \"'world!,Hello'\"\n\tat dev.miku.r2dbc.mysql.codec.SetCodecTest.stringifySet(SetCodecTest.java:138)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "4ef125de476070552e87a1bbc4b927712481caf38754bc7200cd370531d661b8"
+}

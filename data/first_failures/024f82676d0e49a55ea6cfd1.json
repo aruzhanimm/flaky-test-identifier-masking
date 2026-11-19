@@ -1,0 +1,81 @@
+{
+  "container": "adyenjavaapilibraryb8a8de5TestQiwiWalletDetailsSerialization",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "adyenjavaapilibraryb8a8de5TestQiwiWalletDetailsSerialization",
+    "project": "https://github.com/adyen/adyen-java-api-library",
+    "revision": "b8a8de526a271b4929547103a198ad5d1b1c528d",
+    "test": "com.adyen.CheckoutTest.TestQiwiWalletDetailsSerialization",
+    "label": "ID",
+    "module": ".",
+    "zip": "adyen-java-api-library=.=b8a8de5",
+    "config_row": 99,
+    "configured_test": "com.adyen.CheckoutTest#TestQiwiWalletDetailsSerialization",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/adyen/adyen-java-api-library::com.adyen.CheckoutTest.TestQiwiWalletDetailsSerialization",
+    "variant_id": "https://github.com/adyen/adyen-java-api-library::com.adyen.CheckoutTest.TestQiwiWalletDetailsSerialization::b8a8de526a271b4929547103a198ad5d1b1c528d::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/adyenjavaapilibraryb8a8de5TestQiwiWalletDetailsSerialization/result/Flaky/.nondex/ucRszjXIsYZui+VDTRueCx7WlwmllChdinmOrkdeoLI=/TEST-com.adyen.CheckoutTest.xml",
+        "size": 11771,
+        "compressed": 2452,
+        "crc32": "97b20901",
+        "offset": 692645648,
+        "method": 8,
+        "local_path": "data/extracted/b4c44dc2e11d8882785ff768.xml",
+        "sha256": "8bf12cba441b30ec7cb8fcfabef41b55870714f44f4713034b5afc7d18603410",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/adyenjavaapilibraryb8a8de5TestQiwiWalletDetailsSerialization/result/Flaky/rounds-test-results.csv",
+    "size": 15685,
+    "compressed": 4754,
+    "crc32": "493d9115",
+    "offset": 692087175,
+    "method": 8,
+    "local_path": "data/extracted/b693d0c5db3963ff13ffaab2.csv",
+    "sha256": "194f93c146399d6ebd99cceb296e8a388c0c91fdbb8c1c9b2c5b49cff5d50395",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/adyenjavaapilibraryb8a8de5TestQiwiWalletDetailsSerialization/result/Flaky/.nondex/ucRszjXIsYZui+VDTRueCx7WlwmllChdinmOrkdeoLI=/TEST-com.adyen.CheckoutTest.xml",
+    "size": 11771,
+    "compressed": 2452,
+    "crc32": "97b20901",
+    "offset": 692645648,
+    "method": 8,
+    "local_path": "data/extracted/b4c44dc2e11d8882785ff768.xml",
+    "sha256": "8bf12cba441b30ec7cb8fcfabef41b55870714f44f4713034b5afc7d18603410",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "TestQiwiWalletDetailsSerialization",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<{\"[amount\":{\"value\":1000,\"currency\":\"USD\"},\"merchantAccount\":\"MagentoMerchantTest\",\"paymentMethod\":{\"telephoneNumber\":\"123456789\",\"type\":\"qiwiwallet\"},\"reference\":\"Your order number\",\"returnUrl\":\"https://your-company.com/...\",\"applicationInfo\":{\"adyenLibrary\":{\"name\":\"adyen-java-api-library\",\"version\":\"17.3.0]\"}}}> but was:<{\"[reference\":\"Your order number\",\"returnUrl\":\"https://your-company.com/...\",\"merchantAccount\":\"MagentoMerchantTest\",\"amount\":{\"currency\":\"USD\",\"value\":1000},\"paymentMethod\":{\"type\":\"qiwiwallet\",\"telephoneNumber\":\"123456789\"},\"applicationInfo\":{\"adyenLibrary\":{\"version\":\"17.3.0\",\"name\":\"adyen-java-api-library]\"}}}>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<{\"[amount\":{\"value\":1000,\"currency\":\"USD\"},\"merchantAccount\":\"MagentoMerchantTest\",\"paymentMethod\":{\"telephoneNumber\":\"123456789\",\"type\":\"qiwiwallet\"},\"reference\":\"Your order number\",\"returnUrl\":\"https://your-company.com/...\",\"applicationInfo\":{\"adyenLibrary\":{\"name\":\"adyen-java-api-library\",\"version\":\"17.3.0]\"}}}> but was:<{\"[reference\":\"Your order number\",\"returnUrl\":\"https://your-company.com/...\",\"merchantAccount\":\"MagentoMerchantTest\",\"amount\":{\"currency\":\"USD\",\"value\":1000},\"paymentMethod\":{\"type\":\"qiwiwallet\",\"telephoneNumber\":\"123456789\"},\"applicationInfo\":{\"adyenLibrary\":{\"version\":\"17.3.0\",\"name\":\"adyen-java-api-library]\"}}}>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat com.adyen.CheckoutTest.TestQiwiWalletDetailsSerialization(CheckoutTest.java:1112)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:62)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:139)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)",
+    "text": "org.junit.ComparisonFailure\nexpected:<{\"[amount\":{\"value\":1000,\"currency\":\"USD\"},\"merchantAccount\":\"MagentoMerchantTest\",\"paymentMethod\":{\"telephoneNumber\":\"123456789\",\"type\":\"qiwiwallet\"},\"reference\":\"Your order number\",\"returnUrl\":\"https://your-company.com/...\",\"applicationInfo\":{\"adyenLibrary\":{\"name\":\"adyen-java-api-library\",\"version\":\"17.3.0]\"}}}> but was:<{\"[reference\":\"Your order number\",\"returnUrl\":\"https://your-company.com/...\",\"merchantAccount\":\"MagentoMerchantTest\",\"amount\":{\"currency\":\"USD\",\"value\":1000},\"paymentMethod\":{\"type\":\"qiwiwallet\",\"telephoneNumber\":\"123456789\"},\"applicationInfo\":{\"adyenLibrary\":{\"version\":\"17.3.0\",\"name\":\"adyen-java-api-library]\"}}}>\norg.junit.ComparisonFailure: expected:<{\"[amount\":{\"value\":1000,\"currency\":\"USD\"},\"merchantAccount\":\"MagentoMerchantTest\",\"paymentMethod\":{\"telephoneNumber\":\"123456789\",\"type\":\"qiwiwallet\"},\"reference\":\"Your order number\",\"returnUrl\":\"https://your-company.com/...\",\"applicationInfo\":{\"adyenLibrary\":{\"name\":\"adyen-java-api-library\",\"version\":\"17.3.0]\"}}}> but was:<{\"[reference\":\"Your order number\",\"returnUrl\":\"https://your-company.com/...\",\"merchantAccount\":\"MagentoMerchantTest\",\"amount\":{\"currency\":\"USD\",\"value\":1000},\"paymentMethod\":{\"type\":\"qiwiwallet\",\"telephoneNumber\":\"123456789\"},\"applicationInfo\":{\"adyenLibrary\":{\"version\":\"17.3.0\",\"name\":\"adyen-java-api-library]\"}}}>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat com.adyen.CheckoutTest.TestQiwiWalletDetailsSerialization(CheckoutTest.java:1112)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:62)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:139)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "4f6478b83713f08dcf886dbf6a73bdc8b5645890fae8887768877b81b0385139"
+}

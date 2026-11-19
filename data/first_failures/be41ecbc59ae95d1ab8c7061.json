@@ -1,0 +1,81 @@
+{
+  "container": "nifinificommonsnifirecord7823156testInferTypeWithMapStringKeys",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "nifinificommonsnifirecord7823156testInferTypeWithMapStringKeys",
+    "project": "https://github.com/apache/nifi",
+    "revision": "7823156606ca541ef9cae7192b092efd2cfe4e9a",
+    "test": "org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapStringKeys",
+    "label": "ID",
+    "module": "nifi-commons/nifi-record",
+    "zip": "nifi=nifi-commons+nifi-record=7823156",
+    "config_row": 778,
+    "configured_test": "org.apache.nifi.serialization.record.TestDataTypeUtils#testInferTypeWithMapStringKeys",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/nifi::org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapStringKeys",
+    "variant_id": "https://github.com/apache/nifi::org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapStringKeys::7823156606ca541ef9cae7192b092efd2cfe4e9a::nifi-commons/nifi-record",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/nifinificommonsnifirecord7823156testInferTypeWithMapStringKeys/result/Flaky/.nondex/5zFi1rF67WS9+ny3DVUbWSjknzEC3dgYMtIYTRP8aQ=/TEST-org.apache.nifi.serialization.record.TestDataTypeUtils.xml",
+        "size": 10254,
+        "compressed": 2194,
+        "crc32": "bd4e0e9e",
+        "offset": 1191431954,
+        "method": 8,
+        "local_path": "data/extracted/eba9f1bca08519ed371535d7.xml",
+        "sha256": "d6ac366c6e3cad3f9f1dc7c5f56a2dab51d5cb511d34ec00c930c959d4e77ab3",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/nifinificommonsnifirecord7823156testInferTypeWithMapStringKeys/result/Flaky/rounds-test-results.csv",
+    "size": 21017,
+    "compressed": 5095,
+    "crc32": "b0195e8c",
+    "offset": 1190988377,
+    "method": 8,
+    "local_path": "data/extracted/ffd5945598822cd33e409b2f.csv",
+    "sha256": "cfff53901cba1c97154ce40f6820bab16b8798781a64facd95b083ed86f7ed07",
+    "status": "verified"
+  },
+  "reported_failure_rows": 41,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/nifinificommonsnifirecord7823156testInferTypeWithMapStringKeys/result/Flaky/.nondex/5zFi1rF67WS9+ny3DVUbWSjknzEC3dgYMtIYTRP8aQ=/TEST-org.apache.nifi.serialization.record.TestDataTypeUtils.xml",
+    "size": 10254,
+    "compressed": 2194,
+    "crc32": "bd4e0e9e",
+    "offset": 1191431954,
+    "method": 8,
+    "local_path": "data/extracted/eba9f1bca08519ed371535d7.xml",
+    "sha256": "d6ac366c6e3cad3f9f1dc7c5f56a2dab51d5cb511d34ec00c930c959d4e77ab3",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testInferTypeWithMapStringKeys",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": null,
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: org.apache.nifi.serialization.record.type.RecordDataType@6a4f1a55<RECORD> but was: org.apache.nifi.serialization.record.type.RecordDataType@7dfd3c81<RECORD>\n\tat org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapStringKeys(TestDataTypeUtils.java:624)",
+    "text": "org.opentest4j.AssertionFailedError\norg.opentest4j.AssertionFailedError: expected: org.apache.nifi.serialization.record.type.RecordDataType@6a4f1a55<RECORD> but was: org.apache.nifi.serialization.record.type.RecordDataType@7dfd3c81<RECORD>\n\tat org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapStringKeys(TestDataTypeUtils.java:624)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "97a8c188c2096f33a016e13ea9e059186495eac3e0f436a86aab79bd8b2d908e"
+}

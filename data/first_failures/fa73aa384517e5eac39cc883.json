@@ -1,0 +1,81 @@
+{
+  "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject14",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject14",
+    "project": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "test": "org.apache.activemq.transport.stomp.auto.StompAutoTest.testTransformationReceiveJSONObject",
+    "label": "ID",
+    "module": "activemq-stomp",
+    "zip": "activemq=activemq-stomp=aeab06e",
+    "config_row": 130,
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoTest#testTransformationReceiveJSONObject",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/activemq::org.apache.activemq.transport.stomp.auto.StompAutoTest.testTransformationReceiveJSONObject",
+    "variant_id": "https://github.com/apache/activemq::org.apache.activemq.transport.stomp.auto.StompAutoTest.testTransformationReceiveJSONObject::aeab06e93e40d3a3ec198dc537388326832ff270::activemq-stomp",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/activemqactivemqstompaeab06etestTransformationReceiveJSONObject14/result/Flaky/.nondex/2H1NAFjbglo6+zaxNHg0Q6Q1mMjRWvKj17e5im2Io8=/TEST-org.apache.activemq.transport.stomp.auto.StompAutoTest.xml",
+        "size": 18551,
+        "compressed": 3695,
+        "crc32": "dd943969",
+        "offset": 745523648,
+        "method": 8,
+        "local_path": "data/extracted/0dbea2f07211e97d28b15b25.xml",
+        "sha256": "9d5b63f3c301283c5b2d51593dd119123b16f6cf98937bd1cd1db7e7b794ad2e",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/activemqactivemqstompaeab06etestTransformationReceiveJSONObject14/result/Flaky/rounds-test-results.csv",
+    "size": 20054,
+    "compressed": 5086,
+    "crc32": "9534d0fc",
+    "offset": 745357078,
+    "method": 8,
+    "local_path": "data/extracted/4192a6ff58b1df5ca92ccf7a.csv",
+    "sha256": "92f0ee2bcb4efe18e26345a9c8d769437905c6222fe96828a1f4d46b55a9f0f7",
+    "status": "verified"
+  },
+  "reported_failure_rows": 53,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/activemqactivemqstompaeab06etestTransformationReceiveJSONObject14/result/Flaky/.nondex/2H1NAFjbglo6+zaxNHg0Q6Q1mMjRWvKj17e5im2Io8=/TEST-org.apache.activemq.transport.stomp.auto.StompAutoTest.xml",
+    "size": 18551,
+    "compressed": 3695,
+    "crc32": "dd943969",
+    "offset": 745523648,
+    "method": 8,
+    "local_path": "data/extracted/0dbea2f07211e97d28b15b25.xml",
+    "sha256": "9d5b63f3c301283c5b2d51593dd119123b16f6cf98937bd1cd1db7e7b794ad2e",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testTransformationReceiveJSONObject",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveJSONObject(StompTest.java:1113)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.lang.Thread.run(Thread.java:833)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveJSONObject(StompTest.java:1113)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.lang.Thread.run(Thread.java:833)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "ecd52aa8700cc0724eb0fd6fce4f44d96156b88225a78c38c746d5d53e08fc8c"
+}

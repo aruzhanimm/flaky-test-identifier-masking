@@ -1,0 +1,81 @@
+{
+  "container": "quarkusindependentprojectstoolsregistryclient291e830testRegistryMavenRepoUrlAndId",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "quarkusindependentprojectstoolsregistryclient291e830testRegistryMavenRepoUrlAndId",
+    "project": "https://github.com/quarkusio/quarkus",
+    "revision": "291e830a181d345241876c684b92a952ee6d86c0",
+    "test": "io.quarkus.registry.config.DevToolsConfigSerializationTest.testRegistryMavenRepoUrlAndId",
+    "label": "ID",
+    "module": "independent-projects/tools/registry-client",
+    "zip": "quarkus=independent-projects+tools+registry-client=291e830",
+    "config_row": 236,
+    "configured_test": "io.quarkus.registry.config.DevToolsConfigSerializationTest#testRegistryMavenRepoUrlAndId",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/quarkusio/quarkus::io.quarkus.registry.config.DevToolsConfigSerializationTest.testRegistryMavenRepoUrlAndId",
+    "variant_id": "https://github.com/quarkusio/quarkus::io.quarkus.registry.config.DevToolsConfigSerializationTest.testRegistryMavenRepoUrlAndId::291e830a181d345241876c684b92a952ee6d86c0::independent-projects/tools/registry-client",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 8,
+      "iteration": 7,
+      "member": {
+        "path": "result/quarkusindependentprojectstoolsregistryclient291e830testRegistryMavenRepoUrlAndId/result/Flaky/.nondex/iT+xi8cd+q5eKLJjoLPaoYJJCklHL8jHj8FdBBigmJs=/TEST-io.quarkus.registry.config.DevToolsConfigSerializationTest.xml",
+        "size": 24739,
+        "compressed": 3607,
+        "crc32": "d6f94811",
+        "offset": 820210979,
+        "method": 8,
+        "local_path": "data/extracted/8616c8110109e316effa15a6.xml",
+        "sha256": "50c5da4f320fce015fbeeed1a3a43490f8a68691e94afe24fbe91f071de62a0c",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/quarkusindependentprojectstoolsregistryclient291e830testRegistryMavenRepoUrlAndId/result/Flaky/rounds-test-results.csv",
+    "size": 23193,
+    "compressed": 5100,
+    "crc32": "29eae394",
+    "offset": 820019654,
+    "method": 8,
+    "local_path": "data/extracted/f3752a46c1a9d9891dd47f65.csv",
+    "sha256": "0f02fd9afe7be30d2d67ad9878617ad37b1df3a10720d728cb28e92e914727f3",
+    "status": "verified"
+  },
+  "reported_failure_rows": 45,
+  "iteration": 7,
+  "source_row": 8,
+  "diagnostic_member": {
+    "path": "result/quarkusindependentprojectstoolsregistryclient291e830testRegistryMavenRepoUrlAndId/result/Flaky/.nondex/iT+xi8cd+q5eKLJjoLPaoYJJCklHL8jHj8FdBBigmJs=/TEST-io.quarkus.registry.config.DevToolsConfigSerializationTest.xml",
+    "size": 24739,
+    "compressed": 3607,
+    "crc32": "d6f94811",
+    "offset": 820210979,
+    "method": 8,
+    "local_path": "data/extracted/8616c8110109e316effa15a6.xml",
+    "sha256": "50c5da4f320fce015fbeeed1a3a43490f8a68691e94afe24fbe91f071de62a0c",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testRegistryMavenRepoUrlAndId",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: \n  [\"---\",\n      \"registries:\",\n      \"- registry.acme.org:\",\n      \"    maven:\",\n      \"      repository:\",\n      \"        id: \"acme-repo\"\",\n      \"        url: \"https://repo.acme.org/maven\"\"]\n but was: \n  [\"---\",\n      \"registries:\",\n      \"- registry.acme.org:\",\n      \"    maven:\",\n      \"      repository:\",\n      \"        url: \"https://repo.acme.org/maven\"\",\n      \"        id: \"acme-repo\"\"]",
+    "stack_trace": "org.opentest4j.AssertionFailedError: \n\nexpected: \n  [\"---\",\n      \"registries:\",\n      \"- registry.acme.org:\",\n      \"    maven:\",\n      \"      repository:\",\n      \"        id: \"acme-repo\"\",\n      \"        url: \"https://repo.acme.org/maven\"\"]\n but was: \n  [\"---\",\n      \"registries:\",\n      \"- registry.acme.org:\",\n      \"    maven:\",\n      \"      repository:\",\n      \"        url: \"https://repo.acme.org/maven\"\",\n      \"        id: \"acme-repo\"\"]\n\tat io.quarkus.registry.config.DevToolsConfigSerializationTest.assertSerializedMatches(DevToolsConfigSerializationTest.java:396)\n\tat io.quarkus.registry.config.DevToolsConfigSerializationTest.testRegistryMavenRepoUrlAndId(DevToolsConfigSerializationTest.java:251)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: \n  [\"---\",\n      \"registries:\",\n      \"- registry.acme.org:\",\n      \"    maven:\",\n      \"      repository:\",\n      \"        id: \"acme-repo\"\",\n      \"        url: \"https://repo.acme.org/maven\"\"]\n but was: \n  [\"---\",\n      \"registries:\",\n      \"- registry.acme.org:\",\n      \"    maven:\",\n      \"      repository:\",\n      \"        url: \"https://repo.acme.org/maven\"\",\n      \"        id: \"acme-repo\"\"]\norg.opentest4j.AssertionFailedError: \n\nexpected: \n  [\"---\",\n      \"registries:\",\n      \"- registry.acme.org:\",\n      \"    maven:\",\n      \"      repository:\",\n      \"        id: \"acme-repo\"\",\n      \"        url: \"https://repo.acme.org/maven\"\"]\n but was: \n  [\"---\",\n      \"registries:\",\n      \"- registry.acme.org:\",\n      \"    maven:\",\n      \"      repository:\",\n      \"        url: \"https://repo.acme.org/maven\"\",\n      \"        id: \"acme-repo\"\"]\n\tat io.quarkus.registry.config.DevToolsConfigSerializationTest.assertSerializedMatches(DevToolsConfigSerializationTest.java:396)\n\tat io.quarkus.registry.config.DevToolsConfigSerializationTest.testRegistryMavenRepoUrlAndId(DevToolsConfigSerializationTest.java:251)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "e1dfcd2162d33d6373a6f2aa4953a7911dd908a66748eed5a1eb87fdecbe6f8c"
+}

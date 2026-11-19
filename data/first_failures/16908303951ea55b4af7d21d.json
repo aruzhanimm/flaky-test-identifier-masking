@@ -1,0 +1,81 @@
+{
+  "container": "mavendependencyplugin192b2c0testTreeJsonParsing",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "mavendependencyplugin192b2c0testTreeJsonParsing",
+    "project": "https://github.com/apache/maven-dependency-plugin",
+    "revision": "192b2c07777a106970bf44211678d19173c1cba8",
+    "test": "org.apache.maven.plugins.dependency.tree.TestTreeMojo.testTreeJsonParsing",
+    "label": "ID",
+    "module": ".",
+    "zip": "maven-dependency-plugin=.=192b2c0",
+    "config_row": 767,
+    "configured_test": "org.apache.maven.plugins.dependency.tree.TestTreeMojo#testTreeJsonParsing",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/maven-dependency-plugin::org.apache.maven.plugins.dependency.tree.TestTreeMojo.testTreeJsonParsing",
+    "variant_id": "https://github.com/apache/maven-dependency-plugin::org.apache.maven.plugins.dependency.tree.TestTreeMojo.testTreeJsonParsing::192b2c07777a106970bf44211678d19173c1cba8::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/mavendependencyplugin192b2c0testTreeJsonParsing/result/Flaky/.nondex/q3+FNmKYiLNuACAaki0aFuIi41p9liV4WTucC2Q48=/TEST-org.apache.maven.plugins.dependency.tree.TestTreeMojo.xml",
+        "size": 27341,
+        "compressed": 4090,
+        "crc32": "564e2992",
+        "offset": 1185326242,
+        "method": 8,
+        "local_path": "data/extracted/022e80181206aa4145198077.xml",
+        "sha256": "a9dbe2d43f515b73fce494e4ac63284fdf4a9a9c7d3d4bc878d59cfe7a789811",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/mavendependencyplugin192b2c0testTreeJsonParsing/result/Flaky/rounds-test-results.csv",
+    "size": 18632,
+    "compressed": 5151,
+    "crc32": "666ad5bd",
+    "offset": 1184771786,
+    "method": 8,
+    "local_path": "data/extracted/858cd2a9512fa91061caefb5.csv",
+    "sha256": "9d64fa3a8ed870a4d08724f0baf510c5560c1b824c7f59eb6bacf7e60ef1b72e",
+    "status": "verified"
+  },
+  "reported_failure_rows": 59,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/mavendependencyplugin192b2c0testTreeJsonParsing/result/Flaky/.nondex/q3+FNmKYiLNuACAaki0aFuIi41p9liV4WTucC2Q48=/TEST-org.apache.maven.plugins.dependency.tree.TestTreeMojo.xml",
+    "size": 27341,
+    "compressed": 4090,
+    "crc32": "564e2992",
+    "offset": 1185326242,
+    "method": 8,
+    "local_path": "data/extracted/022e80181206aa4145198077.xml",
+    "sha256": "a9dbe2d43f515b73fce494e4ac63284fdf4a9a9c7d3d4bc878d59cfe7a789811",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testTreeJsonParsing",
+    "outcome": "failure",
+    "exception_type": "junit.framework.ComparisonFailure",
+    "message": "expected:<[snapshot]> but was:<[release]>",
+    "stack_trace": "junit.framework.ComparisonFailure: expected:<[snapshot]> but was:<[release]>\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\n\tat junit.framework.TestCase.assertEquals(TestCase.java:260)\n\tat org.apache.maven.plugins.dependency.tree.TestTreeMojo.testTreeJsonParsing(TestTreeMojo.java:200)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat junit.framework.TestCase.runTest(TestCase.java:177)\n\tat junit.framework.TestCase.runBare(TestCase.java:142)\n\tat junit.framework.TestResult$1.protect(TestResult.java:122)\n\tat junit.framework.TestResult.runProtected(TestResult.java:142)\n\tat junit.framework.TestResult.run(TestResult.java:125)\n\tat junit.framework.TestCase.run(TestCase.java:130)\n\tat junit.framework.TestSuite.runTest(TestSuite.java:241)\n\tat junit.framework.TestSuite.run(TestSuite.java:236)",
+    "text": "junit.framework.ComparisonFailure\nexpected:<[snapshot]> but was:<[release]>\njunit.framework.ComparisonFailure: expected:<[snapshot]> but was:<[release]>\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\n\tat junit.framework.TestCase.assertEquals(TestCase.java:260)\n\tat org.apache.maven.plugins.dependency.tree.TestTreeMojo.testTreeJsonParsing(TestTreeMojo.java:200)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat junit.framework.TestCase.runTest(TestCase.java:177)\n\tat junit.framework.TestCase.runBare(TestCase.java:142)\n\tat junit.framework.TestResult$1.protect(TestResult.java:122)\n\tat junit.framework.TestResult.runProtected(TestResult.java:142)\n\tat junit.framework.TestResult.run(TestResult.java:125)\n\tat junit.framework.TestCase.run(TestCase.java:130)\n\tat junit.framework.TestSuite.runTest(TestSuite.java:241)\n\tat junit.framework.TestSuite.run(TestSuite.java:236)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "938f3dc2c9bb86e7c6c68bd0397848801de2938a45d4e8714d7e116581735a80"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "jinjava88ba76fitWritesObjectAsString1",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jinjava88ba76fitWritesObjectAsString1",
+    "project": "https://github.com/hubspot/jinjava",
+    "revision": "88ba76f530a4b970315c4659c2ce2139192cb453",
+    "test": "com.hubspot.jinjava.lib.filter.ToJsonFilterTest.itWritesObjectAsString",
+    "label": "ID",
+    "module": ".",
+    "zip": "jinjava=.=88ba76f",
+    "config_row": 799,
+    "configured_test": "com.hubspot.jinjava.lib.filter.ToJsonFilterTest#itWritesObjectAsString",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/hubspot/jinjava::com.hubspot.jinjava.lib.filter.ToJsonFilterTest.itWritesObjectAsString",
+    "variant_id": "https://github.com/hubspot/jinjava::com.hubspot.jinjava.lib.filter.ToJsonFilterTest.itWritesObjectAsString::88ba76f530a4b970315c4659c2ce2139192cb453::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/jinjava88ba76fitWritesObjectAsString1/result/Flaky/.nondex/NA6tsTZKGrTW8FWW+h9e8nYjbJwP14UeyiMamOMQpg=/TEST-com.hubspot.jinjava.lib.filter.ToJsonFilterTest.xml",
+        "size": 12665,
+        "compressed": 2667,
+        "crc32": "9274480b",
+        "offset": 1147275757,
+        "method": 8,
+        "local_path": "data/extracted/432c2bb24a31f3aff2e43cc5.xml",
+        "sha256": "c0fa582c5849ca55a2eda575720771a2c699a87fb726cac916d5a1fc937a79f1",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jinjava88ba76fitWritesObjectAsString1/result/Flaky/rounds-test-results.csv",
+    "size": 17996,
+    "compressed": 5074,
+    "crc32": "93e50641",
+    "offset": 1146935256,
+    "method": 8,
+    "local_path": "data/extracted/1dc7d9ee2487cffe64da33c1.csv",
+    "sha256": "5fabf38292e4a7ff2319d79d2abcaa865586a65791c3f186141d23e1746228f9",
+    "status": "verified"
+  },
+  "reported_failure_rows": 52,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/jinjava88ba76fitWritesObjectAsString1/result/Flaky/.nondex/NA6tsTZKGrTW8FWW+h9e8nYjbJwP14UeyiMamOMQpg=/TEST-com.hubspot.jinjava.lib.filter.ToJsonFilterTest.xml",
+    "size": 12665,
+    "compressed": 2667,
+    "crc32": "9274480b",
+    "offset": 1147275757,
+    "method": 8,
+    "local_path": "data/extracted/432c2bb24a31f3aff2e43cc5.xml",
+    "sha256": "c0fa582c5849ca55a2eda575720771a2c699a87fb726cac916d5a1fc937a79f1",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "itWritesObjectAsString",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<\"{\"test[Array\":[4,1,2],\"testString\":\"testString\"]}\"> but was:<\"{\"test[String\":\"testString\",\"testArray\":[4,1,2]]}\">",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<\"{\"test[Array\":[4,1,2],\"testString\":\"testString\"]}\"> but was:<\"{\"test[String\":\"testString\",\"testArray\":[4,1,2]]}\">\n\tat com.hubspot.jinjava.lib.filter.ToJsonFilterTest.itWritesObjectAsString(ToJsonFilterTest.java:28)",
+    "text": "org.junit.ComparisonFailure\nexpected:<\"{\"test[Array\":[4,1,2],\"testString\":\"testString\"]}\"> but was:<\"{\"test[String\":\"testString\",\"testArray\":[4,1,2]]}\">\norg.junit.ComparisonFailure: expected:<\"{\"test[Array\":[4,1,2],\"testString\":\"testString\"]}\"> but was:<\"{\"test[String\":\"testString\",\"testArray\":[4,1,2]]}\">\n\tat com.hubspot.jinjava.lib.filter.ToJsonFilterTest.itWritesObjectAsString(ToJsonFilterTest.java:28)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "8571d5f524a0ab8cc36b01d95258378709d30472867a8305fddbeec4c91d2ee2"
+}

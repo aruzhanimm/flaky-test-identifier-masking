@@ -1,0 +1,81 @@
+{
+  "container": "oktahookssdkjavahooks8bf25c8complexAddRemove",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "oktahookssdkjavahooks8bf25c8complexAddRemove",
+    "project": "https://github.com/okta/okta-hooks-sdk-java",
+    "revision": "8bf25c84b54e788040ae2272e1578bc625e871d4",
+    "test": "com.okta.hooks.sdk.SamlHooksTest.complexAddRemove",
+    "label": "ID",
+    "module": "hooks",
+    "zip": "okta-hooks-sdk-java=hooks=8bf25c8",
+    "config_row": 741,
+    "configured_test": "com.okta.hooks.sdk.SamlHooksTest#complexAddRemove",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.SamlHooksTest.complexAddRemove",
+    "variant_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.SamlHooksTest.complexAddRemove::8bf25c84b54e788040ae2272e1578bc625e871d4::hooks",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/oktahookssdkjavahooks8bf25c8complexAddRemove/result/Flaky/.nondex/xoc8c9pwxII+iiDzgEIL9oL2jmgslv54L35y54Y7YeQ=/TEST-com.okta.hooks.sdk.SamlHooksTest.xml",
+        "size": 14955,
+        "compressed": 2801,
+        "crc32": "59666ff9",
+        "offset": 1260999936,
+        "method": 8,
+        "local_path": "data/extracted/3dbc9a649a22b55a5a4f20c8.xml",
+        "sha256": "134fb899ec15902e7f7039c18906e5a190a56ff1470499d8f56d7e4df21733de",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8complexAddRemove/result/Flaky/rounds-test-results.csv",
+    "size": 17071,
+    "compressed": 5104,
+    "crc32": "02cc4391",
+    "offset": 1255882270,
+    "method": 8,
+    "local_path": "data/extracted/3441528260bde75824faf643.csv",
+    "sha256": "40f032bddbd81afa3a9afb57f4548fde82a99f2d0645bec599d4b868fc3b63dc",
+    "status": "verified"
+  },
+  "reported_failure_rows": 97,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8complexAddRemove/result/Flaky/.nondex/xoc8c9pwxII+iiDzgEIL9oL2jmgslv54L35y54Y7YeQ=/TEST-com.okta.hooks.sdk.SamlHooksTest.xml",
+    "size": 14955,
+    "compressed": 2801,
+    "crc32": "59666ff9",
+    "offset": 1260999936,
+    "method": 8,
+    "local_path": "data/extracted/3dbc9a649a22b55a5a4f20c8.xml",
+    "sha256": "134fb899ec15902e7f7039c18906e5a190a56ff1470499d8f56d7e4df21733de",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "complexAddRemove",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/array/attributeValues/1/value\\\",\\\"value\\\":\\\"replacementValue\\\"}]},{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/authnContext\\\",\\\"value\\\":{\\\"authnContextClassRef\\\":\\\"Something:different?\\\"}}]},{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"add\\\",\\\"path\\\":\\\"/claims/foo\\\",\\\"value\\\":{\\\"attributes\\\":{\\\"NameFormat\\\":\\\"urn:oasis:names:tc:SAML:2.0:attrname-format:basic\\\"},\\\"attributeValues\\\":[{\\\"attributes\\\":{\\\"xsi:type\\\":\\\"xs:string\\\"},\\\"value\\\":\\\"bearer\\\"}]}}]},{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/sessionIndex\\\",\\\"value\\\":\\\"definitelyARealSession\\\"}]}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/array/attributeValues/1/value\\\",\\\"value\\\":\\\"replacementValue\\\"}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/authnContext\\\",\\\"value\\\":{\\\"authnContextClassRef\\\":\\\"Something:different?\\\"}}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"add\\\",\\\"path\\\":\\\"/claims/foo\\\",\\\"value\\\":{\\\"attributeValues\\\":[{\\\"value\\\":\\\"bearer\\\",\\\"attributes\\\":{\\\"xsi:type\\\":\\\"xs:string\\\"}}],\\\"attributes\\\":{\\\"NameFormat\\\":\\\"urn:oasis:names:tc:SAML:2.0:attrname-format:basic\\\"}}}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/sessionIndex\\\",\\\"value\\\":\\\"definitelyARealSession\\\"}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"}]}\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/array/attributeValues/1/value\\\",\\\"value\\\":\\\"replacementValue\\\"}]},{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/authnContext\\\",\\\"value\\\":{\\\"authnContextClassRef\\\":\\\"Something:different?\\\"}}]},{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"add\\\",\\\"path\\\":\\\"/claims/foo\\\",\\\"value\\\":{\\\"attributes\\\":{\\\"NameFormat\\\":\\\"urn:oasis:names:tc:SAML:2.0:attrname-format:basic\\\"},\\\"attributeValues\\\":[{\\\"attributes\\\":{\\\"xsi:type\\\":\\\"xs:string\\\"},\\\"value\\\":\\\"bearer\\\"}]}}]},{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/sessionIndex\\\",\\\"value\\\":\\\"definitelyARealSession\\\"}]}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/array/attributeValues/1/value\\\",\\\"value\\\":\\\"replacementValue\\\"}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/authnContext\\\",\\\"value\\\":{\\\"authnContextClassRef\\\":\\\"Something:different?\\\"}}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"add\\\",\\\"path\\\":\\\"/claims/foo\\\",\\\"value\\\":{\\\"attributeValues\\\":[{\\\"value\\\":\\\"bearer\\\",\\\"attributes\\\":{\\\"xsi:type\\\":\\\"xs:string\\\"}}],\\\"attributes\\\":{\\\"NameFormat\\\":\\\"urn:oasis:names:tc:SAML:2.0:attrname-format:basic\\\"}}}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/sessionIndex\\\",\\\"value\\\":\\\"definitelyARealSession\\\"}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"}]}\"\n\tat com.okta.hooks.sdk.SamlHooksTest.complexAddRemove(SamlHooksTest.groovy:175)",
+    "text": "java.lang.AssertionError\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/array/attributeValues/1/value\\\",\\\"value\\\":\\\"replacementValue\\\"}]},{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/authnContext\\\",\\\"value\\\":{\\\"authnContextClassRef\\\":\\\"Something:different?\\\"}}]},{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"add\\\",\\\"path\\\":\\\"/claims/foo\\\",\\\"value\\\":{\\\"attributes\\\":{\\\"NameFormat\\\":\\\"urn:oasis:names:tc:SAML:2.0:attrname-format:basic\\\"},\\\"attributeValues\\\":[{\\\"attributes\\\":{\\\"xsi:type\\\":\\\"xs:string\\\"},\\\"value\\\":\\\"bearer\\\"}]}}]},{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/sessionIndex\\\",\\\"value\\\":\\\"definitelyARealSession\\\"}]}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/array/attributeValues/1/value\\\",\\\"value\\\":\\\"replacementValue\\\"}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/authnContext\\\",\\\"value\\\":{\\\"authnContextClassRef\\\":\\\"Something:different?\\\"}}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"add\\\",\\\"path\\\":\\\"/claims/foo\\\",\\\"value\\\":{\\\"attributeValues\\\":[{\\\"value\\\":\\\"bearer\\\",\\\"attributes\\\":{\\\"xsi:type\\\":\\\"xs:string\\\"}}],\\\"attributes\\\":{\\\"NameFormat\\\":\\\"urn:oasis:names:tc:SAML:2.0:attrname-format:basic\\\"}}}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/sessionIndex\\\",\\\"value\\\":\\\"definitelyARealSession\\\"}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"}]}\"\njava.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/array/attributeValues/1/value\\\",\\\"value\\\":\\\"replacementValue\\\"}]},{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/authnContext\\\",\\\"value\\\":{\\\"authnContextClassRef\\\":\\\"Something:different?\\\"}}]},{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"add\\\",\\\"path\\\":\\\"/claims/foo\\\",\\\"value\\\":{\\\"attributes\\\":{\\\"NameFormat\\\":\\\"urn:oasis:names:tc:SAML:2.0:attrname-format:basic\\\"},\\\"attributeValues\\\":[{\\\"attributes\\\":{\\\"xsi:type\\\":\\\"xs:string\\\"},\\\"value\\\":\\\"bearer\\\"}]}}]},{\\\"type\\\":\\\"com.okta.assertion.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/sessionIndex\\\",\\\"value\\\":\\\"definitelyARealSession\\\"}]}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/array/attributeValues/1/value\\\",\\\"value\\\":\\\"replacementValue\\\"}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/authnContext\\\",\\\"value\\\":{\\\"authnContextClassRef\\\":\\\"Something:different?\\\"}}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"add\\\",\\\"path\\\":\\\"/claims/foo\\\",\\\"value\\\":{\\\"attributeValues\\\":[{\\\"value\\\":\\\"bearer\\\",\\\"attributes\\\":{\\\"xsi:type\\\":\\\"xs:string\\\"}}],\\\"attributes\\\":{\\\"NameFormat\\\":\\\"urn:oasis:names:tc:SAML:2.0:attrname-format:basic\\\"}}}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/authentication/sessionIndex\\\",\\\"value\\\":\\\"definitelyARealSession\\\"}],\\\"type\\\":\\\"com.okta.assertion.patch\\\"}]}\"\n\tat com.okta.hooks.sdk.SamlHooksTest.complexAddRemove(SamlHooksTest.groovy:175)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "307088903b1fff942837fd62950ab725887e873ff9b8bb0072a7c4658b01de42"
+}

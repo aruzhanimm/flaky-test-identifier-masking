@@ -1,0 +1,81 @@
+{
+  "container": "nacosclientc5e5a82testNewMetadataSelector",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "nacosclientc5e5a82testNewMetadataSelector",
+    "project": "https://github.com/alibaba/nacos",
+    "revision": "c5e5a8223167677a0df8d6e0cf9e16303faf58d6",
+    "test": "com.alibaba.nacos.client.naming.selector.NamingSelectorFactoryTest.testNewMetadataSelector",
+    "label": "ID",
+    "module": "client",
+    "zip": "nacos=client=c5e5a82",
+    "config_row": 246,
+    "configured_test": "com.alibaba.nacos.client.naming.selector.NamingSelectorFactoryTest#testNewMetadataSelector",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/nacos::com.alibaba.nacos.client.naming.selector.NamingSelectorFactoryTest.testNewMetadataSelector",
+    "variant_id": "https://github.com/alibaba/nacos::com.alibaba.nacos.client.naming.selector.NamingSelectorFactoryTest.testNewMetadataSelector::c5e5a8223167677a0df8d6e0cf9e16303faf58d6::client",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/nacosclientc5e5a82testNewMetadataSelector/result/Flaky/.nondex/EwSgPEewOuAH9eH9fosea7DpTcfvr2zdZMqJUF0Q8=/TEST-com.alibaba.nacos.client.naming.selector.NamingSelectorFactoryTest.xml",
+        "size": 19804,
+        "compressed": 3343,
+        "crc32": "0a8718b3",
+        "offset": 242337291,
+        "method": 8,
+        "local_path": "data/extracted/94672c9a0e60457519118d24.xml",
+        "sha256": "753f8bbea887f3b50d5b1ceeecba64659febd51fd2113963e07db7caa62b6a3f",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/nacosclientc5e5a82testNewMetadataSelector/result/Flaky/rounds-test-results.csv",
+    "size": 20413,
+    "compressed": 5073,
+    "crc32": "0b9fe41a",
+    "offset": 242061837,
+    "method": 8,
+    "local_path": "data/extracted/1f8cf2ce62d727a9a29ef6ef.csv",
+    "sha256": "4d2fd1d619adc329b9b90d15c067f5150de123b3eaf3ee56ee4c2adcd8be19fd",
+    "status": "verified"
+  },
+  "reported_failure_rows": 52,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/nacosclientc5e5a82testNewMetadataSelector/result/Flaky/.nondex/EwSgPEewOuAH9eH9fosea7DpTcfvr2zdZMqJUF0Q8=/TEST-com.alibaba.nacos.client.naming.selector.NamingSelectorFactoryTest.xml",
+    "size": 19804,
+    "compressed": 3343,
+    "crc32": "0a8718b3",
+    "offset": 242337291,
+    "method": 8,
+    "local_path": "data/extracted/94672c9a0e60457519118d24.xml",
+    "sha256": "753f8bbea887f3b50d5b1ceeecba64659febd51fd2113963e07db7caa62b6a3f",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testNewMetadataSelector",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: com.alibaba.nacos.api.naming.pojo.Instance@3a3e78f<Instance{instanceId='null', ip='null', port=0, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='null', serviceName='null', metadata={b=2, a=1}}> but was: com.alibaba.nacos.api.naming.pojo.Instance@3a3e78f<Instance{instanceId='null', ip='null', port=0, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='null', serviceName='null', metadata={b=2, a=1}}>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: com.alibaba.nacos.api.naming.pojo.Instance@3a3e78f<Instance{instanceId='null', ip='null', port=0, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='null', serviceName='null', metadata={b=2, a=1}}> but was: com.alibaba.nacos.api.naming.pojo.Instance@3a3e78f<Instance{instanceId='null', ip='null', port=0, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='null', serviceName='null', metadata={b=2, a=1}}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat com.alibaba.nacos.client.naming.selector.NamingSelectorFactoryTest.testNewMetadataSelector(NamingSelectorFactoryTest.java:114)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: com.alibaba.nacos.api.naming.pojo.Instance@3a3e78f<Instance{instanceId='null', ip='null', port=0, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='null', serviceName='null', metadata={b=2, a=1}}> but was: com.alibaba.nacos.api.naming.pojo.Instance@3a3e78f<Instance{instanceId='null', ip='null', port=0, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='null', serviceName='null', metadata={b=2, a=1}}>\norg.opentest4j.AssertionFailedError: expected: com.alibaba.nacos.api.naming.pojo.Instance@3a3e78f<Instance{instanceId='null', ip='null', port=0, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='null', serviceName='null', metadata={b=2, a=1}}> but was: com.alibaba.nacos.api.naming.pojo.Instance@3a3e78f<Instance{instanceId='null', ip='null', port=0, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='null', serviceName='null', metadata={b=2, a=1}}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat com.alibaba.nacos.client.naming.selector.NamingSelectorFactoryTest.testNewMetadataSelector(NamingSelectorFactoryTest.java:114)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "e95a0e121c867024acf94b623750290fbcd9f1079a6a215655bd6afe521b129a"
+}

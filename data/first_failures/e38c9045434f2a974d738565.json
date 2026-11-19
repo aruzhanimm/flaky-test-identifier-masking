@@ -1,0 +1,81 @@
+{
+  "container": "ormlitecore61ebf9etestMultiAfter",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ormlitecore61ebf9etestMultiAfter",
+    "project": "https://github.com/j256/ormlite-core",
+    "revision": "61ebf9e20fcc1e243de3e40b235445bae4de6dbc",
+    "test": "com.j256.ormlite.table.DatabaseTableConfigTest.testMultiAfter",
+    "label": "ID",
+    "module": ".",
+    "zip": "ormlite-core=.=61ebf9e",
+    "config_row": 730,
+    "configured_test": "com.j256.ormlite.table.DatabaseTableConfigTest#testMultiAfter",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/j256/ormlite-core::com.j256.ormlite.table.DatabaseTableConfigTest.testMultiAfter",
+    "variant_id": "https://github.com/j256/ormlite-core::com.j256.ormlite.table.DatabaseTableConfigTest.testMultiAfter::61ebf9e20fcc1e243de3e40b235445bae4de6dbc::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/ormlitecore61ebf9etestMultiAfter/result/Flaky/.nondex/9IlQvJCyuf5W5XyOw+VfC+NcxFGaQ5woVFSFMgcXbM4=/TEST-com.j256.ormlite.table.DatabaseTableConfigTest.xml",
+        "size": 11028,
+        "compressed": 2452,
+        "crc32": "6e503fcf",
+        "offset": 2206436083,
+        "method": 8,
+        "local_path": "data/extracted/f1efee24a9f20b4e5c4061c4.xml",
+        "sha256": "757ba114c240cb3404ec3631c1e45655a8d6ed279c04302ce49d080a4bec5d48",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ormlitecore61ebf9etestMultiAfter/result/Flaky/rounds-test-results.csv",
+    "size": 17942,
+    "compressed": 5116,
+    "crc32": "d22877b5",
+    "offset": 2206093346,
+    "method": 8,
+    "local_path": "data/extracted/1fd279bf6100995fbb6049c5.csv",
+    "sha256": "40080635fe4aaad102bf977527c37373d4cdd87b220a09411ad6bfe43a372089",
+    "status": "verified"
+  },
+  "reported_failure_rows": 59,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/ormlitecore61ebf9etestMultiAfter/result/Flaky/.nondex/9IlQvJCyuf5W5XyOw+VfC+NcxFGaQ5woVFSFMgcXbM4=/TEST-com.j256.ormlite.table.DatabaseTableConfigTest.xml",
+    "size": 11028,
+    "compressed": 2452,
+    "crc32": "6e503fcf",
+    "offset": 2206436083,
+    "method": 8,
+    "local_path": "data/extracted/f1efee24a9f20b4e5c4061c4.xml",
+    "sha256": "757ba114c240cb3404ec3631c1e45655a8d6ed279c04302ce49d080a4bec5d48",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testMultiAfter",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <a1> but was: <a2>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <a1> but was: <a2>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat com.j256.ormlite.table.DatabaseTableConfigTest.testMultiAfter(DatabaseTableConfigTest.java:277)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <a1> but was: <a2>\norg.opentest4j.AssertionFailedError: expected: <a1> but was: <a2>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat com.j256.ormlite.table.DatabaseTableConfigTest.testMultiAfter(DatabaseTableConfigTest.java:277)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "6ab92c4f7b02a32fd13cbd320730e4c3486f6a69a470c23c42a4585e20d12357"
+}

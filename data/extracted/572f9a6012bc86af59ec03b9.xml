@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.apache.struts2.views.freemarker.FreemarkerResultMockedTest" time="1.797" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="nondexStart" value="0"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="user.region" value="US"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/root/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M4/surefire-booter-3.0.0-M4.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M4/surefire-api-3.0.0-M4.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M4/surefire-logger-api-3.0.0-M4.jar:/app/source/core/target/test-classes:/app/source/core/target/classes:/root/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/root/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/root/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar:/root/.m2/repository/ognl/ognl/3.2.20/ognl-3.2.20.jar:/root/.m2/repository/org/javassist/javassist/3.24.1-GA/javassist-3.24.1-GA.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/root/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar:/root/.m2/repository/commons-io/commons-io/2.9.0/commons-io-2.9.0.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/root/.m2/repository/org/apache/commons/commons-text/1.8/commons-text-1.8.jar:/root/.m2/repository/org/springframework/spring-test/4.3.29.RELEASE/spring-test-4.3.29.RELEASE.jar:/root/.m2/repository/org/springframework/spring-core/4.3.29.RELEASE/spring-core-4.3.29.RELEASE.jar:/root/.m2/repository/org/springframework/spring-web/4.3.29.RELEASE/spring-web-4.3.29.RELEASE.jar:/root/.m2/repository/org/springframework/spring-aop/4.3.29.RELEASE/spring-aop-4.3.29.RELEASE.jar:/root/.m2/repository/org/springframework/spring-beans/4.3.29.RELEASE/spring-beans-4.3.29.RELEASE.jar:/root/.m2/repository/org/springframework/spring-context/4.3.29.RELEASE/spring-context-4.3.29.RELEASE.jar:/root/.m2/repository/org/springframework/spring-expression/4.3.29.RELEASE/spring-expression-4.3.29.RELEASE.jar:/root/.m2/repository/junit/junit/4.13/junit-4.13.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/root/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/root/.m2/repository/mockobjects/mockobjects-jdk1.3/0.09/mockobjects-jdk1.3-0.09.jar:/root/.m2/repository/mockobjects/mockobjects-alt-jdk1.3/0.09/mockobjects-alt-jdk1.3-0.09.jar:/root/.m2/repository/mockobjects/mockobjects-alt-jdk1.3-j2ee1.3/0.09/mockobjects-alt-jdk1.3-j2ee1.3-0.09.jar:/root/.m2/repository/mockobjects/mockobjects-jdk1.3-j2ee1.3/0.09/mockobjects-jdk1.3-j2ee1.3-0.09.jar:/root/.m2/repository/jmock/jmock/1.2.0/jmock-1.2.0.jar:/root/.m2/repository/org/mockito/mockito-core/3.3.3/mockito-core-3.3.3.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.10.5/byte-buddy-1.10.5.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.5/byte-buddy-agent-1.10.5.jar:/root/.m2/repository/org/assertj/assertj-core/3.15.0/assertj-core-3.15.0.jar:/root/.m2/repository/mockobjects/mockobjects-core/0.09/mockobjects-core-0.09.jar:/root/.m2/repository/org/easymock/easymock/4.2/easymock-4.2.jar:/root/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/root/.m2/repository/org/apache/struts/struts-annotations/1.0.7/struts-annotations-1.0.7.jar:/root/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/root/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/root/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/root/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/root/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/root/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:/root/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/root/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/root/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/root/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/app/source/core/target/test-classes/xwork-jar.jar:/app/source/core/target/test-classes/xwork-zip.zip:/app/source/core/target/test-classes/xwork - jar.jar:/app/source/core/target/test-classes/xwork - zip.zip:/root/.m2/repository/org/apache/maven/surefire/surefire-junit47/3.0.0-M4/surefire-junit47-3.0.0-M4.jar:/root/.m2/repository/org/apache/maven/surefire/common-java5/3.0.0-M4/common-java5-3.0.0-M4.jar:/root/.m2/repository/org/apache/maven/surefire/common-junit3/3.0.0-M4/common-junit3-3.0.0-M4.jar:/root/.m2/repository/org/apache/maven/surefire/common-junit4/3.0.0-M4/common-junit4-3.0.0-M4.jar:/root/.m2/repository/org/apache/maven/surefire/common-junit48/3.0.0-M4/common-junit48-3.0.0-M4.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-grouper/3.0.0-M4/surefire-grouper-3.0.0-M4.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-11/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /app/source/core/target/surefire 2025-11-06T23-59-01_021-jvmRun1 surefire6048933908263387208tmp surefire_111095353225426563756tmp"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/app/source/core/target/test-classes:/app/source/core/target/classes:/root/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/root/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/root/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar:/root/.m2/repository/ognl/ognl/3.2.20/ognl-3.2.20.jar:/root/.m2/repository/org/javassist/javassist/3.24.1-GA/javassist-3.24.1-GA.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/root/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar:/root/.m2/repository/commons-io/commons-io/2.9.0/commons-io-2.9.0.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/root/.m2/repository/org/apache/commons/commons-text/1.8/commons-text-1.8.jar:/root/.m2/repository/org/springframework/spring-test/4.3.29.RELEASE/spring-test-4.3.29.RELEASE.jar:/root/.m2/repository/org/springframework/spring-core/4.3.29.RELEASE/spring-core-4.3.29.RELEASE.jar:/root/.m2/repository/org/springframework/spring-web/4.3.29.RELEASE/spring-web-4.3.29.RELEASE.jar:/root/.m2/repository/org/springframework/spring-aop/4.3.29.RELEASE/spring-aop-4.3.29.RELEASE.jar:/root/.m2/repository/org/springframework/spring-beans/4.3.29.RELEASE/spring-beans-4.3.29.RELEASE.jar:/root/.m2/repository/org/springframework/spring-context/4.3.29.RELEASE/spring-context-4.3.29.RELEASE.jar:/root/.m2/repository/org/springframework/spring-expression/4.3.29.RELEASE/spring-expression-4.3.29.RELEASE.jar:/root/.m2/repository/junit/junit/4.13/junit-4.13.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/root/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/root/.m2/repository/mockobjects/mockobjects-jdk1.3/0.09/mockobjects-jdk1.3-0.09.jar:/root/.m2/repository/mockobjects/mockobjects-alt-jdk1.3/0.09/mockobjects-alt-jdk1.3-0.09.jar:/root/.m2/repository/mockobjects/mockobjects-alt-jdk1.3-j2ee1.3/0.09/mockobjects-alt-jdk1.3-j2ee1.3-0.09.jar:/root/.m2/repository/mockobjects/mockobjects-jdk1.3-j2ee1.3/0.09/mockobjects-jdk1.3-j2ee1.3-0.09.jar:/root/.m2/repository/jmock/jmock/1.2.0/jmock-1.2.0.jar:/root/.m2/repository/org/mockito/mockito-core/3.3.3/mockito-core-3.3.3.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.10.5/byte-buddy-1.10.5.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.5/byte-buddy-agent-1.10.5.jar:/root/.m2/repository/org/assertj/assertj-core/3.15.0/assertj-core-3.15.0.jar:/root/.m2/repository/mockobjects/mockobjects-core/0.09/mockobjects-core-0.09.jar:/root/.m2/repository/org/easymock/easymock/4.2/easymock-4.2.jar:/root/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/root/.m2/repository/org/apache/struts/struts-annotations/1.0.7/struts-annotations-1.0.7.jar:/root/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/root/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/root/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/root/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/root/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/root/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:/root/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/root/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/root/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/root/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/app/source/core/target/test-classes/xwork-jar.jar:/app/source/core/target/test-classes/xwork-zip.zip:/app/source/core/target/test-classes/xwork - jar.jar:/app/source/core/target/test-classes/xwork - zip.zip:"/>
+    <property name="test" value="org.apache.struts2.views.freemarker.FreemarkerResultMockedTest#testDynamicAttributesSupport"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="VmpUjOx36accnwv9zFKH7+R5aQ5eoGqiiSXb1hIVI="/>
+    <property name="user.home" value="/root"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/openjdk-11"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/app/source/core"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="974622"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-34-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/core/.nondex"/>
+    <property name="nondexJarDir" value="/app/source/core/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="/app/source/core"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="license.skip" value="true"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="xml.skip" value="true"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="testDynamicAttributesSupport" classname="org.apache.struts2.views.freemarker.FreemarkerResultMockedTest" time="1.79">
+    <failure message="expected:&lt;... value=&quot;&quot; id=&quot;test&quot; [foo=&quot;bar&quot; placeholder=&quot;input]&quot;/&gt;&lt;input type=&quot;text...&gt; but was:&lt;... value=&quot;&quot; id=&quot;test&quot; [placeholder=&quot;input&quot; foo=&quot;bar]&quot;/&gt;&lt;input type=&quot;text...&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<... value="" id="test" [foo="bar" placeholder="input]"/><input type="text...> but was:<... value="" id="test" [placeholder="input" foo="bar]"/><input type="text...>
+	at org.apache.struts2.views.freemarker.FreemarkerResultMockedTest.testDynamicAttributesSupport(FreemarkerResultMockedTest.java:124)
+]]></failure>
+    <system-out><![CDATA[2025-11-06 23:59:04,446 main ERROR Could not reconfigure JMX java.lang.NullPointerException
+	at java.base/jdk.internal.platform.cgroupv2.CgroupV2Subsystem.getInstance(CgroupV2Subsystem.java:81)
+	at java.base/jdk.internal.platform.CgroupSubsystemFactory.create(CgroupSubsystemFactory.java:113)
+	at java.base/jdk.internal.platform.CgroupMetrics.getInstance(CgroupMetrics.java:167)
+	at java.base/jdk.internal.platform.SystemMetrics.instance(SystemMetrics.java:29)
+	at java.base/jdk.internal.platform.Metrics.systemMetrics(Metrics.java:58)
+	at java.base/jdk.internal.platform.Container.metrics(Container.java:43)
+	at jdk.management/com.sun.management.internal.OperatingSystemImpl.<init>(OperatingSystemImpl.java:182)
+	at jdk.management/com.sun.management.internal.PlatformMBeanProviderImpl.getOperatingSystemMXBean(PlatformMBeanProviderImpl.java:281)
+	at jdk.management/com.sun.management.internal.PlatformMBeanProviderImpl$3.nameToMBeanMap(PlatformMBeanProviderImpl.java:198)
+	at java.management/java.lang.management.ManagementFactory.lambda$getPlatformMBeanServer$0(ManagementFactory.java:487)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:271)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1693)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at java.management/java.lang.management.ManagementFactory.getPlatformMBeanServer(ManagementFactory.java:488)
+	at org.apache.logging.log4j.core.jmx.Server.reregisterMBeansAfterReconfigure(Server.java:140)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:629)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:691)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:708)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:263)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:45)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:194)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:602)
+	at com.opensymphony.xwork2.config.ConfigurationManager.<clinit>(ConfigurationManager.java:43)
+	at com.opensymphony.xwork2.util.XWorkTestCaseHelper.setUp(XWorkTestCaseHelper.java:35)
+	at com.opensymphony.xwork2.XWorkTestCase.setUp(XWorkTestCase.java:55)
+	at org.apache.struts2.StrutsInternalTestCase.setUp(StrutsInternalTestCase.java:44)
+	at org.apache.struts2.views.freemarker.FreemarkerResultMockedTest.setUp(FreemarkerResultMockedTest.java:297)
+	at junit.framework.TestCase.runBare(TestCase.java:140)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:130)
+	at junit.framework.TestSuite.runTest(TestSuite.java:241)
+	at junit.framework.TestSuite.run(TestSuite.java:236)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:90)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+
+]]></system-out>
+  </testcase>
+</testsuite>

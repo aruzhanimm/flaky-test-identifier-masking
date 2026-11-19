@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest" time="0.076" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="nondexStart" value="0"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/tests/target/test-classes:/app/source/tests/target/classes:/root/.m2/repository/com/oracle/labs/olcut/olcut-core/5.2.0/olcut-core-5.2.0.jar:/root/.m2/repository/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar:/root/.m2/repository/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar:/root/.m2/repository/org/jline/jline-builtins/3.20.0/jline-builtins-3.20.0.jar:/root/.m2/repository/org/jline/jline-style/3.20.0/jline-style-3.20.0.jar:/root/.m2/repository/org/jline/jline-terminal-jansi/3.20.0/jline-terminal-jansi-3.20.0.jar:/root/.m2/repository/org/fusesource/jansi/jansi/2.3.2/jansi-2.3.2.jar:/root/.m2/repository/org/tribuo/tribuo-data/4.3.0-SNAPSHOT/tribuo-data-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-core/4.3.0-SNAPSHOT/tribuo-core-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-util-onnx/4.3.0-SNAPSHOT/tribuo-util-onnx-4.3.0-SNAPSHOT.jar:/root/.m2/repository/com/google/protobuf/protobuf-java/3.17.3/protobuf-java-3.17.3.jar:/root/.m2/repository/org/tribuo/tribuo-util-tokenization/4.3.0-SNAPSHOT/tribuo-util-tokenization-4.3.0-SNAPSHOT.jar:/root/.m2/repository/com/opencsv/opencsv/5.4/opencsv-5.4.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/root/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/root/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/root/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/root/.m2/repository/org/tribuo/tribuo-classification-core/4.3.0-SNAPSHOT/tribuo-classification-core-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-common-tree/4.3.0-SNAPSHOT/tribuo-common-tree-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-regression-core/4.3.0-SNAPSHOT/tribuo-regression-core-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-math/4.3.0-SNAPSHOT/tribuo-math-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-multilabel-core/4.3.0-SNAPSHOT/tribuo-multilabel-core-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-classification-libsvm/4.3.0-SNAPSHOT/tribuo-classification-libsvm-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-common-libsvm/4.3.0-SNAPSHOT/tribuo-common-libsvm-4.3.0-SNAPSHOT.jar:/root/.m2/repository/tw/edu/ntu/csie/libsvm/3.25/libsvm-3.25.jar:/root/.m2/repository/org/tribuo/tribuo-classification-sgd/4.3.0-SNAPSHOT/tribuo-classification-sgd-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-common-sgd/4.3.0-SNAPSHOT/tribuo-common-sgd-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-multilabel-sgd/4.3.0-SNAPSHOT/tribuo-multilabel-sgd-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-regression-sgd/4.3.0-SNAPSHOT/tribuo-regression-sgd-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-onnx/4.3.0-SNAPSHOT/tribuo-onnx-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-interop-core/4.3.0-SNAPSHOT/tribuo-interop-core-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-json/4.3.0-SNAPSHOT/tribuo-json-4.3.0-SNAPSHOT.jar:/root/.m2/repository/com/oracle/labs/olcut/olcut-config-json/5.2.0/olcut-config-json-5.2.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.5/jackson-core-2.12.5.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.5/jackson-databind-2.12.5.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.5/jackson-annotations-2.12.5.jar:/root/.m2/repository/com/oracle/labs/olcut/olcut-config-protobuf/5.2.0/olcut-config-protobuf-5.2.0.jar:/root/.m2/repository/com/microsoft/onnxruntime/onnxruntime/1.9.0/onnxruntime-1.9.0.jar:/root/.m2/repository/org/tribuo/tribuo-onnx/4.3.0-SNAPSHOT/tribuo-onnx-4.3.0-SNAPSHOT-tests.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.1/junit-jupiter-5.7.1.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.1/junit-jupiter-params-5.7.1.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-11/lib"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="sun.java.command" value="/app/source/tests/target/surefire/surefirebooter9100713303841214743.jar /app/source/tests/target/surefire 2025-11-08T04-52-47_594-jvmRun1 surefire12531619033981320771tmp surefire_21566048428962491674tmp"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest#savesMultipleRegression"/>
+    <property name="surefire.test.class.path" value="/app/source/tests/target/test-classes:/app/source/tests/target/classes:/root/.m2/repository/com/oracle/labs/olcut/olcut-core/5.2.0/olcut-core-5.2.0.jar:/root/.m2/repository/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar:/root/.m2/repository/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar:/root/.m2/repository/org/jline/jline-builtins/3.20.0/jline-builtins-3.20.0.jar:/root/.m2/repository/org/jline/jline-style/3.20.0/jline-style-3.20.0.jar:/root/.m2/repository/org/jline/jline-terminal-jansi/3.20.0/jline-terminal-jansi-3.20.0.jar:/root/.m2/repository/org/fusesource/jansi/jansi/2.3.2/jansi-2.3.2.jar:/root/.m2/repository/org/tribuo/tribuo-data/4.3.0-SNAPSHOT/tribuo-data-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-core/4.3.0-SNAPSHOT/tribuo-core-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-util-onnx/4.3.0-SNAPSHOT/tribuo-util-onnx-4.3.0-SNAPSHOT.jar:/root/.m2/repository/com/google/protobuf/protobuf-java/3.17.3/protobuf-java-3.17.3.jar:/root/.m2/repository/org/tribuo/tribuo-util-tokenization/4.3.0-SNAPSHOT/tribuo-util-tokenization-4.3.0-SNAPSHOT.jar:/root/.m2/repository/com/opencsv/opencsv/5.4/opencsv-5.4.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/root/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/root/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/root/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/root/.m2/repository/org/tribuo/tribuo-classification-core/4.3.0-SNAPSHOT/tribuo-classification-core-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-common-tree/4.3.0-SNAPSHOT/tribuo-common-tree-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-regression-core/4.3.0-SNAPSHOT/tribuo-regression-core-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-math/4.3.0-SNAPSHOT/tribuo-math-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-multilabel-core/4.3.0-SNAPSHOT/tribuo-multilabel-core-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-classification-libsvm/4.3.0-SNAPSHOT/tribuo-classification-libsvm-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-common-libsvm/4.3.0-SNAPSHOT/tribuo-common-libsvm-4.3.0-SNAPSHOT.jar:/root/.m2/repository/tw/edu/ntu/csie/libsvm/3.25/libsvm-3.25.jar:/root/.m2/repository/org/tribuo/tribuo-classification-sgd/4.3.0-SNAPSHOT/tribuo-classification-sgd-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-common-sgd/4.3.0-SNAPSHOT/tribuo-common-sgd-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-multilabel-sgd/4.3.0-SNAPSHOT/tribuo-multilabel-sgd-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-regression-sgd/4.3.0-SNAPSHOT/tribuo-regression-sgd-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-onnx/4.3.0-SNAPSHOT/tribuo-onnx-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-interop-core/4.3.0-SNAPSHOT/tribuo-interop-core-4.3.0-SNAPSHOT.jar:/root/.m2/repository/org/tribuo/tribuo-json/4.3.0-SNAPSHOT/tribuo-json-4.3.0-SNAPSHOT.jar:/root/.m2/repository/com/oracle/labs/olcut/olcut-config-json/5.2.0/olcut-config-json-5.2.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.5/jackson-core-2.12.5.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.5/jackson-databind-2.12.5.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.5/jackson-annotations-2.12.5.jar:/root/.m2/repository/com/oracle/labs/olcut/olcut-config-protobuf/5.2.0/olcut-config-protobuf-5.2.0.jar:/root/.m2/repository/com/microsoft/onnxruntime/onnxruntime/1.9.0/onnxruntime-1.9.0.jar:/root/.m2/repository/org/tribuo/tribuo-onnx/4.3.0-SNAPSHOT/tribuo-onnx-4.3.0-SNAPSHOT-tests.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.1/junit-jupiter-5.7.1.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.1/junit-jupiter-params-5.7.1.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="UhKf9X0768Sg4IUO53J3DnLMe4n6mEdktCbkQwzkRN0="/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/openjdk-11"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="basedir" value="/app/source/tests"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="surefire.real.class.path" value="/app/source/tests/target/surefire/surefirebooter9100713303841214743.jar"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-35-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/tests/.nondex"/>
+    <property name="nondexJarDir" value="/app/source/tests/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="/app/source/tests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="license.skip" value="true"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="xml.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="savesMultipleRegression" classname="org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest" time="0.066">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <[ArrayExample(numFeatures=3,output=(dim1,0.1),(dim2,0.0),weight=1.0,features=[(A, 1.0)(B, 0.0), (C, 0.0), ]), ArrayExample(numFeatures=3,output=(dim1,0.0),(dim2,0.0),weight=1.0,features=[(A, 1.0)(B, 0.0), (C, 0.1), ])]> but was: <[ArrayExample(numFeatures=3,output=(dim1,0.1),(dim2,0.0),weight=1.0,features=[(A, 1.0)(B, 0.0), (C, 0.0), ]), ArrayExample(numFeatures=3,output=(dim1,0.0),(dim2,0.0),weight=1.0,features=[(A, 1.0)(B, 0.1), (C, 0.0), ])]>
+	at org.tribuo.tests.csv.CSVSaverWithMultiOutputsTest.savesMultipleRegression(CSVSaverWithMultiOutputsTest.java:136)
+]]></failure>
+  </testcase>
+</testsuite>

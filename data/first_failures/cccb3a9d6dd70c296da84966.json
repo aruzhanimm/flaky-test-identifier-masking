@@ -1,0 +1,81 @@
+{
+  "container": "incubatorkiedroolsdroolsdecisiontables8440dc2testWorkbookParse",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "incubatorkiedroolsdroolsdecisiontables8440dc2testWorkbookParse",
+    "project": "https://github.com/apache/incubator-kie-drools",
+    "revision": "8440dc2d4b95412a05a3c7b9501993e1ace9b496",
+    "test": "org.drools.decisiontable.parser.RuleWorksheetParseFromFileTest.testWorkbookParse",
+    "label": "ID",
+    "module": "drools-decisiontables",
+    "zip": "incubator-kie-drools=drools-decisiontables=8440dc2",
+    "config_row": 267,
+    "configured_test": "org.drools.decisiontable.parser.RuleWorksheetParseFromFileTest#testWorkbookParse",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/incubator-kie-drools::org.drools.decisiontable.parser.RuleWorksheetParseFromFileTest.testWorkbookParse",
+    "variant_id": "https://github.com/apache/incubator-kie-drools::org.drools.decisiontable.parser.RuleWorksheetParseFromFileTest.testWorkbookParse::8440dc2d4b95412a05a3c7b9501993e1ace9b496::drools-decisiontables",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/incubatorkiedroolsdroolsdecisiontables8440dc2testWorkbookParse/result/Flaky/.nondex/jzVD+NSKH+7qmwMQf6GcgcySSfEO5fT4UpiLQYYHM=/TEST-org.drools.decisiontable.parser.RuleWorksheetParseFromFileTest.xml",
+        "size": 18726,
+        "compressed": 3342,
+        "crc32": "b32ecc1a",
+        "offset": 2064339868,
+        "method": 8,
+        "local_path": "data/extracted/793a1b657b6e11fb688a3b55.xml",
+        "sha256": "a7baf0b34aad07b40a4115ddc97e4b62f0a9be29bc8dc1fb369d694480683d94",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/incubatorkiedroolsdroolsdecisiontables8440dc2testWorkbookParse/result/Flaky/rounds-test-results.csv",
+    "size": 21522,
+    "compressed": 5105,
+    "crc32": "ef6b3f41",
+    "offset": 2064149383,
+    "method": 8,
+    "local_path": "data/extracted/a40f231d83ee1da4c387b184.csv",
+    "sha256": "6c6f63b37aa2c6530f90b62fbb1721f9a61dba70b87509e12808eb13b78c03c9",
+    "status": "verified"
+  },
+  "reported_failure_rows": 57,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/incubatorkiedroolsdroolsdecisiontables8440dc2testWorkbookParse/result/Flaky/.nondex/jzVD+NSKH+7qmwMQf6GcgcySSfEO5fT4UpiLQYYHM=/TEST-org.drools.decisiontable.parser.RuleWorksheetParseFromFileTest.xml",
+    "size": 18726,
+    "compressed": 3342,
+    "crc32": "b32ecc1a",
+    "offset": 2064339868,
+    "method": 8,
+    "local_path": "data/extracted/793a1b657b6e11fb688a3b55.xml",
+    "sha256": "a7baf0b34aad07b40a4115ddc97e4b62f0a9be29bc8dc1fb369d694480683d94",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testWorkbookParse",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Actual and expected have the same elements but not in the same order, at index 0 actual element was:\n  \"lah.di.dah\"\nwhereas expected element was:\n  \"blah.class1\"",
+    "stack_trace": "java.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  \"lah.di.dah\"\nwhereas expected element was:\n  \"blah.class1\"\n\n\tat org.drools.decisiontable.parser.RuleWorksheetParseFromFileTest.testWorkbookParse(RuleWorksheetParseFromFileTest.java:91)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)",
+    "text": "java.lang.AssertionError\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  \"lah.di.dah\"\nwhereas expected element was:\n  \"blah.class1\"\njava.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  \"lah.di.dah\"\nwhereas expected element was:\n  \"blah.class1\"\n\n\tat org.drools.decisiontable.parser.RuleWorksheetParseFromFileTest.testWorkbookParse(RuleWorksheetParseFromFileTest.java:91)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "704e32e3306b4dd9965cf7f774d9f13d6738df8fa8b3ddd59a6fe54b6ac855bb"
+}

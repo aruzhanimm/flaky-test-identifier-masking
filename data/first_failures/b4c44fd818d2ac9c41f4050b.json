@@ -1,0 +1,81 @@
+{
+  "container": "hadoopbb6",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "hadoopbb6",
+    "project": "https://github.com/apache/hadoop",
+    "revision": "4ea60b5733a1afa880d1d509bc4e55b83da66dc3",
+    "test": "org.apache.hadoop.mapred.TestTaskProgressReporter.testBytesWrittenRespectingLimit",
+    "label": "NIO",
+    "module": "hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core",
+    "zip": "hadoopbb6",
+    "config_row": 1049,
+    "configured_test": "org.apache.hadoop.mapred.TestTaskProgressReporter#testBytesWrittenRespectingLimit",
+    "configured_type": "nio",
+    "iterations": "10",
+    "test_id": "https://github.com/apache/hadoop::org.apache.hadoop.mapred.TestTaskProgressReporter.testBytesWrittenRespectingLimit",
+    "variant_id": "https://github.com/apache/hadoop::org.apache.hadoop.mapred.TestTaskProgressReporter.testBytesWrittenRespectingLimit::4ea60b5733a1afa880d1d509bc4e55b83da66dc3::hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/hadoopbb6/result/Flaky/rounds-test-results.csv",
+        "size": 22379,
+        "compressed": 1203,
+        "crc32": "02257937",
+        "offset": 341135216,
+        "method": 8,
+        "local_path": "data/extracted/00cf077415618886db2533c5.csv",
+        "sha256": "1d71ce2bc987e7640b7013455c30351270f57c6caf4a443bcc310206793623ba",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 10,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/hadoopbb6/result/Flaky/rounds-test-results.csv",
+    "size": 22379,
+    "compressed": 1203,
+    "crc32": "02257937",
+    "offset": 341135216,
+    "method": 8,
+    "local_path": "data/extracted/00cf077415618886db2533c5.csv",
+    "sha256": "1d71ce2bc987e7640b7013455c30351270f57c6caf4a443bcc310206793623ba",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10,
+  "iteration": 0,
+  "source_row": 1,
+  "diagnostic_member": {
+    "path": "result/hadoopbb6/result/Flaky/rounds-test-results.csv",
+    "size": 22379,
+    "compressed": 1203,
+    "crc32": "02257937",
+    "offset": 341135216,
+    "method": 8,
+    "local_path": "data/extracted/00cf077415618886db2533c5.csv",
+    "sha256": "1d71ce2bc987e7640b7013455c30351270f57c6caf4a443bcc310206793623ba",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "nio_json",
+    "testcase_name": "org.apache.hadoop.mapred.TestTaskProgressReporter.testBytesWrittenRespectingLimit:1",
+    "outcome": "ERROR",
+    "exception_type": null,
+    "message": null,
+    "stack_trace": "org.junit.Assert.fail(Assert.java:89)\norg.junit.Assert.failNotEquals(Assert.java:835)\norg.junit.Assert.assertEquals(Assert.java:120)\norg.junit.Assert.assertEquals(Assert.java:146)\norg.apache.hadoop.mapred.TestTaskProgressReporter.testBytesWrittenLimit(TestTaskProgressReporter.java:326)\norg.apache.hadoop.mapred.TestTaskProgressReporter.testBytesWrittenRespectingLimit(TestTaskProgressReporter.java:273)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:498)\norg.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\norg.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\norg.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\norg.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\norg.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)\norg.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)\njava.util.concurrent.FutureTask.run(FutureTask.java:266)\njava.lang.Thread.run(Thread.java:750)",
+    "text": "org.junit.Assert.fail(Assert.java:89)\norg.junit.Assert.failNotEquals(Assert.java:835)\norg.junit.Assert.assertEquals(Assert.java:120)\norg.junit.Assert.assertEquals(Assert.java:146)\norg.apache.hadoop.mapred.TestTaskProgressReporter.testBytesWrittenLimit(TestTaskProgressReporter.java:326)\norg.apache.hadoop.mapred.TestTaskProgressReporter.testBytesWrittenRespectingLimit(TestTaskProgressReporter.java:273)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:498)\norg.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\norg.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\norg.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\norg.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\norg.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)\norg.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)\njava.util.concurrent.FutureTask.run(FutureTask.java:266)\njava.lang.Thread.run(Thread.java:750)",
+    "missing_exception_type": true,
+    "review_flags": []
+  },
+  "text_sha256": "54e8d35f422119d16f1ccdf2e3dcb764b009e7f91fd8a0d0f86553c059d88f26"
+}

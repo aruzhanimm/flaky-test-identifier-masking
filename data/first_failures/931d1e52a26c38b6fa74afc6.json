@@ -1,0 +1,81 @@
+{
+  "container": "servicecombjavachassiscommoncommonprotobuf27552d2testListMapTypeCorrect",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "servicecombjavachassiscommoncommonprotobuf27552d2testListMapTypeCorrect",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "revision": "27552d28ac0d16eb73b9c0023833aa753fd09173",
+    "test": "org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator.testListMapTypeCorrect",
+    "label": "ID",
+    "module": "common/common-protobuf",
+    "zip": "servicecomb-java-chassis=common+common-protobuf=27552d2",
+    "config_row": 225,
+    "configured_test": "org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator#testListMapTypeCorrect",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator.testListMapTypeCorrect",
+    "variant_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator.testListMapTypeCorrect::27552d28ac0d16eb73b9c0023833aa753fd09173::common/common-protobuf",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/servicecombjavachassiscommoncommonprotobuf27552d2testListMapTypeCorrect/result/Flaky/.nondex/W6dOsZSrR3ZCOXN6Km8l8EQU5rxk1odIeOUPU2xAuJ8=/TEST-org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator.xml",
+        "size": 40016,
+        "compressed": 4963,
+        "crc32": "10da9824",
+        "offset": 810511821,
+        "method": 8,
+        "local_path": "data/extracted/5401e329e8fdf50ea4361ba9.xml",
+        "sha256": "0cc8b46352f26dd78df455e8ba3fc8265fdb59077d39c25200aa269da6deb749",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/servicecombjavachassiscommoncommonprotobuf27552d2testListMapTypeCorrect/result/Flaky/rounds-test-results.csv",
+    "size": 22593,
+    "compressed": 5125,
+    "crc32": "3de6bb1c",
+    "offset": 810336365,
+    "method": 8,
+    "local_path": "data/extracted/bd9867fe97c4f38f731beee1.csv",
+    "sha256": "a2533bd16948f0b844e4ab2b7f0cf16a34d71b9260c09b559513c66b4f7196e0",
+    "status": "verified"
+  },
+  "reported_failure_rows": 80,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/servicecombjavachassiscommoncommonprotobuf27552d2testListMapTypeCorrect/result/Flaky/.nondex/W6dOsZSrR3ZCOXN6Km8l8EQU5rxk1odIeOUPU2xAuJ8=/TEST-org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator.xml",
+    "size": 40016,
+    "compressed": 4963,
+    "crc32": "10da9824",
+    "offset": 810511821,
+    "method": 8,
+    "local_path": "data/extracted/5401e329e8fdf50ea4361ba9.xml",
+    "sha256": "0cc8b46352f26dd78df455e8ba3fc8265fdb59077d39c25200aa269da6deb749",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testListMapTypeCorrect",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <syntax = \"proto3\";\npackage test.model;\n\nmessage ScoreInfo {\n  sint32 type = 1;\n}\n\nmessage DeptInfo {\n  string name = 1;\n  string code = 2;\n  repeated ScoreInfo scores = 3;\n}\n\n//@WrapProperty\nmessage ListScoreInfo {\n  repeated ScoreInfo value = 1;\n}\n\n//@WrapProperty\nmessage ListDeptInfo {\n  repeated DeptInfo value = 1;\n}\n\n//@WrapProperty\nmessage request {\n  repeated DeptInfo value = 1;\n}> but was: <syntax = \"proto3\";\npackage test.model;\n\nmessage ScoreInfo {\n  sint32 type = 1;\n}\n\nmessage DeptInfo {\n  repeated ScoreInfo scores = 1;\n  string code = 2;\n  string name = 3;\n}\n\n//@WrapProperty\nmessage ListScoreInfo {\n  repeated ScoreInfo value = 1;\n}\n\n//@WrapProperty\nmessage ListDeptInfo {\n  repeated DeptInfo value = 1;\n}\n\n//@WrapProperty\nmessage request {\n  repeated DeptInfo value = 1;\n}>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: \nexpected: <syntax = \"proto3\";\npackage test.model;\n\nmessage ScoreInfo {\n  sint32 type = 1;\n}\n\nmessage DeptInfo {\n  string name = 1;\n  string code = 2;\n  repeated ScoreInfo scores = 3;\n}\n\n//@WrapProperty\nmessage ListScoreInfo {\n  repeated ScoreInfo value = 1;\n}\n\n//@WrapProperty\nmessage ListDeptInfo {\n  repeated DeptInfo value = 1;\n}\n\n//@WrapProperty\nmessage request {\n  repeated DeptInfo value = 1;\n}> but was: <syntax = \"proto3\";\npackage test.model;\n\nmessage ScoreInfo {\n  sint32 type = 1;\n}\n\nmessage DeptInfo {\n  repeated ScoreInfo scores = 1;\n  string code = 2;\n  string name = 3;\n}\n\n//@WrapProperty\nmessage ListScoreInfo {\n  repeated ScoreInfo value = 1;\n}\n\n//@WrapProperty\nmessage ListDeptInfo {\n  repeated DeptInfo value = 1;\n}\n\n//@WrapProperty\nmessage request {\n  repeated DeptInfo value = 1;\n}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator.testListMapTypeCorrect(TestSchemaToProtoGenerator.java:261)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <syntax = \"proto3\";\npackage test.model;\n\nmessage ScoreInfo {\n  sint32 type = 1;\n}\n\nmessage DeptInfo {\n  string name = 1;\n  string code = 2;\n  repeated ScoreInfo scores = 3;\n}\n\n//@WrapProperty\nmessage ListScoreInfo {\n  repeated ScoreInfo value = 1;\n}\n\n//@WrapProperty\nmessage ListDeptInfo {\n  repeated DeptInfo value = 1;\n}\n\n//@WrapProperty\nmessage request {\n  repeated DeptInfo value = 1;\n}> but was: <syntax = \"proto3\";\npackage test.model;\n\nmessage ScoreInfo {\n  sint32 type = 1;\n}\n\nmessage DeptInfo {\n  repeated ScoreInfo scores = 1;\n  string code = 2;\n  string name = 3;\n}\n\n//@WrapProperty\nmessage ListScoreInfo {\n  repeated ScoreInfo value = 1;\n}\n\n//@WrapProperty\nmessage ListDeptInfo {\n  repeated DeptInfo value = 1;\n}\n\n//@WrapProperty\nmessage request {\n  repeated DeptInfo value = 1;\n}>\norg.opentest4j.AssertionFailedError: \nexpected: <syntax = \"proto3\";\npackage test.model;\n\nmessage ScoreInfo {\n  sint32 type = 1;\n}\n\nmessage DeptInfo {\n  string name = 1;\n  string code = 2;\n  repeated ScoreInfo scores = 3;\n}\n\n//@WrapProperty\nmessage ListScoreInfo {\n  repeated ScoreInfo value = 1;\n}\n\n//@WrapProperty\nmessage ListDeptInfo {\n  repeated DeptInfo value = 1;\n}\n\n//@WrapProperty\nmessage request {\n  repeated DeptInfo value = 1;\n}> but was: <syntax = \"proto3\";\npackage test.model;\n\nmessage ScoreInfo {\n  sint32 type = 1;\n}\n\nmessage DeptInfo {\n  repeated ScoreInfo scores = 1;\n  string code = 2;\n  string name = 3;\n}\n\n//@WrapProperty\nmessage ListScoreInfo {\n  repeated ScoreInfo value = 1;\n}\n\n//@WrapProperty\nmessage ListDeptInfo {\n  repeated DeptInfo value = 1;\n}\n\n//@WrapProperty\nmessage request {\n  repeated DeptInfo value = 1;\n}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator.testListMapTypeCorrect(TestSchemaToProtoGenerator.java:261)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "ceebbc500806111d64876765ff84b941486813fb64e55d4272ccb66c1287fcc4"
+}

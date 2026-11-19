@@ -1,0 +1,81 @@
+{
+  "container": "cloudstackpluginsnetworkelementsniciranvp2bb182ctestExecuteLiveLockWhenControllerAllowsLoginAndFollowsWithUnauthorizedButDoesNotRediect",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "cloudstackpluginsnetworkelementsniciranvp2bb182ctestExecuteLiveLockWhenControllerAllowsLoginAndFollowsWithUnauthorizedButDoesNotRediect",
+    "project": "https://github.com/apache/cloudstack",
+    "revision": "2bb182c3e1eb18f4e4496152aabcea9e1c71ff96",
+    "test": "com.cloud.network.nicira.NiciraRestClientTest.testExecuteLiveLockWhenControllerAllowsLoginAndFollowsWithUnauthorizedButDoesNotRediect",
+    "label": "ID",
+    "module": "plugins/network-elements/nicira-nvp",
+    "zip": "cloudstack=plugins+network-elements+nicira-nvp=2bb182c",
+    "config_row": 48,
+    "configured_test": "com.cloud.network.nicira.NiciraRestClientTest#testExecuteLiveLockWhenControllerAllowsLoginAndFollowsWithUnauthorizedButDoesNotRediect",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/cloudstack::com.cloud.network.nicira.NiciraRestClientTest.testExecuteLiveLockWhenControllerAllowsLoginAndFollowsWithUnauthorizedButDoesNotRediect",
+    "variant_id": "https://github.com/apache/cloudstack::com.cloud.network.nicira.NiciraRestClientTest.testExecuteLiveLockWhenControllerAllowsLoginAndFollowsWithUnauthorizedButDoesNotRediect::2bb182c3e1eb18f4e4496152aabcea9e1c71ff96::plugins/network-elements/nicira-nvp",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/cloudstackpluginsnetworkelementsniciranvp2bb182ctestExecuteLiveLockWhenControllerAllowsLoginAndFollowsWithUnauthorizedButDoesNotRediect/result/Flaky/.nondex/zqGKGj2P9Ee2DIu2ekC7MB9yPyCjZIGh3sJMUw1+fKM=/TEST-com.cloud.network.nicira.NiciraRestClientTest.xml",
+        "size": 38232,
+        "compressed": 5346,
+        "crc32": "16efe338",
+        "offset": 617006404,
+        "method": 8,
+        "local_path": "data/extracted/f1f67e1c7691d0b5d13e2b71.xml",
+        "sha256": "acef6bab6ad64ac937faa2aadb167328a583d2e7aa2b59ecad47cdead87de8be",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/cloudstackpluginsnetworkelementsniciranvp2bb182ctestExecuteLiveLockWhenControllerAllowsLoginAndFollowsWithUnauthorizedButDoesNotRediect/result/Flaky/rounds-test-results.csv",
+    "size": 21093,
+    "compressed": 5111,
+    "crc32": "10c81b8a",
+    "offset": 616833340,
+    "method": 8,
+    "local_path": "data/extracted/1089f799e3b4838f38312c56.csv",
+    "sha256": "0093c1a80eebce0641dbb6157c2466aec3f8e1c468f1ddc63bde37922c4b96a7",
+    "status": "verified"
+  },
+  "reported_failure_rows": 46,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/cloudstackpluginsnetworkelementsniciranvp2bb182ctestExecuteLiveLockWhenControllerAllowsLoginAndFollowsWithUnauthorizedButDoesNotRediect/result/Flaky/.nondex/zqGKGj2P9Ee2DIu2ekC7MB9yPyCjZIGh3sJMUw1+fKM=/TEST-com.cloud.network.nicira.NiciraRestClientTest.xml",
+    "size": 38232,
+    "compressed": 5346,
+    "crc32": "16efe338",
+    "offset": 617006404,
+    "method": 8,
+    "local_path": "data/extracted/f1f67e1c7691d0b5d13e2b71.xml",
+    "sha256": "acef6bab6ad64ac937faa2aadb167328a583d2e7aa2b59ecad47cdead87de8be",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testExecuteLiveLockWhenControllerAllowsLoginAndFollowsWithUnauthorizedButDoesNotRediect",
+    "outcome": "error",
+    "exception_type": "java.lang.NullPointerException",
+    "message": null,
+    "stack_trace": "java.lang.NullPointerException",
+    "text": "java.lang.NullPointerException\njava.lang.NullPointerException",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "8505680f50b5eed19b4e73c7526db486d42c9fb49f10d99a8d2d2933d17b5ee7"
+}

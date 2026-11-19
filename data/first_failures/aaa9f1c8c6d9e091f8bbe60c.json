@@ -1,0 +1,81 @@
+{
+  "container": "castlejavaa5e9ef9fullBuilderJson6",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "castlejavaa5e9ef9fullBuilderJson6",
+    "project": "https://github.com/castle/castle-java",
+    "revision": "a5e9ef94b46b4ba6accf630c5d50ed53dc86183f",
+    "test": "io.castle.client.model.DeviceUserAgentTest.fullBuilderJson",
+    "label": "ID",
+    "module": ".",
+    "zip": "castle-java=.=a5e9ef9",
+    "config_row": 47,
+    "configured_test": "io.castle.client.model.DeviceUserAgentTest#fullBuilderJson",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/castle/castle-java::io.castle.client.model.DeviceUserAgentTest.fullBuilderJson",
+    "variant_id": "https://github.com/castle/castle-java::io.castle.client.model.DeviceUserAgentTest.fullBuilderJson::a5e9ef94b46b4ba6accf630c5d50ed53dc86183f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/castlejavaa5e9ef9fullBuilderJson6/result/Flaky/.nondex/3iXRtcopLxO6+A9qlZX2DTCTOQ1cRs4wNe3tG1lFA=/TEST-io.castle.client.model.DeviceUserAgentTest.xml",
+        "size": 13305,
+        "compressed": 2754,
+        "crc32": "401b8d33",
+        "offset": 615836766,
+        "method": 8,
+        "local_path": "data/extracted/a7d3c539cfb783cc32753f60.xml",
+        "sha256": "6ad55fe24e6ec605eff29e912bb3403671fa37f6d68ff525a7ba0fe137d8fafe",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/castlejavaa5e9ef9fullBuilderJson6/result/Flaky/rounds-test-results.csv",
+    "size": 17670,
+    "compressed": 4895,
+    "crc32": "91efd459",
+    "offset": 615621592,
+    "method": 8,
+    "local_path": "data/extracted/7833eb9060604befcec7bc24.csv",
+    "sha256": "c7825caab9e340762bba13bcad2b7cca8db3fe571e34790c3b7f88a4417e624c",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/castlejavaa5e9ef9fullBuilderJson6/result/Flaky/.nondex/3iXRtcopLxO6+A9qlZX2DTCTOQ1cRs4wNe3tG1lFA=/TEST-io.castle.client.model.DeviceUserAgentTest.xml",
+    "size": 13305,
+    "compressed": 2754,
+    "crc32": "401b8d33",
+    "offset": 615836766,
+    "method": 8,
+    "local_path": "data/extracted/a7d3c539cfb783cc32753f60.xml",
+    "sha256": "6ad55fe24e6ec605eff29e912bb3403671fa37f6d68ff525a7ba0fe137d8fafe",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "fullBuilderJson",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<\"{\"[raw\":\"Mac OS X\",\"browser\":\"Opera\",\"version\":\"Mac OS X\",\"os\":\"Mac OS X 10.13.6\",\"mobile\":false,\"platform\":\"Mac OS X\",\"device\":\"Unknown\",\"family\":\"Opera\"]}\"> but was:<\"{\"[browser\":\"Opera\",\"device\":\"Unknown\",\"os\":\"Mac OS X 10.13.6\",\"family\":\"Opera\",\"version\":\"Mac OS X\",\"platform\":\"Mac OS X\",\"raw\":\"Mac OS X\",\"mobile\":false]}\">",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<\"{\"[raw\":\"Mac OS X\",\"browser\":\"Opera\",\"version\":\"Mac OS X\",\"os\":\"Mac OS X 10.13.6\",\"mobile\":false,\"platform\":\"Mac OS X\",\"device\":\"Unknown\",\"family\":\"Opera\"]}\"> but was:<\"{\"[browser\":\"Opera\",\"device\":\"Unknown\",\"os\":\"Mac OS X 10.13.6\",\"family\":\"Opera\",\"version\":\"Mac OS X\",\"platform\":\"Mac OS X\",\"raw\":\"Mac OS X\",\"mobile\":false]}\">\n\tat io.castle.client.model.DeviceUserAgentTest.fullBuilderJson(DeviceUserAgentTest.java:41)",
+    "text": "org.junit.ComparisonFailure\nexpected:<\"{\"[raw\":\"Mac OS X\",\"browser\":\"Opera\",\"version\":\"Mac OS X\",\"os\":\"Mac OS X 10.13.6\",\"mobile\":false,\"platform\":\"Mac OS X\",\"device\":\"Unknown\",\"family\":\"Opera\"]}\"> but was:<\"{\"[browser\":\"Opera\",\"device\":\"Unknown\",\"os\":\"Mac OS X 10.13.6\",\"family\":\"Opera\",\"version\":\"Mac OS X\",\"platform\":\"Mac OS X\",\"raw\":\"Mac OS X\",\"mobile\":false]}\">\norg.junit.ComparisonFailure: expected:<\"{\"[raw\":\"Mac OS X\",\"browser\":\"Opera\",\"version\":\"Mac OS X\",\"os\":\"Mac OS X 10.13.6\",\"mobile\":false,\"platform\":\"Mac OS X\",\"device\":\"Unknown\",\"family\":\"Opera\"]}\"> but was:<\"{\"[browser\":\"Opera\",\"device\":\"Unknown\",\"os\":\"Mac OS X 10.13.6\",\"family\":\"Opera\",\"version\":\"Mac OS X\",\"platform\":\"Mac OS X\",\"raw\":\"Mac OS X\",\"mobile\":false]}\">\n\tat io.castle.client.model.DeviceUserAgentTest.fullBuilderJson(DeviceUserAgentTest.java:41)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "ea6e08501853d74a794083d5b91a2d06ce69547a0c4f619283e5dbe93fb3ad1e"
+}

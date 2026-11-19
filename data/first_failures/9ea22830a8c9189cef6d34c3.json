@@ -1,0 +1,81 @@
+{
+  "container": "pairdistributionapp0be329dtestGenerateNewDayPairsOnlyOldDevAvailableForStory",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "pairdistributionapp0be329dtestGenerateNewDayPairsOnlyOldDevAvailableForStory",
+    "project": "https://github.com/sap/pair-distribution-app",
+    "revision": "0be329d2897f6d5fbb634e46e0ef3d283282dc93",
+    "test": "pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsOnlyOldDevAvailableForStory",
+    "label": "ID",
+    "module": ".",
+    "zip": "pair-distribution-app=.=0be329d",
+    "config_row": 758,
+    "configured_test": "pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsOnlyOldDevAvailableForStory",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/sap/pair-distribution-app::pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsOnlyOldDevAvailableForStory",
+    "variant_id": "https://github.com/sap/pair-distribution-app::pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsOnlyOldDevAvailableForStory::0be329d2897f6d5fbb634e46e0ef3d283282dc93::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/pairdistributionapp0be329dtestGenerateNewDayPairsOnlyOldDevAvailableForStory/result/Flaky/.nondex/E7XzXkN7s0qnMqkHpIoZ5H5Ouah4Pjb143NNKxtxq4c=/TEST-pair.distribution.app.helpers.DayPairsHelperTest.xml",
+        "size": 22211,
+        "compressed": 3359,
+        "crc32": "9f53045d",
+        "offset": 2211056389,
+        "method": 8,
+        "local_path": "data/extracted/a090a52739127e40ba0a7010.xml",
+        "sha256": "8e9b113b255df20d746b183953048ca9d6e600b174ac3a7bb81c25ed6bdbfb55",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/pairdistributionapp0be329dtestGenerateNewDayPairsOnlyOldDevAvailableForStory/result/Flaky/rounds-test-results.csv",
+    "size": 18094,
+    "compressed": 5095,
+    "crc32": "8d26ed81",
+    "offset": 2210363293,
+    "method": 8,
+    "local_path": "data/extracted/ce755d7cf83a495c6bf9ca0d.csv",
+    "sha256": "1610e7c55cb033b348c15639e673774020a8a1a3b8de6c198e191a29843e4c28",
+    "status": "verified"
+  },
+  "reported_failure_rows": 47,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/pairdistributionapp0be329dtestGenerateNewDayPairsOnlyOldDevAvailableForStory/result/Flaky/.nondex/E7XzXkN7s0qnMqkHpIoZ5H5Ouah4Pjb143NNKxtxq4c=/TEST-pair.distribution.app.helpers.DayPairsHelperTest.xml",
+    "size": 22211,
+    "compressed": 3359,
+    "crc32": "9f53045d",
+    "offset": 2211056389,
+    "method": 8,
+    "local_path": "data/extracted/a090a52739127e40ba0a7010.xml",
+    "sha256": "8e9b113b255df20d746b183953048ca9d6e600b174ac3a7bb81c25ed6bdbfb55",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testGenerateNewDayPairsOnlyOldDevAvailableForStory",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: iterable containing [\"track1\", \"track2\"]\n     but: item 0: was \"track2\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: iterable containing [\"track1\", \"track2\"]\n     but: item 0: was \"track2\"\n\tat pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsOnlyOldDevAvailableForStory(DayPairsHelperTest.java:212)",
+    "text": "java.lang.AssertionError\nExpected: iterable containing [\"track1\", \"track2\"]\n     but: item 0: was \"track2\"\njava.lang.AssertionError: \n\nExpected: iterable containing [\"track1\", \"track2\"]\n     but: item 0: was \"track2\"\n\tat pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsOnlyOldDevAvailableForStory(DayPairsHelperTest.java:212)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "a10cadc70cca8bf64c0c2e18752087f98566842f0d24704fdc9cc85be7188334"
+}

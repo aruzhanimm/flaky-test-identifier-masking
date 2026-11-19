@@ -1,0 +1,81 @@
+{
+  "container": "Strutscoref46104ftestDynamicAttributesSupport",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "Strutscoref46104ftestDynamicAttributesSupport",
+    "project": "https://github.com/apache/struts",
+    "revision": "f46104fa210a38243b2fe2914c3ea88553c2b313",
+    "test": "org.apache.struts2.views.freemarker.FreemarkerResultMockedTest.testDynamicAttributesSupport",
+    "label": "ID",
+    "module": "core",
+    "zip": "Struts=core=f46104f",
+    "config_row": 677,
+    "configured_test": "org.apache.struts2.views.freemarker.FreemarkerResultMockedTest#testDynamicAttributesSupport",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/struts::org.apache.struts2.views.freemarker.FreemarkerResultMockedTest.testDynamicAttributesSupport",
+    "variant_id": "https://github.com/apache/struts::org.apache.struts2.views.freemarker.FreemarkerResultMockedTest.testDynamicAttributesSupport::f46104fa210a38243b2fe2914c3ea88553c2b313::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/Strutscoref46104ftestDynamicAttributesSupport/result/Flaky/.nondex/VmpUjOx36accnwv9zFKH7+R5aQ5eoGqiiSXb1hIVI=/TEST-org.apache.struts2.views.freemarker.FreemarkerResultMockedTest.xml",
+        "size": 21414,
+        "compressed": 3991,
+        "crc32": "5ac229c2",
+        "offset": 2219809126,
+        "method": 8,
+        "local_path": "data/extracted/572f9a6012bc86af59ec03b9.xml",
+        "sha256": "ad6e894a615a5d2789c253abff0aa033fd7c8a77837d3b0d282e4cb4094ed363",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/Strutscoref46104ftestDynamicAttributesSupport/result/Flaky/rounds-test-results.csv",
+    "size": 19891,
+    "compressed": 5166,
+    "crc32": "f1c2c310",
+    "offset": 2218999268,
+    "method": 8,
+    "local_path": "data/extracted/986c8467f38b1b42f3e02364.csv",
+    "sha256": "8e7a1910c114c2593b790392839f7d89558982e47772993fba448b18df6cb81a",
+    "status": "verified"
+  },
+  "reported_failure_rows": 76,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/Strutscoref46104ftestDynamicAttributesSupport/result/Flaky/.nondex/VmpUjOx36accnwv9zFKH7+R5aQ5eoGqiiSXb1hIVI=/TEST-org.apache.struts2.views.freemarker.FreemarkerResultMockedTest.xml",
+    "size": 21414,
+    "compressed": 3991,
+    "crc32": "5ac229c2",
+    "offset": 2219809126,
+    "method": 8,
+    "local_path": "data/extracted/572f9a6012bc86af59ec03b9.xml",
+    "sha256": "ad6e894a615a5d2789c253abff0aa033fd7c8a77837d3b0d282e4cb4094ed363",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testDynamicAttributesSupport",
+    "outcome": "failure",
+    "exception_type": "junit.framework.ComparisonFailure",
+    "message": "expected:<... value=\"\" id=\"test\" [foo=\"bar\" placeholder=\"input]\"/><input type=\"text...> but was:<... value=\"\" id=\"test\" [placeholder=\"input\" foo=\"bar]\"/><input type=\"text...>",
+    "stack_trace": "junit.framework.ComparisonFailure: expected:<... value=\"\" id=\"test\" [foo=\"bar\" placeholder=\"input]\"/><input type=\"text...> but was:<... value=\"\" id=\"test\" [placeholder=\"input\" foo=\"bar]\"/><input type=\"text...>\n\tat org.apache.struts2.views.freemarker.FreemarkerResultMockedTest.testDynamicAttributesSupport(FreemarkerResultMockedTest.java:124)",
+    "text": "junit.framework.ComparisonFailure\nexpected:<... value=\"\" id=\"test\" [foo=\"bar\" placeholder=\"input]\"/><input type=\"text...> but was:<... value=\"\" id=\"test\" [placeholder=\"input\" foo=\"bar]\"/><input type=\"text...>\njunit.framework.ComparisonFailure: expected:<... value=\"\" id=\"test\" [foo=\"bar\" placeholder=\"input]\"/><input type=\"text...> but was:<... value=\"\" id=\"test\" [placeholder=\"input\" foo=\"bar]\"/><input type=\"text...>\n\tat org.apache.struts2.views.freemarker.FreemarkerResultMockedTest.testDynamicAttributesSupport(FreemarkerResultMockedTest.java:124)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "744059759e030d1c94704f51b9096043992fb254f720502907c1c21732934813"
+}

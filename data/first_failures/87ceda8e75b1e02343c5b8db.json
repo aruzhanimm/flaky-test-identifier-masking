@@ -1,0 +1,81 @@
+{
+  "container": "jsonioa6f9b6btestNoType",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jsonioa6f9b6btestNoType",
+    "project": "https://github.com/jdereg/json-io",
+    "revision": "a6f9b6bbf0bd99cd9fa681d7ffeceb90ea87461e",
+    "test": "com.cedarsoftware.io.NoTypeTest.testNoType",
+    "label": "ID",
+    "module": ".",
+    "zip": "json-io=.=a6f9b6b",
+    "config_row": 358,
+    "configured_test": "com.cedarsoftware.io.NoTypeTest#testNoType",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/jdereg/json-io::com.cedarsoftware.io.NoTypeTest.testNoType",
+    "variant_id": "https://github.com/jdereg/json-io::com.cedarsoftware.io.NoTypeTest.testNoType::a6f9b6bbf0bd99cd9fa681d7ffeceb90ea87461e::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/jsonioa6f9b6btestNoType/result/Flaky/.nondex/t1KPuMQ52Hl45hLRYDteSZ0X4wsl7TN1lnlBn6GRZFM=/TEST-com.cedarsoftware.io.NoTypeTest.xml",
+        "size": 12174,
+        "compressed": 2606,
+        "crc32": "e46fc204",
+        "offset": 286300279,
+        "method": 8,
+        "local_path": "data/extracted/c30b19fbc2a1038a0b71b844.xml",
+        "sha256": "02dcb66fdc8454a3d97e68bb8f99d4e3db36ff7a987463fa374057b169ba50cd",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jsonioa6f9b6btestNoType/result/Flaky/rounds-test-results.csv",
+    "size": 16552,
+    "compressed": 5052,
+    "crc32": "39c5e7b2",
+    "offset": 285807842,
+    "method": 8,
+    "local_path": "data/extracted/b268265856e8da28eba0aaf6.csv",
+    "sha256": "c74dac31f7badd4af5032b35d8c7f1460a649f55f9286f7d32001bd8ecb4c3de",
+    "status": "verified"
+  },
+  "reported_failure_rows": 97,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/jsonioa6f9b6btestNoType/result/Flaky/.nondex/t1KPuMQ52Hl45hLRYDteSZ0X4wsl7TN1lnlBn6GRZFM=/TEST-com.cedarsoftware.io.NoTypeTest.xml",
+    "size": 12174,
+    "compressed": 2606,
+    "crc32": "e46fc204",
+    "offset": 286300279,
+    "method": 8,
+    "local_path": "data/extracted/c30b19fbc2a1038a0b71b844.xml",
+    "sha256": "02dcb66fdc8454a3d97e68bb8f99d4e3db36ff7a987463fa374057b169ba50cd",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testNoType",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <{\"name\":\"Zeus\",\"things\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"],\"namesToAge\":{\"Appollo\":2500,\"Hercules\":2489,\"Poseidon\":\"2502\",\"Aphrodite\":\"2499.0\",\"Zeus\":-84243801600000},\"stuff\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"]}> but was: <{\"things\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"],\"namesToAge\":{\"Appollo\":2500,\"Hercules\":2489,\"Poseidon\":\"2502\",\"Aphrodite\":\"2499.0\",\"Zeus\":-84243801600000},\"name\":\"Zeus\",\"stuff\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"]}>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <{\"name\":\"Zeus\",\"things\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"],\"namesToAge\":{\"Appollo\":2500,\"Hercules\":2489,\"Poseidon\":\"2502\",\"Aphrodite\":\"2499.0\",\"Zeus\":-84243801600000},\"stuff\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"]}> but was: <{\"things\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"],\"namesToAge\":{\"Appollo\":2500,\"Hercules\":2489,\"Poseidon\":\"2502\",\"Aphrodite\":\"2499.0\",\"Zeus\":-84243801600000},\"name\":\"Zeus\",\"stuff\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"]}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)\n\tat com.cedarsoftware.io.NoTypeTest.testNoType(NoTypeTest.java:267)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <{\"name\":\"Zeus\",\"things\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"],\"namesToAge\":{\"Appollo\":2500,\"Hercules\":2489,\"Poseidon\":\"2502\",\"Aphrodite\":\"2499.0\",\"Zeus\":-84243801600000},\"stuff\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"]}> but was: <{\"things\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"],\"namesToAge\":{\"Appollo\":2500,\"Hercules\":2489,\"Poseidon\":\"2502\",\"Aphrodite\":\"2499.0\",\"Zeus\":-84243801600000},\"name\":\"Zeus\",\"stuff\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"]}>\norg.opentest4j.AssertionFailedError: expected: <{\"name\":\"Zeus\",\"things\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"],\"namesToAge\":{\"Appollo\":2500,\"Hercules\":2489,\"Poseidon\":\"2502\",\"Aphrodite\":\"2499.0\",\"Zeus\":-84243801600000},\"stuff\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"]}> but was: <{\"things\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"],\"namesToAge\":{\"Appollo\":2500,\"Hercules\":2489,\"Poseidon\":\"2502\",\"Aphrodite\":\"2499.0\",\"Zeus\":-84243801600000},\"name\":\"Zeus\",\"stuff\":[1,2,\"3\",\"4\",-84243801600000,\"Hello\",\"com.cedarsoftware.io.NoTypeTest$Junk\"]}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)\n\tat com.cedarsoftware.io.NoTypeTest.testNoType(NoTypeTest.java:267)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "598af7c99224880d7e93b3b1f6be587d06a06290ca9eb34b6206c21ec1dc299d"
+}

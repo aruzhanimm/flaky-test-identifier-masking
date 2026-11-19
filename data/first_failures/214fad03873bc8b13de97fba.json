@@ -1,0 +1,81 @@
+{
+  "container": "commonslang182b250nestedElements",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "commonslang182b250nestedElements",
+    "project": "https://github.com/apache/commons-lang",
+    "revision": "182b2506b304463f8f1a9ad765c6db0420fa356f",
+    "test": "org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.nestedElements",
+    "label": "ID",
+    "module": ".",
+    "zip": "commons-lang=.=182b250",
+    "config_row": 557,
+    "configured_test": "org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest#nestedElements",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.nestedElements",
+    "variant_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.nestedElements::182b2506b304463f8f1a9ad765c6db0420fa356f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/commonslang182b250nestedElements/result/Flaky/.nondex/9QAZ0xxqwzJ18oMgQ+kQMo6+TTf1ugXOAjyAfZaNg=/TEST-org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.xml",
+        "size": 10902,
+        "compressed": 2316,
+        "crc32": "dca6c9f3",
+        "offset": 397253091,
+        "method": 8,
+        "local_path": "data/extracted/9177c106ed356fcce80fad0b.xml",
+        "sha256": "e48677d41331cdcbb9c08beb0acb7e2eda36bafaa47a1f7f2a1ebce081157a9e",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/commonslang182b250nestedElements/result/Flaky/rounds-test-results.csv",
+    "size": 20211,
+    "compressed": 4915,
+    "crc32": "f3734d42",
+    "offset": 396765029,
+    "method": 8,
+    "local_path": "data/extracted/11cb2e77c3e8e4864b2ad745.csv",
+    "sha256": "a71acfb189e6df0c4a923fdbaf100279eab07614a99fb6da0be09fae6ce3f90a",
+    "status": "verified"
+  },
+  "reported_failure_rows": 81,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/commonslang182b250nestedElements/result/Flaky/.nondex/9QAZ0xxqwzJ18oMgQ+kQMo6+TTf1ugXOAjyAfZaNg=/TEST-org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.xml",
+    "size": 10902,
+    "compressed": 2316,
+    "crc32": "dca6c9f3",
+    "offset": 397253091,
+    "method": 8,
+    "local_path": "data/extracted/9177c106ed356fcce80fad0b.xml",
+    "sha256": "e48677d41331cdcbb9c08beb0acb7e2eda36bafaa47a1f7f2a1ebce081157a9e",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "nestedElements",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Customer@13eb8acf[\n  name=Douglas Adams,\n  bank=org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Bank@51c8530f[\n    name=ASF Bank\n  ],\n  accounts=<null>\n]> but was: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Customer@13eb8acf[\n  bank=org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Bank@51c8530f[\n    name=ASF Bank\n  ],\n  accounts=<null>,\n  name=Douglas Adams\n]>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: \nexpected: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Customer@13eb8acf[\n  name=Douglas Adams,\n  bank=org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Bank@51c8530f[\n    name=ASF Bank\n  ],\n  accounts=<null>\n]> but was: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Customer@13eb8acf[\n  bank=org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Bank@51c8530f[\n    name=ASF Bank\n  ],\n  accounts=<null>,\n  name=Douglas Adams\n]>\n\tat org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.nestedElements(MultilineRecursiveToStringStyleTest.java:55)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Customer@13eb8acf[\n  name=Douglas Adams,\n  bank=org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Bank@51c8530f[\n    name=ASF Bank\n  ],\n  accounts=<null>\n]> but was: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Customer@13eb8acf[\n  bank=org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Bank@51c8530f[\n    name=ASF Bank\n  ],\n  accounts=<null>,\n  name=Douglas Adams\n]>\norg.opentest4j.AssertionFailedError: \nexpected: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Customer@13eb8acf[\n  name=Douglas Adams,\n  bank=org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Bank@51c8530f[\n    name=ASF Bank\n  ],\n  accounts=<null>\n]> but was: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Customer@13eb8acf[\n  bank=org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Bank@51c8530f[\n    name=ASF Bank\n  ],\n  accounts=<null>,\n  name=Douglas Adams\n]>\n\tat org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.nestedElements(MultilineRecursiveToStringStyleTest.java:55)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "1251a01f2c35f2a7d7c03e8969c45cdda1b3291e00f19635f21735f65be6e29a"
+}

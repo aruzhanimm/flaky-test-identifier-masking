@@ -1,0 +1,81 @@
+{
+  "container": "undertowservletc33cf56testParametersFromOriginalPostRequest",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "undertowservletc33cf56testParametersFromOriginalPostRequest",
+    "project": "https://github.com/undertow-io/undertow",
+    "revision": "c33cf563c53d5d3fbb7742f1de9cd98d095cca0e",
+    "test": "io.undertow.servlet.test.security.form.SaveOriginalPostRequestTestCase.testParametersFromOriginalPostRequest",
+    "label": "ID",
+    "module": "servlet",
+    "zip": "undertow=servlet=c33cf56",
+    "config_row": 601,
+    "configured_test": "io.undertow.servlet.test.security.form.SaveOriginalPostRequestTestCase#testParametersFromOriginalPostRequest",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/undertow-io/undertow::io.undertow.servlet.test.security.form.SaveOriginalPostRequestTestCase.testParametersFromOriginalPostRequest",
+    "variant_id": "https://github.com/undertow-io/undertow::io.undertow.servlet.test.security.form.SaveOriginalPostRequestTestCase.testParametersFromOriginalPostRequest::c33cf563c53d5d3fbb7742f1de9cd98d095cca0e::servlet",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/undertowservletc33cf56testParametersFromOriginalPostRequest/result/Flaky/.nondex/qwjy6JWRxPH6vVZsXUrRRLKAnoP+lWLbY14KC2HMuE=/TEST-io.undertow.servlet.test.security.form.SaveOriginalPostRequestTestCase.xml",
+        "size": 15519,
+        "compressed": 3120,
+        "crc32": "45411257",
+        "offset": 2157971571,
+        "method": 8,
+        "local_path": "data/extracted/c9a668096fcf614494b43024.xml",
+        "sha256": "8e253280a7e38fa0ea92dd431130db0a42071715e04aadca44b76b12672dde4b",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/undertowservletc33cf56testParametersFromOriginalPostRequest/result/Flaky/rounds-test-results.csv",
+    "size": 20896,
+    "compressed": 5060,
+    "crc32": "536006a4",
+    "offset": 2157789255,
+    "method": 8,
+    "local_path": "data/extracted/3a27d296be12922177ecc5bd.csv",
+    "sha256": "259aa0b6cba2ac92f427438fc47ca7bcc5378dd15086a5a7f359f4f277c6befa",
+    "status": "verified"
+  },
+  "reported_failure_rows": 57,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/undertowservletc33cf56testParametersFromOriginalPostRequest/result/Flaky/.nondex/qwjy6JWRxPH6vVZsXUrRRLKAnoP+lWLbY14KC2HMuE=/TEST-io.undertow.servlet.test.security.form.SaveOriginalPostRequestTestCase.xml",
+    "size": 15519,
+    "compressed": 3120,
+    "crc32": "45411257",
+    "offset": 2157971571,
+    "method": 8,
+    "local_path": "data/extracted/c9a668096fcf614494b43024.xml",
+    "sha256": "8e253280a7e38fa0ea92dd431130db0a42071715e04aadca44b76b12672dde4b",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testParametersFromOriginalPostRequest",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat io.undertow.servlet.test.security.form.SaveOriginalPostRequestTestCase.testParametersFromOriginalPostRequest(SaveOriginalPostRequestTestCase.java:125)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat io.undertow.testutils.DefaultServer.runChild(DefaultServer.java:532)\n\tat io.undertow.testutils.DefaultServer.runChild(DefaultServer.java:105)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.undertow.testutils.DefaultServer.run(DefaultServer.java:302)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat io.undertow.servlet.test.security.form.SaveOriginalPostRequestTestCase.testParametersFromOriginalPostRequest(SaveOriginalPostRequestTestCase.java:125)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat io.undertow.testutils.DefaultServer.runChild(DefaultServer.java:532)\n\tat io.undertow.testutils.DefaultServer.runChild(DefaultServer.java:105)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.undertow.testutils.DefaultServer.run(DefaultServer.java:302)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "d3edc4ffd697a1db3e0b0055dd63aa267582e0f84f44c7c5dfc609d5031e5852"
+}

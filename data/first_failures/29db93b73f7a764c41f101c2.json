@@ -1,0 +1,81 @@
+{
+  "container": "oktahookssdkjavahooks8bf25c8deny",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "oktahookssdkjavahooks8bf25c8deny",
+    "project": "https://github.com/okta/okta-hooks-sdk-java",
+    "revision": "8bf25c84b54e788040ae2272e1578bc625e871d4",
+    "test": "com.okta.hooks.sdk.UserRegHooksTest.deny",
+    "label": "ID",
+    "module": "hooks",
+    "zip": "okta-hooks-sdk-java=hooks=8bf25c8",
+    "config_row": 751,
+    "configured_test": "com.okta.hooks.sdk.UserRegHooksTest#deny",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.UserRegHooksTest.deny",
+    "variant_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.UserRegHooksTest.deny::8bf25c84b54e788040ae2272e1578bc625e871d4::hooks",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/oktahookssdkjavahooks8bf25c8deny/result/Flaky/.nondex/6kTCTBqn9u0m1AlyurjojOUE+Up2Njt0sF6XbzDyHy4=/TEST-com.okta.hooks.sdk.UserRegHooksTest.xml",
+        "size": 11377,
+        "compressed": 2419,
+        "crc32": "d46278b9",
+        "offset": 1286206333,
+        "method": 8,
+        "local_path": "data/extracted/375504ecf87b98ebb4086617.xml",
+        "sha256": "10c460cd385488c9c9fda1faddff25487f1ffc29dfb84e69488bd252e4263d71",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8deny/result/Flaky/rounds-test-results.csv",
+    "size": 17227,
+    "compressed": 5142,
+    "crc32": "ffc527bb",
+    "offset": 1281620326,
+    "method": 8,
+    "local_path": "data/extracted/a294ae570b5c44e3860a67a1.csv",
+    "sha256": "8f854e66a5bbc8b898a35ef343c8c45d95882aead625f6bc0daee35b85858d1f",
+    "status": "verified"
+  },
+  "reported_failure_rows": 46,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8deny/result/Flaky/.nondex/6kTCTBqn9u0m1AlyurjojOUE+Up2Njt0sF6XbzDyHy4=/TEST-com.okta.hooks.sdk.UserRegHooksTest.xml",
+    "size": 11377,
+    "compressed": 2419,
+    "crc32": "d46278b9",
+    "offset": 1286206333,
+    "method": 8,
+    "local_path": "data/extracted/375504ecf87b98ebb4086617.xml",
+    "sha256": "10c460cd385488c9c9fda1faddff25487f1ffc29dfb84e69488bd252e4263d71",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "deny",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"registration\\\":\\\"DENY\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"registration\\\":\\\"DENY\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"}]}\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"registration\\\":\\\"DENY\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"registration\\\":\\\"DENY\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"}]}\"\n\tat com.okta.hooks.sdk.UserRegHooksTest.deny(UserRegHooksTest.groovy:120)",
+    "text": "java.lang.AssertionError\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"registration\\\":\\\"DENY\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"registration\\\":\\\"DENY\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"}]}\"\njava.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"registration\\\":\\\"DENY\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"registration\\\":\\\"DENY\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"}]}\"\n\tat com.okta.hooks.sdk.UserRegHooksTest.deny(UserRegHooksTest.groovy:120)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "d9ac3de95f5863c4ec5a611c421ba6d19f4b6974e0a44b352e57b57b14f1dc17"
+}

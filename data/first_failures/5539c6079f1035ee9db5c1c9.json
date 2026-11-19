@@ -1,0 +1,81 @@
+{
+  "container": "immutablesvaluefixtureb21e6bbmodifiableImmutableCollections",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "immutablesvaluefixtureb21e6bbmodifiableImmutableCollections",
+    "project": "https://github.com/immutables/immutables",
+    "revision": "b21e6bbfbb9038100532416c81e8270951c3e03a",
+    "test": "org.immutables.fixture.modifiable.ModifiablesTest.modifiableImmutableCollections",
+    "label": "ID",
+    "module": "value-fixture",
+    "zip": "immutables=value-fixture=b21e6bb",
+    "config_row": 372,
+    "configured_test": "org.immutables.fixture.modifiable.ModifiablesTest#modifiableImmutableCollections",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/immutables/immutables::org.immutables.fixture.modifiable.ModifiablesTest.modifiableImmutableCollections",
+    "variant_id": "https://github.com/immutables/immutables::org.immutables.fixture.modifiable.ModifiablesTest.modifiableImmutableCollections::b21e6bbfbb9038100532416c81e8270951c3e03a::value-fixture",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/immutablesvaluefixtureb21e6bbmodifiableImmutableCollections/result/Flaky/.nondex/epw5a2sikmMgE0l5uBTwcZS73YAC5Ne4LHyU+GjKNps=/TEST-org.immutables.fixture.modifiable.ModifiablesTest.xml",
+        "size": 14764,
+        "compressed": 2660,
+        "crc32": "ea124985",
+        "offset": 306325581,
+        "method": 8,
+        "local_path": "data/extracted/4154b0f990530d24e5aa6c40.xml",
+        "sha256": "60b89e616bf3c906eb5960d66c1c61df9de7805cd1610a2c604622b5567c418a",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/immutablesvaluefixtureb21e6bbmodifiableImmutableCollections/result/Flaky/rounds-test-results.csv",
+    "size": 19460,
+    "compressed": 5047,
+    "crc32": "344bb5dc",
+    "offset": 306106400,
+    "method": 8,
+    "local_path": "data/extracted/815f080a402528e91f750600.csv",
+    "sha256": "9a6fffa77b6c1543c1d0b4166f200e3ae0a2db3e17ae5611722e6483407dcab9",
+    "status": "verified"
+  },
+  "reported_failure_rows": 74,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/immutablesvaluefixtureb21e6bbmodifiableImmutableCollections/result/Flaky/.nondex/epw5a2sikmMgE0l5uBTwcZS73YAC5Ne4LHyU+GjKNps=/TEST-org.immutables.fixture.modifiable.ModifiablesTest.xml",
+    "size": 14764,
+    "compressed": 2660,
+    "crc32": "ea124985",
+    "offset": 306325581,
+    "method": 8,
+    "local_path": "data/extracted/4154b0f990530d24e5aa6c40.xml",
+    "sha256": "60b89e616bf3c906eb5960d66c1c61df9de7805cd1610a2c604622b5567c418a",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "modifiableImmutableCollections",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: iterable containing [<1>, <2>]\n     but: item 0: was <2>",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: iterable containing [<1>, <2>]\n     but: item 0: was <2>\n\tat org.immutables.fixture.modifiable.ModifiablesTest.modifiableImmutableCollections(ModifiablesTest.java:213)",
+    "text": "java.lang.AssertionError\nExpected: iterable containing [<1>, <2>]\n     but: item 0: was <2>\njava.lang.AssertionError: \n\nExpected: iterable containing [<1>, <2>]\n     but: item 0: was <2>\n\tat org.immutables.fixture.modifiable.ModifiablesTest.modifiableImmutableCollections(ModifiablesTest.java:213)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "0ce0692a827dc567ce777a3f3f122bce716bab1bea7495679d52888ee0e47912"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "castlejavaa5e9ef9jsonSerialized5",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "castlejavaa5e9ef9jsonSerialized5",
+    "project": "https://github.com/castle/castle-java",
+    "revision": "a5e9ef94b46b4ba6accf630c5d50ed53dc86183f",
+    "test": "io.castle.client.model.CastleUserTest.jsonSerialized",
+    "label": "ID",
+    "module": ".",
+    "zip": "castle-java=.=a5e9ef9",
+    "config_row": 46,
+    "configured_test": "io.castle.client.model.CastleUserTest#jsonSerialized",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/castle/castle-java::io.castle.client.model.CastleUserTest.jsonSerialized",
+    "variant_id": "https://github.com/castle/castle-java::io.castle.client.model.CastleUserTest.jsonSerialized::a5e9ef94b46b4ba6accf630c5d50ed53dc86183f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/castlejavaa5e9ef9jsonSerialized5/result/Flaky/.nondex/7EUHZlbtxEUT+sMQGKBSrm0Yg7fTRRmzQPNbQZJzIw=/TEST-io.castle.client.model.CastleUserTest.xml",
+        "size": 14031,
+        "compressed": 2889,
+        "crc32": "539bd2e6",
+        "offset": 614543200,
+        "method": 8,
+        "local_path": "data/extracted/3e076d0edde4cfccab6c075e.xml",
+        "sha256": "ab52281d9aa2cd7ad979db17e00fdf2d326c9baebca2f5b84bb38af91f8f3eab",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/castlejavaa5e9ef9jsonSerialized5/result/Flaky/rounds-test-results.csv",
+    "size": 17168,
+    "compressed": 4875,
+    "crc32": "1d25c041",
+    "offset": 614387676,
+    "method": 8,
+    "local_path": "data/extracted/d5a4dc26767de86de908ef45.csv",
+    "sha256": "26b6faf93c9970fc5b26945d1780bf8392698c6135963396b07ec60f9889fd3e",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/castlejavaa5e9ef9jsonSerialized5/result/Flaky/.nondex/7EUHZlbtxEUT+sMQGKBSrm0Yg7fTRRmzQPNbQZJzIw=/TEST-io.castle.client.model.CastleUserTest.xml",
+    "size": 14031,
+    "compressed": 2889,
+    "crc32": "539bd2e6",
+    "offset": 614543200,
+    "method": 8,
+    "local_path": "data/extracted/3e076d0edde4cfccab6c075e.xml",
+    "sha256": "ab52281d9aa2cd7ad979db17e00fdf2d326c9baebca2f5b84bb38af91f8f3eab",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "jsonSerialized",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<\"{\"[id\":\"userId\",\"created_at\":\"2019-03-26T11:31:19.968Z\",\"updated_at\":\"2019-03-26T11:31:19.968Z\",\"last_seen_at\":\"d_model\",\"flagged_at\":\"2019-03-26T11:31:19.968Z\",\"risk\":1.1,\"leaks_count\":4,\"devices_count\":2,\"email\":\"test@example.com\",\"name\":\"name\",\"username\":\"username\",\"phone\":\"12345\",\"custom_attributes\":{}]}\"> but was:<\"{\"[email\":\"test@example.com\",\"devices_count\":2,\"name\":\"name\",\"created_at\":\"2019-03-26T11:31:19.968Z\",\"custom_attributes\":{},\"username\":\"username\",\"flagged_at\":\"2019-03-26T11:31:19.968Z\",\"leaks_count\":4,\"last_seen_at\":\"d_model\",\"updated_at\":\"2019-03-26T11:31:19.968Z\",\"phone\":\"12345\",\"risk\":1.1,\"id\":\"userId\"]}\">",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<\"{\"[id\":\"userId\",\"created_at\":\"2019-03-26T11:31:19.968Z\",\"updated_at\":\"2019-03-26T11:31:19.968Z\",\"last_seen_at\":\"d_model\",\"flagged_at\":\"2019-03-26T11:31:19.968Z\",\"risk\":1.1,\"leaks_count\":4,\"devices_count\":2,\"email\":\"test@example.com\",\"name\":\"name\",\"username\":\"username\",\"phone\":\"12345\",\"custom_attributes\":{}]}\"> but was:<\"{\"[email\":\"test@example.com\",\"devices_count\":2,\"name\":\"name\",\"created_at\":\"2019-03-26T11:31:19.968Z\",\"custom_attributes\":{},\"username\":\"username\",\"flagged_at\":\"2019-03-26T11:31:19.968Z\",\"leaks_count\":4,\"last_seen_at\":\"d_model\",\"updated_at\":\"2019-03-26T11:31:19.968Z\",\"phone\":\"12345\",\"risk\":1.1,\"id\":\"userId\"]}\">\n\tat io.castle.client.model.CastleUserTest.jsonSerialized(CastleUserTest.java:35)",
+    "text": "org.junit.ComparisonFailure\nexpected:<\"{\"[id\":\"userId\",\"created_at\":\"2019-03-26T11:31:19.968Z\",\"updated_at\":\"2019-03-26T11:31:19.968Z\",\"last_seen_at\":\"d_model\",\"flagged_at\":\"2019-03-26T11:31:19.968Z\",\"risk\":1.1,\"leaks_count\":4,\"devices_count\":2,\"email\":\"test@example.com\",\"name\":\"name\",\"username\":\"username\",\"phone\":\"12345\",\"custom_attributes\":{}]}\"> but was:<\"{\"[email\":\"test@example.com\",\"devices_count\":2,\"name\":\"name\",\"created_at\":\"2019-03-26T11:31:19.968Z\",\"custom_attributes\":{},\"username\":\"username\",\"flagged_at\":\"2019-03-26T11:31:19.968Z\",\"leaks_count\":4,\"last_seen_at\":\"d_model\",\"updated_at\":\"2019-03-26T11:31:19.968Z\",\"phone\":\"12345\",\"risk\":1.1,\"id\":\"userId\"]}\">\norg.junit.ComparisonFailure: expected:<\"{\"[id\":\"userId\",\"created_at\":\"2019-03-26T11:31:19.968Z\",\"updated_at\":\"2019-03-26T11:31:19.968Z\",\"last_seen_at\":\"d_model\",\"flagged_at\":\"2019-03-26T11:31:19.968Z\",\"risk\":1.1,\"leaks_count\":4,\"devices_count\":2,\"email\":\"test@example.com\",\"name\":\"name\",\"username\":\"username\",\"phone\":\"12345\",\"custom_attributes\":{}]}\"> but was:<\"{\"[email\":\"test@example.com\",\"devices_count\":2,\"name\":\"name\",\"created_at\":\"2019-03-26T11:31:19.968Z\",\"custom_attributes\":{},\"username\":\"username\",\"flagged_at\":\"2019-03-26T11:31:19.968Z\",\"leaks_count\":4,\"last_seen_at\":\"d_model\",\"updated_at\":\"2019-03-26T11:31:19.968Z\",\"phone\":\"12345\",\"risk\":1.1,\"id\":\"userId\"]}\">\n\tat io.castle.client.model.CastleUserTest.jsonSerialized(CastleUserTest.java:35)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "17c2e1562a2bebcf3f11d1b89fdc3fd349473fb28f2bf0ca343e831f3efd7f8b"
+}

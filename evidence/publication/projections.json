@@ -1,0 +1,60 @@
+{
+  "protocols": [
+    {
+      "public_path": "protocols/primary.md",
+      "historical_protocol_sha256": "8ec89415754eda52199442e2666379196feff404fa747c86a0df14d5d072175d"
+    },
+    {
+      "public_path": "protocols/operations.md",
+      "historical_protocol_sha256": "12011b60c5a368e5f020e2f96fdf93316ed79b672033f8f3af42af0befdcc7ae"
+    },
+    {
+      "public_path": "protocols/models.md",
+      "historical_protocol_sha256": "e10d36ce7823fd86945909a65b7d3f70f81bd88759ee2e1471e7ae68fab28f41"
+    },
+    {
+      "public_path": "protocols/fitting_stages.md",
+      "historical_protocol_sha256": "fa085951eb91006334623b1353c8f45564592eeb985b01cec2c6a633230ea12d"
+    },
+    {
+      "public_path": "protocols/recovered_project.md",
+      "historical_protocol_sha256": "07439c91c436c03c479814648ef9088304142c9fb31d48f790e3b59e68ee6e13"
+    },
+    {
+      "public_path": "protocols/data_extension.md",
+      "historical_protocol_sha256": "128b4ae14aad44ddf82bec3b1940950f46e028aad5d3d4145e590ea937940a4c"
+    }
+  ],
+  "metadata": [
+    {
+      "path": "evidence/extension_v5_models/tfidf_failure_after_fold61.json",
+      "original_sha256": "96fd9f63f1525276e3d602fd905f2baaa61d63443042641ed5f0111c37757afc",
+      "reason": "Machine-specific execution paths or unrelated workspace code inventory omitted; scientific values retained."
+    },
+    {
+      "path": "results/extension_v5_models_2026-11-19_batched/failure.json",
+      "original_sha256": "96fd9f63f1525276e3d602fd905f2baaa61d63443042641ed5f0111c37757afc",
+      "reason": "Machine-specific execution paths or unrelated workspace code inventory omitted; scientific values retained."
+    },
+    {
+      "path": "results/main_v3/metrics.json",
+      "original_sha256": "77cc42c662e6080443a2fdb9588045ed65e8aeb8ee16c0faa02f1a5367a5a554",
+      "reason": "Machine-specific execution paths or unrelated workspace code inventory omitted; scientific values retained."
+    },
+    {
+      "path": "results/main_v3_repeat/metrics.json",
+      "original_sha256": "1c23fcb2a5db25636e87d98eda1b59102c297d67276470ee576f13e0e791ac8e",
+      "reason": "Machine-specific execution paths or unrelated workspace code inventory omitted; scientific values retained."
+    },
+    {
+      "path": "results/main_v3_three_labels/metrics.json",
+      "original_sha256": "19749d1b509edd012a1eecfa6cfc3d839e47c0ee16ff53265093cd8dae4f8350",
+      "reason": "Machine-specific execution paths or unrelated workspace code inventory omitted; scientific values retained."
+    },
+    {
+      "path": "data/log_sample/manifest.json",
+      "original_sha256": "26e5fefcf36def12610d7cb6b5f3dbbc72c3a26dbf5133b7a8add3d6671e5057",
+      "reason": "Reduced manifest retains only the real parser-regression fixtures included in this release; diagnostic bytes are unchanged."
+    }
+  ]
+}

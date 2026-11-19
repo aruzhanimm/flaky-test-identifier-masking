@@ -1,0 +1,81 @@
+{
+  "container": "elideelidecore80439b6writeSingleIncluded",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "elideelidecore80439b6writeSingleIncluded",
+    "project": "https://github.com/yahoo/elide",
+    "revision": "",
+    "test": "com.yahoo.elide.jsonapi.JsonApiTest.writeSingleIncluded",
+    "label": "ID",
+    "module": "elide-core",
+    "zip": "elide=elide-core=80439b6",
+    "config_row": 25,
+    "configured_test": "com.yahoo.elide.jsonapi.JsonApiTest#writeSingleIncluded",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/yahoo/elide::com.yahoo.elide.jsonapi.JsonApiTest.writeSingleIncluded",
+    "variant_id": "https://github.com/yahoo/elide::com.yahoo.elide.jsonapi.JsonApiTest.writeSingleIncluded::::elide-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/elideelidecore80439b6writeSingleIncluded/result/Flaky/.nondex/LSUDd5PK1e1dHl0Ht8+7NThMOlP15wZ2AjhyFtT+iI=/TEST-com.yahoo.elide.jsonapi.JsonApiTest.xml",
+        "size": 24105,
+        "compressed": 3661,
+        "crc32": "45507d30",
+        "offset": 593046647,
+        "method": 8,
+        "local_path": "data/extracted/c6811f48b89f46c21ac83038.xml",
+        "sha256": "7b294c09053f264f0535e662f83277f5809d0b63dbb7e3980372786e86ff43dd",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/elideelidecore80439b6writeSingleIncluded/result/Flaky/rounds-test-results.csv",
+    "size": 17739,
+    "compressed": 5117,
+    "crc32": "64aef7e0",
+    "offset": 592600996,
+    "method": 8,
+    "local_path": "data/extracted/4eaab3e2de9f8e51065895f9.csv",
+    "sha256": "4a6bfa4c421289cec9040b4938e0b2f29e6dfd6285640b63bac49f021dc9e430",
+    "status": "verified"
+  },
+  "reported_failure_rows": 58,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/elideelidecore80439b6writeSingleIncluded/result/Flaky/.nondex/LSUDd5PK1e1dHl0Ht8+7NThMOlP15wZ2AjhyFtT+iI=/TEST-com.yahoo.elide.jsonapi.JsonApiTest.xml",
+    "size": 24105,
+    "compressed": 3661,
+    "crc32": "45507d30",
+    "offset": 593046647,
+    "method": 8,
+    "local_path": "data/extracted/c6811f48b89f46c21ac83038.xml",
+    "sha256": "7b294c09053f264f0535e662f83277f5809d0b63dbb7e3980372786e86ff43dd",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "writeSingleIncluded",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <{\"data\":{\"type\":\"parent\",\"id\":\"123\",\"attributes\":{\"firstName\":\"bob\"},\"relationships\":{\"children\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/children\",\"related\":\"http://localhost:8080/json/parent/123/children\"},\"data\":[{\"type\":\"child\",\"id\":\"2\"}]},\"spouses\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/spouses\",\"related\":\"http://localhost:8080/json/parent/123/spouses\"},\"data\":[]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123\"}},\"included\":[{\"type\":\"child\",\"id\":\"2\",\"attributes\":{\"name\":null},\"relationships\":{\"friends\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/friends\",\"related\":\"http://localhost:8080/json/parent/123/children/2/friends\"},\"data\":[]},\"parents\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/parents\",\"related\":\"http://localhost:8080/json/parent/123/children/2/parents\"},\"data\":[{\"type\":\"parent\",\"id\":\"123\"}]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2\"}}]}> but was: <{\"included\":[{\"type\":\"child\",\"id\":\"2\",\"attributes\":{\"name\":null},\"relationships\":{\"friends\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/friends\",\"related\":\"http://localhost:8080/json/parent/123/children/2/friends\"},\"data\":[]},\"parents\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/parents\",\"related\":\"http://localhost:8080/json/parent/123/children/2/parents\"},\"data\":[{\"type\":\"parent\",\"id\":\"123\"}]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2\"}}],\"data\":{\"type\":\"parent\",\"id\":\"123\",\"attributes\":{\"firstName\":\"bob\"},\"relationships\":{\"children\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/children\",\"related\":\"http://localhost:8080/json/parent/123/children\"},\"data\":[{\"type\":\"child\",\"id\":\"2\"}]},\"spouses\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/spouses\",\"related\":\"http://localhost:8080/json/parent/123/spouses\"},\"data\":[]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123\"}}}>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <{\"data\":{\"type\":\"parent\",\"id\":\"123\",\"attributes\":{\"firstName\":\"bob\"},\"relationships\":{\"children\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/children\",\"related\":\"http://localhost:8080/json/parent/123/children\"},\"data\":[{\"type\":\"child\",\"id\":\"2\"}]},\"spouses\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/spouses\",\"related\":\"http://localhost:8080/json/parent/123/spouses\"},\"data\":[]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123\"}},\"included\":[{\"type\":\"child\",\"id\":\"2\",\"attributes\":{\"name\":null},\"relationships\":{\"friends\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/friends\",\"related\":\"http://localhost:8080/json/parent/123/children/2/friends\"},\"data\":[]},\"parents\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/parents\",\"related\":\"http://localhost:8080/json/parent/123/children/2/parents\"},\"data\":[{\"type\":\"parent\",\"id\":\"123\"}]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2\"}}]}> but was: <{\"included\":[{\"type\":\"child\",\"id\":\"2\",\"attributes\":{\"name\":null},\"relationships\":{\"friends\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/friends\",\"related\":\"http://localhost:8080/json/parent/123/children/2/friends\"},\"data\":[]},\"parents\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/parents\",\"related\":\"http://localhost:8080/json/parent/123/children/2/parents\"},\"data\":[{\"type\":\"parent\",\"id\":\"123\"}]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2\"}}],\"data\":{\"type\":\"parent\",\"id\":\"123\",\"attributes\":{\"firstName\":\"bob\"},\"relationships\":{\"children\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/children\",\"related\":\"http://localhost:8080/json/parent/123/children\"},\"data\":[{\"type\":\"child\",\"id\":\"2\"}]},\"spouses\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/spouses\",\"related\":\"http://localhost:8080/json/parent/123/spouses\"},\"data\":[]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123\"}}}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)\n\tat com.yahoo.elide.jsonapi.JsonApiTest.writeSingleIncluded(JsonApiTest.java:239)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <{\"data\":{\"type\":\"parent\",\"id\":\"123\",\"attributes\":{\"firstName\":\"bob\"},\"relationships\":{\"children\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/children\",\"related\":\"http://localhost:8080/json/parent/123/children\"},\"data\":[{\"type\":\"child\",\"id\":\"2\"}]},\"spouses\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/spouses\",\"related\":\"http://localhost:8080/json/parent/123/spouses\"},\"data\":[]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123\"}},\"included\":[{\"type\":\"child\",\"id\":\"2\",\"attributes\":{\"name\":null},\"relationships\":{\"friends\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/friends\",\"related\":\"http://localhost:8080/json/parent/123/children/2/friends\"},\"data\":[]},\"parents\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/parents\",\"related\":\"http://localhost:8080/json/parent/123/children/2/parents\"},\"data\":[{\"type\":\"parent\",\"id\":\"123\"}]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2\"}}]}> but was: <{\"included\":[{\"type\":\"child\",\"id\":\"2\",\"attributes\":{\"name\":null},\"relationships\":{\"friends\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/friends\",\"related\":\"http://localhost:8080/json/parent/123/children/2/friends\"},\"data\":[]},\"parents\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/parents\",\"related\":\"http://localhost:8080/json/parent/123/children/2/parents\"},\"data\":[{\"type\":\"parent\",\"id\":\"123\"}]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2\"}}],\"data\":{\"type\":\"parent\",\"id\":\"123\",\"attributes\":{\"firstName\":\"bob\"},\"relationships\":{\"children\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/children\",\"related\":\"http://localhost:8080/json/parent/123/children\"},\"data\":[{\"type\":\"child\",\"id\":\"2\"}]},\"spouses\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/spouses\",\"related\":\"http://localhost:8080/json/parent/123/spouses\"},\"data\":[]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123\"}}}>\norg.opentest4j.AssertionFailedError: expected: <{\"data\":{\"type\":\"parent\",\"id\":\"123\",\"attributes\":{\"firstName\":\"bob\"},\"relationships\":{\"children\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/children\",\"related\":\"http://localhost:8080/json/parent/123/children\"},\"data\":[{\"type\":\"child\",\"id\":\"2\"}]},\"spouses\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/spouses\",\"related\":\"http://localhost:8080/json/parent/123/spouses\"},\"data\":[]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123\"}},\"included\":[{\"type\":\"child\",\"id\":\"2\",\"attributes\":{\"name\":null},\"relationships\":{\"friends\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/friends\",\"related\":\"http://localhost:8080/json/parent/123/children/2/friends\"},\"data\":[]},\"parents\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/parents\",\"related\":\"http://localhost:8080/json/parent/123/children/2/parents\"},\"data\":[{\"type\":\"parent\",\"id\":\"123\"}]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2\"}}]}> but was: <{\"included\":[{\"type\":\"child\",\"id\":\"2\",\"attributes\":{\"name\":null},\"relationships\":{\"friends\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/friends\",\"related\":\"http://localhost:8080/json/parent/123/children/2/friends\"},\"data\":[]},\"parents\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2/relationships/parents\",\"related\":\"http://localhost:8080/json/parent/123/children/2/parents\"},\"data\":[{\"type\":\"parent\",\"id\":\"123\"}]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123/children/2\"}}],\"data\":{\"type\":\"parent\",\"id\":\"123\",\"attributes\":{\"firstName\":\"bob\"},\"relationships\":{\"children\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/children\",\"related\":\"http://localhost:8080/json/parent/123/children\"},\"data\":[{\"type\":\"child\",\"id\":\"2\"}]},\"spouses\":{\"links\":{\"self\":\"http://localhost:8080/json/parent/123/relationships/spouses\",\"related\":\"http://localhost:8080/json/parent/123/spouses\"},\"data\":[]}},\"links\":{\"self\":\"http://localhost:8080/json/parent/123\"}}}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)\n\tat com.yahoo.elide.jsonapi.JsonApiTest.writeSingleIncluded(JsonApiTest.java:239)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "1fc115bf13da3d017c73fa33d43caf9524d8a92f61a4ea49aca2e9a9062e695a"
+}

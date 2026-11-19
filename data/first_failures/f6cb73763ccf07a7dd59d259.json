@@ -1,0 +1,81 @@
+{
+  "container": "dubbodubbocommon83c466etestGetMetaAnnotations",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "dubbodubbocommon83c466etestGetMetaAnnotations",
+    "project": "https://github.com/apache/dubbo",
+    "revision": "83c466e1dbbb2f72aa526a551a5fbe9f04c7a3e6",
+    "test": "org.apache.dubbo.common.utils.AnnotationUtilsTest.testGetMetaAnnotations",
+    "label": "ID",
+    "module": "dubbo-common",
+    "zip": "dubbo=dubbo-common=83c466e",
+    "config_row": 21,
+    "configured_test": "org.apache.dubbo.common.utils.AnnotationUtilsTest#testGetMetaAnnotations",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/dubbo::org.apache.dubbo.common.utils.AnnotationUtilsTest.testGetMetaAnnotations",
+    "variant_id": "https://github.com/apache/dubbo::org.apache.dubbo.common.utils.AnnotationUtilsTest.testGetMetaAnnotations::83c466e1dbbb2f72aa526a551a5fbe9f04c7a3e6::dubbo-common",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 6,
+      "iteration": 5,
+      "member": {
+        "path": "result/dubbodubbocommon83c466etestGetMetaAnnotations/result/Flaky/.nondex/ymXnFxdCzbriFprnDYAFpTlhsLgroCMvxTZlim3OlY=/TEST-org.apache.dubbo.common.utils.AnnotationUtilsTest.xml",
+        "size": 11239,
+        "compressed": 2337,
+        "crc32": "22729cb7",
+        "offset": 587207750,
+        "method": 8,
+        "local_path": "data/extracted/3d6655f91a6832d0ec40ccc1.xml",
+        "sha256": "3f0f8346116eb1b51550a0abb58e071b15aac6c74296ad9991c69a40634f21d5",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/dubbodubbocommon83c466etestGetMetaAnnotations/result/Flaky/rounds-test-results.csv",
+    "size": 19304,
+    "compressed": 4932,
+    "crc32": "99a9233e",
+    "offset": 586811983,
+    "method": 8,
+    "local_path": "data/extracted/bef8becd2c38e4cfa743e1cf.csv",
+    "sha256": "8694e6a5ff3801e778f1b18560b67b63bc4088ad37ab16be4e962eec77dad2db",
+    "status": "verified"
+  },
+  "reported_failure_rows": 40,
+  "iteration": 5,
+  "source_row": 6,
+  "diagnostic_member": {
+    "path": "result/dubbodubbocommon83c466etestGetMetaAnnotations/result/Flaky/.nondex/ymXnFxdCzbriFprnDYAFpTlhsLgroCMvxTZlim3OlY=/TEST-org.apache.dubbo.common.utils.AnnotationUtilsTest.xml",
+    "size": 11239,
+    "compressed": 2337,
+    "crc32": "22729cb7",
+    "offset": 587207750,
+    "method": 8,
+    "local_path": "data/extracted/3d6655f91a6832d0ec40ccc1.xml",
+    "sha256": "3f0f8346116eb1b51550a0abb58e071b15aac6c74296ad9991c69a40634f21d5",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testGetMetaAnnotations",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": null,
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <java.lang.annotation.Inherited> but was: <java.lang.Deprecated>\n\tat org.apache.dubbo.common.utils.AnnotationUtilsTest.testGetMetaAnnotations(AnnotationUtilsTest.java:177)",
+    "text": "org.opentest4j.AssertionFailedError\norg.opentest4j.AssertionFailedError: expected: <java.lang.annotation.Inherited> but was: <java.lang.Deprecated>\n\tat org.apache.dubbo.common.utils.AnnotationUtilsTest.testGetMetaAnnotations(AnnotationUtilsTest.java:177)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "e58d046902c46e1df2150f40daf64bcb0d10d9260dc87846fadecf0943fc38ff"
+}

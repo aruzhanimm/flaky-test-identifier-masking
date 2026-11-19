@@ -1,0 +1,81 @@
+{
+  "container": "nifinifinarbundlesnifihbasebundlenifihbaseprocessors0ade040testFetchToAttributesWithBase64Values",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "nifinifinarbundlesnifihbasebundlenifihbaseprocessors0ade040testFetchToAttributesWithBase64Values",
+    "project": "https://github.com/apache/nifi",
+    "revision": "0ade040b76f232ecd394b1ed93c8d2c9134768bb",
+    "test": "org.apache.nifi.hbase.TestFetchHBaseRow.testFetchToAttributesWithBase64Values",
+    "label": "ID",
+    "module": "nifi-nar-bundles/nifi-hbase-bundle/nifi-hbase-processors",
+    "zip": "nifi=nifi-nar-bundles+nifi-hbase-bundle+nifi-hbase-processors=0ade040",
+    "config_row": 772,
+    "configured_test": "org.apache.nifi.hbase.TestFetchHBaseRow#testFetchToAttributesWithBase64Values",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/nifi::org.apache.nifi.hbase.TestFetchHBaseRow.testFetchToAttributesWithBase64Values",
+    "variant_id": "https://github.com/apache/nifi::org.apache.nifi.hbase.TestFetchHBaseRow.testFetchToAttributesWithBase64Values::0ade040b76f232ecd394b1ed93c8d2c9134768bb::nifi-nar-bundles/nifi-hbase-bundle/nifi-hbase-processors",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 6,
+      "iteration": 5,
+      "member": {
+        "path": "result/nifinifinarbundlesnifihbasebundlenifihbaseprocessors0ade040testFetchToAttributesWithBase64Values/result/Flaky/.nondex/iZADjWzwRvBYxJd6mSTprbQSdnePXXaMJtRdoTh5Mns=/TEST-org.apache.nifi.hbase.TestFetchHBaseRow.xml",
+        "size": 28624,
+        "compressed": 3876,
+        "crc32": "2759fd6d",
+        "offset": 1196952869,
+        "method": 8,
+        "local_path": "data/extracted/902b1a46894286f28a2e5045.xml",
+        "sha256": "296e3a2fd2478c5ca3c584b72c135ca06aab8c1b4853316732aeafb36adf3536",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/nifinifinarbundlesnifihbasebundlenifihbaseprocessors0ade040testFetchToAttributesWithBase64Values/result/Flaky/rounds-test-results.csv",
+    "size": 22730,
+    "compressed": 5130,
+    "crc32": "e389debd",
+    "offset": 1196623950,
+    "method": 8,
+    "local_path": "data/extracted/a938879ffec9584a3f71a7c5.csv",
+    "sha256": "451e395d713044da8ac31aba50fa33b1c6b7622cf72ab871960f7330170b2bf6",
+    "status": "verified"
+  },
+  "reported_failure_rows": 53,
+  "iteration": 5,
+  "source_row": 6,
+  "diagnostic_member": {
+    "path": "result/nifinifinarbundlesnifihbasebundlenifihbaseprocessors0ade040testFetchToAttributesWithBase64Values/result/Flaky/.nondex/iZADjWzwRvBYxJd6mSTprbQSdnePXXaMJtRdoTh5Mns=/TEST-org.apache.nifi.hbase.TestFetchHBaseRow.xml",
+    "size": 28624,
+    "compressed": 3876,
+    "crc32": "2759fd6d",
+    "offset": 1196952869,
+    "method": 8,
+    "local_path": "data/extracted/902b1a46894286f28a2e5045.xml",
+    "sha256": "296e3a2fd2478c5ca3c584b72c135ca06aab8c1b4853316732aeafb36adf3536",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testFetchToAttributesWithBase64Values",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": null,
+    "stack_trace": "org.opentest4j.AssertionFailedError: Expected attribute hbase.row to be {\"row\":\"cm93MQ==\", \"cells\": [{\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ex\",\"val\":\"dmFsMQ==\",\"ts\":123456789}, {\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ey\",\"val\":\"dmFsMg==\",\"ts\":123456789}]} but instead it was {\"row\":\"cm93MQ==\", \"cells\": [{\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ey\",\"val\":\"dmFsMg==\",\"ts\":123456789}, {\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ex\",\"val\":\"dmFsMQ==\",\"ts\":123456789}]} ==> expected: <{\"row\":\"cm93MQ==\", \"cells\": [{\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ex\",\"val\":\"dmFsMQ==\",\"ts\":123456789}, {\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ey\",\"val\":\"dmFsMg==\",\"ts\":123456789}]}> but was: <{\"row\":\"cm93MQ==\", \"cells\": [{\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ey\",\"val\":\"dmFsMg==\",\"ts\":123456789}, {\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ex\",\"val\":\"dmFsMQ==\",\"ts\":123456789}]}>\n\tat org.apache.nifi.hbase.TestFetchHBaseRow.testFetchToAttributesWithBase64Values(TestFetchHBaseRow.java:215)",
+    "text": "org.opentest4j.AssertionFailedError\norg.opentest4j.AssertionFailedError: Expected attribute hbase.row to be {\"row\":\"cm93MQ==\", \"cells\": [{\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ex\",\"val\":\"dmFsMQ==\",\"ts\":123456789}, {\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ey\",\"val\":\"dmFsMg==\",\"ts\":123456789}]} but instead it was {\"row\":\"cm93MQ==\", \"cells\": [{\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ey\",\"val\":\"dmFsMg==\",\"ts\":123456789}, {\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ex\",\"val\":\"dmFsMQ==\",\"ts\":123456789}]} ==> expected: <{\"row\":\"cm93MQ==\", \"cells\": [{\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ex\",\"val\":\"dmFsMQ==\",\"ts\":123456789}, {\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ey\",\"val\":\"dmFsMg==\",\"ts\":123456789}]}> but was: <{\"row\":\"cm93MQ==\", \"cells\": [{\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ey\",\"val\":\"dmFsMg==\",\"ts\":123456789}, {\"fam\":\"bmlmaQ==\",\"qual\":\"Y3Ex\",\"val\":\"dmFsMQ==\",\"ts\":123456789}]}>\n\tat org.apache.nifi.hbase.TestFetchHBaseRow.testFetchToAttributesWithBase64Values(TestFetchHBaseRow.java:215)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "1a15a7795e0f105cf30c72eb1ab149df095c7b04c7f47f49ef6ea95b9a659e20"
+}

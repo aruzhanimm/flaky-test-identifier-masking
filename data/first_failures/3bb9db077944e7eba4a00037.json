@@ -1,0 +1,37 @@
+{
+  "container": "HDFS-15904",
+  "metadata": {
+    "source": "JIRA",
+    "container": "HDFS-15904",
+    "project": "https://github.com/apache/hadoop",
+    "revision": "cd44e917d0b331a2d1e1fa63fdd498eac01ae323",
+    "test": "org.apache.hadoop.hdfs.server.balancer.TestBalancer.testBalancerWithSortTopNodes",
+    "label": "UNCLASSIFIED",
+    "module": "hadoop-hdfs-project/hadoop-hdfs",
+    "zip": "HDFS-15904",
+    "config_row": 1090,
+    "configured_test": "org.apache.hadoop.hdfs.server.balancer.TestBalancer#testBalancerWithSortTopNodes",
+    "configured_type": "Unclassified",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hadoop::org.apache.hadoop.hdfs.server.balancer.TestBalancer.testBalancerWithSortTopNodes",
+    "variant_id": "https://github.com/apache/hadoop::org.apache.hadoop.hdfs.server.balancer.TestBalancer.testBalancerWithSortTopNodes::cd44e917d0b331a2d1e1fa63fdd498eac01ae323::hadoop-hdfs-project/hadoop-hdfs",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "unclassified",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/HDFS-15904/result/Flaky/rounds-test-results.csv",
+    "size": 21457,
+    "compressed": 821,
+    "crc32": "0e2a8d32",
+    "offset": 2041954458,
+    "method": 8,
+    "local_path": "data/extracted/8449a5a4d68b262d23ec81a9.csv",
+    "sha256": "64cd03401078ed3800ed777fad2d5dab8ac1b52b78bc9d1fe71e39725c2ef9d5",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10
+}

@@ -1,0 +1,3693 @@
+[
+  {
+    "fold": 0,
+    "project_group": "1001284",
+    "repository": "https://github.com/pholser/junit-quickcheck",
+    "support": 122,
+    "supported_labels": [
+      "ID",
+      "NIO"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20589,
+      "masked": 16607,
+      "common": 16208,
+      "union": 20988,
+      "jaccard": 0.7722508099866591,
+      "common_idf_changed": 250,
+      "common_idf_mean_absolute_change": 0.009173739486484396,
+      "common_idf_max_absolute_change": 5.153291594497778
+    }
+  },
+  {
+    "fold": 1,
+    "project_group": "107434177",
+    "repository": "https://github.com/apache/sling-org-apache-sling-servlets-get",
+    "support": 2,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21142,
+      "masked": 16835,
+      "common": 16428,
+      "union": 21549,
+      "jaccard": 0.7623555617430043,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.00989575462556984,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 2,
+    "project_group": "107437722",
+    "repository": "https://github.com/adobe/asset-share-commons",
+    "support": 4,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21128,
+      "masked": 16837,
+      "common": 16430,
+      "union": 21535,
+      "jaccard": 0.762944044578593,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009896043318726289,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 3,
+    "project_group": "10981994",
+    "repository": "https://github.com/openfeign/feign",
+    "support": 12,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 0.9565217391304348,
+      "OOM": 0.9565217391304348,
+      "OMO": 0.9565217391304348,
+      "OMM": 0.9565217391304348,
+      "MOO": 0.9565217391304348,
+      "MOM": 0.9565217391304348,
+      "MMO": 0.9565217391304348,
+      "MMM": 0.9565217391304348
+    },
+    "vocabulary_overlap": {
+      "original": 21092,
+      "masked": 16818,
+      "common": 16411,
+      "union": 21499,
+      "jaccard": 0.7633378296664961,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009934451830682502,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 4,
+    "project_group": "110129066",
+    "repository": "https://github.com/oracle/weblogic-monitoring-exporter",
+    "support": 5,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21033,
+      "masked": 16743,
+      "common": 16336,
+      "union": 21440,
+      "jaccard": 0.7619402985074627,
+      "common_idf_changed": 256,
+      "common_idf_mean_absolute_change": 0.00990307122404259,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 5,
+    "project_group": "11233996",
+    "repository": "https://github.com/immutables/immutables",
+    "support": 5,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21128,
+      "masked": 16837,
+      "common": 16430,
+      "union": 21535,
+      "jaccard": 0.762944044578593,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009927279258584429,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 6,
+    "project_group": "113678133",
+    "repository": "https://github.com/apache/maven-dependency-plugin",
+    "support": 3,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21103,
+      "masked": 16801,
+      "common": 16398,
+      "union": 21506,
+      "jaccard": 0.7624848879382498,
+      "common_idf_changed": 254,
+      "common_idf_mean_absolute_change": 0.009770150846551454,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 7,
+    "project_group": "116714930",
+    "repository": "https://github.com/cerner/common-kafka",
+    "support": 4,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21131,
+      "masked": 16834,
+      "common": 16427,
+      "union": 21538,
+      "jaccard": 0.762698486396137,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009924225756150736,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 8,
+    "project_group": "117292444",
+    "repository": "https://github.com/eclipse-ee4j/tyrus",
+    "support": 2,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21160,
+      "masked": 16853,
+      "common": 16446,
+      "union": 21567,
+      "jaccard": 0.7625539017944081,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009876343250472193,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 9,
+    "project_group": "1187853",
+    "repository": "https://github.com/stleary/json-java",
+    "support": 7,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 19052,
+      "masked": 14760,
+      "common": 14359,
+      "union": 19453,
+      "jaccard": 0.7381380763892459,
+      "common_idf_changed": 255,
+      "common_idf_mean_absolute_change": 0.011292373441016298,
+      "common_idf_max_absolute_change": 5.156177599386914
+    }
+  },
+  {
+    "fold": 10,
+    "project_group": "1194243",
+    "repository": "https://github.com/smooks/smooks",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21081,
+      "masked": 16764,
+      "common": 16362,
+      "union": 21483,
+      "jaccard": 0.7616254713028907,
+      "common_idf_changed": 256,
+      "common_idf_mean_absolute_change": 0.009845948192631945,
+      "common_idf_max_absolute_change": 5.156177599386914
+    }
+  },
+  {
+    "fold": 11,
+    "project_group": "11981144",
+    "repository": "https://github.com/languagetool-org/languagetool",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21116,
+      "masked": 16804,
+      "common": 16397,
+      "union": 21523,
+      "jaccard": 0.7618361752543791,
+      "common_idf_changed": 256,
+      "common_idf_mean_absolute_change": 0.009937709640109748,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 12,
+    "project_group": "12594924",
+    "repository": "https://github.com/jdereg/json-io",
+    "support": 7,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21025,
+      "masked": 16744,
+      "common": 16344,
+      "union": 21425,
+      "jaccard": 0.7628471411901984,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009942084740714431,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 13,
+    "project_group": "129954828",
+    "repository": "https://github.com/eclipse-ee4j/jersey",
+    "support": 4,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21065,
+      "masked": 16776,
+      "common": 16371,
+      "union": 21470,
+      "jaccard": 0.7625058220773172,
+      "common_idf_changed": 255,
+      "common_idf_mean_absolute_change": 0.009797994393522181,
+      "common_idf_max_absolute_change": 5.153291594497778
+    }
+  },
+  {
+    "fold": 14,
+    "project_group": "130603282",
+    "repository": "https://github.com/apache/streampipes",
+    "support": 2,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21082,
+      "masked": 16776,
+      "common": 16369,
+      "union": 21489,
+      "jaccard": 0.7617385639164224,
+      "common_idf_changed": 256,
+      "common_idf_mean_absolute_change": 0.009905276440015324,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 15,
+    "project_group": "135270285",
+    "repository": "https://github.com/vipshop/vjtools",
+    "support": 3,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 0.0,
+      "OOM": 0.0,
+      "OMO": 0.0,
+      "OMM": 0.0,
+      "MOO": 0.0,
+      "MOM": 0.0,
+      "MMO": 0.0,
+      "MMM": 0.0
+    },
+    "vocabulary_overlap": {
+      "original": 21137,
+      "masked": 16833,
+      "common": 16426,
+      "union": 21544,
+      "jaccard": 0.7624396583735611,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009929905527568384,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 16,
+    "project_group": "137451403",
+    "repository": "https://github.com/alibaba/nacos",
+    "support": 11,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21005,
+      "masked": 16748,
+      "common": 16341,
+      "union": 21412,
+      "jaccard": 0.7631701849430226,
+      "common_idf_changed": 255,
+      "common_idf_mean_absolute_change": 0.010000103575628347,
+      "common_idf_max_absolute_change": 5.153291594497779
+    }
+  },
+  {
+    "fold": 17,
+    "project_group": "1381673",
+    "repository": "https://github.com/apache/incubator-kie",
+    "support": 2,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21088,
+      "masked": 16777,
+      "common": 16372,
+      "union": 21493,
+      "jaccard": 0.7617363792862792,
+      "common_idf_changed": 254,
+      "common_idf_mean_absolute_change": 0.00985767958682049,
+      "common_idf_max_absolute_change": 5.156177599386914
+    }
+  },
+  {
+    "fold": 18,
+    "project_group": "139914932",
+    "repository": "https://github.com/quarkusio/quarkus",
+    "support": 6,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20997,
+      "masked": 16707,
+      "common": 16303,
+      "union": 21401,
+      "jaccard": 0.7617868323910097,
+      "common_idf_changed": 249,
+      "common_idf_mean_absolute_change": 0.009603840772578856,
+      "common_idf_max_absolute_change": 3.6888794541139363
+    }
+  },
+  {
+    "fold": 19,
+    "project_group": "140543886",
+    "repository": "https://github.com/apache/shenyu",
+    "support": 8,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20814,
+      "masked": 16537,
+      "common": 16130,
+      "union": 21221,
+      "jaccard": 0.7600961311908015,
+      "common_idf_changed": 255,
+      "common_idf_mean_absolute_change": 0.010016599359633659,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 20,
+    "project_group": "143156558",
+    "repository": "https://github.com/sap-archive/pair-distribution-app",
+    "support": 7,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21135,
+      "masked": 16843,
+      "common": 16436,
+      "union": 21542,
+      "jaccard": 0.7629746541639588,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009882255605682977,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 21,
+    "project_group": "144999365",
+    "repository": "https://github.com/apache/hugegraph-toolchain",
+    "support": 3,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21118,
+      "masked": 16812,
+      "common": 16405,
+      "union": 21525,
+      "jaccard": 0.762137049941928,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009941588147015101,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 22,
+    "project_group": "14696091",
+    "repository": "https://github.com/raphw/byte-buddy",
+    "support": 3,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21150,
+      "masked": 16840,
+      "common": 16433,
+      "union": 21557,
+      "jaccard": 0.7623045878368975,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009912022404846567,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 23,
+    "project_group": "152415097",
+    "repository": "https://github.com/ericsson/ecchronos",
+    "support": 4,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21088,
+      "masked": 16784,
+      "common": 16382,
+      "union": 21490,
+      "jaccard": 0.762308050255933,
+      "common_idf_changed": 249,
+      "common_idf_mean_absolute_change": 0.0097283020305165,
+      "common_idf_max_absolute_change": 5.153291594497778
+    }
+  },
+  {
+    "fold": 24,
+    "project_group": "15928650",
+    "repository": "https://github.com/apache/struts",
+    "support": 2,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21123,
+      "masked": 16820,
+      "common": 16413,
+      "union": 21530,
+      "jaccard": 0.7623316302833256,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009921916594347718,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 25,
+    "project_group": "160999",
+    "repository": "https://github.com/apache/zookeeper",
+    "support": 1,
+    "supported_labels": [
+      "TD"
+    ],
+    "scores": {
+      "OOO": 0.0,
+      "OOM": 0.0,
+      "OMO": 0.0,
+      "OMM": 0.0,
+      "MOO": 0.0,
+      "MOM": 0.0,
+      "MMO": 0.0,
+      "MMM": 0.0
+    },
+    "vocabulary_overlap": {
+      "original": 21166,
+      "masked": 16852,
+      "common": 16445,
+      "union": 21573,
+      "jaccard": 0.7622954619199925,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009900324126625998,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 26,
+    "project_group": "16144428",
+    "repository": "https://github.com/wikidata-toolkit/wikidata-toolkit",
+    "support": 2,
+    "supported_labels": [
+      "OD"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21121,
+      "masked": 16810,
+      "common": 16406,
+      "union": 21525,
+      "jaccard": 0.7621835075493613,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009947428832206034,
+      "common_idf_max_absolute_change": 5.153291594497778
+    }
+  },
+  {
+    "fold": 27,
+    "project_group": "161665401",
+    "repository": "https://github.com/okta/okta-hooks-sdk-java",
+    "support": 19,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20813,
+      "masked": 16556,
+      "common": 16156,
+      "union": 21213,
+      "jaccard": 0.7616084476500259,
+      "common_idf_changed": 252,
+      "common_idf_mean_absolute_change": 0.009842249372214604,
+      "common_idf_max_absolute_change": 5.1089711948171175
+    }
+  },
+  {
+    "fold": 28,
+    "project_group": "163387337",
+    "repository": "https://github.com/apache/incubator-seata",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 0.0,
+      "OMO": 0.0,
+      "OMM": 0.0,
+      "MOO": 1.0,
+      "MOM": 0.0,
+      "MMO": 0.0,
+      "MMM": 0.0
+    },
+    "vocabulary_overlap": {
+      "original": 21168,
+      "masked": 16854,
+      "common": 16447,
+      "union": 21575,
+      "jaccard": 0.7623174971031286,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009914946931681495,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 29,
+    "project_group": "163492945",
+    "repository": "https://github.com/mirromutth/r2dbc-mysql",
+    "support": 2,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21133,
+      "masked": 16828,
+      "common": 16421,
+      "union": 21540,
+      "jaccard": 0.7623491179201486,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009902392581648487,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 30,
+    "project_group": "17359057",
+    "repository": "https://github.com/apache/curator",
+    "support": 1,
+    "supported_labels": [
+      "TD"
+    ],
+    "scores": {
+      "OOO": 0.0,
+      "OOM": 0.0,
+      "OMO": 0.0,
+      "OMM": 0.0,
+      "MOO": 0.0,
+      "MOM": 0.0,
+      "MMO": 0.0,
+      "MMM": 0.0
+    },
+    "vocabulary_overlap": {
+      "original": 21172,
+      "masked": 16850,
+      "common": 16443,
+      "union": 21579,
+      "jaccard": 0.7619908244126233,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009920224458161266,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 31,
+    "project_group": "17575379",
+    "repository": "https://github.com/erudika/para",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21176,
+      "masked": 16854,
+      "common": 16447,
+      "union": 21583,
+      "jaccard": 0.7620349349024695,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009917788560866376,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 32,
+    "project_group": "180537027",
+    "repository": "https://github.com/sap-archive/scimono",
+    "support": 8,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21093,
+      "masked": 16805,
+      "common": 16398,
+      "union": 21500,
+      "jaccard": 0.7626976744186047,
+      "common_idf_changed": 256,
+      "common_idf_mean_absolute_change": 0.009937165827048122,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 33,
+    "project_group": "18259368",
+    "repository": "https://github.com/javadev/underscore-java",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21165,
+      "masked": 16851,
+      "common": 16444,
+      "union": 21572,
+      "jaccard": 0.7622844427962173,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009910008042406247,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 34,
+    "project_group": "18723836",
+    "repository": "https://github.com/chinabugotech/hutool",
+    "support": 8,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21062,
+      "masked": 16783,
+      "common": 16384,
+      "union": 21461,
+      "jaccard": 0.7634313405712688,
+      "common_idf_changed": 256,
+      "common_idf_mean_absolute_change": 0.009817848579535264,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 35,
+    "project_group": "198266782",
+    "repository": "https://github.com/streamx-co/fluentjpa",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21101,
+      "masked": 16789,
+      "common": 16382,
+      "union": 21508,
+      "jaccard": 0.7616700762506974,
+      "common_idf_changed": 256,
+      "common_idf_mean_absolute_change": 0.00993774571729737,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 36,
+    "project_group": "19961085",
+    "repository": "https://github.com/apache/pinot",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21126,
+      "masked": 16814,
+      "common": 16407,
+      "union": 21533,
+      "jaccard": 0.7619467793619096,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009916813592308138,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 37,
+    "project_group": "20089857",
+    "repository": "https://github.com/apache/hbase",
+    "support": 2,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21093,
+      "masked": 16787,
+      "common": 16381,
+      "union": 21499,
+      "jaccard": 0.7619424159263222,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.0099673158397894,
+      "common_idf_max_absolute_change": 5.153291594497778
+    }
+  },
+  {
+    "fold": 38,
+    "project_group": "2019791",
+    "repository": "https://github.com/liquibase/liquibase",
+    "support": 4,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21114,
+      "masked": 16816,
+      "common": 16409,
+      "union": 21521,
+      "jaccard": 0.7624645694902653,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009939102921442157,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 39,
+    "project_group": "20587599",
+    "repository": "https://github.com/apache/flink",
+    "support": 3,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21136,
+      "masked": 16830,
+      "common": 16426,
+      "union": 21540,
+      "jaccard": 0.762581244196843,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009931417180671356,
+      "common_idf_max_absolute_change": 5.153291594497778
+    }
+  },
+  {
+    "fold": 40,
+    "project_group": "206362",
+    "repository": "https://github.com/apache/commons-collections",
+    "support": 9,
+    "supported_labels": [
+      "ID",
+      "TD"
+    ],
+    "scores": {
+      "OOO": 0.47058823529411764,
+      "OOM": 0.47058823529411764,
+      "OMO": 0.47058823529411764,
+      "OMM": 0.47058823529411764,
+      "MOO": 0.47058823529411764,
+      "MOM": 0.47058823529411764,
+      "MMO": 0.47058823529411764,
+      "MMM": 0.47058823529411764
+    },
+    "vocabulary_overlap": {
+      "original": 21020,
+      "masked": 16712,
+      "common": 16309,
+      "union": 21423,
+      "jaccard": 0.761284600662839,
+      "common_idf_changed": 255,
+      "common_idf_mean_absolute_change": 0.009923801474648268,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 41,
+    "project_group": "206378",
+    "repository": "https://github.com/apache/commons-lang",
+    "support": 22,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 0.9767441860465116,
+      "OOM": 0.9523809523809523,
+      "OMO": 0.9767441860465116,
+      "OMM": 0.926829268292683,
+      "MOO": 0.9523809523809523,
+      "MOM": 0.9767441860465116,
+      "MMO": 0.9767441860465116,
+      "MMM": 0.9523809523809523
+    },
+    "vocabulary_overlap": {
+      "original": 20782,
+      "masked": 16539,
+      "common": 16164,
+      "union": 21157,
+      "jaccard": 0.7640024578153802,
+      "common_idf_changed": 240,
+      "common_idf_mean_absolute_change": 0.009673634335009647,
+      "common_idf_max_absolute_change": 5.153291594497779
+    }
+  },
+  {
+    "fold": 42,
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "support": 46,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 0.0,
+      "OMM": 0.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 0.0,
+      "MMM": 0.0425531914893617
+    },
+    "vocabulary_overlap": {
+      "original": 21134,
+      "masked": 16830,
+      "common": 16426,
+      "union": 21538,
+      "jaccard": 0.7626520568297892,
+      "common_idf_changed": 252,
+      "common_idf_mean_absolute_change": 0.009898218687520553,
+      "common_idf_max_absolute_change": 5.0369526024136295
+    }
+  },
+  {
+    "fold": 43,
+    "project_group": "206444",
+    "repository": "https://github.com/apache/hive",
+    "support": 10,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20956,
+      "masked": 16681,
+      "common": 16280,
+      "union": 21357,
+      "jaccard": 0.7622793463501428,
+      "common_idf_changed": 251,
+      "common_idf_mean_absolute_change": 0.009912408910935883,
+      "common_idf_max_absolute_change": 5.14166355650266
+    }
+  },
+  {
+    "fold": 44,
+    "project_group": "206459",
+    "repository": "https://github.com/apache/avro",
+    "support": 2,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21121,
+      "masked": 16812,
+      "common": 16405,
+      "union": 21528,
+      "jaccard": 0.7620308435525827,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009876526586001176,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 45,
+    "project_group": "20882897",
+    "repository": "https://github.com/opengamma/strata",
+    "support": 9,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21129,
+      "masked": 16854,
+      "common": 16447,
+      "union": 21536,
+      "jaccard": 0.7636979940564635,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009879086857945422,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 46,
+    "project_group": "209076507",
+    "repository": "https://github.com/epam/eco-schema-catalog",
+    "support": 9,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21092,
+      "masked": 16808,
+      "common": 16401,
+      "union": 21499,
+      "jaccard": 0.7628726917531048,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.00978890018218164,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 47,
+    "project_group": "2095282",
+    "repository": "https://github.com/jnr/jnr-posix",
+    "support": 1,
+    "supported_labels": [
+      "OD"
+    ],
+    "scores": {
+      "OOO": 0.0,
+      "OOM": 0.0,
+      "OMO": 0.0,
+      "OMM": 0.0,
+      "MOO": 0.0,
+      "MOM": 0.0,
+      "MMO": 0.0,
+      "MMM": 0.0
+    },
+    "vocabulary_overlap": {
+      "original": 21123,
+      "masked": 16811,
+      "common": 16406,
+      "union": 21528,
+      "jaccard": 0.7620772946859904,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009947664267290622,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 48,
+    "project_group": "210579021",
+    "repository": "https://github.com/apache/hop",
+    "support": 8,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20949,
+      "masked": 16683,
+      "common": 16278,
+      "union": 21354,
+      "jaccard": 0.7622927788704692,
+      "common_idf_changed": 255,
+      "common_idf_mean_absolute_change": 0.010004690673045987,
+      "common_idf_max_absolute_change": 5.156177599386915
+    }
+  },
+  {
+    "fold": 49,
+    "project_group": "21180741",
+    "repository": "https://github.com/hapifhir/hapi-fhir",
+    "support": 8,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21071,
+      "masked": 16817,
+      "common": 16418,
+      "union": 21470,
+      "jaccard": 0.7646949231485795,
+      "common_idf_changed": 246,
+      "common_idf_mean_absolute_change": 0.00951736910430912,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 50,
+    "project_group": "22269384",
+    "repository": "https://github.com/oryxproject/oryx",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21164,
+      "masked": 16854,
+      "common": 16447,
+      "union": 21571,
+      "jaccard": 0.7624588567984795,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009907080809395315,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 51,
+    "project_group": "228855233",
+    "repository": "https://github.com/sap-archive/emobility-smart-charging",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21074,
+      "masked": 16760,
+      "common": 16353,
+      "union": 21481,
+      "jaccard": 0.7612774079419021,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009981311722485413,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 52,
+    "project_group": "23050110",
+    "repository": "https://github.com/classgraph/classgraph",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21152,
+      "masked": 16840,
+      "common": 16433,
+      "union": 21559,
+      "jaccard": 0.7622338698455401,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009922226220305785,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 53,
+    "project_group": "232306581",
+    "repository": "https://github.com/alibaba/innodb-java-reader",
+    "support": 45,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21003,
+      "masked": 16763,
+      "common": 16379,
+      "union": 21387,
+      "jaccard": 0.7658390611118904,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009726573656974527,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 54,
+    "project_group": "23418517",
+    "repository": "https://github.com/apache/hadoop",
+    "support": 6,
+    "supported_labels": [
+      "ID",
+      "NIO",
+      "TD"
+    ],
+    "scores": {
+      "OOO": 0.09523809523809523,
+      "OOM": 0.09523809523809523,
+      "OMO": 0.09523809523809523,
+      "OMM": 0.09523809523809523,
+      "MOO": 0.09523809523809523,
+      "MOM": 0.09523809523809523,
+      "MMO": 0.09523809523809523,
+      "MMM": 0.09523809523809523
+    },
+    "vocabulary_overlap": {
+      "original": 20850,
+      "masked": 16589,
+      "common": 16191,
+      "union": 21248,
+      "jaccard": 0.7620011295180723,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009979390145572786,
+      "common_idf_max_absolute_change": 5.156177599386914
+    }
+  },
+  {
+    "fold": 55,
+    "project_group": "236462734",
+    "repository": "https://github.com/sap-archive/fosstars-rating-core",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21151,
+      "masked": 16843,
+      "common": 16436,
+      "union": 21558,
+      "jaccard": 0.7624083866777994,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.00989641637187421,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 56,
+    "project_group": "2383782",
+    "repository": "https://github.com/apache/oozie",
+    "support": 2,
+    "supported_labels": [
+      "TD"
+    ],
+    "scores": {
+      "OOO": 0.0,
+      "OOM": 0.0,
+      "OMO": 0.0,
+      "OMM": 0.0,
+      "MOO": 0.0,
+      "MOM": 0.0,
+      "MMO": 0.0,
+      "MMM": 0.0
+    },
+    "vocabulary_overlap": {
+      "original": 21137,
+      "masked": 16834,
+      "common": 16427,
+      "union": 21544,
+      "jaccard": 0.7624860750092833,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009916625288983467,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 57,
+    "project_group": "24653868",
+    "repository": "https://github.com/moquette-io/moquette",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21164,
+      "masked": 16852,
+      "common": 16445,
+      "union": 21571,
+      "jaccard": 0.7623661397246303,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.00991553828905487,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 58,
+    "project_group": "25169896",
+    "repository": "https://github.com/hubspot/jinjava",
+    "support": 3,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21142,
+      "masked": 16844,
+      "common": 16437,
+      "union": 21549,
+      "jaccard": 0.7627732145343171,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009900778494369404,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 59,
+    "project_group": "2524488",
+    "repository": "https://github.com/apache/accumulo",
+    "support": 4,
+    "supported_labels": [
+      "OD"
+    ],
+    "scores": {
+      "OOO": 0.0,
+      "OOM": 0.0,
+      "OMO": 0.0,
+      "OMM": 0.0,
+      "MOO": 0.0,
+      "MOM": 0.0,
+      "MMO": 0.0,
+      "MMM": 0.0
+    },
+    "vocabulary_overlap": {
+      "original": 21092,
+      "masked": 16786,
+      "common": 16381,
+      "union": 21497,
+      "jaccard": 0.7620133041819789,
+      "common_idf_changed": 256,
+      "common_idf_mean_absolute_change": 0.00991094752022331,
+      "common_idf_max_absolute_change": 5.147494476813453
+    }
+  },
+  {
+    "fold": 60,
+    "project_group": "26125896",
+    "repository": "https://github.com/vojtechhabarta/typescript-generator",
+    "support": 12,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21011,
+      "masked": 16738,
+      "common": 16331,
+      "union": 21418,
+      "jaccard": 0.7624894948174433,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009890179599160016,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 61,
+    "project_group": "2700474",
+    "repository": "https://github.com/alibaba/fastjson",
+    "support": 23,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 0.7894736842105263,
+      "OOM": 0.7567567567567568,
+      "OMO": 0.7567567567567568,
+      "OMM": 0.7567567567567568,
+      "MOO": 0.8205128205128205,
+      "MOM": 0.7894736842105263,
+      "MMO": 0.7567567567567568,
+      "MMM": 0.7567567567567568
+    },
+    "vocabulary_overlap": {
+      "original": 20947,
+      "masked": 16745,
+      "common": 16339,
+      "union": 21353,
+      "jaccard": 0.7651852198754273,
+      "common_idf_changed": 254,
+      "common_idf_mean_absolute_change": 0.009695295475163825,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 62,
+    "project_group": "272672735",
+    "repository": "https://github.com/oracle/tribuo",
+    "support": 4,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21121,
+      "masked": 16819,
+      "common": 16412,
+      "union": 21528,
+      "jaccard": 0.7623560014864362,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009946353160059434,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 63,
+    "project_group": "2740148",
+    "repository": "https://github.com/apache/opennlp",
+    "support": 4,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21100,
+      "masked": 16805,
+      "common": 16398,
+      "union": 21507,
+      "jaccard": 0.7624494350676524,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009905173460997098,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 64,
+    "project_group": "27911088",
+    "repository": "https://github.com/apache/nifi",
+    "support": 12,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21036,
+      "masked": 16769,
+      "common": 16367,
+      "union": 21438,
+      "jaccard": 0.7634574120720217,
+      "common_idf_changed": 254,
+      "common_idf_mean_absolute_change": 0.009881904497300515,
+      "common_idf_max_absolute_change": 5.147494476813453
+    }
+  },
+  {
+    "fold": 65,
+    "project_group": "28589709",
+    "repository": "https://github.com/sakaiproject/sakai",
+    "support": 5,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21044,
+      "masked": 16752,
+      "common": 16345,
+      "union": 21451,
+      "jaccard": 0.7619691389678803,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009977677596293796,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 66,
+    "project_group": "28738447",
+    "repository": "https://github.com/apache/kylin",
+    "support": 2,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21158,
+      "masked": 16845,
+      "common": 16438,
+      "union": 21565,
+      "jaccard": 0.7622536517505217,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.00994902736973568,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 67,
+    "project_group": "288550742",
+    "repository": "https://github.com/stargate/stargate",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21164,
+      "masked": 16852,
+      "common": 16445,
+      "union": 21571,
+      "jaccard": 0.7623661397246303,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009889842968807535,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 68,
+    "project_group": "291570",
+    "repository": "https://github.com/apache/shiro",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21158,
+      "masked": 16845,
+      "common": 16438,
+      "union": 21565,
+      "jaccard": 0.7622536517505217,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009922884664282226,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 69,
+    "project_group": "3038937",
+    "repository": "https://github.com/fasterxml/jackson-databind",
+    "support": 3,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21132,
+      "masked": 16831,
+      "common": 16424,
+      "union": 21539,
+      "jaccard": 0.762523794048006,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.00992171667424271,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 70,
+    "project_group": "30449481",
+    "repository": "https://github.com/apache/tinkerpop",
+    "support": 4,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21144,
+      "masked": 16851,
+      "common": 16444,
+      "union": 21551,
+      "jaccard": 0.7630272377151872,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009868924911744396,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 71,
+    "project_group": "307476",
+    "repository": "https://github.com/twilio/twilio-java",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21150,
+      "masked": 16839,
+      "common": 16432,
+      "union": 21557,
+      "jaccard": 0.7622581991928375,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009938302358970436,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 72,
+    "project_group": "31076872",
+    "repository": "https://github.com/intel/jndn-utils",
+    "support": 2,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21148,
+      "masked": 16840,
+      "common": 16433,
+      "union": 21555,
+      "jaccard": 0.7623753189515193,
+      "common_idf_changed": 256,
+      "common_idf_mean_absolute_change": 0.009892646910732949,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 73,
+    "project_group": "311530297",
+    "repository": "https://github.com/alibaba/testable-mock",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 0.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 0.0
+    },
+    "vocabulary_overlap": {
+      "original": 21156,
+      "masked": 16845,
+      "common": 16438,
+      "union": 21563,
+      "jaccard": 0.7623243518990864,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009921281202067405,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 74,
+    "project_group": "315377678",
+    "repository": "https://github.com/apache/ignite-3",
+    "support": 46,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21085,
+      "masked": 16791,
+      "common": 16393,
+      "union": 21483,
+      "jaccard": 0.7630684727458921,
+      "common_idf_changed": 256,
+      "common_idf_mean_absolute_change": 0.01006055756957756,
+      "common_idf_max_absolute_change": 5.020585624949424
+    }
+  },
+  {
+    "fold": 75,
+    "project_group": "32760696",
+    "repository": "https://github.com/spdx/tools",
+    "support": 2,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21147,
+      "masked": 16837,
+      "common": 16430,
+      "union": 21554,
+      "jaccard": 0.762271504129164,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009885942795637563,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 76,
+    "project_group": "3291848",
+    "repository": "https://github.com/pac4j/pac4j",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21163,
+      "masked": 16852,
+      "common": 16445,
+      "union": 21570,
+      "jaccard": 0.7624014835419565,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009910946651581628,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 77,
+    "project_group": "3333998",
+    "repository": "https://github.com/knowm/xchange",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21154,
+      "masked": 16844,
+      "common": 16437,
+      "union": 21561,
+      "jaccard": 0.7623486851259218,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009925007010066964,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 78,
+    "project_group": "339537434",
+    "repository": "https://github.com/google/testparameterinjector",
+    "support": 51,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20263,
+      "masked": 15958,
+      "common": 15598,
+      "union": 20623,
+      "jaccard": 0.7563400087281191,
+      "common_idf_changed": 252,
+      "common_idf_mean_absolute_change": 0.010446327926429131,
+      "common_idf_max_absolute_change": 5.1179938124167546
+    }
+  },
+  {
+    "fold": 79,
+    "project_group": "347917861",
+    "repository": "https://github.com/datadog/jmeter-datadog-backend-listener",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21062,
+      "masked": 16750,
+      "common": 16346,
+      "union": 21466,
+      "jaccard": 0.7614832758781329,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009972356817322515,
+      "common_idf_max_absolute_change": 5.156177599386914
+    }
+  },
+  {
+    "fold": 80,
+    "project_group": "3480666",
+    "repository": "https://github.com/graphhopper/graphhopper",
+    "support": 2,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21154,
+      "masked": 16844,
+      "common": 16437,
+      "union": 21561,
+      "jaccard": 0.7623486851259218,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009923346576409088,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 81,
+    "project_group": "37173512",
+    "repository": "https://github.com/lets-blade/blade",
+    "support": 5,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21123,
+      "masked": 16833,
+      "common": 16426,
+      "union": 21530,
+      "jaccard": 0.7629354389224338,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009930151711165066,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 82,
+    "project_group": "377354200",
+    "repository": "https://github.com/opengoofy/hippo4j",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21158,
+      "masked": 16849,
+      "common": 16442,
+      "union": 21565,
+      "jaccard": 0.7624391374913053,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009914947193294173,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 83,
+    "project_group": "390607649",
+    "repository": "https://github.com/tencent/spring-cloud-tencent",
+    "support": 2,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21133,
+      "masked": 16831,
+      "common": 16424,
+      "union": 21540,
+      "jaccard": 0.7624883936861653,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009892160173615742,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 84,
+    "project_group": "400172901",
+    "repository": "https://github.com/apache/skywalking-java",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21164,
+      "masked": 16853,
+      "common": 16446,
+      "union": 21571,
+      "jaccard": 0.7624124982615549,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009919557519071514,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 85,
+    "project_group": "420026145",
+    "repository": "https://github.com/snakeyaml/snakeyaml",
+    "support": 3,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21137,
+      "masked": 16836,
+      "common": 16429,
+      "union": 21544,
+      "jaccard": 0.7625789082807278,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009870874341152483,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 86,
+    "project_group": "420659054",
+    "repository": "https://github.com/snakeyaml/snakeyaml-engine",
+    "support": 4,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 0.8571428571428571,
+      "MMM": 0.8571428571428571
+    },
+    "vocabulary_overlap": {
+      "original": 21075,
+      "masked": 16779,
+      "common": 16372,
+      "union": 21482,
+      "jaccard": 0.7621264314309655,
+      "common_idf_changed": 253,
+      "common_idf_mean_absolute_change": 0.009570023686588335,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 87,
+    "project_group": "42304749",
+    "repository": "https://github.com/apache/shardingsphere-elasticjob",
+    "support": 8,
+    "supported_labels": [
+      "NIO",
+      "OD"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21055,
+      "masked": 16790,
+      "common": 16385,
+      "union": 21460,
+      "jaccard": 0.7635135135135135,
+      "common_idf_changed": 255,
+      "common_idf_mean_absolute_change": 0.009862406265830985,
+      "common_idf_max_absolute_change": 5.153291594497779
+    }
+  },
+  {
+    "fold": 88,
+    "project_group": "42369667",
+    "repository": "https://github.com/everit-org/json-schema",
+    "support": 4,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 0.8571428571428571,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 0.8571428571428571
+    },
+    "vocabulary_overlap": {
+      "original": 21065,
+      "masked": 16762,
+      "common": 16355,
+      "union": 21472,
+      "jaccard": 0.7616896423248882,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.00996669349542473,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 89,
+    "project_group": "4544982",
+    "repository": "https://github.com/sonarsource/sonar-php",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21163,
+      "masked": 16851,
+      "common": 16444,
+      "union": 21570,
+      "jaccard": 0.7623551228558183,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009894180117282575,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 90,
+    "project_group": "4710920",
+    "repository": "https://github.com/apache/dubbo",
+    "support": 9,
+    "supported_labels": [
+      "ID",
+      "OD"
+    ],
+    "scores": {
+      "OOO": 0.775,
+      "OOM": 0.775,
+      "OMO": 0.6666666666666666,
+      "OMM": 0.775,
+      "MOO": 0.775,
+      "MOM": 0.775,
+      "MMO": 0.6666666666666666,
+      "MMM": 0.775
+    },
+    "vocabulary_overlap": {
+      "original": 21000,
+      "masked": 16734,
+      "common": 16341,
+      "union": 21393,
+      "jaccard": 0.7638479876595148,
+      "common_idf_changed": 248,
+      "common_idf_mean_absolute_change": 0.009590285581758132,
+      "common_idf_max_absolute_change": 5.144583266605995
+    }
+  },
+  {
+    "fold": 91,
+    "project_group": "47973088",
+    "repository": "https://github.com/gchq/gaffer",
+    "support": 2,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20281,
+      "masked": 15978,
+      "common": 15571,
+      "union": 20688,
+      "jaccard": 0.7526585460170147,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.010490823423176547,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 92,
+    "project_group": "482425877",
+    "repository": "https://github.com/alibaba/fastjson2",
+    "support": 50,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20546,
+      "masked": 16477,
+      "common": 16070,
+      "union": 20953,
+      "jaccard": 0.7669546127046246,
+      "common_idf_changed": 253,
+      "common_idf_mean_absolute_change": 0.009758077056480064,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 93,
+    "project_group": "49876476",
+    "repository": "https://github.com/apache/shardingsphere",
+    "support": 12,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21046,
+      "masked": 16772,
+      "common": 16369,
+      "union": 21449,
+      "jaccard": 0.7631591216373723,
+      "common_idf_changed": 252,
+      "common_idf_mean_absolute_change": 0.009536603528305062,
+      "common_idf_max_absolute_change": 5.144583266605995
+    }
+  },
+  {
+    "fold": 94,
+    "project_group": "4992906",
+    "repository": "https://github.com/pmd/pmd",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21063,
+      "masked": 16743,
+      "common": 16344,
+      "union": 21462,
+      "jaccard": 0.7615320100642997,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.00999690704227378,
+      "common_idf_max_absolute_change": 5.156177599386914
+    }
+  },
+  {
+    "fold": 95,
+    "project_group": "5103785",
+    "repository": "https://github.com/undertow-io/undertow",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21156,
+      "masked": 16846,
+      "common": 16440,
+      "union": 21562,
+      "jaccard": 0.7624524626658009,
+      "common_idf_changed": 256,
+      "common_idf_mean_absolute_change": 0.009905259551609306,
+      "common_idf_max_absolute_change": 5.156177599386914
+    }
+  },
+  {
+    "fold": 96,
+    "project_group": "5294661",
+    "repository": "https://github.com/fabiomaffioletti/jsondoc",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21160,
+      "masked": 16850,
+      "common": 16443,
+      "union": 21567,
+      "jaccard": 0.762414800389484,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009917819285500715,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 97,
+    "project_group": "53127403",
+    "repository": "https://github.com/apolloconfig/apollo",
+    "support": 11,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 0.8421052631578947,
+      "OOM": 0.8421052631578947,
+      "OMO": 0.8421052631578947,
+      "OMM": 0.8421052631578947,
+      "MOO": 0.8421052631578947,
+      "MOM": 0.8421052631578947,
+      "MMO": 0.8421052631578947,
+      "MMM": 0.8421052631578947
+    },
+    "vocabulary_overlap": {
+      "original": 20193,
+      "masked": 15927,
+      "common": 15527,
+      "union": 20593,
+      "jaccard": 0.7539940756567766,
+      "common_idf_changed": 242,
+      "common_idf_mean_absolute_change": 0.00976181223379348,
+      "common_idf_max_absolute_change": 5.156177599386914
+    }
+  },
+  {
+    "fold": 98,
+    "project_group": "54120965",
+    "repository": "https://github.com/googlecloudplatform/appengine-plugins",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21103,
+      "masked": 16786,
+      "common": 16379,
+      "union": 21510,
+      "jaccard": 0.7614597861459786,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009897317638645117,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 99,
+    "project_group": "544339452",
+    "repository": "https://github.com/apolloconfig/apollo-java",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21148,
+      "masked": 16836,
+      "common": 16429,
+      "union": 21555,
+      "jaccard": 0.7621897471584319,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.00991059986688714,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 100,
+    "project_group": "5771666",
+    "repository": "https://github.com/bpsm/edn-java",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21156,
+      "masked": 16848,
+      "common": 16441,
+      "union": 21563,
+      "jaccard": 0.7624634791077308,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009921447844150291,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 101,
+    "project_group": "57942251",
+    "repository": "https://github.com/fasterxml/jackson-dataformats-binary",
+    "support": 12,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 0.8571428571428571,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 0.8571428571428571,
+      "MMM": 0.8571428571428571
+    },
+    "vocabulary_overlap": {
+      "original": 21101,
+      "masked": 16833,
+      "common": 16430,
+      "union": 21504,
+      "jaccard": 0.7640438988095238,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009927701508377988,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 102,
+    "project_group": "595553326",
+    "repository": "https://github.com/opengoofy/crane4j",
+    "support": 3,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21128,
+      "masked": 16823,
+      "common": 16417,
+      "union": 21534,
+      "jaccard": 0.7623757778396953,
+      "common_idf_changed": 253,
+      "common_idf_mean_absolute_change": 0.009688806442390941,
+      "common_idf_max_absolute_change": 5.156177599386914
+    }
+  },
+  {
+    "fold": 103,
+    "project_group": "61282052",
+    "repository": "https://github.com/adyen/adyen-java-api-library",
+    "support": 45,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20209,
+      "masked": 16042,
+      "common": 15644,
+      "union": 20607,
+      "jaccard": 0.7591595089047412,
+      "common_idf_changed": 255,
+      "common_idf_mean_absolute_change": 0.010021644023215865,
+      "common_idf_max_absolute_change": 5.033700567027252
+    }
+  },
+  {
+    "fold": 104,
+    "project_group": "62117812",
+    "repository": "https://github.com/apache/pulsar",
+    "support": 5,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21090,
+      "masked": 16792,
+      "common": 16386,
+      "union": 21496,
+      "jaccard": 0.7622813546706364,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.01000733541735931,
+      "common_idf_max_absolute_change": 5.144583266605995
+    }
+  },
+  {
+    "fold": 105,
+    "project_group": "6220644",
+    "repository": "https://github.com/openrefine/openrefine",
+    "support": 4,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21012,
+      "masked": 16719,
+      "common": 16312,
+      "union": 21419,
+      "jaccard": 0.7615668331854896,
+      "common_idf_changed": 253,
+      "common_idf_mean_absolute_change": 0.009894549013321385,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 106,
+    "project_group": "62267978",
+    "repository": "https://github.com/snowflakedb/snowflake-jdbc",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21149,
+      "masked": 16839,
+      "common": 16432,
+      "union": 21556,
+      "jaccard": 0.762293560957506,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009895110174231591,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 107,
+    "project_group": "633686625",
+    "repository": "https://github.com/apache/fory",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21164,
+      "masked": 16852,
+      "common": 16445,
+      "union": 21571,
+      "jaccard": 0.7623661397246303,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009918355252757399,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 108,
+    "project_group": "671825",
+    "repository": "https://github.com/graylog2/graylog2-server",
+    "support": 13,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21009,
+      "masked": 16754,
+      "common": 16347,
+      "union": 21416,
+      "jaccard": 0.7633078072469182,
+      "common_idf_changed": 251,
+      "common_idf_mean_absolute_change": 0.009717807575638896,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 109,
+    "project_group": "68291529",
+    "repository": "https://github.com/networknt/json-schema-validator",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 0.0,
+      "OMM": 0.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 0.0,
+      "MMM": 0.0
+    },
+    "vocabulary_overlap": {
+      "original": 21160,
+      "masked": 16847,
+      "common": 16440,
+      "union": 21567,
+      "jaccard": 0.7622756989845597,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009920715187651688,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 110,
+    "project_group": "70780002",
+    "repository": "https://github.com/flowable/flowable-engine",
+    "support": 10,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20857,
+      "masked": 16583,
+      "common": 16185,
+      "union": 21255,
+      "jaccard": 0.7614678899082569,
+      "common_idf_changed": 247,
+      "common_idf_mean_absolute_change": 0.009963769610144326,
+      "common_idf_max_absolute_change": 5.1298987149230735
+    }
+  },
+  {
+    "fold": 111,
+    "project_group": "75164823",
+    "repository": "https://github.com/apache/rocketmq",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21166,
+      "masked": 16854,
+      "common": 16447,
+      "union": 21573,
+      "jaccard": 0.762388170398183,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009908872132137826,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 112,
+    "project_group": "76383371",
+    "repository": "https://github.com/castle/castle-java",
+    "support": 13,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20839,
+      "masked": 16576,
+      "common": 16172,
+      "union": 21243,
+      "jaccard": 0.7612860707056442,
+      "common_idf_changed": 254,
+      "common_idf_mean_absolute_change": 0.009821562705157562,
+      "common_idf_max_absolute_change": 5.156177599386914
+    }
+  },
+  {
+    "fold": 113,
+    "project_group": "764708",
+    "repository": "https://github.com/wildfly/wildfly",
+    "support": 31,
+    "supported_labels": [
+      "ID",
+      "OD"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20872,
+      "masked": 16661,
+      "common": 16263,
+      "union": 21270,
+      "jaccard": 0.7645980253878703,
+      "common_idf_changed": 253,
+      "common_idf_mean_absolute_change": 0.010003669658991948,
+      "common_idf_max_absolute_change": 5.065754593317335
+    }
+  },
+  {
+    "fold": 114,
+    "project_group": "777444",
+    "repository": "https://github.com/jolokia/jolokia",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21136,
+      "masked": 16821,
+      "common": 16416,
+      "union": 21541,
+      "jaccard": 0.7620816118100366,
+      "common_idf_changed": 256,
+      "common_idf_mean_absolute_change": 0.009760833579510556,
+      "common_idf_max_absolute_change": 5.156177599386914
+    }
+  },
+  {
+    "fold": 115,
+    "project_group": "80501529",
+    "repository": "https://github.com/apache/ratis",
+    "support": 1,
+    "supported_labels": [
+      "TD"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 0.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 0.0,
+      "MMM": 0.0
+    },
+    "vocabulary_overlap": {
+      "original": 21148,
+      "masked": 16829,
+      "common": 16426,
+      "union": 21551,
+      "jaccard": 0.7621920096515243,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009939221794622536,
+      "common_idf_max_absolute_change": 5.156177599386914
+    }
+  },
+  {
+    "fold": 116,
+    "project_group": "81226206",
+    "repository": "https://github.com/karatelabs/karate",
+    "support": 2,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21145,
+      "masked": 16834,
+      "common": 16427,
+      "union": 21552,
+      "jaccard": 0.7622030438010393,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009929349966345959,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 117,
+    "project_group": "8205602",
+    "repository": "https://github.com/mybatis/mybatis-3",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 0.0,
+      "OOM": 0.0,
+      "OMO": 0.0,
+      "OMM": 0.0,
+      "MOO": 0.0,
+      "MOM": 0.0,
+      "MMO": 0.0,
+      "MMM": 0.0
+    },
+    "vocabulary_overlap": {
+      "original": 21166,
+      "masked": 16854,
+      "common": 16447,
+      "union": 21573,
+      "jaccard": 0.762388170398183,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009917238575435954,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 118,
+    "project_group": "8322256",
+    "repository": "https://github.com/ktuukkan/marine-api",
+    "support": 2,
+    "supported_labels": [
+      "OD"
+    ],
+    "scores": {
+      "OOO": 0.0,
+      "OOM": 0.0,
+      "OMO": 0.0,
+      "OMM": 0.0,
+      "MOO": 0.0,
+      "MOM": 0.0,
+      "MMO": 0.0,
+      "MMM": 0.0
+    },
+    "vocabulary_overlap": {
+      "original": 21123,
+      "masked": 16815,
+      "common": 16408,
+      "union": 21530,
+      "jaccard": 0.7620993961913609,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009959246936597164,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 119,
+    "project_group": "8654828",
+    "repository": "https://github.com/j256/ormlite-core",
+    "support": 87,
+    "supported_labels": [
+      "ID",
+      "OD"
+    ],
+    "scores": {
+      "OOO": 0.011363636363636364,
+      "OOM": 0.011363636363636364,
+      "OMO": 0.011363636363636364,
+      "OMM": 0.011363636363636364,
+      "MOO": 0.011363636363636364,
+      "MOM": 0.011363636363636364,
+      "MMO": 0.011363636363636364,
+      "MMM": 0.011363636363636364
+    },
+    "vocabulary_overlap": {
+      "original": 20141,
+      "masked": 16034,
+      "common": 15691,
+      "union": 20484,
+      "jaccard": 0.7660124975590705,
+      "common_idf_changed": 254,
+      "common_idf_mean_absolute_change": 0.010442046747390894,
+      "common_idf_max_absolute_change": 4.875197323201151
+    }
+  },
+  {
+    "fold": 120,
+    "project_group": "88024517",
+    "repository": "https://github.com/alibaba/jetcache",
+    "support": 3,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21149,
+      "masked": 16845,
+      "common": 16438,
+      "union": 21556,
+      "jaccard": 0.7625719057339024,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.009897550654319713,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 121,
+    "project_group": "91674936",
+    "repository": "https://github.com/apache/servicecomb-java-chassis",
+    "support": 12,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20982,
+      "masked": 16737,
+      "common": 16330,
+      "union": 21389,
+      "jaccard": 0.7634765533685539,
+      "common_idf_changed": 257,
+      "common_idf_mean_absolute_change": 0.00998040566932468,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 122,
+    "project_group": "9199359",
+    "repository": "https://github.com/biojava/biojava",
+    "support": 14,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20899,
+      "masked": 16671,
+      "common": 16266,
+      "union": 21304,
+      "jaccard": 0.7635185880585805,
+      "common_idf_changed": 256,
+      "common_idf_mean_absolute_change": 0.009866598243012722,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 123,
+    "project_group": "935336",
+    "repository": "https://github.com/fasterxml/java-classmate",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21163,
+      "masked": 16851,
+      "common": 16444,
+      "union": 21570,
+      "jaccard": 0.7623551228558183,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009919526085133813,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 124,
+    "project_group": "971134",
+    "repository": "https://github.com/jmeter-maven-plugin/jmeter-maven-plugin",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21141,
+      "masked": 16829,
+      "common": 16422,
+      "union": 21548,
+      "jaccard": 0.7621124930387971,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009931578624929749,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 125,
+    "project_group": "9759448",
+    "repository": "https://github.com/apache/cloudstack",
+    "support": 13,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 20965,
+      "masked": 16709,
+      "common": 16302,
+      "union": 21372,
+      "jaccard": 0.7627737226277372,
+      "common_idf_changed": 255,
+      "common_idf_mean_absolute_change": 0.009855002931409534,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  },
+  {
+    "fold": 126,
+    "project_group": "99412308",
+    "repository": "https://github.com/apache/seatunnel",
+    "support": 1,
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "OOO": 1.0,
+      "OOM": 1.0,
+      "OMO": 1.0,
+      "OMM": 1.0,
+      "MOO": 1.0,
+      "MOM": 1.0,
+      "MMO": 1.0,
+      "MMM": 1.0
+    },
+    "vocabulary_overlap": {
+      "original": 21160,
+      "masked": 16848,
+      "common": 16441,
+      "union": 21567,
+      "jaccard": 0.7623220661195345,
+      "common_idf_changed": 258,
+      "common_idf_mean_absolute_change": 0.009918570963660877,
+      "common_idf_max_absolute_change": 5.159055299214529
+    }
+  }
+]

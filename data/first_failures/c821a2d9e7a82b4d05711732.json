@@ -1,0 +1,81 @@
+{
+  "container": "biojavabiojavastructure65ad15ftestSecStrucPred",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "biojavabiojavastructure65ad15ftestSecStrucPred",
+    "project": "https://github.com/biojava/biojava",
+    "revision": "65ad15fe58dcedd258fee1c14505e424c8536efc",
+    "test": "org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testSecStrucPred",
+    "label": "ID",
+    "module": "biojava-structure",
+    "zip": "biojava=biojava-structure=65ad15f",
+    "config_row": 576,
+    "configured_test": "org.biojava.nbio.structure.secstruc.TestSecStrucCalc#testSecStrucPred",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testSecStrucPred",
+    "variant_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testSecStrucPred::65ad15fe58dcedd258fee1c14505e424c8536efc::biojava-structure",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/biojavabiojavastructure65ad15ftestSecStrucPred/result/Flaky/.nondex/nWNEv2g0pnBKYi36W2WeV1PIPkA5quSXyorBTMTUs=/TEST-org.biojava.nbio.structure.secstruc.TestSecStrucCalc.xml",
+        "size": 12003,
+        "compressed": 2506,
+        "crc32": "f124c2ab",
+        "offset": 354665650,
+        "method": 8,
+        "local_path": "data/extracted/0b917df6ac06fc6552dc782b.xml",
+        "sha256": "35e38fb366157c5e12cbcdf211d60b06aafd0d0444344f4f3bef883d4f7c9d23",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestSecStrucPred/result/Flaky/rounds-test-results.csv",
+    "size": 20057,
+    "compressed": 5018,
+    "crc32": "b2e05e4e",
+    "offset": 354538537,
+    "method": 8,
+    "local_path": "data/extracted/a6a44d69ebf89e9e31736bbc.csv",
+    "sha256": "556feac69b5d9e937db991ab68f0e0819f38a2c39abc2c16be40635f4582ad71",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestSecStrucPred/result/Flaky/.nondex/nWNEv2g0pnBKYi36W2WeV1PIPkA5quSXyorBTMTUs=/TEST-org.biojava.nbio.structure.secstruc.TestSecStrucCalc.xml",
+    "size": 12003,
+    "compressed": 2506,
+    "crc32": "f124c2ab",
+    "offset": 354665650,
+    "method": 8,
+    "local_path": "data/extracted/0b917df6ac06fc6552dc782b.xml",
+    "sha256": "35e38fb366157c5e12cbcdf211d60b06aafd0d0444344f4f3bef883d4f7c9d23",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testSecStrucPred",
+    "outcome": "error",
+    "exception_type": "java.net.UnknownHostException",
+    "message": "mmtf.rcsb.org",
+    "stack_trace": "java.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testSecStrucPred(TestSecStrucCalc.java:64)",
+    "text": "java.net.UnknownHostException\nmmtf.rcsb.org\njava.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testSecStrucPred(TestSecStrucCalc.java:64)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "c4f938564ea258291ed4dbd6918766bea6675461d7637db16c589821fe9a7208"
+}

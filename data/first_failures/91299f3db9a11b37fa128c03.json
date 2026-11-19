@@ -1,0 +1,37 @@
+{
+  "container": "CAMEL-17188",
+  "metadata": {
+    "source": "JIRA",
+    "container": "CAMEL-17188",
+    "project": "https://github.com/apache/camel",
+    "revision": "2b42548de6a92181b603fde12001ac0c2684d482",
+    "test": "org.apache.camel.support.task.BackgroundTaskTest.testRunNoMoreSupplier",
+    "label": "TD",
+    "module": "core/camel-support",
+    "zip": "CAMEL-17188",
+    "config_row": 1061,
+    "configured_test": "org.apache.camel.support.task.BackgroundTaskTest#testRunNoMoreSupplier",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/camel::org.apache.camel.support.task.BackgroundTaskTest.testRunNoMoreSupplier",
+    "variant_id": "https://github.com/apache/camel::org.apache.camel.support.task.BackgroundTaskTest.testRunNoMoreSupplier::2b42548de6a92181b603fde12001ac0c2684d482::core/camel-support",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/CAMEL-17188/result/Flaky/rounds-test-results.csv",
+    "size": 18780,
+    "compressed": 663,
+    "crc32": "661340e9",
+    "offset": 84165904,
+    "method": 8,
+    "local_path": "data/extracted/b5837d496755f212ffd43be6.csv",
+    "sha256": "48d66ec6e900c08091cfec9b898fe1ae25eb7aa25d915e80bfc3629c4642fa7f",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

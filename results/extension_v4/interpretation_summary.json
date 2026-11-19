@@ -1,0 +1,301 @@
+{
+  "all_cases": 56,
+  "affected_projects": [
+    {
+      "repository": "https://github.com/apache/activemq",
+      "tests": 46,
+      "changed": 45,
+      "categories": {
+        "ID": 45
+      },
+      "formats": {
+        "nondex_report": 45
+      },
+      "original_macro_f1": 1.0,
+      "masked_macro_f1": 0.0425531914893617,
+      "delta": -0.9574468085106383,
+      "original_model_masked_correct": 45,
+      "masked_model_original_incorrect": 45
+    },
+    {
+      "repository": "https://github.com/fasterxml/jackson-dataformats-binary",
+      "tests": 12,
+      "changed": 3,
+      "categories": {
+        "ID": 3
+      },
+      "formats": {
+        "nondex_report": 3
+      },
+      "original_macro_f1": 1.0,
+      "masked_macro_f1": 0.8571428571428571,
+      "delta": -0.1428571428571429,
+      "original_model_masked_correct": 3,
+      "masked_model_original_incorrect": 3
+    },
+    {
+      "repository": "https://github.com/alibaba/fastjson",
+      "tests": 23,
+      "changed": 1,
+      "categories": {
+        "ID": 1
+      },
+      "formats": {
+        "nondex_report": 1
+      },
+      "original_macro_f1": 0.7894736842105263,
+      "masked_macro_f1": 0.7567567567567568,
+      "delta": -0.03271692745376953,
+      "original_model_masked_correct": 0,
+      "masked_model_original_incorrect": 1
+    },
+    {
+      "repository": "https://github.com/alibaba/testable-mock",
+      "tests": 1,
+      "changed": 1,
+      "categories": {
+        "ID": 1
+      },
+      "formats": {
+        "nondex_report": 1
+      },
+      "original_macro_f1": 1.0,
+      "masked_macro_f1": 0.0,
+      "delta": -1.0,
+      "original_model_masked_correct": 1,
+      "masked_model_original_incorrect": 0
+    },
+    {
+      "repository": "https://github.com/apache/commons-lang",
+      "tests": 22,
+      "changed": 1,
+      "categories": {
+        "ID": 1
+      },
+      "formats": {
+        "nondex_report": 1
+      },
+      "original_macro_f1": 0.9767441860465116,
+      "masked_macro_f1": 0.9523809523809523,
+      "delta": -0.02436323366555926,
+      "original_model_masked_correct": 1,
+      "masked_model_original_incorrect": 0
+    },
+    {
+      "repository": "https://github.com/apache/incubator-seata",
+      "tests": 1,
+      "changed": 1,
+      "categories": {
+        "ID": 1
+      },
+      "formats": {
+        "nondex_report": 1
+      },
+      "original_macro_f1": 1.0,
+      "masked_macro_f1": 0.0,
+      "delta": -1.0,
+      "original_model_masked_correct": 0,
+      "masked_model_original_incorrect": 1
+    },
+    {
+      "repository": "https://github.com/apache/ratis",
+      "tests": 1,
+      "changed": 1,
+      "categories": {
+        "TD": 1
+      },
+      "formats": {
+        "surefire_text": 1
+      },
+      "original_macro_f1": 1.0,
+      "masked_macro_f1": 0.0,
+      "delta": -1.0,
+      "original_model_masked_correct": 1,
+      "masked_model_original_incorrect": 1
+    },
+    {
+      "repository": "https://github.com/everit-org/json-schema",
+      "tests": 4,
+      "changed": 1,
+      "categories": {
+        "ID": 1
+      },
+      "formats": {
+        "nondex_report": 1
+      },
+      "original_macro_f1": 1.0,
+      "masked_macro_f1": 0.8571428571428571,
+      "delta": -0.1428571428571429,
+      "original_model_masked_correct": 1,
+      "masked_model_original_incorrect": 0
+    },
+    {
+      "repository": "https://github.com/networknt/json-schema-validator",
+      "tests": 1,
+      "changed": 1,
+      "categories": {
+        "ID": 1
+      },
+      "formats": {
+        "nondex_report": 1
+      },
+      "original_macro_f1": 1.0,
+      "masked_macro_f1": 0.0,
+      "delta": -1.0,
+      "original_model_masked_correct": 1,
+      "masked_model_original_incorrect": 1
+    },
+    {
+      "repository": "https://github.com/snakeyaml/snakeyaml-engine",
+      "tests": 4,
+      "changed": 1,
+      "categories": {
+        "ID": 1
+      },
+      "formats": {
+        "nondex_report": 1
+      },
+      "original_macro_f1": 1.0,
+      "masked_macro_f1": 0.8571428571428571,
+      "delta": -0.1428571428571429,
+      "original_model_masked_correct": 1,
+      "masked_model_original_incorrect": 1
+    }
+  ],
+  "largest_project_share": 0.8035714285714286,
+  "direction_counts": {
+    "ID:ID->TD": 55,
+    "TD:TD->ID": 1
+  },
+  "case_counts": {
+    "original_model_masked_text_keeps_original": 54,
+    "masked_model_original_text_already_has_final_error": 53,
+    "direct_shift_toward_error": 10,
+    "refit_shift_toward_error": 56
+  },
+  "frequent_positive_terms_in_top_ten": {
+    "util concurrent": 45,
+    "callablestatement": 45,
+    "statements failontimeout": 45,
+    "callablestatement call": 45,
+    "failontimeout java": 45,
+    "concurrent": 45,
+    "failontimeout callablestatement": 45,
+    "failontimeout": 45,
+    "call failontimeout": 45,
+    "assertionfailederror expected": 10,
+    "assertionfailederror": 10,
+    "but": 9,
+    "but was": 7,
+    "org opentest4j": 6,
+    "opentest4j": 6,
+    "opentest4j assertionfailederror": 6,
+    "org": 6,
+    "expected": 5,
+    "expected but": 5,
+    "framework": 4
+  },
+  "failontimeout_presence": 46,
+  "factorial_descriptive_effects": {
+    "T": {
+      "mean_difference_over_other_settings": -0.021678573476679258,
+      "individual_differences": [
+        {
+          "with_factor": "T",
+          "without_factor": "original",
+          "delta": -0.033046698222208626
+        },
+        {
+          "with_factor": "TR",
+          "without_factor": "R",
+          "delta": -0.009131080506328937
+        },
+        {
+          "with_factor": "TP",
+          "without_factor": "P",
+          "delta": -0.033046698222208626
+        },
+        {
+          "with_factor": "full",
+          "without_factor": "RP",
+          "delta": -0.011489816955970844
+        }
+      ]
+    },
+    "R": {
+      "mean_difference_over_other_settings": -0.011368124745529368,
+      "individual_differences": [
+        {
+          "with_factor": "R",
+          "without_factor": "original",
+          "delta": -0.02391561771587969
+        },
+        {
+          "with_factor": "TR",
+          "without_factor": "T",
+          "delta": 0.0
+        },
+        {
+          "with_factor": "RP",
+          "without_factor": "P",
+          "delta": -0.021556881266237782
+        },
+        {
+          "with_factor": "full",
+          "without_factor": "TP",
+          "delta": 0.0
+        }
+      ]
+    },
+    "P": {
+      "mean_difference_over_other_settings": 0.0005896841124104768,
+      "individual_differences": [
+        {
+          "with_factor": "P",
+          "without_factor": "original",
+          "delta": 0.0
+        },
+        {
+          "with_factor": "TP",
+          "without_factor": "T",
+          "delta": 0.0
+        },
+        {
+          "with_factor": "RP",
+          "without_factor": "R",
+          "delta": 0.002358736449641907
+        },
+        {
+          "with_factor": "full",
+          "without_factor": "TR",
+          "delta": 0.0
+        }
+      ]
+    }
+  },
+  "category_format_coverage": {
+    "ID": {
+      "nondex_report": 794
+    },
+    "NIO": {
+      "nio_json": 121
+    },
+    "OD": {
+      "surefire_text": 126
+    },
+    "TD": {
+      "surefire_text": 10
+    }
+  },
+  "unique_format_families": 3,
+  "all_four_categories_in_any_one_format": false,
+  "cases_kept_correct_by_component": {
+    "T": 0,
+    "R": 11,
+    "P": 56,
+    "TR": 0,
+    "TP": 0,
+    "RP": 18,
+    "full": 0
+  }
+}

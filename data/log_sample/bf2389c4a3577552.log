@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.apache.bookkeeper:bookkeeper-server >---------------
+[INFO] Building bookkeeper-server 4.3.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ bookkeeper-server ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ bookkeeper-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ bookkeeper-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 159 source files to /app/source/bookkeeper-server/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ bookkeeper-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ bookkeeper-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 79 source files to /app/source/bookkeeper-server/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.9:test (default-test) @ bookkeeper-server ---
+[INFO] Surefire report directory: /app/source/bookkeeper-server/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.bookkeeper.client.SlowBookieTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.745 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.545 s
+[INFO] Finished at: 2025-09-06T10:45:08Z
+[INFO] ------------------------------------------------------------------------

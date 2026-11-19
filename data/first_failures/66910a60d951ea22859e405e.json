@@ -1,0 +1,37 @@
+{
+  "container": "HADOOP-12181",
+  "metadata": {
+    "source": "JIRA",
+    "container": "HADOOP-12181",
+    "project": "https://github.com/apache/hadoop",
+    "revision": "4492b9e7302b8c84dddec9713d8148cc6183f46b",
+    "test": "org.apache.hadoop.security.authentication.util.TestZKSignerSecretProvider.testMultipleUnsychnronized",
+    "label": "TD",
+    "module": "hadoop-common-project/hadoop-auth",
+    "zip": "HADOOP-12181",
+    "config_row": 1073,
+    "configured_test": "org.apache.hadoop.security.authentication.util.TestZKSignerSecretProvider#testMultipleUnsychnronized",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hadoop::org.apache.hadoop.security.authentication.util.TestZKSignerSecretProvider.testMultipleUnsychnronized",
+    "variant_id": "https://github.com/apache/hadoop::org.apache.hadoop.security.authentication.util.TestZKSignerSecretProvider.testMultipleUnsychnronized::4492b9e7302b8c84dddec9713d8148cc6183f46b::hadoop-common-project/hadoop-auth",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 99,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/HADOOP-12181/result/Flaky/rounds-test-results.csv",
+    "size": 25615,
+    "compressed": 769,
+    "crc32": "f9729b8e",
+    "offset": 91163719,
+    "method": 8,
+    "local_path": "data/extracted/b120934431a84b37a9fe2cc5.csv",
+    "sha256": "c08fc51b3a3afee77129ded55f55046bfd0980d025e32b8fe5776e186a5c958d",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

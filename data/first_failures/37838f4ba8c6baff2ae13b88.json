@@ -1,0 +1,81 @@
+{
+  "container": "biojavabiojavastructure65ad15ftestFromFasta",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "biojavabiojavastructure65ad15ftestFromFasta",
+    "project": "https://github.com/biojava/biojava",
+    "revision": "65ad15fe58dcedd258fee1c14505e424c8536efc",
+    "test": "org.biojava.nbio.structure.io.FastaAFPChainConverterTest.testFromFasta",
+    "label": "ID",
+    "module": "biojava-structure",
+    "zip": "biojava=biojava-structure=65ad15f",
+    "config_row": 572,
+    "configured_test": "org.biojava.nbio.structure.io.FastaAFPChainConverterTest#testFromFasta",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.io.FastaAFPChainConverterTest.testFromFasta",
+    "variant_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.io.FastaAFPChainConverterTest.testFromFasta::65ad15fe58dcedd258fee1c14505e424c8536efc::biojava-structure",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/biojavabiojavastructure65ad15ftestFromFasta/result/Flaky/.nondex/iCDRtzfGMuyak8T3J3CQZh76Z13TFvmJ99LHliQvNls=/TEST-org.biojava.nbio.structure.io.FastaAFPChainConverterTest.xml",
+        "size": 12024,
+        "compressed": 2511,
+        "crc32": "67c78552",
+        "offset": 350194838,
+        "method": 8,
+        "local_path": "data/extracted/248e998d992a80fe34e95a08.xml",
+        "sha256": "093d527dcfd51e137e7759f930c5557194099cb71889a084c73b612d51cc229a",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestFromFasta/result/Flaky/rounds-test-results.csv",
+    "size": 20481,
+    "compressed": 5031,
+    "crc32": "7d7741a7",
+    "offset": 350067417,
+    "method": 8,
+    "local_path": "data/extracted/dd36bd2dd46e1f1fe8eda4e1.csv",
+    "sha256": "93adda739c3ca53eef55a7d556ed176ce65e110a90823b0b51687409fb0a2943",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestFromFasta/result/Flaky/.nondex/iCDRtzfGMuyak8T3J3CQZh76Z13TFvmJ99LHliQvNls=/TEST-org.biojava.nbio.structure.io.FastaAFPChainConverterTest.xml",
+    "size": 12024,
+    "compressed": 2511,
+    "crc32": "67c78552",
+    "offset": 350194838,
+    "method": 8,
+    "local_path": "data/extracted/248e998d992a80fe34e95a08.xml",
+    "sha256": "093d527dcfd51e137e7759f930c5557194099cb71889a084c73b612d51cc229a",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testFromFasta",
+    "outcome": "error",
+    "exception_type": "java.net.UnknownHostException",
+    "message": "mmtf.rcsb.org",
+    "stack_trace": "java.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.io.FastaAFPChainConverterTest.testFromFasta(FastaAFPChainConverterTest.java:158)",
+    "text": "java.net.UnknownHostException\nmmtf.rcsb.org\njava.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.io.FastaAFPChainConverterTest.testFromFasta(FastaAFPChainConverterTest.java:158)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "2f2b49d17c0c3bce67cfb6c1ecc136d3ee7aa1c75bafffed3f8c3ce40b7e8890"
+}

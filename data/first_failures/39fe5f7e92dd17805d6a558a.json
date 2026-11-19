@@ -1,0 +1,81 @@
+{
+  "container": "scimonoscimonoclient7487ec5testReadAllUsers6",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "scimonoscimonoclient7487ec5testReadAllUsers6",
+    "project": "https://github.com/sap/scimono",
+    "revision": "7487ec5c28c12469fd57980d9f810b9d357b6d81",
+    "test": "com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadAllUsers",
+    "label": "ID",
+    "module": "scimono-client",
+    "zip": "scimono=scimono-client=7487ec5",
+    "config_row": 715,
+    "configured_test": "com.sap.scimono.client.SCIMResourceResponseHandlingTest#testReadAllUsers",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/sap/scimono::com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadAllUsers",
+    "variant_id": "https://github.com/sap/scimono::com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadAllUsers::7487ec5c28c12469fd57980d9f810b9d357b6d81::scimono-client",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/scimonoscimonoclient7487ec5testReadAllUsers6/result/Flaky/.nondex/9y4DU4NGKP7M6whu3N0mB0Ar1Em8ph5p7Mh6tGwMkJI=/TEST-com.sap.scimono.client.SCIMResourceResponseHandlingTest.xml",
+        "size": 24307,
+        "compressed": 3760,
+        "crc32": "8753c86c",
+        "offset": 1581349732,
+        "method": 8,
+        "local_path": "data/extracted/728b4c614a5a75f46bb2fe67.xml",
+        "sha256": "f7c59d40d3c840bc9c4f69649c91a822334498ecd486413d788239b19b484c25",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/scimonoscimonoclient7487ec5testReadAllUsers6/result/Flaky/rounds-test-results.csv",
+    "size": 20227,
+    "compressed": 5158,
+    "crc32": "cd07e0d1",
+    "offset": 1581905400,
+    "method": 8,
+    "local_path": "data/extracted/f23fb0c8ebd33df12444692c.csv",
+    "sha256": "08e4bd7236445b575193255f6cbd400610dd118385e912651ff63593b5b7e992",
+    "status": "verified"
+  },
+  "reported_failure_rows": 85,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/scimonoscimonoclient7487ec5testReadAllUsers6/result/Flaky/.nondex/9y4DU4NGKP7M6whu3N0mB0Ar1Em8ph5p7Mh6tGwMkJI=/TEST-com.sap.scimono.client.SCIMResourceResponseHandlingTest.xml",
+    "size": 24307,
+    "compressed": 3760,
+    "crc32": "8753c86c",
+    "offset": 1581349732,
+    "method": 8,
+    "local_path": "data/extracted/728b4c614a5a75f46bb2fe67.xml",
+    "sha256": "f7c59d40d3c840bc9c4f69649c91a822334498ecd486413d788239b19b484c25",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testReadAllUsers",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.MultipleFailuresError",
+    "message": "Multiple Failures (1 failure)\n org.opentest4j.AssertionFailedError: expected: <true> but was: <false>",
+    "stack_trace": "org.opentest4j.MultipleFailuresError: \nMultiple Failures (1 failure)\n\torg.opentest4j.AssertionFailedError: expected: <true> but was: <false>\n\tat com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadAllUsers(SCIMResourceResponseHandlingTest.java:101)",
+    "text": "org.opentest4j.MultipleFailuresError\nMultiple Failures (1 failure)\n org.opentest4j.AssertionFailedError: expected: <true> but was: <false>\norg.opentest4j.MultipleFailuresError: \nMultiple Failures (1 failure)\n\torg.opentest4j.AssertionFailedError: expected: <true> but was: <false>\n\tat com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadAllUsers(SCIMResourceResponseHandlingTest.java:101)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "bbc842e847ecd3558f3767d9e719426e167cd3a67c8c4a5a6e9915483cfe040d"
+}

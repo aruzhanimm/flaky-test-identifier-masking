@@ -1,0 +1,81 @@
+{
+  "container": "servicecombjavachassisfoundationsfoundationvertxf37cdb1setParameter1",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "servicecombjavachassisfoundationsfoundationvertxf37cdb1setParameter1",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "revision": "f37cdb10d1aa35d14469b7613f99b23348ae5851",
+    "test": "org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.setParameter",
+    "label": "ID",
+    "module": "foundations/foundation-vertx",
+    "zip": "servicecomb-java-chassis=foundations+foundation-vertx=f37cdb1",
+    "config_row": 223,
+    "configured_test": "org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx#setParameter",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.setParameter",
+    "variant_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.setParameter::f37cdb10d1aa35d14469b7613f99b23348ae5851::foundations/foundation-vertx",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/servicecombjavachassisfoundationsfoundationvertxf37cdb1setParameter1/result/Flaky/.nondex/7euiRdtMnjH2Vp5oeVFv6ZEZ9mMsVbl7PIMDhi3W7Aw=/TEST-org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.xml",
+        "size": 23247,
+        "compressed": 3411,
+        "crc32": "e87dc016",
+        "offset": 807983048,
+        "method": 8,
+        "local_path": "data/extracted/aad13412a8aa38f3181db2f1.xml",
+        "sha256": "01b1086fcabad7e5dcf873021d794d7f53f6cd1cc6dfda247156884c862bfb38",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/servicecombjavachassisfoundationsfoundationvertxf37cdb1setParameter1/result/Flaky/rounds-test-results.csv",
+    "size": 23711,
+    "compressed": 5081,
+    "crc32": "cc9355bd",
+    "offset": 807774836,
+    "method": 8,
+    "local_path": "data/extracted/7f3ff5363e8174118284aa94.csv",
+    "sha256": "9e0caf728b6091e7fcb2c718b6867226ad1c4c0ca6657f625f496b2e685d5ee5",
+    "status": "verified"
+  },
+  "reported_failure_rows": 50,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/servicecombjavachassisfoundationsfoundationvertxf37cdb1setParameter1/result/Flaky/.nondex/7euiRdtMnjH2Vp5oeVFv6ZEZ9mMsVbl7PIMDhi3W7Aw=/TEST-org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.xml",
+    "size": 23247,
+    "compressed": 3411,
+    "crc32": "e87dc016",
+    "offset": 807983048,
+    "method": 8,
+    "local_path": "data/extracted/aad13412a8aa38f3181db2f1.xml",
+    "sha256": "01b1086fcabad7e5dcf873021d794d7f53f6cd1cc6dfda247156884c862bfb38",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "setParameter",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: iterable containing [\"k1\", \"k2\"]\n     but: item 0: was \"k2\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: iterable containing [\"k1\", \"k2\"]\n     but: item 0: was \"k2\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.setParameter(TestStandardHttpServletRequestEx.java:152)",
+    "text": "java.lang.AssertionError\nExpected: iterable containing [\"k1\", \"k2\"]\n     but: item 0: was \"k2\"\njava.lang.AssertionError: \n\nExpected: iterable containing [\"k1\", \"k2\"]\n     but: item 0: was \"k2\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.setParameter(TestStandardHttpServletRequestEx.java:152)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "593c2eff4ce7626dbfd3d12895c11ccd0e141b646a91af84919c1c8df79edd53"
+}

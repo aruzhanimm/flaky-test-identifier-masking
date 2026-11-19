@@ -1,0 +1,81 @@
+{
+  "container": "oktahookssdkjavahooks8bf25c8allow",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "oktahookssdkjavahooks8bf25c8allow",
+    "project": "https://github.com/okta/okta-hooks-sdk-java",
+    "revision": "8bf25c84b54e788040ae2272e1578bc625e871d4",
+    "test": "com.okta.hooks.sdk.UserRegHooksTest.allow",
+    "label": "ID",
+    "module": "hooks",
+    "zip": "okta-hooks-sdk-java=hooks=8bf25c8",
+    "config_row": 749,
+    "configured_test": "com.okta.hooks.sdk.UserRegHooksTest#allow",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.UserRegHooksTest.allow",
+    "variant_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.UserRegHooksTest.allow::8bf25c84b54e788040ae2272e1578bc625e871d4::hooks",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/oktahookssdkjavahooks8bf25c8allow/result/Flaky/.nondex/ncmsv7cgZ7tIJGz35reynTxkU5NS0vG0fRqifQCKJiM=/TEST-com.okta.hooks.sdk.UserRegHooksTest.xml",
+        "size": 11383,
+        "compressed": 2419,
+        "crc32": "e9a8fd5c",
+        "offset": 1241322103,
+        "method": 8,
+        "local_path": "data/extracted/88aa4beb751f8c528f6bc2cf.xml",
+        "sha256": "3662d7a27b4475211a70444d0a56441cac4824ce0a1a5166e8d657a4ea18fc86",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8allow/result/Flaky/rounds-test-results.csv",
+    "size": 17189,
+    "compressed": 5127,
+    "crc32": "64853b9b",
+    "offset": 1236930488,
+    "method": 8,
+    "local_path": "data/extracted/34b67d85594ae1bbc0fb3040.csv",
+    "sha256": "a29be0233d0f36dd7c3dc8e04c838c31a42ab6d929bef390c34ce93593703633",
+    "status": "verified"
+  },
+  "reported_failure_rows": 48,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8allow/result/Flaky/.nondex/ncmsv7cgZ7tIJGz35reynTxkU5NS0vG0fRqifQCKJiM=/TEST-com.okta.hooks.sdk.UserRegHooksTest.xml",
+    "size": 11383,
+    "compressed": 2419,
+    "crc32": "e9a8fd5c",
+    "offset": 1241322103,
+    "method": 8,
+    "local_path": "data/extracted/88aa4beb751f8c528f6bc2cf.xml",
+    "sha256": "3662d7a27b4475211a70444d0a56441cac4824ce0a1a5166e8d657a4ea18fc86",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "allow",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"registration\\\":\\\"ALLOW\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"registration\\\":\\\"ALLOW\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"}]}\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"registration\\\":\\\"ALLOW\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"registration\\\":\\\"ALLOW\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"}]}\"\n\tat com.okta.hooks.sdk.UserRegHooksTest.allow(UserRegHooksTest.groovy:140)",
+    "text": "java.lang.AssertionError\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"registration\\\":\\\"ALLOW\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"registration\\\":\\\"ALLOW\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"}]}\"\njava.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"registration\\\":\\\"ALLOW\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"registration\\\":\\\"ALLOW\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"}]}\"\n\tat com.okta.hooks.sdk.UserRegHooksTest.allow(UserRegHooksTest.groovy:140)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "ff0ea7846ad472000ed2624c42bb49b7c5ff6a742543ed586cdf7b531f29c373"
+}

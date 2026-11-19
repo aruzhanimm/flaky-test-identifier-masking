@@ -1,0 +1,81 @@
+{
+  "container": "appenginepluginscoreca26908testCall_withOverrideComponents",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "appenginepluginscoreca26908testCall_withOverrideComponents",
+    "project": "https://github.com/googlecloudplatform/appengine-plugins-core",
+    "revision": "ca2690886ea5da6f8251b2f69c7c0b7196717169",
+    "test": "com.google.cloud.tools.managedcloudsdk.install.InstallerTest.testCall_withOverrideComponents",
+    "label": "ID",
+    "module": ".",
+    "zip": "appengine-plugins-core=.=ca26908",
+    "config_row": 67,
+    "configured_test": "com.google.cloud.tools.managedcloudsdk.install.InstallerTest#testCall_withOverrideComponents",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/googlecloudplatform/appengine-plugins-core::com.google.cloud.tools.managedcloudsdk.install.InstallerTest.testCall_withOverrideComponents",
+    "variant_id": "https://github.com/googlecloudplatform/appengine-plugins-core::com.google.cloud.tools.managedcloudsdk.install.InstallerTest.testCall_withOverrideComponents::ca2690886ea5da6f8251b2f69c7c0b7196717169::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/appenginepluginscoreca26908testCall_withOverrideComponents/result/Flaky/.nondex/9TLo6B7eTNaebWjyjU9tYF7TIeVT3IIHvONU8vL3JM=/TEST-com.google.cloud.tools.managedcloudsdk.install.InstallerTest.xml",
+        "size": 11322,
+        "compressed": 2474,
+        "crc32": "59396d0d",
+        "offset": 643597836,
+        "method": 8,
+        "local_path": "data/extracted/6307a3c70367f39ae84d3aba.xml",
+        "sha256": "670dd76b0375a9ad76e36490e5a36e2d2cc6ee1f51d47853a93438f3835968e3",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/appenginepluginscoreca26908testCall_withOverrideComponents/result/Flaky/rounds-test-results.csv",
+    "size": 19312,
+    "compressed": 5107,
+    "crc32": "a7931144",
+    "offset": 643362859,
+    "method": 8,
+    "local_path": "data/extracted/bd4750805014f792b5eef9c4.csv",
+    "sha256": "032cfb7dae653de39c919e8123dfeafd0f8331d4be6316bd9a2aa1552caddf7c",
+    "status": "verified"
+  },
+  "reported_failure_rows": 43,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/appenginepluginscoreca26908testCall_withOverrideComponents/result/Flaky/.nondex/9TLo6B7eTNaebWjyjU9tYF7TIeVT3IIHvONU8vL3JM=/TEST-com.google.cloud.tools.managedcloudsdk.install.InstallerTest.xml",
+    "size": 11322,
+    "compressed": 2474,
+    "crc32": "59396d0d",
+    "offset": 643597836,
+    "method": 8,
+    "local_path": "data/extracted/6307a3c70367f39ae84d3aba.xml",
+    "sha256": "670dd76b0375a9ad76e36490e5a36e2d2cc6ee1f51d47853a93438f3835968e3",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testCall_withOverrideComponents",
+    "outcome": "failure",
+    "exception_type": "org.mockito.exceptions.verification.junit.ArgumentsAreDifferent",
+    "message": "Argument(s) are different! Wanted:\nmockCommandRunner.run(\n    [scriptexec, test-install.script, --path-update=false, --command-completion=false, --quiet, --usage-reporting=true, --override-components, myothercomponent, mycomponent],\n    /tmp/junit5043988016774624362,\n    {\"PROPERTY\" = \"value\"},\n    mockConsoleListener\n);\n-> at com.google.cloud.tools.managedcloudsdk.command.CommandRunner.run(CommandRunner.java:49)\nActual invocations have different arguments:\nmockCommandRunner.run(\n    [scriptexec, test-install.script, --path-update=false, --command-completion=false, --quiet, --usage-reporting=true, --override-components, mycomponent, myothercomponent],\n    /tmp/junit5043988016774624362,\n    {\"PROPERTY\" = \"value\"},\n    mockConsoleListener\n);\n-> at com.google.cloud.tools.managedcloudsdk.install.Installer.install(Installer.java:99)",
+    "stack_trace": "org.mockito.exceptions.verification.junit.ArgumentsAreDifferent: \n\nArgument(s) are different! Wanted:\nmockCommandRunner.run(\n    [scriptexec, test-install.script, --path-update=false, --command-completion=false, --quiet, --usage-reporting=true, --override-components, myothercomponent, mycomponent],\n    /tmp/junit5043988016774624362,\n    {\"PROPERTY\" = \"value\"},\n    mockConsoleListener\n);\n-> at com.google.cloud.tools.managedcloudsdk.command.CommandRunner.run(CommandRunner.java:49)\nActual invocations have different arguments:\nmockCommandRunner.run(\n    [scriptexec, test-install.script, --path-update=false, --command-completion=false, --quiet, --usage-reporting=true, --override-components, mycomponent, myothercomponent],\n    /tmp/junit5043988016774624362,\n    {\"PROPERTY\" = \"value\"},\n    mockConsoleListener\n);\n-> at com.google.cloud.tools.managedcloudsdk.install.Installer.install(Installer.java:99)\n\n\tat com.google.cloud.tools.managedcloudsdk.install.InstallerTest.testCall_withOverrideComponents(InstallerTest.java:115)",
+    "text": "org.mockito.exceptions.verification.junit.ArgumentsAreDifferent\nArgument(s) are different! Wanted:\nmockCommandRunner.run(\n    [scriptexec, test-install.script, --path-update=false, --command-completion=false, --quiet, --usage-reporting=true, --override-components, myothercomponent, mycomponent],\n    /tmp/junit5043988016774624362,\n    {\"PROPERTY\" = \"value\"},\n    mockConsoleListener\n);\n-> at com.google.cloud.tools.managedcloudsdk.command.CommandRunner.run(CommandRunner.java:49)\nActual invocations have different arguments:\nmockCommandRunner.run(\n    [scriptexec, test-install.script, --path-update=false, --command-completion=false, --quiet, --usage-reporting=true, --override-components, mycomponent, myothercomponent],\n    /tmp/junit5043988016774624362,\n    {\"PROPERTY\" = \"value\"},\n    mockConsoleListener\n);\n-> at com.google.cloud.tools.managedcloudsdk.install.Installer.install(Installer.java:99)\norg.mockito.exceptions.verification.junit.ArgumentsAreDifferent: \n\nArgument(s) are different! Wanted:\nmockCommandRunner.run(\n    [scriptexec, test-install.script, --path-update=false, --command-completion=false, --quiet, --usage-reporting=true, --override-components, myothercomponent, mycomponent],\n    /tmp/junit5043988016774624362,\n    {\"PROPERTY\" = \"value\"},\n    mockConsoleListener\n);\n-> at com.google.cloud.tools.managedcloudsdk.command.CommandRunner.run(CommandRunner.java:49)\nActual invocations have different arguments:\nmockCommandRunner.run(\n    [scriptexec, test-install.script, --path-update=false, --command-completion=false, --quiet, --usage-reporting=true, --override-components, mycomponent, myothercomponent],\n    /tmp/junit5043988016774624362,\n    {\"PROPERTY\" = \"value\"},\n    mockConsoleListener\n);\n-> at com.google.cloud.tools.managedcloudsdk.install.Installer.install(Installer.java:99)\n\n\tat com.google.cloud.tools.managedcloudsdk.install.InstallerTest.testCall_withOverrideComponents(InstallerTest.java:115)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "796e7f2672afd0852dfb450e43b3052ab9ecb2ab9ca9c390ffd6c4a31c3d81bd"
+}

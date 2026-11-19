@@ -1,0 +1,39 @@
+{
+  "started_utc": "2026-11-19T08:31:55.887786+00:00",
+  "post_hoc": true,
+  "protocol_sha256": "e10d36ce7823fd86945909a65b7d3f70f81bd88759ee2e1471e7ae68fab28f41",
+  "corpus_sha256": "4fbee74d76717535e80f7c40841852784a23c1907954e8227ad2ae31f87c5127",
+  "original_config_sha256": "31e7bee91bd23eb569ed19129c685cfcf4b181a0e96bea390d87940f1d270c05",
+  "splits_sha256": "7a89e5a37ecb52006ffdb7814fa2469ebadeac44aead9183a25e1c5e1394e094",
+  "code_sha256": {
+    "run_extension_v5_models.py": "ab59366d6430c2396a9b80eceee02871e0e5963a10ee61b82f20011c232d19b0",
+    "test_extension_v5_models.py": "fbb5b932a6de2fe66b1edaac631cab5e527e5a22ed4eda5464043e5cd4553db2"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "computation_threads": 1
+  },
+  "imported_checkpoints": {
+    "source": "extension_v5_models_2026-11-19",
+    "source_provenance_sha256": "3aa6dd6b81ad22ef779beeebc286e9a4360d04a9a5f65c45d9b6de1a3edd82ec",
+    "files": {
+      "000.json": "f0c9c79b15e267a550a4ececedb57bc6218d217967478909b00140110a2acc74",
+      "001.json": "51a251db330e5b0dce783755762e6a9254a90565f1eb6b7d94095017a93214cc",
+      "002.json": "d801d6dbfeef642b4a308d0fde4396ca415f9532bfade72a445198e7d58d15b4",
+      "003.json": "1475068dca777fbe7420d315fdfdf7b9a93bea6acdffbad94e67021a4255e14a",
+      "004.json": "8fce5e7e1b07c23869af887ea73d69908e1fbd54c39af3a11216790e040129ae",
+      "005.json": "193dbea17c2c2b0bc23e296101f365aea3d71b70d405fb5815d3a16c1dc86e46",
+      "006.json": "70e2c0bf6c3c15aa708189d9a9ea9f61cb79d3369da7621acf9250d87a59d16f",
+      "007.json": "f53acf74a51f1f698922bedff6f18d8357e0de361cdffc734019cb827e0c5c0a",
+      "008.json": "e9a684264145001afca95635f6554b586c19b973e57db2c46279f89ab8eaffe0",
+      "009.json": "0c232fdaaad7749e0c3d5108b9be83c4501db62664ddb5636d90689bf9de2755",
+      "010.json": "6b87a0fc90d1049796c5b5336d23a99ab7c4e0ae079fbb616a44ce40f92a5882",
+      "011.json": "20307b1bf3e5ff9bc7bbe58693950e6d4ca94f07e4d6ebb49b40b82b1e2de72a"
+    },
+    "reason": "Operational recovery after shell-process interruption; identical scientific configuration; source checkpoints retained byte-for-byte."
+  }
+}

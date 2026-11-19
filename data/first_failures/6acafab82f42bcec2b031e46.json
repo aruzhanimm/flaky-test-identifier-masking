@@ -1,0 +1,81 @@
+{
+  "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject37",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject37",
+    "project": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "test": "org.apache.activemq.transport.stomp.StompSslTest.testTransformationReceiveJSONObject",
+    "label": "ID",
+    "module": "activemq-stomp",
+    "zip": "activemq=activemq-stomp=aeab06e",
+    "config_row": 151,
+    "configured_test": "org.apache.activemq.transport.stomp.StompSslTest#testTransformationReceiveJSONObject",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/activemq::org.apache.activemq.transport.stomp.StompSslTest.testTransformationReceiveJSONObject",
+    "variant_id": "https://github.com/apache/activemq::org.apache.activemq.transport.stomp.StompSslTest.testTransformationReceiveJSONObject::aeab06e93e40d3a3ec198dc537388326832ff270::activemq-stomp",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/activemqactivemqstompaeab06etestTransformationReceiveJSONObject37/result/Flaky/.nondex/slCe8VEdTx3yy0iS91Dy25GMZdO5mOObtIZkDx8UMA=/TEST-org.apache.activemq.transport.stomp.StompSslTest.xml",
+        "size": 18216,
+        "compressed": 3590,
+        "crc32": "3d6fa21b",
+        "offset": 846045144,
+        "method": 8,
+        "local_path": "data/extracted/fedbc930344d75a019ad1cfc.xml",
+        "sha256": "3038ada545cf7ce2737bc2ab4454c7f037baf7f49459f763eda34eb0e1804513",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/activemqactivemqstompaeab06etestTransformationReceiveJSONObject37/result/Flaky/rounds-test-results.csv",
+    "size": 19444,
+    "compressed": 5079,
+    "crc32": "fb9d5cf0",
+    "offset": 845867797,
+    "method": 8,
+    "local_path": "data/extracted/9a7cabfd9c3f9d3a0d616a41.csv",
+    "sha256": "a636962c0127310aba5312f052467279e6297dba70d5def1deed80e1a90138ca",
+    "status": "verified"
+  },
+  "reported_failure_rows": 64,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/activemqactivemqstompaeab06etestTransformationReceiveJSONObject37/result/Flaky/.nondex/slCe8VEdTx3yy0iS91Dy25GMZdO5mOObtIZkDx8UMA=/TEST-org.apache.activemq.transport.stomp.StompSslTest.xml",
+    "size": 18216,
+    "compressed": 3590,
+    "crc32": "3d6fa21b",
+    "offset": 846045144,
+    "method": 8,
+    "local_path": "data/extracted/fedbc930344d75a019ad1cfc.xml",
+    "sha256": "3038ada545cf7ce2737bc2ab4454c7f037baf7f49459f763eda34eb0e1804513",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testTransformationReceiveJSONObject",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveJSONObject(StompTest.java:1113)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.lang.Thread.run(Thread.java:833)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveJSONObject(StompTest.java:1113)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.lang.Thread.run(Thread.java:833)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "ecd52aa8700cc0724eb0fd6fce4f44d96156b88225a78c38c746d5d53e08fc8c"
+}

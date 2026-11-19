@@ -1,0 +1,81 @@
+{
+  "container": "junitquickcheckcore7d23b2dfindingAnnotationsRecursively",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "junitquickcheckcore7d23b2dfindingAnnotationsRecursively",
+    "project": "https://github.com/pholser/junit-quickcheck",
+    "revision": "7d23b2de33c485ff5b73d7a28a4e83ba65482170",
+    "test": "com.pholser.junit.quickcheck.internal.ReflectionTest.findingAnnotationsRecursively",
+    "label": "ID",
+    "module": "core",
+    "zip": "junit-quickcheck=core=7d23b2d",
+    "config_row": 795,
+    "configured_test": "com.pholser.junit.quickcheck.internal.ReflectionTest#findingAnnotationsRecursively",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/pholser/junit-quickcheck::com.pholser.junit.quickcheck.internal.ReflectionTest.findingAnnotationsRecursively",
+    "variant_id": "https://github.com/pholser/junit-quickcheck::com.pholser.junit.quickcheck.internal.ReflectionTest.findingAnnotationsRecursively::7d23b2de33c485ff5b73d7a28a4e83ba65482170::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 5,
+      "iteration": 4,
+      "member": {
+        "path": "result/junitquickcheckcore7d23b2dfindingAnnotationsRecursively/result/Flaky/.nondex/q0qN2wXfXZvk6iUaZvjaMknBp56DGF35jNzEF9OFwmU=/TEST-com.pholser.junit.quickcheck.internal.ReflectionTest.xml",
+        "size": 10137,
+        "compressed": 2233,
+        "crc32": "a3297c3a",
+        "offset": 1161536612,
+        "method": 8,
+        "local_path": "data/extracted/d851280593e191155d13689d.xml",
+        "sha256": "810e88bcd27c79da8dd61be8bd98dde468417417662d47b71bd66670152e1965",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/junitquickcheckcore7d23b2dfindingAnnotationsRecursively/result/Flaky/rounds-test-results.csv",
+    "size": 18813,
+    "compressed": 4933,
+    "crc32": "535fe7e4",
+    "offset": 1161309095,
+    "method": 8,
+    "local_path": "data/extracted/5690bc68802d19f12af92169.csv",
+    "sha256": "c2352aef5bc6796de24aa85502a2c82c72cd8aba92b1bc571faca70627a42587",
+    "status": "verified"
+  },
+  "reported_failure_rows": 52,
+  "iteration": 4,
+  "source_row": 5,
+  "diagnostic_member": {
+    "path": "result/junitquickcheckcore7d23b2dfindingAnnotationsRecursively/result/Flaky/.nondex/q0qN2wXfXZvk6iUaZvjaMknBp56DGF35jNzEF9OFwmU=/TEST-com.pholser.junit.quickcheck.internal.ReflectionTest.xml",
+    "size": 10137,
+    "compressed": 2233,
+    "crc32": "a3297c3a",
+    "offset": 1161536612,
+    "method": 8,
+    "local_path": "data/extracted/d851280593e191155d13689d.xml",
+    "sha256": "810e88bcd27c79da8dd61be8bd98dde468417417662d47b71bd66670152e1965",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "findingAnnotationsRecursively",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "expected:<interface com.pholser.junit.quickcheck.internal.ReflectionTest$Z> but was:<interface com.pholser.junit.quickcheck.internal.ReflectionTest$W>",
+    "stack_trace": "java.lang.AssertionError: expected:<interface com.pholser.junit.quickcheck.internal.ReflectionTest$Z> but was:<interface com.pholser.junit.quickcheck.internal.ReflectionTest$W>\n\tat com.pholser.junit.quickcheck.internal.ReflectionTest.findingAnnotationsRecursively(ReflectionTest.java:555)",
+    "text": "java.lang.AssertionError\nexpected:<interface com.pholser.junit.quickcheck.internal.ReflectionTest$Z> but was:<interface com.pholser.junit.quickcheck.internal.ReflectionTest$W>\njava.lang.AssertionError: expected:<interface com.pholser.junit.quickcheck.internal.ReflectionTest$Z> but was:<interface com.pholser.junit.quickcheck.internal.ReflectionTest$W>\n\tat com.pholser.junit.quickcheck.internal.ReflectionTest.findingAnnotationsRecursively(ReflectionTest.java:555)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "f709a39f972ed6ab05156466abcc71d26ddbd11d4e5c6bcc81bc86b86a59a7d4"
+}

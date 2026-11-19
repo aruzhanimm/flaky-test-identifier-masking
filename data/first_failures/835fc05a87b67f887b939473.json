@@ -1,0 +1,81 @@
+{
+  "container": "weblogicmonitoringexporterwlsexportercorea68055cgenerateJsonRequest",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "weblogicmonitoringexporterwlsexportercorea68055cgenerateJsonRequest",
+    "project": "https://github.com/oracle/weblogic-monitoring-exporter",
+    "revision": "a68055cb9819eb9e2b3865f49d731ca889a44ef6",
+    "test": "com.oracle.wls.exporter.domain.MBeanSelectorTest.generateJsonRequest",
+    "label": "ID",
+    "module": "wls-exporter-core",
+    "zip": "weblogic-monitoring-exporter=wls-exporter-core=a68055c",
+    "config_row": 207,
+    "configured_test": "com.oracle.wls.exporter.domain.MBeanSelectorTest#generateJsonRequest",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/oracle/weblogic-monitoring-exporter::com.oracle.wls.exporter.domain.MBeanSelectorTest.generateJsonRequest",
+    "variant_id": "https://github.com/oracle/weblogic-monitoring-exporter::com.oracle.wls.exporter.domain.MBeanSelectorTest.generateJsonRequest::a68055cb9819eb9e2b3865f49d731ca889a44ef6::wls-exporter-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/weblogicmonitoringexporterwlsexportercorea68055cgenerateJsonRequest/result/Flaky/.nondex/PNsPM4jpl+pS8WUXny+Onb1+O5zdZu1vZOglLYDV58c=/TEST-com.oracle.wls.exporter.domain.MBeanSelectorTest.xml",
+        "size": 14106,
+        "compressed": 2744,
+        "crc32": "4792b411",
+        "offset": 787379558,
+        "method": 8,
+        "local_path": "data/extracted/b4847d5342f9e9627439e218.xml",
+        "sha256": "51ff302df84bee4cf4b59b6c3f6acc6d72fec33aed4c240227e9ba7519b9dce4",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/weblogicmonitoringexporterwlsexportercorea68055cgenerateJsonRequest/result/Flaky/rounds-test-results.csv",
+    "size": 19787,
+    "compressed": 4917,
+    "crc32": "c3c28fb0",
+    "offset": 787177615,
+    "method": 8,
+    "local_path": "data/extracted/86af07a3a12cde750173ae5c.csv",
+    "sha256": "41e53d24a9feaecc1caf89d43ff890774670136b7eb9762aca7880d6e9aeaf0a",
+    "status": "verified"
+  },
+  "reported_failure_rows": 87,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/weblogicmonitoringexporterwlsexportercorea68055cgenerateJsonRequest/result/Flaky/.nondex/PNsPM4jpl+pS8WUXny+Onb1+O5zdZu1vZOglLYDV58c=/TEST-com.oracle.wls.exporter.domain.MBeanSelectorTest.xml",
+    "size": 14106,
+    "compressed": 2744,
+    "crc32": "4792b411",
+    "offset": 787379558,
+    "method": 8,
+    "local_path": "data/extracted/b4847d5342f9e9627439e218.xml",
+    "sha256": "51ff302df84bee4cf4b59b6c3f6acc6d72fec33aed4c240227e9ba7519b9dce4",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "generateJsonRequest",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: \"{\\\"links\\\":[],\\\"fields\\\":[],\\\"children\\\":{\\\"applicationRuntimes\\\":{\\\"links\\\":[],\\\"fields\\\":[\\\"name\\\"],\\\"children\\\":{\\\"componentRuntimes\\\":{\\\"links\\\":[],\\\"fields\\\":[\\\"name\\\",\\\"age\\\",\\\"beauty\\\"],\\\"children\\\":{\\\"servlets\\\":{\\\"links\\\":[],\\\"fields\\\":[\\\"servletName\\\",\\\"first\\\",\\\"second\\\",\\\"third\\\"]}}}}}}}\"\n     but: was \"{\\\"fields\\\":[],\\\"links\\\":[],\\\"children\\\":{\\\"applicationRuntimes\\\":{\\\"fields\\\":[\\\"name\\\"],\\\"links\\\":[],\\\"children\\\":{\\\"componentRuntimes\\\":{\\\"fields\\\":[\\\"name\\\",\\\"age\\\",\\\"beauty\\\"],\\\"links\\\":[],\\\"children\\\":{\\\"servlets\\\":{\\\"fields\\\":[\\\"servletName\\\",\\\"first\\\",\\\"second\\\",\\\"third\\\"],\\\"links\\\":[]}}}}}}}\"\n\tat com.oracle.wls.exporter.domain.MBeanSelectorTest.generateJsonRequest(MBeanSelectorTest.java:315)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError: \n\nExpected: \"{\\\"links\\\":[],\\\"fields\\\":[],\\\"children\\\":{\\\"applicationRuntimes\\\":{\\\"links\\\":[],\\\"fields\\\":[\\\"name\\\"],\\\"children\\\":{\\\"componentRuntimes\\\":{\\\"links\\\":[],\\\"fields\\\":[\\\"name\\\",\\\"age\\\",\\\"beauty\\\"],\\\"children\\\":{\\\"servlets\\\":{\\\"links\\\":[],\\\"fields\\\":[\\\"servletName\\\",\\\"first\\\",\\\"second\\\",\\\"third\\\"]}}}}}}}\"\n     but: was \"{\\\"fields\\\":[],\\\"links\\\":[],\\\"children\\\":{\\\"applicationRuntimes\\\":{\\\"fields\\\":[\\\"name\\\"],\\\"links\\\":[],\\\"children\\\":{\\\"componentRuntimes\\\":{\\\"fields\\\":[\\\"name\\\",\\\"age\\\",\\\"beauty\\\"],\\\"links\\\":[],\\\"children\\\":{\\\"servlets\\\":{\\\"fields\\\":[\\\"servletName\\\",\\\"first\\\",\\\"second\\\",\\\"third\\\"],\\\"links\\\":[]}}}}}}}\"\n\tat com.oracle.wls.exporter.domain.MBeanSelectorTest.generateJsonRequest(MBeanSelectorTest.java:315)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "3a881fc7d046a5e1a781f131df0dd21e8e9b5a55b51629120122ece8287bf4f8"
+}

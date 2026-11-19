@@ -1,0 +1,98 @@
+{
+  "container": "YARN-1268",
+  "metadata": {
+    "source": "JIRA",
+    "container": "YARN-1268",
+    "project": "https://github.com/apache/hadoop",
+    "revision": "cae1ed9f6c438e20acdf385e95041f91ae349c71",
+    "test": "org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.TestFairScheduler.testContinuousScheduling",
+    "label": "TD",
+    "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-resourcemanager",
+    "zip": "YARN-1268",
+    "config_row": 1097,
+    "configured_test": "org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.TestFairScheduler#testContinuousScheduling",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hadoop::org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.TestFairScheduler.testContinuousScheduling",
+    "variant_id": "https://github.com/apache/hadoop::org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.TestFairScheduler.testContinuousScheduling::cae1ed9f6c438e20acdf385e95041f91ae349c71::hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-resourcemanager",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 16,
+      "iteration": 15,
+      "member": {
+        "path": "result/YARN-1268/result/Flaky/surefire-reports/reports-15/org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.TestFairScheduler.txt",
+        "size": 1044,
+        "compressed": 305,
+        "crc32": "b82cdc7f",
+        "offset": 178334159,
+        "method": 8,
+        "local_path": "data/extracted/090c2d248385d7da099c9d0d.txt",
+        "sha256": "ae83e2991a220f00549fac2ea90ed83c3e2136533c4a910465cf6a987bd664aa",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 16,
+      "iteration": 15,
+      "member": {
+        "path": "result/YARN-1268/result/Flaky/surefire-reports/reports-15/org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.TestFairScheduler.txt",
+        "size": 1044,
+        "compressed": 305,
+        "crc32": "b82cdc7f",
+        "offset": 178334159,
+        "method": 8,
+        "local_path": "data/extracted/090c2d248385d7da099c9d0d.txt",
+        "sha256": "ae83e2991a220f00549fac2ea90ed83c3e2136533c4a910465cf6a987bd664aa",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/YARN-1268/result/Flaky/rounds-test-results.csv",
+    "size": 31799,
+    "compressed": 854,
+    "crc32": "573ad57f",
+    "offset": 178344199,
+    "method": 8,
+    "local_path": "data/extracted/ba937ee9bff96cf88a9ac716.csv",
+    "sha256": "5ce0c96be7735170729c5e7117962233edc2244e77c9122f5cfd8df7a6425a3e",
+    "status": "verified"
+  },
+  "reported_failure_rows": 6,
+  "iteration": 15,
+  "source_row": 16,
+  "diagnostic_member": {
+    "path": "result/YARN-1268/result/Flaky/surefire-reports/reports-15/org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.TestFairScheduler.txt",
+    "size": 1044,
+    "compressed": 305,
+    "crc32": "b82cdc7f",
+    "offset": 178334159,
+    "method": 8,
+    "local_path": "data/extracted/090c2d248385d7da099c9d0d.txt",
+    "sha256": "ae83e2991a220f00549fac2ea90ed83c3e2136533c4a910465cf6a987bd664aa",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "testContinuousScheduling",
+    "outcome": "failure",
+    "exception_type": "junit.framework.AssertionFailedError",
+    "message": "expected:<1024> but was:<0>",
+    "stack_trace": "junit.framework.AssertionFailedError: expected:<1024> but was:<0>\n\tat junit.framework.Assert.fail(Assert.java:50)\n\tat junit.framework.Assert.failNotEquals(Assert.java:287)\n\tat junit.framework.Assert.assertEquals(Assert.java:67)\n\tat junit.framework.Assert.assertEquals(Assert.java:199)\n\tat junit.framework.Assert.assertEquals(Assert.java:205)\n\tat org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.TestFairScheduler.testContinuousScheduling(TestFairScheduler.java:2321)",
+    "text": "junit.framework.AssertionFailedError\nexpected:<1024> but was:<0>\njunit.framework.AssertionFailedError: expected:<1024> but was:<0>\n\tat junit.framework.Assert.fail(Assert.java:50)\n\tat junit.framework.Assert.failNotEquals(Assert.java:287)\n\tat junit.framework.Assert.assertEquals(Assert.java:67)\n\tat junit.framework.Assert.assertEquals(Assert.java:199)\n\tat junit.framework.Assert.assertEquals(Assert.java:205)\n\tat org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.TestFairScheduler.testContinuousScheduling(TestFairScheduler.java:2321)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "ed1af44d95e3ef22f369d3dc1d15d688ce0408a26333b23fe8d5e667c3b907b3"
+}

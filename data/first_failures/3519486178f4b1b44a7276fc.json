@@ -1,0 +1,81 @@
+{
+  "container": "incubatorshardingsphereshardingjdbcshardingjdbccorea0ffcf0assertDeleteWithExecute",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "incubatorshardingsphereshardingjdbcshardingjdbccorea0ffcf0assertDeleteWithExecute",
+    "project": "https://github.com/apache/incubator-shardingsphere",
+    "revision": "a0ffcf02c29e5259f0bdbf5a6f8a5e089c48a751",
+    "test": "org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.assertDeleteWithExecute",
+    "label": "ID",
+    "module": "sharding-jdbc/sharding-jdbc-core",
+    "zip": "incubator-shardingsphere=sharding-jdbc+sharding-jdbc-core=a0ffcf0",
+    "config_row": 390,
+    "configured_test": "org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest#assertDeleteWithExecute",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/incubator-shardingsphere::org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.assertDeleteWithExecute",
+    "variant_id": "https://github.com/apache/incubator-shardingsphere::org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.assertDeleteWithExecute::a0ffcf02c29e5259f0bdbf5a6f8a5e089c48a751::sharding-jdbc/sharding-jdbc-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/incubatorshardingsphereshardingjdbcshardingjdbccorea0ffcf0assertDeleteWithExecute/result/Flaky/.nondex/ddB1ZoihRAGbm8eHGKY+FWBgRAZeU0otXYlUz2UdBU=/TEST-org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.xml",
+        "size": 16742,
+        "compressed": 2730,
+        "crc32": "da5981d0",
+        "offset": 1983186017,
+        "method": 8,
+        "local_path": "data/extracted/bf42d69ca023602b4b59f9b5.xml",
+        "sha256": "a4e2160e8aac0930b0692a5da141aa869b4554806350228fe8e167948eac60b8",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/incubatorshardingsphereshardingjdbcshardingjdbccorea0ffcf0assertDeleteWithExecute/result/Flaky/rounds-test-results.csv",
+    "size": 24364,
+    "compressed": 5156,
+    "crc32": "b68be781",
+    "offset": 1982690222,
+    "method": 8,
+    "local_path": "data/extracted/1d243cf84273fc6c577099b6.csv",
+    "sha256": "56f23ac4c278e6f5d1ce677ee7be5da6e749b6aaea6a3a4badd83aaafee141b1",
+    "status": "verified"
+  },
+  "reported_failure_rows": 69,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/incubatorshardingsphereshardingjdbcshardingjdbccorea0ffcf0assertDeleteWithExecute/result/Flaky/.nondex/ddB1ZoihRAGbm8eHGKY+FWBgRAZeU0otXYlUz2UdBU=/TEST-org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.xml",
+    "size": 16742,
+    "compressed": 2730,
+    "crc32": "da5981d0",
+    "offset": 1983186017,
+    "method": 8,
+    "local_path": "data/extracted/bf42d69ca023602b4b59f9b5.xml",
+    "sha256": "a4e2160e8aac0930b0692a5da141aa869b4554806350228fe8e167948eac60b8",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "assertDeleteWithExecute",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: is <1>\n     but: was <0>",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: is <1>\n     but: was <0>\n\tat org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.assertResultSet(EncryptStatementTest.java:180)\n\tat org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.assertDeleteWithExecute(EncryptStatementTest.java:87)",
+    "text": "java.lang.AssertionError\nExpected: is <1>\n     but: was <0>\njava.lang.AssertionError: \n\nExpected: is <1>\n     but: was <0>\n\tat org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.assertResultSet(EncryptStatementTest.java:180)\n\tat org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.assertDeleteWithExecute(EncryptStatementTest.java:87)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "4ae58a86e35b15e9b590fa04aa025bfd5e81a6336e02bca7e754c0a9f6911b0e"
+}

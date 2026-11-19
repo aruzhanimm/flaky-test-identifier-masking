@@ -1,0 +1,81 @@
+{
+  "container": "jsonioa6f9b6btestPrettyPrint",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jsonioa6f9b6btestPrettyPrint",
+    "project": "https://github.com/jdereg/json-io",
+    "revision": "a6f9b6bbf0bd99cd9fa681d7ffeceb90ea87461e",
+    "test": "com.cedarsoftware.io.PrettyPrintTest.testPrettyPrint",
+    "label": "ID",
+    "module": ".",
+    "zip": "json-io=.=a6f9b6b",
+    "config_row": 359,
+    "configured_test": "com.cedarsoftware.io.PrettyPrintTest#testPrettyPrint",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/jdereg/json-io::com.cedarsoftware.io.PrettyPrintTest.testPrettyPrint",
+    "variant_id": "https://github.com/jdereg/json-io::com.cedarsoftware.io.PrettyPrintTest.testPrettyPrint::a6f9b6bbf0bd99cd9fa681d7ffeceb90ea87461e::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/jsonioa6f9b6btestPrettyPrint/result/Flaky/.nondex/Pi5QHNYQtglTaXpgnAcboZMENZbISM5fl9R9RXkNJYo=/TEST-com.cedarsoftware.io.PrettyPrintTest.xml",
+        "size": 12936,
+        "compressed": 2734,
+        "crc32": "5ba9d3ec",
+        "offset": 2065221017,
+        "method": 8,
+        "local_path": "data/extracted/4578057c72aeaaa1eebdf61d.xml",
+        "sha256": "375bd172e384277c2f98438b4ba93ecdb9a1259447b0a18183de6ff370a93f1c",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jsonioa6f9b6btestPrettyPrint/result/Flaky/rounds-test-results.csv",
+    "size": 17016,
+    "compressed": 5065,
+    "crc32": "b9243ca4",
+    "offset": 2064861188,
+    "method": 8,
+    "local_path": "data/extracted/7a3791ef9c1d1aad5bb35d30.csv",
+    "sha256": "3716df6f4aa9af48ab67843c4bb3febf0052c21de2c4b67bd28adc474e97ff15",
+    "status": "verified"
+  },
+  "reported_failure_rows": 86,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/jsonioa6f9b6btestPrettyPrint/result/Flaky/.nondex/Pi5QHNYQtglTaXpgnAcboZMENZbISM5fl9R9RXkNJYo=/TEST-com.cedarsoftware.io.PrettyPrintTest.xml",
+    "size": 12936,
+    "compressed": 2734,
+    "crc32": "5ba9d3ec",
+    "offset": 2065221017,
+    "method": 8,
+    "local_path": "data/extracted/4578057c72aeaaa1eebdf61d.xml",
+    "sha256": "375bd172e384277c2f98438b4ba93ecdb9a1259447b0a18183de6ff370a93f1c",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testPrettyPrint",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "Expecting actual:\n  \"{\n  \"@type\":\"com.cedarsoftware.io.PrettyPrintTest$Nice\",\n  \"dictionary\":{\n    \"@type\":\"LinkedHashMap\",\n    \"grade\":\"A\",\n    \"price\":100.0,\n    \"bigdec\":{\n      \"@type\":\"BigDecimal\",\n      \"value\":\"3.141592653589793238462643383\"\n    }\n  },\n  \"name\":\"Louie\",\n  \"items\":{\n    \"@type\":\"ArrayList\",\n    \"@items\":[\n      \"One\",\n      1,\n      {\n        \"@type\":\"Integer\",\n        \"value\":1\n      },\n      true\n    ]\n  }\n}\"\nto be equal to:\n  \"{\n  \"@type\":\"com.cedarsoftware.io.PrettyPrintTest$Nice\",\n  \"name\":\"Louie\",\n  \"items\":{\n    \"@type\":\"ArrayList\",\n    \"@items\":[\n      \"One\",\n      1,\n      {\n        \"@type\":\"Integer\",\n        \"value\":1\n      },\n      true\n    ]\n  },\n  \"dictionary\":{\n    \"@type\":\"LinkedHashMap\",\n    \"grade\":\"A\",\n    \"price\":100.0,\n    \"bigdec\":{\n      \"@type\":\"BigDecimal\",\n      \"value\":\"3.141592653589793238462643383\"\n    }\n  }\n}\"\nwhen ignoring newlines (\\n, \\r\\n).",
+    "stack_trace": "org.opentest4j.AssertionFailedError: \n\nExpecting actual:\n  \"{\n  \"@type\":\"com.cedarsoftware.io.PrettyPrintTest$Nice\",\n  \"dictionary\":{\n    \"@type\":\"LinkedHashMap\",\n    \"grade\":\"A\",\n    \"price\":100.0,\n    \"bigdec\":{\n      \"@type\":\"BigDecimal\",\n      \"value\":\"3.141592653589793238462643383\"\n    }\n  },\n  \"name\":\"Louie\",\n  \"items\":{\n    \"@type\":\"ArrayList\",\n    \"@items\":[\n      \"One\",\n      1,\n      {\n        \"@type\":\"Integer\",\n        \"value\":1\n      },\n      true\n    ]\n  }\n}\"\nto be equal to:\n  \"{\n  \"@type\":\"com.cedarsoftware.io.PrettyPrintTest$Nice\",\n  \"name\":\"Louie\",\n  \"items\":{\n    \"@type\":\"ArrayList\",\n    \"@items\":[\n      \"One\",\n      1,\n      {\n        \"@type\":\"Integer\",\n        \"value\":1\n      },\n      true\n    ]\n  },\n  \"dictionary\":{\n    \"@type\":\"LinkedHashMap\",\n    \"grade\":\"A\",\n    \"price\":100.0,\n    \"bigdec\":{\n      \"@type\":\"BigDecimal\",\n      \"value\":\"3.141592653589793238462643383\"\n    }\n  }\n}\"\nwhen ignoring newlines (\\n, \\r\\n).\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat com.cedarsoftware.io.PrettyPrintTest.testPrettyPrint(PrettyPrintTest.java:58)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "text": "org.opentest4j.AssertionFailedError\nExpecting actual:\n  \"{\n  \"@type\":\"com.cedarsoftware.io.PrettyPrintTest$Nice\",\n  \"dictionary\":{\n    \"@type\":\"LinkedHashMap\",\n    \"grade\":\"A\",\n    \"price\":100.0,\n    \"bigdec\":{\n      \"@type\":\"BigDecimal\",\n      \"value\":\"3.141592653589793238462643383\"\n    }\n  },\n  \"name\":\"Louie\",\n  \"items\":{\n    \"@type\":\"ArrayList\",\n    \"@items\":[\n      \"One\",\n      1,\n      {\n        \"@type\":\"Integer\",\n        \"value\":1\n      },\n      true\n    ]\n  }\n}\"\nto be equal to:\n  \"{\n  \"@type\":\"com.cedarsoftware.io.PrettyPrintTest$Nice\",\n  \"name\":\"Louie\",\n  \"items\":{\n    \"@type\":\"ArrayList\",\n    \"@items\":[\n      \"One\",\n      1,\n      {\n        \"@type\":\"Integer\",\n        \"value\":1\n      },\n      true\n    ]\n  },\n  \"dictionary\":{\n    \"@type\":\"LinkedHashMap\",\n    \"grade\":\"A\",\n    \"price\":100.0,\n    \"bigdec\":{\n      \"@type\":\"BigDecimal\",\n      \"value\":\"3.141592653589793238462643383\"\n    }\n  }\n}\"\nwhen ignoring newlines (\\n, \\r\\n).\norg.opentest4j.AssertionFailedError: \n\nExpecting actual:\n  \"{\n  \"@type\":\"com.cedarsoftware.io.PrettyPrintTest$Nice\",\n  \"dictionary\":{\n    \"@type\":\"LinkedHashMap\",\n    \"grade\":\"A\",\n    \"price\":100.0,\n    \"bigdec\":{\n      \"@type\":\"BigDecimal\",\n      \"value\":\"3.141592653589793238462643383\"\n    }\n  },\n  \"name\":\"Louie\",\n  \"items\":{\n    \"@type\":\"ArrayList\",\n    \"@items\":[\n      \"One\",\n      1,\n      {\n        \"@type\":\"Integer\",\n        \"value\":1\n      },\n      true\n    ]\n  }\n}\"\nto be equal to:\n  \"{\n  \"@type\":\"com.cedarsoftware.io.PrettyPrintTest$Nice\",\n  \"name\":\"Louie\",\n  \"items\":{\n    \"@type\":\"ArrayList\",\n    \"@items\":[\n      \"One\",\n      1,\n      {\n        \"@type\":\"Integer\",\n        \"value\":1\n      },\n      true\n    ]\n  },\n  \"dictionary\":{\n    \"@type\":\"LinkedHashMap\",\n    \"grade\":\"A\",\n    \"price\":100.0,\n    \"bigdec\":{\n      \"@type\":\"BigDecimal\",\n      \"value\":\"3.141592653589793238462643383\"\n    }\n  }\n}\"\nwhen ignoring newlines (\\n, \\r\\n).\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat com.cedarsoftware.io.PrettyPrintTest.testPrettyPrint(PrettyPrintTest.java:58)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "24907155fc282e60a7196f0c4c1b76d5f43621f563c9df8d91981931e4c0b365"
+}

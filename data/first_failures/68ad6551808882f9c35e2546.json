@@ -1,0 +1,81 @@
+{
+  "container": "r2dbcmysql7ce04e3binarySet",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "r2dbcmysql7ce04e3binarySet",
+    "project": "https://github.com/mirromutth/r2dbc-mysql",
+    "revision": "7ce04e337791793e0f6ed1b0d4dd0d73c735af51",
+    "test": "dev.miku.r2dbc.mysql.codec.SetCodecTest.binarySet",
+    "label": "ID",
+    "module": ".",
+    "zip": "r2dbc-mysql=.=7ce04e3",
+    "config_row": 238,
+    "configured_test": "dev.miku.r2dbc.mysql.codec.SetCodecTest#binarySet",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/mirromutth/r2dbc-mysql::dev.miku.r2dbc.mysql.codec.SetCodecTest.binarySet",
+    "variant_id": "https://github.com/mirromutth/r2dbc-mysql::dev.miku.r2dbc.mysql.codec.SetCodecTest.binarySet::7ce04e337791793e0f6ed1b0d4dd0d73c735af51::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/r2dbcmysql7ce04e3binarySet/result/Flaky/.nondex/PFxpWMV2T2malFoj2mdZ2RLW3EHX8l89Nv+wbwinZKs=/TEST-dev.miku.r2dbc.mysql.codec.SetCodecTest.xml",
+        "size": 20486,
+        "compressed": 3204,
+        "crc32": "3835306a",
+        "offset": 231640967,
+        "method": 8,
+        "local_path": "data/extracted/4b5d1c21c8efa703ecb4a908.xml",
+        "sha256": "e381891538374d3a773c5ccca3a99e49ec3d37967780416af96a8571bdc8a1d3",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/r2dbcmysql7ce04e3binarySet/result/Flaky/rounds-test-results.csv",
+    "size": 17351,
+    "compressed": 4979,
+    "crc32": "cad90065",
+    "offset": 231518043,
+    "method": 8,
+    "local_path": "data/extracted/7056eec290a949a6b8fbdbc6.csv",
+    "sha256": "da574055c78888d3eb6c655351e54538d0ea01f7ec3dc18405417f413fe7c05c",
+    "status": "verified"
+  },
+  "reported_failure_rows": 97,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/r2dbcmysql7ce04e3binarySet/result/Flaky/.nondex/PFxpWMV2T2malFoj2mdZ2RLW3EHX8l89Nv+wbwinZKs=/TEST-dev.miku.r2dbc.mysql.codec.SetCodecTest.xml",
+    "size": 20486,
+    "compressed": 3204,
+    "crc32": "3835306a",
+    "offset": 231640967,
+    "method": 8,
+    "local_path": "data/extracted/4b5d1c21c8efa703ecb4a908.xml",
+    "sha256": "e381891538374d3a773c5ccca3a99e49ec3d37967780416af96a8571bdc8a1d3",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "binarySet",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "expectation \"expectNext(UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 0, widx: 13, cap: 256))\" failed (expected value: UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 0, widx: 13, cap: 256); actual value: UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 0, widx: 13, cap: 256))",
+    "stack_trace": "java.lang.AssertionError: expectation \"expectNext(UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 0, widx: 13, cap: 256))\" failed (expected value: UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 0, widx: 13, cap: 256); actual value: UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 0, widx: 13, cap: 256))\n\tat dev.miku.r2dbc.mysql.codec.SetCodecTest.binarySet(SetCodecTest.java:115)",
+    "text": "java.lang.AssertionError\nexpectation \"expectNext(UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 0, widx: 13, cap: 256))\" failed (expected value: UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 0, widx: 13, cap: 256); actual value: UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 0, widx: 13, cap: 256))\njava.lang.AssertionError: expectation \"expectNext(UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 0, widx: 13, cap: 256))\" failed (expected value: UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 0, widx: 13, cap: 256); actual value: UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 0, widx: 13, cap: 256))\n\tat dev.miku.r2dbc.mysql.codec.SetCodecTest.binarySet(SetCodecTest.java:115)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "c3a6b82d8987d856a92a65599f7d169f0bbd4e81f159dff40adbfa5a352d85e3"
+}

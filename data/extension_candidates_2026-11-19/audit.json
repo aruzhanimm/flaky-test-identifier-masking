@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-19",
+  "canonical_corpus_unchanged": true,
+  "canonical_corpus_sha256": "4fbee74d76717535e80f7c40841852784a23c1907954e8227ad2ae31f87c5127",
+  "protocol": "evidence/extension_v5_data/protocol_data_extension_2026-11-19.txt",
+  "original_candidates_audited": 32,
+  "external_issue_candidates_audited": 4,
+  "strict_eligible_tests": 5,
+  "strict_new_project_groups": 1,
+  "conditional_tests": 1,
+  "conditional_new_project_groups": 1,
+  "strict_categories": {
+    "ID": 5
+  },
+  "strict_new_projects": [
+    "https://github.com/yahoo/elide"
+  ],
+  "conditional_new_projects": [
+    "https://github.com/wildfly/wildfly-core"
+  ],
+  "newly_run_java_tests": 0,
+  "independent_external_four_category_replication": false,
+  "full_source_archive_md5_verified": false,
+  "qualification": "Source-rescued additional observations from the same ReproFlake collection. Archives were inspected through bounded HTTP ranges; individual extracted members were CRC-validated by zipfile and SHA-256 recorded. Original source revisions were recovered from flaky_info.txt, not inferred from ZIP filenames."
+}

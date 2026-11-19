@@ -1,0 +1,81 @@
+{
+  "container": "nifinificommonsnifirecord7823156testAliasConflictingAliasValues",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "nifinificommonsnifirecord7823156testAliasConflictingAliasValues",
+    "project": "https://github.com/apache/nifi",
+    "revision": "7823156606ca541ef9cae7192b092efd2cfe4e9a",
+    "test": "org.apache.nifi.serialization.record.TestMapRecord.testAliasConflictingAliasValues",
+    "label": "ID",
+    "module": "nifi-commons/nifi-record",
+    "zip": "nifi=nifi-commons+nifi-record=7823156",
+    "config_row": 779,
+    "configured_test": "org.apache.nifi.serialization.record.TestMapRecord#testAliasConflictingAliasValues",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/nifi::org.apache.nifi.serialization.record.TestMapRecord.testAliasConflictingAliasValues",
+    "variant_id": "https://github.com/apache/nifi::org.apache.nifi.serialization.record.TestMapRecord.testAliasConflictingAliasValues::7823156606ca541ef9cae7192b092efd2cfe4e9a::nifi-commons/nifi-record",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/nifinificommonsnifirecord7823156testAliasConflictingAliasValues/result/Flaky/.nondex/GhokZyJEWzXBGwjsOEQO8DPoXCjaTSoY4yNBw967cQo=/TEST-org.apache.nifi.serialization.record.TestMapRecord.xml",
+        "size": 10095,
+        "compressed": 2167,
+        "crc32": "e6d8cdae",
+        "offset": 1189677932,
+        "method": 8,
+        "local_path": "data/extracted/961be6357a84b5c2dc98a940.xml",
+        "sha256": "bad0057a3434cefd47898ec3b2d9db295cf9ea5ed4cbf0ed4e54bed293b04d73",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/nifinificommonsnifirecord7823156testAliasConflictingAliasValues/result/Flaky/rounds-test-results.csv",
+    "size": 20746,
+    "compressed": 5050,
+    "crc32": "4432f72a",
+    "offset": 1189249832,
+    "method": 8,
+    "local_path": "data/extracted/38cae619f34b87aa6f7113c0.csv",
+    "sha256": "ae36c69ab4230bcba64ba8e52d3542c22e1cbf0d68c1429d280480d5a71ce91f",
+    "status": "verified"
+  },
+  "reported_failure_rows": 89,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/nifinificommonsnifirecord7823156testAliasConflictingAliasValues/result/Flaky/.nondex/GhokZyJEWzXBGwjsOEQO8DPoXCjaTSoY4yNBw967cQo=/TEST-org.apache.nifi.serialization.record.TestMapRecord.xml",
+    "size": 10095,
+    "compressed": 2167,
+    "crc32": "e6d8cdae",
+    "offset": 1189677932,
+    "method": 8,
+    "local_path": "data/extracted/961be6357a84b5c2dc98a940.xml",
+    "sha256": "bad0057a3434cefd47898ec3b2d9db295cf9ea5ed4cbf0ed4e54bed293b04d73",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testAliasConflictingAliasValues",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": null,
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <33> but was: <1>\n\tat org.apache.nifi.serialization.record.TestMapRecord.testAliasConflictingAliasValues(TestMapRecord.java:130)",
+    "text": "org.opentest4j.AssertionFailedError\norg.opentest4j.AssertionFailedError: expected: <33> but was: <1>\n\tat org.apache.nifi.serialization.record.TestMapRecord.testAliasConflictingAliasValues(TestMapRecord.java:130)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "6cd00a9b36ce3c975a3f4cbef5e5b5f3d23d48b7f048a44bb1da753052a8cb3d"
+}

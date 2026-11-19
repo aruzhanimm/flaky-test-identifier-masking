@@ -1,0 +1,81 @@
+{
+  "container": "ecchronoscore5d58b0etestRepairSuccessfully",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ecchronoscore5d58b0etestRepairSuccessfully",
+    "project": "https://github.com/ericsson/ecchronos",
+    "revision": "5d58b0e4c922822c9df3d893fff2246d5784b11f",
+    "test": "com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairTask.testRepairSuccessfully",
+    "label": "ID",
+    "module": "core",
+    "zip": "ecchronos=core=5d58b0e",
+    "config_row": 542,
+    "configured_test": "com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairTask#testRepairSuccessfully",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/ericsson/ecchronos::com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairTask.testRepairSuccessfully",
+    "variant_id": "https://github.com/ericsson/ecchronos::com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairTask.testRepairSuccessfully::5d58b0e4c922822c9df3d893fff2246d5784b11f::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/ecchronoscore5d58b0etestRepairSuccessfully/result/Flaky/.nondex/vviTkJU5ztwvjXuihHV+avsCy7uyz70P7FeaNLPTo=/TEST-com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairTask.xml",
+        "size": 28666,
+        "compressed": 4211,
+        "crc32": "011637b0",
+        "offset": 425302251,
+        "method": 8,
+        "local_path": "data/extracted/0c778cb8062ad540264e5dd5.xml",
+        "sha256": "da116fc2cc5753fecc6d8428e9f1d2284deded2bacc6b9b4640feed3436f9a93",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ecchronoscore5d58b0etestRepairSuccessfully/result/Flaky/rounds-test-results.csv",
+    "size": 19930,
+    "compressed": 5060,
+    "crc32": "70831735",
+    "offset": 425040824,
+    "method": 8,
+    "local_path": "data/extracted/55600baec1c6c1dc7c002912.csv",
+    "sha256": "adc51230e30240d9da98cf3f64b25597675319472587e57749a200213f3ef9db",
+    "status": "verified"
+  },
+  "reported_failure_rows": 50,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/ecchronoscore5d58b0etestRepairSuccessfully/result/Flaky/.nondex/vviTkJU5ztwvjXuihHV+avsCy7uyz70P7FeaNLPTo=/TEST-com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairTask.xml",
+    "size": 28666,
+    "compressed": 4211,
+    "crc32": "011637b0",
+    "offset": 425302251,
+    "method": 8,
+    "local_path": "data/extracted/0c778cb8062ad540264e5dd5.xml",
+    "sha256": "da116fc2cc5753fecc6d8428e9f1d2284deded2bacc6b9b4640feed3436f9a93",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testRepairSuccessfully",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.MultipleFailuresError",
+    "message": "Multiple Failures (2 failures)\n java.lang.AssertionError: \nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <(3,4]>\nwhereas expected element was:\n  <(1,2]>\n\n org.mockito.exceptions.verification.NoInteractionsWanted: \nNo interactions wanted here:\n-> at com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairTask.finalVerification(TestRepairTask.java:112)\nBut found this interaction on mock 'myTableRepairMetrics':\n-> at com.ericsson.bss.cassandra.ecchronos.core.repair.RepairTask.execute(RepairTask.java:126)\nActually, above is the only interaction with this mock.",
+    "stack_trace": "org.opentest4j.MultipleFailuresError: \nMultiple Failures (2 failures)\n\tjava.lang.AssertionError: \nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <(3,4]>\nwhereas expected element was:\n  <(1,2]>\n\n\torg.mockito.exceptions.verification.NoInteractionsWanted: \nNo interactions wanted here:\n-> at com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairTask.finalVerification(TestRepairTask.java:112)\nBut found this interaction on mock 'myTableRepairMetrics':\n-> at com.ericsson.bss.cassandra.ecchronos.core.repair.RepairTask.execute(RepairTask.java:126)\nActually, above is the only interaction with this mock.",
+    "text": "org.opentest4j.MultipleFailuresError\nMultiple Failures (2 failures)\n java.lang.AssertionError: \nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <(3,4]>\nwhereas expected element was:\n  <(1,2]>\n\n org.mockito.exceptions.verification.NoInteractionsWanted: \nNo interactions wanted here:\n-> at com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairTask.finalVerification(TestRepairTask.java:112)\nBut found this interaction on mock 'myTableRepairMetrics':\n-> at com.ericsson.bss.cassandra.ecchronos.core.repair.RepairTask.execute(RepairTask.java:126)\nActually, above is the only interaction with this mock.\norg.opentest4j.MultipleFailuresError: \nMultiple Failures (2 failures)\n\tjava.lang.AssertionError: \nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <(3,4]>\nwhereas expected element was:\n  <(1,2]>\n\n\torg.mockito.exceptions.verification.NoInteractionsWanted: \nNo interactions wanted here:\n-> at com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairTask.finalVerification(TestRepairTask.java:112)\nBut found this interaction on mock 'myTableRepairMetrics':\n-> at com.ericsson.bss.cassandra.ecchronos.core.repair.RepairTask.execute(RepairTask.java:126)\nActually, above is the only interaction with this mock.",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "a6481fed2338a9b6e35a3aa4cd8bc88f83ef71cea69cbd86471c57a0477d7852"
+}

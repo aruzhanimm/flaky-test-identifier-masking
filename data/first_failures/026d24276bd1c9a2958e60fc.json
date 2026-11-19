@@ -1,0 +1,81 @@
+{
+  "container": "jsonio01f83batestNewArrayElement",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jsonio01f83batestNewArrayElement",
+    "project": "https://github.com/jdereg/json-io",
+    "revision": "01f83bad2555d158506c36d7f5e24897d0154f05",
+    "test": "com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement",
+    "label": "ID",
+    "module": ".",
+    "zip": "json-io=.=01f83ba",
+    "config_row": 244,
+    "configured_test": "com.cedarsoftware.io.TestGraphComparatorList#testNewArrayElement",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/jdereg/json-io::com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement",
+    "variant_id": "https://github.com/jdereg/json-io::com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement::01f83bad2555d158506c36d7f5e24897d0154f05::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/jsonio01f83batestNewArrayElement/result/Flaky/.nondex/R4DDwoxnxst75gX+w6SjdI4CWiKjffSC0rxWVAvI8g=/TEST-com.cedarsoftware.io.TestGraphComparatorList.xml",
+        "size": 10923,
+        "compressed": 2509,
+        "crc32": "740e225f",
+        "offset": 239045715,
+        "method": 8,
+        "local_path": "data/extracted/8d9cf355d8662d91afae36fd.xml",
+        "sha256": "956dec735b3ef2e54038cf65d2262e4e906c6aa732dbb8a227a20d1fefcf39b6",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jsonio01f83batestNewArrayElement/result/Flaky/rounds-test-results.csv",
+    "size": 17706,
+    "compressed": 5058,
+    "crc32": "39bfcb8a",
+    "offset": 238594461,
+    "method": 8,
+    "local_path": "data/extracted/9a76804d653964c7a0f8f702.csv",
+    "sha256": "49f54fe40786338ceb9725d1c5e97dd27635af9904eb1694c6f86668fcd7769a",
+    "status": "verified"
+  },
+  "reported_failure_rows": 51,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/jsonio01f83batestNewArrayElement/result/Flaky/.nondex/R4DDwoxnxst75gX+w6SjdI4CWiKjffSC0rxWVAvI8g=/TEST-com.cedarsoftware.io.TestGraphComparatorList.xml",
+    "size": 10923,
+    "compressed": 2509,
+    "crc32": "740e225f",
+    "offset": 239045715,
+    "method": 8,
+    "local_path": "data/extracted/8d9cf355d8662d91afae36fd.xml",
+    "sha256": "956dec735b3ef2e54038cf65d2262e4e906c6aa732dbb8a227a20d1fefcf39b6",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testNewArrayElement",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <true> but was: <false>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <true> but was: <false>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)\n\tat org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)\n\tat com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement(TestGraphComparatorList.java:674)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <true> but was: <false>\norg.opentest4j.AssertionFailedError: expected: <true> but was: <false>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)\n\tat org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)\n\tat com.cedarsoftware.io.TestGraphComparatorList.testNewArrayElement(TestGraphComparatorList.java:674)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "315b40cece2cbf358c400956d7afcab7df675c04794a1d19ef1ce83c966d2061"
+}

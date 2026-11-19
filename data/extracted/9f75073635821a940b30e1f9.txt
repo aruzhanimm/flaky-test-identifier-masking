@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: com.j256.ormlite.dao.RuntimeExceptionDaoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.027 s <<< FAILURE! - in com.j256.ormlite.dao.RuntimeExceptionDaoTest
+com.j256.ormlite.dao.RuntimeExceptionDaoTest.testDeleteByIdThrow  Time elapsed: 0.024 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.RuntimeException> but was: <java.lang.AssertionError>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:67)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrowsExactly(Assertions.java:3060)
+	at com.j256.ormlite.dao.RuntimeExceptionDaoTest.testDeleteByIdThrow(RuntimeExceptionDaoTest.java:660)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+Caused by: java.lang.AssertionError: 
+  Unexpected method call LogBackend.isLevelEnabled(DEBUG):
+	at org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:44)
+	at org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:94)
+	at com.sun.proxy.$Proxy10.isLevelEnabled(Unknown Source)
+	at com.j256.ormlite.logger.BaseLogger.logIfEnabled(BaseLogger.java:86)
+	at com.j256.ormlite.logger.Logger.log(Logger.java:702)
+	at com.j256.ormlite.dao.RuntimeExceptionDao.logMessage(RuntimeExceptionDao.java:1204)
+	at com.j256.ormlite.dao.RuntimeExceptionDao.deleteById(RuntimeExceptionDao.java:379)
+	at com.j256.ormlite.dao.RuntimeExceptionDaoTest.lambda$testDeleteByIdThrow$19(RuntimeExceptionDaoTest.java:661)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:53)
+	... 6 more
+

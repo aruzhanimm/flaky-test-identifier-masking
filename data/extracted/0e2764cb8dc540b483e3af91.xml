@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ericsson.bss.cassandra.ecchronos.core.repair.state.TestRepairStateImpl" time="0.254" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="nondexStart" value="0"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/core/target/test-classes:/app/source/core/target/classes:/root/.m2/repository/com/ericsson/bss/cassandra/ecchronos/fm/1.0.8-SNAPSHOT/fm-1.0.8-SNAPSHOT.jar:/root/.m2/repository/com/ericsson/bss/cassandra/ecchronos/connection/1.0.8-SNAPSHOT/connection-1.0.8-SNAPSHOT.jar:/root/.m2/repository/io/dropwizard/metrics/metrics-core/3.2.2/metrics-core-3.2.2.jar:/root/.m2/repository/com/datastax/cassandra/cassandra-driver-core/3.4.0/cassandra-driver-core-3.4.0.jar:/root/.m2/repository/io/netty/netty-handler/4.0.47.Final/netty-handler-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-buffer/4.0.47.Final/netty-buffer-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-common/4.0.47.Final/netty-common-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-transport/4.0.47.Final/netty-transport-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-codec/4.0.47.Final/netty-codec-4.0.47.Final.jar:/root/.m2/repository/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.jar:/root/.m2/repository/com/github/jnr/jffi/1.2.10/jffi-1.2.10.jar:/root/.m2/repository/com/github/jnr/jffi/1.2.10/jffi-1.2.10-native.jar:/root/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar:/root/.m2/repository/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar:/root/.m2/repository/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.jar:/root/.m2/repository/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.jar:/root/.m2/repository/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar:/root/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.23/slf4j-api-1.7.23.jar:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar:/root/.m2/repository/org/awaitility/awaitility/3.0.0/awaitility-3.0.0.jar:/root/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/root/.m2/repository/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:/root/.m2/repository/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar:/root/.m2/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar:/root/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/root/.m2/repository/org/apache/cassandra/cassandra-all/3.0.15/cassandra-all-3.0.15.jar:/root/.m2/repository/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7.jar:/root/.m2/repository/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar:/root/.m2/repository/com/ning/compress-lzf/0.8.4/compress-lzf-0.8.4.jar:/root/.m2/repository/commons-cli/commons-cli/1.1/commons-cli-1.1.jar:/root/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/root/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar:/root/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4/concurrentlinkedhashmap-lru-1.4.jar:/root/.m2/repository/org/antlr/antlr/3.5.2/antlr-3.5.2.jar:/root/.m2/repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar:/root/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar:/root/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.jar:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar:/root/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar:/root/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar:/root/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/root/.m2/repository/com/boundary/high-scale-lib/1.0.6/high-scale-lib-1.0.6.jar:/root/.m2/repository/org/yaml/snakeyaml/1.11/snakeyaml-1.11.jar:/root/.m2/repository/org/mindrot/jbcrypt/0.3m/jbcrypt-0.3m.jar:/root/.m2/repository/io/dropwizard/metrics/metrics-jvm/3.1.0/metrics-jvm-3.1.0.jar:/root/.m2/repository/com/addthis/metrics/reporter-config3/3.0.0/reporter-config3-3.0.0.jar:/root/.m2/repository/com/addthis/metrics/reporter-config-base/3.0.0/reporter-config-base-3.0.0.jar:/root/.m2/repository/org/hibernate/hibernate-validator/4.3.0.Final/hibernate-validator-4.3.0.Final.jar:/root/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/root/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.CR2/jboss-logging-3.1.0.CR2.jar:/root/.m2/repository/com/thinkaurelius/thrift/thrift-server/0.3.7/thrift-server-0.3.7.jar:/root/.m2/repository/com/lmax/disruptor/3.0.1/disruptor-3.0.1.jar:/root/.m2/repository/com/clearspring/analytics/stream/2.5.2/stream-2.5.2.jar:/root/.m2/repository/it/unimi/dsi/fastutil/6.5.7/fastutil-6.5.7.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/root/.m2/repository/org/apache/thrift/libthrift/0.9.2/libthrift-0.9.2.jar:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar:/root/.m2/repository/org/apache/cassandra/cassandra-thrift/3.0.15/cassandra-thrift-3.0.15.jar:/root/.m2/repository/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar:/root/.m2/repository/com/github/jbellis/jamm/0.3.0/jamm-0.3.0.jar:/root/.m2/repository/io/netty/netty-all/4.0.44.Final/netty-all-4.0.44.Final.jar:/root/.m2/repository/org/fusesource/sigar/1.6.4/sigar-1.6.4.jar:/root/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:/root/.m2/repository/org/caffinitas/ohc/ohc-core/0.4.3/ohc-core-0.4.3.jar:/root/.m2/repository/nl/jqno/equalsverifier/equalsverifier/3.1.10/equalsverifier-3.1.10.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-11/lib"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="sun.java.command" value="/app/source/core/target/surefire/surefirebooter15251552563468372060.jar /app/source/core/target/surefire 2025-11-07T22-58-22_179-jvmRun1 surefire11020040773902401751tmp surefire_78964018441298110833tmp"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/app/source/core/target/test-classes:/app/source/core/target/classes:/root/.m2/repository/com/ericsson/bss/cassandra/ecchronos/fm/1.0.8-SNAPSHOT/fm-1.0.8-SNAPSHOT.jar:/root/.m2/repository/com/ericsson/bss/cassandra/ecchronos/connection/1.0.8-SNAPSHOT/connection-1.0.8-SNAPSHOT.jar:/root/.m2/repository/io/dropwizard/metrics/metrics-core/3.2.2/metrics-core-3.2.2.jar:/root/.m2/repository/com/datastax/cassandra/cassandra-driver-core/3.4.0/cassandra-driver-core-3.4.0.jar:/root/.m2/repository/io/netty/netty-handler/4.0.47.Final/netty-handler-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-buffer/4.0.47.Final/netty-buffer-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-common/4.0.47.Final/netty-common-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-transport/4.0.47.Final/netty-transport-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-codec/4.0.47.Final/netty-codec-4.0.47.Final.jar:/root/.m2/repository/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.jar:/root/.m2/repository/com/github/jnr/jffi/1.2.10/jffi-1.2.10.jar:/root/.m2/repository/com/github/jnr/jffi/1.2.10/jffi-1.2.10-native.jar:/root/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar:/root/.m2/repository/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar:/root/.m2/repository/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.jar:/root/.m2/repository/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.jar:/root/.m2/repository/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar:/root/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.23/slf4j-api-1.7.23.jar:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar:/root/.m2/repository/org/awaitility/awaitility/3.0.0/awaitility-3.0.0.jar:/root/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/root/.m2/repository/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:/root/.m2/repository/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar:/root/.m2/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar:/root/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/root/.m2/repository/org/apache/cassandra/cassandra-all/3.0.15/cassandra-all-3.0.15.jar:/root/.m2/repository/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7.jar:/root/.m2/repository/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar:/root/.m2/repository/com/ning/compress-lzf/0.8.4/compress-lzf-0.8.4.jar:/root/.m2/repository/commons-cli/commons-cli/1.1/commons-cli-1.1.jar:/root/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/root/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar:/root/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4/concurrentlinkedhashmap-lru-1.4.jar:/root/.m2/repository/org/antlr/antlr/3.5.2/antlr-3.5.2.jar:/root/.m2/repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar:/root/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar:/root/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.jar:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar:/root/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar:/root/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar:/root/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/root/.m2/repository/com/boundary/high-scale-lib/1.0.6/high-scale-lib-1.0.6.jar:/root/.m2/repository/org/yaml/snakeyaml/1.11/snakeyaml-1.11.jar:/root/.m2/repository/org/mindrot/jbcrypt/0.3m/jbcrypt-0.3m.jar:/root/.m2/repository/io/dropwizard/metrics/metrics-jvm/3.1.0/metrics-jvm-3.1.0.jar:/root/.m2/repository/com/addthis/metrics/reporter-config3/3.0.0/reporter-config3-3.0.0.jar:/root/.m2/repository/com/addthis/metrics/reporter-config-base/3.0.0/reporter-config-base-3.0.0.jar:/root/.m2/repository/org/hibernate/hibernate-validator/4.3.0.Final/hibernate-validator-4.3.0.Final.jar:/root/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/root/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.CR2/jboss-logging-3.1.0.CR2.jar:/root/.m2/repository/com/thinkaurelius/thrift/thrift-server/0.3.7/thrift-server-0.3.7.jar:/root/.m2/repository/com/lmax/disruptor/3.0.1/disruptor-3.0.1.jar:/root/.m2/repository/com/clearspring/analytics/stream/2.5.2/stream-2.5.2.jar:/root/.m2/repository/it/unimi/dsi/fastutil/6.5.7/fastutil-6.5.7.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/root/.m2/repository/org/apache/thrift/libthrift/0.9.2/libthrift-0.9.2.jar:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar:/root/.m2/repository/org/apache/cassandra/cassandra-thrift/3.0.15/cassandra-thrift-3.0.15.jar:/root/.m2/repository/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar:/root/.m2/repository/com/github/jbellis/jamm/0.3.0/jamm-0.3.0.jar:/root/.m2/repository/io/netty/netty-all/4.0.44.Final/netty-all-4.0.44.Final.jar:/root/.m2/repository/org/fusesource/sigar/1.6.4/sigar-1.6.4.jar:/root/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:/root/.m2/repository/org/caffinitas/ohc/ohc-core/0.4.3/ohc-core-0.4.3.jar:/root/.m2/repository/nl/jqno/equalsverifier/equalsverifier/3.1.10/equalsverifier-3.1.10.jar:"/>
+    <property name="test" value="com.ericsson.bss.cassandra.ecchronos.core.repair.state.TestRepairStateImpl#testPartiallyRepaired"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="bTQ+Vn0a0WNHP7BA92xGEpchfBUIm49vNTSmsINK5BE="/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/openjdk-11"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="basedir" value="/app/source/core"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="surefire.real.class.path" value="/app/source/core/target/surefire/surefirebooter15251552563468372060.jar"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-35-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/core/.nondex"/>
+    <property name="nondexJarDir" value="/app/source/core/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="/app/source/core"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="license.skip" value="true"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="xml.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="testPartiallyRepaired" classname="com.ericsson.bss.cassandra.ecchronos.core.repair.state.TestRepairStateImpl" time="0.253">
+    <failure message="expected:&lt;[(tokenRange=([2,3],replicas=[Mock for Host, hashCode: 1077873186],repairedAt=1762556309902), (tokenRange=(1,2],replicas=[Mock for Host, hashCode: 1077873186],repairedAt=1762552710108])]&gt; but was:&lt;[(tokenRange=([1,2],replicas=[Mock for Host, hashCode: 1077873186],repairedAt=1762552710108), (tokenRange=(2,3],replicas=[Mock for Host, hashCode: 1077873186],repairedAt=1762556309902])]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[(tokenRange=([2,3],replicas=[Mock for Host, hashCode: 1077873186],repairedAt=1762556309902), (tokenRange=(1,2],replicas=[Mock for Host, hashCode: 1077873186],repairedAt=1762552710108])]> but was:<[(tokenRange=([1,2],replicas=[Mock for Host, hashCode: 1077873186],repairedAt=1762552710108), (tokenRange=(2,3],replicas=[Mock for Host, hashCode: 1077873186],repairedAt=1762556309902])]>
+	at com.ericsson.bss.cassandra.ecchronos.core.repair.state.TestRepairStateImpl.assertRepairStateSnapshot(TestRepairStateImpl.java:188)
+	at com.ericsson.bss.cassandra.ecchronos.core.repair.state.TestRepairStateImpl.testPartiallyRepaired(TestRepairStateImpl.java:134)
+]]></failure>
+    <system-out><![CDATA[186  [main] INFO  c.e.b.c.e.c.r.state.RepairStateImpl - Table ks.tb has been partially repaired, next repair 2025-11-07 22:58:30 
+]]></system-out>
+  </testcase>
+</testsuite>

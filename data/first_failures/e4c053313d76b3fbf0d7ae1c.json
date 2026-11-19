@@ -1,0 +1,81 @@
+{
+  "container": "Fastjsone59c1betest2_212",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "Fastjsone59c1betest2_212",
+    "project": "https://github.com/alibaba/fastjson",
+    "revision": "e59c1be9219e1e8ed8ebd48603b9f5567654a468",
+    "test": "com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case1Test.test2_2",
+    "label": "ID",
+    "module": ".",
+    "zip": "fastjson=.=e59c1be",
+    "config_row": 197,
+    "configured_test": "com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case1Test#test2_2",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/fastjson::com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case1Test.test2_2",
+    "variant_id": "https://github.com/alibaba/fastjson::com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case1Test.test2_2::e59c1be9219e1e8ed8ebd48603b9f5567654a468::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/Fastjsone59c1betest2_212/result/Flaky/.nondex/rIrTUFL6EhWNs6oLzcA0Nc+u1JqplqADa+7SYScHfI=/TEST-com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case1Test.xml",
+        "size": 46694,
+        "compressed": 6407,
+        "crc32": "9295326f",
+        "offset": 934143393,
+        "method": 8,
+        "local_path": "data/extracted/25c09b9e9919f735feb43512.xml",
+        "sha256": "09cae3b8d90bb654444ad53c769eec9924a37dec1d0f2b787a7da8537e97fd0c",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/Fastjsone59c1betest2_212/result/Flaky/rounds-test-results.csv",
+    "size": 22170,
+    "compressed": 5080,
+    "crc32": "497d4c2f",
+    "offset": 934008981,
+    "method": 8,
+    "local_path": "data/extracted/d9d62892fe6c97b72ac74700.csv",
+    "sha256": "fdc2dcee204aa241143d42681e9c25568b50c3663610d216d6d747bb78cac575",
+    "status": "verified"
+  },
+  "reported_failure_rows": 43,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/Fastjsone59c1betest2_212/result/Flaky/.nondex/rIrTUFL6EhWNs6oLzcA0Nc+u1JqplqADa+7SYScHfI=/TEST-com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case1Test.xml",
+    "size": 46694,
+    "compressed": 6407,
+    "crc32": "9295326f",
+    "offset": 934143393,
+    "method": 8,
+    "local_path": "data/extracted/25c09b9e9919f735feb43512.xml",
+    "sha256": "09cae3b8d90bb654444ad53c769eec9924a37dec1d0f2b787a7da8537e97fd0c",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test2_2",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Response content expected:</**/fnUpdateSome({\"p1\":1,\"p2\":2})> but was:</**/fnUpdateSome({\"p2\":2,\"p1\":1})>",
+    "stack_trace": "java.lang.AssertionError: Response content expected:</**/fnUpdateSome({\"p1\":1,\"p2\":2})> but was:</**/fnUpdateSome({\"p2\":2,\"p1\":1})>\n\tat com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case1Test.test2_2(FastJsonpHttpMessageConverter4Case1Test.java:99)",
+    "text": "java.lang.AssertionError\nResponse content expected:</**/fnUpdateSome({\"p1\":1,\"p2\":2})> but was:</**/fnUpdateSome({\"p2\":2,\"p1\":1})>\njava.lang.AssertionError: Response content expected:</**/fnUpdateSome({\"p1\":1,\"p2\":2})> but was:</**/fnUpdateSome({\"p2\":2,\"p1\":1})>\n\tat com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case1Test.test2_2(FastJsonpHttpMessageConverter4Case1Test.java:99)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "be037b897a8a7c8da81b75e7543ad451fd8c26a75ab1811b22943d144f917b11"
+}

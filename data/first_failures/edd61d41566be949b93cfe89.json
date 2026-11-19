@@ -1,0 +1,81 @@
+{
+  "container": "commonslang182b250testInheritedReflectionStatics",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "commonslang182b250testInheritedReflectionStatics",
+    "project": "https://github.com/apache/commons-lang",
+    "revision": "182b2506b304463f8f1a9ad765c6db0420fa356f",
+    "test": "org.apache.commons.lang3.builder.ToStringBuilderTest.testInheritedReflectionStatics",
+    "label": "ID",
+    "module": ".",
+    "zip": "commons-lang=.=182b250",
+    "config_row": 563,
+    "configured_test": "org.apache.commons.lang3.builder.ToStringBuilderTest#testInheritedReflectionStatics",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.ToStringBuilderTest.testInheritedReflectionStatics",
+    "variant_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.ToStringBuilderTest.testInheritedReflectionStatics::182b2506b304463f8f1a9ad765c6db0420fa356f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/commonslang182b250testInheritedReflectionStatics/result/Flaky/.nondex/Xhjgz9pcuNr8m6V6SnDys2cIyaxtGC6t+b3CClnQYiQ=/TEST-org.apache.commons.lang3.builder.ToStringBuilderTest.xml",
+        "size": 10594,
+        "compressed": 2251,
+        "crc32": "d663f3fa",
+        "offset": 404175013,
+        "method": 8,
+        "local_path": "data/extracted/67ad12733f824c1af3aa69c7.xml",
+        "sha256": "10800867cf60c778fd339c645b6287ba4cb98f0e52bb5a6f0e1c4ce9615fa6ca",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/commonslang182b250testInheritedReflectionStatics/result/Flaky/rounds-test-results.csv",
+    "size": 18687,
+    "compressed": 4913,
+    "crc32": "7c16f471",
+    "offset": 403683371,
+    "method": 8,
+    "local_path": "data/extracted/90a5b39ed25c564f88e7f70c.csv",
+    "sha256": "5b38e5dd9ba993b15ce43c689f3a8a3553b150530a7d05e2259894b711da36cc",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/commonslang182b250testInheritedReflectionStatics/result/Flaky/.nondex/Xhjgz9pcuNr8m6V6SnDys2cIyaxtGC6t+b3CClnQYiQ=/TEST-org.apache.commons.lang3.builder.ToStringBuilderTest.xml",
+    "size": 10594,
+    "compressed": 2251,
+    "crc32": "d663f3fa",
+    "offset": 404175013,
+    "method": 8,
+    "local_path": "data/extracted/67ad12733f824c1af3aa69c7.xml",
+    "sha256": "10800867cf60c778fd339c645b6287ba4cb98f0e52bb5a6f0e1c4ce9615fa6ca",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testInheritedReflectionStatics",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <org.apache.commons.lang3.builder.ToStringBuilderTest$InheritedReflectionStaticFieldsFixture@6a396c1e[staticString2=staticString2,staticInt2=67890,staticString=staticString,staticInt=12345]> but was: <org.apache.commons.lang3.builder.ToStringBuilderTest$InheritedReflectionStaticFieldsFixture@6a396c1e[staticString2=staticString2,staticInt2=67890,staticInt=12345,staticString=staticString]>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <org.apache.commons.lang3.builder.ToStringBuilderTest$InheritedReflectionStaticFieldsFixture@6a396c1e[staticString2=staticString2,staticInt2=67890,staticString=staticString,staticInt=12345]> but was: <org.apache.commons.lang3.builder.ToStringBuilderTest$InheritedReflectionStaticFieldsFixture@6a396c1e[staticString2=staticString2,staticInt2=67890,staticInt=12345,staticString=staticString]>\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.testInheritedReflectionStatics(ToStringBuilderTest.java:1185)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <org.apache.commons.lang3.builder.ToStringBuilderTest$InheritedReflectionStaticFieldsFixture@6a396c1e[staticString2=staticString2,staticInt2=67890,staticString=staticString,staticInt=12345]> but was: <org.apache.commons.lang3.builder.ToStringBuilderTest$InheritedReflectionStaticFieldsFixture@6a396c1e[staticString2=staticString2,staticInt2=67890,staticInt=12345,staticString=staticString]>\norg.opentest4j.AssertionFailedError: expected: <org.apache.commons.lang3.builder.ToStringBuilderTest$InheritedReflectionStaticFieldsFixture@6a396c1e[staticString2=staticString2,staticInt2=67890,staticString=staticString,staticInt=12345]> but was: <org.apache.commons.lang3.builder.ToStringBuilderTest$InheritedReflectionStaticFieldsFixture@6a396c1e[staticString2=staticString2,staticInt2=67890,staticInt=12345,staticString=staticString]>\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.testInheritedReflectionStatics(ToStringBuilderTest.java:1185)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "4874cbab9c3ed1a9fde5b21b996e8c76deaa5421b3c5dca555a0f79453e7c90b"
+}

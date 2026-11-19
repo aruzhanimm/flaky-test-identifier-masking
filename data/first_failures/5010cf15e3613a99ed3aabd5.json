@@ -1,0 +1,81 @@
+{
+  "container": "shenyushenyuadmin02696b4testBuildHandle5",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "shenyushenyuadmin02696b4testBuildHandle5",
+    "project": "https://github.com/apache/shenyu",
+    "revision": "02696b41e6865540a982b4a8fca84c825825b74a",
+    "test": "org.apache.shenyu.admin.service.register.ShenyuClientRegisterSpringCloudServiceImplTest.testBuildHandle",
+    "label": "ID",
+    "module": "shenyu-admin",
+    "zip": "shenyu=shenyu-admin=02696b4",
+    "config_row": 723,
+    "configured_test": "org.apache.shenyu.admin.service.register.ShenyuClientRegisterSpringCloudServiceImplTest#testBuildHandle",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/shenyu::org.apache.shenyu.admin.service.register.ShenyuClientRegisterSpringCloudServiceImplTest.testBuildHandle",
+    "variant_id": "https://github.com/apache/shenyu::org.apache.shenyu.admin.service.register.ShenyuClientRegisterSpringCloudServiceImplTest.testBuildHandle::02696b41e6865540a982b4a8fca84c825825b74a::shenyu-admin",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/shenyushenyuadmin02696b4testBuildHandle5/result/Flaky/.nondex/KvejTr2i+RmCnnZ325s702cGDAkBMvdQVKQU4RWZl0=/TEST-org.apache.shenyu.admin.service.register.ShenyuClientRegisterSpringCloudServiceImplTest.xml",
+        "size": 50609,
+        "compressed": 6222,
+        "crc32": "06ec5ee5",
+        "offset": 1594127060,
+        "method": 8,
+        "local_path": "data/extracted/facb68df0850c7c4b42ff73b.xml",
+        "sha256": "f83533d82559c13981df8d62720e4ed11238f27095807bde0a4d187283fe6241",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/shenyushenyuadmin02696b4testBuildHandle5/result/Flaky/rounds-test-results.csv",
+    "size": 23283,
+    "compressed": 5187,
+    "crc32": "ee4ea8c0",
+    "offset": 1594951132,
+    "method": 8,
+    "local_path": "data/extracted/5589d3bf567921543f027cfa.csv",
+    "sha256": "81fa84485ac0acfdc15ee97dba2c9f6eed596b483e083d18d6f12d32cda6053b",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/shenyushenyuadmin02696b4testBuildHandle5/result/Flaky/.nondex/KvejTr2i+RmCnnZ325s702cGDAkBMvdQVKQU4RWZl0=/TEST-org.apache.shenyu.admin.service.register.ShenyuClientRegisterSpringCloudServiceImplTest.xml",
+    "size": 50609,
+    "compressed": 6222,
+    "crc32": "06ec5ee5",
+    "offset": 1594127060,
+    "method": 8,
+    "local_path": "data/extracted/facb68df0850c7c4b42ff73b.xml",
+    "sha256": "f83533d82559c13981df8d62720e4ed11238f27095807bde0a4d187283fe6241",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testBuildHandle",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": null,
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <{\"serviceId\":\"test1\",\"gray\":false,\"divideUpstreams\":[{\"weight\":50,\"warmup\":10,\"protocol\":\"http://\",\"upstreamHost\":\"localhost\",\"upstreamUrl\":\"localhost:8090\",\"status\":true,\"timestamp\":0},{\"weight\":50,\"warmup\":10,\"protocol\":\"http://\",\"upstreamHost\":\"localhost\",\"upstreamUrl\":\"localhost:8091\",\"status\":false,\"timestamp\":0}]}> but was: <{\"gray\":false,\"serviceId\":\"test1\",\"divideUpstreams\":[{\"weight\":50,\"warmup\":10,\"upstreamUrl\":\"localhost:8090\",\"protocol\":\"http://\",\"timestamp\":0,\"upstreamHost\":\"localhost\",\"status\":true},{\"weight\":50,\"warmup\":10,\"upstreamUrl\":\"localhost:8091\",\"protocol\":\"http://\",\"timestamp\":0,\"upstreamHost\":\"localhost\",\"status\":false}]}>\n\tat org.apache.shenyu.admin.service.register.ShenyuClientRegisterSpringCloudServiceImplTest.testBuildHandle(ShenyuClientRegisterSpringCloudServiceImplTest.java:120)",
+    "text": "org.opentest4j.AssertionFailedError\norg.opentest4j.AssertionFailedError: expected: <{\"serviceId\":\"test1\",\"gray\":false,\"divideUpstreams\":[{\"weight\":50,\"warmup\":10,\"protocol\":\"http://\",\"upstreamHost\":\"localhost\",\"upstreamUrl\":\"localhost:8090\",\"status\":true,\"timestamp\":0},{\"weight\":50,\"warmup\":10,\"protocol\":\"http://\",\"upstreamHost\":\"localhost\",\"upstreamUrl\":\"localhost:8091\",\"status\":false,\"timestamp\":0}]}> but was: <{\"gray\":false,\"serviceId\":\"test1\",\"divideUpstreams\":[{\"weight\":50,\"warmup\":10,\"upstreamUrl\":\"localhost:8090\",\"protocol\":\"http://\",\"timestamp\":0,\"upstreamHost\":\"localhost\",\"status\":true},{\"weight\":50,\"warmup\":10,\"upstreamUrl\":\"localhost:8091\",\"protocol\":\"http://\",\"timestamp\":0,\"upstreamHost\":\"localhost\",\"status\":false}]}>\n\tat org.apache.shenyu.admin.service.register.ShenyuClientRegisterSpringCloudServiceImplTest.testBuildHandle(ShenyuClientRegisterSpringCloudServiceImplTest.java:120)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "d4feefcaaedeb98276191e37ce8af664534f1c07f3436595f20d82fddaa087ca"
+}

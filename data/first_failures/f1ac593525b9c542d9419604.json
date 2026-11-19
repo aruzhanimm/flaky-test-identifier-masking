@@ -1,0 +1,81 @@
+{
+  "container": "dubbodubborpcdubborpcdubbo628ad77",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "dubbodubborpcdubborpcdubbo628ad77",
+    "project": "https://github.com/apache/dubbo",
+    "revision": "628ad777b963fb450873a5fd38eebf99002bbc68",
+    "test": "org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort",
+    "label": "OD",
+    "module": "dubbo-rpc/dubbo-rpc-dubbo",
+    "zip": "dubbodubborpcdubborpcdubbo628ad77",
+    "config_row": 925,
+    "configured_test": "org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest#testListAllPort",
+    "configured_type": "od",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/dubbo::org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort",
+    "variant_id": "https://github.com/apache/dubbo::org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort::628ad777b963fb450873a5fd38eebf99002bbc68::dubbo-rpc/dubbo-rpc-dubbo",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/dubbodubborpcdubborpcdubbo628ad77/result/Flaky/surefire-reports/reports-0/org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.txt",
+        "size": 2925,
+        "compressed": 734,
+        "crc32": "aa775b7f",
+        "offset": 339501189,
+        "method": 8,
+        "local_path": "data/extracted/0ef96e4b1db1b6ae26ed6e1b.txt",
+        "sha256": "8af98015458ae32d726b53f507edf3698ccb261601f771e064d138a20b6464a3",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 10,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/dubbodubborpcdubborpcdubbo628ad77/result/Flaky/rounds-test-results.csv",
+    "size": 2230,
+    "compressed": 174,
+    "crc32": "4162346d",
+    "offset": 339521499,
+    "method": 8,
+    "local_path": "data/extracted/047b836352d4e3afb1b7fceb.csv",
+    "sha256": "df119c9aa05b6f553223df31e8928c492a675171563f9dc9c1f532e6d6e68e21",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10,
+  "iteration": 0,
+  "source_row": 1,
+  "diagnostic_member": {
+    "path": "result/dubbodubborpcdubborpcdubbo628ad77/result/Flaky/surefire-reports/reports-0/org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.txt",
+    "size": 2925,
+    "compressed": 734,
+    "crc32": "aa775b7f",
+    "offset": 339501189,
+    "method": 8,
+    "local_path": "data/extracted/0ef96e4b1db1b6ae26ed6e1b.txt",
+    "sha256": "8af98015458ae32d726b53f507edf3698ccb261601f771e064d138a20b6464a3",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "testListAllPort",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "",
+    "stack_trace": "org.junit.ComparisonFailure: \nexpected:<[]20887> but was:<[34109\r\n]20887>\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort(PortTelnetHandlerTest.java:91)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:385)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:285)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:249)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:168)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)",
+    "text": "org.junit.ComparisonFailure\norg.junit.ComparisonFailure: \nexpected:<[]20887> but was:<[34109\r\n]20887>\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort(PortTelnetHandlerTest.java:91)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:385)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:285)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:249)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:168)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "7ff61f0adc8dceced9fa343e562a2f4bd6d97b7c2f47a96263bab2143c8cb25e"
+}

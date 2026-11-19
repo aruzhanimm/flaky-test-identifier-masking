@@ -1,0 +1,81 @@
+{
+  "container": "wikidatatoolkitwdtkutil10f9712",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "wikidatatoolkitwdtkutil10f9712",
+    "project": "https://github.com/wikidata/wikidata-toolkit",
+    "revision": "20de6f7f12319f54eb962ff6e8357b3f5695d54d",
+    "test": "org.wikidata.wdtk.util.DirectoryManagerFactoryTest.createDirectoryManagerIoException",
+    "label": "OD",
+    "module": "wdtk-util",
+    "zip": "wikidatatoolkitwdtkutil10f9711",
+    "config_row": 899,
+    "configured_test": "org.wikidata.wdtk.util.DirectoryManagerFactoryTest#createDirectoryManagerIoException",
+    "configured_type": "od",
+    "iterations": "100",
+    "test_id": "https://github.com/wikidata/wikidata-toolkit::org.wikidata.wdtk.util.DirectoryManagerFactoryTest.createDirectoryManagerIoException",
+    "variant_id": "https://github.com/wikidata/wikidata-toolkit::org.wikidata.wdtk.util.DirectoryManagerFactoryTest.createDirectoryManagerIoException::20de6f7f12319f54eb962ff6e8357b3f5695d54d::wdtk-util",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/wikidatatoolkitwdtkutil10f9712/result/Flaky/surefire-reports/reports-0/org.wikidata.wdtk.util.DirectoryManagerFactoryTest.txt",
+        "size": 3668,
+        "compressed": 843,
+        "crc32": "e02316e2",
+        "offset": 55754718,
+        "method": 8,
+        "local_path": "data/extracted/4aea328a986576729ade1df5.txt",
+        "sha256": "09b71af8f6d80abdbe4e11e77be6674dccec2b878ccfda6602c7cd8b181e61c4",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 10,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/wikidatatoolkitwdtkutil10f9712/result/Flaky/rounds-test-results.csv",
+    "size": 1950,
+    "compressed": 162,
+    "crc32": "77a791bc",
+    "offset": 55737578,
+    "method": 8,
+    "local_path": "data/extracted/8f657055d9a6f8097de1fd7d.csv",
+    "sha256": "fff612c878686aad9c594057a76c25739aceacd0e1fa48135d2c26797d1a378d",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10,
+  "iteration": 0,
+  "source_row": 1,
+  "diagnostic_member": {
+    "path": "result/wikidatatoolkitwdtkutil10f9712/result/Flaky/surefire-reports/reports-0/org.wikidata.wdtk.util.DirectoryManagerFactoryTest.txt",
+    "size": 3668,
+    "compressed": 843,
+    "crc32": "e02316e2",
+    "offset": 55754718,
+    "method": 8,
+    "local_path": "data/extracted/4aea328a986576729ade1df5.txt",
+    "sha256": "09b71af8f6d80abdbe4e11e77be6674dccec2b878ccfda6602c7cd8b181e61c4",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "createDirectoryManagerIoException",
+    "outcome": "error",
+    "exception_type": "java.lang.Exception",
+    "message": "Unexpected exception, expected<java.io.IOException> but was<java.lang.RuntimeException>",
+    "stack_trace": "java.lang.Exception: Unexpected exception, expected<java.io.IOException> but was<java.lang.RuntimeException>\n\tat org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:385)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:285)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:249)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:168)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)\nCaused by: java.lang.RuntimeException: java.lang.NoSuchMethodException: org.wikidata.wdtk.util.DirectoryManagerFactoryTest$TestDirectoryManager.<init>(java.nio.file.Path, java.lang.Boolean)\n\tat org.wikidata.wdtk.util.DirectoryManagerFactory.createDirectoryManager(DirectoryManagerFactory.java:74)\n\tat org.wikidata.wdtk.util.DirectoryManagerFactory.createDirectoryManager(DirectoryManagerFactory.java:99)\n\tat org.wikidata.wdtk.util.DirectoryManagerFactoryTest.createDirectoryManagerIoException(DirectoryManagerFactoryTest.java:118)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)\n\t... 17 more\nCaused by: java.lang.NoSuchMethodException: org.wikidata.wdtk.util.DirectoryManagerFactoryTest$TestDirectoryManager.<init>(java.nio.file.Path, java.lang.Boolean)\n\tat java.lang.Class.getConstructor0(Class.java:3082)\n\tat java.lang.Class.getConstructor(Class.java:1825)\n\tat org.wikidata.wdtk.util.DirectoryManagerFactory.createDirectoryManager(DirectoryManagerFactory.java:69)\n\t... 28 more",
+    "text": "java.lang.Exception\nUnexpected exception, expected<java.io.IOException> but was<java.lang.RuntimeException>\njava.lang.Exception: Unexpected exception, expected<java.io.IOException> but was<java.lang.RuntimeException>\n\tat org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:385)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:285)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:249)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:168)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)\nCaused by: java.lang.RuntimeException: java.lang.NoSuchMethodException: org.wikidata.wdtk.util.DirectoryManagerFactoryTest$TestDirectoryManager.<init>(java.nio.file.Path, java.lang.Boolean)\n\tat org.wikidata.wdtk.util.DirectoryManagerFactory.createDirectoryManager(DirectoryManagerFactory.java:74)\n\tat org.wikidata.wdtk.util.DirectoryManagerFactory.createDirectoryManager(DirectoryManagerFactory.java:99)\n\tat org.wikidata.wdtk.util.DirectoryManagerFactoryTest.createDirectoryManagerIoException(DirectoryManagerFactoryTest.java:118)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)\n\t... 17 more\nCaused by: java.lang.NoSuchMethodException: org.wikidata.wdtk.util.DirectoryManagerFactoryTest$TestDirectoryManager.<init>(java.nio.file.Path, java.lang.Boolean)\n\tat java.lang.Class.getConstructor0(Class.java:3082)\n\tat java.lang.Class.getConstructor(Class.java:1825)\n\tat org.wikidata.wdtk.util.DirectoryManagerFactory.createDirectoryManager(DirectoryManagerFactory.java:69)\n\t... 28 more",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "981efc0c600f7572d21be185570fba518f4a490f4f041ecf6fb5016829d4870f"
+}

@@ -1,0 +1,3217 @@
+{
+  "corpus": "data/processed/corpus.jsonl",
+  "tests": 1051,
+  "all_members_crc_size_sha256_verified": true,
+  "all_rows_reparsed_exact_target": true,
+  "all_original_texts_match_source": true,
+  "all_recorded_exception_names_preserved": true,
+  "target_fully_qualified_class_absent_outside_preserved_exceptions": true,
+  "rows_with_remaining_qualified_tokens": 269,
+  "residual_caution": "Heuristic flags for manual inspection; includes third-party libraries and does not quantify complete de-identification",
+  "residual_examples": [
+    {
+      "sample_id": "d8e2cd2160dfaa5026a4df98",
+      "container": "junitquickcheckgeneratorsbcec1aeproducesExpectedRandomValues",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.pholser.junit.PROJECT.internal.generator.CorePropertyParameterTest.TEST_METHOD",
+        "com.pholser.junit.PROJECT.internal.generator.CorePropertyParameterTest.verifyEquivalenceOfPropertyParameter"
+      ]
+    },
+    {
+      "sample_id": "cf0e818ee31ddf78109d9e04",
+      "container": "junitquickcheckgeneratorsbcec1aeverifyInteractionWithRandomness",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.pholser.junit.PROJECT.Generating.verifyFloats",
+        "com.pholser.junit.PROJECT.generator.java.lang.BooleanGenerator.generate"
+      ]
+    },
+    {
+      "sample_id": "c4f39b435909c1a19dcc0ad6",
+      "container": "jerseyinjectcdi2seff5f5a8testDisposeComposedObjectWithPerLookupFields",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.glassfish.PROJECT.internal.Errors$1.call",
+        "org.glassfish.PROJECT.internal.Errors.process",
+        "org.glassfish.PROJECT.process.internal.RequestScope.runInScope"
+      ]
+    },
+    {
+      "sample_id": "35753b2b42d05f43dc518d19",
+      "container": "jerseyinjecthk2ff5f5a8testDisposeComposedObjectWithPerLookupFields",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.glassfish.PROJECT.internal.Errors$1.call",
+        "org.glassfish.PROJECT.internal.Errors.process",
+        "org.glassfish.PROJECT.process.internal.RequestScope.runInScope"
+      ]
+    },
+    {
+      "sample_id": "119a4d0f011deb79b81f0df0",
+      "container": "nacosclientc5e5a82testNewMetadataSelector",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.alibaba.PROJECT.api.naming.pojo.Instance"
+      ]
+    },
+    {
+      "sample_id": "50dab6aaee6665ab40170fe1",
+      "container": "nacosclientc5e5a82testNewMetadataSelector2",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.alibaba.PROJECT.api.naming.pojo.Instance"
+      ]
+    },
+    {
+      "sample_id": "393b55103808fad1d9462806",
+      "container": "incubatorkiedroolsdroolsdecisiontables8440dc2packageLevelAttributesShouldNotBeDuplicated",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.assertj.core.api.ThrowableAssert.catchThrowable",
+        "org.assertj.core.api.ThrowableTypeAssert.isThrownBy"
+      ]
+    },
+    {
+      "sample_id": "a137a8c5721caa1ae156c848",
+      "container": "ecchronoscore5d58b0etestPartialRepair",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.ericsson.bss.cassandra.PROJECT.core.repair.RepairTask.execute"
+      ]
+    },
+    {
+      "sample_id": "5f9c5b242fb99aa85dd6db95",
+      "container": "ecchronoscore5d58b0etestRepairSuccessfully",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.ericsson.bss.cassandra.PROJECT.core.repair.RepairTask.execute"
+      ]
+    },
+    {
+      "sample_id": "2afac0a95408da6940f474dc",
+      "container": "hbasehbasecommon635c911testClassFinderDefaultsToOwnPackage",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.hadoop.PROJECT.util.TestAvlUtil$TestAvlNode",
+        "org.apache.hadoop.PROJECT.util.TestFutureUtils"
+      ]
+    },
+    {
+      "sample_id": "f7ef34c5a438e581e6ebe425",
+      "container": "hbasehbaseserver07a3ffdtestClone",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.hadoop.PROJECT.SystemExitRule$1.evaluate"
+      ]
+    },
+    {
+      "sample_id": "190936df008b94178b019112",
+      "container": "flinkflinkruntime5f9de3etestKeyedMapStateSerializerReconfiguration",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.runtime.state.StateBackendMigrationTestBase.TEST_METHOD",
+        "org.apache.PROJECT.runtime.state.StateBackendMigrationTestBase.testKeyedMapStateUpgrade",
+        "org.apache.PROJECT.util.TestNameProvider$1.evaluate"
+      ]
+    },
+    {
+      "sample_id": "c9f75188befbaaa3955d9c71",
+      "container": "flinkflinkruntime5f9de3etestKeyedMapStateStateMigration",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.runtime.state.StateBackendMigrationTestBase.TEST_METHOD",
+        "org.apache.PROJECT.runtime.state.StateBackendMigrationTestBase.testKeyedMapStateUpgrade",
+        "org.apache.PROJECT.util.TestNameProvider$1.evaluate"
+      ]
+    },
+    {
+      "sample_id": "05472c63124bccfe367de3c3",
+      "container": "commonscollections917cdf1testCollectionToArray21",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.commons.collections4.collection.AbstractCollectionTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "9bcb244efaa2c4926e5cc8d2",
+      "container": "commonscollections9582007testBidiKeySetValuesOrder",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.commons.collections4.bidimap.AbstractBidiMapTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "88be62714f0b4bd644d573fb",
+      "container": "commonscollections917cdf1testCollectionToArray215",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.commons.collections4.collection.AbstractCollectionTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "44f44d7a30a8c42a86f16b0b",
+      "container": "commonscollections917cdf1testCollectionToArray216",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.commons.collections4.collection.AbstractCollectionTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "416f262ac4b0eafcdc3c9083",
+      "container": "commonscollections917cdf1testCollectionToArray217",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.commons.collections4.collection.AbstractCollectionTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "305aa02cd09c94e89cfb198c",
+      "container": "commonscollections917cdf1testCollectionToArray218",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.commons.collections4.collection.AbstractCollectionTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "5a554259c76df99a539f3f55",
+      "container": "activemqactivemqstompaeab06etestTransformationNotOverrideSubscription20",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "00b3436c286909c30a113235",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject21",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "db1f5141131a4c9b17e64b88",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObject22",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "fea19491baf0a7f54c1b083f",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap23",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "92bdb08b11e57f9a40240471",
+      "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML24",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "3567b173ce8b72c0c9509933",
+      "container": "activemqactivemqstompaeab06etestTransformationNotOverrideSubscription25",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "22e4264c6539e917fec7ea67",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject26",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "fdc0f3f5b7eddd86fc8012cb",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveObject27",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "5e0cf24708e8342f6feaf02a",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObject28",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "c7e48f6dfb402ba10e867722",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap29",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "856b7199efe53145943acc54",
+      "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML30",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "7771e79f475666399b11a423",
+      "container": "activemqactivemqstompaeab06etestTransformationNotOverrideSubscription31",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "537aee137df43ee6a85015da",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject32",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "03087b604eb2581567c43dff",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveObject33",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "c0451945956e10ba15781e73",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObject34",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "4d00146fa122baf752afbae8",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap35",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "2e3f3e0b6cf683cf0d99c935",
+      "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML36",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "2285138a9407af3496a63b82",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject37",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "1171c57487e35c62c596d06f",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveObject38",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "64b903c90de43e0ca11caed3",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap40",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "91f0efeb5613cecabb2a12b0",
+      "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML41",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "50219c2c0bf9c98e924f1730",
+      "container": "activemqactivemqstompaeab06etestTransformationNotOverrideSubscription",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "f3b0ab46cb06ed32cb390443",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject1",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "2ccffd4463e9869c1416028a",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveObject2",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "aeb94fe97b05560ad1b11f22",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObject3",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "3d67cfda9b85a1943fefa5c8",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap4",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "411368315dba370a39084461",
+      "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML5",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "ccaf641d47be707c140e93aa",
+      "container": "activemqactivemqstompaeab06etestTransformationNotOverrideSubscription6",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "da33e2a597684eb291c38524",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject7",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "082021d185d50cb6f610198d",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveObject8",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "2c4ed501b82ecc8bafd955fe",
+      "container": "activemqactivemqstompaeab06etestTransformationNotOverrideSubscription9",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "c0262714335bb0a09774b0d7",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveObject10",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "ab57bcac1139b4c0fdf37831",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObject11",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "8725485b6e2de6ca9d29a22a",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap12",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "8249c20f35590870931c15b7",
+      "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML13",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "e3e871de422d25fc3d6d1c6e",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject14",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "db731067da54fe59278ccfb4",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveObject16",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "4d724410ba25977710150922",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObject17",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "3eedb3365c989860662a6233",
+      "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap18",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "b1399ac4f38d47e03cd52942",
+      "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML19",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.transport.stomp.StompTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "83d2899125541d225b8b0777",
+      "container": "hiveserdea6e13c9testBinarySortableSerDe",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.hadoop.PROJECT.common.type.HiveVarchar",
+        "org.apache.hadoop.PROJECT.serde2.objectinspector.ObjectInspectorUtils.compare",
+        "org.apache.hadoop.PROJECT.serde2.objectinspector.primitive.JavaHiveVarcharObjectInspector.getPrimitiveWritableObject"
+      ]
+    },
+    {
+      "sample_id": "e0cf183d1c51bf6fd827a6f6",
+      "container": "hiveserdea6e13c9testSerDe",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.hadoop.PROJECT.serde2.columnar.LazyBinaryColumnarSerDe.serialize",
+        "org.apache.hadoop.PROJECT.serde2.lazybinary.LazyBinarySerDe.serialize",
+        "org.apache.hadoop.PROJECT.serde2.objectinspector.StandardListObjectInspector.getListLength"
+      ]
+    },
+    {
+      "sample_id": "365e0474f663ed5a51dfa5fa",
+      "container": "hiveserdea6e13c9testSerDeEmpties",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.hadoop.PROJECT.serde2.columnar.LazyBinaryColumnarSerDe.serialize",
+        "org.apache.hadoop.PROJECT.serde2.lazybinary.LazyBinarySerDe.serialize",
+        "org.apache.hadoop.PROJECT.serde2.objectinspector.StandardListObjectInspector.getListLength"
+      ]
+    },
+    {
+      "sample_id": "6a5a2ed3e7058bfb1c40282d",
+      "container": "hiveserdea6e13c9testSerDeInnerNulls",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.hadoop.PROJECT.serde2.columnar.LazyBinaryColumnarSerDe.serialize",
+        "org.apache.hadoop.PROJECT.serde2.lazybinary.LazyBinarySerDe.serialize",
+        "org.apache.hadoop.PROJECT.serde2.objectinspector.StandardListObjectInspector.getListLength"
+      ]
+    },
+    {
+      "sample_id": "2ddbe8551d309e2dcd145e9f",
+      "container": "hiveserdea6e13c9testSerDeParameters",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.hadoop.PROJECT.common.type.HiveChar",
+        "org.apache.hadoop.PROJECT.common.type.HiveDecimal",
+        "org.apache.hadoop.PROJECT.serde2.lazy.LazySimpleSerDe.serialize",
+        "org.apache.hadoop.PROJECT.serde2.lazy.LazyUtils.writePrimitiveUTF8",
+        "org.apache.hadoop.PROJECT.serde2.objectinspector.primitive.JavaHiveCharObjectInspector.getPrimitiveWritableObject"
+      ]
+    },
+    {
+      "sample_id": "38e5c0c477d9bafff9aeb382",
+      "container": "hiveserdea6e13c9testProtocolBuffersObjectInspectors",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.hadoop.PROJECT.serde2.proto.test.Complexpb$Complex.aint_",
+        "org.apache.hadoop.PROJECT.serde2.proto.test.Complexpb$Complex.lString_"
+      ]
+    },
+    {
+      "sample_id": "82de0800f9e0a18a2cee2714",
+      "container": "YARN-9768",
+      "label": "TD",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.test.GenericTestUtils.waitFor"
+      ]
+    },
+    {
+      "sample_id": "9357a639e6b76dc20f0a1b2a",
+      "container": "ACCUMULO-2102_testSetInstance_HdfsZooInstance_Explicit",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.core.client.ClientConfiguration$$EnhancerByCGLIB$$95940065.containsKey",
+        "org.apache.PROJECT.core.client.impl.ServerConfigurationUtil$1.get",
+        "org.apache.PROJECT.core.conf.SiteConfiguration.get",
+        "org.apache.PROJECT.core.util.shell.Shell.getZooInstance",
+        "org.apache.PROJECT.core.util.shell.Shell.setInstance",
+        "org.easymock.internal.ClassProxyFactory$MockMethodInterceptor.intercept",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke",
+        "org.powermock.modules.junit4.PowerMockRunner.run",
+        "org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run",
+        "org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit49RunnerDelegateImpl$PowerMockJUnit49MethodRunner.executeTest",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit49RunnerDelegateImpl$PowerMockJUnit49MethodRunner.executeTestInSuper"
+      ]
+    },
+    {
+      "sample_id": "1454b202b5a3fc3c6c5eea4b",
+      "container": "ACCUMULO-2102_testSetInstance_HdfsZooInstance_HostsGiven",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.core.client.ClientConfiguration$$EnhancerByCGLIB$$95940065.containsKey",
+        "org.apache.PROJECT.core.client.impl.ServerConfigurationUtil$1.get",
+        "org.apache.PROJECT.core.conf.SiteConfiguration.get",
+        "org.apache.PROJECT.core.util.shell.Shell.getZooInstance",
+        "org.apache.PROJECT.core.util.shell.Shell.setInstance",
+        "org.easymock.internal.ClassProxyFactory$MockMethodInterceptor.intercept",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke",
+        "org.powermock.modules.junit4.PowerMockRunner.run",
+        "org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run",
+        "org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit49RunnerDelegateImpl$PowerMockJUnit49MethodRunner.executeTest",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit49RunnerDelegateImpl$PowerMockJUnit49MethodRunner.executeTestInSuper"
+      ]
+    },
+    {
+      "sample_id": "6dff4ff7806d0ba462bc4068",
+      "container": "ACCUMULO-2102_testSetInstance_HdfsZooInstance_Implicit",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.core.client.ClientConfiguration$$EnhancerByCGLIB$$95940065.containsKey",
+        "org.apache.PROJECT.core.client.impl.ServerConfigurationUtil$1.get",
+        "org.apache.PROJECT.core.conf.SiteConfiguration.get",
+        "org.apache.PROJECT.core.util.shell.Shell.getZooInstance",
+        "org.apache.PROJECT.core.util.shell.Shell.setInstance",
+        "org.easymock.internal.ClassProxyFactory$MockMethodInterceptor.intercept",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke",
+        "org.powermock.modules.junit4.PowerMockRunner.run",
+        "org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run",
+        "org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit49RunnerDelegateImpl$PowerMockJUnit49MethodRunner.executeTest",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit49RunnerDelegateImpl$PowerMockJUnit49MethodRunner.executeTestInSuper"
+      ]
+    },
+    {
+      "sample_id": "940c5db39ad79ff8d2fa5d9c",
+      "container": "ACCUMULO-2102_testSetInstance_HdfsZooInstance_InstanceGiven",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.core.client.ClientConfiguration$$EnhancerByCGLIB$$95940065.containsKey",
+        "org.apache.PROJECT.core.client.impl.ServerConfigurationUtil$1.get",
+        "org.apache.PROJECT.core.conf.SiteConfiguration.get",
+        "org.apache.PROJECT.core.util.shell.Shell.getZooInstance",
+        "org.apache.PROJECT.core.util.shell.Shell.setInstance",
+        "org.easymock.internal.ClassProxyFactory$MockMethodInterceptor.intercept",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke",
+        "org.powermock.modules.junit4.PowerMockRunner.run",
+        "org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run",
+        "org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit49RunnerDelegateImpl$PowerMockJUnit49MethodRunner.executeTest",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit49RunnerDelegateImpl$PowerMockJUnit49MethodRunner.executeTestInSuper"
+      ]
+    },
+    {
+      "sample_id": "fb9b091dd43aa17276fbd188",
+      "container": "nifinificommonsnifirecord7823156testInferTypeWithMapNonStringKeys",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.serialization.record.type.RecordDataType"
+      ]
+    },
+    {
+      "sample_id": "903de3f866a33e6bdfec49a1",
+      "container": "nifinificommonsnifirecord7823156testInferTypeWithMapStringKeys",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.serialization.record.type.RecordDataType"
+      ]
+    },
+    {
+      "sample_id": "bc030465022268431970325e",
+      "container": "ignite3modulesstoragerocksdb19c8a82abortOfInsertMakesRowNonExistentForReadByTimestamp",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "a1eea8d9a5851cb740bfbb8f",
+      "container": "ignite3modulesstoragerocksdb19c8a82abortOfInsertMakesRowNonExistentForReadWithTxId",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "984474b3bae1acb2615db66f",
+      "container": "ignite3modulesstoragerocksdb19c8a82abortWriteRemovesUncommittedVersion",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "d8d3a4c1d2625fb6a3ed740d",
+      "container": "ignite3modulesstoragerocksdb19c8a82abortWriteReturnsTheRemovedVersion",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "6e3f16070707fd351a3977d0",
+      "container": "ignite3modulesstoragerocksdb19c8a82addWriteReturnsNullIfNoUncommittedVersionExists",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "3e87c1a63bfde5ca2d1fe47f",
+      "container": "ignite3modulesstoragerocksdb19c8a82addWriteReturnsUncommittedVersionIfItExists",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "096adb7ff4ad28e61e2d4304",
+      "container": "ignite3modulesstoragerocksdb19c8a82addWriteWithDifferentTxIdThrows",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "578bb917e16deeb05849cbba",
+      "container": "ignite3modulesstoragerocksdb19c8a82afterRemovalPreviousVersionRemainsAccessibleByTimestamp",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "2e70babcad52a1d27d509b88",
+      "container": "ignite3modulesstoragerocksdb19c8a82afterRemovalReadByLatestTimestampFindsNothing",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "b8ecc66097bf3cb689c8dfe0",
+      "container": "ignite3modulesstoragerocksdb19c8a82afterRemovalReadWithTxIdFindsNothing",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "49373ad035eff816e47edcd0",
+      "container": "ignite3modulesstoragerocksdb19c8a82commitAndAbortWriteNoOpIfNoUncommittedVersionExists",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "762847ab9cac731846562bc6",
+      "container": "ignite3modulesstoragerocksdb19c8a82commitWriteMakesVersionAvailableToReadByTimestamp",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "ea8941c73bfc721a41e3ab31",
+      "container": "ignite3modulesstoragerocksdb19c8a82readByExactlyCommitTimestampFindsRow",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "15a2298879d4fed656579a4a",
+      "container": "ignite3modulesstoragerocksdb19c8a82readByTimestampAfterCommitTimestampFindsRow",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "a4c44d3f209931e28eab2851",
+      "container": "ignite3modulesstoragerocksdb19c8a82readByTimestampAfterWriteFindsUncommittedVersion",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "ab79c645df66d784e7fc6341",
+      "container": "ignite3modulesstoragerocksdb19c8a82readByTimestampBeforeFirstVersionCommitTimestampFindsNothing",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "db4ef2ca6d94d58bfc415a11",
+      "container": "ignite3modulesstoragerocksdb19c8a82readByTimestampBetweenVersionsFindsPreviousVersion",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "953a3fcd10d9b8feff9a1f8d",
+      "container": "ignite3modulesstoragerocksdb19c8a82readByTimestampOfLastVersionFindsLastVersion",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "dc6cbd1e6d4754c2199a7cd4",
+      "container": "ignite3modulesstoragerocksdb19c8a82readByTimestampOfPreviousVersionFindsPreviousVersion",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "45f27e13495596e812502994",
+      "container": "ignite3modulesstoragerocksdb19c8a82readOfCommittedRowWithAnyTransactionIdReturnsTheRow",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "4e0789f020447ac9b9d8edca",
+      "container": "ignite3modulesstoragerocksdb19c8a82readOfUncommittedRowWithCorrespondingTransactionIdReturnsTheRow",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "b1f6c3ddca658b15269f955d",
+      "container": "ignite3modulesstoragerocksdb19c8a82readsCommittedVersionEvenWhenThereIsCommittedVersionBeforeIt",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "be1695ef90744e9fbf1b17f6",
+      "container": "ignite3modulesstoragerocksdb19c8a82readsUncommittedVersionEvenWhenThereIsCommittedVersionBeforeIt",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "dddc4b7131236976af5b94d0",
+      "container": "ignite3modulesstoragerocksdb19c8a82removalReturnsNullIfNoUncommittedVersionExists",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "4ae57f3b26ebe0f4dbf985c7",
+      "container": "ignite3modulesstoragerocksdb19c8a82removalReturnsUncommittedRowVersionIfItExists",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "56e1c877174e9acc5f093b69",
+      "container": "ignite3modulesstoragerocksdb19c8a82secondUncommittedWriteWithSameTxIdReplacesExistingUncommittedWrite",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "669eb4a052ef44479c93e5a9",
+      "container": "ignite3modulesstoragerocksdb19c8a82testAbortWrite",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "3277dc572edd0d6281706f8c",
+      "container": "ignite3modulesstoragerocksdb19c8a82testAddWrite",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "9e60aee4c264ec4efd97e0c5",
+      "container": "ignite3modulesstoragerocksdb19c8a82testCommitWrite",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "c84033ca3ae4c408fc2ced91",
+      "container": "ignite3modulesstoragerocksdb19c8a82testReadsFromEmpty",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "58acba13b0eb4512a485127d",
+      "container": "ignite3modulesstoragerocksdb19c8a82testScan",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "1ee1f18b0a6fe7671f2f414e",
+      "container": "ignite3modulesstoragerocksdb19c8a82testScanOverEmpty",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "34143f3132068470ef04ae28",
+      "container": "ignite3modulesstoragerocksdb19c8a82testTransactionScanCursorInvariants",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "2a1d1cdcadafaf5e01facb23",
+      "container": "ignite3modulesstoragerocksdb19c8a82testEmptyRange",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "36e484d137096c796c04b1d1",
+      "container": "ignite3modulesstoragerocksdb19c8a82testRowSerialization",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.TablesConfiguration",
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema",
+        "org.apache.PROJECT.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration"
+      ]
+    },
+    {
+      "sample_id": "a80f7950dccbb51188c3611c",
+      "container": "ignite3modulestable19c8a82tableManagerStopTest",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema"
+      ]
+    },
+    {
+      "sample_id": "72145cffdcefd57923ed0eb1",
+      "container": "ignite3modulestable19c8a82testApiTableManagerOnStop",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema"
+      ]
+    },
+    {
+      "sample_id": "c141708b52f0eefe6bd4e472",
+      "container": "ignite3modulestable19c8a82testChangePeersAsyncRetryLogic",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema"
+      ]
+    },
+    {
+      "sample_id": "e46f239128a649efc1646ce2",
+      "container": "ignite3modulestable19c8a82testCreateTable",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema"
+      ]
+    },
+    {
+      "sample_id": "dd7297520e33e4dde57ec90e",
+      "container": "ignite3modulestable19c8a82testDoubledCreateTable",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema"
+      ]
+    },
+    {
+      "sample_id": "810b4f3f891410dbde4e69fa",
+      "container": "ignite3modulestable19c8a82testDropTable",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema"
+      ]
+    },
+    {
+      "sample_id": "19db6936088ae063d2a4db45",
+      "container": "ignite3modulestable19c8a82testGetTableDuringCreation",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema"
+      ]
+    },
+    {
+      "sample_id": "8853e68cbc6734de6c84f6fe",
+      "container": "ignite3modulestable19c8a82testInternalApiTableManagerOnStop",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema"
+      ]
+    },
+    {
+      "sample_id": "aaf475cbcceb96b2f3ffdd7d",
+      "container": "ignite3modulestable19c8a82testPreconfiguredTable",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.internal.schema.configuration.index.TableIndexConfigurationSchema"
+      ]
+    },
+    {
+      "sample_id": "cc95136525dcc04e662f8ea8",
+      "container": "TestParameterInjectorjunit45d67f8ctest1",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.base.Preconditions.checkElementIndex",
+        "com.google.common.collect.SingletonImmutableList.get",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$1.runReflectiveCall",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.access$000",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.createTestForMethod",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodBlock",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndGetFailures",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.postProcessTestInstance",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.getParameterValuesForTest",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.postProcessTestInstance"
+      ]
+    },
+    {
+      "sample_id": "86929ff2e0d7fea50b43ce91",
+      "container": "TestParameterInjectorjunit45d67f8ctest2",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.collect.AbstractIterator.hasNext",
+        "com.google.common.collect.AbstractIterator.tryToComputeNext",
+        "com.google.common.collect.FluentIterable.first",
+        "com.google.common.collect.Iterators$5.computeNext",
+        "com.google.common.collect.Iterators$6.transform",
+        "com.google.common.collect.RegularImmutableList.get",
+        "com.google.common.collect.TransformedIterator.hasNext",
+        "com.google.common.collect.TransformedIterator.next",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$1.runReflectiveCall",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.access$000",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.createTestForMethod",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodBlock",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodInvoker",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndGetFailures",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.getTestMethodParameters",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.lambda$getTestMethodParameters$2",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.postProcessTestInstance",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.getParameterValue",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.getParameterValuesForTest"
+      ]
+    },
+    {
+      "sample_id": "fa5648e3fe53050029504208",
+      "container": "TestParameterInjectorjunit45d67f8ctest4",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.truth.AssertionErrorWithFacts"
+      ]
+    },
+    {
+      "sample_id": "c66f268c155e05e3ccbdb54c",
+      "container": "TestParameterInjectorjunit45d67f8ctest5",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.truth.AssertionErrorWithFacts"
+      ]
+    },
+    {
+      "sample_id": "73b650e23aaf3136a7ac54bb",
+      "container": "TestParameterInjectorjunit45d67f8ctest6",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.base.Preconditions.checkElementIndex",
+        "com.google.common.collect.AbstractIterator.hasNext",
+        "com.google.common.collect.AbstractIterator.tryToComputeNext",
+        "com.google.common.collect.FluentIterable.first",
+        "com.google.common.collect.Iterators$5.computeNext",
+        "com.google.common.collect.Iterators$6.transform",
+        "com.google.common.collect.RegularImmutableList.get",
+        "com.google.common.collect.SingletonImmutableList.get",
+        "com.google.common.collect.TransformedIterator.hasNext",
+        "com.google.common.collect.TransformedIterator.next",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$1.runReflectiveCall",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$2.evaluate",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$ContextMethodRule$1.evaluate",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.access$000",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.createTestForMethod",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodBlock",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodInvoker",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndGetFailures",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.getTestMethodParameters"
+      ]
+    },
+    {
+      "sample_id": "2610628a2cccec16e00d5825",
+      "container": "TestParameterInjectorjunit45d67f8ctest3",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.base.Preconditions.checkElementIndex",
+        "com.google.common.collect.AbstractIterator.hasNext",
+        "com.google.common.collect.AbstractIterator.tryToComputeNext",
+        "com.google.common.collect.FluentIterable.first",
+        "com.google.common.collect.Iterators$5.computeNext",
+        "com.google.common.collect.Iterators$6.transform",
+        "com.google.common.collect.SingletonImmutableList.get",
+        "com.google.common.collect.TransformedIterator.hasNext",
+        "com.google.common.collect.TransformedIterator.next",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$1.runReflectiveCall",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.access$000",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.createTestForMethod",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodBlock",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodInvoker",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndGetFailures",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.getTestMethodParameters",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.lambda$getTestMethodParameters$2",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.postProcessTestInstance",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.getParameterValuesForTest"
+      ]
+    },
+    {
+      "sample_id": "9519f55861911ccd7a356856",
+      "container": "TestParameterInjectorjunit45d67f8ctest7",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.truth.AssertionErrorWithFacts"
+      ]
+    },
+    {
+      "sample_id": "7cc9c614c7efdb65125112eb",
+      "container": "TestParameterInjectorjunit45d67f8ctest8",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.base.Preconditions.checkElementIndex",
+        "com.google.common.base.Preconditions.checkNotNull",
+        "com.google.common.collect.AbstractIterator.hasNext",
+        "com.google.common.collect.AbstractIterator.tryToComputeNext",
+        "com.google.common.collect.FluentIterable.first",
+        "com.google.common.collect.Iterators$5.computeNext",
+        "com.google.common.collect.Iterators$6.transform",
+        "com.google.common.collect.SingletonImmutableList.get",
+        "com.google.common.collect.TransformedIterator.hasNext",
+        "com.google.common.collect.TransformedIterator.next",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodBlock",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodInvoker",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4$SuccessfulTestCaseBase.completedAllTests",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndGetFailures",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.getTestMethodParameters",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.lambda$getTestMethodParameters$2",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.getParameterValue",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.getParameterValuesForTest",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.maybeGetTestMethodParameters"
+      ]
+    },
+    {
+      "sample_id": "643c1eb9e0620218b15c6aac",
+      "container": "TestParameterInjectorjunit45d67f8ctest9",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.base.Preconditions.checkElementIndex",
+        "com.google.common.collect.AbstractIterator.hasNext",
+        "com.google.common.collect.AbstractIterator.tryToComputeNext",
+        "com.google.common.collect.FluentIterable.first",
+        "com.google.common.collect.Iterators$5.computeNext",
+        "com.google.common.collect.Iterators$6.transform",
+        "com.google.common.collect.SingletonImmutableList.get",
+        "com.google.common.collect.TransformedIterator.hasNext",
+        "com.google.common.collect.TransformedIterator.next",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$1.runReflectiveCall",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.access$000",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.createTestForMethod",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodBlock",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodInvoker",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndGetFailures",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.getTestMethodParameters",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.lambda$getTestMethodParameters$2",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.postProcessTestInstance",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.getParameterValue"
+      ]
+    },
+    {
+      "sample_id": "27e2612709789c8b28f10f44",
+      "container": "TestParameterInjectorjunit45d67f8ctest10",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.collect.RegularImmutableList.get",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$1.runReflectiveCall",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.access$000",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.createTestForMethod",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodBlock",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndGetFailures",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.postProcessTestInstance",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.getParameterValuesForTest",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.postProcessTestInstance"
+      ]
+    },
+    {
+      "sample_id": "0309d42fe9f1467852154662",
+      "container": "TestParameterInjectorjunit45d67f8ctest11",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.collect.AbstractIterator.hasNext",
+        "com.google.common.collect.AbstractIterator.tryToComputeNext",
+        "com.google.common.collect.FluentIterable.first",
+        "com.google.common.collect.Iterators$5.computeNext",
+        "com.google.common.collect.Iterators$6.transform",
+        "com.google.common.collect.RegularImmutableList.get",
+        "com.google.common.collect.TransformedIterator.hasNext",
+        "com.google.common.collect.TransformedIterator.next",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$1.runReflectiveCall",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.access$000",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.createTestForMethod",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodBlock",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodInvoker",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndGetFailures",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.getTestMethodParameters",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.lambda$getTestMethodParameters$2",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.postProcessTestInstance",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.getParameterValue",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.getParameterValuesForTest"
+      ]
+    },
+    {
+      "sample_id": "28a29df89937bec297b94a8e",
+      "container": "TestParameterInjectorjunit45d67f8ctest12",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.base.Preconditions.checkElementIndex",
+        "com.google.common.collect.SingletonImmutableList.get",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$1.runReflectiveCall",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.access$000",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.createTestForMethod",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodBlock",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndGetFailures",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.postProcessTestInstance",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.getParameterValuesForTest",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.postProcessTestInstance"
+      ]
+    },
+    {
+      "sample_id": "fc4158f243a22450281cface",
+      "container": "TestParameterInjectorjunit45d67f8ctest14",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.base.Preconditions.checkNotNull",
+        "com.google.common.collect.AbstractIterator.hasNext",
+        "com.google.common.collect.AbstractIterator.tryToComputeNext",
+        "com.google.common.collect.FluentIterable.first",
+        "com.google.common.collect.Iterators$5.computeNext",
+        "com.google.common.collect.Iterators$6.transform",
+        "com.google.common.collect.TransformedIterator.hasNext",
+        "com.google.common.collect.TransformedIterator.next",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$2.evaluate",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$ContextMethodRule$1.evaluate",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodBlock",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodInvoker",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4$SuccessfulTestCaseBase.completedAllTests",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndGetFailures",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.getTestMethodParameters",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.lambda$getTestMethodParameters$2",
+        "com.google.testing.junit.PROJECT.TestParameter$InternalImplementationOfThisParameter.getValueType",
+        "com.google.testing.junit.PROJECT.TestParameter.",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.getParameterValue"
+      ]
+    },
+    {
+      "sample_id": "cc24bc05d5a56a7864a23337",
+      "container": "TestParameterInjectorjunit45d67f8ctest15",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.base.Preconditions.checkElementIndex",
+        "com.google.common.collect.AbstractIterator.hasNext",
+        "com.google.common.collect.AbstractIterator.tryToComputeNext",
+        "com.google.common.collect.FluentIterable.first",
+        "com.google.common.collect.Iterators$5.computeNext",
+        "com.google.common.collect.Iterators$6.transform",
+        "com.google.common.collect.SingletonImmutableList.get",
+        "com.google.common.collect.TransformedIterator.hasNext",
+        "com.google.common.collect.TransformedIterator.next",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodBlock",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodInvoker",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndGetFailures",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.getTestMethodParameters",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.lambda$getTestMethodParameters$2",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.getParameterValuesForTest",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.maybeGetTestMethodParameters"
+      ]
+    },
+    {
+      "sample_id": "790537211ff38ca51947fa8d",
+      "container": "TestParameterInjectorjunit45d67f8ctest17",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.base.Preconditions.checkElementIndex",
+        "com.google.common.collect.AbstractIterator.hasNext",
+        "com.google.common.collect.AbstractIterator.tryToComputeNext",
+        "com.google.common.collect.FluentIterable.first",
+        "com.google.common.collect.Iterators$5.computeNext",
+        "com.google.common.collect.Iterators$6.transform",
+        "com.google.common.collect.SingletonImmutableList.get",
+        "com.google.common.collect.TransformedIterator.hasNext",
+        "com.google.common.collect.TransformedIterator.next",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$1.runReflectiveCall",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.access$000",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.createTestForMethod",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodBlock",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodInvoker",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndGetFailures",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.getTestMethodParameters",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.lambda$getTestMethodParameters$2",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.postProcessTestInstance",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.getParameterValuesForTest"
+      ]
+    },
+    {
+      "sample_id": "a88dad08180a3e6c9dca986d",
+      "container": "TestParameterInjectorjunit45d67f8ctest18",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.collect.AbstractIterator.hasNext",
+        "com.google.common.collect.AbstractIterator.tryToComputeNext",
+        "com.google.common.collect.FluentIterable.first",
+        "com.google.common.collect.Iterators$5.computeNext",
+        "com.google.common.collect.Iterators$6.transform",
+        "com.google.common.collect.RegularImmutableList.get",
+        "com.google.common.collect.TransformedIterator.hasNext",
+        "com.google.common.collect.TransformedIterator.next",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$1.runReflectiveCall",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$2.evaluate",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$ContextMethodRule$1.evaluate",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.access$000",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.createTestForMethod",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodBlock",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodInvoker",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndGetFailures",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.getConstructorParameters",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.getTestMethodParameters",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.lambda$getConstructorParameters$0"
+      ]
+    },
+    {
+      "sample_id": "c76c3a0ce152de299a066ac1",
+      "container": "TestParameterInjectorjunit45d67f8ctest_success16",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.common.base.Preconditions.checkElementIndex",
+        "com.google.common.collect.AbstractIterator.hasNext",
+        "com.google.common.collect.AbstractIterator.tryToComputeNext",
+        "com.google.common.collect.FluentIterable.first",
+        "com.google.common.collect.Iterators$5.computeNext",
+        "com.google.common.collect.Iterators$6.transform",
+        "com.google.common.collect.SingletonImmutableList.get",
+        "com.google.common.collect.TransformedIterator.hasNext",
+        "com.google.common.collect.TransformedIterator.next",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner$1.runReflectiveCall",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.access$000",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.createTestForMethod",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodBlock",
+        "com.google.testing.junit.PROJECT.PluggableTestRunner.methodInvoker",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndAssertNoFailures",
+        "com.google.testing.junit.PROJECT.SharedTestUtilitiesJUnit4.runTestsAndGetFailures",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.getTestMethodParameters",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.lambda$getTestMethodParameters$2",
+        "com.google.testing.junit.PROJECT.TestMethodProcessorList.postProcessTestInstance",
+        "com.google.testing.junit.PROJECT.TestParameterAnnotationMethodProcessor.getParameterValue"
+      ]
+    },
+    {
+      "sample_id": "812d931adad13c83f77ea6a1",
+      "container": "jmeterdatadogbackendlistenerb9fdff5testExtractLogs",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.powermock.modules.junit4.PowerMockRunner.run",
+        "org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run",
+        "org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner$TestExecutorStatement.evaluate",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.access$100",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.evaluateStatement",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest",
+        "org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTestInSuper"
+      ]
+    },
+    {
+      "sample_id": "4d0e50357512f7d730d53bc3",
+      "container": "dubbodubbocommon690d397testGetAllDeclaredAnnotations",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.alibaba.PROJECT.config.annotation.Service",
+        "com.sun.proxy.$Proxy10"
+      ]
+    },
+    {
+      "sample_id": "bf4842389bcb8e7a10a4cdf5",
+      "container": "dubbodubborpcdubborpcdubbo5ea6b331",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.rpc.Protocol$Adaptive.export",
+        "org.apache.PROJECT.rpc.protocol.PROJECT.DubboProtocol.createServer",
+        "org.apache.PROJECT.rpc.protocol.PROJECT.DubboProtocol.export",
+        "org.apache.PROJECT.rpc.protocol.PROJECT.DubboProtocol.openServer",
+        "org.apache.PROJECT.rpc.protocol.ProtocolFilterWrapper.export",
+        "org.apache.PROJECT.rpc.protocol.ProtocolListenerWrapper.export"
+      ]
+    },
+    {
+      "sample_id": "167a72e59e08cd536ec83d83",
+      "container": "dubbodubborpcdubborpcapiba89f44",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.rpc.proxy.AbstractProxyTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "54bfe9820c7b12e453631682",
+      "container": "dubbodubborpcdubborpcapiba89f441",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.rpc.proxy.AbstractProxyTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "26413f5b59a05d506f1b9195",
+      "container": "incubatorshardingsphereshardingorchestrationshardingorchestrationcorefcd7940assertPersistConfigurationForMasterSlaveRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.orchestration.internal.registry.config.service.ConfigurationService.persistAuthentication"
+      ]
+    },
+    {
+      "sample_id": "06147aab6854261cc3db10e6",
+      "container": "incubatorshardingsphereshardingorchestrationshardingorchestrationcorefcd7940assertPersistConfigurationForMasterSlaveRuleWithAuthenticationAndIsOverwrite",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.orchestration.internal.registry.config.service.ConfigurationService.persistAuthentication"
+      ]
+    },
+    {
+      "sample_id": "00e19fb01d5124ca857368ff",
+      "container": "incubatorshardingsphereshardingorchestrationshardingorchestrationcorefcd7940assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.orchestration.internal.registry.config.service.ConfigurationService.persistAuthentication"
+      ]
+    },
+    {
+      "sample_id": "fca009f6c0f1a5f739532452",
+      "container": "incubatorshardingsphereshardingorchestrationshardingorchestrationcorefcd7940assertPersistConfigurationForShardingRuleWithAuthenticationAndIsOverwrite",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.orchestration.internal.registry.config.service.ConfigurationService.persistAuthentication"
+      ]
+    },
+    {
+      "sample_id": "03f6add385273f1aa40cb5ad",
+      "container": "incubatorshardingsphereshardingjdbcshardingjdbccored517e5eassertGetDatabaseProductName",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.shardingjdbc.jdbc.core.context.MasterSlaveRuntimeContext.createCachedDatabaseMetaData"
+      ]
+    },
+    {
+      "sample_id": "0f6991284751b70c275cbfaf",
+      "container": "pmdpmdcorebdc08e4testRendererMultiple",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "net.sourceforge.PROJECT.renderers.AbstractRendererTest.TEST_METHOD"
+      ]
+    },
+    {
+      "sample_id": "19412fd6d594c493ba58341f",
+      "container": "apolloapolloadminservicea882f3etestReleaseBuild",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.ctrip.framework.PROJECT.biz.service.BizDBPropertySource.refresh",
+        "com.ctrip.framework.PROJECT.common.aop.RepositoryAspect.invokeWithCatTransaction",
+        "com.ctrip.framework.PROJECT.common.config.RefreshableConfig.setup",
+        "com.sun.management.internal.OperatingSystemImpl.",
+        "com.sun.management.internal.PlatformMBeanProviderImpl$3.nameToMBeanMap",
+        "com.sun.management.internal.PlatformMBeanProviderImpl.getOperatingSystemMXBean",
+        "com.sun.proxy.$Proxy173.findAll",
+        "org.apache.catalina.core.ContainerBase$StartChild.call",
+        "org.apache.catalina.core.ContainerBase.startInternal",
+        "org.apache.catalina.core.StandardContext.startInternal",
+        "org.apache.catalina.core.StandardEngine.startInternal",
+        "org.apache.catalina.core.StandardHost.startInternal",
+        "org.apache.catalina.core.StandardServer.startInternal",
+        "org.apache.catalina.core.StandardService.startInternal",
+        "org.apache.catalina.startup.Tomcat.start",
+        "org.apache.catalina.util.LifecycleBase.start",
+        "org.apache.tomcat.util.threads.InlineExecutorService.execute",
+        "org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod",
+        "org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs",
+        "org.springframework.aop.aspectj.AspectJAroundAdvice.invoke"
+      ]
+    },
+    {
+      "sample_id": "8cd5bde8daee78ac2be25c51",
+      "container": "apolloapollobiz75ae5cctestUpdateBranchGrayRulesWithUpdateOnce",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run",
+        "org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild",
+        "org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate",
+        "org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate",
+        "org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate",
+        "org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate",
+        "org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate",
+        "org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate",
+        "org.springframework.test.context.junit4.statements.SpringRepeat.evaluate"
+      ]
+    },
+    {
+      "sample_id": "a1d42cf53df60828fbdd1887",
+      "container": "apolloapollobiz75ae5cctestUpdateBranchGrayRulesWithUpdateTwice",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run",
+        "org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild",
+        "org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate",
+        "org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate",
+        "org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate",
+        "org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate",
+        "org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate",
+        "org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate",
+        "org.springframework.test.context.junit4.statements.SpringRepeat.evaluate"
+      ]
+    },
+    {
+      "sample_id": "f7d5351408696a75ba0d8086",
+      "container": "apolloapolloconfigservice5e49df6testAppNamespace",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.awaitility.core.AssertionCondition.lambda$new$0",
+        "org.awaitility.core.ConditionAwaiter$ConditionPoller.call"
+      ]
+    },
+    {
+      "sample_id": "e3049145c2627a43e31733c2",
+      "container": "appenginepluginscoreca26908testCall_withOverrideComponents",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.cloud.tools.managedcloudsdk.command.CommandRunner.run",
+        "com.google.cloud.tools.managedcloudsdk.install.Installer.install"
+      ]
+    },
+    {
+      "sample_id": "dc1af14e16ef0ee0826f4905",
+      "container": "pulsarpulsarclient45e4f4atestAllowNullSchema",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.client.impl.schema.SchemaTestUtils"
+      ]
+    },
+    {
+      "sample_id": "b477c0cc4aa62de212f71498",
+      "container": "pulsarpulsarclient45e4f4atestNotAllowNullSchema",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.client.impl.schema.SchemaTestUtils"
+      ]
+    },
+    {
+      "sample_id": "b4cc2dcb0a09756f6e1f5fc7",
+      "container": "pulsarpulsarclientc3292a6testAllowNullSchema",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.client.impl.schema.SchemaTestUtils"
+      ]
+    },
+    {
+      "sample_id": "a6965b5ebf731de057f8b107",
+      "container": "pulsarpulsarclientc3292a6testNotAllowNullSchema",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.client.impl.schema.SchemaTestUtils"
+      ]
+    },
+    {
+      "sample_id": "d73d09c7fa1a707608d6c61b",
+      "container": "pulsarpulsarclientc3292a6testKeyValueSchemaInfoToString",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.client.impl.schema.SchemaTestUtils"
+      ]
+    },
+    {
+      "sample_id": "66ccca99266eb0c3269e10bd",
+      "container": "OpenRefinemaina68ba3bserializeListFacet",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.refine.util.TestUtils.assertEqualsAsJson",
+        "com.google.refine.util.TestUtils.isSerializedTo"
+      ]
+    },
+    {
+      "sample_id": "a19638f7ec0cfa5cbf848cd2",
+      "container": "OpenRefinemaina68ba3btestSelectedEmptyChoice",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "com.google.refine.util.TestUtils.assertEqualsAsJson",
+        "com.google.refine.util.TestUtils.isSerializedTo"
+      ]
+    },
+    {
+      "sample_id": "6b24edd0b1fb96872a30aa42",
+      "container": "graylog2servergraylog2server77d2635mergesMultipleResultsFromMultipleChecksWithConflictingKeys",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "org.graylog.plugins.aioverlord"
+      ]
+    },
+    {
+      "sample_id": "f64c4c2dd64fa29f607bfcb9",
+      "container": "wildflynaming3a83b7b1",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.naming.NamingContext.setActiveNamingStore"
+      ]
+    },
+    {
+      "sample_id": "3ff23b9a854f4c74b7044f10",
+      "container": "wildflynaming3a83b7b2",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.naming.NamingContext.setActiveNamingStore"
+      ]
+    },
+    {
+      "sample_id": "c624b6b5d4f1ed953de7ac3e",
+      "container": "wildflynaming3a83b7b3",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.naming.NamingContext.setActiveNamingStore"
+      ]
+    },
+    {
+      "sample_id": "7334d6680da3d1a7653a9412",
+      "container": "wildflynaming3a83b7b4",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.naming.NamingContext.setActiveNamingStore"
+      ]
+    },
+    {
+      "sample_id": "32444828124d103d5ee33fff",
+      "container": "wildflynaming3a83b7b5",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.naming.NamingContext.setActiveNamingStore"
+      ]
+    },
+    {
+      "sample_id": "2fa26f6b2cec9d1bd7685d51",
+      "container": "wildflynaming3a83b7b6",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.naming.NamingContext.setActiveNamingStore"
+      ]
+    },
+    {
+      "sample_id": "d7c7740312e1db809e69de49",
+      "container": "wildflynaming3a83b7b7",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.naming.NamingContext.setActiveNamingStore"
+      ]
+    },
+    {
+      "sample_id": "79aff5c259bd0a7d5b250f06",
+      "container": "wildflynaming3a83b7b8",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.naming.NamingContext.setActiveNamingStore"
+      ]
+    },
+    {
+      "sample_id": "b024093822ba3b49a8bcefca",
+      "container": "wildflynaming3a83b7b9",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.naming.ServiceBasedNamingStore.listBindings",
+        "org.jboss.as.naming.ServiceBasedNamingStore.lookup"
+      ]
+    },
+    {
+      "sample_id": "cbe6021556ac7ff95a4e7805",
+      "container": "wildflynaming3a83b7b10",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.naming.ServiceBasedNamingStore.lookup"
+      ]
+    },
+    {
+      "sample_id": "eb608b766a6cab90a17fad9e",
+      "container": "wildflynaming3a83b7b11",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.naming.NamingContext.lookup",
+        "org.jboss.as.naming.ServiceBasedNamingStore.lookup"
+      ]
+    },
+    {
+      "sample_id": "2aba75e8678dddf2e8751f71",
+      "container": "wildflynaming3a83b7b12",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.naming.NamingContext.lookup",
+        "org.jboss.as.naming.ServiceBasedNamingStore.lookup"
+      ]
+    },
+    {
+      "sample_id": "75025f49f1668cf786e5c4b9",
+      "container": "wildflynaming3a83b7b19",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.naming.ServiceBasedNamingStore.lookup"
+      ]
+    },
+    {
+      "sample_id": "83b67859c2c4f64141cee510",
+      "container": "wildflynaming3a83b7b20",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.naming.ServiceBasedNamingStore.lookup"
+      ]
+    },
+    {
+      "sample_id": "6f7502c028e8e92b6b077627",
+      "container": "wildflynaming3a83b7b21",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.naming.ServiceBasedNamingStore.lookup"
+      ]
+    },
+    {
+      "sample_id": "9de426ade87fe1af6f5cb8c0",
+      "container": "wildflynaming3a83b7b13",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.controller.AbstractControllerService.getBootStackSize",
+        "org.jboss.as.controller.AbstractControllerService.start",
+        "org.jboss.as.model.test.ModelTestModelControllerService.start",
+        "org.jboss.as.model.test.ModelTestModelControllerService.waitForSetup",
+        "org.jboss.as.subsystem.test.AbstractKernelServicesImpl.create",
+        "org.jboss.as.subsystem.test.SubsystemTestDelegate$KernelServicesBuilderImpl.build",
+        "org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run",
+        "org.jboss.msc.service.ServiceControllerImpl$StartTask.execute",
+        "org.jboss.msc.service.ServiceControllerImpl$StartTask.startService",
+        "org.jboss.threads.ContextClassLoaderSavingRunnable.run",
+        "org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask",
+        "org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run",
+        "org.jboss.threads.EnhancedQueueExecutor.safeRun"
+      ]
+    },
+    {
+      "sample_id": "6d7a0bdd42f61b863d1bfc56",
+      "container": "wildflynaming3a83b7b14",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.controller.AbstractControllerService.getBootStackSize",
+        "org.jboss.as.controller.AbstractControllerService.start",
+        "org.jboss.as.model.test.ModelTestModelControllerService.start",
+        "org.jboss.as.model.test.ModelTestModelControllerService.waitForSetup",
+        "org.jboss.as.subsystem.test.AbstractKernelServicesImpl.create",
+        "org.jboss.as.subsystem.test.SubsystemTestDelegate$KernelServicesBuilderImpl.build",
+        "org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run",
+        "org.jboss.msc.service.ServiceControllerImpl$StartTask.execute",
+        "org.jboss.msc.service.ServiceControllerImpl$StartTask.startService",
+        "org.jboss.threads.ContextClassLoaderSavingRunnable.run",
+        "org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask",
+        "org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run",
+        "org.jboss.threads.EnhancedQueueExecutor.safeRun"
+      ]
+    },
+    {
+      "sample_id": "a34dc26c4bc33b2b1fcd365d",
+      "container": "wildflynaming3a83b7b15",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.controller.AbstractControllerService.getBootStackSize",
+        "org.jboss.as.controller.AbstractControllerService.start",
+        "org.jboss.as.model.test.ModelTestModelControllerService.start",
+        "org.jboss.as.model.test.ModelTestModelControllerService.waitForSetup",
+        "org.jboss.as.subsystem.test.AbstractKernelServicesImpl.create",
+        "org.jboss.as.subsystem.test.SubsystemTestDelegate$KernelServicesBuilderImpl.build",
+        "org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run",
+        "org.jboss.msc.service.ServiceControllerImpl$StartTask.execute",
+        "org.jboss.msc.service.ServiceControllerImpl$StartTask.startService",
+        "org.jboss.threads.ContextClassLoaderSavingRunnable.run",
+        "org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask",
+        "org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run",
+        "org.jboss.threads.EnhancedQueueExecutor.safeRun"
+      ]
+    },
+    {
+      "sample_id": "5be943fa5e197863d90fdb7b",
+      "container": "wildflynaming3a83b7b16",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.controller.AbstractControllerService.getBootStackSize",
+        "org.jboss.as.controller.AbstractControllerService.start",
+        "org.jboss.as.model.test.ModelTestModelControllerService.start",
+        "org.jboss.as.model.test.ModelTestModelControllerService.waitForSetup",
+        "org.jboss.as.subsystem.test.AbstractKernelServicesImpl.create",
+        "org.jboss.as.subsystem.test.SubsystemTestDelegate$KernelServicesBuilderImpl.build",
+        "org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run",
+        "org.jboss.msc.service.ServiceControllerImpl$StartTask.execute",
+        "org.jboss.msc.service.ServiceControllerImpl$StartTask.startService",
+        "org.jboss.threads.ContextClassLoaderSavingRunnable.run",
+        "org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask",
+        "org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run",
+        "org.jboss.threads.EnhancedQueueExecutor.safeRun"
+      ]
+    },
+    {
+      "sample_id": "ef774f90541f21f6a21866ed",
+      "container": "wildflynaming3a83b7b17",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.controller.AbstractControllerService.getBootStackSize",
+        "org.jboss.as.controller.AbstractControllerService.start",
+        "org.jboss.as.model.test.ModelTestModelControllerService.start",
+        "org.jboss.as.model.test.ModelTestModelControllerService.waitForSetup",
+        "org.jboss.as.subsystem.test.AbstractKernelServicesImpl.create",
+        "org.jboss.as.subsystem.test.SubsystemTestDelegate$KernelServicesBuilderImpl.build",
+        "org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run",
+        "org.jboss.msc.service.ServiceControllerImpl$StartTask.execute",
+        "org.jboss.msc.service.ServiceControllerImpl$StartTask.startService",
+        "org.jboss.threads.ContextClassLoaderSavingRunnable.run",
+        "org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask",
+        "org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run",
+        "org.jboss.threads.EnhancedQueueExecutor.safeRun"
+      ]
+    },
+    {
+      "sample_id": "d25c5265f620e89df8283078",
+      "container": "wildflynaming3a83b7b18",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "org.jboss.as.controller.AbstractControllerService.getBootStackSize",
+        "org.jboss.as.controller.AbstractControllerService.start",
+        "org.jboss.as.model.test.ModelTestModelControllerService.start",
+        "org.jboss.as.model.test.ModelTestModelControllerService.waitForSetup",
+        "org.jboss.as.subsystem.test.AbstractKernelServicesImpl.create",
+        "org.jboss.as.subsystem.test.AbstractSubsystemBaseTest.TEST_METHOD",
+        "org.jboss.as.subsystem.test.AbstractSubsystemBaseTest.standardSubsystemTest",
+        "org.jboss.as.subsystem.test.SubsystemTestDelegate$KernelServicesBuilderImpl.build",
+        "org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run",
+        "org.jboss.msc.service.ServiceControllerImpl$StartTask.execute",
+        "org.jboss.msc.service.ServiceControllerImpl$StartTask.startService",
+        "org.jboss.threads.ContextClassLoaderSavingRunnable.run",
+        "org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask",
+        "org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run",
+        "org.jboss.threads.EnhancedQueueExecutor.safeRun"
+      ]
+    },
+    {
+      "sample_id": "c672c4e8e9597bed2204fb98",
+      "container": "RATIS-1363",
+      "label": "TD",
+      "remaining_qualified_tokens": [
+        "org.apache.PROJECT.InstallSnapshotNotificationTests.TEST_METHOD",
+        "org.apache.PROJECT.server.impl.MiniRaftCluster$Factory$Get.runWithNewCluster"
+      ]
+    },
+    {
+      "sample_id": "5a1cfaee4ddc1abd9104b44a",
+      "container": "marineapi0a1f308",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "net.sf.marineapi.nmea.parser.SentenceFactory.createParser",
+        "net.sf.marineapi.nmea.parser.SentenceFactory.createParserImpl"
+      ]
+    },
+    {
+      "sample_id": "539bf75779571cdc432dee0a",
+      "container": "marineapi0a1f309",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "net.sf.marineapi.nmea.parser.SentenceFactory.createParser",
+        "net.sf.marineapi.nmea.parser.SentenceFactory.createParserImpl"
+      ]
+    },
+    {
+      "sample_id": "60e8f5a4bb63ac35561c7580",
+      "container": "ormlitecore59309e5",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.assignEmptyForeignCollection",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "cdceca58b172bc13076acdea",
+      "container": "ormlitecore59309e6",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.callBatchTasks",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "d4611d2f2a6f860d61ca753e",
+      "container": "ormlitecore59309e7",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.closeLastIterator",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "b47228cddf8c09ded8913bf3",
+      "container": "ormlitecore59309e8",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.closeLastIterator",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "2c8213612b119d599871e8fa",
+      "container": "ormlitecore59309e9",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.commit",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "f75f36a4e687e593792894f5",
+      "container": "ormlitecore59309e10",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.countOf",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "8edeef46b3ff054f31317e5b",
+      "container": "ormlitecore59309e11",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.countOf",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "5801617be978c7363eab01ad",
+      "container": "ormlitecore59309e12",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.create",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "fa2ff72d8608cceaa20f2d54",
+      "container": "ormlitecore59309e13",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.createIfNotExists",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "c412c4780b2e9ed6d9f5699e",
+      "container": "ormlitecore59309e14",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.createObjectInstance",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "36837f362b7e9c9e4afdc7d0",
+      "container": "ormlitecore59309e15",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.createOrUpdate",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "17f62f8fb4cdb95859a944f4",
+      "container": "ormlitecore59309e16",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.create",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "e45a0a101cb91796cce08864",
+      "container": "ormlitecore59309e17",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.deleteById",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "966e6e7ab9f1fcfd4062a8e8",
+      "container": "ormlitecore59309e18",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.delete",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "bb0db5ae5bb2fd435a993d6e",
+      "container": "ormlitecore59309e19",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.deleteIds",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "41e0c9a60ff192189f57c93d",
+      "container": "ormlitecore59309e20",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.delete",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "177ef7c76773bd1f8305557f",
+      "container": "ormlitecore59309e21",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.delete",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "5a89f2274093f5cbddb22ec2",
+      "container": "ormlitecore59309e22",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.endThreadConnection",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "b2eb60924d3519e9288f3506",
+      "container": "ormlitecore59309e23",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.executeRaw",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "c28d60a8ccee6efe5af4f6da",
+      "container": "ormlitecore59309e24",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.executeRaw",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "060807a09d53d58a30c92475",
+      "container": "ormlitecore59309e25",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.extractId",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "bbe5c4225b0d4687ffaab88d",
+      "container": "ormlitecore59309e26",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.getEmptyForeignCollection",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "324e6d71095d73f81f7e7c40",
+      "container": "ormlitecore59309e27",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.getSelectStarRowMapper",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "398fbb619d00e47993f6ba85",
+      "container": "ormlitecore59309e28",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.idExists",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "2b98d1d346b24d36198a22d8",
+      "container": "ormlitecore59309e29",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.isAutoCommit",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "9c689ebd7481a6f6b3f5e37a",
+      "container": "ormlitecore59309e30",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.isTableExists",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "59d77fab41128b2464dea253",
+      "container": "ormlitecore59309e31",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.iterator",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "a04fb5102604f6409792afbb",
+      "container": "ormlitecore59309e32",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.iterator",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "9fc451760e9b369dfc7715d7",
+      "container": "ormlitecore59309e33",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.mapSelectStarRow",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "5f6782476754feeaf5a373b6",
+      "container": "ormlitecore59309e34",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.objectsEqual",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "66bbdcc516abb74f5aebca25",
+      "container": "ormlitecore59309e35",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.queryForAll",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "3016eefcd6d762dbb75c2314",
+      "container": "ormlitecore59309e36",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.queryForEq",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "c0f868e603dab1ebfece2881",
+      "container": "ormlitecore59309e37",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.queryForFieldValuesArgs",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "ec552b26f921e728adc62879",
+      "container": "ormlitecore59309e38",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.queryForFieldValues",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "541ec807cb5623161791c345",
+      "container": "ormlitecore59309e39",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.queryForFirst",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "924fbd94d9b9085c0d598918",
+      "container": "ormlitecore59309e40",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.queryForId",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "5e8bebe1a3a64e209c0cdaa9",
+      "container": "ormlitecore59309e41",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.queryForMatchingArgs",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "7ae8d99a6c41ff0095ccba85",
+      "container": "ormlitecore59309e42",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.queryForMatching",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "964938b2b814f301a364cb0c",
+      "container": "ormlitecore59309e43",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.queryForSameId",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "e97f6596be60d77b5ab94ef3",
+      "container": "ormlitecore59309e44",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.queryRaw",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "2333a069852942c8009b764f",
+      "container": "ormlitecore59309e45",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.queryRaw",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "bbfab8e490fc9a4f021a8b7d",
+      "container": "ormlitecore59309e46",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.queryRaw",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "18473b5e0e717f7f2d8bff71",
+      "container": "ormlitecore59309e47",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.queryRaw",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "72e6fbb0ef7a442ead449760",
+      "container": "ormlitecore59309e48",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.queryRaw",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "db04d7c84fcf22fb009da172",
+      "container": "ormlitecore59309e49",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.queryRawValue",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "2df442692d7976251c85cc87",
+      "container": "ormlitecore59309e50",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.query",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "0352fb473995ddfbfdf9297a",
+      "container": "ormlitecore59309e51",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.refresh",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "0e7dbf77769764ac5f29ed3e",
+      "container": "ormlitecore59309e52",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.rollBack",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "5a0bd919b80fd449c83fa501",
+      "container": "ormlitecore59309e53",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.setAutoCommit",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "ee9545ddc13c6a632a44bb00",
+      "container": "ormlitecore59309e54",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.setObjectCache",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "fc8c197ee2e640dee7ff8c8e",
+      "container": "ormlitecore59309e55",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.setObjectCache",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "eae2b9ff0ff680ee8bd9832a",
+      "container": "ormlitecore59309e56",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.startThreadConnection",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "4d668e51f182bf3ace40c57c",
+      "container": "ormlitecore59309e57",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.updateId",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "e7073ace51a61b4fd84c8396",
+      "container": "ormlitecore59309e58",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.update",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "ae8c4f124607a7e3180c7536",
+      "container": "ormlitecore59309e59",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.updateRaw",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "91b308d01647fec2c8d3089f",
+      "container": "ormlitecore59309e60",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.logMessage",
+        "com.j256.PROJECT.dao.RuntimeExceptionDao.update",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.log",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "cca8af1593ca28c1c135f0bd",
+      "container": "ormlitecore59309e61",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.db.BaseDatabaseType.loadDriver",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.warn",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "f3c968f8b09d7d844f3f1996",
+      "container": "ormlitecore59309e62",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.BaseCoreTest.createDao",
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "5adc3f40da4d05a5a7145d4f",
+      "container": "ormlitecore59309e63",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.BaseCoreTest.createDao",
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "d49d3a3fc2419d768e7b5620",
+      "container": "ormlitecore59309e64",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.BaseCoreTest.createDao",
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "d9dcbe5c3b21917628c80004",
+      "container": "ormlitecore59309e65",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.trace",
+        "com.j256.PROJECT.misc.TransactionManager.callInTransaction",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "5e1ba58f1f0958c07c18bd0e",
+      "container": "ormlitecore59309e66",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.BaseCoreTest.createDao",
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "f79b3ddd841b2f0c1f01a502",
+      "container": "ormlitecore59309e67",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.BaseCoreTest.createDao",
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "e5b8a23c2fbc0b50b54035f4",
+      "container": "ormlitecore59309e68",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.BaseCoreTest.createDao",
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "ecf66bd184d3ca444bf4459c",
+      "container": "ormlitecore59309e69",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.trace",
+        "com.j256.PROJECT.misc.TransactionManager.callInTransaction",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "a9abb2c1392b80003f86c494",
+      "container": "ormlitecore59309e70",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.trace",
+        "com.j256.PROJECT.misc.TransactionManager.callInTransaction",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "48ca9f57c661d4c661c21d8f",
+      "container": "ormlitecore59309e71",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.trace",
+        "com.j256.PROJECT.misc.TransactionManager.callInTransaction",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "a37aae8c71f2467070d72b0b",
+      "container": "ormlitecore59309e72",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.trace",
+        "com.j256.PROJECT.misc.TransactionManager.callInTransaction",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "ed0469e1158cbddbc1f07d40",
+      "container": "ormlitecore59309e73",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.trace",
+        "com.j256.PROJECT.misc.TransactionManager.callInTransaction",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "5b700950dc43933b8caeca7c",
+      "container": "ormlitecore59309e74",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.trace",
+        "com.j256.PROJECT.misc.TransactionManager.callInTransaction",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "2387c959cff66961b0b10e89",
+      "container": "ormlitecore59309e75",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.trace",
+        "com.j256.PROJECT.misc.TransactionManager.callInTransaction",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "a7408aac5e04a255ff67ffb2",
+      "container": "ormlitecore59309e76",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.trace",
+        "com.j256.PROJECT.misc.TransactionManager.callInTransaction",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "f8eb8606573a3a65b817bd0c",
+      "container": "ormlitecore59309e77",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.BaseCoreTest.createDao",
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "db55c196039f9bde69dfc5db",
+      "container": "ormlitecore59309e78",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.BaseCoreTest.createDao",
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "0eeb798bab34f35155e111e0",
+      "container": "ormlitecore59309e79",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.field.FieldType.configDaoInformation",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.j256.PROJECT.stmt.BaseCoreStmtTest.before",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "b74c4e032d37496adc01c428",
+      "container": "ormlitecore59309e80",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.field.FieldType.configDaoInformation",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.j256.PROJECT.stmt.BaseCoreStmtTest.before",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "720aa33b6db4d95768168dfd",
+      "container": "ormlitecore59309e81",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.error",
+        "com.j256.PROJECT.support.BaseConnectionSource.clearSpecial",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "74967e4f05a9b1768bde58d1",
+      "container": "ormlitecore59309e82",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.error",
+        "com.j256.PROJECT.support.BaseConnectionSource.clearSpecial",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "8268411f0ef548ccedb5e38d",
+      "container": "ormlitecore59309e83",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.BaseCoreTest.createDao",
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "1a7c1f609f7e2f9dad783b31",
+      "container": "ormlitecore59309e84",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.BaseCoreTest.createDao",
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "712a84397aa83734b4f80d13",
+      "container": "ormlitecore59309e85",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.j256.PROJECT.table.SchemaUtils.dropSchema",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "bf867501e67dc0d8145a63f4",
+      "container": "ormlitecore59309e86",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.j256.PROJECT.table.SchemaUtils.dropSchema",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "6a36ba3658ae2f4fe0a658b5",
+      "container": "ormlitecore59309e87",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.BaseCoreTest.createDao",
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "c264a811ac6a83e12c839ccf",
+      "container": "ormlitecore59309e88",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.info",
+        "com.j256.PROJECT.table.SchemaUtils.addDropSchemaStatements",
+        "com.j256.PROJECT.table.SchemaUtils.doDropSchema",
+        "com.j256.PROJECT.table.SchemaUtils.dropSchema",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "071738ea5f43224420c0f68e",
+      "container": "ormlitecore59309e89",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.j256.PROJECT.table.SchemaUtils.dropSchema",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "c2d35bbed868b3a855f55333",
+      "container": "ormlitecore59309e90",
+      "label": "OD",
+      "remaining_qualified_tokens": [
+        "com.j256.PROJECT.dao.DaoManager.createDao",
+        "com.j256.PROJECT.logger.BaseLogger.logIfEnabled",
+        "com.j256.PROJECT.logger.Logger.debug",
+        "com.j256.PROJECT.table.SchemaUtils.dropSchema",
+        "com.sun.proxy.$Proxy10.isLevelEnabled",
+        "org.easymock.internal.MockInvocationHandler.invoke",
+        "org.easymock.internal.ObjectMethodsFilter.invoke"
+      ]
+    },
+    {
+      "sample_id": "66dbf8203f2610fac365aa42",
+      "container": "cloudstackpluginsnetworkelementstungstendf4cd2alistTungstenNetworkTest",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "net.juniper.tungsten.api.types.VirtualNetwork"
+      ]
+    },
+    {
+      "sample_id": "fd17781dd63c3257b11c82ac",
+      "container": "cloudstackpluginsnetworkelementstungstendf4cd2alistTungstenPolicyTest",
+      "label": "ID",
+      "remaining_qualified_tokens": [
+        "net.juniper.tungsten.api.types.NetworkPolicy"
+      ]
+    }
+  ]
+}

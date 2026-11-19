@@ -1,0 +1,81 @@
+{
+  "container": "biojavabiojavastructure65ad15ftestMultiModelPred",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "biojavabiojavastructure65ad15ftestMultiModelPred",
+    "project": "https://github.com/biojava/biojava",
+    "revision": "65ad15fe58dcedd258fee1c14505e424c8536efc",
+    "test": "org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testMultiModelPred",
+    "label": "ID",
+    "module": "biojava-structure",
+    "zip": "biojava=biojava-structure=65ad15f",
+    "config_row": 575,
+    "configured_test": "org.biojava.nbio.structure.secstruc.TestSecStrucCalc#testMultiModelPred",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testMultiModelPred",
+    "variant_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testMultiModelPred::65ad15fe58dcedd258fee1c14505e424c8536efc::biojava-structure",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/biojavabiojavastructure65ad15ftestMultiModelPred/result/Flaky/.nondex/abk1VwpK7glOet5vYrk213H8N3CRmcr077NSM8VxPM=/TEST-org.biojava.nbio.structure.secstruc.TestSecStrucCalc.xml",
+        "size": 12012,
+        "compressed": 2507,
+        "crc32": "b740773a",
+        "offset": 2071902685,
+        "method": 8,
+        "local_path": "data/extracted/7ca9b46c4b3b0c4e231ffa79.xml",
+        "sha256": "d2aed2dff4daa977a17cb5f6bce0452379a240e4932ee7dc94f94e7621905ff7",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestMultiModelPred/result/Flaky/rounds-test-results.csv",
+    "size": 20072,
+    "compressed": 5042,
+    "crc32": "5ed70c9f",
+    "offset": 2071774451,
+    "method": 8,
+    "local_path": "data/extracted/b83531371d964c1cba790f5f.csv",
+    "sha256": "ba0fcef004724cd3b719a5f7cbbef9a5be587ae920f2e01986f7282b081ffd4f",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestMultiModelPred/result/Flaky/.nondex/abk1VwpK7glOet5vYrk213H8N3CRmcr077NSM8VxPM=/TEST-org.biojava.nbio.structure.secstruc.TestSecStrucCalc.xml",
+    "size": 12012,
+    "compressed": 2507,
+    "crc32": "b740773a",
+    "offset": 2071902685,
+    "method": 8,
+    "local_path": "data/extracted/7ca9b46c4b3b0c4e231ffa79.xml",
+    "sha256": "d2aed2dff4daa977a17cb5f6bce0452379a240e4932ee7dc94f94e7621905ff7",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testMultiModelPred",
+    "outcome": "error",
+    "exception_type": "java.net.UnknownHostException",
+    "message": "mmtf.rcsb.org",
+    "stack_trace": "java.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testMultiModelPred(TestSecStrucCalc.java:100)",
+    "text": "java.net.UnknownHostException\nmmtf.rcsb.org\njava.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.secstruc.TestSecStrucCalc.testMultiModelPred(TestSecStrucCalc.java:100)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "b3d3f767b8205cf97a9c014642f4d2bf367c67fbbc354160a9310bda07d5e152"
+}

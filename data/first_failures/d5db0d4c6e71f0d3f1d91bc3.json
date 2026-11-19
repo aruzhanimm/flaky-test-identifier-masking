@@ -1,0 +1,81 @@
+{
+  "container": "cloudstackutils4c5a2basetMailRecipientsTest",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "cloudstackutils4c5a2basetMailRecipientsTest",
+    "project": "https://github.com/apache/cloudstack",
+    "revision": "4c5a2ba3a6eb6399390c2f8963cb26e0e35fc058",
+    "test": "org.apache.cloudstack.utils.mailing.SMTPMailSenderTest.setMailRecipientsTest",
+    "label": "ID",
+    "module": "utils",
+    "zip": "cloudstack=utils=4c5a2ba",
+    "config_row": 532,
+    "configured_test": "org.apache.cloudstack.utils.mailing.SMTPMailSenderTest#setMailRecipientsTest",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/cloudstack::org.apache.cloudstack.utils.mailing.SMTPMailSenderTest.setMailRecipientsTest",
+    "variant_id": "https://github.com/apache/cloudstack::org.apache.cloudstack.utils.mailing.SMTPMailSenderTest.setMailRecipientsTest::4c5a2ba3a6eb6399390c2f8963cb26e0e35fc058::utils",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/cloudstackutils4c5a2basetMailRecipientsTest/result/Flaky/.nondex/U3zo0CQZ2yGvJLXQsZ0K7CvVbVgCsay8Yk4XsLpDU4o=/TEST-org.apache.cloudstack.utils.mailing.SMTPMailSenderTest.xml",
+        "size": 26177,
+        "compressed": 4151,
+        "crc32": "32e401e0",
+        "offset": 2073159919,
+        "method": 8,
+        "local_path": "data/extracted/49a88ce4d8b662fec70abc7b.xml",
+        "sha256": "f8049919191b411aeab32cb7fbdec2fbaddbcc4497730a0c8b33f5c958f2cdd6",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/cloudstackutils4c5a2basetMailRecipientsTest/result/Flaky/rounds-test-results.csv",
+    "size": 19130,
+    "compressed": 5143,
+    "crc32": "10653846",
+    "offset": 2072888525,
+    "method": 8,
+    "local_path": "data/extracted/2251adc2d93db6e5e293a779.csv",
+    "sha256": "cc66f7202420dfe6772e23f41f1b0e92d60a74a1b58a896455ec5fda766ef3f9",
+    "status": "verified"
+  },
+  "reported_failure_rows": 52,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/cloudstackutils4c5a2basetMailRecipientsTest/result/Flaky/.nondex/U3zo0CQZ2yGvJLXQsZ0K7CvVbVgCsay8Yk4XsLpDU4o=/TEST-org.apache.cloudstack.utils.mailing.SMTPMailSenderTest.xml",
+    "size": 26177,
+    "compressed": 4151,
+    "crc32": "32e401e0",
+    "offset": 2073159919,
+    "method": 8,
+    "local_path": "data/extracted/49a88ce4d8b662fec70abc7b.xml",
+    "sha256": "f8049919191b411aeab32cb7fbdec2fbaddbcc4497730a0c8b33f5c958f2cdd6",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "setMailRecipientsTest",
+    "outcome": "failure",
+    "exception_type": "junit.framework.ComparisonFailure",
+    "message": "expected:<[\"smtp.acme.org\" <smtp.acme].org>> but was:<[Coyote <smtp.acme2].org>>",
+    "stack_trace": "junit.framework.ComparisonFailure: expected:<[\"smtp.acme.org\" <smtp.acme].org>> but was:<[Coyote <smtp.acme2].org>>\n\tat org.apache.cloudstack.utils.mailing.SMTPMailSenderTest.setMailRecipientsTest(SMTPMailSenderTest.java:564)",
+    "text": "junit.framework.ComparisonFailure\nexpected:<[\"smtp.acme.org\" <smtp.acme].org>> but was:<[Coyote <smtp.acme2].org>>\njunit.framework.ComparisonFailure: expected:<[\"smtp.acme.org\" <smtp.acme].org>> but was:<[Coyote <smtp.acme2].org>>\n\tat org.apache.cloudstack.utils.mailing.SMTPMailSenderTest.setMailRecipientsTest(SMTPMailSenderTest.java:564)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "1cf6656766121499429e1b6a9f03476a0b778fa0cb3eb870b2041549c8420fd2"
+}

@@ -1,0 +1,98 @@
+{
+  "container": "ZOOKEEPER-4327-testGlobalOutstandingRequestThrottlingWithRequestThrottlerDisabled",
+  "metadata": {
+    "source": "JIRA",
+    "container": "ZOOKEEPER-4327-testGlobalOutstandingRequestThrottlingWithRequestThrottlerDisabled",
+    "project": "https://github.com/apache/zookeeper",
+    "revision": "06467dc8c20e6c7357c19904f6214bb406262ba2",
+    "test": "org.apache.zookeeper.server.RequestThrottlerTest.testGlobalOutstandingRequestThrottlingWithRequestThrottlerDisabled",
+    "label": "TD",
+    "module": "zookeeper-server",
+    "zip": "ZOOKEEPER-4327",
+    "config_row": 1099,
+    "configured_test": "org.apache.zookeeper.server.RequestThrottlerTest#testGlobalOutstandingRequestThrottlingWithRequestThrottlerDisabled",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/zookeeper::org.apache.zookeeper.server.RequestThrottlerTest.testGlobalOutstandingRequestThrottlingWithRequestThrottlerDisabled",
+    "variant_id": "https://github.com/apache/zookeeper::org.apache.zookeeper.server.RequestThrottlerTest.testGlobalOutstandingRequestThrottlingWithRequestThrottlerDisabled::06467dc8c20e6c7357c19904f6214bb406262ba2::zookeeper-server",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 23,
+      "iteration": 22,
+      "member": {
+        "path": "result/ZOOKEEPER-4327-testGlobalOutstandingRequestThrottlingWithRequestThrottlerDisabled/result/Flaky/surefire-reports/reports-22/org.apache.zookeeper.server.RequestThrottlerTest.txt",
+        "size": 680,
+        "compressed": 248,
+        "crc32": "6b2bf3ea",
+        "offset": 181448751,
+        "method": 8,
+        "local_path": "data/extracted/0ddbe54fa901d649cafdc8e3.txt",
+        "sha256": "7bd7a2b934cf4f6eb24f5957e748831343143d3d7aabe8461d9603f735bc93c0",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 23,
+      "iteration": 22,
+      "member": {
+        "path": "result/ZOOKEEPER-4327-testGlobalOutstandingRequestThrottlingWithRequestThrottlerDisabled/result/Flaky/surefire-reports/reports-22/org.apache.zookeeper.server.RequestThrottlerTest.txt",
+        "size": 680,
+        "compressed": 248,
+        "crc32": "6b2bf3ea",
+        "offset": 181448751,
+        "method": 8,
+        "local_path": "data/extracted/0ddbe54fa901d649cafdc8e3.txt",
+        "sha256": "7bd7a2b934cf4f6eb24f5957e748831343143d3d7aabe8461d9603f735bc93c0",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ZOOKEEPER-4327-testGlobalOutstandingRequestThrottlingWithRequestThrottlerDisabled/result/Flaky/rounds-test-results.csv",
+    "size": 23088,
+    "compressed": 699,
+    "crc32": "9c2ea712",
+    "offset": 181940982,
+    "method": 8,
+    "local_path": "data/extracted/46c0b363f9d888622f14fd6f.csv",
+    "sha256": "08c07d62f0f63001a98f3ed4ef023257bfc89d1a5f434fe8bceb9a491d754161",
+    "status": "verified"
+  },
+  "reported_failure_rows": 2,
+  "iteration": 22,
+  "source_row": 23,
+  "diagnostic_member": {
+    "path": "result/ZOOKEEPER-4327-testGlobalOutstandingRequestThrottlingWithRequestThrottlerDisabled/result/Flaky/surefire-reports/reports-22/org.apache.zookeeper.server.RequestThrottlerTest.txt",
+    "size": 680,
+    "compressed": 248,
+    "crc32": "6b2bf3ea",
+    "offset": 181448751,
+    "method": 8,
+    "local_path": "data/extracted/0ddbe54fa901d649cafdc8e3.txt",
+    "sha256": "7bd7a2b934cf4f6eb24f5957e748831343143d3d7aabe8461d9603f735bc93c0",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "testGlobalOutstandingRequestThrottlingWithRequestThrottlerDisabled",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <3> but was: <4>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <3> but was: <4>\n\tat org.apache.zookeeper.server.RequestThrottlerTest.testGlobalOutstandingRequestThrottlingWithRequestThrottlerDisabled(RequestThrottlerTest.java:346)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <3> but was: <4>\norg.opentest4j.AssertionFailedError: expected: <3> but was: <4>\n\tat org.apache.zookeeper.server.RequestThrottlerTest.testGlobalOutstandingRequestThrottlingWithRequestThrottlerDisabled(RequestThrottlerTest.java:346)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "bcdd0f9a8731d9a3beb032857e95aed95f4c1226fe1608f920f997a790793883"
+}

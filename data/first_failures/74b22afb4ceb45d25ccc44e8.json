@@ -1,0 +1,81 @@
+{
+  "container": "weblogicmonitoringexporterwlsexportercorea68055cwhenYamlContainsMergeableQueries_MergeThem",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "weblogicmonitoringexporterwlsexportercorea68055cwhenYamlContainsMergeableQueries_MergeThem",
+    "project": "https://github.com/oracle/weblogic-monitoring-exporter",
+    "revision": "a68055cb9819eb9e2b3865f49d731ca889a44ef6",
+    "test": "com.oracle.wls.exporter.domain.ExporterConfigTest.whenYamlContainsMergeableQueries_MergeThem",
+    "label": "ID",
+    "module": "wls-exporter-core",
+    "zip": "weblogic-monitoring-exporter=wls-exporter-core=a68055c",
+    "config_row": 206,
+    "configured_test": "com.oracle.wls.exporter.domain.ExporterConfigTest#whenYamlContainsMergeableQueries_MergeThem",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/oracle/weblogic-monitoring-exporter::com.oracle.wls.exporter.domain.ExporterConfigTest.whenYamlContainsMergeableQueries_MergeThem",
+    "variant_id": "https://github.com/oracle/weblogic-monitoring-exporter::com.oracle.wls.exporter.domain.ExporterConfigTest.whenYamlContainsMergeableQueries_MergeThem::a68055cb9819eb9e2b3865f49d731ca889a44ef6::wls-exporter-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/weblogicmonitoringexporterwlsexportercorea68055cwhenYamlContainsMergeableQueries_MergeThem/result/Flaky/.nondex/EmcHHBNStGXlv7+Y7nUkNjCsV4hGp46VzoTRUy16Q=/TEST-com.oracle.wls.exporter.domain.ExporterConfigTest.xml",
+        "size": 14802,
+        "compressed": 2905,
+        "crc32": "e104d742",
+        "offset": 786633925,
+        "method": 8,
+        "local_path": "data/extracted/0e4140bc59d036b180d7459d.xml",
+        "sha256": "0b240814d81b46b76307793e98976f5e79f4fa39a71d861ca0ce4db632d0b0ab",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/weblogicmonitoringexporterwlsexportercorea68055cwhenYamlContainsMergeableQueries_MergeThem/result/Flaky/rounds-test-results.csv",
+    "size": 19788,
+    "compressed": 4985,
+    "crc32": "326e3008",
+    "offset": 786469273,
+    "method": 8,
+    "local_path": "data/extracted/0bf35c827cfb81f1ea4b86b3.csv",
+    "sha256": "5a63a1649eb0881c87ee5b086b5f1fb2a9c028bff3dfc07f285c13fd155bb242",
+    "status": "verified"
+  },
+  "reported_failure_rows": 53,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/weblogicmonitoringexporterwlsexportercorea68055cwhenYamlContainsMergeableQueries_MergeThem/result/Flaky/.nondex/EmcHHBNStGXlv7+Y7nUkNjCsV4hGp46VzoTRUy16Q=/TEST-com.oracle.wls.exporter.domain.ExporterConfigTest.xml",
+    "size": 14802,
+    "compressed": 2905,
+    "crc32": "e104d742",
+    "offset": 786633925,
+    "method": 8,
+    "local_path": "data/extracted/0e4140bc59d036b180d7459d.xml",
+    "sha256": "0b240814d81b46b76307793e98976f5e79f4fa39a71d861ca0ce4db632d0b0ab",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "whenYamlContainsMergeableQueries_MergeThem",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: \"metricsNameSnakeCase: true\\nqueries:\\n- applicationRuntimes:\\n    key: name\\n    workManagerRuntimes:\\n      prefix: workmanager_\\n      key: applicationName\\n      values: [pendingRequests, completedRequests, stuckThreadCount]\\n    componentRuntimes:\\n      type: WebAppComponentRuntime\\n      prefix: webapp_config_\\n      key: name\\n      values: [deploymentState, type, contextRoot, sourceInfo, openSessionsHighCount, openSessionsCurrentCount, sessionsOpenedTotalCount]\\n      servlets:\\n        prefix: weblogic_servlet_\\n        key: servletName\\n        values: [invocationTotalCount, executionTimeTotal]\\n\"\n     but: was \"metricsNameSnakeCase: true\\nqueries:\\n- applicationRuntimes:\\n    key: name\\n    componentRuntimes:\\n      type: WebAppComponentRuntime\\n      prefix: webapp_config_\\n      key: name\\n      values: [deploymentState, type, contextRoot, sourceInfo, openSessionsHighCount, openSessionsCurrentCount, sessionsOpenedTotalCount]\\n      servlets:\\n        prefix: weblogic_servlet_\\n        key: servletName\\n        values: [invocationTotalCount, executionTimeTotal]\\n    workManagerRuntimes:\\n      prefix: workmanager_\\n      key: applicationName\\n      values: [pendingRequests, completedRequests, stuckThreadCount]\\n\"\n\tat com.oracle.wls.exporter.domain.ExporterConfigTest.whenYamlContainsMergeableQueries_MergeThem(ExporterConfigTest.java:419)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError: \n\nExpected: \"metricsNameSnakeCase: true\\nqueries:\\n- applicationRuntimes:\\n    key: name\\n    workManagerRuntimes:\\n      prefix: workmanager_\\n      key: applicationName\\n      values: [pendingRequests, completedRequests, stuckThreadCount]\\n    componentRuntimes:\\n      type: WebAppComponentRuntime\\n      prefix: webapp_config_\\n      key: name\\n      values: [deploymentState, type, contextRoot, sourceInfo, openSessionsHighCount, openSessionsCurrentCount, sessionsOpenedTotalCount]\\n      servlets:\\n        prefix: weblogic_servlet_\\n        key: servletName\\n        values: [invocationTotalCount, executionTimeTotal]\\n\"\n     but: was \"metricsNameSnakeCase: true\\nqueries:\\n- applicationRuntimes:\\n    key: name\\n    componentRuntimes:\\n      type: WebAppComponentRuntime\\n      prefix: webapp_config_\\n      key: name\\n      values: [deploymentState, type, contextRoot, sourceInfo, openSessionsHighCount, openSessionsCurrentCount, sessionsOpenedTotalCount]\\n      servlets:\\n        prefix: weblogic_servlet_\\n        key: servletName\\n        values: [invocationTotalCount, executionTimeTotal]\\n    workManagerRuntimes:\\n      prefix: workmanager_\\n      key: applicationName\\n      values: [pendingRequests, completedRequests, stuckThreadCount]\\n\"\n\tat com.oracle.wls.exporter.domain.ExporterConfigTest.whenYamlContainsMergeableQueries_MergeThem(ExporterConfigTest.java:419)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "a535ca68af488cfadf1d3a645df4a4c6f11bb4585e215d6c7393661d8243c2c9"
+}

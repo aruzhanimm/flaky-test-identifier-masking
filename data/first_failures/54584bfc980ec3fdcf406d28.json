@@ -1,0 +1,81 @@
+{
+  "container": "ignite3modulestable19c8a82testCreateTable",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ignite3modulestable19c8a82testCreateTable",
+    "project": "https://github.com/apache/ignite-3",
+    "revision": "19c8a824bd9d31f0d0dbd3fbbdd2a32ee360cab2",
+    "test": "org.apache.ignite.internal.table.distributed.TableManagerTest.testCreateTable",
+    "label": "ID",
+    "module": "modules/table",
+    "zip": "ignite-3=modules+table=19c8a82",
+    "config_row": 376,
+    "configured_test": "org.apache.ignite.internal.table.distributed.TableManagerTest#testCreateTable",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/ignite-3::org.apache.ignite.internal.table.distributed.TableManagerTest.testCreateTable",
+    "variant_id": "https://github.com/apache/ignite-3::org.apache.ignite.internal.table.distributed.TableManagerTest.testCreateTable::19c8a824bd9d31f0d0dbd3fbbdd2a32ee360cab2::modules/table",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/ignite3modulestable19c8a82testCreateTable/result/Flaky/.nondex/F77knDAYmYtHwATbeMvCQADvIcQqzxYbxqjS3M890Q=/TEST-org.apache.ignite.internal.table.distributed.TableManagerTest.xml",
+        "size": 26351,
+        "compressed": 3444,
+        "crc32": "e08a3098",
+        "offset": 313039168,
+        "method": 8,
+        "local_path": "data/extracted/3d5cd79fdeffbd6c83310d17.xml",
+        "sha256": "ca5673f03d3bec84b822ec15538492dffb53bd545fa267519a3c4730de096039",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ignite3modulestable19c8a82testCreateTable/result/Flaky/rounds-test-results.csv",
+    "size": 20689,
+    "compressed": 5188,
+    "crc32": "949c5321",
+    "offset": 312893832,
+    "method": 8,
+    "local_path": "data/extracted/c492b4d2b16ddf848894117d.csv",
+    "sha256": "91bc267674a1927bf083547911fb3197b1678053471de5fd403a2e9a06e1f7c2",
+    "status": "verified"
+  },
+  "reported_failure_rows": 76,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/ignite3modulestable19c8a82testCreateTable/result/Flaky/.nondex/F77knDAYmYtHwATbeMvCQADvIcQqzxYbxqjS3M890Q=/TEST-org.apache.ignite.internal.table.distributed.TableManagerTest.xml",
+    "size": 26351,
+    "compressed": 3444,
+    "crc32": "e08a3098",
+    "offset": 313039168,
+    "method": 8,
+    "local_path": "data/extracted/3d5cd79fdeffbd6c83310d17.xml",
+    "sha256": "ca5673f03d3bec84b822ec15538492dffb53bd545fa267519a3c4730de096039",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testCreateTable",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError: org.apache.ignite.internal.schema.configuration.index.TableIndexConfigurationSchema",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError: org.apache.ignite.internal.schema.configuration.index.TableIndexConfigurationSchema",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "b1a632624259042dc72fe58da0b0eccaa650af1a1107f3730bc22589575ed252"
+}

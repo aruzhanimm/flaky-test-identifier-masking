@@ -1,0 +1,37 @@
+{
+  "container": "HDFS-10281",
+  "metadata": {
+    "source": "JIRA",
+    "container": "HDFS-10281",
+    "project": "https://github.com/apache/hadoop",
+    "revision": "7c9811062de0c5243561e33d51ee678a729aec17",
+    "test": "org.apache.hadoop.hdfs.server.namenode.ha.TestPendingCorruptDnMessages.testChangedStorageId",
+    "label": "TD",
+    "module": "hadoop-hdfs-project/hadoop-hdfs",
+    "zip": "HDFS-10281",
+    "config_row": 1062,
+    "configured_test": "org.apache.hadoop.hdfs.server.namenode.ha.TestPendingCorruptDnMessages#testChangedStorageId",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hadoop::org.apache.hadoop.hdfs.server.namenode.ha.TestPendingCorruptDnMessages.testChangedStorageId",
+    "variant_id": "https://github.com/apache/hadoop::org.apache.hadoop.hdfs.server.namenode.ha.TestPendingCorruptDnMessages.testChangedStorageId::7c9811062de0c5243561e33d51ee678a729aec17::hadoop-hdfs-project/hadoop-hdfs",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/HDFS-10281/result/Flaky/rounds-test-results.csv",
+    "size": 24481,
+    "compressed": 800,
+    "crc32": "b6c97432",
+    "offset": 2016859323,
+    "method": 8,
+    "local_path": "data/extracted/b5a376e4267318348eb3844f.csv",
+    "sha256": "bf47599365fb99dbb5a51de0c712a22fe67b61b72f686795f20bad5ca654c0eb",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

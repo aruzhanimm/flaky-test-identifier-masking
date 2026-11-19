@@ -1,0 +1,81 @@
+{
+  "container": "commonslang182b250testReflectionHierarchy",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "commonslang182b250testReflectionHierarchy",
+    "project": "https://github.com/apache/commons-lang",
+    "revision": "182b2506b304463f8f1a9ad765c6db0420fa356f",
+    "test": "org.apache.commons.lang3.builder.ToStringBuilderTest.testReflectionHierarchy",
+    "label": "ID",
+    "module": ".",
+    "zip": "commons-lang=.=182b250",
+    "config_row": 564,
+    "configured_test": "org.apache.commons.lang3.builder.ToStringBuilderTest#testReflectionHierarchy",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.ToStringBuilderTest.testReflectionHierarchy",
+    "variant_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.ToStringBuilderTest.testReflectionHierarchy::182b2506b304463f8f1a9ad765c6db0420fa356f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/commonslang182b250testReflectionHierarchy/result/Flaky/.nondex/KEBdnfBoOlhtG8H8LUMncwdOu4UhMPIsgwqAT7rlos=/TEST-org.apache.commons.lang3.builder.ToStringBuilderTest.xml",
+        "size": 10227,
+        "compressed": 2221,
+        "crc32": "b3e3acac",
+        "offset": 407647961,
+        "method": 8,
+        "local_path": "data/extracted/04aeade14d9e53b679d659fa.xml",
+        "sha256": "d67528382c124018f3e23b7be9c3659f2acd69732d1f19c4f2712622f73e253c",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/commonslang182b250testReflectionHierarchy/result/Flaky/rounds-test-results.csv",
+    "size": 18652,
+    "compressed": 4926,
+    "crc32": "68eec0be",
+    "offset": 407161618,
+    "method": 8,
+    "local_path": "data/extracted/f916c086523cfb868364bbf2.csv",
+    "sha256": "31c752f413dbf75e7a0c9ee256aedb03495f615d723653acff16e2786bc33fd7",
+    "status": "verified"
+  },
+  "reported_failure_rows": 89,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/commonslang182b250testReflectionHierarchy/result/Flaky/.nondex/KEBdnfBoOlhtG8H8LUMncwdOu4UhMPIsgwqAT7rlos=/TEST-org.apache.commons.lang3.builder.ToStringBuilderTest.xml",
+    "size": 10227,
+    "compressed": 2221,
+    "crc32": "b3e3acac",
+    "offset": 407647961,
+    "method": 8,
+    "local_path": "data/extracted/04aeade14d9e53b679d659fa.xml",
+    "sha256": "d67528382c124018f3e23b7be9c3659f2acd69732d1f19c4f2712622f73e253c",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testReflectionHierarchy",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <org.apache.commons.lang3.builder.ToStringBuilderTest$ReflectionTestFixtureA@6c3f5566[a=a,transientA=t]> but was: <org.apache.commons.lang3.builder.ToStringBuilderTest$ReflectionTestFixtureA@6c3f5566[transientA=t,a=a]>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <org.apache.commons.lang3.builder.ToStringBuilderTest$ReflectionTestFixtureA@6c3f5566[a=a,transientA=t]> but was: <org.apache.commons.lang3.builder.ToStringBuilderTest$ReflectionTestFixtureA@6c3f5566[transientA=t,a=a]>\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.testReflectionHierarchy(ToStringBuilderTest.java:338)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <org.apache.commons.lang3.builder.ToStringBuilderTest$ReflectionTestFixtureA@6c3f5566[a=a,transientA=t]> but was: <org.apache.commons.lang3.builder.ToStringBuilderTest$ReflectionTestFixtureA@6c3f5566[transientA=t,a=a]>\norg.opentest4j.AssertionFailedError: expected: <org.apache.commons.lang3.builder.ToStringBuilderTest$ReflectionTestFixtureA@6c3f5566[a=a,transientA=t]> but was: <org.apache.commons.lang3.builder.ToStringBuilderTest$ReflectionTestFixtureA@6c3f5566[transientA=t,a=a]>\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.testReflectionHierarchy(ToStringBuilderTest.java:338)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "8a2c40aa0a5b58a0261104349f59c57dce001e8cb20ab605fc1e8dcb1a867b37"
+}

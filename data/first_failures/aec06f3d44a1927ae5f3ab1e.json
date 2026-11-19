@@ -1,0 +1,98 @@
+{
+  "container": "dubbodubborpcdubborpcdubboaa9f16e",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "dubbodubborpcdubborpcdubboaa9f16e",
+    "project": "https://github.com/apache/dubbo",
+    "revision": "aa9f16e9eee8181b1619fd77c621d5fd57b27e82",
+    "test": "org.apache.dubbo.rpc.protocol.dubbo.telnet.ChangeTelnetHandlerTest.testChangeServiceNotExport",
+    "label": "OD",
+    "module": "dubbo-rpc/dubbo-rpc-dubbo",
+    "zip": "dubbodubborpcdubborpcdubboaa9f16e",
+    "config_row": 924,
+    "configured_test": "org.apache.dubbo.rpc.protocol.dubbo.telnet.ChangeTelnetHandlerTest#testChangeServiceNotExport",
+    "configured_type": "od",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/dubbo::org.apache.dubbo.rpc.protocol.dubbo.telnet.ChangeTelnetHandlerTest.testChangeServiceNotExport",
+    "variant_id": "https://github.com/apache/dubbo::org.apache.dubbo.rpc.protocol.dubbo.telnet.ChangeTelnetHandlerTest.testChangeServiceNotExport::aa9f16e9eee8181b1619fd77c621d5fd57b27e82::dubbo-rpc/dubbo-rpc-dubbo",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/dubbodubborpcdubborpcdubboaa9f16e/result/Flaky/surefire-reports/reports-0/org.apache.dubbo.rpc.protocol.dubbo.telnet.ChangeTelnetHandlerTest.txt",
+        "size": 3114,
+        "compressed": 785,
+        "crc32": "77f485a6",
+        "offset": 340239029,
+        "method": 8,
+        "local_path": "data/extracted/098256906360c4459e11ee26.txt",
+        "sha256": "caf1a66ccce6cfd1007ace07f7fbba112690d0c6f9aaa62f2b8013083babfc88",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/dubbodubborpcdubborpcdubboaa9f16e/result/Flaky/surefire-reports/reports-0/org.apache.dubbo.rpc.protocol.dubbo.telnet.ChangeTelnetHandlerTest.txt",
+        "size": 3114,
+        "compressed": 785,
+        "crc32": "77f485a6",
+        "offset": 340239029,
+        "method": 8,
+        "local_path": "data/extracted/098256906360c4459e11ee26.txt",
+        "sha256": "caf1a66ccce6cfd1007ace07f7fbba112690d0c6f9aaa62f2b8013083babfc88",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 10,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/dubbodubborpcdubborpcdubboaa9f16e/result/Flaky/rounds-test-results.csv",
+    "size": 2378,
+    "compressed": 190,
+    "crc32": "285c450b",
+    "offset": 340261780,
+    "method": 8,
+    "local_path": "data/extracted/4766502e5b0b7a08a2962fc2.csv",
+    "sha256": "ddc7899d9d94468d6647bb04006a4cf952b6785fc2841acb3e3cf41e0b198137",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10,
+  "iteration": 0,
+  "source_row": 1,
+  "diagnostic_member": {
+    "path": "result/dubbodubborpcdubborpcdubboaa9f16e/result/Flaky/surefire-reports/reports-0/org.apache.dubbo.rpc.protocol.dubbo.telnet.ChangeTelnetHandlerTest.txt",
+    "size": 3114,
+    "compressed": 785,
+    "crc32": "77f485a6",
+    "offset": 340239029,
+    "method": 8,
+    "local_path": "data/extracted/098256906360c4459e11ee26.txt",
+    "sha256": "caf1a66ccce6cfd1007ace07f7fbba112690d0c6f9aaa62f2b8013083babfc88",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "testChangeServiceNotExport",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "",
+    "stack_trace": "org.junit.ComparisonFailure: \nexpected:<[No such service demo]> but was:<[Used the demo as default.\r\nYou can cancel default service by command: cd /]>\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat org.apache.dubbo.rpc.protocol.dubbo.telnet.ChangeTelnetHandlerTest.testChangeServiceNotExport(ChangeTelnetHandlerTest.java:111)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:385)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:285)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:249)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:168)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)",
+    "text": "org.junit.ComparisonFailure\norg.junit.ComparisonFailure: \nexpected:<[No such service demo]> but was:<[Used the demo as default.\r\nYou can cancel default service by command: cd /]>\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat org.apache.dubbo.rpc.protocol.dubbo.telnet.ChangeTelnetHandlerTest.testChangeServiceNotExport(ChangeTelnetHandlerTest.java:111)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:385)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:285)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:249)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:168)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "66443fd7022bfd7fba96a721fe43146270989b7ac1e25c9ab72e00bc5c845900"
+}

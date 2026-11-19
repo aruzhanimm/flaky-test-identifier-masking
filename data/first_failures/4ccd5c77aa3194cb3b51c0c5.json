@@ -1,0 +1,98 @@
+{
+  "container": "COLLECTIONS-812",
+  "metadata": {
+    "source": "JIRA",
+    "container": "COLLECTIONS-812",
+    "project": "https://github.com/apache/commons-collections",
+    "revision": "bc326f8ef5b0d424f4e527e1a05d7cd36d147ef6",
+    "test": "org.apache.commons.collections4.properties.EmptyPropertiesTest.testSave",
+    "label": "TD",
+    "module": ".",
+    "zip": "COLLECTIONS-812",
+    "config_row": 1094,
+    "configured_test": "org.apache.commons.collections4.properties.EmptyPropertiesTest#testSave",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/commons-collections::org.apache.commons.collections4.properties.EmptyPropertiesTest.testSave",
+    "variant_id": "https://github.com/apache/commons-collections::org.apache.commons.collections4.properties.EmptyPropertiesTest.testSave::bc326f8ef5b0d424f4e527e1a05d7cd36d147ef6::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 50,
+      "iteration": 49,
+      "member": {
+        "path": "result/COLLECTIONS-812/result/Flaky/surefire-reports/reports-49/org.apache.commons.collections4.properties.EmptyPropertiesTest.txt",
+        "size": 692,
+        "compressed": 291,
+        "crc32": "af24c277",
+        "offset": 85126607,
+        "method": 8,
+        "local_path": "data/extracted/63ada70c8a76138fb911c3e4.txt",
+        "sha256": "4a607c63726227a86824be9a0135ecc64ba82a326b196dbab72b8ccedcb065d9",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 50,
+      "iteration": 49,
+      "member": {
+        "path": "result/COLLECTIONS-812/result/Flaky/surefire-reports/reports-49/org.apache.commons.collections4.properties.EmptyPropertiesTest.txt",
+        "size": 692,
+        "compressed": 291,
+        "crc32": "af24c277",
+        "offset": 85126607,
+        "method": 8,
+        "local_path": "data/extracted/63ada70c8a76138fb911c3e4.txt",
+        "sha256": "4a607c63726227a86824be9a0135ecc64ba82a326b196dbab72b8ccedcb065d9",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/COLLECTIONS-812/result/Flaky/rounds-test-results.csv",
+    "size": 18392,
+    "compressed": 571,
+    "crc32": "d374e367",
+    "offset": 85121497,
+    "method": 8,
+    "local_path": "data/extracted/d66ac41fae5a9eb61dafc95c.csv",
+    "sha256": "8636ad2ec701b8e6df5ebfee40cc6c98defdda2c712ecd8650417b873ecb0d30",
+    "status": "verified"
+  },
+  "reported_failure_rows": 2,
+  "iteration": 49,
+  "source_row": 50,
+  "diagnostic_member": {
+    "path": "result/COLLECTIONS-812/result/Flaky/surefire-reports/reports-49/org.apache.commons.collections4.properties.EmptyPropertiesTest.txt",
+    "size": 692,
+    "compressed": 291,
+    "crc32": "af24c277",
+    "offset": 85126607,
+    "method": 8,
+    "local_path": "data/extracted/63ada70c8a76138fb911c3e4.txt",
+    "sha256": "4a607c63726227a86824be9a0135ecc64ba82a326b196dbab72b8ccedcb065d9",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "testSave",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "",
+    "stack_trace": "org.opentest4j.AssertionFailedError: \n#Hello world!\n#Sat Sep 06 07:09:26 UTC 2025\n ==> array contents differ at index [33], expected: <54> but was: <53>\n\tat org.apache.commons.collections4.properties.EmptyPropertiesTest.testSave(EmptyPropertiesTest.java:278)",
+    "text": "org.opentest4j.AssertionFailedError\norg.opentest4j.AssertionFailedError: \n#Hello world!\n#Sat Sep 06 07:09:26 UTC 2025\n ==> array contents differ at index [33], expected: <54> but was: <53>\n\tat org.apache.commons.collections4.properties.EmptyPropertiesTest.testSave(EmptyPropertiesTest.java:278)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "4ea77f9a8dc4e6b543713bad5edd99afc5f1eb15ffe5e70296f95a4e7b05d8fd"
+}

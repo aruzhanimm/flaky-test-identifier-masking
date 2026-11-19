@@ -1,0 +1,318 @@
+{
+  "container": "SCB-2731-decode_request_failed",
+  "metadata": {
+    "source": "JIRA",
+    "container": "SCB-2731-decode_request_failed",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "revision": "ad0b38f9de90c73526fed719fd5dba6430e653b2",
+    "test": "org.apache.servicecomb.common.rest.filter.inner.RestServerCodecFilterTest.should_convert_exception_to_response_when_decode_request_failed",
+    "label": "ID",
+    "module": "common/common-rest",
+    "zip": "SCB-2731",
+    "config_row": 1085,
+    "configured_test": "org.apache.servicecomb.common.rest.filter.inner.RestServerCodecFilterTest#should_convert_exception_to_response_when_decode_request_failed",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.common.rest.filter.inner.RestServerCodecFilterTest.should_convert_exception_to_response_when_decode_request_failed",
+    "variant_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.common.rest.filter.inner.RestServerCodecFilterTest.should_convert_exception_to_response_when_decode_request_failed::ad0b38f9de90c73526fed719fd5dba6430e653b2::common/common-rest",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 3,
+      "iteration": 2,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 4,
+      "iteration": 3,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 5,
+      "iteration": 4,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 6,
+      "iteration": 5,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 10,
+      "iteration": 9,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 11,
+      "iteration": 10,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 14,
+      "iteration": 13,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 17,
+      "iteration": 16,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 18,
+      "iteration": 17,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 19,
+      "iteration": 18,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 21,
+      "iteration": 20,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 22,
+      "iteration": 21,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 24,
+      "iteration": 23,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 26,
+      "iteration": 25,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 27,
+      "iteration": 26,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 28,
+      "iteration": 27,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 29,
+      "iteration": 28,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 30,
+      "iteration": 29,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 32,
+      "iteration": 31,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 33,
+      "iteration": 32,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 34,
+      "iteration": 33,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 36,
+      "iteration": 35,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 38,
+      "iteration": 37,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 40,
+      "iteration": 39,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 41,
+      "iteration": 40,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 42,
+      "iteration": 41,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 44,
+      "iteration": 43,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 45,
+      "iteration": 44,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 46,
+      "iteration": 45,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 50,
+      "iteration": 49,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 51,
+      "iteration": 50,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 56,
+      "iteration": 55,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 59,
+      "iteration": 58,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 62,
+      "iteration": 61,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 64,
+      "iteration": 63,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 65,
+      "iteration": 64,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 69,
+      "iteration": 68,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 71,
+      "iteration": 70,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 72,
+      "iteration": 71,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 73,
+      "iteration": 72,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 74,
+      "iteration": 73,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 75,
+      "iteration": 74,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 77,
+      "iteration": 76,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 78,
+      "iteration": 77,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 79,
+      "iteration": 78,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 80,
+      "iteration": 79,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 81,
+      "iteration": 80,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 83,
+      "iteration": 82,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 84,
+      "iteration": 83,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 85,
+      "iteration": 84,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 88,
+      "iteration": 87,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 91,
+      "iteration": 90,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 93,
+      "iteration": 92,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 94,
+      "iteration": 93,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 95,
+      "iteration": 94,
+      "status": "no_archived_report_for_iteration"
+    }
+  ],
+  "status": "no_confirmed_target_diagnostic",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/SCB-2731-decode_request_failed/result/Flaky/rounds-test-results.csv",
+    "size": 22325,
+    "compressed": 5197,
+    "crc32": "45f9435d",
+    "offset": 173826448,
+    "method": 8,
+    "local_path": "data/extracted/93636b59b8f4ff4ebc9539cd.csv",
+    "sha256": "294a0be5caca1d821ad9bca227f154a859890cf8943304fda51e49faa22ff35f",
+    "status": "verified"
+  },
+  "reported_failure_rows": 56
+}

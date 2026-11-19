@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.everit.json.schema.ObjectSchemaTest" time="0.141" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="nondexStart" value="0"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/core/target/test-classes:/app/source/core/target/classes:/root/.m2/repository/org/json/json/20240303/json-20240303.jar:/root/.m2/repository/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/root/.m2/repository/commons-validator/commons-validator/1.8.0/commons-validator-1.8.0.jar:/root/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/root/.m2/repository/commons-logging/commons-logging/1.3.0/commons-logging-1.3.0.jar:/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/root/.m2/repository/org/mockito/mockito-core/4.2.0/mockito-core-4.2.0.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.12.4/byte-buddy-1.12.4.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.4/byte-buddy-agent-1.12.4.jar:/root/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/root/.m2/repository/nl/jqno/equalsverifier/equalsverifier/3.16.1/equalsverifier-3.16.1.jar:/root/.m2/repository/com/damnhandy/handy-uri-templates/2.1.8/handy-uri-templates-2.1.8.jar:/root/.m2/repository/joda-time/joda-time/2.10.2/joda-time-2.10.2.jar:/root/.m2/repository/com/google/re2j/re2j/1.7/re2j-1.7.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/root/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-11/lib"/>
+    <property name="sun.java.command" value="/app/source/core/target/surefire/surefirebooter9154162589063888493.jar /app/source/core/target/surefire 2025-11-07T01-35-23_935-jvmRun1 surefire2079699983351127603tmp surefire_213917463096143789605tmp"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="org.everit.json.schema.ObjectSchemaTest#toStringTest"/>
+    <property name="surefire.test.class.path" value="/app/source/core/target/test-classes:/app/source/core/target/classes:/root/.m2/repository/org/json/json/20240303/json-20240303.jar:/root/.m2/repository/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/root/.m2/repository/commons-validator/commons-validator/1.8.0/commons-validator-1.8.0.jar:/root/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/root/.m2/repository/commons-logging/commons-logging/1.3.0/commons-logging-1.3.0.jar:/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/root/.m2/repository/org/mockito/mockito-core/4.2.0/mockito-core-4.2.0.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.12.4/byte-buddy-1.12.4.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.4/byte-buddy-agent-1.12.4.jar:/root/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/root/.m2/repository/nl/jqno/equalsverifier/equalsverifier/3.16.1/equalsverifier-3.16.1.jar:/root/.m2/repository/com/damnhandy/handy-uri-templates/2.1.8/handy-uri-templates-2.1.8.jar:/root/.m2/repository/joda-time/joda-time/2.10.2/joda-time-2.10.2.jar:/root/.m2/repository/com/google/re2j/re2j/1.7/re2j-1.7.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/root/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="z0EPRmntEA2F10whLVspgLOeqNCV4QJePCvK9rLkVzM="/>
+    <property name="user.home" value="/root"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/openjdk-11"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="basedir" value="/app/source/core"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="1016066"/>
+    <property name="surefire.real.class.path" value="/app/source/core/target/surefire/surefirebooter9154162589063888493.jar"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-34-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/core/.nondex"/>
+    <property name="nondexJarDir" value="/app/source/core/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="/app/source/core"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="license.skip" value="true"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="xml.skip" value="true"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="toStringTest" classname="org.everit.json.schema.ObjectSchemaTest" time="0.106">
+    <failure message="&#10;Expected: {&#10;  &quot;minProperties&quot;: 3,&#10;  &quot;required&quot;: [&quot;numprop&quot;],&#10;  &quot;additionalProperties&quot;: {&quot;type&quot;: &quot;boolean&quot;},&#10;  &quot;properties&quot;: {&quot;numprop&quot;: {&quot;type&quot;: &quot;number&quot;}},&#10;  &quot;type&quot;: &quot;object&quot;,&#10;  &quot;maxProperties&quot;: 4,&#10;  &quot;patternProperties&quot;: {&quot;pattern_.*&quot;: {&quot;type&quot;: &quot;boolean&quot;}},&#10;  &quot;dependencies&quot;: {&quot;prop1&quot;: [&#10;    &quot;prop2&quot;,&#10;    &quot;prop3&quot;&#10;  ]}&#10;}&#10;     but: was {&#10;  &quot;type&quot;: &quot;object&quot;,&#10;  &quot;patternProperties&quot;: {&quot;pattern_.*&quot;: {&quot;type&quot;: &quot;boolean&quot;}},&#10;  &quot;required&quot;: [&quot;numprop&quot;],&#10;  &quot;dependencies&quot;: {&quot;prop1&quot;: [&#10;    &quot;prop3&quot;,&#10;    &quot;prop2&quot;&#10;  ]},&#10;  &quot;minProperties&quot;: 3,&#10;  &quot;maxProperties&quot;: 4,&#10;  &quot;properties&quot;: {&quot;numprop&quot;: {&quot;type&quot;: &quot;number&quot;}},&#10;  &quot;additionalProperties&quot;: {&quot;type&quot;: &quot;boolean&quot;}&#10;}" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: {
+  "minProperties": 3,
+  "required": ["numprop"],
+  "additionalProperties": {"type": "boolean"},
+  "properties": {"numprop": {"type": "number"}},
+  "type": "object",
+  "maxProperties": 4,
+  "patternProperties": {"pattern_.*": {"type": "boolean"}},
+  "dependencies": {"prop1": [
+    "prop2",
+    "prop3"
+  ]}
+}
+     but: was {
+  "type": "object",
+  "patternProperties": {"pattern_.*": {"type": "boolean"}},
+  "required": ["numprop"],
+  "dependencies": {"prop1": [
+    "prop3",
+    "prop2"
+  ]},
+  "minProperties": 3,
+  "maxProperties": 4,
+  "properties": {"numprop": {"type": "number"}},
+  "additionalProperties": {"type": "boolean"}
+}
+	at org.everit.json.schema.ObjectSchemaTest.toStringTest(ObjectSchemaTest.java:399)
+</failure>
+  </testcase>
+</testsuite>

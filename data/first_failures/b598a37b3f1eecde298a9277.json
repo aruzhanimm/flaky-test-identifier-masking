@@ -1,0 +1,81 @@
+{
+  "container": "scimonoscimonoclient7487ec5testCreateCustomIndexFilter2",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "scimonoscimonoclient7487ec5testCreateCustomIndexFilter2",
+    "project": "https://github.com/sap/scimono",
+    "revision": "7487ec5c28c12469fd57980d9f810b9d357b6d81",
+    "test": "com.sap.scimono.client.ResourcePageQueryTest.testCreateCustomIndexFilter",
+    "label": "ID",
+    "module": "scimono-client",
+    "zip": "scimono=scimono-client=7487ec5",
+    "config_row": 712,
+    "configured_test": "com.sap.scimono.client.ResourcePageQueryTest#testCreateCustomIndexFilter",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/sap/scimono::com.sap.scimono.client.ResourcePageQueryTest.testCreateCustomIndexFilter",
+    "variant_id": "https://github.com/sap/scimono::com.sap.scimono.client.ResourcePageQueryTest.testCreateCustomIndexFilter::7487ec5c28c12469fd57980d9f810b9d357b6d81::scimono-client",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/scimonoscimonoclient7487ec5testCreateCustomIndexFilter2/result/Flaky/.nondex/Ifp7GDpKvNs3AhgyKgTyOWOnjZsMXxCjAcgxs=/TEST-com.sap.scimono.client.ResourcePageQueryTest.xml",
+        "size": 24118,
+        "compressed": 3637,
+        "crc32": "77162026",
+        "offset": 1577483185,
+        "method": 8,
+        "local_path": "data/extracted/bec948837aeef8a052f903b5.xml",
+        "sha256": "42fe95b7d033526312709cb4a31df775c7aed8f299df40680cfe9c3d144fd042",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/scimonoscimonoclient7487ec5testCreateCustomIndexFilter2/result/Flaky/rounds-test-results.csv",
+    "size": 19010,
+    "compressed": 5076,
+    "crc32": "b96a69db",
+    "offset": 1577001994,
+    "method": 8,
+    "local_path": "data/extracted/09e84024495119d957d54036.csv",
+    "sha256": "021abd0db7990191120fee62fda4c7a0e0c23f9b8aacee97f1aada53a1a3f833",
+    "status": "verified"
+  },
+  "reported_failure_rows": 58,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/scimonoscimonoclient7487ec5testCreateCustomIndexFilter2/result/Flaky/.nondex/Ifp7GDpKvNs3AhgyKgTyOWOnjZsMXxCjAcgxs=/TEST-com.sap.scimono.client.ResourcePageQueryTest.xml",
+    "size": 24118,
+    "compressed": 3637,
+    "crc32": "77162026",
+    "offset": 1577483185,
+    "method": 8,
+    "local_path": "data/extracted/bec948837aeef8a052f903b5.xml",
+    "sha256": "42fe95b7d033526312709cb4a31df775c7aed8f299df40680cfe9c3d144fd042",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testCreateCustomIndexFilter",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <http://localhost:7070/idds/scim/v2/Users?startIndex=1&count=50> but was: <http://localhost:7070/idds/scim/v2/Users?count=50&startIndex=1>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <http://localhost:7070/idds/scim/v2/Users?startIndex=1&count=50> but was: <http://localhost:7070/idds/scim/v2/Users?count=50&startIndex=1>\n\tat com.sap.scimono.client.ResourcePageQueryTest.testCreateCustomIndexFilter(ResourcePageQueryTest.java:39)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <http://localhost:7070/idds/scim/v2/Users?startIndex=1&count=50> but was: <http://localhost:7070/idds/scim/v2/Users?count=50&startIndex=1>\norg.opentest4j.AssertionFailedError: expected: <http://localhost:7070/idds/scim/v2/Users?startIndex=1&count=50> but was: <http://localhost:7070/idds/scim/v2/Users?count=50&startIndex=1>\n\tat com.sap.scimono.client.ResourcePageQueryTest.testCreateCustomIndexFilter(ResourcePageQueryTest.java:39)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "5a2534bbc520c2ca782dce3acdf2d8b494f2f5f113b151ce5a3085f55cfcd811"
+}

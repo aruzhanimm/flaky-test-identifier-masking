@@ -1,0 +1,81 @@
+{
+  "container": "dubbodubbocommon690d397testGetAllDeclaredAnnotations",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "dubbodubbocommon690d397testGetAllDeclaredAnnotations",
+    "project": "https://github.com/apache/dubbo",
+    "revision": "690d397f5e8da2968fe9fe65cd56e63aa81827d3",
+    "test": "org.apache.dubbo.common.utils.AnnotationUtilsTest.testGetAllDeclaredAnnotations",
+    "label": "ID",
+    "module": "dubbo-common",
+    "zip": "dubbo=dubbo-common=690d397",
+    "config_row": 19,
+    "configured_test": "org.apache.dubbo.common.utils.AnnotationUtilsTest#testGetAllDeclaredAnnotations",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/dubbo::org.apache.dubbo.common.utils.AnnotationUtilsTest.testGetAllDeclaredAnnotations",
+    "variant_id": "https://github.com/apache/dubbo::org.apache.dubbo.common.utils.AnnotationUtilsTest.testGetAllDeclaredAnnotations::690d397f5e8da2968fe9fe65cd56e63aa81827d3::dubbo-common",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/dubbodubbocommon690d397testGetAllDeclaredAnnotations/result/Flaky/.nondex/8lRysxAyoeriKSpS4Ww+OlR95MzhnhclbFLTE9H4Xf0=/TEST-org.apache.dubbo.common.utils.AnnotationUtilsTest.xml",
+        "size": 11486,
+        "compressed": 2404,
+        "crc32": "181ab660",
+        "offset": 584036000,
+        "method": 8,
+        "local_path": "data/extracted/0d1bd8130a26260f7156dccd.xml",
+        "sha256": "03273f4ba7f4f342adf2798efc704e788d04627982f2aa8e3e27000d03089d9d",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/dubbodubbocommon690d397testGetAllDeclaredAnnotations/result/Flaky/rounds-test-results.csv",
+    "size": 19222,
+    "compressed": 4929,
+    "crc32": "c1a72b2d",
+    "offset": 583638584,
+    "method": 8,
+    "local_path": "data/extracted/1627308be0db5039c19b414d.csv",
+    "sha256": "09b6b05cda164399297a9a0107ec5bc9e873eb04f008a6a06215d7ef51e8ee61",
+    "status": "verified"
+  },
+  "reported_failure_rows": 98,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/dubbodubbocommon690d397testGetAllDeclaredAnnotations/result/Flaky/.nondex/8lRysxAyoeriKSpS4Ww+OlR95MzhnhclbFLTE9H4Xf0=/TEST-org.apache.dubbo.common.utils.AnnotationUtilsTest.xml",
+    "size": 11486,
+    "compressed": 2404,
+    "crc32": "181ab660",
+    "offset": 584036000,
+    "method": 8,
+    "local_path": "data/extracted/0d1bd8130a26260f7156dccd.xml",
+    "sha256": "03273f4ba7f4f342adf2798efc704e788d04627982f2aa8e3e27000d03089d9d",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testGetAllDeclaredAnnotations",
+    "outcome": "error",
+    "exception_type": "java.lang.ClassCastException",
+    "message": null,
+    "stack_trace": "java.lang.ClassCastException: class com.sun.proxy.$Proxy10 cannot be cast to class com.alibaba.dubbo.config.annotation.Service (com.sun.proxy.$Proxy10 and com.alibaba.dubbo.config.annotation.Service are in unnamed module of loader 'app')\n\tat org.apache.dubbo.common.utils.AnnotationUtilsTest.assertADeclaredAnnotations(AnnotationUtilsTest.java:362)\n\tat org.apache.dubbo.common.utils.AnnotationUtilsTest.testGetAllDeclaredAnnotations(AnnotationUtilsTest.java:149)",
+    "text": "java.lang.ClassCastException\njava.lang.ClassCastException: class com.sun.proxy.$Proxy10 cannot be cast to class com.alibaba.dubbo.config.annotation.Service (com.sun.proxy.$Proxy10 and com.alibaba.dubbo.config.annotation.Service are in unnamed module of loader 'app')\n\tat org.apache.dubbo.common.utils.AnnotationUtilsTest.assertADeclaredAnnotations(AnnotationUtilsTest.java:362)\n\tat org.apache.dubbo.common.utils.AnnotationUtilsTest.testGetAllDeclaredAnnotations(AnnotationUtilsTest.java:149)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "620ae09b6e2df93ba506684c1a59b01594dfdefee180e0df4cde72b2bc240b7d"
+}

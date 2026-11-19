@@ -1,0 +1,81 @@
+{
+  "container": "jetcachejetcachetest953f622test13",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jetcachejetcachetest953f622test13",
+    "project": "https://github.com/alibaba/jetcache",
+    "revision": "953f622a84427701884c8190b74e429a73f41962",
+    "test": "com.alicp.jetcache.anno.filed.CreateCacheTest.test",
+    "label": "ID",
+    "module": "jetcache-test",
+    "zip": "jetcache=jetcache-test=953f622",
+    "config_row": 791,
+    "configured_test": "com.alicp.jetcache.anno.filed.CreateCacheTest#test",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/jetcache::com.alicp.jetcache.anno.filed.CreateCacheTest.test",
+    "variant_id": "https://github.com/alibaba/jetcache::com.alicp.jetcache.anno.filed.CreateCacheTest.test::953f622a84427701884c8190b74e429a73f41962::jetcache-test",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/jetcachejetcachetest953f622test13/result/Flaky/.nondex/3QX5NNeMGgou9SyFEVUlXu6fHgm5bN5zsOJ5cszSd1o=/TEST-com.alicp.jetcache.anno.filed.CreateCacheTest.xml",
+        "size": 17674,
+        "compressed": 3787,
+        "crc32": "e1e92ef9",
+        "offset": 2164084332,
+        "method": 8,
+        "local_path": "data/extracted/296c5be49f9c0d4880f6774d.xml",
+        "sha256": "b56acb144a8aa64a374514a2f3fd80ebee3aa389feab0211ad9a9ec66b5916df",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jetcachejetcachetest953f622test13/result/Flaky/rounds-test-results.csv",
+    "size": 18896,
+    "compressed": 5121,
+    "crc32": "0a573abf",
+    "offset": 2163822752,
+    "method": 8,
+    "local_path": "data/extracted/bea5dede61e50ad36a8677bc.csv",
+    "sha256": "03f8ce86b3df7196c363ce691a3cf1fda09499aa29190613851407bee0696afa",
+    "status": "verified"
+  },
+  "reported_failure_rows": 47,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/jetcachejetcachetest953f622test13/result/Flaky/.nondex/3QX5NNeMGgou9SyFEVUlXu6fHgm5bN5zsOJ5cszSd1o=/TEST-com.alicp.jetcache.anno.filed.CreateCacheTest.xml",
+    "size": 17674,
+    "compressed": 3787,
+    "crc32": "e1e92ef9",
+    "offset": 2164084332,
+    "method": 8,
+    "local_path": "data/extracted/296c5be49f9c0d4880f6774d.xml",
+    "sha256": "b56acb144a8aa64a374514a2f3fd80ebee3aa389feab0211ad9a9ec66b5916df",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test",
+    "outcome": "error",
+    "exception_type": "java.lang.IllegalStateException",
+    "message": "Failed to load ApplicationContext",
+    "stack_trace": "java.lang.IllegalStateException: Failed to load ApplicationContext\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'foo': Invocation of init method failed; nested exception is org.junit.ComparisonFailure: expected:<LoadingCache_Key2_V[1]> but was:<LoadingCache_Key2_V[2]>\nCaused by: org.junit.ComparisonFailure: expected:<LoadingCache_Key2_V[1]> but was:<LoadingCache_Key2_V[2]>",
+    "text": "java.lang.IllegalStateException\nFailed to load ApplicationContext\njava.lang.IllegalStateException: Failed to load ApplicationContext\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'foo': Invocation of init method failed; nested exception is org.junit.ComparisonFailure: expected:<LoadingCache_Key2_V[1]> but was:<LoadingCache_Key2_V[2]>\nCaused by: org.junit.ComparisonFailure: expected:<LoadingCache_Key2_V[1]> but was:<LoadingCache_Key2_V[2]>",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "818c8865a0ed851979cdc02ccc2c57da21a55ea04de2655331691d18f72cbf90"
+}

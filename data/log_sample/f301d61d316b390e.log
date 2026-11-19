@@ -1,0 +1,161 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.wildfly:wildfly-ts-integ-smoke:jar:15.0.0.Alpha1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: log4j:log4j:jar -> duplicate declaration of version (?) @ line 81, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+Warning: KebabPizza disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from wildfly-naming
+[INFO] 
+[INFO] ---------------------< org.wildfly:wildfly-naming >---------------------
+[INFO] Building WildFly: Naming Subsystem 15.0.0.Alpha1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (get-scm-revision) @ wildfly-naming ---
+[INFO] Executing: /bin/sh -c cd '/app/source/naming' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /app/source/naming
+[INFO] Storing buildNumber: UNKNOWN at timestamp: 1762196800421
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /app)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[INFO] Executing: /bin/sh -c cd '/app/source/naming' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /app/source/naming
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ wildfly-naming ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 10 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ wildfly-naming ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.0.0:checkstyle (check-style) @ wildfly-naming ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ wildfly-naming ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ wildfly-naming ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M8-SNAPSHOT:test (default-test) @ wildfly-naming ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/maven/surefire/surefire/3.0.0-M8-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-https: https://repository.jboss.org/nexus/content/groups/public/org/apache/maven/surefire/surefire-junit4/3.0.0-M8-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-https: https://repository.jboss.org/nexus/content/groups/public/org/apache/maven/surefire/surefire-providers/3.0.0-M8-SNAPSHOT/maven-metadata.xml
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/maven/surefire/surefire-providers/3.0.0-M8-SNAPSHOT/maven-metadata.xml
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/maven/surefire/common-junit4/3.0.0-M8-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-https: https://repository.jboss.org/nexus/content/groups/public/org/apache/maven/surefire/common-junit4/3.0.0-M8-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-https: https://repository.jboss.org/nexus/content/groups/public/org/apache/maven/surefire/common-junit3/3.0.0-M8-SNAPSHOT/maven-metadata.xml
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/maven/surefire/common-junit3/3.0.0-M8-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-https: https://repository.jboss.org/nexus/content/groups/public/org/apache/maven/surefire/common-java5/3.0.0-M8-SNAPSHOT/maven-metadata.xml
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/maven/surefire/common-java5/3.0.0-M8-SNAPSHOT/maven-metadata.xml
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.265 s <<< FAILURE! - in org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase
+[ERROR] org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase.testPermissions  Time elapsed: 0.208 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at org.jboss.as.naming.NamingContext.check(NamingContext.java:585)
+	at org.jboss.as.naming.NamingContext.lookup(NamingContext.java:197)
+	at org.jboss.as.naming.NamingContext.lookup(NamingContext.java:184)
+	at org.jboss.as.naming.SecurityHelper.performAction(SecurityHelper.java:167)
+	at org.jboss.as.naming.SecurityHelper.access$000(SecurityHelper.java:50)
+	at org.jboss.as.naming.SecurityHelper$1.call(SecurityHelper.java:116)
+	at org.jboss.as.naming.SecurityHelper$4.run(SecurityHelper.java:212)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jboss.as.naming.SecurityHelper.runWithSecurityManager(SecurityHelper.java:209)
+	at org.jboss.as.naming.SecurityHelper.testActionWithPermission(SecurityHelper.java:113)
+	at org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase.testPermissions(WritableServiceBasedNamingStoreTestCase.java:263)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:385)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:285)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:249)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:168)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessDeclaredMembers")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:886)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.Class.checkMemberAccess(Class.java:2348)
+	at java.lang.Class.getDeclaredField(Class.java:2067)
+	at org.wildfly.security.manager.WildFlySecurityManager.<clinit>(WildFlySecurityManager.java:113)
+	... 38 more
+
+[INFO] Running org.jboss.as.naming.InitialContextFactoryTestCase
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in org.jboss.as.naming.InitialContextFactoryTestCase
+[ERROR] org.jboss.as.naming.InitialContextFactoryTestCase.testInitialFactory  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.wildfly.security.manager.WildFlySecurityManager
+	at org.jboss.as.naming.NamingContext.setActiveNamingStore(NamingContext.java:83)
+	at org.jboss.as.naming.InitialContextFactoryTestCase.init(InitialContextFactoryTestCase.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:385)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:285)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:249)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:168)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   InitialContextFactoryTestCase.init:41 » NoClassDefFound Could not initialize class org.wildfly.security.manager.WildFlySecurityManager
+[ERROR]   WritableServiceBasedNamingStoreTestCase.testPermissions:263 » ExceptionInInitializer
+[INFO] 
+[ERROR] Tests run: 2, Failures: 0, Errors: 2, Skipped: 0
+[INFO] 
+[ERROR] 
+
+Please refer to /app/source/naming/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.307 s
+[INFO] Finished at: 2025-11-03T19:06:45Z
+[INFO] ------------------------------------------------------------------------

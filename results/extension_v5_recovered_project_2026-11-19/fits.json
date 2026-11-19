@@ -1,0 +1,38 @@
+[
+  {
+    "condition": "lr_original",
+    "training_documents": 1051,
+    "evaluation_documents": 5,
+    "vocabulary_size": 21176,
+    "vocabulary_sha256": "5ab61c37e9288e64dca18836cbe381c249e210a0f51b73e8eb888ca959eb0d7a",
+    "coef_sha256": "298f36bf71bdbd5d96f10637ff2fab57b948f1b63a7798216ae3806216966382",
+    "seconds": 0.3237649000000147
+  },
+  {
+    "condition": "lr_masked",
+    "training_documents": 1051,
+    "evaluation_documents": 5,
+    "vocabulary_size": 16854,
+    "vocabulary_sha256": "38f042ecfc2dd4fc1cb8c37237367b55731fbc16d9ff37d341b026365eeee7e9",
+    "coef_sha256": "57c40501e6cb684e653aa27b44ffe135e2e08c7d2c080c0d0e4fe19695263b97",
+    "seconds": 0.2523800999999821
+  },
+  {
+    "condition": "svc_original",
+    "training_documents": 1051,
+    "evaluation_documents": 5,
+    "vocabulary_size": 21176,
+    "vocabulary_sha256": "5ab61c37e9288e64dca18836cbe381c249e210a0f51b73e8eb888ca959eb0d7a",
+    "coef_sha256": "cd404d3f8c9f268888487f8755609cbfdd2bf9be42dfa833439d07b29882cfae",
+    "seconds": 0.21111420000011094
+  },
+  {
+    "condition": "svc_masked",
+    "training_documents": 1051,
+    "evaluation_documents": 5,
+    "vocabulary_size": 16854,
+    "vocabulary_sha256": "38f042ecfc2dd4fc1cb8c37237367b55731fbc16d9ff37d341b026365eeee7e9",
+    "coef_sha256": "6d0648fa6237e651ea9090964291b304a77642144a2cb632e4f470676351174f",
+    "seconds": 0.20105469999998604
+  }
+]

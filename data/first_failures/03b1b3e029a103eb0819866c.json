@@ -1,0 +1,81 @@
+{
+  "container": "incubatorshardingsphereshardingjdbcshardingjdbccorea0ffcf0assertInsertWithExecuteWithGeneratedKey12",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "incubatorshardingsphereshardingjdbcshardingjdbccorea0ffcf0assertInsertWithExecuteWithGeneratedKey12",
+    "project": "https://github.com/apache/incubator-shardingsphere",
+    "revision": "a0ffcf02c29e5259f0bdbf5a6f8a5e089c48a751",
+    "test": "org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.assertInsertWithExecuteWithGeneratedKey",
+    "label": "ID",
+    "module": "sharding-jdbc/sharding-jdbc-core",
+    "zip": "incubator-shardingsphere=sharding-jdbc+sharding-jdbc-core=a0ffcf0",
+    "config_row": 395,
+    "configured_test": "org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest#assertInsertWithExecuteWithGeneratedKey",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/incubator-shardingsphere::org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.assertInsertWithExecuteWithGeneratedKey",
+    "variant_id": "https://github.com/apache/incubator-shardingsphere::org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.assertInsertWithExecuteWithGeneratedKey::a0ffcf02c29e5259f0bdbf5a6f8a5e089c48a751::sharding-jdbc/sharding-jdbc-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/incubatorshardingsphereshardingjdbcshardingjdbccorea0ffcf0assertInsertWithExecuteWithGeneratedKey12/result/Flaky/.nondex/FKhQrREOqNO8Hiedfd68buTeb3HxI3FFcEPaa16a2E=/TEST-org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.xml",
+        "size": 16790,
+        "compressed": 2744,
+        "crc32": "9e336f7a",
+        "offset": 1992085335,
+        "method": 8,
+        "local_path": "data/extracted/b9f56d2ad0e1dcae4c3a4b1e.xml",
+        "sha256": "fb3e662ddb0fa0f384300b50eb14cbc64898822bd697f2e01b3706303170548a",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/incubatorshardingsphereshardingjdbcshardingjdbccorea0ffcf0assertInsertWithExecuteWithGeneratedKey12/result/Flaky/rounds-test-results.csv",
+    "size": 24350,
+    "compressed": 5148,
+    "crc32": "1d302e7d",
+    "offset": 1991967540,
+    "method": 8,
+    "local_path": "data/extracted/83b7ebe4c6a83dc14961c459.csv",
+    "sha256": "b5ef62eb0673cb106c78ecbeb6108324133cafdad33fe1c0015121ad10d810f2",
+    "status": "verified"
+  },
+  "reported_failure_rows": 67,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/incubatorshardingsphereshardingjdbcshardingjdbccorea0ffcf0assertInsertWithExecuteWithGeneratedKey12/result/Flaky/.nondex/FKhQrREOqNO8Hiedfd68buTeb3HxI3FFcEPaa16a2E=/TEST-org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.xml",
+    "size": 16790,
+    "compressed": 2744,
+    "crc32": "9e336f7a",
+    "offset": 1992085335,
+    "method": 8,
+    "local_path": "data/extracted/b9f56d2ad0e1dcae4c3a4b1e.xml",
+    "sha256": "fb3e662ddb0fa0f384300b50eb14cbc64898822bd697f2e01b3706303170548a",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "assertInsertWithExecuteWithGeneratedKey",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: is <3>\n     but: was <0>",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: is <3>\n     but: was <0>\n\tat org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.assertResultSet(EncryptStatementTest.java:180)\n\tat org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.assertInsertWithExecuteWithGeneratedKey(EncryptStatementTest.java:79)",
+    "text": "java.lang.AssertionError\nExpected: is <3>\n     but: was <0>\njava.lang.AssertionError: \n\nExpected: is <3>\n     but: was <0>\n\tat org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.assertResultSet(EncryptStatementTest.java:180)\n\tat org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptStatementTest.assertInsertWithExecuteWithGeneratedKey(EncryptStatementTest.java:79)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "a031d880c0bb31d8d343ace5e7c91839681d2d915a0d979801d8b47ff1460132"
+}

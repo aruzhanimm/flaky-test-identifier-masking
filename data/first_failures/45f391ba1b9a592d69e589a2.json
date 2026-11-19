@@ -1,0 +1,81 @@
+{
+  "container": "graylog2servergraylog2serverf169d54serializeString",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "graylog2servergraylog2serverf169d54serializeString",
+    "project": "https://github.com/graylog2/graylog2-server",
+    "revision": "f169d5423375d509cb7b64fa2cabb76cf5aec18f",
+    "test": "org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.serializeString",
+    "label": "ID",
+    "module": "graylog2-server",
+    "zip": "graylog2-server=graylog2-server=f169d54",
+    "config_row": 14,
+    "configured_test": "org.graylog2.contentpacks.model.entities.references.ValueReferenceTest#serializeString",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/graylog2/graylog2-server::org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.serializeString",
+    "variant_id": "https://github.com/graylog2/graylog2-server::org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.serializeString::f169d5423375d509cb7b64fa2cabb76cf5aec18f::graylog2-server",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/graylog2servergraylog2serverf169d54serializeString/result/Flaky/.nondex/WySRVyVT+VmlrXejiVRSG2IwJ4Xt1pHK3S1aQW0pPn0=/TEST-org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.xml",
+        "size": 65111,
+        "compressed": 7619,
+        "crc32": "97162496",
+        "offset": 574957139,
+        "method": 8,
+        "local_path": "data/extracted/e844badb6f7818f4da3d5876.xml",
+        "sha256": "5e44dc3f39aa24361daa289b3ef27e1733c2c26de46ee76a013c822698d0ca06",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/graylog2servergraylog2serverf169d54serializeString/result/Flaky/rounds-test-results.csv",
+    "size": 21710,
+    "compressed": 4967,
+    "crc32": "02918a7a",
+    "offset": 574813993,
+    "method": 8,
+    "local_path": "data/extracted/af9b4cecbcd4a42d2a405aca.csv",
+    "sha256": "c7ec20325a7b73fc40fb674ca476ee010543b9035310fc4ebae55e820be89c24",
+    "status": "verified"
+  },
+  "reported_failure_rows": 52,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/graylog2servergraylog2serverf169d54serializeString/result/Flaky/.nondex/WySRVyVT+VmlrXejiVRSG2IwJ4Xt1pHK3S1aQW0pPn0=/TEST-org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.xml",
+    "size": 65111,
+    "compressed": 7619,
+    "crc32": "97162496",
+    "offset": 574957139,
+    "method": 8,
+    "local_path": "data/extracted/e844badb6f7818f4da3d5876.xml",
+    "sha256": "5e44dc3f39aa24361daa289b3ef27e1733c2c26de46ee76a013c822698d0ca06",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "serializeString",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<\"{\"@[type\":\"string\",\"@value\":\"]\"}\"> but was:<\"{\"@[value\":\"\",\"@type\":\"string]\"}\">",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<\"{\"@[type\":\"string\",\"@value\":\"]\"}\"> but was:<\"{\"@[value\":\"\",\"@type\":\"string]\"}\">\n\tat org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.serializeString(ValueReferenceTest.java:159)",
+    "text": "org.junit.ComparisonFailure\nexpected:<\"{\"@[type\":\"string\",\"@value\":\"]\"}\"> but was:<\"{\"@[value\":\"\",\"@type\":\"string]\"}\">\norg.junit.ComparisonFailure: expected:<\"{\"@[type\":\"string\",\"@value\":\"]\"}\"> but was:<\"{\"@[value\":\"\",\"@type\":\"string]\"}\">\n\tat org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.serializeString(ValueReferenceTest.java:159)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "bfc95710530393a0f69b0b7e747f75f06eb4eddc95487b9143dae07ed69ae582"
+}

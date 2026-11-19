@@ -1,0 +1,1524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="org.json.junit.XMLTest" time="0.036" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="nondexStart" value="0"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/target/test-classes:/app/source/target/classes:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/com/jayway/jsonpath/json-path/2.1.0/json-path-2.1.0.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.jar:/root/.m2/repository/net/minidev/json-smart/2.2/json-smart-2.2.jar:/root/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar:/root/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/root/.m2/repository/org/mockito/mockito-core/4.2.0/mockito-core-4.2.0.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.12.4/byte-buddy-1.12.4.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.4/byte-buddy-agent-1.12.4.jar:/root/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-11/lib"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="sun.java.command" value="/app/source/target/surefire/surefirebooter-20251106155004189_6.jar /app/source/target/surefire 2025-11-06T15-50-04_143-jvmRun1 surefire-20251106155004189_4tmp surefire_1-20251106155004189_5tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="org.json.junit.XMLTest#testIndentComplicatedJsonObjectWithArrayAndWithConfig"/>
+    <property name="surefire.test.class.path" value="/app/source/target/test-classes:/app/source/target/classes:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/com/jayway/jsonpath/json-path/2.1.0/json-path-2.1.0.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.jar:/root/.m2/repository/net/minidev/json-smart/2.2/json-smart-2.2.jar:/root/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar:/root/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/root/.m2/repository/org/mockito/mockito-core/4.2.0/mockito-core-4.2.0.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.12.4/byte-buddy-1.12.4.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.4/byte-buddy-agent-1.12.4.jar:/root/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="UT4sg75Ww6q5VeVCBMo5ju5bMQeDie+Ty6FNXiIDd0A="/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/openjdk-11"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/app/source"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="surefire.real.class.path" value="/app/source/target/surefire/surefirebooter-20251106155004189_6.jar"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-34-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/.nondex"/>
+    <property name="nondexJarDir" value="/app/source/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="/app/source"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="license.skip" value="true"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="xml.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="testIndentComplicatedJsonObjectWithArrayAndWithConfig" classname="org.json.junit.XMLTest" time="0.032">
+    <failure message="expected:&lt;&lt;[success&gt;true&lt;/success&gt;&#10;&lt;response&gt;&#10;  &lt;loc&gt;&#10;    &lt;long&gt;31.25&lt;/long&gt;&#10;    &lt;lat&gt;30.063&lt;/lat&gt;&#10;  &lt;/loc&gt;&#10;  &lt;profile&gt;&#10;    &lt;elevM&gt;23&lt;/elevM&gt;&#10;    &lt;tz&gt;Africa/Cairo&lt;/tz&gt;&#10;    &lt;elevFT&gt;75&lt;/elevFT&gt;&#10;  &lt;/profile&gt;&#10;  &lt;periods&gt;&#10;    &lt;dateTimeISO&gt;2022-10-06T07:00:00+02:00&lt;/dateTimeISO&gt;&#10;    &lt;windDirMin80m&gt;E&lt;/windDirMin80m&gt;&#10;    &lt;windDirMin80mDEG&gt;95&lt;/windDirMin80mDEG&gt;&#10;    &lt;feelslikeC&gt;21&lt;/feelslikeC&gt;&#10;    &lt;visibilityMI&gt;15&lt;/visibilityMI&gt;&#10;    &lt;windSpeedMaxMPH&gt;10&lt;/windSpeedMaxMPH&gt;&#10;    &lt;windDirDEG&gt;353&lt;/windDirDEG&gt;&#10;    &lt;windDir&gt;N&lt;/windDir&gt;&#10;    &lt;sunriseISO&gt;2022-10-06T05:51:14+02:00&lt;/sunriseISO&gt;&#10;    &lt;iceaccumMM&gt;null&lt;/iceaccumMM&gt;&#10;    &lt;windSpeedMaxKTS&gt;9&lt;/windSpeedMaxKTS&gt;&#10;    &lt;iceaccumIN&gt;null&lt;/iceaccumIN&gt;&#10;    &lt;minTempF&gt;66&lt;/minTempF&gt;&#10;    &lt;snowIN&gt;0&lt;/snowIN&gt;&#10;    &lt;weather&gt;Mostly Sunny&lt;/weather&gt;&#10;    &lt;sunsetISO&gt;2022-10-06T17:35:02+02:00&lt;/sunsetISO&gt;&#10;    &lt;maxFeelslikeC&gt;32&lt;/maxFeelslikeC&gt;&#10;    &lt;humidity&gt;77&lt;/humidity&gt;&#10;    &lt;windDir80m&gt;N&lt;/windDir80m&gt;&#10;    &lt;maxFeelslikeF&gt;89&lt;/maxFeelslikeF&gt;&#10;    &lt;precipMM&gt;0&lt;/precipMM&gt;&#10;    &lt;sky&gt;22&lt;/sky&gt;&#10;    &lt;windGust80mMPH&gt;25&lt;/windGust80mMPH&gt;&#10;    &lt;windSpeedMax80mMPH&gt;25&lt;/windSpeedMax80mMPH&gt;&#10;    &lt;weatherPrimary&gt;Mostly Sunny&lt;/weatherPrimary&gt;&#10;    &lt;windGust80mKPH&gt;41&lt;/windGust80mKPH&gt;&#10;    &lt;avgDewpointF&gt;58&lt;/avgDewpointF&gt;&#10;    &lt;windSpeedMax80mKPH&gt;41&lt;/windSpeedMax80mKPH&gt;&#10;    &lt;windGust80mKTS&gt;22&lt;/windGust80mKTS&gt;&#10;    &lt;avgDewpointC&gt;14&lt;/avgDewpointC&gt;&#10;    &lt;precipIN&gt;0&lt;/precipIN&gt;&#10;    &lt;windSpeedMax80mKTS&gt;22&lt;/windSpeedMax80mKTS&gt;&#10;    &lt;windDirMinDEG&gt;353&lt;/windDirMinDEG&gt;&#10;    &lt;windSpeedMaxKPH&gt;16&lt;/windSpeedMaxKPH&gt;&#10;    &lt;windSpeedMin80mKTS&gt;8&lt;/windSpeedMin80mKTS&gt;&#10;    &lt;feelslikeF&gt;70&lt;/feelslikeF&gt;&#10;    &lt;validTime&gt;2022-10-06T07:00:00+02:00&lt;/validTime&gt;&#10;    &lt;windSpeedMin80mMPH&gt;10&lt;/windSpeedMin80mMPH&gt;&#10;    &lt;solradMaxWM2&gt;778&lt;/solradMaxWM2&gt;&#10;    &lt;avgTempC&gt;25&lt;/avgTempC&gt;&#10;    &lt;windSpeedMin80mKPH&gt;15&lt;/windSpeedMin80mKPH&gt;&#10;    &lt;weatherPrimaryCoded&gt;::FW&lt;/weatherPrimaryCoded&gt;&#10;    &lt;sunrise&gt;1665028274&lt;/sunrise&gt;&#10;    &lt;avgTempF&gt;78&lt;/avgTempF&gt;&#10;    &lt;windDirMin&gt;N&lt;/windDirMin&gt;&#10;    &lt;maxCoverage/&gt;&#10;    &lt;icon&gt;fair.png&lt;/icon&gt;&#10;    &lt;minFeelslikeC&gt;21&lt;/minFeelslikeC&gt;&#10;    &lt;dewpointC&gt;17&lt;/dewpointC&gt;&#10;    &lt;cloudsCoded&gt;FW&lt;/cloudsCoded&gt;&#10;    &lt;minFeelslikeF&gt;70&lt;/minFeelslikeF&gt;&#10;    &lt;minHumidity&gt;29&lt;/minHumidity&gt;&#10;    &lt;dewpointF&gt;63&lt;/dewpointF&gt;&#10;    &lt;windSpeed80mKTS&gt;12&lt;/windSpeed80mKTS&gt;&#10;    &lt;pop&gt;0&lt;/pop&gt;&#10;    &lt;snowCM&gt;0&lt;/snowCM&gt;&#10;    &lt;windDirMax&gt;NNW&lt;/windDirMax&gt;&#10;    &lt;windSpeed80mMPH&gt;13&lt;/windSpeed80mMPH&gt;&#10;    &lt;windSpeed80mKPH&gt;22&lt;/windSpeed80mKPH&gt;&#10;    &lt;windDir80mDEG&gt;11&lt;/windDir80mDEG&gt;&#10;    &lt;maxTempC&gt;32&lt;/maxTempC&gt;&#10;    &lt;pressureMB&gt;1015&lt;/pressureMB&gt;&#10;    &lt;visibilityKM&gt;24.135&lt;/visibilityKM&gt;&#10;    &lt;timestamp&gt;1665032400&lt;/timestamp&gt;&#10;    &lt;maxTempF&gt;90&lt;/maxTempF&gt;&#10;    &lt;tempF&gt;null&lt;/tempF&gt;&#10;    &lt;minDewpointC&gt;11&lt;/minDewpointC&gt;&#10;    &lt;solradMinWM2&gt;0&lt;/solradMinWM2&gt;&#10;    &lt;windSpeedMinKTS&gt;1&lt;/windSpeedMinKTS&gt;&#10;    &lt;windDirMax80mDEG&gt;343&lt;/windDirMax80mDEG&gt;&#10;    &lt;windGustKTS&gt;21&lt;/windGustKTS&gt;&#10;    &lt;windSpeedMinKPH&gt;2&lt;/windSpeedMinKPH&gt;&#10;    &lt;maxDewpointF&gt;63&lt;/maxDewpointF&gt;&#10;    &lt;windSpeedMinMPH&gt;1&lt;/windSpeedMinMPH&gt;&#10;    &lt;avgFeelslikeC&gt;26&lt;/avgFeelslikeC&gt;&#10;    &lt;uvi&gt;6&lt;/uvi&gt;&#10;    &lt;windDirMax80m&gt;NNW&lt;/windDirMax80m&gt;&#10;    &lt;maxDewpointC&gt;17&lt;/maxDewpointC&gt;&#10;    &lt;pressureIN&gt;29.97&lt;/pressureIN&gt;&#10;    &lt;avgFeelslikeF&gt;80&lt;/avgFeelslikeF&gt;&#10;    &lt;iceaccum&gt;null&lt;/iceaccum&gt;&#10;    &lt;isDay&gt;true&lt;/isDay&gt;&#10;    &lt;minTempC&gt;19&lt;/minTempC&gt;&#10;    &lt;minDewpointF&gt;52&lt;/minDewpointF&gt;&#10;    &lt;windSpeedKTS&gt;5&lt;/windSpeedKTS&gt;&#10;    &lt;sunset&gt;1665070502&lt;/sunset&gt;&#10;    &lt;solradWM2&gt;5608&lt;/solradWM2&gt;&#10;    &lt;windSpeedKPH&gt;9&lt;/windSpeedKPH&gt;&#10;    &lt;windGustMPH&gt;25&lt;/windGustMPH&gt;&#10;    &lt;maxHumidity&gt;77&lt;/maxHumidity&gt;&#10;    &lt;windSpeedMPH&gt;6&lt;/windSpeedMPH&gt;&#10;    &lt;windGustKPH&gt;40&lt;/windGustKPH&gt;&#10;    &lt;windDirMaxDEG&gt;342&lt;/windDirMaxDEG&gt;&#10;    &lt;tempC&gt;null&lt;/tempC&gt;&#10;  &lt;/periods&gt;&#10;  &lt;periods&gt;&#10;    &lt;dateTimeISO&gt;2022-10-07T07:00:00+02:00&lt;/dateTimeISO&gt;&#10;    &lt;windDirMin80m&gt;NNW&lt;/windDirMin80m&gt;&#10;    &lt;windDirMin80mDEG&gt;347&lt;/windDirMin80mDEG&gt;&#10;    &lt;feelslikeC&gt;19&lt;/feelslikeC&gt;&#10;    &lt;visibilityMI&gt;15&lt;/visibilityMI&gt;&#10;    &lt;windSpeedMaxMPH&gt;8&lt;/windSpeedMaxMPH&gt;&#10;    &lt;windDirDEG&gt;325&lt;/windDirDEG&gt;&#10;    &lt;windDir&gt;NW&lt;/windDir&gt;&#10;    &lt;sunriseISO&gt;2022-10-07T05:51:50+02:00&lt;/sunriseISO&gt;&#10;    &lt;iceaccumMM&gt;null&lt;/iceaccumMM&gt;&#10;    &lt;windSpeedMaxKTS&gt;7&lt;/windSpeedMaxKTS&gt;&#10;    &lt;iceaccumIN&gt;null&lt;/iceaccumIN&gt;&#10;    &lt;minTempF&gt;66&lt;/minTempF&gt;&#10;    &lt;snowIN&gt;0&lt;/snowIN&gt;&#10;    &lt;weather&gt;Mostly Sunny&lt;/weather&gt;&#10;    &lt;sunsetISO&gt;2022-10-07T17:33:51+02:00&lt;/sunsetISO&gt;&#10;    &lt;maxFeelslikeC&gt;29&lt;/maxFeelslikeC&gt;&#10;    &lt;humidity&gt;77&lt;/humidity&gt;&#10;    &lt;windDir80m&gt;NNW&lt;/windDir80m&gt;&#10;    &lt;maxFeelslikeF&gt;85&lt;/maxFeelslikeF&gt;&#10;    &lt;precipMM&gt;0&lt;/precipMM&gt;&#10;    &lt;sky&gt;30&lt;/sky&gt;&#10;    &lt;windGust80mMPH&gt;23&lt;/windGust80mMPH&gt;&#10;    &lt;windSpeedMax80mMPH&gt;23&lt;/windSpeedMax80mMPH&gt;&#10;    &lt;weatherPrimary&gt;Mostly Sunny&lt;/weatherPrimary&gt;&#10;    &lt;windGust80mKPH&gt;37&lt;/windGust80mKPH&gt;&#10;    &lt;avgDewpointF&gt;54&lt;/avgDewpointF&gt;&#10;    &lt;windSpeedMax80mKPH&gt;37&lt;/windSpeedMax80mKPH&gt;&#10;    &lt;windGust80mKTS&gt;20&lt;/windGust80mKTS&gt;&#10;    &lt;avgDewpointC&gt;12&lt;/avgDewpointC&gt;&#10;    &lt;precipIN&gt;0&lt;/precipIN&gt;&#10;    &lt;windSpeedMax80mKTS&gt;20&lt;/windSpeedMax80mKTS&gt;&#10;    &lt;windDirMinDEG&gt;325&lt;/windDirMinDEG&gt;&#10;    &lt;windSpeedMaxKPH&gt;13&lt;/windSpeedMaxKPH&gt;&#10;    &lt;windSpeedMin80mKTS&gt;6&lt;/windSpeedMin80mKTS&gt;&#10;    &lt;feelslikeF&gt;67&lt;/feelslikeF&gt;&#10;    &lt;validTime&gt;2022-10-07T07:00:00+02:00&lt;/validTime&gt;&#10;    &lt;windSpeedMin80mMPH&gt;6&lt;/windSpeedMin80mMPH&gt;&#10;    &lt;solradMaxWM2&gt;742&lt;/solradMaxWM2&gt;&#10;    &lt;avgTempC&gt;24&lt;/avgTempC&gt;&#10;    &lt;windSpeedMin80mKPH&gt;10&lt;/windSpeedMin80mKPH&gt;&#10;    &lt;weatherPrimaryCoded&gt;::FW&lt;/weatherPrimaryCoded&gt;&#10;    &lt;sunrise&gt;1665114710&lt;/sunrise&gt;&#10;    &lt;avgTempF&gt;76&lt;/avgTempF&gt;&#10;    &lt;windDirMin&gt;NW&lt;/windDirMin&gt;&#10;    &lt;maxCoverage/&gt;&#10;    &lt;icon&gt;fair.png&lt;/icon&gt;&#10;    &lt;minFeelslikeC&gt;19&lt;/minFeelslikeC&gt;&#10;    &lt;dewpointC&gt;15&lt;/dewpointC&gt;&#10;    &lt;cloudsCoded&gt;FW&lt;/cloudsCoded&gt;&#10;    &lt;minFeelslikeF&gt;67&lt;/minFeelslikeF&gt;&#10;    &lt;minHumidity&gt;30&lt;/minHumidity&gt;&#10;    &lt;dewpointF&gt;60&lt;/dewpointF&gt;&#10;    &lt;windSpeed80mKTS&gt;6&lt;/windSpeed80mKTS&gt;&#10;    &lt;pop&gt;0&lt;/pop&gt;&#10;    &lt;snowCM&gt;0&lt;/snowCM&gt;&#10;    &lt;windDirMax&gt;WNW&lt;/windDirMax&gt;&#10;    &lt;windSpeed80mMPH&gt;6&lt;/windSpeed80mMPH&gt;&#10;    &lt;windSpeed80mKPH&gt;10&lt;/windSpeed80mKPH&gt;&#10;    &lt;windDir80mDEG&gt;347&lt;/windDir80mDEG&gt;&#10;    &lt;maxTempC&gt;30&lt;/maxTempC&gt;&#10;    &lt;pressureMB&gt;1014&lt;/pressureMB&gt;&#10;    &lt;visibilityKM&gt;24.135&lt;/visibilityKM&gt;&#10;    &lt;timestamp&gt;1665118800&lt;/timestamp&gt;&#10;    &lt;maxTempF&gt;86&lt;/maxTempF&gt;&#10;    &lt;tempF&gt;null&lt;/tempF&gt;&#10;    &lt;minDewpointC&gt;10&lt;/minDewpointC&gt;&#10;    &lt;solradMinWM2&gt;0&lt;/solradMinWM2&gt;&#10;    &lt;windSpeedMinKTS&gt;1&lt;/windSpeedMinKTS&gt;&#10;    &lt;windDirMax80mDEG&gt;316&lt;/windDirMax80mDEG&gt;&#10;    &lt;windGustKTS&gt;16&lt;/windGustKTS&gt;&#10;    &lt;windSpeedMinKPH&gt;2&lt;/windSpeedMinKPH&gt;&#10;    &lt;maxDewpointF&gt;60&lt;/maxDewpointF&gt;&#10;    &lt;windSpeedMinMPH&gt;1&lt;/windSpeedMinMPH&gt;&#10;    &lt;avgFeelslikeC&gt;24&lt;/avgFeelslikeC&gt;&#10;    &lt;uvi&gt;6&lt;/uvi&gt;&#10;    &lt;windDirMax80m&gt;NW&lt;/windDirMax80m&gt;&#10;    &lt;maxDewpointC&gt;15&lt;/maxDewpointC&gt;&#10;    &lt;pressureIN&gt;29.95&lt;/pressureIN&gt;&#10;    &lt;avgFeelslikeF&gt;76&lt;/avgFeelslikeF&gt;&#10;    &lt;iceaccum&gt;null&lt;/iceaccum&gt;&#10;    &lt;isDay&gt;true&lt;/isDay&gt;&#10;    &lt;minTempC&gt;19&lt;/minTempC&gt;&#10;    &lt;minDewpointF&gt;50&lt;/minDewpointF&gt;&#10;    &lt;windSpeedKTS&gt;1&lt;/windSpeedKTS&gt;&#10;    &lt;sunset&gt;1665156831&lt;/sunset&gt;&#10;    &lt;solradWM2&gt;5486&lt;/solradWM2&gt;&#10;    &lt;windSpeedKPH&gt;2&lt;/windSpeedKPH&gt;&#10;    &lt;windGustMPH&gt;18&lt;/windGustMPH&gt;&#10;    &lt;maxHumidity&gt;77&lt;/maxHumidity&gt;&#10;    &lt;windSpeedMPH&gt;1&lt;/windSpeedMPH&gt;&#10;    &lt;windGustKPH&gt;29&lt;/windGustKPH&gt;&#10;    &lt;windDirMaxDEG&gt;298&lt;/windDirMaxDEG&gt;&#10;    &lt;tempC&gt;null&lt;/tempC&gt;&#10;  &lt;/periods&gt;&#10;  &lt;periods&gt;&#10;    &lt;dateTimeISO&gt;2022-10-08T07:00:00+02:00&lt;/dateTimeISO&gt;&#10;    &lt;windDirMin80m&gt;NW&lt;/windDirMin80m&gt;&#10;    &lt;windDirMin80mDEG&gt;309&lt;/windDirMin80mDEG&gt;&#10;    &lt;feelslikeC&gt;19&lt;/feelslikeC&gt;&#10;    &lt;visibilityMI&gt;15&lt;/visibilityMI&gt;&#10;    &lt;windSpeedMaxMPH&gt;8&lt;/windSpeedMaxMPH&gt;&#10;    &lt;windDirDEG&gt;21&lt;/windDirDEG&gt;&#10;    &lt;windDir&gt;NNE&lt;/windDir&gt;&#10;    &lt;sunriseISO&gt;2022-10-08T05:52:26+02:00&lt;/sunriseISO&gt;&#10;    &lt;iceaccumMM&gt;null&lt;/iceaccumMM&gt;&#10;    &lt;windSpeedMaxKTS&gt;7&lt;/windSpeedMaxKTS&gt;&#10;    &lt;iceaccumIN&gt;null&lt;/iceaccumIN&gt;&#10;    &lt;minTempF&gt;66&lt;/minTempF&gt;&#10;    &lt;snowIN&gt;0&lt;/snowIN&gt;&#10;    &lt;weather&gt;Partly Cloudy&lt;/weather&gt;&#10;    &lt;sunsetISO&gt;2022-10-08T17:32:41+02:00&lt;/sunsetISO&gt;&#10;    &lt;maxFeelslikeC&gt;30&lt;/maxFeelslikeC&gt;&#10;    &lt;humidity&gt;76&lt;/humidity&gt;&#10;    &lt;windDir80m&gt;NW&lt;/windDir80m&gt;&#10;    &lt;maxFeelslikeF&gt;86&lt;/maxFeelslikeF&gt;&#10;    &lt;precipMM&gt;0&lt;/precipMM&gt;&#10;    &lt;sky&gt;47&lt;/sky&gt;&#10;    &lt;windGust80mMPH&gt;19&lt;/windGust80mMPH&gt;&#10;    &lt;windSpeedMax80mMPH&gt;19&lt;/windSpeedMax80mMPH&gt;&#10;    &lt;weatherPrimary&gt;Partly Cloudy&lt;/weatherPrimary&gt;&#10;    &lt;windGust80mKPH&gt;31&lt;/windGust80mKPH&gt;&#10;    &lt;avgDewpointF&gt;56&lt;/avgDewpointF&gt;&#10;    &lt;windSpeedMax80mKPH&gt;31&lt;/windSpeedMax80mKPH&gt;&#10;    &lt;windGust80mKTS&gt;17&lt;/windGust80mKTS&gt;&#10;    &lt;avgDewpointC&gt;13&lt;/avgDewpointC&gt;&#10;    &lt;precipIN&gt;0&lt;/precipIN&gt;&#10;    &lt;windSpeedMax80mKTS&gt;17&lt;/windSpeedMax80mKTS&gt;&#10;    &lt;windDirMinDEG&gt;21&lt;/windDirMinDEG&gt;&#10;    &lt;windSpeedMaxKPH&gt;13&lt;/windSpeedMaxKPH&gt;&#10;    &lt;windSpeedMin80mKTS&gt;5&lt;/windSpeedMin80mKTS&gt;&#10;    &lt;feelslikeF&gt;67&lt;/feelslikeF&gt;&#10;    &lt;validTime&gt;2022-10-08T07:00:00+02:00&lt;/validTime&gt;&#10;    &lt;windSpeedMin80mMPH&gt;5&lt;/windSpeedMin80mMPH&gt;&#10;    &lt;solradMaxWM2&gt;682&lt;/solradMaxWM2&gt;&#10;    &lt;avgTempC&gt;25&lt;/avgTempC&gt;&#10;    &lt;windSpeedMin80mKPH&gt;9&lt;/windSpeedMin80mKPH&gt;&#10;    &lt;weatherPrimaryCoded&gt;::SC&lt;/weatherPrimaryCoded&gt;&#10;    &lt;sunrise&gt;1665201146&lt;/sunrise&gt;&#10;    &lt;avgTempF&gt;76&lt;/avgTempF&gt;&#10;    &lt;windDirMin&gt;NNE&lt;/windDirMin&gt;&#10;    &lt;maxCoverage/&gt;&#10;    &lt;icon&gt;pcloudy.png&lt;/icon&gt;&#10;    &lt;minFeelslikeC&gt;19&lt;/minFeelslikeC&gt;&#10;    &lt;dewpointC&gt;15&lt;/dewpointC&gt;&#10;    &lt;cloudsCoded&gt;SC&lt;/cloudsCoded&gt;&#10;    &lt;minFeelslikeF&gt;67&lt;/minFeelslikeF&gt;&#10;    &lt;minHumidity&gt;32&lt;/minHumidity&gt;&#10;    &lt;dewpointF&gt;59&lt;/dewpointF&gt;&#10;    &lt;windSpeed80mKTS&gt;5&lt;/windSpeed80mKTS&gt;&#10;    &lt;pop&gt;0&lt;/pop&gt;&#10;    &lt;snowCM&gt;0&lt;/snowCM&gt;&#10;    &lt;windDirMax&gt;WNW&lt;/windDirMax&gt;&#10;    &lt;windSpeed80mMPH&gt;5&lt;/windSpeed80mMPH&gt;&#10;    &lt;windSpeed80mKPH&gt;9&lt;/windSpeed80mKPH&gt;&#10;    &lt;windDir80mDEG&gt;309&lt;/windDir80mDEG&gt;&#10;    &lt;maxTempC&gt;30&lt;/maxTempC&gt;&#10;    &lt;pressureMB&gt;1014&lt;/pressureMB&gt;&#10;    &lt;visibilityKM&gt;24.135&lt;/visibilityKM&gt;&#10;    &lt;timestamp&gt;1665205200&lt;/timestamp&gt;&#10;    &lt;maxTempF&gt;87&lt;/maxTempF&gt;&#10;    &lt;tempF&gt;null&lt;/tempF&gt;&#10;    &lt;minDewpointC&gt;11&lt;/minDewpointC&gt;&#10;    &lt;solradMinWM2&gt;0&lt;/solradMinWM2&gt;&#10;    &lt;windSpeedMinKTS&gt;1&lt;/windSpeedMinKTS&gt;&#10;    &lt;windDirMax80mDEG&gt;322&lt;/windDirMax80mDEG&gt;&#10;    &lt;windGustKTS&gt;17&lt;/windGustKTS&gt;&#10;    &lt;windSpeedMinKPH&gt;2&lt;/windSpeedMinKPH&gt;&#10;    &lt;maxDewpointF&gt;59&lt;/maxDewpointF&gt;&#10;    &lt;windSpeedMinMPH&gt;1&lt;/windSpeedMinMPH&gt;&#10;    &lt;avgFeelslikeC&gt;25&lt;/avgFeelslikeC&gt;&#10;    &lt;uvi&gt;7&lt;/uvi&gt;&#10;    &lt;windDirMax80m&gt;NW&lt;/windDirMax80m&gt;&#10;    &lt;maxDewpointC&gt;15&lt;/maxDewpointC&gt;&#10;    &lt;pressureIN&gt;29.94&lt;/pressureIN&gt;&#10;    &lt;avgFeelslikeF&gt;76&lt;/avgFeelslikeF&gt;&#10;    &lt;iceaccum&gt;null&lt;/iceaccum&gt;&#10;    &lt;isDay&gt;true&lt;/isDay&gt;&#10;    &lt;minTempC&gt;19&lt;/minTempC&gt;&#10;    &lt;minDewpointF&gt;52&lt;/minDewpointF&gt;&#10;    &lt;windSpeedKTS&gt;1&lt;/windSpeedKTS&gt;&#10;    &lt;sunset&gt;1665243161&lt;/sunset&gt;&#10;    &lt;solradWM2&gt;4785&lt;/solradWM2&gt;&#10;    &lt;windSpeedKPH&gt;2&lt;/windSpeedKPH&gt;&#10;    &lt;windGustMPH&gt;20&lt;/windGustMPH&gt;&#10;    &lt;maxHumidity&gt;76&lt;/maxHumidity&gt;&#10;    &lt;windSpeedMPH&gt;1&lt;/windSpeedMPH&gt;&#10;    &lt;windGustKPH&gt;32&lt;/windGustKPH&gt;&#10;    &lt;windDirMaxDEG&gt;301&lt;/windDirMaxDEG&gt;&#10;    &lt;tempC&gt;null&lt;/tempC&gt;&#10;  &lt;/periods&gt;&#10;  &lt;periods&gt;&#10;    &lt;dateTimeISO&gt;2022-10-09T07:00:00+02:00&lt;/dateTimeISO&gt;&#10;    &lt;windDirMin80m&gt;NW&lt;/windDirMin80m&gt;&#10;    &lt;windDirMin80mDEG&gt;316&lt;/windDirMin80mDEG&gt;&#10;    &lt;feelslikeC&gt;20&lt;/feelslikeC&gt;&#10;    &lt;visibilityMI&gt;15&lt;/visibilityMI&gt;&#10;    &lt;windSpeedMaxMPH&gt;9&lt;/windSpeedMaxMPH&gt;&#10;    &lt;windDirDEG&gt;356&lt;/windDirDEG&gt;&#10;    &lt;windDir&gt;N&lt;/windDir&gt;&#10;    &lt;sunriseISO&gt;2022-10-09T05:53:03+02:00&lt;/sunriseISO&gt;&#10;    &lt;iceaccumMM&gt;null&lt;/iceaccumMM&gt;&#10;    &lt;windSpeedMaxKTS&gt;8&lt;/windSpeedMaxKTS&gt;&#10;    &lt;iceaccumIN&gt;null&lt;/iceaccumIN&gt;&#10;    &lt;minTempF&gt;67&lt;/minTempF&gt;&#10;    &lt;snowIN&gt;0&lt;/snowIN&gt;&#10;    &lt;weather&gt;Partly Cloudy&lt;/weather&gt;&#10;    &lt;sunsetISO&gt;2022-10-09T17:31:31+02:00&lt;/sunsetISO&gt;&#10;    &lt;maxFeelslikeC&gt;30&lt;/maxFeelslikeC&gt;&#10;    &lt;humidity&gt;86&lt;/humidity&gt;&#10;    &lt;windDir80m&gt;NW&lt;/windDir80m&gt;&#10;    &lt;maxFeelslikeF&gt;86&lt;/maxFeelslikeF&gt;&#10;    &lt;precipMM&gt;0&lt;/precipMM&gt;&#10;    &lt;sky&gt;47&lt;/sky&gt;&#10;    &lt;windGust80mMPH&gt;23&lt;/windGust80mMPH&gt;&#10;    &lt;windSpeedMax80mMPH&gt;23&lt;/windSpeedMax80mMPH&gt;&#10;    &lt;weatherPrimary&gt;Partly Cloudy&lt;/weatherPrimary&gt;&#10;    &lt;windGust80mKPH&gt;36&lt;/windGust80mKPH&gt;&#10;    &lt;avgDewpointF&gt;57&lt;/avgDewpointF&gt;&#10;    &lt;windSpeedMax80mKPH&gt;36&lt;/windSpeedMax80mKPH&gt;&#10;    &lt;windGust80mKTS&gt;20&lt;/windGust80mKTS&gt;&#10;    &lt;avgDewpointC&gt;14&lt;/avgDewpointC&gt;&#10;    &lt;precipIN&gt;0&lt;/precipIN&gt;&#10;    &lt;windSpeedMax80mKTS&gt;20&lt;/windSpeedMax80mKTS&gt;&#10;    &lt;windDirMinDEG&gt;356&lt;/windDirMinDEG&gt;&#10;    &lt;windSpeedMaxKPH&gt;14&lt;/windSpeedMaxKPH&gt;&#10;    &lt;windSpeedMin80mKTS&gt;5&lt;/windSpeedMin80mKTS&gt;&#10;    &lt;feelslikeF&gt;67&lt;/feelslikeF&gt;&#10;    &lt;validTime&gt;2022-10-09T07:00:00+02:00&lt;/validTime&gt;&#10;    &lt;windSpeedMin80mMPH&gt;6&lt;/windSpeedMin80mMPH&gt;&#10;    &lt;solradMaxWM2&gt;726&lt;/solradMaxWM2&gt;&#10;    &lt;avgTempC&gt;25&lt;/avgTempC&gt;&#10;    &lt;windSpeedMin80mKPH&gt;9&lt;/windSpeedMin80mKPH&gt;&#10;    &lt;weatherPrimaryCoded&gt;::SC&lt;/weatherPrimaryCoded&gt;&#10;    &lt;sunrise&gt;1665287583&lt;/sunrise&gt;&#10;    &lt;avgTempF&gt;77&lt;/avgTempF&gt;&#10;    &lt;windDirMin&gt;N&lt;/windDirMin&gt;&#10;    &lt;maxCoverage/&gt;&#10;    &lt;icon&gt;pcloudy.png&lt;/icon&gt;&#10;    &lt;minFeelslikeC&gt;20&lt;/minFeelslikeC&gt;&#10;    &lt;dewpointC&gt;17&lt;/dewpointC&gt;&#10;    &lt;cloudsCoded&gt;SC&lt;/cloudsCoded&gt;&#10;    &lt;minFeelslikeF&gt;67&lt;/minFeelslikeF&gt;&#10;    &lt;minHumidity&gt;31&lt;/minHumidity&gt;&#10;    &lt;dewpointF&gt;63&lt;/dewpointF&gt;&#10;    &lt;windSpeed80mKTS&gt;5&lt;/windSpeed80mKTS&gt;&#10;    &lt;pop&gt;0&lt;/pop&gt;&#10;    &lt;snowCM&gt;0&lt;/snowCM&gt;&#10;    &lt;windDirMax&gt;NNW&lt;/windDirMax&gt;&#10;    &lt;windSpeed80mMPH&gt;6&lt;/windSpeed80mMPH&gt;&#10;    &lt;windSpeed80mKPH&gt;9&lt;/windSpeed80mKPH&gt;&#10;    &lt;windDir80mDEG&gt;316&lt;/windDir80mDEG&gt;&#10;    &lt;maxTempC&gt;31&lt;/maxTempC&gt;&#10;    &lt;pressureMB&gt;1016&lt;/pressureMB&gt;&#10;    &lt;visibilityKM&gt;24.135&lt;/visibilityKM&gt;&#10;    &lt;timestamp&gt;1665291600&lt;/timestamp&gt;&#10;    &lt;maxTempF&gt;87&lt;/maxTempF&gt;&#10;    &lt;tempF&gt;null&lt;/tempF&gt;&#10;    &lt;minDewpointC&gt;11&lt;/minDewpointC&gt;&#10;    &lt;solradMinWM2&gt;0&lt;/solradMinWM2&gt;&#10;    &lt;windSpeedMinKTS&gt;2&lt;/windSpeedMinKTS&gt;&#10;    &lt;windDirMax80mDEG&gt;354&lt;/windDirMax80mDEG&gt;&#10;    &lt;windGustKTS&gt;19&lt;/windGustKTS&gt;&#10;    &lt;windSpeedMinKPH&gt;4&lt;/windSpeedMinKPH&gt;&#10;    &lt;maxDewpointF&gt;63&lt;/maxDewpointF&gt;&#10;    &lt;windSpeedMinMPH&gt;2&lt;/windSpeedMinMPH&gt;&#10;    &lt;avgFeelslikeC&gt;25&lt;/avgFeelslikeC&gt;&#10;    &lt;uvi&gt;7&lt;/uvi&gt;&#10;    &lt;windDirMax80m&gt;N&lt;/windDirMax80m&gt;&#10;    &lt;maxDewpointC&gt;17&lt;/maxDewpointC&gt;&#10;    &lt;pressureIN&gt;29.99&lt;/pressureIN&gt;&#10;    &lt;avgFeelslikeF&gt;77&lt;/avgFeelslikeF&gt;&#10;    &lt;iceaccum&gt;null&lt;/iceaccum&gt;&#10;    &lt;isDay&gt;true&lt;/isDay&gt;&#10;    &lt;minTempC&gt;19&lt;/minTempC&gt;&#10;    &lt;minDewpointF&gt;52&lt;/minDewpointF&gt;&#10;    &lt;windSpeedKTS&gt;2&lt;/windSpeedKTS&gt;&#10;    &lt;sunset&gt;1665329491&lt;/sunset&gt;&#10;    &lt;solradWM2&gt;4768&lt;/solradWM2&gt;&#10;    &lt;windSpeedKPH&gt;4&lt;/windSpeedKPH&gt;&#10;    &lt;windGustMPH&gt;22&lt;/windGustMPH&gt;&#10;    &lt;maxHumidity&gt;86&lt;/maxHumidity&gt;&#10;    &lt;windSpeedMPH&gt;2&lt;/windSpeedMPH&gt;&#10;    &lt;windGustKPH&gt;36&lt;/windGustKPH&gt;&#10;    &lt;windDirMaxDEG&gt;343&lt;/windDirMaxDEG&gt;&#10;    &lt;tempC&gt;null&lt;/tempC&gt;&#10;  &lt;/periods&gt;&#10;  &lt;periods&gt;&#10;    &lt;dateTimeISO&gt;2022-10-10T07:00:00+02:00&lt;/dateTimeISO&gt;&#10;    &lt;windDirMin80m&gt;E&lt;/windDirMin80m&gt;&#10;    &lt;windDirMin80mDEG&gt;91&lt;/windDirMin80mDEG&gt;&#10;    &lt;feelslikeC&gt;21&lt;/feelslikeC&gt;&#10;    &lt;visibilityMI&gt;15&lt;/visibilityMI&gt;&#10;    &lt;windSpeedMaxMPH&gt;9&lt;/windSpeedMaxMPH&gt;&#10;    &lt;windDirDEG&gt;358&lt;/windDirDEG&gt;&#10;    &lt;windDir&gt;N&lt;/windDir&gt;&#10;    &lt;sunriseISO&gt;2022-10-10T05:53:40+02:00&lt;/sunriseISO&gt;&#10;    &lt;iceaccumMM&gt;null&lt;/iceaccumMM&gt;&#10;    &lt;windSpeedMaxKTS&gt;8&lt;/windSpeedMaxKTS&gt;&#10;    &lt;iceaccumIN&gt;null&lt;/iceaccumIN&gt;&#10;    &lt;minTempF&gt;70&lt;/minTempF&gt;&#10;    &lt;snowIN&gt;0&lt;/snowIN&gt;&#10;    &lt;weather&gt;Partly Cloudy&lt;/weather&gt;&#10;    &lt;sunsetISO&gt;2022-10-10T17:30:21+02:00&lt;/sunsetISO&gt;&#10;    &lt;maxFeelslikeC&gt;30&lt;/maxFeelslikeC&gt;&#10;    &lt;humidity&gt;75&lt;/humidity&gt;&#10;    &lt;windDir80m&gt;N&lt;/windDir80m&gt;&#10;    &lt;maxFeelslikeF&gt;86&lt;/maxFeelslikeF&gt;&#10;    &lt;precipMM&gt;0&lt;/precipMM&gt;&#10;    &lt;sky&gt;64&lt;/sky&gt;&#10;    &lt;windGust80mMPH&gt;22&lt;/windGust80mMPH&gt;&#10;    &lt;windSpeedMax80mMPH&gt;22&lt;/windSpeedMax80mMPH&gt;&#10;    &lt;weatherPrimary&gt;Partly Cloudy&lt;/weatherPrimary&gt;&#10;    &lt;windGust80mKPH&gt;36&lt;/windGust80mKPH&gt;&#10;    &lt;avgDewpointF&gt;58&lt;/avgDewpointF&gt;&#10;    &lt;windSpeedMax80mKPH&gt;36&lt;/windSpeedMax80mKPH&gt;&#10;    &lt;windGust80mKTS&gt;19&lt;/windGust80mKTS&gt;&#10;    &lt;avgDewpointC&gt;14&lt;/avgDewpointC&gt;&#10;    &lt;precipIN&gt;0&lt;/precipIN&gt;&#10;    &lt;windSpeedMax80mKTS&gt;19&lt;/windSpeedMax80mKTS&gt;&#10;    &lt;windDirMinDEG&gt;358&lt;/windDirMinDEG&gt;&#10;    &lt;windSpeedMaxKPH&gt;15&lt;/windSpeedMaxKPH&gt;&#10;    &lt;windSpeedMin80mKTS&gt;7&lt;/windSpeedMin80mKTS&gt;&#10;    &lt;feelslikeF&gt;69&lt;/feelslikeF&gt;&#10;    &lt;validTime&gt;2022-10-10T07:00:00+02:00&lt;/validTime&gt;&#10;    &lt;windSpeedMin80mMPH&gt;8&lt;/windSpeedMin80mMPH&gt;&#10;    &lt;solradMaxWM2&gt;597&lt;/solradMaxWM2&gt;&#10;    &lt;avgTempC&gt;26&lt;/avgTempC&gt;&#10;    &lt;windSpeedMin80mKPH&gt;13&lt;/windSpeedMin80mKPH&gt;&#10;    &lt;weatherPrimaryCoded&gt;::SC&lt;/weatherPrimaryCoded&gt;&#10;    &lt;sunrise&gt;1665374020&lt;/sunrise&gt;&#10;    &lt;avgTempF&gt;78&lt;/avgTempF&gt;&#10;    &lt;windDirMin&gt;N&lt;/windDirMin&gt;&#10;    &lt;maxCoverage/&gt;&#10;    &lt;icon&gt;pcloudy.png&lt;/icon&gt;&#10;    &lt;minFeelslikeC&gt;21&lt;/minFeelslikeC&gt;&#10;    &lt;dewpointC&gt;16&lt;/dewpointC&gt;&#10;    &lt;cloudsCoded&gt;SC&lt;/cloudsCoded&gt;&#10;    &lt;minFeelslikeF&gt;69&lt;/minFeelslikeF&gt;&#10;    &lt;minHumidity&gt;35&lt;/minHumidity&gt;&#10;    &lt;dewpointF&gt;61&lt;/dewpointF&gt;&#10;    &lt;windSpeed80mKTS&gt;7&lt;/windSpeed80mKTS&gt;&#10;    &lt;pop&gt;0&lt;/pop&gt;&#10;    &lt;snowCM&gt;0&lt;/snowCM&gt;&#10;    &lt;windDirMax&gt;N&lt;/windDirMax&gt;&#10;    &lt;windSpeed80mMPH&gt;8&lt;/windSpeed80mMPH&gt;&#10;    &lt;windSpeed80mKPH&gt;13&lt;/windSpeed80mKPH&gt;&#10;    &lt;windDir80mDEG&gt;8&lt;/windDir80mDEG&gt;&#10;    &lt;maxTempC&gt;31&lt;/maxTempC&gt;&#10;    &lt;pressureMB&gt;1017&lt;/pressureMB&gt;&#10;    &lt;visibilityKM&gt;24.135&lt;/visibilityKM&gt;&#10;    &lt;timestamp&gt;1665378000&lt;/timestamp&gt;&#10;    &lt;maxTempF&gt;87&lt;/maxTempF&gt;&#10;    &lt;tempF&gt;null&lt;/tempF&gt;&#10;    &lt;minDewpointC&gt;13&lt;/minDewpointC&gt;&#10;    &lt;solradMinWM2&gt;0&lt;/solradMinWM2&gt;&#10;    &lt;windSpeedMinKTS&gt;2&lt;/windSpeedMinKTS&gt;&#10;    &lt;windDirMax80mDEG&gt;10&lt;/windDirMax80mDEG&gt;&#10;    &lt;windGustKTS&gt;16&lt;/windGustKTS&gt;&#10;    &lt;windSpeedMinKPH&gt;4&lt;/windSpeedMinKPH&gt;&#10;    &lt;maxDewpointF&gt;61&lt;/maxDewpointF&gt;&#10;    &lt;windSpeedMinMPH&gt;2&lt;/windSpeedMinMPH&gt;&#10;    &lt;avgFeelslikeC&gt;25&lt;/avgFeelslikeC&gt;&#10;    &lt;uvi&gt;6&lt;/uvi&gt;&#10;    &lt;windDirMax80m&gt;N&lt;/windDirMax80m&gt;&#10;    &lt;maxDewpointC&gt;16&lt;/maxDewpointC&gt;&#10;    &lt;pressureIN&gt;30.03&lt;/pressureIN&gt;&#10;    &lt;avgFeelslikeF&gt;78&lt;/avgFeelslikeF&gt;&#10;    &lt;iceaccum&gt;null&lt;/iceaccum&gt;&#10;    &lt;isDay&gt;true&lt;/isDay&gt;&#10;    &lt;minTempC&gt;21&lt;/minTempC&gt;&#10;    &lt;minDewpointF&gt;55&lt;/minDewpointF&gt;&#10;    &lt;windSpeedKTS&gt;2&lt;/windSpeedKTS&gt;&#10;    &lt;sunset&gt;1665415821&lt;/sunset&gt;&#10;    &lt;solradWM2&gt;4494&lt;/solradWM2&gt;&#10;    &lt;windSpeedKPH&gt;4&lt;/windSpeedKPH&gt;&#10;    &lt;windGustMPH&gt;19&lt;/windGustMPH&gt;&#10;    &lt;maxHumidity&gt;75&lt;/maxHumidity&gt;&#10;    &lt;windSpeedMPH&gt;2&lt;/windSpeedMPH&gt;&#10;    &lt;windGustKPH&gt;30&lt;/windGustKPH&gt;&#10;    &lt;windDirMaxDEG&gt;10&lt;/windDirMaxDEG&gt;&#10;    &lt;tempC&gt;null&lt;/tempC&gt;&#10;  &lt;/periods&gt;&#10;  &lt;periods&gt;&#10;    &lt;dateTimeISO&gt;2022-10-11T07:00:00+02:00&lt;/dateTimeISO&gt;&#10;    &lt;windDirMin80m&gt;NNE&lt;/windDirMin80m&gt;&#10;    &lt;windDirMin80mDEG&gt;13&lt;/windDirMin80mDEG&gt;&#10;    &lt;feelslikeC&gt;22&lt;/feelslikeC&gt;&#10;    &lt;visibilityMI&gt;15&lt;/visibilityMI&gt;&#10;    &lt;windSpeedMaxMPH&gt;18&lt;/windSpeedMaxMPH&gt;&#10;    &lt;windDirDEG&gt;13&lt;/windDirDEG&gt;&#10;    &lt;windDir&gt;NNE&lt;/windDir&gt;&#10;    &lt;sunriseISO&gt;2022-10-11T05:54:18+02:00&lt;/sunriseISO&gt;&#10;    &lt;iceaccumMM&gt;null&lt;/iceaccumMM&gt;&#10;    &lt;windSpeedMaxKTS&gt;15&lt;/windSpeedMaxKTS&gt;&#10;    &lt;iceaccumIN&gt;null&lt;/iceaccumIN&gt;&#10;    &lt;minTempF&gt;70&lt;/minTempF&gt;&#10;    &lt;snowIN&gt;0&lt;/snowIN&gt;&#10;    &lt;weather&gt;Sunny&lt;/weather&gt;&#10;    &lt;sunsetISO&gt;2022-10-11T17:29:13+02:00&lt;/sunsetISO&gt;&#10;    &lt;maxFeelslikeC&gt;31&lt;/maxFeelslikeC&gt;&#10;    &lt;humidity&gt;71&lt;/humidity&gt;&#10;    &lt;windDir80m&gt;NNE&lt;/windDir80m&gt;&#10;    &lt;maxFeelslikeF&gt;87&lt;/maxFeelslikeF&gt;&#10;    &lt;precipMM&gt;0&lt;/precipMM&gt;&#10;    &lt;sky&gt;0&lt;/sky&gt;&#10;    &lt;windGust80mMPH&gt;19&lt;/windGust80mMPH&gt;&#10;    &lt;windSpeedMax80mMPH&gt;19&lt;/windSpeedMax80mMPH&gt;&#10;    &lt;weatherPrimary&gt;Sunny&lt;/weatherPrimary&gt;&#10;    &lt;windGust80mKPH&gt;31&lt;/windGust80mKPH&gt;&#10;    &lt;avgDewpointF&gt;55&lt;/avgDewpointF&gt;&#10;    &lt;windSpeedMax80mKPH&gt;31&lt;/windSpeedMax80mKPH&gt;&#10;    &lt;windGust80mKTS&gt;17&lt;/windGust80mKTS&gt;&#10;    &lt;avgDewpointC&gt;13&lt;/avgDewpointC&gt;&#10;    &lt;precipIN&gt;0&lt;/precipIN&gt;&#10;    &lt;windSpeedMax80mKTS&gt;17&lt;/windSpeedMax80mKTS&gt;&#10;    &lt;windDirMinDEG&gt;14&lt;/windDirMinDEG&gt;&#10;    &lt;windSpeedMaxKPH&gt;28&lt;/windSpeedMaxKPH&gt;&#10;    &lt;windSpeedMin80mKTS&gt;9&lt;/windSpeedMin80mKTS&gt;&#10;    &lt;feelslikeF&gt;72&lt;/feelslikeF&gt;&#10;    &lt;validTime&gt;2022-10-11T07:00:00+02:00&lt;/validTime&gt;&#10;    &lt;windSpeedMin80mMPH&gt;11&lt;/windSpeedMin80mMPH&gt;&#10;    &lt;solradMaxWM2&gt;758&lt;/solradMaxWM2&gt;&#10;    &lt;avgTempC&gt;26&lt;/avgTempC&gt;&#10;    &lt;windSpeedMin80mKPH&gt;18&lt;/windSpeedMin80mKPH&gt;&#10;    &lt;weatherPrimaryCoded&gt;::CL&lt;/weatherPrimaryCoded&gt;&#10;    &lt;sunrise&gt;1665460458&lt;/sunrise&gt;&#10;    &lt;avgTempF&gt;78&lt;/avgTempF&gt;&#10;    &lt;windDirMin&gt;NNE&lt;/windDirMin&gt;&#10;    &lt;maxCoverage/&gt;&#10;    &lt;icon&gt;sunny.png&lt;/icon&gt;&#10;    &lt;minFeelslikeC&gt;22&lt;/minFeelslikeC&gt;&#10;    &lt;dewpointC&gt;17&lt;/dewpointC&gt;&#10;    &lt;cloudsCoded&gt;CL&lt;/cloudsCoded&gt;&#10;    &lt;minFeelslikeF&gt;72&lt;/minFeelslikeF&gt;&#10;    &lt;minHumidity&gt;30&lt;/minHumidity&gt;&#10;    &lt;dewpointF&gt;62&lt;/dewpointF&gt;&#10;    &lt;windSpeed80mKTS&gt;10&lt;/windSpeed80mKTS&gt;&#10;    &lt;pop&gt;0&lt;/pop&gt;&#10;    &lt;snowCM&gt;0&lt;/snowCM&gt;&#10;    &lt;windDirMax&gt;NNE&lt;/windDirMax&gt;&#10;    &lt;windSpeed80mMPH&gt;12&lt;/windSpeed80mMPH&gt;&#10;    &lt;windSpeed80mKPH&gt;19&lt;/windSpeed80mKPH&gt;&#10;    &lt;windDir80mDEG&gt;16&lt;/windDir80mDEG&gt;&#10;    &lt;maxTempC&gt;31&lt;/maxTempC&gt;&#10;    &lt;pressureMB&gt;1015&lt;/pressureMB&gt;&#10;    &lt;visibilityKM&gt;24.135&lt;/visibilityKM&gt;&#10;    &lt;timestamp&gt;1665464400&lt;/timestamp&gt;&#10;    &lt;maxTempF&gt;87&lt;/maxTempF&gt;&#10;    &lt;tempF&gt;null&lt;/tempF&gt;&#10;    &lt;minDewpointC&gt;11&lt;/minDewpointC&gt;&#10;    &lt;solradMinWM2&gt;0&lt;/solradMinWM2&gt;&#10;    &lt;windSpeedMinKTS&gt;7&lt;/windSpeedMinKTS&gt;&#10;    &lt;windDirMax80mDEG&gt;28&lt;/windDirMax80mDEG&gt;&#10;    &lt;windGustKTS&gt;15&lt;/windGustKTS&gt;&#10;    &lt;windSpeedMinKPH&gt;14&lt;/windSpeedMinKPH&gt;&#10;    &lt;maxDewpointF&gt;62&lt;/maxDewpointF&gt;&#10;    &lt;windSpeedMinMPH&gt;8&lt;/windSpeedMinMPH&gt;&#10;    &lt;avgFeelslikeC&gt;26&lt;/avgFeelslikeC&gt;&#10;    &lt;uvi&gt;null&lt;/uvi&gt;&#10;    &lt;windDirMax80m&gt;NNE&lt;/windDirMax80m&gt;&#10;    &lt;maxDewpointC&gt;17&lt;/maxDewpointC&gt;&#10;    &lt;pressureIN&gt;29.98&lt;/pressureIN&gt;&#10;    &lt;avgFeelslikeF&gt;79&lt;/avgFeelslikeF&gt;&#10;    &lt;iceaccum&gt;null&lt;/iceaccum&gt;&#10;    &lt;isDay&gt;true&lt;/isDay&gt;&#10;    &lt;minTempC&gt;21&lt;/minTempC&gt;&#10;    &lt;minDewpointF&gt;51&lt;/minDewpointF&gt;&#10;    &lt;windSpeedKTS&gt;8&lt;/windSpeedKTS&gt;&#10;    &lt;sunset&gt;1665502153&lt;/sunset&gt;&#10;    &lt;solradWM2&gt;5450&lt;/solradWM2&gt;&#10;    &lt;windSpeedKPH&gt;15&lt;/windSpeedKPH&gt;&#10;    &lt;windGustMPH&gt;17&lt;/windGustMPH&gt;&#10;    &lt;maxHumidity&gt;71&lt;/maxHumidity&gt;&#10;    &lt;windSpeedMPH&gt;9&lt;/windSpeedMPH&gt;&#10;    &lt;windGustKPH&gt;28&lt;/windGustKPH&gt;&#10;    &lt;windDirMaxDEG&gt;28&lt;/windDirMaxDEG&gt;&#10;    &lt;tempC&gt;null&lt;/tempC&gt;&#10;  &lt;/periods&gt;&#10;  &lt;periods&gt;&#10;    &lt;dateTimeISO&gt;2022-10-12T07:00:00+02:00&lt;/dateTimeISO&gt;&#10;    &lt;windDirMin80m&gt;NNE&lt;/windDirMin80m&gt;&#10;    &lt;windDirMin80mDEG&gt;15&lt;/windDirMin80mDEG&gt;&#10;    &lt;feelslikeC&gt;22&lt;/feelslikeC&gt;&#10;    &lt;visibilityMI&gt;15&lt;/visibilityMI&gt;&#10;    &lt;windSpeedMaxMPH&gt;16&lt;/windSpeedMaxMPH&gt;&#10;    &lt;windDirDEG&gt;12&lt;/windDirDEG&gt;&#10;    &lt;windDir&gt;NNE&lt;/windDir&gt;&#10;    &lt;sunriseISO&gt;2022-10-12T05:54:55+02:00&lt;/sunriseISO&gt;&#10;    &lt;iceaccumMM&gt;null&lt;/iceaccumMM&gt;&#10;    &lt;windSpeedMaxKTS&gt;14&lt;/windSpeedMaxKTS&gt;&#10;    &lt;iceaccumIN&gt;null&lt;/iceaccumIN&gt;&#10;    &lt;minTempF&gt;69&lt;/minTempF&gt;&#10;    &lt;snowIN&gt;0&lt;/snowIN&gt;&#10;    &lt;weather&gt;Mostly Sunny&lt;/weather&gt;&#10;    &lt;sunsetISO&gt;2022-10-12T17:28:04+02:00&lt;/sunsetISO&gt;&#10;    &lt;maxFeelslikeC&gt;31&lt;/maxFeelslikeC&gt;&#10;    &lt;humidity&gt;68&lt;/humidity&gt;&#10;    &lt;windDir80m&gt;NNE&lt;/windDir80m&gt;&#10;    &lt;maxFeelslikeF&gt;88&lt;/maxFeelslikeF&gt;&#10;    &lt;precipMM&gt;0&lt;/precipMM&gt;&#10;    &lt;sky&gt;27&lt;/sky&gt;&#10;    &lt;windGust80mMPH&gt;21&lt;/windGust80mMPH&gt;&#10;    &lt;windSpeedMax80mMPH&gt;21&lt;/windSpeedMax80mMPH&gt;&#10;    &lt;weatherPrimary&gt;Mostly Sunny&lt;/weatherPrimary&gt;&#10;    &lt;windGust80mKPH&gt;33&lt;/windGust80mKPH&gt;&#10;    &lt;avgDewpointF&gt;55&lt;/avgDewpointF&gt;&#10;    &lt;windSpeedMax80mKPH&gt;33&lt;/windSpeedMax80mKPH&gt;&#10;    &lt;windGust80mKTS&gt;18&lt;/windGust80mKTS&gt;&#10;    &lt;avgDewpointC&gt;13&lt;/avgDewpointC&gt;&#10;    &lt;precipIN&gt;0&lt;/precipIN&gt;&#10;    &lt;windSpeedMax80mKTS&gt;18&lt;/windSpeedMax80mKTS&gt;&#10;    &lt;windDirMinDEG&gt;12&lt;/windDirMinDEG&gt;&#10;    &lt;windSpeedMaxKPH&gt;26&lt;/windSpeedMaxKPH&gt;&#10;    &lt;windSpeedMin80mKTS&gt;10&lt;/windSpeedMin80mKTS&gt;&#10;    &lt;feelslikeF&gt;72&lt;/feelslikeF&gt;&#10;    &lt;validTime&gt;2022-10-12T07:00:00+02:00&lt;/validTime&gt;&#10;    &lt;windSpeedMin80mMPH&gt;11&lt;/windSpeedMin80mMPH&gt;&#10;    &lt;solradMaxWM2&gt;743&lt;/solradMaxWM2&gt;&#10;    &lt;avgTempC&gt;26&lt;/avgTempC&gt;&#10;    &lt;windSpeedMin80mKPH&gt;18&lt;/windSpeedMin80mKPH&gt;&#10;    &lt;weatherPrimaryCoded&gt;::FW&lt;/weatherPrimaryCoded&gt;&#10;    &lt;sunrise&gt;1665546895&lt;/sunrise&gt;&#10;    &lt;avgTempF&gt;79&lt;/avgTempF&gt;&#10;    &lt;windDirMin&gt;NNE&lt;/windDirMin&gt;&#10;    &lt;maxCoverage/&gt;&#10;    &lt;icon&gt;fair.png&lt;/icon&gt;&#10;    &lt;minFeelslikeC&gt;22&lt;/minFeelslikeC&gt;&#10;    &lt;dewpointC&gt;16&lt;/dewpointC&gt;&#10;    &lt;cloudsCoded&gt;FW&lt;/cloudsCoded&gt;&#10;    &lt;minFeelslikeF&gt;72&lt;/minFeelslikeF&gt;&#10;    &lt;minHumidity&gt;29&lt;/minHumidity&gt;&#10;    &lt;dewpointF&gt;60&lt;/dewpointF&gt;&#10;    &lt;windSpeed80mKTS&gt;10&lt;/windSpeed80mKTS&gt;&#10;    &lt;pop&gt;0&lt;/pop&gt;&#10;    &lt;snowCM&gt;0&lt;/snowCM&gt;&#10;    &lt;windDirMax&gt;E&lt;/windDirMax&gt;&#10;    &lt;windSpeed80mMPH&gt;12&lt;/windSpeed80mMPH&gt;&#10;    &lt;windSpeed80mKPH&gt;19&lt;/windSpeed80mKPH&gt;&#10;    &lt;windDir80mDEG&gt;15&lt;/windDir80mDEG&gt;&#10;    &lt;maxTempC&gt;31&lt;/maxTempC&gt;&#10;    &lt;pressureMB&gt;1014&lt;/pressureMB&gt;&#10;    &lt;visibilityKM&gt;24.135&lt;/visibilityKM&gt;&#10;    &lt;timestamp&gt;1665550800&lt;/timestamp&gt;&#10;    &lt;maxTempF&gt;88&lt;/maxTempF&gt;&#10;    &lt;tempF&gt;null&lt;/tempF&gt;&#10;    &lt;minDewpointC&gt;11&lt;/minDewpointC&gt;&#10;    &lt;solradMinWM2&gt;0&lt;/solradMinWM2&gt;&#10;    &lt;windSpeedMinKTS&gt;7&lt;/windSpeedMinKTS&gt;&#10;    &lt;windDirMax80mDEG&gt;96&lt;/windDirMax80mDEG&gt;&#10;    &lt;windGustKTS&gt;15&lt;/windGustKTS&gt;&#10;    &lt;windSpeedMinKPH&gt;13&lt;/windSpeedMinKPH&gt;&#10;    &lt;maxDewpointF&gt;60&lt;/maxDewpointF&gt;&#10;    &lt;windSpeedMinMPH&gt;8&lt;/windSpeedMinMPH&gt;&#10;    &lt;avgFeelslikeC&gt;26&lt;/avgFeelslikeC&gt;&#10;    &lt;uvi&gt;null&lt;/uvi&gt;&#10;    &lt;windDirMax80m&gt;E&lt;/windDirMax80m&gt;&#10;    &lt;maxDewpointC&gt;16&lt;/maxDewpointC&gt;&#10;    &lt;pressureIN&gt;29.95&lt;/pressureIN&gt;&#10;    &lt;avgFeelslikeF&gt;80&lt;/avgFeelslikeF&gt;&#10;    &lt;iceaccum&gt;null&lt;/iceaccum&gt;&#10;    &lt;isDay&gt;true&lt;/isDay&gt;&#10;    &lt;minTempC&gt;21&lt;/minTempC&gt;&#10;    &lt;minDewpointF&gt;51&lt;/minDewpointF&gt;&#10;    &lt;windSpeedKTS&gt;8&lt;/windSpeedKTS&gt;&#10;    &lt;sunset&gt;1665588484&lt;/sunset&gt;&#10;    &lt;solradWM2&gt;4740&lt;/solradWM2&gt;&#10;    &lt;windSpeedKPH&gt;15&lt;/windSpeedKPH&gt;&#10;    &lt;windGustMPH&gt;17&lt;/windGustMPH&gt;&#10;    &lt;maxHumidity&gt;68&lt;/maxHumidity&gt;&#10;    &lt;windSpeedMPH&gt;9&lt;/windSpeedMPH&gt;&#10;    &lt;windGustKPH&gt;28&lt;/windGustKPH&gt;&#10;    &lt;windDirMaxDEG&gt;96&lt;/windDirMaxDEG&gt;&#10;    &lt;tempC&gt;null&lt;/tempC&gt;&#10;  &lt;/periods&gt;&#10;  &lt;interval&gt;day&lt;/interval&gt;&#10;  &lt;place&gt;&#10;    &lt;country&gt;eg&lt;/country&gt;&#10;    &lt;name&gt;cairo&lt;/name&gt;&#10;    &lt;state&gt;qh&lt;/state&gt;&#10;  &lt;/place&gt;&#10;&lt;/response]&gt;&#10;&lt;error&gt;null&lt;/error...&gt; but was:&lt;&lt;[response&gt;&#10;  &lt;profile&gt;&#10;    &lt;elevFT&gt;75&lt;/elevFT&gt;&#10;    &lt;tz&gt;Africa/Cairo&lt;/tz&gt;&#10;    &lt;elevM&gt;23&lt;/elevM&gt;&#10;  &lt;/profile&gt;&#10;  &lt;loc&gt;&#10;    &lt;lat&gt;30.063&lt;/lat&gt;&#10;    &lt;long&gt;31.25&lt;/long&gt;&#10;  &lt;/loc&gt;&#10;  &lt;place&gt;&#10;    &lt;country&gt;eg&lt;/country&gt;&#10;    &lt;name&gt;cairo&lt;/name&gt;&#10;    &lt;state&gt;qh&lt;/state&gt;&#10;  &lt;/place&gt;&#10;  &lt;periods&gt;&#10;    &lt;windDirMinDEG&gt;353&lt;/windDirMinDEG&gt;&#10;    &lt;windSpeedMinKPH&gt;2&lt;/windSpeedMinKPH&gt;&#10;    &lt;avgDewpointF&gt;58&lt;/avgDewpointF&gt;&#10;    &lt;feelslikeC&gt;21&lt;/feelslikeC&gt;&#10;    &lt;weather&gt;Mostly Sunny&lt;/weather&gt;&#10;    &lt;icon&gt;fair.png&lt;/icon&gt;&#10;    &lt;maxCoverage/&gt;&#10;    &lt;maxTempC&gt;32&lt;/maxTempC&gt;&#10;    &lt;windSpeedMin80mMPH&gt;10&lt;/windSpeedMin80mMPH&gt;&#10;    &lt;windDirMax&gt;NNW&lt;/windDirMax&gt;&#10;    &lt;sunrise&gt;1665028274&lt;/sunrise&gt;&#10;    &lt;precipIN&gt;0&lt;/precipIN&gt;&#10;    &lt;minFeelslikeC&gt;21&lt;/minFeelslikeC&gt;&#10;    &lt;validTime&gt;2022-10-06T07:00:00+02:00&lt;/validTime&gt;&#10;    &lt;windDir&gt;N&lt;/windDir&gt;&#10;    &lt;avgDewpointC&gt;14&lt;/avgDewpointC&gt;&#10;    &lt;windDir80mDEG&gt;11&lt;/windDir80mDEG&gt;&#10;    &lt;windSpeedMax80mKPH&gt;41&lt;/windSpeedMax80mKPH&gt;&#10;    &lt;iceaccum&gt;null&lt;/iceaccum&gt;&#10;    &lt;maxFeelslikeC&gt;32&lt;/maxFeelslikeC&gt;&#10;    &lt;pressureMB&gt;1015&lt;/pressureMB&gt;&#10;    &lt;maxHumidity&gt;77&lt;/maxHumidity&gt;&#10;    &lt;windGust80mKTS&gt;22&lt;/windGust80mKTS&gt;&#10;    &lt;iceaccumMM&gt;null&lt;/iceaccumMM&gt;&#10;    &lt;cloudsCoded&gt;FW&lt;/cloudsCoded&gt;&#10;    &lt;windSpeedMinKTS&gt;1&lt;/windSpeedMinKTS&gt;&#10;    &lt;visibilityMI&gt;15&lt;/visibilityMI&gt;&#10;    &lt;minTempF&gt;66&lt;/minTempF&gt;&#10;    &lt;maxDewpointF&gt;63&lt;/maxDewpointF&gt;&#10;    &lt;sky&gt;22&lt;/sky&gt;&#10;    &lt;avgTempC&gt;25&lt;/avgTempC&gt;&#10;    &lt;avgFeelslikeC&gt;26&lt;/avgFeelslikeC&gt;&#10;    &lt;sunset&gt;1665070502&lt;/sunset&gt;&#10;    &lt;maxFeelslikeF&gt;89&lt;/maxFeelslikeF&gt;&#10;    &lt;precipMM&gt;0&lt;/precipMM&gt;&#10;    &lt;windSpeedMaxMPH&gt;10&lt;/windSpeedMaxMPH&gt;&#10;    &lt;solradMaxWM2&gt;778&lt;/solradMaxWM2&gt;&#10;    &lt;uvi&gt;6&lt;/uvi&gt;&#10;    &lt;pressureIN&gt;29.97&lt;/pressureIN&gt;&#10;    &lt;windSpeedMPH&gt;6&lt;/windSpeedMPH&gt;&#10;    &lt;iceaccumIN&gt;null&lt;/iceaccumIN&gt;&#10;    &lt;windSpeed80mMPH&gt;13&lt;/windSpeed80mMPH&gt;&#10;    &lt;windDir80m&gt;N&lt;/windDir80m&gt;&#10;    &lt;snowIN&gt;0&lt;/snowIN&gt;&#10;    &lt;windGustKPH&gt;40&lt;/windGustKPH&gt;&#10;    &lt;minDewpointF&gt;52&lt;/minDewpointF&gt;&#10;    &lt;windSpeedMax80mKTS&gt;22&lt;/windSpeedMax80mKTS&gt;&#10;    &lt;windDirDEG&gt;353&lt;/windDirDEG&gt;&#10;    &lt;minTempC&gt;19&lt;/minTempC&gt;&#10;    &lt;isDay&gt;true&lt;/isDay&gt;&#10;    &lt;maxTempF&gt;90&lt;/maxTempF&gt;&#10;    &lt;windSpeedMaxKTS&gt;9&lt;/windSpeedMaxKTS&gt;&#10;    &lt;windGust80mMPH&gt;25&lt;/windGust80mMPH&gt;&#10;    &lt;feelslikeF&gt;70&lt;/feelslikeF&gt;&#10;    &lt;windSpeedMax80mMPH&gt;25&lt;/windSpeedMax80mMPH&gt;&#10;    &lt;sunsetISO&gt;2022-10-06T17:35:02+02:00&lt;/sunsetISO&gt;&#10;    &lt;windSpeedMin80mKTS&gt;8&lt;/windSpeedMin80mKTS&gt;&#10;    &lt;windSpeedKPH&gt;9&lt;/windSpeedKPH&gt;&#10;    &lt;dewpointF&gt;63&lt;/dewpointF&gt;&#10;    &lt;solradMinWM2&gt;0&lt;/solradMinWM2&gt;&#10;    &lt;pop&gt;0&lt;/pop&gt;&#10;    &lt;visibilityKM&gt;24.135&lt;/visibilityKM&gt;&#10;    &lt;windSpeedMaxKPH&gt;16&lt;/windSpeedMaxKPH&gt;&#10;    &lt;windSpeed80mKPH&gt;22&lt;/windSpeed80mKPH&gt;&#10;    &lt;windGust80mKPH&gt;41&lt;/windGust80mKPH&gt;&#10;    &lt;minHumidity&gt;29&lt;/minHumidity&gt;&#10;    &lt;windDirMin80m&gt;E&lt;/windDirMin80m&gt;&#10;    &lt;minFeelslikeF&gt;70&lt;/minFeelslikeF&gt;&#10;    &lt;humidity&gt;77&lt;/humidity&gt;&#10;    &lt;tempF&gt;null&lt;/tempF&gt;&#10;    &lt;weatherPrimaryCoded&gt;::FW&lt;/weatherPrimaryCoded&gt;&#10;    &lt;minDewpointC&gt;11&lt;/minDewpointC&gt;&#10;    &lt;snowCM&gt;0&lt;/snowCM&gt;&#10;    &lt;windGustMPH&gt;25&lt;/windGustMPH&gt;&#10;    &lt;windSpeedKTS&gt;5&lt;/windSpeedKTS&gt;&#10;    &lt;windDirMax80mDEG&gt;343&lt;/windDirMax80mDEG&gt;&#10;    &lt;windSpeed80mKTS&gt;12&lt;/windSpeed80mKTS&gt;&#10;    &lt;windDirMin80mDEG&gt;95&lt;/windDirMin80mDEG&gt;&#10;    &lt;avgFeelslikeF&gt;80&lt;/avgFeelslikeF&gt;&#10;    &lt;timestamp&gt;1665032400&lt;/timestamp&gt;&#10;    &lt;maxDewpointC&gt;17&lt;/maxDewpointC&gt;&#10;    &lt;windDirMax80m&gt;NNW&lt;/windDirMax80m&gt;&#10;    &lt;windDirMin&gt;N&lt;/windDirMin&gt;&#10;    &lt;sunriseISO&gt;2022-10-06T05:51:14+02:00&lt;/sunriseISO&gt;&#10;    &lt;dewpointC&gt;17&lt;/dewpointC&gt;&#10;    &lt;windDirMaxDEG&gt;342&lt;/windDirMaxDEG&gt;&#10;    &lt;windSpeedMinMPH&gt;1&lt;/windSpeedMinMPH&gt;&#10;    &lt;tempC&gt;null&lt;/tempC&gt;&#10;    &lt;windGustKTS&gt;21&lt;/windGustKTS&gt;&#10;    &lt;avgTempF&gt;78&lt;/avgTempF&gt;&#10;    &lt;weatherPrimary&gt;Mostly Sunny&lt;/weatherPrimary&gt;&#10;    &lt;solradWM2&gt;5608&lt;/solradWM2&gt;&#10;    &lt;windSpeedMin80mKPH&gt;15&lt;/windSpeedMin80mKPH&gt;&#10;    &lt;dateTimeISO&gt;2022-10-06T07:00:00+02:00&lt;/dateTimeISO&gt;&#10;  &lt;/periods&gt;&#10;  &lt;periods&gt;&#10;    &lt;dateTimeISO&gt;2022-10-07T07:00:00+02:00&lt;/dateTimeISO&gt;&#10;    &lt;humidity&gt;77&lt;/humidity&gt;&#10;    &lt;windGust80mKTS&gt;20&lt;/windGust80mKTS&gt;&#10;    &lt;snowIN&gt;0&lt;/snowIN&gt;&#10;    &lt;windDirMin80m&gt;NNW&lt;/windDirMin80m&gt;&#10;    &lt;tempF&gt;null&lt;/tempF&gt;&#10;    &lt;windSpeed80mKPH&gt;10&lt;/windSpeed80mKPH&gt;&#10;    &lt;uvi&gt;6&lt;/uvi&gt;&#10;    &lt;maxFeelslikeF&gt;85&lt;/maxFeelslikeF&gt;&#10;    &lt;visibilityMI&gt;15&lt;/visibilityMI&gt;&#10;    &lt;windGustKTS&gt;16&lt;/windGustKTS&gt;&#10;    &lt;windSpeedKPH&gt;2&lt;/windSpeedKPH&gt;&#10;    &lt;timestamp&gt;1665118800&lt;/timestamp&gt;&#10;    &lt;iceaccumIN&gt;null&lt;/iceaccumIN&gt;&#10;    &lt;windGust80mMPH&gt;23&lt;/windGust80mMPH&gt;&#10;    &lt;tempC&gt;null&lt;/tempC&gt;&#10;    &lt;pressureMB&gt;1014&lt;/pressureMB&gt;&#10;    &lt;pressureIN&gt;29.95&lt;/pressureIN&gt;&#10;    &lt;minFeelslikeC&gt;19&lt;/minFeelslikeC&gt;&#10;    &lt;windSpeedMin80mKPH&gt;10&lt;/windSpeedMin80mKPH&gt;&#10;    &lt;maxTempC&gt;30&lt;/maxTempC&gt;&#10;    &lt;windDirMax80mDEG&gt;316&lt;/windDirMax80mDEG&gt;&#10;    &lt;windSpeedMaxMPH&gt;8&lt;/windSpeedMaxMPH&gt;&#10;    &lt;windGustKPH&gt;29&lt;/windGustKPH&gt;&#10;    &lt;precipIN&gt;0&lt;/precipIN&gt;&#10;    &lt;windSpeedMin80mMPH&gt;6&lt;/windSpeedMin80mMPH&gt;&#10;    &lt;feelslikeF&gt;67&lt;/feelslikeF&gt;&#10;    &lt;windDirDEG&gt;325&lt;/windDirDEG&gt;&#10;    &lt;avgFeelslikeF&gt;76&lt;/avgFeelslikeF&gt;&#10;    &lt;windSpeedMinKPH&gt;2&lt;/windSpeedMinKPH&gt;&#10;    &lt;windSpeed80mMPH&gt;6&lt;/windSpeed80mMPH&gt;&#10;    &lt;iceaccum&gt;null&lt;/iceaccum&gt;&#10;    &lt;solradMinWM2&gt;0&lt;/solradMinWM2&gt;&#10;    &lt;windDir&gt;NW&lt;/windDir&gt;&#10;    &lt;maxCoverage/&gt;&#10;    &lt;windSpeedMax80mKPH&gt;37&lt;/windSpeedMax80mKPH&gt;&#10;    &lt;windDirMin80mDEG&gt;347&lt;/windDirMin80mDEG&gt;&#10;    &lt;snowCM&gt;0&lt;/snowCM&gt;&#10;    &lt;windDirMaxDEG&gt;298&lt;/windDirMaxDEG&gt;&#10;    &lt;precipMM&gt;0&lt;/precipMM&gt;&#10;    &lt;windSpeed80mKTS&gt;6&lt;/windSpeed80mKTS&gt;&#10;    &lt;windSpeedMinKTS&gt;1&lt;/windSpeedMinKTS&gt;&#10;    &lt;isDay&gt;true&lt;/isDay&gt;&#10;    &lt;solradMaxWM2&gt;742&lt;/solradMaxWM2&gt;&#10;    &lt;minTempF&gt;66&lt;/minTempF&gt;&#10;    &lt;icon&gt;fair.png&lt;/icon&gt;&#10;    &lt;windDirMinDEG&gt;325&lt;/windDirMinDEG&gt;&#10;    &lt;windGust80mKPH&gt;37&lt;/windGust80mKPH&gt;&#10;    &lt;maxDewpointC&gt;15&lt;/maxDewpointC&gt;&#10;    &lt;sunsetISO&gt;2022-10-07T17:33:51+02:00&lt;/sunsetISO&gt;&#10;    &lt;maxHumidity&gt;77&lt;/maxHumidity&gt;&#10;    &lt;weatherPrimaryCoded&gt;::FW&lt;/weatherPrimaryCoded&gt;&#10;    &lt;windDirMax&gt;WNW&lt;/windDirMax&gt;&#10;    &lt;minDewpointF&gt;50&lt;/minDewpointF&gt;&#10;    &lt;windSpeedMax80mKTS&gt;20&lt;/windSpeedMax80mKTS&gt;&#10;    &lt;windSpeedMin80mKTS&gt;6&lt;/windSpeedMin80mKTS&gt;&#10;    &lt;dewpointF&gt;60&lt;/dewpointF&gt;&#10;    &lt;windSpeedMinMPH&gt;1&lt;/windSpeedMinMPH&gt;&#10;    &lt;maxDewpointF&gt;60&lt;/maxDewpointF&gt;&#10;    &lt;windDirMin&gt;NW&lt;/windDirMin&gt;&#10;    &lt;windGustMPH&gt;18&lt;/windGustMPH&gt;&#10;    &lt;windSpeedMaxKPH&gt;13&lt;/windSpeedMaxKPH&gt;&#10;    &lt;sky&gt;30&lt;/sky&gt;&#10;    &lt;windSpeedMax80mMPH&gt;23&lt;/windSpeedMax80mMPH&gt;&#10;    &lt;windDirMax80m&gt;NW&lt;/windDirMax80m&gt;&#10;    &lt;windSpeedKTS&gt;1&lt;/windSpeedKTS&gt;&#10;    &lt;maxFeelslikeC&gt;29&lt;/maxFeelslikeC&gt;&#10;    &lt;validTime&gt;2022-10-07T07:00:00+02:00&lt;/validTime&gt;&#10;    &lt;avgTempF&gt;76&lt;/avgTempF&gt;&#10;    &lt;minTempC&gt;19&lt;/minTempC&gt;&#10;    &lt;avgFeelslikeC&gt;24&lt;/avgFeelslikeC&gt;&#10;    &lt;minHumidity&gt;30&lt;/minHumidity&gt;&#10;    &lt;windDir80mDEG&gt;347&lt;/windDir80mDEG&gt;&#10;    &lt;solradWM2&gt;5486&lt;/solradWM2&gt;&#10;    &lt;sunrise&gt;1665114710&lt;/sunrise&gt;&#10;    &lt;windSpeedMPH&gt;1&lt;/windSpeedMPH&gt;&#10;    &lt;sunset&gt;1665156831&lt;/sunset&gt;&#10;    &lt;avgDewpointC&gt;12&lt;/avgDewpointC&gt;&#10;    &lt;weatherPrimary&gt;Mostly Sunny&lt;/weatherPrimary&gt;&#10;    &lt;weather&gt;Mostly Sunny&lt;/weather&gt;&#10;    &lt;avgDewpointF&gt;54&lt;/avgDewpointF&gt;&#10;    &lt;minDewpointC&gt;10&lt;/minDewpointC&gt;&#10;    &lt;sunriseISO&gt;2022-10-07T05:51:50+02:00&lt;/sunriseISO&gt;&#10;    &lt;cloudsCoded&gt;FW&lt;/cloudsCoded&gt;&#10;    &lt;feelslikeC&gt;19&lt;/feelslikeC&gt;&#10;    &lt;pop&gt;0&lt;/pop&gt;&#10;    &lt;windDir80m&gt;NNW&lt;/windDir80m&gt;&#10;    &lt;iceaccumMM&gt;null&lt;/iceaccumMM&gt;&#10;    &lt;windSpeedMaxKTS&gt;7&lt;/windSpeedMaxKTS&gt;&#10;    &lt;minFeelslikeF&gt;67&lt;/minFeelslikeF&gt;&#10;    &lt;maxTempF&gt;86&lt;/maxTempF&gt;&#10;    &lt;avgTempC&gt;24&lt;/avgTempC&gt;&#10;    &lt;dewpointC&gt;15&lt;/dewpointC&gt;&#10;    &lt;visibilityKM&gt;24.135&lt;/visibilityKM&gt;&#10;  &lt;/periods&gt;&#10;  &lt;periods&gt;&#10;    &lt;iceaccumIN&gt;null&lt;/iceaccumIN&gt;&#10;    &lt;humidity&gt;76&lt;/humidity&gt;&#10;    &lt;visibilityKM&gt;24.135&lt;/visibilityKM&gt;&#10;    &lt;minTempF&gt;66&lt;/minTempF&gt;&#10;    &lt;minFeelslikeF&gt;67&lt;/minFeelslikeF&gt;&#10;    &lt;minDewpointC&gt;11&lt;/minDewpointC&gt;&#10;    &lt;visibilityMI&gt;15&lt;/visibilityMI&gt;&#10;    &lt;precipIN&gt;0&lt;/precipIN&gt;&#10;    &lt;avgDewpointC&gt;13&lt;/avgDewpointC&gt;&#10;    &lt;maxHumidity&gt;76&lt;/maxHumidity&gt;&#10;    &lt;windSpeedMinKPH&gt;2&lt;/windSpeedMinKPH&gt;&#10;    &lt;iceaccumMM&gt;null&lt;/iceaccumMM&gt;&#10;    &lt;windSpeedKPH&gt;2&lt;/windSpeedKPH&gt;&#10;    &lt;minDewpointF&gt;52&lt;/minDewpointF&gt;&#10;    &lt;windDirMax80mDEG&gt;322&lt;/windDirMax80mDEG&gt;&#10;    &lt;windDir80m&gt;NW&lt;/windDir80m&gt;&#10;    &lt;sunsetISO&gt;2022-10-08T17:32:41+02:00&lt;/sunsetISO&gt;&#10;    &lt;sunriseISO&gt;2022-10-08T05:52:26+02:00&lt;/sunriseISO&gt;&#10;    &lt;windDirMinDEG&gt;21&lt;/windDirMinDEG&gt;&#10;    &lt;weather&gt;Partly Cloudy&lt;/weather&gt;&#10;    &lt;solradMinWM2&gt;0&lt;/solradMinWM2&gt;&#10;    &lt;windSpeedMaxKPH&gt;13&lt;/windSpeedMaxKPH&gt;&#10;    &lt;feelslikeC&gt;19&lt;/feelslikeC&gt;&#10;    &lt;sky&gt;47&lt;/sky&gt;&#10;    &lt;windSpeedMinMPH&gt;1&lt;/windSpeedMinMPH&gt;&#10;    &lt;windSpeedMax80mMPH&gt;19&lt;/windSpeedMax80mMPH&gt;&#10;    &lt;minFeelslikeC&gt;19&lt;/minFeelslikeC&gt;&#10;    &lt;maxDewpointF&gt;59&lt;/maxDewpointF&gt;&#10;    &lt;windGust80mMPH&gt;19&lt;/windGust80mMPH&gt;&#10;    &lt;windSpeedKTS&gt;1&lt;/windSpeedKTS&gt;&#10;    &lt;avgDewpointF&gt;56&lt;/avgDewpointF&gt;&#10;    &lt;pressureMB&gt;1014&lt;/pressureMB&gt;&#10;    &lt;windSpeed80mKPH&gt;9&lt;/windSpeed80mKPH&gt;&#10;    &lt;maxDewpointC&gt;15&lt;/maxDewpointC&gt;&#10;    &lt;isDay&gt;true&lt;/isDay&gt;&#10;    &lt;avgFeelslikeF&gt;76&lt;/avgFeelslikeF&gt;&#10;    &lt;sunrise&gt;1665201146&lt;/sunrise&gt;&#10;    &lt;windDirMin80mDEG&gt;309&lt;/windDirMin80mDEG&gt;&#10;    &lt;windSpeedMPH&gt;1&lt;/windSpeedMPH&gt;&#10;    &lt;windGust80mKPH&gt;31&lt;/windGust80mKPH&gt;&#10;    &lt;uvi&gt;7&lt;/uvi&gt;&#10;    &lt;windGustKTS&gt;17&lt;/windGustKTS&gt;&#10;    &lt;avgTempC&gt;25&lt;/avgTempC&gt;&#10;    &lt;tempF&gt;null&lt;/tempF&gt;&#10;    &lt;windDirMin80m&gt;NW&lt;/windDirMin80m&gt;&#10;    &lt;snowCM&gt;0&lt;/snowCM&gt;&#10;    &lt;windGustKPH&gt;32&lt;/windGustKPH&gt;&#10;    &lt;dateTimeISO&gt;2022-10-08T07:00:00+02:00&lt;/dateTimeISO&gt;&#10;    &lt;windSpeedMinKTS&gt;1&lt;/windSpeedMinKTS&gt;&#10;    &lt;minTempC&gt;19&lt;/minTempC&gt;&#10;    &lt;windDirMaxDEG&gt;301&lt;/windDirMaxDEG&gt;&#10;    &lt;windSpeed80mKTS&gt;5&lt;/windSpeed80mKTS&gt;&#10;    &lt;timestamp&gt;1665205200&lt;/timestamp&gt;&#10;    &lt;icon&gt;pcloudy.png&lt;/icon&gt;&#10;    &lt;windSpeedMaxMPH&gt;8&lt;/windSpeedMaxMPH&gt;&#10;    &lt;windDirMax&gt;WNW&lt;/windDirMax&gt;&#10;    &lt;pressureIN&gt;29.94&lt;/pressureIN&gt;&#10;    &lt;windSpeedMin80mMPH&gt;5&lt;/windSpeedMin80mMPH&gt;&#10;    &lt;solradMaxWM2&gt;682&lt;/solradMaxWM2&gt;&#10;    &lt;maxCoverage/&gt;&#10;    &lt;avgFeelslikeC&gt;25&lt;/avgFeelslikeC&gt;&#10;    &lt;windDirMin&gt;NNE&lt;/windDirMin&gt;&#10;    &lt;solradWM2&gt;4785&lt;/solradWM2&gt;&#10;    &lt;sunset&gt;1665243161&lt;/sunset&gt;&#10;    &lt;windGust80mKTS&gt;17&lt;/windGust80mKTS&gt;&#10;    &lt;windSpeed80mMPH&gt;5&lt;/windSpeed80mMPH&gt;&#10;    &lt;maxTempC&gt;30&lt;/maxTempC&gt;&#10;    &lt;windDir&gt;NNE&lt;/windDir&gt;&#10;    &lt;windSpeedMaxKTS&gt;7&lt;/windSpeedMaxKTS&gt;&#10;    &lt;precipMM&gt;0&lt;/precipMM&gt;&#10;    &lt;dewpointF&gt;59&lt;/dewpointF&gt;&#10;    &lt;cloudsCoded&gt;SC&lt;/cloudsCoded&gt;&#10;    &lt;validTime&gt;2022-10-08T07:00:00+02:00&lt;/validTime&gt;&#10;    &lt;windDir80mDEG&gt;309&lt;/windDir80mDEG&gt;&#10;    &lt;windGustMPH&gt;20&lt;/windGustMPH&gt;&#10;    &lt;windSpeedMax80mKTS&gt;17&lt;/windSpeedMax80mKTS&gt;&#10;    &lt;dewpointC&gt;15&lt;/dewpointC&gt;&#10;    &lt;maxFeelslikeC&gt;30&lt;/maxFeelslikeC&gt;&#10;    &lt;windDirMax80m&gt;NW&lt;/windDirMax80m&gt;&#10;    &lt;windSpeedMin80mKTS&gt;5&lt;/windSpeedMin80mKTS&gt;&#10;    &lt;avgTempF&gt;76&lt;/avgTempF&gt;&#10;    &lt;windSpeedMax80mKPH&gt;31&lt;/windSpeedMax80mKPH&gt;&#10;    &lt;weatherPrimary&gt;Partly Cloudy&lt;/weatherPrimary&gt;&#10;    &lt;windDirDEG&gt;21&lt;/windDirDEG&gt;&#10;    &lt;pop&gt;0&lt;/pop&gt;&#10;    &lt;windSpeedMin80mKPH&gt;9&lt;/windSpeedMin80mKPH&gt;&#10;    &lt;iceaccum&gt;null&lt;/iceaccum&gt;&#10;    &lt;snowIN&gt;0&lt;/snowIN&gt;&#10;    &lt;maxFeelslikeF&gt;86&lt;/maxFeelslikeF&gt;&#10;    &lt;maxTempF&gt;87&lt;/maxTempF&gt;&#10;    &lt;feelslikeF&gt;67&lt;/feelslikeF&gt;&#10;    &lt;minHumidity&gt;32&lt;/minHumidity&gt;&#10;    &lt;tempC&gt;null&lt;/tempC&gt;&#10;    &lt;weatherPrimaryCoded&gt;::SC&lt;/weatherPrimaryCoded&gt;&#10;  &lt;/periods&gt;&#10;  &lt;periods&gt;&#10;    &lt;validTime&gt;2022-10-09T07:00:00+02:00&lt;/validTime&gt;&#10;    &lt;minDewpointC&gt;11&lt;/minDewpointC&gt;&#10;    &lt;windSpeedKTS&gt;2&lt;/windSpeedKTS&gt;&#10;    &lt;pressureMB&gt;1016&lt;/pressureMB&gt;&#10;    &lt;minTempC&gt;19&lt;/minTempC&gt;&#10;    &lt;weatherPrimary&gt;Partly Cloudy&lt;/weatherPrimary&gt;&#10;    &lt;windDirMinDEG&gt;356&lt;/windDirMinDEG&gt;&#10;    &lt;sunset&gt;1665329491&lt;/sunset&gt;&#10;    &lt;pop&gt;0&lt;/pop&gt;&#10;    &lt;windSpeedMaxKTS&gt;8&lt;/windSpeedMaxKTS&gt;&#10;    &lt;windDirMin80m&gt;NW&lt;/windDirMin80m&gt;&#10;    &lt;avgDewpointC&gt;14&lt;/avgDewpointC&gt;&#10;    &lt;solradMaxWM2&gt;726&lt;/solradMaxWM2&gt;&#10;    &lt;dewpointF&gt;63&lt;/dewpointF&gt;&#10;    &lt;avgFeelslikeC&gt;25&lt;/avgFeelslikeC&gt;&#10;    &lt;windDirMax80mDEG&gt;354&lt;/windDirMax80mDEG&gt;&#10;    &lt;windDirMin80mDEG&gt;316&lt;/windDirMin80mDEG&gt;&#10;    &lt;windSpeed80mKTS&gt;5&lt;/windSpeed80mKTS&gt;&#10;    &lt;windDir&gt;N&lt;/windDir&gt;&#10;    &lt;windDirMaxDEG&gt;343&lt;/windDirMaxDEG&gt;&#10;    &lt;minFeelslikeC&gt;20&lt;/minFeelslikeC&gt;&#10;    &lt;visibilityMI&gt;15&lt;/visibilityMI&gt;&#10;    &lt;dewpointC&gt;17&lt;/dewpointC&gt;&#10;    &lt;sunrise&gt;1665287583&lt;/sunrise&gt;&#10;    &lt;windGust80mKPH&gt;36&lt;/windGust80mKPH&gt;&#10;    &lt;avgDewpointF&gt;57&lt;/avgDewpointF&gt;&#10;    &lt;cloudsCoded&gt;SC&lt;/cloudsCoded&gt;&#10;    &lt;windGustKTS&gt;19&lt;/windGustKTS&gt;&#10;    &lt;windSpeedMPH&gt;2&lt;/windSpeedMPH&gt;&#10;    &lt;feelslikeF&gt;67&lt;/feelslikeF&gt;&#10;    &lt;windSpeedKPH&gt;4&lt;/windSpeedKPH&gt;&#10;    &lt;maxDewpointC&gt;17&lt;/maxDewpointC&gt;&#10;    &lt;windDirDEG&gt;356&lt;/windDirDEG&gt;&#10;    &lt;windDirMax80m&gt;N&lt;/windDirMax80m&gt;&#10;    &lt;tempC&gt;null&lt;/tempC&gt;&#10;    &lt;solradMinWM2&gt;0&lt;/solradMinWM2&gt;&#10;    &lt;windSpeedMax80mKTS&gt;20&lt;/windSpeedMax80mKTS&gt;&#10;    &lt;uvi&gt;7&lt;/uvi&gt;&#10;    &lt;windSpeedMin80mMPH&gt;6&lt;/windSpeedMin80mMPH&gt;&#10;    &lt;windDir80m&gt;NW&lt;/windDir80m&gt;&#10;    &lt;sunriseISO&gt;2022-10-09T05:53:03+02:00&lt;/sunriseISO&gt;&#10;    &lt;snowCM&gt;0&lt;/snowCM&gt;&#10;    &lt;minHumidity&gt;31&lt;/minHumidity&gt;&#10;    &lt;timestamp&gt;1665291600&lt;/timestamp&gt;&#10;    &lt;windSpeedMax80mKPH&gt;36&lt;/windSpeedMax80mKPH&gt;&#10;    &lt;windGust80mMPH&gt;23&lt;/windGust80mMPH&gt;&#10;    &lt;maxFeelslikeF&gt;86&lt;/maxFeelslikeF&gt;&#10;    &lt;visibilityKM&gt;24.135&lt;/visibilityKM&gt;&#10;    &lt;maxHumidity&gt;86&lt;/maxHumidity&gt;&#10;    &lt;pressureIN&gt;29.99&lt;/pressureIN&gt;&#10;    &lt;iceaccumMM&gt;null&lt;/iceaccumMM&gt;&#10;    &lt;windSpeed80mKPH&gt;9&lt;/windSpeed80mKPH&gt;&#10;    &lt;icon&gt;pcloudy.png&lt;/icon&gt;&#10;    &lt;precipIN&gt;0&lt;/precipIN&gt;&#10;    &lt;iceaccum&gt;null&lt;/iceaccum&gt;&#10;    &lt;windSpeedMin80mKTS&gt;5&lt;/windSpeedMin80mKTS&gt;&#10;    &lt;minDewpointF&gt;52&lt;/minDewpointF&gt;&#10;    &lt;windDirMin&gt;N&lt;/windDirMin&gt;&#10;    &lt;maxTempC&gt;31&lt;/maxTempC&gt;&#10;    &lt;humidity&gt;86&lt;/humidity&gt;&#10;    &lt;maxDewpointF&gt;63&lt;/maxDewpointF&gt;&#10;    &lt;minFeelslikeF&gt;67&lt;/minFeelslikeF&gt;&#10;    &lt;windSpeedMax80mMPH&gt;23&lt;/windSpeedMax80mMPH&gt;&#10;    &lt;windGustMPH&gt;22&lt;/windGustMPH&gt;&#10;    &lt;maxFeelslikeC&gt;30&lt;/maxFeelslikeC&gt;&#10;    &lt;tempF&gt;null&lt;/tempF&gt;&#10;    &lt;weatherPrimaryCoded&gt;::SC&lt;/weatherPrimaryCoded&gt;&#10;    &lt;solradWM2&gt;4768&lt;/solradWM2&gt;&#10;    &lt;snowIN&gt;0&lt;/snowIN&gt;&#10;    &lt;maxCoverage/&gt;&#10;    &lt;windGust80mKTS&gt;20&lt;/windGust80mKTS&gt;&#10;    &lt;windSpeedMaxMPH&gt;9&lt;/windSpeedMaxMPH&gt;&#10;    &lt;windSpeedMinMPH&gt;2&lt;/windSpeedMinMPH&gt;&#10;    &lt;maxTempF&gt;87&lt;/maxTempF&gt;&#10;    &lt;windGustKPH&gt;36&lt;/windGustKPH&gt;&#10;    &lt;windSpeedMaxKPH&gt;14&lt;/windSpeedMaxKPH&gt;&#10;    &lt;weather&gt;Partly Cloudy&lt;/weather&gt;&#10;    &lt;windSpeed80mMPH&gt;6&lt;/windSpeed80mMPH&gt;&#10;    &lt;avgFeelslikeF&gt;77&lt;/avgFeelslikeF&gt;&#10;    &lt;avgTempF&gt;77&lt;/avgTempF&gt;&#10;    &lt;feelslikeC&gt;20&lt;/feelslikeC&gt;&#10;    &lt;avgTempC&gt;25&lt;/avgTempC&gt;&#10;    &lt;windSpeedMin80mKPH&gt;9&lt;/windSpeedMin80mKPH&gt;&#10;    &lt;sunsetISO&gt;2022-10-09T17:31:31+02:00&lt;/sunsetISO&gt;&#10;    &lt;dateTimeISO&gt;2022-10-09T07:00:00+02:00&lt;/dateTimeISO&gt;&#10;    &lt;iceaccumIN&gt;null&lt;/iceaccumIN&gt;&#10;    &lt;windDirMax&gt;NNW&lt;/windDirMax&gt;&#10;    &lt;sky&gt;47&lt;/sky&gt;&#10;    &lt;minTempF&gt;67&lt;/minTempF&gt;&#10;    &lt;isDay&gt;true&lt;/isDay&gt;&#10;    &lt;precipMM&gt;0&lt;/precipMM&gt;&#10;    &lt;windDir80mDEG&gt;316&lt;/windDir80mDEG&gt;&#10;    &lt;windSpeedMinKPH&gt;4&lt;/windSpeedMinKPH&gt;&#10;    &lt;windSpeedMinKTS&gt;2&lt;/windSpeedMinKTS&gt;&#10;  &lt;/periods&gt;&#10;  &lt;periods&gt;&#10;    &lt;windDir80mDEG&gt;8&lt;/windDir80mDEG&gt;&#10;    &lt;isDay&gt;true&lt;/isDay&gt;&#10;    &lt;iceaccumMM&gt;null&lt;/iceaccumMM&gt;&#10;    &lt;dateTimeISO&gt;2022-10-10T07:00:00+02:00&lt;/dateTimeISO&gt;&#10;    &lt;minHumidity&gt;35&lt;/minHumidity&gt;&#10;    &lt;windDir&gt;N&lt;/windDir&gt;&#10;    &lt;maxTempF&gt;87&lt;/maxTempF&gt;&#10;    &lt;minDewpointC&gt;13&lt;/minDewpointC&gt;&#10;    &lt;windSpeedMaxKTS&gt;8&lt;/windSpeedMaxKTS&gt;&#10;    &lt;windDirMax80m&gt;N&lt;/windDirMax80m&gt;&#10;    &lt;visibilityMI&gt;15&lt;/visibilityMI&gt;&#10;    &lt;weatherPrimary&gt;Partly Cloudy&lt;/weatherPrimary&gt;&#10;    &lt;iceaccumIN&gt;null&lt;/iceaccumIN&gt;&#10;    &lt;tempC&gt;null&lt;/tempC&gt;&#10;    &lt;windSpeed80mKPH&gt;13&lt;/windSpeed80mKPH&gt;&#10;    &lt;windSpeedMaxMPH&gt;9&lt;/windSpeedMaxMPH&gt;&#10;    &lt;humidity&gt;75&lt;/humidity&gt;&#10;    &lt;windGust80mKTS&gt;19&lt;/windGust80mKTS&gt;&#10;    &lt;dewpointF&gt;61&lt;/dewpointF&gt;&#10;    &lt;sunrise&gt;1665374020&lt;/sunrise&gt;&#10;    &lt;windDirMax80mDEG&gt;10&lt;/windDirMax80mDEG&gt;&#10;    &lt;windSpeedMinMPH&gt;2&lt;/windSpeedMinMPH&gt;&#10;    &lt;avgTempC&gt;26&lt;/avgTempC&gt;&#10;    &lt;validTime&gt;2022-10-10T07:00:00+02:00&lt;/validTime&gt;&#10;    &lt;uvi&gt;6&lt;/uvi&gt;&#10;    &lt;windSpeedMin80mKPH&gt;13&lt;/windSpeedMin80mKPH&gt;&#10;    &lt;precipMM&gt;0&lt;/precipMM&gt;&#10;    &lt;windDirDEG&gt;358&lt;/windDirDEG&gt;&#10;    &lt;maxHumidity&gt;75&lt;/maxHumidity&gt;&#10;    &lt;pressureIN&gt;30.03&lt;/pressureIN&gt;&#10;    &lt;windSpeedKPH&gt;4&lt;/windSpeedKPH&gt;&#10;    &lt;icon&gt;pcloudy.png&lt;/icon&gt;&#10;    &lt;avgDewpointC&gt;14&lt;/avgDewpointC&gt;&#10;    &lt;minFeelslikeF&gt;69&lt;/minFeelslikeF&gt;&#10;    &lt;windSpeedMinKPH&gt;4&lt;/windSpeedMinKPH&gt;&#10;    &lt;windSpeedMin80mKTS&gt;7&lt;/windSpeedMin80mKTS&gt;&#10;    &lt;avgFeelslikeF&gt;78&lt;/avgFeelslikeF&gt;&#10;    &lt;sunsetISO&gt;2022-10-10T17:30:21+02:00&lt;/sunsetISO&gt;&#10;    &lt;avgFeelslikeC&gt;25&lt;/avgFeelslikeC&gt;&#10;    &lt;solradMaxWM2&gt;597&lt;/solradMaxWM2&gt;&#10;    &lt;feelslikeF&gt;69&lt;/feelslikeF&gt;&#10;    &lt;windDirMaxDEG&gt;10&lt;/windDirMaxDEG&gt;&#10;    &lt;visibilityKM&gt;24.135&lt;/visibilityKM&gt;&#10;    &lt;feelslikeC&gt;21&lt;/feelslikeC&gt;&#10;    &lt;minTempF&gt;70&lt;/minTempF&gt;&#10;    &lt;dewpointC&gt;16&lt;/dewpointC&gt;&#10;    &lt;solradMinWM2&gt;0&lt;/solradMinWM2&gt;&#10;    &lt;snowIN&gt;0&lt;/snowIN&gt;&#10;    &lt;windGust80mMPH&gt;22&lt;/windGust80mMPH&gt;&#10;    &lt;windSpeedMax80mKTS&gt;19&lt;/windSpeedMax80mKTS&gt;&#10;    &lt;avgTempF&gt;78&lt;/avgTempF&gt;&#10;    &lt;windDirMin80m&gt;E&lt;/windDirMin80m&gt;&#10;    &lt;maxTempC&gt;31&lt;/maxTempC&gt;&#10;    &lt;windSpeedMin80mMPH&gt;8&lt;/windSpeedMin80mMPH&gt;&#10;    &lt;weatherPrimaryCoded&gt;::SC&lt;/weatherPrimaryCoded&gt;&#10;    &lt;maxDewpointC&gt;16&lt;/maxDewpointC&gt;&#10;    &lt;windSpeedMax80mKPH&gt;36&lt;/windSpeedMax80mKPH&gt;&#10;    &lt;minFeelslikeC&gt;21&lt;/minFeelslikeC&gt;&#10;    &lt;windDirMin80mDEG&gt;91&lt;/windDirMin80mDEG&gt;&#10;    &lt;precipIN&gt;0&lt;/precipIN&gt;&#10;    &lt;weather&gt;Partly Cloudy&lt;/weather&gt;&#10;    &lt;solradWM2&gt;4494&lt;/solradWM2&gt;&#10;    &lt;windSpeedMaxKPH&gt;15&lt;/windSpeedMaxKPH&gt;&#10;    &lt;sunset&gt;1665415821&lt;/sunset&gt;&#10;    &lt;windSpeedKTS&gt;2&lt;/windSpeedKTS&gt;&#10;    &lt;maxFeelslikeC&gt;30&lt;/maxFeelslikeC&gt;&#10;    &lt;sky&gt;64&lt;/sky&gt;&#10;    &lt;sunriseISO&gt;2022-10-10T05:53:40+02:00&lt;/sunriseISO&gt;&#10;    &lt;windGustKTS&gt;16&lt;/windGustKTS&gt;&#10;    &lt;windDir80m&gt;N&lt;/windDir80m&gt;&#10;    &lt;pop&gt;0&lt;/pop&gt;&#10;    &lt;windDirMax&gt;N&lt;/windDirMax&gt;&#10;    &lt;maxDewpointF&gt;61&lt;/maxDewpointF&gt;&#10;    &lt;minDewpointF&gt;55&lt;/minDewpointF&gt;&#10;    &lt;windDirMinDEG&gt;358&lt;/windDirMinDEG&gt;&#10;    &lt;windSpeedMPH&gt;2&lt;/windSpeedMPH&gt;&#10;    &lt;windGustMPH&gt;19&lt;/windGustMPH&gt;&#10;    &lt;windSpeed80mMPH&gt;8&lt;/windSpeed80mMPH&gt;&#10;    &lt;avgDewpointF&gt;58&lt;/avgDewpointF&gt;&#10;    &lt;windSpeedMax80mMPH&gt;22&lt;/windSpeedMax80mMPH&gt;&#10;    &lt;windSpeed80mKTS&gt;7&lt;/windSpeed80mKTS&gt;&#10;    &lt;tempF&gt;null&lt;/tempF&gt;&#10;    &lt;minTempC&gt;21&lt;/minTempC&gt;&#10;    &lt;snowCM&gt;0&lt;/snowCM&gt;&#10;    &lt;windGustKPH&gt;30&lt;/windGustKPH&gt;&#10;    &lt;timestamp&gt;1665378000&lt;/timestamp&gt;&#10;    &lt;pressureMB&gt;1017&lt;/pressureMB&gt;&#10;    &lt;windSpeedMinKTS&gt;2&lt;/windSpeedMinKTS&gt;&#10;    &lt;cloudsCoded&gt;SC&lt;/cloudsCoded&gt;&#10;    &lt;windDirMin&gt;N&lt;/windDirMin&gt;&#10;    &lt;windGust80mKPH&gt;36&lt;/windGust80mKPH&gt;&#10;    &lt;maxCoverage/&gt;&#10;    &lt;maxFeelslikeF&gt;86&lt;/maxFeelslikeF&gt;&#10;    &lt;iceaccum&gt;null&lt;/iceaccum&gt;&#10;  &lt;/periods&gt;&#10;  &lt;periods&gt;&#10;    &lt;windDirMaxDEG&gt;28&lt;/windDirMaxDEG&gt;&#10;    &lt;windDirMax80mDEG&gt;28&lt;/windDirMax80mDEG&gt;&#10;    &lt;windDirMin80m&gt;NNE&lt;/windDirMin80m&gt;&#10;    &lt;maxCoverage/&gt;&#10;    &lt;visibilityKM&gt;24.135&lt;/visibilityKM&gt;&#10;    &lt;maxHumidity&gt;71&lt;/maxHumidity&gt;&#10;    &lt;precipMM&gt;0&lt;/precipMM&gt;&#10;    &lt;weatherPrimaryCoded&gt;::CL&lt;/weatherPrimaryCoded&gt;&#10;    &lt;solradMinWM2&gt;0&lt;/solradMinWM2&gt;&#10;    &lt;solradWM2&gt;5450&lt;/solradWM2&gt;&#10;    &lt;windDirMin80mDEG&gt;13&lt;/windDirMin80mDEG&gt;&#10;    &lt;windSpeedMinKPH&gt;14&lt;/windSpeedMinKPH&gt;&#10;    &lt;avgDewpointC&gt;13&lt;/avgDewpointC&gt;&#10;    &lt;windDirMin&gt;NNE&lt;/windDirMin&gt;&#10;    &lt;windSpeedKTS&gt;8&lt;/windSpeedKTS&gt;&#10;    &lt;humidity&gt;71&lt;/humidity&gt;&#10;    &lt;windDirDEG&gt;13&lt;/windDirDEG&gt;&#10;    &lt;snowCM&gt;0&lt;/snowCM&gt;&#10;    &lt;sky&gt;0&lt;/sky&gt;&#10;    &lt;isDay&gt;true&lt;/isDay&gt;&#10;    &lt;tempF&gt;null&lt;/tempF&gt;&#10;    &lt;minFeelslikeC&gt;22&lt;/minFeelslikeC&gt;&#10;    &lt;maxDewpointC&gt;17&lt;/maxDewpointC&gt;&#10;    &lt;icon&gt;sunny.png&lt;/icon&gt;&#10;    &lt;windDirMax80m&gt;NNE&lt;/windDirMax80m&gt;&#10;    &lt;avgFeelslikeF&gt;79&lt;/avgFeelslikeF&gt;&#10;    &lt;windSpeedMin80mMPH&gt;11&lt;/windSpeedMin80mMPH&gt;&#10;    &lt;maxFeelslikeF&gt;87&lt;/maxFeelslikeF&gt;&#10;    &lt;windGust80mKPH&gt;31&lt;/windGust80mKPH&gt;&#10;    &lt;visibilityMI&gt;15&lt;/visibilityMI&gt;&#10;    &lt;uvi&gt;null&lt;/uvi&gt;&#10;    &lt;maxDewpointF&gt;62&lt;/maxDewpointF&gt;&#10;    &lt;minFeelslikeF&gt;72&lt;/minFeelslikeF&gt;&#10;    &lt;windDirMinDEG&gt;14&lt;/windDirMinDEG&gt;&#10;    &lt;windSpeedMinMPH&gt;8&lt;/windSpeedMinMPH&gt;&#10;    &lt;windSpeed80mKTS&gt;10&lt;/windSpeed80mKTS&gt;&#10;    &lt;timestamp&gt;1665464400&lt;/timestamp&gt;&#10;    &lt;windSpeedMin80mKTS&gt;9&lt;/windSpeedMin80mKTS&gt;&#10;    &lt;snowIN&gt;0&lt;/snowIN&gt;&#10;    &lt;windGust80mKTS&gt;17&lt;/windGust80mKTS&gt;&#10;    &lt;avgTempF&gt;78&lt;/avgTempF&gt;&#10;    &lt;maxFeelslikeC&gt;31&lt;/maxFeelslikeC&gt;&#10;    &lt;windSpeed80mKPH&gt;19&lt;/windSpeed80mKPH&gt;&#10;    &lt;iceaccum&gt;null&lt;/iceaccum&gt;&#10;    &lt;windDirMax&gt;NNE&lt;/windDirMax&gt;&#10;    &lt;windGustKTS&gt;15&lt;/windGustKTS&gt;&#10;    &lt;sunriseISO&gt;2022-10-11T05:54:18+02:00&lt;/sunriseISO&gt;&#10;    &lt;minTempF&gt;70&lt;/minTempF&gt;&#10;    &lt;pop&gt;0&lt;/pop&gt;&#10;    &lt;windGustMPH&gt;17&lt;/windGustMPH&gt;&#10;    &lt;maxTempF&gt;87&lt;/maxTempF&gt;&#10;    &lt;tempC&gt;null&lt;/tempC&gt;&#10;    &lt;windSpeedKPH&gt;15&lt;/windSpeedKPH&gt;&#10;    &lt;weatherPrimary&gt;Sunny&lt;/weatherPrimary&gt;&#10;    &lt;precipIN&gt;0&lt;/precipIN&gt;&#10;    &lt;dewpointF&gt;62&lt;/dewpointF&gt;&#10;    &lt;windDir&gt;NNE&lt;/windDir&gt;&#10;    &lt;minDewpointF&gt;51&lt;/minDewpointF&gt;&#10;    &lt;windSpeedMaxMPH&gt;18&lt;/windSpeedMaxMPH&gt;&#10;    &lt;windGustKPH&gt;28&lt;/windGustKPH&gt;&#10;    &lt;sunrise&gt;1665460458&lt;/sunrise&gt;&#10;    &lt;windSpeedMinKTS&gt;7&lt;/windSpeedMinKTS&gt;&#10;    &lt;maxTempC&gt;31&lt;/maxTempC&gt;&#10;    &lt;sunsetISO&gt;2022-10-11T17:29:13+02:00&lt;/sunsetISO&gt;&#10;    &lt;windSpeedMin80mKPH&gt;18&lt;/windSpeedMin80mKPH&gt;&#10;    &lt;windDir80m&gt;NNE&lt;/windDir80m&gt;&#10;    &lt;windSpeedMax80mKTS&gt;17&lt;/windSpeedMax80mKTS&gt;&#10;    &lt;minDewpointC&gt;11&lt;/minDewpointC&gt;&#10;    &lt;pressureIN&gt;29.98&lt;/pressureIN&gt;&#10;    &lt;feelslikeC&gt;22&lt;/feelslikeC&gt;&#10;    &lt;iceaccumMM&gt;null&lt;/iceaccumMM&gt;&#10;    &lt;windGust80mMPH&gt;19&lt;/windGust80mMPH&gt;&#10;    &lt;iceaccumIN&gt;null&lt;/iceaccumIN&gt;&#10;    &lt;solradMaxWM2&gt;758&lt;/solradMaxWM2&gt;&#10;    &lt;pressureMB&gt;1015&lt;/pressureMB&gt;&#10;    &lt;windSpeedMax80mKPH&gt;31&lt;/windSpeedMax80mKPH&gt;&#10;    &lt;validTime&gt;2022-10-11T07:00:00+02:00&lt;/validTime&gt;&#10;    &lt;avgDewpointF&gt;55&lt;/avgDewpointF&gt;&#10;    &lt;minTempC&gt;21&lt;/minTempC&gt;&#10;    &lt;cloudsCoded&gt;CL&lt;/cloudsCoded&gt;&#10;    &lt;dewpointC&gt;17&lt;/dewpointC&gt;&#10;    &lt;windDir80mDEG&gt;16&lt;/windDir80mDEG&gt;&#10;    &lt;feelslikeF&gt;72&lt;/feelslikeF&gt;&#10;    &lt;sunset&gt;1665502153&lt;/sunset&gt;&#10;    &lt;avgFeelslikeC&gt;26&lt;/avgFeelslikeC&gt;&#10;    &lt;windSpeedMax80mMPH&gt;19&lt;/windSpeedMax80mMPH&gt;&#10;    &lt;minHumidity&gt;30&lt;/minHumidity&gt;&#10;    &lt;weather&gt;Sunny&lt;/weather&gt;&#10;    &lt;windSpeedMaxKPH&gt;28&lt;/windSpeedMaxKPH&gt;&#10;    &lt;avgTempC&gt;26&lt;/avgTempC&gt;&#10;    &lt;dateTimeISO&gt;2022-10-11T07:00:00+02:00&lt;/dateTimeISO&gt;&#10;    &lt;windSpeedMaxKTS&gt;15&lt;/windSpeedMaxKTS&gt;&#10;    &lt;windSpeedMPH&gt;9&lt;/windSpeedMPH&gt;&#10;    &lt;windSpeed80mMPH&gt;12&lt;/windSpeed80mMPH&gt;&#10;  &lt;/periods&gt;&#10;  &lt;periods&gt;&#10;    &lt;sky&gt;27&lt;/sky&gt;&#10;    &lt;humidity&gt;68&lt;/humidity&gt;&#10;    &lt;uvi&gt;null&lt;/uvi&gt;&#10;    &lt;windGust80mKTS&gt;18&lt;/windGust80mKTS&gt;&#10;    &lt;iceaccumIN&gt;null&lt;/iceaccumIN&gt;&#10;    &lt;windGust80mKPH&gt;33&lt;/windGust80mKPH&gt;&#10;    &lt;windGustKPH&gt;28&lt;/windGustKPH&gt;&#10;    &lt;minTempC&gt;21&lt;/minTempC&gt;&#10;    &lt;windSpeedKTS&gt;8&lt;/windSpeedKTS&gt;&#10;    &lt;avgTempC&gt;26&lt;/avgTempC&gt;&#10;    &lt;pop&gt;0&lt;/pop&gt;&#10;    &lt;windDir80mDEG&gt;15&lt;/windDir80mDEG&gt;&#10;    &lt;maxTempC&gt;31&lt;/maxTempC&gt;&#10;    &lt;windDir80m&gt;NNE&lt;/windDir80m&gt;&#10;    &lt;minDewpointF&gt;51&lt;/minDewpointF&gt;&#10;    &lt;solradWM2&gt;4740&lt;/solradWM2&gt;&#10;    &lt;maxDewpointF&gt;60&lt;/maxDewpointF&gt;&#10;    &lt;windSpeedMPH&gt;9&lt;/windSpeedMPH&gt;&#10;    &lt;avgTempF&gt;79&lt;/avgTempF&gt;&#10;    &lt;sunset&gt;1665588484&lt;/sunset&gt;&#10;    &lt;avgFeelslikeC&gt;26&lt;/avgFeelslikeC&gt;&#10;    &lt;windSpeed80mKPH&gt;19&lt;/windSpeed80mKPH&gt;&#10;    &lt;iceaccumMM&gt;null&lt;/iceaccumMM&gt;&#10;    &lt;cloudsCoded&gt;FW&lt;/cloudsCoded&gt;&#10;    &lt;windDirMin80mDEG&gt;15&lt;/windDirMin80mDEG&gt;&#10;    &lt;windSpeedKPH&gt;15&lt;/windSpeedKPH&gt;&#10;    &lt;windDir&gt;NNE&lt;/windDir&gt;&#10;    &lt;maxDewpointC&gt;16&lt;/maxDewpointC&gt;&#10;    &lt;timestamp&gt;1665550800&lt;/timestamp&gt;&#10;    &lt;pressureMB&gt;1014&lt;/pressureMB&gt;&#10;    &lt;windGustKTS&gt;15&lt;/windGustKTS&gt;&#10;    &lt;visibilityKM&gt;24.135&lt;/visibilityKM&gt;&#10;    &lt;sunsetISO&gt;2022-10-12T17:28:04+02:00&lt;/sunsetISO&gt;&#10;    &lt;windSpeedMaxKTS&gt;14&lt;/windSpeedMaxKTS&gt;&#10;    &lt;feelslikeC&gt;22&lt;/feelslikeC&gt;&#10;    &lt;windSpeed80mKTS&gt;10&lt;/windSpeed80mKTS&gt;&#10;    &lt;visibilityMI&gt;15&lt;/visibilityMI&gt;&#10;    &lt;sunrise&gt;1665546895&lt;/sunrise&gt;&#10;    &lt;tempC&gt;null&lt;/tempC&gt;&#10;    &lt;dateTimeISO&gt;2022-10-12T07:00:00+02:00&lt;/dateTimeISO&gt;&#10;    &lt;feelslikeF&gt;72&lt;/feelslikeF&gt;&#10;    &lt;snowCM&gt;0&lt;/snowCM&gt;&#10;    &lt;windSpeedMax80mKTS&gt;18&lt;/windSpeedMax80mKTS&gt;&#10;    &lt;tempF&gt;null&lt;/tempF&gt;&#10;    &lt;isDay&gt;true&lt;/isDay&gt;&#10;    &lt;windSpeedMin80mKPH&gt;18&lt;/windSpeedMin80mKPH&gt;&#10;    &lt;windSpeedMaxMPH&gt;16&lt;/windSpeedMaxMPH&gt;&#10;    &lt;iceaccum&gt;null&lt;/iceaccum&gt;&#10;    &lt;dewpointF&gt;60&lt;/dewpointF&gt;&#10;    &lt;weatherPrimary&gt;Mostly Sunny&lt;/weatherPrimary&gt;&#10;    &lt;pressureIN&gt;29.95&lt;/pressureIN&gt;&#10;    &lt;weather&gt;Mostly Sunny&lt;/weather&gt;&#10;    &lt;minDewpointC&gt;11&lt;/minDewpointC&gt;&#10;    &lt;windGust80mMPH&gt;21&lt;/windGust80mMPH&gt;&#10;    &lt;windSpeedMinMPH&gt;8&lt;/windSpeedMinMPH&gt;&#10;    &lt;minTempF&gt;69&lt;/minTempF&gt;&#10;    &lt;maxTempF&gt;88&lt;/maxTempF&gt;&#10;    &lt;minFeelslikeC&gt;22&lt;/minFeelslikeC&gt;&#10;    &lt;sunriseISO&gt;2022-10-12T05:54:55+02:00&lt;/sunriseISO&gt;&#10;    &lt;windGustMPH&gt;17&lt;/windGustMPH&gt;&#10;    &lt;windSpeedMax80mMPH&gt;21&lt;/windSpeedMax80mMPH&gt;&#10;    &lt;windSpeedMinKPH&gt;13&lt;/windSpeedMinKPH&gt;&#10;    &lt;maxFeelslikeC&gt;31&lt;/maxFeelslikeC&gt;&#10;    &lt;windDirMaxDEG&gt;96&lt;/windDirMaxDEG&gt;&#10;    &lt;windSpeed80mMPH&gt;12&lt;/windSpeed80mMPH&gt;&#10;    &lt;windSpeedMaxKPH&gt;26&lt;/windSpeedMaxKPH&gt;&#10;    &lt;snowIN&gt;0&lt;/snowIN&gt;&#10;    &lt;windDirMin80m&gt;NNE&lt;/windDirMin80m&gt;&#10;    &lt;solradMinWM2&gt;0&lt;/solradMinWM2&gt;&#10;    &lt;windDirMax80m&gt;E&lt;/windDirMax80m&gt;&#10;    &lt;windDirMinDEG&gt;12&lt;/windDirMinDEG&gt;&#10;    &lt;solradMaxWM2&gt;743&lt;/solradMaxWM2&gt;&#10;    &lt;avgDewpointC&gt;13&lt;/avgDewpointC&gt;&#10;    &lt;windDirMax&gt;E&lt;/windDirMax&gt;&#10;    &lt;maxFeelslikeF&gt;88&lt;/maxFeelslikeF&gt;&#10;    &lt;dewpointC&gt;16&lt;/dewpointC&gt;&#10;    &lt;maxCoverage/&gt;&#10;    &lt;precipMM&gt;0&lt;/precipMM&gt;&#10;    &lt;precipIN&gt;0&lt;/precipIN&gt;&#10;    &lt;minFeelslikeF&gt;72&lt;/minFeelslikeF&gt;&#10;    &lt;avgDewpointF&gt;55&lt;/avgDewpointF&gt;&#10;    &lt;windSpeedMin80mKTS&gt;10&lt;/windSpeedMin80mKTS&gt;&#10;    &lt;windSpeedMin80mMPH&gt;11&lt;/windSpeedMin80mMPH&gt;&#10;    &lt;windDirMin&gt;NNE&lt;/windDirMin&gt;&#10;    &lt;windDirDEG&gt;12&lt;/windDirDEG&gt;&#10;    &lt;windSpeedMax80mKPH&gt;33&lt;/windSpeedMax80mKPH&gt;&#10;    &lt;avgFeelslikeF&gt;80&lt;/avgFeelslikeF&gt;&#10;    &lt;maxHumidity&gt;68&lt;/maxHumidity&gt;&#10;    &lt;minHumidity&gt;29&lt;/minHumidity&gt;&#10;    &lt;windSpeedMinKTS&gt;7&lt;/windSpeedMinKTS&gt;&#10;    &lt;icon&gt;fair.png&lt;/icon&gt;&#10;    &lt;windDirMax80mDEG&gt;96&lt;/windDirMax80mDEG&gt;&#10;    &lt;weatherPrimaryCoded&gt;::FW&lt;/weatherPrimaryCoded&gt;&#10;    &lt;validTime&gt;2022-10-12T07:00:00+02:00&lt;/validTime&gt;&#10;  &lt;/periods&gt;&#10;  &lt;interval&gt;day&lt;/interval&gt;&#10;&lt;/response&gt;&#10;&lt;success&gt;true&lt;/success]&gt;&#10;&lt;error&gt;null&lt;/error...&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: 
+expected:<<[success>true</success>
+<response>
+  <loc>
+    <long>31.25</long>
+    <lat>30.063</lat>
+  </loc>
+  <profile>
+    <elevM>23</elevM>
+    <tz>Africa/Cairo</tz>
+    <elevFT>75</elevFT>
+  </profile>
+  <periods>
+    <dateTimeISO>2022-10-06T07:00:00+02:00</dateTimeISO>
+    <windDirMin80m>E</windDirMin80m>
+    <windDirMin80mDEG>95</windDirMin80mDEG>
+    <feelslikeC>21</feelslikeC>
+    <visibilityMI>15</visibilityMI>
+    <windSpeedMaxMPH>10</windSpeedMaxMPH>
+    <windDirDEG>353</windDirDEG>
+    <windDir>N</windDir>
+    <sunriseISO>2022-10-06T05:51:14+02:00</sunriseISO>
+    <iceaccumMM>null</iceaccumMM>
+    <windSpeedMaxKTS>9</windSpeedMaxKTS>
+    <iceaccumIN>null</iceaccumIN>
+    <minTempF>66</minTempF>
+    <snowIN>0</snowIN>
+    <weather>Mostly Sunny</weather>
+    <sunsetISO>2022-10-06T17:35:02+02:00</sunsetISO>
+    <maxFeelslikeC>32</maxFeelslikeC>
+    <humidity>77</humidity>
+    <windDir80m>N</windDir80m>
+    <maxFeelslikeF>89</maxFeelslikeF>
+    <precipMM>0</precipMM>
+    <sky>22</sky>
+    <windGust80mMPH>25</windGust80mMPH>
+    <windSpeedMax80mMPH>25</windSpeedMax80mMPH>
+    <weatherPrimary>Mostly Sunny</weatherPrimary>
+    <windGust80mKPH>41</windGust80mKPH>
+    <avgDewpointF>58</avgDewpointF>
+    <windSpeedMax80mKPH>41</windSpeedMax80mKPH>
+    <windGust80mKTS>22</windGust80mKTS>
+    <avgDewpointC>14</avgDewpointC>
+    <precipIN>0</precipIN>
+    <windSpeedMax80mKTS>22</windSpeedMax80mKTS>
+    <windDirMinDEG>353</windDirMinDEG>
+    <windSpeedMaxKPH>16</windSpeedMaxKPH>
+    <windSpeedMin80mKTS>8</windSpeedMin80mKTS>
+    <feelslikeF>70</feelslikeF>
+    <validTime>2022-10-06T07:00:00+02:00</validTime>
+    <windSpeedMin80mMPH>10</windSpeedMin80mMPH>
+    <solradMaxWM2>778</solradMaxWM2>
+    <avgTempC>25</avgTempC>
+    <windSpeedMin80mKPH>15</windSpeedMin80mKPH>
+    <weatherPrimaryCoded>::FW</weatherPrimaryCoded>
+    <sunrise>1665028274</sunrise>
+    <avgTempF>78</avgTempF>
+    <windDirMin>N</windDirMin>
+    <maxCoverage/>
+    <icon>fair.png</icon>
+    <minFeelslikeC>21</minFeelslikeC>
+    <dewpointC>17</dewpointC>
+    <cloudsCoded>FW</cloudsCoded>
+    <minFeelslikeF>70</minFeelslikeF>
+    <minHumidity>29</minHumidity>
+    <dewpointF>63</dewpointF>
+    <windSpeed80mKTS>12</windSpeed80mKTS>
+    <pop>0</pop>
+    <snowCM>0</snowCM>
+    <windDirMax>NNW</windDirMax>
+    <windSpeed80mMPH>13</windSpeed80mMPH>
+    <windSpeed80mKPH>22</windSpeed80mKPH>
+    <windDir80mDEG>11</windDir80mDEG>
+    <maxTempC>32</maxTempC>
+    <pressureMB>1015</pressureMB>
+    <visibilityKM>24.135</visibilityKM>
+    <timestamp>1665032400</timestamp>
+    <maxTempF>90</maxTempF>
+    <tempF>null</tempF>
+    <minDewpointC>11</minDewpointC>
+    <solradMinWM2>0</solradMinWM2>
+    <windSpeedMinKTS>1</windSpeedMinKTS>
+    <windDirMax80mDEG>343</windDirMax80mDEG>
+    <windGustKTS>21</windGustKTS>
+    <windSpeedMinKPH>2</windSpeedMinKPH>
+    <maxDewpointF>63</maxDewpointF>
+    <windSpeedMinMPH>1</windSpeedMinMPH>
+    <avgFeelslikeC>26</avgFeelslikeC>
+    <uvi>6</uvi>
+    <windDirMax80m>NNW</windDirMax80m>
+    <maxDewpointC>17</maxDewpointC>
+    <pressureIN>29.97</pressureIN>
+    <avgFeelslikeF>80</avgFeelslikeF>
+    <iceaccum>null</iceaccum>
+    <isDay>true</isDay>
+    <minTempC>19</minTempC>
+    <minDewpointF>52</minDewpointF>
+    <windSpeedKTS>5</windSpeedKTS>
+    <sunset>1665070502</sunset>
+    <solradWM2>5608</solradWM2>
+    <windSpeedKPH>9</windSpeedKPH>
+    <windGustMPH>25</windGustMPH>
+    <maxHumidity>77</maxHumidity>
+    <windSpeedMPH>6</windSpeedMPH>
+    <windGustKPH>40</windGustKPH>
+    <windDirMaxDEG>342</windDirMaxDEG>
+    <tempC>null</tempC>
+  </periods>
+  <periods>
+    <dateTimeISO>2022-10-07T07:00:00+02:00</dateTimeISO>
+    <windDirMin80m>NNW</windDirMin80m>
+    <windDirMin80mDEG>347</windDirMin80mDEG>
+    <feelslikeC>19</feelslikeC>
+    <visibilityMI>15</visibilityMI>
+    <windSpeedMaxMPH>8</windSpeedMaxMPH>
+    <windDirDEG>325</windDirDEG>
+    <windDir>NW</windDir>
+    <sunriseISO>2022-10-07T05:51:50+02:00</sunriseISO>
+    <iceaccumMM>null</iceaccumMM>
+    <windSpeedMaxKTS>7</windSpeedMaxKTS>
+    <iceaccumIN>null</iceaccumIN>
+    <minTempF>66</minTempF>
+    <snowIN>0</snowIN>
+    <weather>Mostly Sunny</weather>
+    <sunsetISO>2022-10-07T17:33:51+02:00</sunsetISO>
+    <maxFeelslikeC>29</maxFeelslikeC>
+    <humidity>77</humidity>
+    <windDir80m>NNW</windDir80m>
+    <maxFeelslikeF>85</maxFeelslikeF>
+    <precipMM>0</precipMM>
+    <sky>30</sky>
+    <windGust80mMPH>23</windGust80mMPH>
+    <windSpeedMax80mMPH>23</windSpeedMax80mMPH>
+    <weatherPrimary>Mostly Sunny</weatherPrimary>
+    <windGust80mKPH>37</windGust80mKPH>
+    <avgDewpointF>54</avgDewpointF>
+    <windSpeedMax80mKPH>37</windSpeedMax80mKPH>
+    <windGust80mKTS>20</windGust80mKTS>
+    <avgDewpointC>12</avgDewpointC>
+    <precipIN>0</precipIN>
+    <windSpeedMax80mKTS>20</windSpeedMax80mKTS>
+    <windDirMinDEG>325</windDirMinDEG>
+    <windSpeedMaxKPH>13</windSpeedMaxKPH>
+    <windSpeedMin80mKTS>6</windSpeedMin80mKTS>
+    <feelslikeF>67</feelslikeF>
+    <validTime>2022-10-07T07:00:00+02:00</validTime>
+    <windSpeedMin80mMPH>6</windSpeedMin80mMPH>
+    <solradMaxWM2>742</solradMaxWM2>
+    <avgTempC>24</avgTempC>
+    <windSpeedMin80mKPH>10</windSpeedMin80mKPH>
+    <weatherPrimaryCoded>::FW</weatherPrimaryCoded>
+    <sunrise>1665114710</sunrise>
+    <avgTempF>76</avgTempF>
+    <windDirMin>NW</windDirMin>
+    <maxCoverage/>
+    <icon>fair.png</icon>
+    <minFeelslikeC>19</minFeelslikeC>
+    <dewpointC>15</dewpointC>
+    <cloudsCoded>FW</cloudsCoded>
+    <minFeelslikeF>67</minFeelslikeF>
+    <minHumidity>30</minHumidity>
+    <dewpointF>60</dewpointF>
+    <windSpeed80mKTS>6</windSpeed80mKTS>
+    <pop>0</pop>
+    <snowCM>0</snowCM>
+    <windDirMax>WNW</windDirMax>
+    <windSpeed80mMPH>6</windSpeed80mMPH>
+    <windSpeed80mKPH>10</windSpeed80mKPH>
+    <windDir80mDEG>347</windDir80mDEG>
+    <maxTempC>30</maxTempC>
+    <pressureMB>1014</pressureMB>
+    <visibilityKM>24.135</visibilityKM>
+    <timestamp>1665118800</timestamp>
+    <maxTempF>86</maxTempF>
+    <tempF>null</tempF>
+    <minDewpointC>10</minDewpointC>
+    <solradMinWM2>0</solradMinWM2>
+    <windSpeedMinKTS>1</windSpeedMinKTS>
+    <windDirMax80mDEG>316</windDirMax80mDEG>
+    <windGustKTS>16</windGustKTS>
+    <windSpeedMinKPH>2</windSpeedMinKPH>
+    <maxDewpointF>60</maxDewpointF>
+    <windSpeedMinMPH>1</windSpeedMinMPH>
+    <avgFeelslikeC>24</avgFeelslikeC>
+    <uvi>6</uvi>
+    <windDirMax80m>NW</windDirMax80m>
+    <maxDewpointC>15</maxDewpointC>
+    <pressureIN>29.95</pressureIN>
+    <avgFeelslikeF>76</avgFeelslikeF>
+    <iceaccum>null</iceaccum>
+    <isDay>true</isDay>
+    <minTempC>19</minTempC>
+    <minDewpointF>50</minDewpointF>
+    <windSpeedKTS>1</windSpeedKTS>
+    <sunset>1665156831</sunset>
+    <solradWM2>5486</solradWM2>
+    <windSpeedKPH>2</windSpeedKPH>
+    <windGustMPH>18</windGustMPH>
+    <maxHumidity>77</maxHumidity>
+    <windSpeedMPH>1</windSpeedMPH>
+    <windGustKPH>29</windGustKPH>
+    <windDirMaxDEG>298</windDirMaxDEG>
+    <tempC>null</tempC>
+  </periods>
+  <periods>
+    <dateTimeISO>2022-10-08T07:00:00+02:00</dateTimeISO>
+    <windDirMin80m>NW</windDirMin80m>
+    <windDirMin80mDEG>309</windDirMin80mDEG>
+    <feelslikeC>19</feelslikeC>
+    <visibilityMI>15</visibilityMI>
+    <windSpeedMaxMPH>8</windSpeedMaxMPH>
+    <windDirDEG>21</windDirDEG>
+    <windDir>NNE</windDir>
+    <sunriseISO>2022-10-08T05:52:26+02:00</sunriseISO>
+    <iceaccumMM>null</iceaccumMM>
+    <windSpeedMaxKTS>7</windSpeedMaxKTS>
+    <iceaccumIN>null</iceaccumIN>
+    <minTempF>66</minTempF>
+    <snowIN>0</snowIN>
+    <weather>Partly Cloudy</weather>
+    <sunsetISO>2022-10-08T17:32:41+02:00</sunsetISO>
+    <maxFeelslikeC>30</maxFeelslikeC>
+    <humidity>76</humidity>
+    <windDir80m>NW</windDir80m>
+    <maxFeelslikeF>86</maxFeelslikeF>
+    <precipMM>0</precipMM>
+    <sky>47</sky>
+    <windGust80mMPH>19</windGust80mMPH>
+    <windSpeedMax80mMPH>19</windSpeedMax80mMPH>
+    <weatherPrimary>Partly Cloudy</weatherPrimary>
+    <windGust80mKPH>31</windGust80mKPH>
+    <avgDewpointF>56</avgDewpointF>
+    <windSpeedMax80mKPH>31</windSpeedMax80mKPH>
+    <windGust80mKTS>17</windGust80mKTS>
+    <avgDewpointC>13</avgDewpointC>
+    <precipIN>0</precipIN>
+    <windSpeedMax80mKTS>17</windSpeedMax80mKTS>
+    <windDirMinDEG>21</windDirMinDEG>
+    <windSpeedMaxKPH>13</windSpeedMaxKPH>
+    <windSpeedMin80mKTS>5</windSpeedMin80mKTS>
+    <feelslikeF>67</feelslikeF>
+    <validTime>2022-10-08T07:00:00+02:00</validTime>
+    <windSpeedMin80mMPH>5</windSpeedMin80mMPH>
+    <solradMaxWM2>682</solradMaxWM2>
+    <avgTempC>25</avgTempC>
+    <windSpeedMin80mKPH>9</windSpeedMin80mKPH>
+    <weatherPrimaryCoded>::SC</weatherPrimaryCoded>
+    <sunrise>1665201146</sunrise>
+    <avgTempF>76</avgTempF>
+    <windDirMin>NNE</windDirMin>
+    <maxCoverage/>
+    <icon>pcloudy.png</icon>
+    <minFeelslikeC>19</minFeelslikeC>
+    <dewpointC>15</dewpointC>
+    <cloudsCoded>SC</cloudsCoded>
+    <minFeelslikeF>67</minFeelslikeF>
+    <minHumidity>32</minHumidity>
+    <dewpointF>59</dewpointF>
+    <windSpeed80mKTS>5</windSpeed80mKTS>
+    <pop>0</pop>
+    <snowCM>0</snowCM>
+    <windDirMax>WNW</windDirMax>
+    <windSpeed80mMPH>5</windSpeed80mMPH>
+    <windSpeed80mKPH>9</windSpeed80mKPH>
+    <windDir80mDEG>309</windDir80mDEG>
+    <maxTempC>30</maxTempC>
+    <pressureMB>1014</pressureMB>
+    <visibilityKM>24.135</visibilityKM>
+    <timestamp>1665205200</timestamp>
+    <maxTempF>87</maxTempF>
+    <tempF>null</tempF>
+    <minDewpointC>11</minDewpointC>
+    <solradMinWM2>0</solradMinWM2>
+    <windSpeedMinKTS>1</windSpeedMinKTS>
+    <windDirMax80mDEG>322</windDirMax80mDEG>
+    <windGustKTS>17</windGustKTS>
+    <windSpeedMinKPH>2</windSpeedMinKPH>
+    <maxDewpointF>59</maxDewpointF>
+    <windSpeedMinMPH>1</windSpeedMinMPH>
+    <avgFeelslikeC>25</avgFeelslikeC>
+    <uvi>7</uvi>
+    <windDirMax80m>NW</windDirMax80m>
+    <maxDewpointC>15</maxDewpointC>
+    <pressureIN>29.94</pressureIN>
+    <avgFeelslikeF>76</avgFeelslikeF>
+    <iceaccum>null</iceaccum>
+    <isDay>true</isDay>
+    <minTempC>19</minTempC>
+    <minDewpointF>52</minDewpointF>
+    <windSpeedKTS>1</windSpeedKTS>
+    <sunset>1665243161</sunset>
+    <solradWM2>4785</solradWM2>
+    <windSpeedKPH>2</windSpeedKPH>
+    <windGustMPH>20</windGustMPH>
+    <maxHumidity>76</maxHumidity>
+    <windSpeedMPH>1</windSpeedMPH>
+    <windGustKPH>32</windGustKPH>
+    <windDirMaxDEG>301</windDirMaxDEG>
+    <tempC>null</tempC>
+  </periods>
+  <periods>
+    <dateTimeISO>2022-10-09T07:00:00+02:00</dateTimeISO>
+    <windDirMin80m>NW</windDirMin80m>
+    <windDirMin80mDEG>316</windDirMin80mDEG>
+    <feelslikeC>20</feelslikeC>
+    <visibilityMI>15</visibilityMI>
+    <windSpeedMaxMPH>9</windSpeedMaxMPH>
+    <windDirDEG>356</windDirDEG>
+    <windDir>N</windDir>
+    <sunriseISO>2022-10-09T05:53:03+02:00</sunriseISO>
+    <iceaccumMM>null</iceaccumMM>
+    <windSpeedMaxKTS>8</windSpeedMaxKTS>
+    <iceaccumIN>null</iceaccumIN>
+    <minTempF>67</minTempF>
+    <snowIN>0</snowIN>
+    <weather>Partly Cloudy</weather>
+    <sunsetISO>2022-10-09T17:31:31+02:00</sunsetISO>
+    <maxFeelslikeC>30</maxFeelslikeC>
+    <humidity>86</humidity>
+    <windDir80m>NW</windDir80m>
+    <maxFeelslikeF>86</maxFeelslikeF>
+    <precipMM>0</precipMM>
+    <sky>47</sky>
+    <windGust80mMPH>23</windGust80mMPH>
+    <windSpeedMax80mMPH>23</windSpeedMax80mMPH>
+    <weatherPrimary>Partly Cloudy</weatherPrimary>
+    <windGust80mKPH>36</windGust80mKPH>
+    <avgDewpointF>57</avgDewpointF>
+    <windSpeedMax80mKPH>36</windSpeedMax80mKPH>
+    <windGust80mKTS>20</windGust80mKTS>
+    <avgDewpointC>14</avgDewpointC>
+    <precipIN>0</precipIN>
+    <windSpeedMax80mKTS>20</windSpeedMax80mKTS>
+    <windDirMinDEG>356</windDirMinDEG>
+    <windSpeedMaxKPH>14</windSpeedMaxKPH>
+    <windSpeedMin80mKTS>5</windSpeedMin80mKTS>
+    <feelslikeF>67</feelslikeF>
+    <validTime>2022-10-09T07:00:00+02:00</validTime>
+    <windSpeedMin80mMPH>6</windSpeedMin80mMPH>
+    <solradMaxWM2>726</solradMaxWM2>
+    <avgTempC>25</avgTempC>
+    <windSpeedMin80mKPH>9</windSpeedMin80mKPH>
+    <weatherPrimaryCoded>::SC</weatherPrimaryCoded>
+    <sunrise>1665287583</sunrise>
+    <avgTempF>77</avgTempF>
+    <windDirMin>N</windDirMin>
+    <maxCoverage/>
+    <icon>pcloudy.png</icon>
+    <minFeelslikeC>20</minFeelslikeC>
+    <dewpointC>17</dewpointC>
+    <cloudsCoded>SC</cloudsCoded>
+    <minFeelslikeF>67</minFeelslikeF>
+    <minHumidity>31</minHumidity>
+    <dewpointF>63</dewpointF>
+    <windSpeed80mKTS>5</windSpeed80mKTS>
+    <pop>0</pop>
+    <snowCM>0</snowCM>
+    <windDirMax>NNW</windDirMax>
+    <windSpeed80mMPH>6</windSpeed80mMPH>
+    <windSpeed80mKPH>9</windSpeed80mKPH>
+    <windDir80mDEG>316</windDir80mDEG>
+    <maxTempC>31</maxTempC>
+    <pressureMB>1016</pressureMB>
+    <visibilityKM>24.135</visibilityKM>
+    <timestamp>1665291600</timestamp>
+    <maxTempF>87</maxTempF>
+    <tempF>null</tempF>
+    <minDewpointC>11</minDewpointC>
+    <solradMinWM2>0</solradMinWM2>
+    <windSpeedMinKTS>2</windSpeedMinKTS>
+    <windDirMax80mDEG>354</windDirMax80mDEG>
+    <windGustKTS>19</windGustKTS>
+    <windSpeedMinKPH>4</windSpeedMinKPH>
+    <maxDewpointF>63</maxDewpointF>
+    <windSpeedMinMPH>2</windSpeedMinMPH>
+    <avgFeelslikeC>25</avgFeelslikeC>
+    <uvi>7</uvi>
+    <windDirMax80m>N</windDirMax80m>
+    <maxDewpointC>17</maxDewpointC>
+    <pressureIN>29.99</pressureIN>
+    <avgFeelslikeF>77</avgFeelslikeF>
+    <iceaccum>null</iceaccum>
+    <isDay>true</isDay>
+    <minTempC>19</minTempC>
+    <minDewpointF>52</minDewpointF>
+    <windSpeedKTS>2</windSpeedKTS>
+    <sunset>1665329491</sunset>
+    <solradWM2>4768</solradWM2>
+    <windSpeedKPH>4</windSpeedKPH>
+    <windGustMPH>22</windGustMPH>
+    <maxHumidity>86</maxHumidity>
+    <windSpeedMPH>2</windSpeedMPH>
+    <windGustKPH>36</windGustKPH>
+    <windDirMaxDEG>343</windDirMaxDEG>
+    <tempC>null</tempC>
+  </periods>
+  <periods>
+    <dateTimeISO>2022-10-10T07:00:00+02:00</dateTimeISO>
+    <windDirMin80m>E</windDirMin80m>
+    <windDirMin80mDEG>91</windDirMin80mDEG>
+    <feelslikeC>21</feelslikeC>
+    <visibilityMI>15</visibilityMI>
+    <windSpeedMaxMPH>9</windSpeedMaxMPH>
+    <windDirDEG>358</windDirDEG>
+    <windDir>N</windDir>
+    <sunriseISO>2022-10-10T05:53:40+02:00</sunriseISO>
+    <iceaccumMM>null</iceaccumMM>
+    <windSpeedMaxKTS>8</windSpeedMaxKTS>
+    <iceaccumIN>null</iceaccumIN>
+    <minTempF>70</minTempF>
+    <snowIN>0</snowIN>
+    <weather>Partly Cloudy</weather>
+    <sunsetISO>2022-10-10T17:30:21+02:00</sunsetISO>
+    <maxFeelslikeC>30</maxFeelslikeC>
+    <humidity>75</humidity>
+    <windDir80m>N</windDir80m>
+    <maxFeelslikeF>86</maxFeelslikeF>
+    <precipMM>0</precipMM>
+    <sky>64</sky>
+    <windGust80mMPH>22</windGust80mMPH>
+    <windSpeedMax80mMPH>22</windSpeedMax80mMPH>
+    <weatherPrimary>Partly Cloudy</weatherPrimary>
+    <windGust80mKPH>36</windGust80mKPH>
+    <avgDewpointF>58</avgDewpointF>
+    <windSpeedMax80mKPH>36</windSpeedMax80mKPH>
+    <windGust80mKTS>19</windGust80mKTS>
+    <avgDewpointC>14</avgDewpointC>
+    <precipIN>0</precipIN>
+    <windSpeedMax80mKTS>19</windSpeedMax80mKTS>
+    <windDirMinDEG>358</windDirMinDEG>
+    <windSpeedMaxKPH>15</windSpeedMaxKPH>
+    <windSpeedMin80mKTS>7</windSpeedMin80mKTS>
+    <feelslikeF>69</feelslikeF>
+    <validTime>2022-10-10T07:00:00+02:00</validTime>
+    <windSpeedMin80mMPH>8</windSpeedMin80mMPH>
+    <solradMaxWM2>597</solradMaxWM2>
+    <avgTempC>26</avgTempC>
+    <windSpeedMin80mKPH>13</windSpeedMin80mKPH>
+    <weatherPrimaryCoded>::SC</weatherPrimaryCoded>
+    <sunrise>1665374020</sunrise>
+    <avgTempF>78</avgTempF>
+    <windDirMin>N</windDirMin>
+    <maxCoverage/>
+    <icon>pcloudy.png</icon>
+    <minFeelslikeC>21</minFeelslikeC>
+    <dewpointC>16</dewpointC>
+    <cloudsCoded>SC</cloudsCoded>
+    <minFeelslikeF>69</minFeelslikeF>
+    <minHumidity>35</minHumidity>
+    <dewpointF>61</dewpointF>
+    <windSpeed80mKTS>7</windSpeed80mKTS>
+    <pop>0</pop>
+    <snowCM>0</snowCM>
+    <windDirMax>N</windDirMax>
+    <windSpeed80mMPH>8</windSpeed80mMPH>
+    <windSpeed80mKPH>13</windSpeed80mKPH>
+    <windDir80mDEG>8</windDir80mDEG>
+    <maxTempC>31</maxTempC>
+    <pressureMB>1017</pressureMB>
+    <visibilityKM>24.135</visibilityKM>
+    <timestamp>1665378000</timestamp>
+    <maxTempF>87</maxTempF>
+    <tempF>null</tempF>
+    <minDewpointC>13</minDewpointC>
+    <solradMinWM2>0</solradMinWM2>
+    <windSpeedMinKTS>2</windSpeedMinKTS>
+    <windDirMax80mDEG>10</windDirMax80mDEG>
+    <windGustKTS>16</windGustKTS>
+    <windSpeedMinKPH>4</windSpeedMinKPH>
+    <maxDewpointF>61</maxDewpointF>
+    <windSpeedMinMPH>2</windSpeedMinMPH>
+    <avgFeelslikeC>25</avgFeelslikeC>
+    <uvi>6</uvi>
+    <windDirMax80m>N</windDirMax80m>
+    <maxDewpointC>16</maxDewpointC>
+    <pressureIN>30.03</pressureIN>
+    <avgFeelslikeF>78</avgFeelslikeF>
+    <iceaccum>null</iceaccum>
+    <isDay>true</isDay>
+    <minTempC>21</minTempC>
+    <minDewpointF>55</minDewpointF>
+    <windSpeedKTS>2</windSpeedKTS>
+    <sunset>1665415821</sunset>
+    <solradWM2>4494</solradWM2>
+    <windSpeedKPH>4</windSpeedKPH>
+    <windGustMPH>19</windGustMPH>
+    <maxHumidity>75</maxHumidity>
+    <windSpeedMPH>2</windSpeedMPH>
+    <windGustKPH>30</windGustKPH>
+    <windDirMaxDEG>10</windDirMaxDEG>
+    <tempC>null</tempC>
+  </periods>
+  <periods>
+    <dateTimeISO>2022-10-11T07:00:00+02:00</dateTimeISO>
+    <windDirMin80m>NNE</windDirMin80m>
+    <windDirMin80mDEG>13</windDirMin80mDEG>
+    <feelslikeC>22</feelslikeC>
+    <visibilityMI>15</visibilityMI>
+    <windSpeedMaxMPH>18</windSpeedMaxMPH>
+    <windDirDEG>13</windDirDEG>
+    <windDir>NNE</windDir>
+    <sunriseISO>2022-10-11T05:54:18+02:00</sunriseISO>
+    <iceaccumMM>null</iceaccumMM>
+    <windSpeedMaxKTS>15</windSpeedMaxKTS>
+    <iceaccumIN>null</iceaccumIN>
+    <minTempF>70</minTempF>
+    <snowIN>0</snowIN>
+    <weather>Sunny</weather>
+    <sunsetISO>2022-10-11T17:29:13+02:00</sunsetISO>
+    <maxFeelslikeC>31</maxFeelslikeC>
+    <humidity>71</humidity>
+    <windDir80m>NNE</windDir80m>
+    <maxFeelslikeF>87</maxFeelslikeF>
+    <precipMM>0</precipMM>
+    <sky>0</sky>
+    <windGust80mMPH>19</windGust80mMPH>
+    <windSpeedMax80mMPH>19</windSpeedMax80mMPH>
+    <weatherPrimary>Sunny</weatherPrimary>
+    <windGust80mKPH>31</windGust80mKPH>
+    <avgDewpointF>55</avgDewpointF>
+    <windSpeedMax80mKPH>31</windSpeedMax80mKPH>
+    <windGust80mKTS>17</windGust80mKTS>
+    <avgDewpointC>13</avgDewpointC>
+    <precipIN>0</precipIN>
+    <windSpeedMax80mKTS>17</windSpeedMax80mKTS>
+    <windDirMinDEG>14</windDirMinDEG>
+    <windSpeedMaxKPH>28</windSpeedMaxKPH>
+    <windSpeedMin80mKTS>9</windSpeedMin80mKTS>
+    <feelslikeF>72</feelslikeF>
+    <validTime>2022-10-11T07:00:00+02:00</validTime>
+    <windSpeedMin80mMPH>11</windSpeedMin80mMPH>
+    <solradMaxWM2>758</solradMaxWM2>
+    <avgTempC>26</avgTempC>
+    <windSpeedMin80mKPH>18</windSpeedMin80mKPH>
+    <weatherPrimaryCoded>::CL</weatherPrimaryCoded>
+    <sunrise>1665460458</sunrise>
+    <avgTempF>78</avgTempF>
+    <windDirMin>NNE</windDirMin>
+    <maxCoverage/>
+    <icon>sunny.png</icon>
+    <minFeelslikeC>22</minFeelslikeC>
+    <dewpointC>17</dewpointC>
+    <cloudsCoded>CL</cloudsCoded>
+    <minFeelslikeF>72</minFeelslikeF>
+    <minHumidity>30</minHumidity>
+    <dewpointF>62</dewpointF>
+    <windSpeed80mKTS>10</windSpeed80mKTS>
+    <pop>0</pop>
+    <snowCM>0</snowCM>
+    <windDirMax>NNE</windDirMax>
+    <windSpeed80mMPH>12</windSpeed80mMPH>
+    <windSpeed80mKPH>19</windSpeed80mKPH>
+    <windDir80mDEG>16</windDir80mDEG>
+    <maxTempC>31</maxTempC>
+    <pressureMB>1015</pressureMB>
+    <visibilityKM>24.135</visibilityKM>
+    <timestamp>1665464400</timestamp>
+    <maxTempF>87</maxTempF>
+    <tempF>null</tempF>
+    <minDewpointC>11</minDewpointC>
+    <solradMinWM2>0</solradMinWM2>
+    <windSpeedMinKTS>7</windSpeedMinKTS>
+    <windDirMax80mDEG>28</windDirMax80mDEG>
+    <windGustKTS>15</windGustKTS>
+    <windSpeedMinKPH>14</windSpeedMinKPH>
+    <maxDewpointF>62</maxDewpointF>
+    <windSpeedMinMPH>8</windSpeedMinMPH>
+    <avgFeelslikeC>26</avgFeelslikeC>
+    <uvi>null</uvi>
+    <windDirMax80m>NNE</windDirMax80m>
+    <maxDewpointC>17</maxDewpointC>
+    <pressureIN>29.98</pressureIN>
+    <avgFeelslikeF>79</avgFeelslikeF>
+    <iceaccum>null</iceaccum>
+    <isDay>true</isDay>
+    <minTempC>21</minTempC>
+    <minDewpointF>51</minDewpointF>
+    <windSpeedKTS>8</windSpeedKTS>
+    <sunset>1665502153</sunset>
+    <solradWM2>5450</solradWM2>
+    <windSpeedKPH>15</windSpeedKPH>
+    <windGustMPH>17</windGustMPH>
+    <maxHumidity>71</maxHumidity>
+    <windSpeedMPH>9</windSpeedMPH>
+    <windGustKPH>28</windGustKPH>
+    <windDirMaxDEG>28</windDirMaxDEG>
+    <tempC>null</tempC>
+  </periods>
+  <periods>
+    <dateTimeISO>2022-10-12T07:00:00+02:00</dateTimeISO>
+    <windDirMin80m>NNE</windDirMin80m>
+    <windDirMin80mDEG>15</windDirMin80mDEG>
+    <feelslikeC>22</feelslikeC>
+    <visibilityMI>15</visibilityMI>
+    <windSpeedMaxMPH>16</windSpeedMaxMPH>
+    <windDirDEG>12</windDirDEG>
+    <windDir>NNE</windDir>
+    <sunriseISO>2022-10-12T05:54:55+02:00</sunriseISO>
+    <iceaccumMM>null</iceaccumMM>
+    <windSpeedMaxKTS>14</windSpeedMaxKTS>
+    <iceaccumIN>null</iceaccumIN>
+    <minTempF>69</minTempF>
+    <snowIN>0</snowIN>
+    <weather>Mostly Sunny</weather>
+    <sunsetISO>2022-10-12T17:28:04+02:00</sunsetISO>
+    <maxFeelslikeC>31</maxFeelslikeC>
+    <humidity>68</humidity>
+    <windDir80m>NNE</windDir80m>
+    <maxFeelslikeF>88</maxFeelslikeF>
+    <precipMM>0</precipMM>
+    <sky>27</sky>
+    <windGust80mMPH>21</windGust80mMPH>
+    <windSpeedMax80mMPH>21</windSpeedMax80mMPH>
+    <weatherPrimary>Mostly Sunny</weatherPrimary>
+    <windGust80mKPH>33</windGust80mKPH>
+    <avgDewpointF>55</avgDewpointF>
+    <windSpeedMax80mKPH>33</windSpeedMax80mKPH>
+    <windGust80mKTS>18</windGust80mKTS>
+    <avgDewpointC>13</avgDewpointC>
+    <precipIN>0</precipIN>
+    <windSpeedMax80mKTS>18</windSpeedMax80mKTS>
+    <windDirMinDEG>12</windDirMinDEG>
+    <windSpeedMaxKPH>26</windSpeedMaxKPH>
+    <windSpeedMin80mKTS>10</windSpeedMin80mKTS>
+    <feelslikeF>72</feelslikeF>
+    <validTime>2022-10-12T07:00:00+02:00</validTime>
+    <windSpeedMin80mMPH>11</windSpeedMin80mMPH>
+    <solradMaxWM2>743</solradMaxWM2>
+    <avgTempC>26</avgTempC>
+    <windSpeedMin80mKPH>18</windSpeedMin80mKPH>
+    <weatherPrimaryCoded>::FW</weatherPrimaryCoded>
+    <sunrise>1665546895</sunrise>
+    <avgTempF>79</avgTempF>
+    <windDirMin>NNE</windDirMin>
+    <maxCoverage/>
+    <icon>fair.png</icon>
+    <minFeelslikeC>22</minFeelslikeC>
+    <dewpointC>16</dewpointC>
+    <cloudsCoded>FW</cloudsCoded>
+    <minFeelslikeF>72</minFeelslikeF>
+    <minHumidity>29</minHumidity>
+    <dewpointF>60</dewpointF>
+    <windSpeed80mKTS>10</windSpeed80mKTS>
+    <pop>0</pop>
+    <snowCM>0</snowCM>
+    <windDirMax>E</windDirMax>
+    <windSpeed80mMPH>12</windSpeed80mMPH>
+    <windSpeed80mKPH>19</windSpeed80mKPH>
+    <windDir80mDEG>15</windDir80mDEG>
+    <maxTempC>31</maxTempC>
+    <pressureMB>1014</pressureMB>
+    <visibilityKM>24.135</visibilityKM>
+    <timestamp>1665550800</timestamp>
+    <maxTempF>88</maxTempF>
+    <tempF>null</tempF>
+    <minDewpointC>11</minDewpointC>
+    <solradMinWM2>0</solradMinWM2>
+    <windSpeedMinKTS>7</windSpeedMinKTS>
+    <windDirMax80mDEG>96</windDirMax80mDEG>
+    <windGustKTS>15</windGustKTS>
+    <windSpeedMinKPH>13</windSpeedMinKPH>
+    <maxDewpointF>60</maxDewpointF>
+    <windSpeedMinMPH>8</windSpeedMinMPH>
+    <avgFeelslikeC>26</avgFeelslikeC>
+    <uvi>null</uvi>
+    <windDirMax80m>E</windDirMax80m>
+    <maxDewpointC>16</maxDewpointC>
+    <pressureIN>29.95</pressureIN>
+    <avgFeelslikeF>80</avgFeelslikeF>
+    <iceaccum>null</iceaccum>
+    <isDay>true</isDay>
+    <minTempC>21</minTempC>
+    <minDewpointF>51</minDewpointF>
+    <windSpeedKTS>8</windSpeedKTS>
+    <sunset>1665588484</sunset>
+    <solradWM2>4740</solradWM2>
+    <windSpeedKPH>15</windSpeedKPH>
+    <windGustMPH>17</windGustMPH>
+    <maxHumidity>68</maxHumidity>
+    <windSpeedMPH>9</windSpeedMPH>
+    <windGustKPH>28</windGustKPH>
+    <windDirMaxDEG>96</windDirMaxDEG>
+    <tempC>null</tempC>
+  </periods>
+  <interval>day</interval>
+  <place>
+    <country>eg</country>
+    <name>cairo</name>
+    <state>qh</state>
+  </place>
+</response]>
+<error>null</error...> but was:<<[response>
+  <profile>
+    <elevFT>75</elevFT>
+    <tz>Africa/Cairo</tz>
+    <elevM>23</elevM>
+  </profile>
+  <loc>
+    <lat>30.063</lat>
+    <long>31.25</long>
+  </loc>
+  <place>
+    <country>eg</country>
+    <name>cairo</name>
+    <state>qh</state>
+  </place>
+  <periods>
+    <windDirMinDEG>353</windDirMinDEG>
+    <windSpeedMinKPH>2</windSpeedMinKPH>
+    <avgDewpointF>58</avgDewpointF>
+    <feelslikeC>21</feelslikeC>
+    <weather>Mostly Sunny</weather>
+    <icon>fair.png</icon>
+    <maxCoverage/>
+    <maxTempC>32</maxTempC>
+    <windSpeedMin80mMPH>10</windSpeedMin80mMPH>
+    <windDirMax>NNW</windDirMax>
+    <sunrise>1665028274</sunrise>
+    <precipIN>0</precipIN>
+    <minFeelslikeC>21</minFeelslikeC>
+    <validTime>2022-10-06T07:00:00+02:00</validTime>
+    <windDir>N</windDir>
+    <avgDewpointC>14</avgDewpointC>
+    <windDir80mDEG>11</windDir80mDEG>
+    <windSpeedMax80mKPH>41</windSpeedMax80mKPH>
+    <iceaccum>null</iceaccum>
+    <maxFeelslikeC>32</maxFeelslikeC>
+    <pressureMB>1015</pressureMB>
+    <maxHumidity>77</maxHumidity>
+    <windGust80mKTS>22</windGust80mKTS>
+    <iceaccumMM>null</iceaccumMM>
+    <cloudsCoded>FW</cloudsCoded>
+    <windSpeedMinKTS>1</windSpeedMinKTS>
+    <visibilityMI>15</visibilityMI>
+    <minTempF>66</minTempF>
+    <maxDewpointF>63</maxDewpointF>
+    <sky>22</sky>
+    <avgTempC>25</avgTempC>
+    <avgFeelslikeC>26</avgFeelslikeC>
+    <sunset>1665070502</sunset>
+    <maxFeelslikeF>89</maxFeelslikeF>
+    <precipMM>0</precipMM>
+    <windSpeedMaxMPH>10</windSpeedMaxMPH>
+    <solradMaxWM2>778</solradMaxWM2>
+    <uvi>6</uvi>
+    <pressureIN>29.97</pressureIN>
+    <windSpeedMPH>6</windSpeedMPH>
+    <iceaccumIN>null</iceaccumIN>
+    <windSpeed80mMPH>13</windSpeed80mMPH>
+    <windDir80m>N</windDir80m>
+    <snowIN>0</snowIN>
+    <windGustKPH>40</windGustKPH>
+    <minDewpointF>52</minDewpointF>
+    <windSpeedMax80mKTS>22</windSpeedMax80mKTS>
+    <windDirDEG>353</windDirDEG>
+    <minTempC>19</minTempC>
+    <isDay>true</isDay>
+    <maxTempF>90</maxTempF>
+    <windSpeedMaxKTS>9</windSpeedMaxKTS>
+    <windGust80mMPH>25</windGust80mMPH>
+    <feelslikeF>70</feelslikeF>
+    <windSpeedMax80mMPH>25</windSpeedMax80mMPH>
+    <sunsetISO>2022-10-06T17:35:02+02:00</sunsetISO>
+    <windSpeedMin80mKTS>8</windSpeedMin80mKTS>
+    <windSpeedKPH>9</windSpeedKPH>
+    <dewpointF>63</dewpointF>
+    <solradMinWM2>0</solradMinWM2>
+    <pop>0</pop>
+    <visibilityKM>24.135</visibilityKM>
+    <windSpeedMaxKPH>16</windSpeedMaxKPH>
+    <windSpeed80mKPH>22</windSpeed80mKPH>
+    <windGust80mKPH>41</windGust80mKPH>
+    <minHumidity>29</minHumidity>
+    <windDirMin80m>E</windDirMin80m>
+    <minFeelslikeF>70</minFeelslikeF>
+    <humidity>77</humidity>
+    <tempF>null</tempF>
+    <weatherPrimaryCoded>::FW</weatherPrimaryCoded>
+    <minDewpointC>11</minDewpointC>
+    <snowCM>0</snowCM>
+    <windGustMPH>25</windGustMPH>
+    <windSpeedKTS>5</windSpeedKTS>
+    <windDirMax80mDEG>343</windDirMax80mDEG>
+    <windSpeed80mKTS>12</windSpeed80mKTS>
+    <windDirMin80mDEG>95</windDirMin80mDEG>
+    <avgFeelslikeF>80</avgFeelslikeF>
+    <timestamp>1665032400</timestamp>
+    <maxDewpointC>17</maxDewpointC>
+    <windDirMax80m>NNW</windDirMax80m>
+    <windDirMin>N</windDirMin>
+    <sunriseISO>2022-10-06T05:51:14+02:00</sunriseISO>
+    <dewpointC>17</dewpointC>
+    <windDirMaxDEG>342</windDirMaxDEG>
+    <windSpeedMinMPH>1</windSpeedMinMPH>
+    <tempC>null</tempC>
+    <windGustKTS>21</windGustKTS>
+    <avgTempF>78</avgTempF>
+    <weatherPrimary>Mostly Sunny</weatherPrimary>
+    <solradWM2>5608</solradWM2>
+    <windSpeedMin80mKPH>15</windSpeedMin80mKPH>
+    <dateTimeISO>2022-10-06T07:00:00+02:00</dateTimeISO>
+  </periods>
+  <periods>
+    <dateTimeISO>2022-10-07T07:00:00+02:00</dateTimeISO>
+    <humidity>77</humidity>
+    <windGust80mKTS>20</windGust80mKTS>
+    <snowIN>0</snowIN>
+    <windDirMin80m>NNW</windDirMin80m>
+    <tempF>null</tempF>
+    <windSpeed80mKPH>10</windSpeed80mKPH>
+    <uvi>6</uvi>
+    <maxFeelslikeF>85</maxFeelslikeF>
+    <visibilityMI>15</visibilityMI>
+    <windGustKTS>16</windGustKTS>
+    <windSpeedKPH>2</windSpeedKPH>
+    <timestamp>1665118800</timestamp>
+    <iceaccumIN>null</iceaccumIN>
+    <windGust80mMPH>23</windGust80mMPH>
+    <tempC>null</tempC>
+    <pressureMB>1014</pressureMB>
+    <pressureIN>29.95</pressureIN>
+    <minFeelslikeC>19</minFeelslikeC>
+    <windSpeedMin80mKPH>10</windSpeedMin80mKPH>
+    <maxTempC>30</maxTempC>
+    <windDirMax80mDEG>316</windDirMax80mDEG>
+    <windSpeedMaxMPH>8</windSpeedMaxMPH>
+    <windGustKPH>29</windGustKPH>
+    <precipIN>0</precipIN>
+    <windSpeedMin80mMPH>6</windSpeedMin80mMPH>
+    <feelslikeF>67</feelslikeF>
+    <windDirDEG>325</windDirDEG>
+    <avgFeelslikeF>76</avgFeelslikeF>
+    <windSpeedMinKPH>2</windSpeedMinKPH>
+    <windSpeed80mMPH>6</windSpeed80mMPH>
+    <iceaccum>null</iceaccum>
+    <solradMinWM2>0</solradMinWM2>
+    <windDir>NW</windDir>
+    <maxCoverage/>
+    <windSpeedMax80mKPH>37</windSpeedMax80mKPH>
+    <windDirMin80mDEG>347</windDirMin80mDEG>
+    <snowCM>0</snowCM>
+    <windDirMaxDEG>298</windDirMaxDEG>
+    <precipMM>0</precipMM>
+    <windSpeed80mKTS>6</windSpeed80mKTS>
+    <windSpeedMinKTS>1</windSpeedMinKTS>
+    <isDay>true</isDay>
+    <solradMaxWM2>742</solradMaxWM2>
+    <minTempF>66</minTempF>
+    <icon>fair.png</icon>
+    <windDirMinDEG>325</windDirMinDEG>
+    <windGust80mKPH>37</windGust80mKPH>
+    <maxDewpointC>15</maxDewpointC>
+    <sunsetISO>2022-10-07T17:33:51+02:00</sunsetISO>
+    <maxHumidity>77</maxHumidity>
+    <weatherPrimaryCoded>::FW</weatherPrimaryCoded>
+    <windDirMax>WNW</windDirMax>
+    <minDewpointF>50</minDewpointF>
+    <windSpeedMax80mKTS>20</windSpeedMax80mKTS>
+    <windSpeedMin80mKTS>6</windSpeedMin80mKTS>
+    <dewpointF>60</dewpointF>
+    <windSpeedMinMPH>1</windSpeedMinMPH>
+    <maxDewpointF>60</maxDewpointF>
+    <windDirMin>NW</windDirMin>
+    <windGustMPH>18</windGustMPH>
+    <windSpeedMaxKPH>13</windSpeedMaxKPH>
+    <sky>30</sky>
+    <windSpeedMax80mMPH>23</windSpeedMax80mMPH>
+    <windDirMax80m>NW</windDirMax80m>
+    <windSpeedKTS>1</windSpeedKTS>
+    <maxFeelslikeC>29</maxFeelslikeC>
+    <validTime>2022-10-07T07:00:00+02:00</validTime>
+    <avgTempF>76</avgTempF>
+    <minTempC>19</minTempC>
+    <avgFeelslikeC>24</avgFeelslikeC>
+    <minHumidity>30</minHumidity>
+    <windDir80mDEG>347</windDir80mDEG>
+    <solradWM2>5486</solradWM2>
+    <sunrise>1665114710</sunrise>
+    <windSpeedMPH>1</windSpeedMPH>
+    <sunset>1665156831</sunset>
+    <avgDewpointC>12</avgDewpointC>
+    <weatherPrimary>Mostly Sunny</weatherPrimary>
+    <weather>Mostly Sunny</weather>
+    <avgDewpointF>54</avgDewpointF>
+    <minDewpointC>10</minDewpointC>
+    <sunriseISO>2022-10-07T05:51:50+02:00</sunriseISO>
+    <cloudsCoded>FW</cloudsCoded>
+    <feelslikeC>19</feelslikeC>
+    <pop>0</pop>
+    <windDir80m>NNW</windDir80m>
+    <iceaccumMM>null</iceaccumMM>
+    <windSpeedMaxKTS>7</windSpeedMaxKTS>
+    <minFeelslikeF>67</minFeelslikeF>
+    <maxTempF>86</maxTempF>
+    <avgTempC>24</avgTempC>
+    <dewpointC>15</dewpointC>
+    <visibilityKM>24.135</visibilityKM>
+  </periods>
+  <periods>
+    <iceaccumIN>null</iceaccumIN>
+    <humidity>76</humidity>
+    <visibilityKM>24.135</visibilityKM>
+    <minTempF>66</minTempF>
+    <minFeelslikeF>67</minFeelslikeF>
+    <minDewpointC>11</minDewpointC>
+    <visibilityMI>15</visibilityMI>
+    <precipIN>0</precipIN>
+    <avgDewpointC>13</avgDewpointC>
+    <maxHumidity>76</maxHumidity>
+    <windSpeedMinKPH>2</windSpeedMinKPH>
+    <iceaccumMM>null</iceaccumMM>
+    <windSpeedKPH>2</windSpeedKPH>
+    <minDewpointF>52</minDewpointF>
+    <windDirMax80mDEG>322</windDirMax80mDEG>
+    <windDir80m>NW</windDir80m>
+    <sunsetISO>2022-10-08T17:32:41+02:00</sunsetISO>
+    <sunriseISO>2022-10-08T05:52:26+02:00</sunriseISO>
+    <windDirMinDEG>21</windDirMinDEG>
+    <weather>Partly Cloudy</weather>
+    <solradMinWM2>0</solradMinWM2>
+    <windSpeedMaxKPH>13</windSpeedMaxKPH>
+    <feelslikeC>19</feelslikeC>
+    <sky>47</sky>
+    <windSpeedMinMPH>1</windSpeedMinMPH>
+    <windSpeedMax80mMPH>19</windSpeedMax80mMPH>
+    <minFeelslikeC>19</minFeelslikeC>
+    <maxDewpointF>59</maxDewpointF>
+    <windGust80mMPH>19</windGust80mMPH>
+    <windSpeedKTS>1</windSpeedKTS>
+    <avgDewpointF>56</avgDewpointF>
+    <pressureMB>1014</pressureMB>
+    <windSpeed80mKPH>9</windSpeed80mKPH>
+    <maxDewpointC>15</maxDewpointC>
+    <isDay>true</isDay>
+    <avgFeelslikeF>76</avgFeelslikeF>
+    <sunrise>1665201146</sunrise>
+    <windDirMin80mDEG>309</windDirMin80mDEG>
+    <windSpeedMPH>1</windSpeedMPH>
+    <windGust80mKPH>31</windGust80mKPH>
+    <uvi>7</uvi>
+    <windGustKTS>17</windGustKTS>
+    <avgTempC>25</avgTempC>
+    <tempF>null</tempF>
+    <windDirMin80m>NW</windDirMin80m>
+    <snowCM>0</snowCM>
+    <windGustKPH>32</windGustKPH>
+    <dateTimeISO>2022-10-08T07:00:00+02:00</dateTimeISO>
+    <windSpeedMinKTS>1</windSpeedMinKTS>
+    <minTempC>19</minTempC>
+    <windDirMaxDEG>301</windDirMaxDEG>
+    <windSpeed80mKTS>5</windSpeed80mKTS>
+    <timestamp>1665205200</timestamp>
+    <icon>pcloudy.png</icon>
+    <windSpeedMaxMPH>8</windSpeedMaxMPH>
+    <windDirMax>WNW</windDirMax>
+    <pressureIN>29.94</pressureIN>
+    <windSpeedMin80mMPH>5</windSpeedMin80mMPH>
+    <solradMaxWM2>682</solradMaxWM2>
+    <maxCoverage/>
+    <avgFeelslikeC>25</avgFeelslikeC>
+    <windDirMin>NNE</windDirMin>
+    <solradWM2>4785</solradWM2>
+    <sunset>1665243161</sunset>
+    <windGust80mKTS>17</windGust80mKTS>
+    <windSpeed80mMPH>5</windSpeed80mMPH>
+    <maxTempC>30</maxTempC>
+    <windDir>NNE</windDir>
+    <windSpeedMaxKTS>7</windSpeedMaxKTS>
+    <precipMM>0</precipMM>
+    <dewpointF>59</dewpointF>
+    <cloudsCoded>SC</cloudsCoded>
+    <validTime>2022-10-08T07:00:00+02:00</validTime>
+    <windDir80mDEG>309</windDir80mDEG>
+    <windGustMPH>20</windGustMPH>
+    <windSpeedMax80mKTS>17</windSpeedMax80mKTS>
+    <dewpointC>15</dewpointC>
+    <maxFeelslikeC>30</maxFeelslikeC>
+    <windDirMax80m>NW</windDirMax80m>
+    <windSpeedMin80mKTS>5</windSpeedMin80mKTS>
+    <avgTempF>76</avgTempF>
+    <windSpeedMax80mKPH>31</windSpeedMax80mKPH>
+    <weatherPrimary>Partly Cloudy</weatherPrimary>
+    <windDirDEG>21</windDirDEG>
+    <pop>0</pop>
+    <windSpeedMin80mKPH>9</windSpeedMin80mKPH>
+    <iceaccum>null</iceaccum>
+    <snowIN>0</snowIN>
+    <maxFeelslikeF>86</maxFeelslikeF>
+    <maxTempF>87</maxTempF>
+    <feelslikeF>67</feelslikeF>
+    <minHumidity>32</minHumidity>
+    <tempC>null</tempC>
+    <weatherPrimaryCoded>::SC</weatherPrimaryCoded>
+  </periods>
+  <periods>
+    <validTime>2022-10-09T07:00:00+02:00</validTime>
+    <minDewpointC>11</minDewpointC>
+    <windSpeedKTS>2</windSpeedKTS>
+    <pressureMB>1016</pressureMB>
+    <minTempC>19</minTempC>
+    <weatherPrimary>Partly Cloudy</weatherPrimary>
+    <windDirMinDEG>356</windDirMinDEG>
+    <sunset>1665329491</sunset>
+    <pop>0</pop>
+    <windSpeedMaxKTS>8</windSpeedMaxKTS>
+    <windDirMin80m>NW</windDirMin80m>
+    <avgDewpointC>14</avgDewpointC>
+    <solradMaxWM2>726</solradMaxWM2>
+    <dewpointF>63</dewpointF>
+    <avgFeelslikeC>25</avgFeelslikeC>
+    <windDirMax80mDEG>354</windDirMax80mDEG>
+    <windDirMin80mDEG>316</windDirMin80mDEG>
+    <windSpeed80mKTS>5</windSpeed80mKTS>
+    <windDir>N</windDir>
+    <windDirMaxDEG>343</windDirMaxDEG>
+    <minFeelslikeC>20</minFeelslikeC>
+    <visibilityMI>15</visibilityMI>
+    <dewpointC>17</dewpointC>
+    <sunrise>1665287583</sunrise>
+    <windGust80mKPH>36</windGust80mKPH>
+    <avgDewpointF>57</avgDewpointF>
+    <cloudsCoded>SC</cloudsCoded>
+    <windGustKTS>19</windGustKTS>
+    <windSpeedMPH>2</windSpeedMPH>
+    <feelslikeF>67</feelslikeF>
+    <windSpeedKPH>4</windSpeedKPH>
+    <maxDewpointC>17</maxDewpointC>
+    <windDirDEG>356</windDirDEG>
+    <windDirMax80m>N</windDirMax80m>
+    <tempC>null</tempC>
+    <solradMinWM2>0</solradMinWM2>
+    <windSpeedMax80mKTS>20</windSpeedMax80mKTS>
+    <uvi>7</uvi>
+    <windSpeedMin80mMPH>6</windSpeedMin80mMPH>
+    <windDir80m>NW</windDir80m>
+    <sunriseISO>2022-10-09T05:53:03+02:00</sunriseISO>
+    <snowCM>0</snowCM>
+    <minHumidity>31</minHumidity>
+    <timestamp>1665291600</timestamp>
+    <windSpeedMax80mKPH>36</windSpeedMax80mKPH>
+    <windGust80mMPH>23</windGust80mMPH>
+    <maxFeelslikeF>86</maxFeelslikeF>
+    <visibilityKM>24.135</visibilityKM>
+    <maxHumidity>86</maxHumidity>
+    <pressureIN>29.99</pressureIN>
+    <iceaccumMM>null</iceaccumMM>
+    <windSpeed80mKPH>9</windSpeed80mKPH>
+    <icon>pcloudy.png</icon>
+    <precipIN>0</precipIN>
+    <iceaccum>null</iceaccum>
+    <windSpeedMin80mKTS>5</windSpeedMin80mKTS>
+    <minDewpointF>52</minDewpointF>
+    <windDirMin>N</windDirMin>
+    <maxTempC>31</maxTempC>
+    <humidity>86</humidity>
+    <maxDewpointF>63</maxDewpointF>
+    <minFeelslikeF>67</minFeelslikeF>
+    <windSpeedMax80mMPH>23</windSpeedMax80mMPH>
+    <windGustMPH>22</windGustMPH>
+    <maxFeelslikeC>30</maxFeelslikeC>
+    <tempF>null</tempF>
+    <weatherPrimaryCoded>::SC</weatherPrimaryCoded>
+    <solradWM2>4768</solradWM2>
+    <snowIN>0</snowIN>
+    <maxCoverage/>
+    <windGust80mKTS>20</windGust80mKTS>
+    <windSpeedMaxMPH>9</windSpeedMaxMPH>
+    <windSpeedMinMPH>2</windSpeedMinMPH>
+    <maxTempF>87</maxTempF>
+    <windGustKPH>36</windGustKPH>
+    <windSpeedMaxKPH>14</windSpeedMaxKPH>
+    <weather>Partly Cloudy</weather>
+    <windSpeed80mMPH>6</windSpeed80mMPH>
+    <avgFeelslikeF>77</avgFeelslikeF>
+    <avgTempF>77</avgTempF>
+    <feelslikeC>20</feelslikeC>
+    <avgTempC>25</avgTempC>
+    <windSpeedMin80mKPH>9</windSpeedMin80mKPH>
+    <sunsetISO>2022-10-09T17:31:31+02:00</sunsetISO>
+    <dateTimeISO>2022-10-09T07:00:00+02:00</dateTimeISO>
+    <iceaccumIN>null</iceaccumIN>
+    <windDirMax>NNW</windDirMax>
+    <sky>47</sky>
+    <minTempF>67</minTempF>
+    <isDay>true</isDay>
+    <precipMM>0</precipMM>
+    <windDir80mDEG>316</windDir80mDEG>
+    <windSpeedMinKPH>4</windSpeedMinKPH>
+    <windSpeedMinKTS>2</windSpeedMinKTS>
+  </periods>
+  <periods>
+    <windDir80mDEG>8</windDir80mDEG>
+    <isDay>true</isDay>
+    <iceaccumMM>null</iceaccumMM>
+    <dateTimeISO>2022-10-10T07:00:00+02:00</dateTimeISO>
+    <minHumidity>35</minHumidity>
+    <windDir>N</windDir>
+    <maxTempF>87</maxTempF>
+    <minDewpointC>13</minDewpointC>
+    <windSpeedMaxKTS>8</windSpeedMaxKTS>
+    <windDirMax80m>N</windDirMax80m>
+    <visibilityMI>15</visibilityMI>
+    <weatherPrimary>Partly Cloudy</weatherPrimary>
+    <iceaccumIN>null</iceaccumIN>
+    <tempC>null</tempC>
+    <windSpeed80mKPH>13</windSpeed80mKPH>
+    <windSpeedMaxMPH>9</windSpeedMaxMPH>
+    <humidity>75</humidity>
+    <windGust80mKTS>19</windGust80mKTS>
+    <dewpointF>61</dewpointF>
+    <sunrise>1665374020</sunrise>
+    <windDirMax80mDEG>10</windDirMax80mDEG>
+    <windSpeedMinMPH>2</windSpeedMinMPH>
+    <avgTempC>26</avgTempC>
+    <validTime>2022-10-10T07:00:00+02:00</validTime>
+    <uvi>6</uvi>
+    <windSpeedMin80mKPH>13</windSpeedMin80mKPH>
+    <precipMM>0</precipMM>
+    <windDirDEG>358</windDirDEG>
+    <maxHumidity>75</maxHumidity>
+    <pressureIN>30.03</pressureIN>
+    <windSpeedKPH>4</windSpeedKPH>
+    <icon>pcloudy.png</icon>
+    <avgDewpointC>14</avgDewpointC>
+    <minFeelslikeF>69</minFeelslikeF>
+    <windSpeedMinKPH>4</windSpeedMinKPH>
+    <windSpeedMin80mKTS>7</windSpeedMin80mKTS>
+    <avgFeelslikeF>78</avgFeelslikeF>
+    <sunsetISO>2022-10-10T17:30:21+02:00</sunsetISO>
+    <avgFeelslikeC>25</avgFeelslikeC>
+    <solradMaxWM2>597</solradMaxWM2>
+    <feelslikeF>69</feelslikeF>
+    <windDirMaxDEG>10</windDirMaxDEG>
+    <visibilityKM>24.135</visibilityKM>
+    <feelslikeC>21</feelslikeC>
+    <minTempF>70</minTempF>
+    <dewpointC>16</dewpointC>
+    <solradMinWM2>0</solradMinWM2>
+    <snowIN>0</snowIN>
+    <windGust80mMPH>22</windGust80mMPH>
+    <windSpeedMax80mKTS>19</windSpeedMax80mKTS>
+    <avgTempF>78</avgTempF>
+    <windDirMin80m>E</windDirMin80m>
+    <maxTempC>31</maxTempC>
+    <windSpeedMin80mMPH>8</windSpeedMin80mMPH>
+    <weatherPrimaryCoded>::SC</weatherPrimaryCoded>
+    <maxDewpointC>16</maxDewpointC>
+    <windSpeedMax80mKPH>36</windSpeedMax80mKPH>
+    <minFeelslikeC>21</minFeelslikeC>
+    <windDirMin80mDEG>91</windDirMin80mDEG>
+    <precipIN>0</precipIN>
+    <weather>Partly Cloudy</weather>
+    <solradWM2>4494</solradWM2>
+    <windSpeedMaxKPH>15</windSpeedMaxKPH>
+    <sunset>1665415821</sunset>
+    <windSpeedKTS>2</windSpeedKTS>
+    <maxFeelslikeC>30</maxFeelslikeC>
+    <sky>64</sky>
+    <sunriseISO>2022-10-10T05:53:40+02:00</sunriseISO>
+    <windGustKTS>16</windGustKTS>
+    <windDir80m>N</windDir80m>
+    <pop>0</pop>
+    <windDirMax>N</windDirMax>
+    <maxDewpointF>61</maxDewpointF>
+    <minDewpointF>55</minDewpointF>
+    <windDirMinDEG>358</windDirMinDEG>
+    <windSpeedMPH>2</windSpeedMPH>
+    <windGustMPH>19</windGustMPH>
+    <windSpeed80mMPH>8</windSpeed80mMPH>
+    <avgDewpointF>58</avgDewpointF>
+    <windSpeedMax80mMPH>22</windSpeedMax80mMPH>
+    <windSpeed80mKTS>7</windSpeed80mKTS>
+    <tempF>null</tempF>
+    <minTempC>21</minTempC>
+    <snowCM>0</snowCM>
+    <windGustKPH>30</windGustKPH>
+    <timestamp>1665378000</timestamp>
+    <pressureMB>1017</pressureMB>
+    <windSpeedMinKTS>2</windSpeedMinKTS>
+    <cloudsCoded>SC</cloudsCoded>
+    <windDirMin>N</windDirMin>
+    <windGust80mKPH>36</windGust80mKPH>
+    <maxCoverage/>
+    <maxFeelslikeF>86</maxFeelslikeF>
+    <iceaccum>null</iceaccum>
+  </periods>
+  <periods>
+    <windDirMaxDEG>28</windDirMaxDEG>
+    <windDirMax80mDEG>28</windDirMax80mDEG>
+    <windDirMin80m>NNE</windDirMin80m>
+    <maxCoverage/>
+    <visibilityKM>24.135</visibilityKM>
+    <maxHumidity>71</maxHumidity>
+    <precipMM>0</precipMM>
+    <weatherPrimaryCoded>::CL</weatherPrimaryCoded>
+    <solradMinWM2>0</solradMinWM2>
+    <solradWM2>5450</solradWM2>
+    <windDirMin80mDEG>13</windDirMin80mDEG>
+    <windSpeedMinKPH>14</windSpeedMinKPH>
+    <avgDewpointC>13</avgDewpointC>
+    <windDirMin>NNE</windDirMin>
+    <windSpeedKTS>8</windSpeedKTS>
+    <humidity>71</humidity>
+    <windDirDEG>13</windDirDEG>
+    <snowCM>0</snowCM>
+    <sky>0</sky>
+    <isDay>true</isDay>
+    <tempF>null</tempF>
+    <minFeelslikeC>22</minFeelslikeC>
+    <maxDewpointC>17</maxDewpointC>
+    <icon>sunny.png</icon>
+    <windDirMax80m>NNE</windDirMax80m>
+    <avgFeelslikeF>79</avgFeelslikeF>
+    <windSpeedMin80mMPH>11</windSpeedMin80mMPH>
+    <maxFeelslikeF>87</maxFeelslikeF>
+    <windGust80mKPH>31</windGust80mKPH>
+    <visibilityMI>15</visibilityMI>
+    <uvi>null</uvi>
+    <maxDewpointF>62</maxDewpointF>
+    <minFeelslikeF>72</minFeelslikeF>
+    <windDirMinDEG>14</windDirMinDEG>
+    <windSpeedMinMPH>8</windSpeedMinMPH>
+    <windSpeed80mKTS>10</windSpeed80mKTS>
+    <timestamp>1665464400</timestamp>
+    <windSpeedMin80mKTS>9</windSpeedMin80mKTS>
+    <snowIN>0</snowIN>
+    <windGust80mKTS>17</windGust80mKTS>
+    <avgTempF>78</avgTempF>
+    <maxFeelslikeC>31</maxFeelslikeC>
+    <windSpeed80mKPH>19</windSpeed80mKPH>
+    <iceaccum>null</iceaccum>
+    <windDirMax>NNE</windDirMax>
+    <windGustKTS>15</windGustKTS>
+    <sunriseISO>2022-10-11T05:54:18+02:00</sunriseISO>
+    <minTempF>70</minTempF>
+    <pop>0</pop>
+    <windGustMPH>17</windGustMPH>
+    <maxTempF>87</maxTempF>
+    <tempC>null</tempC>
+    <windSpeedKPH>15</windSpeedKPH>
+    <weatherPrimary>Sunny</weatherPrimary>
+    <precipIN>0</precipIN>
+    <dewpointF>62</dewpointF>
+    <windDir>NNE</windDir>
+    <minDewpointF>51</minDewpointF>
+    <windSpeedMaxMPH>18</windSpeedMaxMPH>
+    <windGustKPH>28</windGustKPH>
+    <sunrise>1665460458</sunrise>
+    <windSpeedMinKTS>7</windSpeedMinKTS>
+    <maxTempC>31</maxTempC>
+    <sunsetISO>2022-10-11T17:29:13+02:00</sunsetISO>
+    <windSpeedMin80mKPH>18</windSpeedMin80mKPH>
+    <windDir80m>NNE</windDir80m>
+    <windSpeedMax80mKTS>17</windSpeedMax80mKTS>
+    <minDewpointC>11</minDewpointC>
+    <pressureIN>29.98</pressureIN>
+    <feelslikeC>22</feelslikeC>
+    <iceaccumMM>null</iceaccumMM>
+    <windGust80mMPH>19</windGust80mMPH>
+    <iceaccumIN>null</iceaccumIN>
+    <solradMaxWM2>758</solradMaxWM2>
+    <pressureMB>1015</pressureMB>
+    <windSpeedMax80mKPH>31</windSpeedMax80mKPH>
+    <validTime>2022-10-11T07:00:00+02:00</validTime>
+    <avgDewpointF>55</avgDewpointF>
+    <minTempC>21</minTempC>
+    <cloudsCoded>CL</cloudsCoded>
+    <dewpointC>17</dewpointC>
+    <windDir80mDEG>16</windDir80mDEG>
+    <feelslikeF>72</feelslikeF>
+    <sunset>1665502153</sunset>
+    <avgFeelslikeC>26</avgFeelslikeC>
+    <windSpeedMax80mMPH>19</windSpeedMax80mMPH>
+    <minHumidity>30</minHumidity>
+    <weather>Sunny</weather>
+    <windSpeedMaxKPH>28</windSpeedMaxKPH>
+    <avgTempC>26</avgTempC>
+    <dateTimeISO>2022-10-11T07:00:00+02:00</dateTimeISO>
+    <windSpeedMaxKTS>15</windSpeedMaxKTS>
+    <windSpeedMPH>9</windSpeedMPH>
+    <windSpeed80mMPH>12</windSpeed80mMPH>
+  </periods>
+  <periods>
+    <sky>27</sky>
+    <humidity>68</humidity>
+    <uvi>null</uvi>
+    <windGust80mKTS>18</windGust80mKTS>
+    <iceaccumIN>null</iceaccumIN>
+    <windGust80mKPH>33</windGust80mKPH>
+    <windGustKPH>28</windGustKPH>
+    <minTempC>21</minTempC>
+    <windSpeedKTS>8</windSpeedKTS>
+    <avgTempC>26</avgTempC>
+    <pop>0</pop>
+    <windDir80mDEG>15</windDir80mDEG>
+    <maxTempC>31</maxTempC>
+    <windDir80m>NNE</windDir80m>
+    <minDewpointF>51</minDewpointF>
+    <solradWM2>4740</solradWM2>
+    <maxDewpointF>60</maxDewpointF>
+    <windSpeedMPH>9</windSpeedMPH>
+    <avgTempF>79</avgTempF>
+    <sunset>1665588484</sunset>
+    <avgFeelslikeC>26</avgFeelslikeC>
+    <windSpeed80mKPH>19</windSpeed80mKPH>
+    <iceaccumMM>null</iceaccumMM>
+    <cloudsCoded>FW</cloudsCoded>
+    <windDirMin80mDEG>15</windDirMin80mDEG>
+    <windSpeedKPH>15</windSpeedKPH>
+    <windDir>NNE</windDir>
+    <maxDewpointC>16</maxDewpointC>
+    <timestamp>1665550800</timestamp>
+    <pressureMB>1014</pressureMB>
+    <windGustKTS>15</windGustKTS>
+    <visibilityKM>24.135</visibilityKM>
+    <sunsetISO>2022-10-12T17:28:04+02:00</sunsetISO>
+    <windSpeedMaxKTS>14</windSpeedMaxKTS>
+    <feelslikeC>22</feelslikeC>
+    <windSpeed80mKTS>10</windSpeed80mKTS>
+    <visibilityMI>15</visibilityMI>
+    <sunrise>1665546895</sunrise>
+    <tempC>null</tempC>
+    <dateTimeISO>2022-10-12T07:00:00+02:00</dateTimeISO>
+    <feelslikeF>72</feelslikeF>
+    <snowCM>0</snowCM>
+    <windSpeedMax80mKTS>18</windSpeedMax80mKTS>
+    <tempF>null</tempF>
+    <isDay>true</isDay>
+    <windSpeedMin80mKPH>18</windSpeedMin80mKPH>
+    <windSpeedMaxMPH>16</windSpeedMaxMPH>
+    <iceaccum>null</iceaccum>
+    <dewpointF>60</dewpointF>
+    <weatherPrimary>Mostly Sunny</weatherPrimary>
+    <pressureIN>29.95</pressureIN>
+    <weather>Mostly Sunny</weather>
+    <minDewpointC>11</minDewpointC>
+    <windGust80mMPH>21</windGust80mMPH>
+    <windSpeedMinMPH>8</windSpeedMinMPH>
+    <minTempF>69</minTempF>
+    <maxTempF>88</maxTempF>
+    <minFeelslikeC>22</minFeelslikeC>
+    <sunriseISO>2022-10-12T05:54:55+02:00</sunriseISO>
+    <windGustMPH>17</windGustMPH>
+    <windSpeedMax80mMPH>21</windSpeedMax80mMPH>
+    <windSpeedMinKPH>13</windSpeedMinKPH>
+    <maxFeelslikeC>31</maxFeelslikeC>
+    <windDirMaxDEG>96</windDirMaxDEG>
+    <windSpeed80mMPH>12</windSpeed80mMPH>
+    <windSpeedMaxKPH>26</windSpeedMaxKPH>
+    <snowIN>0</snowIN>
+    <windDirMin80m>NNE</windDirMin80m>
+    <solradMinWM2>0</solradMinWM2>
+    <windDirMax80m>E</windDirMax80m>
+    <windDirMinDEG>12</windDirMinDEG>
+    <solradMaxWM2>743</solradMaxWM2>
+    <avgDewpointC>13</avgDewpointC>
+    <windDirMax>E</windDirMax>
+    <maxFeelslikeF>88</maxFeelslikeF>
+    <dewpointC>16</dewpointC>
+    <maxCoverage/>
+    <precipMM>0</precipMM>
+    <precipIN>0</precipIN>
+    <minFeelslikeF>72</minFeelslikeF>
+    <avgDewpointF>55</avgDewpointF>
+    <windSpeedMin80mKTS>10</windSpeedMin80mKTS>
+    <windSpeedMin80mMPH>11</windSpeedMin80mMPH>
+    <windDirMin>NNE</windDirMin>
+    <windDirDEG>12</windDirDEG>
+    <windSpeedMax80mKPH>33</windSpeedMax80mKPH>
+    <avgFeelslikeF>80</avgFeelslikeF>
+    <maxHumidity>68</maxHumidity>
+    <minHumidity>29</minHumidity>
+    <windSpeedMinKTS>7</windSpeedMinKTS>
+    <icon>fair.png</icon>
+    <windDirMax80mDEG>96</windDirMax80mDEG>
+    <weatherPrimaryCoded>::FW</weatherPrimaryCoded>
+    <validTime>2022-10-12T07:00:00+02:00</validTime>
+  </periods>
+  <interval>day</interval>
+</response>
+<success>true</success]>
+<error>null</error...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.json.junit.XMLTest.testIndentComplicatedJsonObjectWithArrayAndWithConfig(XMLTest.java:1237)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+</testsuite>

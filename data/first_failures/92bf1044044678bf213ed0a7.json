@@ -1,0 +1,81 @@
+{
+  "container": "oktahookssdkjavahooks8bf25c8replaceClaims",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "oktahookssdkjavahooks8bf25c8replaceClaims",
+    "project": "https://github.com/okta/okta-hooks-sdk-java",
+    "revision": "8bf25c84b54e788040ae2272e1578bc625e871d4",
+    "test": "com.okta.hooks.sdk.TokenHooksTest.replaceClaims",
+    "label": "ID",
+    "module": "hooks",
+    "zip": "okta-hooks-sdk-java=hooks=8bf25c8",
+    "config_row": 747,
+    "configured_test": "com.okta.hooks.sdk.TokenHooksTest#replaceClaims",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.TokenHooksTest.replaceClaims",
+    "variant_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.TokenHooksTest.replaceClaims::8bf25c84b54e788040ae2272e1578bc625e871d4::hooks",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/oktahookssdkjavahooks8bf25c8replaceClaims/result/Flaky/.nondex/oYa7wMqqM188DGP7ilyatt2DCbEo6Fzyv8ZFxDgjM8I=/TEST-com.okta.hooks.sdk.TokenHooksTest.xml",
+        "size": 14695,
+        "compressed": 2605,
+        "crc32": "41e0d905",
+        "offset": 1317670511,
+        "method": 8,
+        "local_path": "data/extracted/051ba4aff56076a62815b4e3.xml",
+        "sha256": "501bc69c8eb9a1feb0540842263571b55437e7193260a77f9224055103e50d8d",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8replaceClaims/result/Flaky/rounds-test-results.csv",
+    "size": 17111,
+    "compressed": 5107,
+    "crc32": "4a482036",
+    "offset": 1312544713,
+    "method": 8,
+    "local_path": "data/extracted/c65929f50640afc22007842c.csv",
+    "sha256": "90b397015a24cd24a9383c0a5bfdc8af188e0f188e6176b3e4ff82b384cc5c1e",
+    "status": "verified"
+  },
+  "reported_failure_rows": 91,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8replaceClaims/result/Flaky/.nondex/oYa7wMqqM188DGP7ilyatt2DCbEo6Fzyv8ZFxDgjM8I=/TEST-com.okta.hooks.sdk.TokenHooksTest.xml",
+    "size": 14695,
+    "compressed": 2605,
+    "crc32": "41e0d905",
+    "offset": 1317670511,
+    "method": 8,
+    "local_path": "data/extracted/051ba4aff56076a62815b4e3.xml",
+    "sha256": "501bc69c8eb9a1feb0540842263571b55437e7193260a77f9224055103e50d8d",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "replaceClaims",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.access.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}]},{\\\"type\\\":\\\"com.okta.identity.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}]}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}],\\\"type\\\":\\\"com.okta.access.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}],\\\"type\\\":\\\"com.okta.identity.patch\\\"}]}\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.access.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}]},{\\\"type\\\":\\\"com.okta.identity.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}]}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}],\\\"type\\\":\\\"com.okta.access.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}],\\\"type\\\":\\\"com.okta.identity.patch\\\"}]}\"\n\tat com.okta.hooks.sdk.TokenHooksTest.replaceClaims(TokenHooksTest.groovy:250)",
+    "text": "java.lang.AssertionError\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.access.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}]},{\\\"type\\\":\\\"com.okta.identity.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}]}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}],\\\"type\\\":\\\"com.okta.access.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}],\\\"type\\\":\\\"com.okta.identity.patch\\\"}]}\"\njava.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.access.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}]},{\\\"type\\\":\\\"com.okta.identity.patch\\\",\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}]}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/access4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}],\\\"type\\\":\\\"com.okta.access.patch\\\"},{\\\"value\\\":[{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id1\\\",\\\"value\\\":\\\"value1\\\"},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id2\\\",\\\"value\\\":2},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id3\\\",\\\"value\\\":true},{\\\"op\\\":\\\"replace\\\",\\\"path\\\":\\\"/claims/id4\\\",\\\"value\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}],\\\"type\\\":\\\"com.okta.identity.patch\\\"}]}\"\n\tat com.okta.hooks.sdk.TokenHooksTest.replaceClaims(TokenHooksTest.groovy:250)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "b325b4008526684d6857d252f5e6c8588f7557b063b8a6ad1a628ddcec9d238a"
+}

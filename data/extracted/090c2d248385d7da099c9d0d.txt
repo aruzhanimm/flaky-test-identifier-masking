@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.TestFairScheduler
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.463 sec <<< FAILURE! - in org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.TestFairScheduler
+testContinuousScheduling(org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.TestFairScheduler)  Time elapsed: 1.867 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<1024> but was:<0>
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.failNotEquals(Assert.java:287)
+	at junit.framework.Assert.assertEquals(Assert.java:67)
+	at junit.framework.Assert.assertEquals(Assert.java:199)
+	at junit.framework.Assert.assertEquals(Assert.java:205)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.TestFairScheduler.testContinuousScheduling(TestFairScheduler.java:2321)
+

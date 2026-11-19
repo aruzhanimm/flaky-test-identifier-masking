@@ -1,0 +1,386 @@
+[
+  {
+    "container": "elideelidecore5c39308testGetIdAnnotationsSubClass",
+    "label": "ID",
+    "project": "https://github.com/yahoo/elide",
+    "reason": "missing_or_invalid_revision"
+  },
+  {
+    "container": "elideelidecore5c39308testHiddenFields",
+    "label": "ID",
+    "project": "https://github.com/yahoo/elide",
+    "reason": "missing_or_invalid_revision"
+  },
+  {
+    "container": "elideelidecore80439b6writeListIncluded",
+    "label": "ID",
+    "project": "https://github.com/yahoo/elide",
+    "reason": "missing_or_invalid_revision"
+  },
+  {
+    "container": "elideelidecore80439b6writeSingleIncluded",
+    "label": "ID",
+    "project": "https://github.com/yahoo/elide",
+    "reason": "missing_or_invalid_revision"
+  },
+  {
+    "container": "elideelidecore5c39308testGetIdAnnotations",
+    "label": "ID",
+    "project": "https://github.com/yahoo/elide",
+    "reason": "missing_or_invalid_revision"
+  },
+  {
+    "container": "wildflycorecliff32351testStandalone",
+    "label": "ID",
+    "project": "https://github.com/wildfly/wildfly-core",
+    "reason": "missing_or_invalid_revision"
+  },
+  {
+    "container": "mercurysystemplatformcoree659cafjournalYamlTest",
+    "label": "ID",
+    "project": "https://github.com/accenture/mercury",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "hippo4jinfracommonee2a81fbuildUrl",
+    "label": "ID",
+    "project": "https://github.com/opengoofy/hippo4j",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "javacpp2fd35c6testBufferCallback",
+    "label": "ID",
+    "project": "https://github.com/bytedeco/javacpp",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "javacpp2fd35c6testEnum",
+    "label": "ID",
+    "project": "https://github.com/bytedeco/javacpp",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "javacpp2fd35c6testFunctionPointer",
+    "label": "ID",
+    "project": "https://github.com/bytedeco/javacpp",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "quickcheckc1c34",
+    "label": "NIO",
+    "project": "https://github.com/pholser/junit-quickcheck",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "quickcheck4858",
+    "label": "NIO",
+    "project": "https://github.com/pholser/junit-quickcheck",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "quickcheck4864",
+    "label": "NIO",
+    "project": "https://github.com/pholser/junit-quickcheck",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "quickcheck4865",
+    "label": "NIO",
+    "project": "https://github.com/pholser/junit-quickcheck",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "BOOKKEEPER-846",
+    "label": "TD",
+    "project": "https://github.com/apache/bookkeeper",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "BOOKKEEPER-709",
+    "label": "TD",
+    "project": "https://github.com/apache/bookkeeper",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "YARN-9405",
+    "label": "TD",
+    "project": "https://github.com/apache/hadoop",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "CAMEL-17188",
+    "label": "TD",
+    "project": "https://github.com/apache/camel",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "HDFS-10281",
+    "label": "TD",
+    "project": "https://github.com/apache/hadoop",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "OOZIE-3686",
+    "label": "TD",
+    "project": "https://github.com/apache/oozie",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "COLLECTIONS-850-TransformedMultiValuedMapTest-testMultiValuedMapIterator",
+    "label": "ID",
+    "project": "https://github.com/apache/commons",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "COLLECTIONS-850-ArrayListValuedHashMapTest-testMultiValuedMapIterator",
+    "label": "ID",
+    "project": "https://github.com/apache/commons",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "HDFS-15702",
+    "label": "TD",
+    "project": "https://github.com/apache/hadoop",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "HADOOP-10394_testDoFilterAuthentication",
+    "label": "TD",
+    "project": "https://github.com/apache/hadoop",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "HADOOP-10394_testDoFilterAuthenticationWithDomainPath",
+    "label": "TD",
+    "project": "https://github.com/apache/hadoop",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "HADOOP-10394_testDoFilterAuthenticationWithInvalidToken",
+    "label": "TD",
+    "project": "https://github.com/apache/hadoop",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "HADOOP-12181",
+    "label": "TD",
+    "project": "https://github.com/apache/hadoop",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "HADOOP-12588",
+    "label": "TD",
+    "project": "https://github.com/apache/hadoop",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "HBASE-27051",
+    "label": "TD",
+    "project": "https://github.com/apache/hbase",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "BOOKKEEPER-774",
+    "label": "UNCLASSIFIED",
+    "project": "https://github.com/apache/bookkeeper",
+    "reason": "unclassified"
+  },
+  {
+    "container": "SCB-2692",
+    "label": "ID",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "SCB-2692-parameterMap",
+    "label": "ID",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "SCB-2692-TestStandardHttpServletRequestEx",
+    "label": "ID",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "SCB-2692-TestVertxServerRequestToHttpServletRequest",
+    "label": "ID",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "SCB-2718",
+    "label": "ID",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "SCB-2731",
+    "label": "ID",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "SCB-2731-testCookie",
+    "label": "ID",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "SCB-2731-decode_request_failed",
+    "label": "ID",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "SCB-2731-not-defined_any_schema",
+    "label": "ID",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "SCB-2731-not_support",
+    "label": "ID",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "SCB-2731-traceIdGeneratorInit",
+    "label": "ID",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "RATIS-506",
+    "label": "UNCLASSIFIED",
+    "project": "https://github.com/apache/ratis",
+    "reason": "unclassified"
+  },
+  {
+    "container": "HDFS-15904",
+    "label": "UNCLASSIFIED",
+    "project": "https://github.com/apache/hadoop",
+    "reason": "unclassified"
+  },
+  {
+    "container": "CURATOR-671",
+    "label": "TD",
+    "project": "https://github.com/apache/apache/curator",
+    "reason": "revision_attribution_unresolved"
+  },
+  {
+    "container": "APEXCORE-403",
+    "label": "TD",
+    "project": "https://github.com/apache/apache/apex-core",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "COLLECTIONS-836",
+    "label": "ID",
+    "project": "https://github.com/apache/commons-collections",
+    "reason": "no_confirmed_target_diagnostic"
+  },
+  {
+    "container": "CAMEL-15580",
+    "label": "TD",
+    "project": "https://github.com/apache/camel",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "ZOOKEEPER-4327-testRequestThrottler",
+    "label": "TD",
+    "project": "https://github.com/apache/zookeeper",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "ARIES-1580",
+    "label": "UNCLASSIFIED",
+    "project": "https://github.com/apache/aries",
+    "reason": "unclassified"
+  },
+  {
+    "container": "APEXCORE-617-testEmitTuplesOutsideStreamingWindow",
+    "label": "TD",
+    "project": "https://github.com/apache/apache/apex-core",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "APEXCORE-617-testHandleIdleTimeOutsideStreamingWindow",
+    "label": "TD",
+    "project": "https://github.com/apache/apache/apex-core",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "CAMEL-12025-testTo",
+    "label": "TD",
+    "project": "https://github.com/apache/camel",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "CAMEL-12025-testToWithExchange",
+    "label": "TD",
+    "project": "https://github.com/apache/camel",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "CAMEL-12025-testToFunction",
+    "label": "TD",
+    "project": "https://github.com/apache/camel",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "CAMEL-12025-testToFunctionWithExchange",
+    "label": "TD",
+    "project": "https://github.com/apache/camel",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "CAMEL-12025-testFrom",
+    "label": "TD",
+    "project": "https://github.com/apache/camel",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "CAMEL-12025-testMultipleSubscriptionsWithTimer",
+    "label": "TD",
+    "project": "https://github.com/apache/camel",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "CAMEL-12025-testFromStreamTimer",
+    "label": "TD",
+    "project": "https://github.com/apache/camel",
+    "reason": "no_failure_in_outcome_table"
+  },
+  {
+    "container": "MAHOUT-1127",
+    "label": "UNCLASSIFIED",
+    "project": "https://github.com/apache/mahout",
+    "reason": "unclassified"
+  },
+  {
+    "container": "RATIS-1621",
+    "label": "UNCLASSIFIED",
+    "project": "https://github.com/apache/ratis",
+    "reason": "unclassified"
+  },
+  {
+    "container": "STORM-2924",
+    "label": "UNCLASSIFIED",
+    "project": "https://github.com/apache/apache/storm",
+    "reason": "unclassified"
+  },
+  {
+    "container": "BOOKKEEPER-784",
+    "label": "UNCLASSIFIED",
+    "project": "https://github.com/apache/bookkeeper",
+    "reason": "unclassified"
+  },
+  {
+    "container": "HBASE-27193",
+    "label": "UNCLASSIFIED",
+    "project": "https://github.com/apache/hbase",
+    "reason": "unclassified"
+  }
+]

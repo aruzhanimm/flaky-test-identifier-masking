@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.hugegraph.unit.IndexLabelTest" time="0.135" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="nondexStart" value="0"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/hugegraph-client/target/test-classes:/app/source/hugegraph-client/target/classes:/root/.m2/repository/org/apache/hugegraph/hugegraph-common/1.0.0/hugegraph-common-1.0.0.jar:/root/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.18.0/log4j-core-2.18.0.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.18.0/log4j-slf4j-impl-2.18.0.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/root/.m2/repository/org/glassfish/javax.json/1.0/javax.json-1.0.jar:/root/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/root/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/root/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/root/.m2/repository/org/apache/commons/commons-configuration2/2.8.0/commons-configuration2-2.8.0.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/root/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/root/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/root/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/root/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/root/.m2/repository/com/google/guava/guava/30.0-jre/guava-30.0-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/root/.m2/repository/joda-time/joda-time/2.10.8/joda-time-2.10.8.jar:/root/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.0-rc1/jackson-annotations-2.14.0-rc1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.0-rc1/jackson-core-2.14.0-rc1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.0-rc1/jackson-databind-2.14.0-rc1.jar:/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.14.0-rc1/jackson-module-jaxb-annotations-2.14.0-rc1.jar:/root/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/root/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.14.0-rc1/jackson-jaxrs-base-2.14.0-rc1.jar:/root/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.14.0-rc1/jackson-jaxrs-json-provider-2.14.0-rc1.jar:/root/.m2/repository/org/glassfish/jersey/core/jersey-client/3.0.3/jersey-client-3.0.3.jar:/root/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.0/jakarta.inject-api-2.0.0.jar:/root/.m2/repository/org/glassfish/jersey/media/jersey-media-json-jackson/3.0.3/jersey-media-json-jackson-3.0.3.jar:/root/.m2/repository/org/glassfish/jersey/ext/jersey-entity-filtering/3.0.3/jersey-entity-filtering-3.0.3.jar:/root/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/root/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/root/.m2/repository/org/glassfish/jersey/connectors/jersey-apache-connector/3.0.3/jersey-apache-connector-3.0.3.jar:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/root/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/3.0.3/jersey-hk2-3.0.3.jar:/root/.m2/repository/org/glassfish/hk2/hk2-locator/3.0.1/hk2-locator-3.0.1.jar:/root/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/3.0.1/aopalliance-repackaged-3.0.1.jar:/root/.m2/repository/org/glassfish/hk2/hk2-api/3.0.1/hk2-api-3.0.1.jar:/root/.m2/repository/org/glassfish/hk2/hk2-utils/3.0.1/hk2-utils-3.0.1.jar:/root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0-RC2/jakarta.xml.bind-api-4.0.0-RC2.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/3.0.2/jaxb-impl-3.0.2.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-core/3.0.2/jaxb-core-3.0.2.jar:/root/.m2/repository/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar:/root/.m2/repository/org/lz4/lz4-java/1.4.0/lz4-java-1.4.0.jar:/root/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/3.0.3/jersey-container-servlet-3.0.3.jar:/root/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/3.0.3/jersey-container-servlet-core-3.0.3.jar:/root/.m2/repository/org/glassfish/jersey/core/jersey-common/3.0.3/jersey-common-3.0.3.jar:/root/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.0.0/jakarta.annotation-api-2.0.0.jar:/root/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar:/root/.m2/repository/org/glassfish/jersey/core/jersey-server/3.0.3/jersey-server-3.0.3.jar:/root/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.0/jakarta.validation-api-3.0.0.jar:/root/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/3.0.0/jakarta.ws.rs-api-3.0.0.jar:/root/.m2/repository/org/mockito/mockito-core/2.8.47/mockito-core-2.8.47.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.6.14/byte-buddy-1.6.14.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.6.14/byte-buddy-agent-1.6.14.jar:/root/.m2/repository/org/objenesis/objenesis/2.5/objenesis-2.5.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-11/lib"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="sun.java.command" value="/app/source/hugegraph-client/target/surefire/surefirebooter749706337193391271.jar /app/source/hugegraph-client/target/surefire 2025-11-06T16-55-29_959-jvmRun1 surefire451769557275192415tmp surefire_15345982943919984784tmp"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/app/source/hugegraph-client/target/test-classes:/app/source/hugegraph-client/target/classes:/root/.m2/repository/org/apache/hugegraph/hugegraph-common/1.0.0/hugegraph-common-1.0.0.jar:/root/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.18.0/log4j-core-2.18.0.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.18.0/log4j-slf4j-impl-2.18.0.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/root/.m2/repository/org/glassfish/javax.json/1.0/javax.json-1.0.jar:/root/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/root/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/root/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/root/.m2/repository/org/apache/commons/commons-configuration2/2.8.0/commons-configuration2-2.8.0.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/root/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/root/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/root/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/root/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/root/.m2/repository/com/google/guava/guava/30.0-jre/guava-30.0-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/root/.m2/repository/joda-time/joda-time/2.10.8/joda-time-2.10.8.jar:/root/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.0-rc1/jackson-annotations-2.14.0-rc1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.0-rc1/jackson-core-2.14.0-rc1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.0-rc1/jackson-databind-2.14.0-rc1.jar:/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.14.0-rc1/jackson-module-jaxb-annotations-2.14.0-rc1.jar:/root/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/root/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.14.0-rc1/jackson-jaxrs-base-2.14.0-rc1.jar:/root/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.14.0-rc1/jackson-jaxrs-json-provider-2.14.0-rc1.jar:/root/.m2/repository/org/glassfish/jersey/core/jersey-client/3.0.3/jersey-client-3.0.3.jar:/root/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.0/jakarta.inject-api-2.0.0.jar:/root/.m2/repository/org/glassfish/jersey/media/jersey-media-json-jackson/3.0.3/jersey-media-json-jackson-3.0.3.jar:/root/.m2/repository/org/glassfish/jersey/ext/jersey-entity-filtering/3.0.3/jersey-entity-filtering-3.0.3.jar:/root/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/root/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/root/.m2/repository/org/glassfish/jersey/connectors/jersey-apache-connector/3.0.3/jersey-apache-connector-3.0.3.jar:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/root/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/3.0.3/jersey-hk2-3.0.3.jar:/root/.m2/repository/org/glassfish/hk2/hk2-locator/3.0.1/hk2-locator-3.0.1.jar:/root/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/3.0.1/aopalliance-repackaged-3.0.1.jar:/root/.m2/repository/org/glassfish/hk2/hk2-api/3.0.1/hk2-api-3.0.1.jar:/root/.m2/repository/org/glassfish/hk2/hk2-utils/3.0.1/hk2-utils-3.0.1.jar:/root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0-RC2/jakarta.xml.bind-api-4.0.0-RC2.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/3.0.2/jaxb-impl-3.0.2.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-core/3.0.2/jaxb-core-3.0.2.jar:/root/.m2/repository/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar:/root/.m2/repository/org/lz4/lz4-java/1.4.0/lz4-java-1.4.0.jar:/root/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/3.0.3/jersey-container-servlet-3.0.3.jar:/root/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/3.0.3/jersey-container-servlet-core-3.0.3.jar:/root/.m2/repository/org/glassfish/jersey/core/jersey-common/3.0.3/jersey-common-3.0.3.jar:/root/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.0.0/jakarta.annotation-api-2.0.0.jar:/root/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar:/root/.m2/repository/org/glassfish/jersey/core/jersey-server/3.0.3/jersey-server-3.0.3.jar:/root/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.0/jakarta.validation-api-3.0.0.jar:/root/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/3.0.0/jakarta.ws.rs-api-3.0.0.jar:/root/.m2/repository/org/mockito/mockito-core/2.8.47/mockito-core-2.8.47.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.6.14/byte-buddy-1.6.14.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.6.14/byte-buddy-agent-1.6.14.jar:/root/.m2/repository/org/objenesis/objenesis/2.5/objenesis-2.5.jar:"/>
+    <property name="test" value="org.apache.hugegraph.unit.IndexLabelTest#testIndexLabelV56"/>
+    <property name="nondexExecid" value="kFuBZZfoRYnXA1vu7XjffmK1x60jjAki58anFstOvw="/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/openjdk-11"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="basedir" value="/app/source/hugegraph-client"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="surefire.real.class.path" value="/app/source/hugegraph-client/target/surefire/surefirebooter749706337193391271.jar"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-34-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/hugegraph-client/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="nondexJarDir" value="/app/source/hugegraph-client/.nondex"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="/app/source/hugegraph-client"/>
+    <property name="license.skip" value="true"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="xml.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="testIndexLabelV56" classname="org.apache.hugegraph.unit.IndexLabelTest" time="0.134">
+    <failure message="expected:&lt;{&quot;[id&quot;:0,&quot;name&quot;:&quot;personByAge&quot;,&quot;check_exist&quot;:true,&quot;user_data&quot;:{},&quot;base_type&quot;:&quot;VERTEX_LABEL&quot;,&quot;base_value&quot;:&quot;person&quot;,&quot;index_type&quot;:&quot;SECONDARY&quot;,&quot;fields&quot;:[&quot;age&quot;]]}&gt; but was:&lt;{&quot;[check_exist&quot;:true,&quot;user_data&quot;:{},&quot;name&quot;:&quot;personByAge&quot;,&quot;id&quot;:0,&quot;fields&quot;:[&quot;age&quot;],&quot;index_type&quot;:&quot;SECONDARY&quot;,&quot;base_value&quot;:&quot;person&quot;,&quot;base_type&quot;:&quot;VERTEX_LABEL&quot;]}&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<{"[id":0,"name":"personByAge","check_exist":true,"user_data":{},"base_type":"VERTEX_LABEL","base_value":"person","index_type":"SECONDARY","fields":["age"]]}> but was:<{"[check_exist":true,"user_data":{},"name":"personByAge","id":0,"fields":["age"],"index_type":"SECONDARY","base_value":"person","base_type":"VERTEX_LABEL"]}>
+	at org.apache.hugegraph.unit.IndexLabelTest.testIndexLabelV56(IndexLabelTest.java:88)
+]]></failure>
+  </testcase>
+</testsuite>

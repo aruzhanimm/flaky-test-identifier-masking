@@ -1,0 +1,81 @@
+{
+  "container": "commonscollections242918egetFromMap",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "commonscollections242918egetFromMap",
+    "project": "https://github.com/apache/commons-collections",
+    "revision": "242918e1595db4914640e7e3d76acbb59b388a3c",
+    "test": "org.apache.commons.collections4.CollectionUtilsTest.getFromMap",
+    "label": "ID",
+    "module": ".",
+    "zip": "commons-collections=.=242918e",
+    "config_row": 536,
+    "configured_test": "org.apache.commons.collections4.CollectionUtilsTest#getFromMap",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/commons-collections::org.apache.commons.collections4.CollectionUtilsTest.getFromMap",
+    "variant_id": "https://github.com/apache/commons-collections::org.apache.commons.collections4.CollectionUtilsTest.getFromMap::242918e1595db4914640e7e3d76acbb59b388a3c::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/commonscollections242918egetFromMap/result/Flaky/.nondex/zyd4H1ktGUMTNScDVtgdElkIqLeujRvkt9BL5zPM05g=/TEST-org.apache.commons.collections4.CollectionUtilsTest.xml",
+        "size": 9391,
+        "compressed": 2123,
+        "crc32": "2b422ac4",
+        "offset": 377276158,
+        "method": 8,
+        "local_path": "data/extracted/653ea21cefb071f11d7b84e9.xml",
+        "sha256": "c49c0f1044e1365dd380a5a01a7967feba84a0887090b38579195faa067f19ec",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/commonscollections242918egetFromMap/result/Flaky/rounds-test-results.csv",
+    "size": 18393,
+    "compressed": 4937,
+    "crc32": "ada35212",
+    "offset": 376822638,
+    "method": 8,
+    "local_path": "data/extracted/dd5ad7413539f81a437dacdb.csv",
+    "sha256": "a572f5437a31d8bab425587cfb2dd3e600f9b5ad1ee0bd958c01fb6909d8c06a",
+    "status": "verified"
+  },
+  "reported_failure_rows": 49,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/commonscollections242918egetFromMap/result/Flaky/.nondex/zyd4H1ktGUMTNScDVtgdElkIqLeujRvkt9BL5zPM05g=/TEST-org.apache.commons.collections4.CollectionUtilsTest.xml",
+    "size": 9391,
+    "compressed": 2123,
+    "crc32": "2b422ac4",
+    "offset": 377276158,
+    "method": 8,
+    "local_path": "data/extracted/653ea21cefb071f11d7b84e9.xml",
+    "sha256": "c49c0f1044e1365dd380a5a01a7967feba84a0887090b38579195faa067f19ec",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "getFromMap",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "expected:<{oneKey=one, zeroKey=zero}> but was:<{oneKey=one}>",
+    "stack_trace": "java.lang.AssertionError: expected:<{oneKey=one, zeroKey=zero}> but was:<{oneKey=one}>\n\tat org.apache.commons.collections4.CollectionUtilsTest.getFromMap(CollectionUtilsTest.java:996)",
+    "text": "java.lang.AssertionError\nexpected:<{oneKey=one, zeroKey=zero}> but was:<{oneKey=one}>\njava.lang.AssertionError: expected:<{oneKey=one, zeroKey=zero}> but was:<{oneKey=one}>\n\tat org.apache.commons.collections4.CollectionUtilsTest.getFromMap(CollectionUtilsTest.java:996)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "a4f989f9b5cbdfacc162eff16f81f72fda78e7a877e90e2e39c0977f5105c982"
+}

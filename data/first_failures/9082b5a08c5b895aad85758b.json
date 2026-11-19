@@ -1,0 +1,37 @@
+{
+  "container": "HADOOP-10394_testDoFilterAuthenticationWithInvalidToken",
+  "metadata": {
+    "source": "JIRA",
+    "container": "HADOOP-10394_testDoFilterAuthenticationWithInvalidToken",
+    "project": "https://github.com/apache/hadoop",
+    "revision": "d74ec9dd20cee35e9201e8a08b8bbcc76481a967",
+    "test": "org.apache.hadoop.security.authentication.server.TestAuthenticationFilter.testDoFilterAuthenticationWithInvalidToken",
+    "label": "TD",
+    "module": "hadoop-common-project/hadoop-auth",
+    "zip": "HADOOP-10394",
+    "config_row": 1072,
+    "configured_test": "org.apache.hadoop.security.authentication.server.TestAuthenticationFilter#testDoFilterAuthenticationWithInvalidToken",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hadoop::org.apache.hadoop.security.authentication.server.TestAuthenticationFilter.testDoFilterAuthenticationWithInvalidToken",
+    "variant_id": "https://github.com/apache/hadoop::org.apache.hadoop.security.authentication.server.TestAuthenticationFilter.testDoFilterAuthenticationWithInvalidToken::d74ec9dd20cee35e9201e8a08b8bbcc76481a967::hadoop-common-project/hadoop-auth",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/HADOOP-10394_testDoFilterAuthenticationWithInvalidToken/result/Flaky/rounds-test-results.csv",
+    "size": 27374,
+    "compressed": 729,
+    "crc32": "979bd246",
+    "offset": 90119074,
+    "method": 8,
+    "local_path": "data/extracted/707d5cc8b00eeffcc97e70ca.csv",
+    "sha256": "6940c934280f2122fb14715c094147183488aa7290e8392a8caee14cf423f725",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

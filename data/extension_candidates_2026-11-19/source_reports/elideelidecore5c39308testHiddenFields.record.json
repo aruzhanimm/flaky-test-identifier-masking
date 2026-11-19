@@ -1,0 +1,81 @@
+{
+  "container": "elideelidecore5c39308testHiddenFields",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "elideelidecore5c39308testHiddenFields",
+    "project": "https://github.com/yahoo/elide",
+    "revision": "",
+    "test": "com.yahoo.elide.core.dictionary.EntityDictionaryTest.testHiddenFields",
+    "label": "ID",
+    "module": "elide-core",
+    "zip": "elide=elide-core=5c39308",
+    "config_row": 23,
+    "configured_test": "com.yahoo.elide.core.dictionary.EntityDictionaryTest#testHiddenFields",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/yahoo/elide::com.yahoo.elide.core.dictionary.EntityDictionaryTest.testHiddenFields",
+    "variant_id": "https://github.com/yahoo/elide::com.yahoo.elide.core.dictionary.EntityDictionaryTest.testHiddenFields::::elide-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/elideelidecore5c39308testHiddenFields/result/Flaky/.nondex/1+ESF9c8AybQrKAcFiNRsle0bumDhCTHOdwncC32gwM=/TEST-com.yahoo.elide.core.dictionary.EntityDictionaryTest.xml",
+        "size": 18943,
+        "compressed": 3235,
+        "crc32": "fab93023",
+        "offset": 590424896,
+        "method": 8,
+        "local_path": "data/extracted/037896853c6e21029142b6f8.xml",
+        "sha256": "67b0ae59f66949312536d9e0a2ac3bcb3a81e76c17fe41ca6fdfb38d4708ded5",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/elideelidecore5c39308testHiddenFields/result/Flaky/rounds-test-results.csv",
+    "size": 19469,
+    "compressed": 5112,
+    "crc32": "ec97cb63",
+    "offset": 590043673,
+    "method": 8,
+    "local_path": "data/extracted/fa5fb0b1d4b338decc7ed773.csv",
+    "sha256": "4619392cf697b91032df82f64658bf4fa7da4a6c00a1c945f19322dcfde577b3",
+    "status": "verified"
+  },
+  "reported_failure_rows": 78,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/elideelidecore5c39308testHiddenFields/result/Flaky/.nondex/1+ESF9c8AybQrKAcFiNRsle0bumDhCTHOdwncC32gwM=/TEST-com.yahoo.elide.core.dictionary.EntityDictionaryTest.xml",
+    "size": 18943,
+    "compressed": 3235,
+    "crc32": "fab93023",
+    "offset": 590424896,
+    "method": 8,
+    "local_path": "data/extracted/037896853c6e21029142b6f8.xml",
+    "sha256": "67b0ae59f66949312536d9e0a2ac3bcb3a81e76c17fe41ca6fdfb38d4708ded5",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testHiddenFields",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <[id, field1, field2]> but was: <[field2, id, field1]>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <[id, field1, field2]> but was: <[field2, id, field1]>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)\n\tat com.yahoo.elide.core.dictionary.EntityDictionaryTest.testHiddenFields(EntityDictionaryTest.java:471)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <[id, field1, field2]> but was: <[field2, id, field1]>\norg.opentest4j.AssertionFailedError: expected: <[id, field1, field2]> but was: <[field2, id, field1]>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)\n\tat com.yahoo.elide.core.dictionary.EntityDictionaryTest.testHiddenFields(EntityDictionaryTest.java:471)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "30c7c69cd26011c36250bd0fad8a9cfaaf742782223c7c063f946c2f7198f0c0"
+}

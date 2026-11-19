@@ -1,0 +1,81 @@
+{
+  "container": "twiliojava795541ftestToJson",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "twiliojava795541ftestToJson",
+    "project": "https://github.com/twilio/twilio-java",
+    "revision": "795541f4332269de1138508068fd984e74fa79ac",
+    "test": "com.twilio.jwt.taskrouter.PolicyTest.testToJson",
+    "label": "ID",
+    "module": ".",
+    "zip": "twilio-java=.=795541f",
+    "config_row": 213,
+    "configured_test": "com.twilio.jwt.taskrouter.PolicyTest#testToJson",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/twilio/twilio-java::com.twilio.jwt.taskrouter.PolicyTest.testToJson",
+    "variant_id": "https://github.com/twilio/twilio-java::com.twilio.jwt.taskrouter.PolicyTest.testToJson::795541f4332269de1138508068fd984e74fa79ac::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/twiliojava795541ftestToJson/result/Flaky/.nondex/mMqhVpmeEHDlcpwhnEl0lnFTnignvl8yettyJRHD1rY=/TEST-com.twilio.jwt.taskrouter.PolicyTest.xml",
+        "size": 12237,
+        "compressed": 2519,
+        "crc32": "c683ffca",
+        "offset": 2105890878,
+        "method": 8,
+        "local_path": "data/extracted/4ba85bc86fc667c49b8f682e.xml",
+        "sha256": "e4b75815cdbce6ea7fe9244419851c150f64790bb4fa2890648e9442bb382f33",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/twiliojava795541ftestToJson/result/Flaky/rounds-test-results.csv",
+    "size": 17072,
+    "compressed": 4995,
+    "crc32": "eddc3ed1",
+    "offset": 2105095690,
+    "method": 8,
+    "local_path": "data/extracted/4462cdbb6450eac42ad124ce.csv",
+    "sha256": "dc339d6e3ac314d1ef6b4026e7782277e76c59aff4e5267e8e0a545f3d42575d",
+    "status": "verified"
+  },
+  "reported_failure_rows": 99,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/twiliojava795541ftestToJson/result/Flaky/.nondex/mMqhVpmeEHDlcpwhnEl0lnFTnignvl8yettyJRHD1rY=/TEST-com.twilio.jwt.taskrouter.PolicyTest.xml",
+    "size": 12237,
+    "compressed": 2519,
+    "crc32": "c683ffca",
+    "offset": 2105890878,
+    "method": 8,
+    "local_path": "data/extracted/4ba85bc86fc667c49b8f682e.xml",
+    "sha256": "e4b75815cdbce6ea7fe9244419851c150f64790bb4fa2890648e9442bb382f33",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testToJson",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<{\"[url\":\"http://localhost\",\"method\":\"GET\",\"query_filter\":{\"foo\":{\"required\":true}},\"post_filter\":{},\"allow\":true]}> but was:<{\"[allow\":true,\"post_filter\":{},\"url\":\"http://localhost\",\"method\":\"GET\",\"query_filter\":{\"foo\":{\"required\":true}}]}>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<{\"[url\":\"http://localhost\",\"method\":\"GET\",\"query_filter\":{\"foo\":{\"required\":true}},\"post_filter\":{},\"allow\":true]}> but was:<{\"[allow\":true,\"post_filter\":{},\"url\":\"http://localhost\",\"method\":\"GET\",\"query_filter\":{\"foo\":{\"required\":true}}]}>\n\tat com.twilio.jwt.taskrouter.PolicyTest.testToJson(PolicyTest.java:29)",
+    "text": "org.junit.ComparisonFailure\nexpected:<{\"[url\":\"http://localhost\",\"method\":\"GET\",\"query_filter\":{\"foo\":{\"required\":true}},\"post_filter\":{},\"allow\":true]}> but was:<{\"[allow\":true,\"post_filter\":{},\"url\":\"http://localhost\",\"method\":\"GET\",\"query_filter\":{\"foo\":{\"required\":true}}]}>\norg.junit.ComparisonFailure: expected:<{\"[url\":\"http://localhost\",\"method\":\"GET\",\"query_filter\":{\"foo\":{\"required\":true}},\"post_filter\":{},\"allow\":true]}> but was:<{\"[allow\":true,\"post_filter\":{},\"url\":\"http://localhost\",\"method\":\"GET\",\"query_filter\":{\"foo\":{\"required\":true}}]}>\n\tat com.twilio.jwt.taskrouter.PolicyTest.testToJson(PolicyTest.java:29)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "1640a41de28096362c53c0f619006c17f19110bfa2e22d3a8d8916ebb6ed1268"
+}

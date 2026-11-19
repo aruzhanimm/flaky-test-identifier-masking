@@ -1,0 +1,81 @@
+{
+  "container": "commonkafkacommonkafkad787351fail_offsetPositionBeforeFailedRecord",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "commonkafkacommonkafkad787351fail_offsetPositionBeforeFailedRecord",
+    "project": "https://github.com/cerner/common-kafka",
+    "revision": "d7873514c1705575c642ed99d2fa501f9b319790",
+    "test": "com.cerner.common.kafka.consumer.ProcessingPartitionTest.fail_offsetPositionBeforeFailedRecord",
+    "label": "ID",
+    "module": "common-kafka",
+    "zip": "common-kafka=common-kafka=d787351",
+    "config_row": 529,
+    "configured_test": "com.cerner.common.kafka.consumer.ProcessingPartitionTest#fail_offsetPositionBeforeFailedRecord",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/cerner/common-kafka::com.cerner.common.kafka.consumer.ProcessingPartitionTest.fail_offsetPositionBeforeFailedRecord",
+    "variant_id": "https://github.com/cerner/common-kafka::com.cerner.common.kafka.consumer.ProcessingPartitionTest.fail_offsetPositionBeforeFailedRecord::d7873514c1705575c642ed99d2fa501f9b319790::common-kafka",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/commonkafkacommonkafkad787351fail_offsetPositionBeforeFailedRecord/result/Flaky/.nondex/X1P4kDn8fL9xtatc1GsLn0BbtQlbl+NtI6cQJ+NV1R8=/TEST-com.cerner.common.kafka.consumer.ProcessingPartitionTest.xml",
+        "size": 7171,
+        "compressed": 1847,
+        "crc32": "cd21364e",
+        "offset": 365150292,
+        "method": 8,
+        "local_path": "data/extracted/0fc286822cc36ade783129f4.xml",
+        "sha256": "f0a291a8800138a76c6478e893f99fb283a45b7e33b096748464306aafa45600",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/commonkafkacommonkafkad787351fail_offsetPositionBeforeFailedRecord/result/Flaky/rounds-test-results.csv",
+    "size": 19975,
+    "compressed": 5036,
+    "crc32": "53935097",
+    "offset": 365010048,
+    "method": 8,
+    "local_path": "data/extracted/d1921cdf301c5e6fcc481beb.csv",
+    "sha256": "03d7d82eae0fa6742a9d7c3a77c24895763331d93b9d27ae71e503e8afabca93",
+    "status": "verified"
+  },
+  "reported_failure_rows": 45,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/commonkafkacommonkafkad787351fail_offsetPositionBeforeFailedRecord/result/Flaky/.nondex/X1P4kDn8fL9xtatc1GsLn0BbtQlbl+NtI6cQJ+NV1R8=/TEST-com.cerner.common.kafka.consumer.ProcessingPartitionTest.xml",
+    "size": 7171,
+    "compressed": 1847,
+    "crc32": "cd21364e",
+    "offset": 365150292,
+    "method": 8,
+    "local_path": "data/extracted/0fc286822cc36ade783129f4.xml",
+    "sha256": "f0a291a8800138a76c6478e893f99fb283a45b7e33b096748464306aafa45600",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "fail_offsetPositionBeforeFailedRecord",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: iterable containing [<1L>, <2L>]\n     but: item 0: was <2L>",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: iterable containing [<1L>, <2L>]\n     but: item 0: was <2L>\n\tat com.cerner.common.kafka.consumer.ProcessingPartitionTest.fail_offsetPositionBeforeFailedRecord(ProcessingPartitionTest.java:223)",
+    "text": "java.lang.AssertionError\nExpected: iterable containing [<1L>, <2L>]\n     but: item 0: was <2L>\njava.lang.AssertionError: \n\nExpected: iterable containing [<1L>, <2L>]\n     but: item 0: was <2L>\n\tat com.cerner.common.kafka.consumer.ProcessingPartitionTest.fail_offsetPositionBeforeFailedRecord(ProcessingPartitionTest.java:223)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "7d4e796e3870d91c2fd52352c1c7968f10bfada593b941a67c63a825d8736568"
+}

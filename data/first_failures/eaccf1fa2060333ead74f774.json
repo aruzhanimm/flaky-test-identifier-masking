@@ -1,0 +1,81 @@
+{
+  "container": "biojavabiojavastructure65ad15ftestMergeStructure",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "biojavabiojavastructure65ad15ftestMergeStructure",
+    "project": "https://github.com/biojava/biojava",
+    "revision": "65ad15fe58dcedd258fee1c14505e424c8536efc",
+    "test": "org.biojava.nbio.structure.cluster.TestSubunitCluster.testMergeStructure",
+    "label": "ID",
+    "module": "biojava-structure",
+    "zip": "biojava=biojava-structure=65ad15f",
+    "config_row": 570,
+    "configured_test": "org.biojava.nbio.structure.cluster.TestSubunitCluster#testMergeStructure",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.cluster.TestSubunitCluster.testMergeStructure",
+    "variant_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.cluster.TestSubunitCluster.testMergeStructure::65ad15fe58dcedd258fee1c14505e424c8536efc::biojava-structure",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/biojavabiojavastructure65ad15ftestMergeStructure/result/Flaky/.nondex/6gJjkOQe1uTf+cjKeHo7Q8LNaTp+46B6T6kPpTSVCRM=/TEST-org.biojava.nbio.structure.cluster.TestSubunitCluster.xml",
+        "size": 12019,
+        "compressed": 2512,
+        "crc32": "9919c36b",
+        "offset": 353501266,
+        "method": 8,
+        "local_path": "data/extracted/63f51d30f80c93ed0ebe9efc.xml",
+        "sha256": "0d9c78f5555c1585464315d744df1c46848917a29a8d7137f48f5af7a417baca",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestMergeStructure/result/Flaky/rounds-test-results.csv",
+    "size": 20170,
+    "compressed": 5004,
+    "crc32": "5c12cc7d",
+    "offset": 353425963,
+    "method": 8,
+    "local_path": "data/extracted/fbe30c28b8782b9d6d9b0510.csv",
+    "sha256": "9c06d93b2c5b1e70d6b20b79627ec2b49ab6dfc1f195d4a5d2a0c8a59640e7f3",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestMergeStructure/result/Flaky/.nondex/6gJjkOQe1uTf+cjKeHo7Q8LNaTp+46B6T6kPpTSVCRM=/TEST-org.biojava.nbio.structure.cluster.TestSubunitCluster.xml",
+    "size": 12019,
+    "compressed": 2512,
+    "crc32": "9919c36b",
+    "offset": 353501266,
+    "method": 8,
+    "local_path": "data/extracted/63f51d30f80c93ed0ebe9efc.xml",
+    "sha256": "0d9c78f5555c1585464315d744df1c46848917a29a8d7137f48f5af7a417baca",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testMergeStructure",
+    "outcome": "error",
+    "exception_type": "java.net.UnknownHostException",
+    "message": "mmtf.rcsb.org",
+    "stack_trace": "java.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.cluster.TestSubunitCluster.testMergeStructure(TestSubunitCluster.java:198)",
+    "text": "java.net.UnknownHostException\nmmtf.rcsb.org\njava.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.cluster.TestSubunitCluster.testMergeStructure(TestSubunitCluster.java:198)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "d5413ed565619e0f4dd0efb2e2e17b68c8a93f36043eb5135d7e9a595a12b1b8"
+}

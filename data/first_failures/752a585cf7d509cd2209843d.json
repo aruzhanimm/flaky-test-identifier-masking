@@ -1,0 +1,37 @@
+{
+  "container": "APEXCORE-617-testHandleIdleTimeOutsideStreamingWindow",
+  "metadata": {
+    "source": "JIRA",
+    "container": "APEXCORE-617-testHandleIdleTimeOutsideStreamingWindow",
+    "project": "https://github.com/apache/apache/apex-core",
+    "revision": "a469dfb229c0d42c07048d95d070703331e2c429",
+    "test": "com.datatorrent.stram.engine.InputNodeTest.testHandleIdleTimeOutsideStreamingWindow",
+    "label": "TD",
+    "module": "engine",
+    "zip": "APEXCORE-617",
+    "config_row": 1103,
+    "configured_test": "com.datatorrent.stram.engine.InputNodeTest#testHandleIdleTimeOutsideStreamingWindow",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/apache/apex-core::com.datatorrent.stram.engine.InputNodeTest.testHandleIdleTimeOutsideStreamingWindow",
+    "variant_id": "https://github.com/apache/apache/apex-core::com.datatorrent.stram.engine.InputNodeTest.testHandleIdleTimeOutsideStreamingWindow::a469dfb229c0d42c07048d95d070703331e2c429::engine",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/APEXCORE-617-testHandleIdleTimeOutsideStreamingWindow/result/Flaky/rounds-test-results.csv",
+    "size": 18280,
+    "compressed": 615,
+    "crc32": "a4e1ba1e",
+    "offset": 66716453,
+    "method": 8,
+    "local_path": "data/extracted/5118e78d0cdecb1d650c5fad.csv",
+    "sha256": "66dcb39c31ae8a151b06ae9c83723b4a9872017caa37cbb62a6b986e87550a1a",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

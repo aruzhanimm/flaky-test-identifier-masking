@@ -1,0 +1,81 @@
+{
+  "container": "ignite3modulesstoragerocksdb19c8a82removalReturnsNullIfNoUncommittedVersionExists",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ignite3modulesstoragerocksdb19c8a82removalReturnsNullIfNoUncommittedVersionExists",
+    "project": "https://github.com/apache/ignite-3",
+    "revision": "19c8a824bd9d31f0d0dbd3fbbdd2a32ee360cab2",
+    "test": "org.apache.ignite.internal.storage.rocksdb.RocksDbMvPartitionStorageTest.removalReturnsNullIfNoUncommittedVersionExists",
+    "label": "ID",
+    "module": "modules/storage-rocksdb",
+    "zip": "ignite-3=modules+storage-rocksdb=19c8a82",
+    "config_row": 431,
+    "configured_test": "org.apache.ignite.internal.storage.rocksdb.RocksDbMvPartitionStorageTest#removalReturnsNullIfNoUncommittedVersionExists",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/ignite-3::org.apache.ignite.internal.storage.rocksdb.RocksDbMvPartitionStorageTest.removalReturnsNullIfNoUncommittedVersionExists",
+    "variant_id": "https://github.com/apache/ignite-3::org.apache.ignite.internal.storage.rocksdb.RocksDbMvPartitionStorageTest.removalReturnsNullIfNoUncommittedVersionExists::19c8a824bd9d31f0d0dbd3fbbdd2a32ee360cab2::modules/storage-rocksdb",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/ignite3modulesstoragerocksdb19c8a82removalReturnsNullIfNoUncommittedVersionExists/result/Flaky/.nondex/G+fkvmddTR+lMuewxYL+sR10UfFjk+SiodwYrZOYRs=/TEST-org.apache.ignite.internal.storage.rocksdb.RocksDbMvPartitionStorageTest.xml",
+        "size": 23857,
+        "compressed": 3377,
+        "crc32": "69550f9d",
+        "offset": 219720638,
+        "method": 8,
+        "local_path": "data/extracted/7186c470284a33e046525a10.xml",
+        "sha256": "6d046e248466b073e6f57aa7e37523f0a74b2e30468dfc5c28a7b1419c258bed",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ignite3modulesstoragerocksdb19c8a82removalReturnsNullIfNoUncommittedVersionExists/result/Flaky/rounds-test-results.csv",
+    "size": 22636,
+    "compressed": 5135,
+    "crc32": "05968cb0",
+    "offset": 219315147,
+    "method": 8,
+    "local_path": "data/extracted/cd61a201da1216b8f29b39bc.csv",
+    "sha256": "f50e1575d36bfa34cb01ad932c17d1e48ffc276e5122126df9ee89e6e2d0b31e",
+    "status": "verified"
+  },
+  "reported_failure_rows": 84,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/ignite3modulesstoragerocksdb19c8a82removalReturnsNullIfNoUncommittedVersionExists/result/Flaky/.nondex/G+fkvmddTR+lMuewxYL+sR10UfFjk+SiodwYrZOYRs=/TEST-org.apache.ignite.internal.storage.rocksdb.RocksDbMvPartitionStorageTest.xml",
+    "size": 23857,
+    "compressed": 3377,
+    "crc32": "69550f9d",
+    "offset": 219720638,
+    "method": 8,
+    "local_path": "data/extracted/7186c470284a33e046525a10.xml",
+    "sha256": "6d046e248466b073e6f57aa7e37523f0a74b2e30468dfc5c28a7b1419c258bed",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "removalReturnsNullIfNoUncommittedVersionExists",
+    "outcome": "error",
+    "exception_type": "org.junit.jupiter.api.extension.ParameterResolutionException",
+    "message": null,
+    "stack_trace": "org.junit.jupiter.api.extension.ParameterResolutionException: Failed to resolve parameter [org.apache.ignite.internal.schema.configuration.TablesConfiguration arg2] in method [public void org.apache.ignite.internal.storage.rocksdb.RocksDbMvPartitionStorageTest.setUp(java.nio.file.Path,org.apache.ignite.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration,org.apache.ignite.internal.schema.configuration.TablesConfiguration) throws java.lang.Exception]: org.apache.ignite.internal.schema.configuration.index.TableIndexConfigurationSchema\nCaused by: java.lang.AssertionError: org.apache.ignite.internal.schema.configuration.index.TableIndexConfigurationSchema",
+    "text": "org.junit.jupiter.api.extension.ParameterResolutionException\norg.junit.jupiter.api.extension.ParameterResolutionException: Failed to resolve parameter [org.apache.ignite.internal.schema.configuration.TablesConfiguration arg2] in method [public void org.apache.ignite.internal.storage.rocksdb.RocksDbMvPartitionStorageTest.setUp(java.nio.file.Path,org.apache.ignite.internal.storage.rocksdb.configuration.schema.RocksDbStorageEngineConfiguration,org.apache.ignite.internal.schema.configuration.TablesConfiguration) throws java.lang.Exception]: org.apache.ignite.internal.schema.configuration.index.TableIndexConfigurationSchema\nCaused by: java.lang.AssertionError: org.apache.ignite.internal.schema.configuration.index.TableIndexConfigurationSchema",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "ff7636ba550f8e5c8e286178e5f15f524549641a3cbee25180e48dbb2d530f56"
+}

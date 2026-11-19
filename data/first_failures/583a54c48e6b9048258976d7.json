@@ -1,0 +1,81 @@
+{
+  "container": "hiveserdea6e13c9testBinarySortableSerDe",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "hiveserdea6e13c9testBinarySortableSerDe",
+    "project": "https://github.com/apache/hive",
+    "revision": "a6e13c978b83f4319b806870fa7c7ab8cbbec81a",
+    "test": "org.apache.hadoop.hive.serde2.binarysortable.TestBinarySortableSerDe.testBinarySortableSerDe",
+    "label": "ID",
+    "module": "serde",
+    "zip": "hive=serde=a6e13c9",
+    "config_row": 270,
+    "configured_test": "org.apache.hadoop.hive.serde2.binarysortable.TestBinarySortableSerDe#testBinarySortableSerDe",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hive::org.apache.hadoop.hive.serde2.binarysortable.TestBinarySortableSerDe.testBinarySortableSerDe",
+    "variant_id": "https://github.com/apache/hive::org.apache.hadoop.hive.serde2.binarysortable.TestBinarySortableSerDe.testBinarySortableSerDe::a6e13c978b83f4319b806870fa7c7ab8cbbec81a::serde",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/hiveserdea6e13c9testBinarySortableSerDe/result/Flaky/.nondex/VOm3iU17NBT5E9m1ARKS3c3eoIjri1tIbJSc1Tvk99A=/TEST-org.apache.hadoop.hive.serde2.binarysortable.TestBinarySortableSerDe.xml",
+        "size": 88439,
+        "compressed": 11356,
+        "crc32": "506bc0e0",
+        "offset": 276598702,
+        "method": 8,
+        "local_path": "data/extracted/ae5f9c34ee70abcd717b812e.xml",
+        "sha256": "373bce3988c6110a4a8f5bacd244868381e9043e2566d16dedce1d9e6a20cdc0",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/hiveserdea6e13c9testBinarySortableSerDe/result/Flaky/rounds-test-results.csv",
+    "size": 20447,
+    "compressed": 5081,
+    "crc32": "85e79f35",
+    "offset": 276214953,
+    "method": 8,
+    "local_path": "data/extracted/74f644585e8439ee5b37c4d3.csv",
+    "sha256": "82ef7f5769781629f346cdc49d563b59527f1e7a1ce7f56ee53852acce42baf0",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/hiveserdea6e13c9testBinarySortableSerDe/result/Flaky/.nondex/VOm3iU17NBT5E9m1ARKS3c3eoIjri1tIbJSc1Tvk99A=/TEST-org.apache.hadoop.hive.serde2.binarysortable.TestBinarySortableSerDe.xml",
+    "size": 88439,
+    "compressed": 11356,
+    "crc32": "506bc0e0",
+    "offset": 276598702,
+    "method": 8,
+    "local_path": "data/extracted/ae5f9c34ee70abcd717b812e.xml",
+    "sha256": "373bce3988c6110a4a8f5bacd244868381e9043e2566d16dedce1d9e6a20cdc0",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testBinarySortableSerDe",
+    "outcome": "error",
+    "exception_type": "java.lang.ClassCastException",
+    "message": "class java.lang.Short cannot be cast to class org.apache.hadoop.hive.common.type.HiveVarchar (java.lang.Short is in module java.base of loader 'bootstrap'; org.apache.hadoop.hive.common.type.HiveVarchar is in unnamed module of loader 'app')",
+    "stack_trace": "java.lang.ClassCastException: class java.lang.Short cannot be cast to class org.apache.hadoop.hive.common.type.HiveVarchar (java.lang.Short is in module java.base of loader 'bootstrap'; org.apache.hadoop.hive.common.type.HiveVarchar is in unnamed module of loader 'app')\n\tat org.apache.hadoop.hive.serde2.objectinspector.primitive.JavaHiveVarcharObjectInspector.getPrimitiveWritableObject(JavaHiveVarcharObjectInspector.java:63)\n\tat org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorUtils.compare(ObjectInspectorUtils.java:1142)\n\tat org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorUtils.compare(ObjectInspectorUtils.java:1215)\n\tat org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorUtils.compare(ObjectInspectorUtils.java:1043)\n\tat org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorUtils.compare(ObjectInspectorUtils.java:1034)\n\tat org.apache.hadoop.hive.serde2.binarysortable.TestBinarySortableSerDe.sort(TestBinarySortableSerDe.java:132)\n\tat org.apache.hadoop.hive.serde2.binarysortable.TestBinarySortableSerDe.testBinarySortableSerDe(TestBinarySortableSerDe.java:169)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)",
+    "text": "java.lang.ClassCastException\nclass java.lang.Short cannot be cast to class org.apache.hadoop.hive.common.type.HiveVarchar (java.lang.Short is in module java.base of loader 'bootstrap'; org.apache.hadoop.hive.common.type.HiveVarchar is in unnamed module of loader 'app')\njava.lang.ClassCastException: class java.lang.Short cannot be cast to class org.apache.hadoop.hive.common.type.HiveVarchar (java.lang.Short is in module java.base of loader 'bootstrap'; org.apache.hadoop.hive.common.type.HiveVarchar is in unnamed module of loader 'app')\n\tat org.apache.hadoop.hive.serde2.objectinspector.primitive.JavaHiveVarcharObjectInspector.getPrimitiveWritableObject(JavaHiveVarcharObjectInspector.java:63)\n\tat org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorUtils.compare(ObjectInspectorUtils.java:1142)\n\tat org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorUtils.compare(ObjectInspectorUtils.java:1215)\n\tat org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorUtils.compare(ObjectInspectorUtils.java:1043)\n\tat org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorUtils.compare(ObjectInspectorUtils.java:1034)\n\tat org.apache.hadoop.hive.serde2.binarysortable.TestBinarySortableSerDe.sort(TestBinarySortableSerDe.java:132)\n\tat org.apache.hadoop.hive.serde2.binarysortable.TestBinarySortableSerDe.testBinarySortableSerDe(TestBinarySortableSerDe.java:169)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "ba41bd37de566dd070fbc0108a0a0cbb8ed448e1140a1ccb01300c273afd32a5"
+}

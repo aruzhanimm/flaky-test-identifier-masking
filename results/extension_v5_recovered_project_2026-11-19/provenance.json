@@ -1,0 +1,16 @@
+{
+  "started_utc": "2026-11-19T08:32:15.866648+00:00",
+  "train_sha256": "4fbee74d76717535e80f7c40841852784a23c1907954e8227ad2ae31f87c5127",
+  "evaluation_sha256": "6b3f5b983233e05e6a0f9a6dc38a3bdf6e80d35c1bad4f3be2c932c19f7f119e",
+  "config_sha256": "31e7bee91bd23eb569ed19129c685cfcf4b181a0e96bea390d87940f1d270c05",
+  "svc_config_sha256": "b18c52e060259e994fa5b526c7ef248e896eadd5f87a63bdfc104a68819cf04d",
+  "protocol_sha256": "07439c91c436c03c479814648ef9088304142c9fb31d48f790e3b59e68ee6e13",
+  "code_sha256": "b145e888b959edfdbcaba8ad3cc352d891884c8cea9ea35c3bd09d9370ef16bc",
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.1",
+  "fit_threads": 1,
+  "evaluation_population": "five source-rescued ID tests from one previously excluded ReproFlake repository; not independent-source external validation",
+  "java_reruns": 0
+}

@@ -1,0 +1,81 @@
+{
+  "container": "paraparaserver2420ca0testReadPage",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "paraparaserver2420ca0testReadPage",
+    "project": "https://github.com/erudika/para",
+    "revision": "2420ca0bd7166b8801545f24ce121a9729c6fc33",
+    "test": "com.erudika.para.persistence.MockDAOTest.testReadPage",
+    "label": "ID",
+    "module": "para-server",
+    "zip": "para=para-server=2420ca0",
+    "config_row": 701,
+    "configured_test": "com.erudika.para.persistence.MockDAOTest#testReadPage",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/erudika/para::com.erudika.para.persistence.MockDAOTest.testReadPage",
+    "variant_id": "https://github.com/erudika/para::com.erudika.para.persistence.MockDAOTest.testReadPage::2420ca0bd7166b8801545f24ce121a9729c6fc33::para-server",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/paraparaserver2420ca0testReadPage/result/Flaky/.nondex/CBZa5Ri2N0JIIwQzHG05cAFWcjA8UudhxTUp0QFoW4=/TEST-com.erudika.para.persistence.MockDAOTest.xml",
+        "size": 52252,
+        "compressed": 6137,
+        "crc32": "fa3b4183",
+        "offset": 2212945667,
+        "method": 8,
+        "local_path": "data/extracted/fbb6f287a82f72f557ca7bc8.xml",
+        "sha256": "2a24e0831f2e7cff07a3404eee2112aac7ccd32a09cca9ccf5304e6bf17f1315",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/paraparaserver2420ca0testReadPage/result/Flaky/rounds-test-results.csv",
+    "size": 18473,
+    "compressed": 5143,
+    "crc32": "68b40662",
+    "offset": 2212694917,
+    "method": 8,
+    "local_path": "data/extracted/72d2288f9c8d1508ef23651f.csv",
+    "sha256": "86e9fb39997df81c7a14aaa8bd9d80f05a3507b765a9cf68112ce73d4adf8d88",
+    "status": "verified"
+  },
+  "reported_failure_rows": 96,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/paraparaserver2420ca0testReadPage/result/Flaky/.nondex/CBZa5Ri2N0JIIwQzHG05cAFWcjA8UudhxTUp0QFoW4=/TEST-com.erudika.para.persistence.MockDAOTest.xml",
+    "size": 52252,
+    "compressed": 6137,
+    "crc32": "fa3b4183",
+    "offset": 2212945667,
+    "method": 8,
+    "local_path": "data/extracted/fbb6f287a82f72f557ca7bc8.xml",
+    "sha256": "2a24e0831f2e7cff07a3404eee2112aac7ccd32a09cca9ccf5304e6bf17f1315",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testReadPage",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "expected:<10> but was:<5>",
+    "stack_trace": "java.lang.AssertionError: expected:<10> but was:<5>",
+    "text": "java.lang.AssertionError\nexpected:<10> but was:<5>\njava.lang.AssertionError: expected:<10> but was:<5>",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "6e46805c3d7f39a9ba4b09f6488c5cfe57bf5f3dcf95e4a46acaba0f81f25dae"
+}

@@ -1,0 +1,10 @@
+{
+  "source_corpus_unchanged": true,
+  "candidate_file_unchanged": true,
+  "canonical_tests_disjoint": true,
+  "repository_groups_disjoint": true,
+  "exact_diagnostic_hashes_disjoint": true,
+  "fresh_training_only_pipeline_each_condition": true,
+  "convergence_warnings": 0,
+  "fitted_models": 4
+}

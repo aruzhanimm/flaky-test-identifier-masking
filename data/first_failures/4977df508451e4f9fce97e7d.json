@@ -1,0 +1,81 @@
+{
+  "container": "ignite3modulescli77761fbnoKey",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ignite3modulescli77761fbnoKey",
+    "project": "https://github.com/apache/ignite-3",
+    "revision": "77761fb7c1f7b7c669ea8525741bb4d10a72f030",
+    "test": "org.apache.ignite.cli.commands.cliconfig.CliConfigSubCommandTest.noKey",
+    "label": "ID",
+    "module": "modules/cli",
+    "zip": "ignite-3=modules+cli=77761fb",
+    "config_row": 404,
+    "configured_test": "org.apache.ignite.cli.commands.cliconfig.CliConfigSubCommandTest#noKey",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/ignite-3::org.apache.ignite.cli.commands.cliconfig.CliConfigSubCommandTest.noKey",
+    "variant_id": "https://github.com/apache/ignite-3::org.apache.ignite.cli.commands.cliconfig.CliConfigSubCommandTest.noKey::77761fb7c1f7b7c669ea8525741bb4d10a72f030::modules/cli",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 5,
+      "iteration": 4,
+      "member": {
+        "path": "result/ignite3modulescli77761fbnoKey/result/Flaky/.nondex/QJAG3kNXV5gJZRMhO6wWI2sepo26HrZfSeybbvncTaM=/TEST-org.apache.ignite.cli.commands.cliconfig.CliConfigSubCommandTest.xml",
+        "size": 49069,
+        "compressed": 6114,
+        "crc32": "18fdd86d",
+        "offset": 2002438953,
+        "method": 8,
+        "local_path": "data/extracted/46450bb5858b2797ef328b73.xml",
+        "sha256": "a05f30873abaa923381111d379650ff524617566294292ddba00cfebea2250bf",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ignite3modulescli77761fbnoKey/result/Flaky/rounds-test-results.csv",
+    "size": 20673,
+    "compressed": 5167,
+    "crc32": "eacc7886",
+    "offset": 2001940179,
+    "method": 8,
+    "local_path": "data/extracted/da081a4b5d888fa8cb91efa5.csv",
+    "sha256": "16914f9c6859a9d2e985b46f02e4ee945cb82a09b616eaca04e37b73aab246b0",
+    "status": "verified"
+  },
+  "reported_failure_rows": 46,
+  "iteration": 4,
+  "source_row": 5,
+  "diagnostic_member": {
+    "path": "result/ignite3modulescli77761fbnoKey/result/Flaky/.nondex/QJAG3kNXV5gJZRMhO6wWI2sepo26HrZfSeybbvncTaM=/TEST-org.apache.ignite.cli.commands.cliconfig.CliConfigSubCommandTest.xml",
+    "size": 49069,
+    "compressed": 6114,
+    "crc32": "18fdd86d",
+    "offset": 2002438953,
+    "method": 8,
+    "local_path": "data/extracted/46450bb5858b2797ef328b73.xml",
+    "sha256": "a05f30873abaa923381111d379650ff524617566294292ddba00cfebea2250bf",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "noKey",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.MultipleFailuresError",
+    "message": null,
+    "stack_trace": "org.opentest4j.MultipleFailuresError: \nMultiple Failures (1 failure)\n\torg.opentest4j.AssertionFailedError: [Expected command output to be: ignite.cluster-url=test_cluster_url\nignite.jdbc-url=test_jdbc_url\n but was ignite.jdbc-url=test_jdbc_url\nignite.cluster-url=test_cluster_url\n] \nexpected: \n  \"ignite.cluster-url=test_cluster_url\n  ignite.jdbc-url=test_jdbc_url\n  \"\n but was: \n  \"ignite.jdbc-url=test_jdbc_url\n  ignite.cluster-url=test_cluster_url\n  \"\n\tat org.apache.ignite.cli.commands.cliconfig.CliConfigSubCommandTest.noKey(CliConfigSubCommandTest.java:40)",
+    "text": "org.opentest4j.MultipleFailuresError\norg.opentest4j.MultipleFailuresError: \nMultiple Failures (1 failure)\n\torg.opentest4j.AssertionFailedError: [Expected command output to be: ignite.cluster-url=test_cluster_url\nignite.jdbc-url=test_jdbc_url\n but was ignite.jdbc-url=test_jdbc_url\nignite.cluster-url=test_cluster_url\n] \nexpected: \n  \"ignite.cluster-url=test_cluster_url\n  ignite.jdbc-url=test_jdbc_url\n  \"\n but was: \n  \"ignite.jdbc-url=test_jdbc_url\n  ignite.cluster-url=test_cluster_url\n  \"\n\tat org.apache.ignite.cli.commands.cliconfig.CliConfigSubCommandTest.noKey(CliConfigSubCommandTest.java:40)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "9e77f8834783b7b7297c3bdc0af6490fee4682519987cea8d75be52b4a322b1e"
+}

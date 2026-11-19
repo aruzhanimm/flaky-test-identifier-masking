@@ -1,0 +1,81 @@
+{
+  "container": "apolloapolloclient9e19898testAssembleLongPollRefreshUrlWithMultipleNamespaces",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "apolloapolloclient9e19898testAssembleLongPollRefreshUrlWithMultipleNamespaces",
+    "project": "https://github.com/apolloconfig/apollo",
+    "revision": "9e19898c6dc3e14fa1424a827ecc60519e21bd16",
+    "test": "com.ctrip.framework.apollo.internals.RemoteConfigLongPollServiceTest.testAssembleLongPollRefreshUrlWithMultipleNamespaces",
+    "label": "ID",
+    "module": "apollo-client",
+    "zip": "apollo=apollo-client=9e19898",
+    "config_row": 169,
+    "configured_test": "com.ctrip.framework.apollo.internals.RemoteConfigLongPollServiceTest#testAssembleLongPollRefreshUrlWithMultipleNamespaces",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apolloconfig/apollo::com.ctrip.framework.apollo.internals.RemoteConfigLongPollServiceTest.testAssembleLongPollRefreshUrlWithMultipleNamespaces",
+    "variant_id": "https://github.com/apolloconfig/apollo::com.ctrip.framework.apollo.internals.RemoteConfigLongPollServiceTest.testAssembleLongPollRefreshUrlWithMultipleNamespaces::9e19898c6dc3e14fa1424a827ecc60519e21bd16::apollo-client",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/apolloapolloclient9e19898testAssembleLongPollRefreshUrlWithMultipleNamespaces/result/Flaky/.nondex/ghSrM0U0yWju+OQK2ikZ1X+6A329+HBP2N7FMxvgDFk=/TEST-com.ctrip.framework.apollo.internals.RemoteConfigLongPollServiceTest.xml",
+        "size": 18103,
+        "compressed": 3704,
+        "crc32": "a8aa5587",
+        "offset": 879556045,
+        "method": 8,
+        "local_path": "data/extracted/c4b0d14ad5b759d610062b1b.xml",
+        "sha256": "cd46940d928f8f67b87cdb4e280e974189fe4a0d8f5b8cba72d1e44162fdd7af",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/apolloapolloclient9e19898testAssembleLongPollRefreshUrlWithMultipleNamespaces/result/Flaky/rounds-test-results.csv",
+    "size": 21302,
+    "compressed": 5035,
+    "crc32": "323c2dcf",
+    "offset": 879282420,
+    "method": 8,
+    "local_path": "data/extracted/d5f03a5cdc299be312d2cfbe.csv",
+    "sha256": "b3ac5c96b308586383af648c5f16b3813b2ce11fd53df4c337256aea77fe191e",
+    "status": "verified"
+  },
+  "reported_failure_rows": 46,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/apolloapolloclient9e19898testAssembleLongPollRefreshUrlWithMultipleNamespaces/result/Flaky/.nondex/ghSrM0U0yWju+OQK2ikZ1X+6A329+HBP2N7FMxvgDFk=/TEST-com.ctrip.framework.apollo.internals.RemoteConfigLongPollServiceTest.xml",
+    "size": 18103,
+    "compressed": 3704,
+    "crc32": "a8aa5587",
+    "offset": 879556045,
+    "method": 8,
+    "local_path": "data/extracted/c4b0d14ad5b759d610062b1b.xml",
+    "sha256": "cd46940d928f8f67b87cdb4e280e974189fe4a0d8f5b8cba72d1e44162fdd7af",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testAssembleLongPollRefreshUrlWithMultipleNamespaces",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat com.ctrip.framework.apollo.internals.RemoteConfigLongPollServiceTest.testAssembleLongPollRefreshUrlWithMultipleNamespaces(RemoteConfigLongPollServiceTest.java:535)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37)\n\tat org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:161)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat com.ctrip.framework.apollo.internals.RemoteConfigLongPollServiceTest.testAssembleLongPollRefreshUrlWithMultipleNamespaces(RemoteConfigLongPollServiceTest.java:535)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37)\n\tat org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:161)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "a6d459521178da6e36770d8929d803e73eb93edcee0a7df5e4c9a359ac653ee0"
+}

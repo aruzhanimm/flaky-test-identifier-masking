@@ -1,0 +1,81 @@
+{
+  "container": "scimonoscimonoclient7487ec5testReadMultipleUsersDefaultFilter7",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "scimonoscimonoclient7487ec5testReadMultipleUsersDefaultFilter7",
+    "project": "https://github.com/sap/scimono",
+    "revision": "7487ec5c28c12469fd57980d9f810b9d357b6d81",
+    "test": "com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadMultipleUsersDefaultFilter",
+    "label": "ID",
+    "module": "scimono-client",
+    "zip": "scimono=scimono-client=7487ec5",
+    "config_row": 716,
+    "configured_test": "com.sap.scimono.client.SCIMResourceResponseHandlingTest#testReadMultipleUsersDefaultFilter",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/sap/scimono::com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadMultipleUsersDefaultFilter",
+    "variant_id": "https://github.com/sap/scimono::com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadMultipleUsersDefaultFilter::7487ec5c28c12469fd57980d9f810b9d357b6d81::scimono-client",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/scimonoscimonoclient7487ec5testReadMultipleUsersDefaultFilter7/result/Flaky/.nondex/tqM64Y7mYvqrQJrV34LoIFNLVJKryuLsjpKBQoFWsU=/TEST-com.sap.scimono.client.SCIMResourceResponseHandlingTest.xml",
+        "size": 24358,
+        "compressed": 3771,
+        "crc32": "dba291da",
+        "offset": 1583149776,
+        "method": 8,
+        "local_path": "data/extracted/60939322afac5710f0d7caad.xml",
+        "sha256": "b7acb995bd1cf2da9d709aea111044a037a9c5eda389732c8846e8284cd270a3",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/scimonoscimonoclient7487ec5testReadMultipleUsersDefaultFilter7/result/Flaky/rounds-test-results.csv",
+    "size": 20116,
+    "compressed": 5156,
+    "crc32": "aec54ac0",
+    "offset": 1582686997,
+    "method": 8,
+    "local_path": "data/extracted/776c19482e1b53c1584d0007.csv",
+    "sha256": "c27568b258da7bfc1cc23ac3e62c83d6b1d09fba9738ea2230392af0a518dffd",
+    "status": "verified"
+  },
+  "reported_failure_rows": 56,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/scimonoscimonoclient7487ec5testReadMultipleUsersDefaultFilter7/result/Flaky/.nondex/tqM64Y7mYvqrQJrV34LoIFNLVJKryuLsjpKBQoFWsU=/TEST-com.sap.scimono.client.SCIMResourceResponseHandlingTest.xml",
+    "size": 24358,
+    "compressed": 3771,
+    "crc32": "dba291da",
+    "offset": 1583149776,
+    "method": 8,
+    "local_path": "data/extracted/60939322afac5710f0d7caad.xml",
+    "sha256": "b7acb995bd1cf2da9d709aea111044a037a9c5eda389732c8846e8284cd270a3",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testReadMultipleUsersDefaultFilter",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.MultipleFailuresError",
+    "message": "Multiple Failures (1 failure)\n org.opentest4j.AssertionFailedError: expected: <true> but was: <false>",
+    "stack_trace": "org.opentest4j.MultipleFailuresError: \nMultiple Failures (1 failure)\n\torg.opentest4j.AssertionFailedError: expected: <true> but was: <false>\n\tat com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadMultipleUsersDefaultFilter(SCIMResourceResponseHandlingTest.java:129)",
+    "text": "org.opentest4j.MultipleFailuresError\nMultiple Failures (1 failure)\n org.opentest4j.AssertionFailedError: expected: <true> but was: <false>\norg.opentest4j.MultipleFailuresError: \nMultiple Failures (1 failure)\n\torg.opentest4j.AssertionFailedError: expected: <true> but was: <false>\n\tat com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadMultipleUsersDefaultFilter(SCIMResourceResponseHandlingTest.java:129)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "5d0dd7f0a66627a591a826b31a1ed593601941ad80f87fd23e70e0dda7ce7704"
+}

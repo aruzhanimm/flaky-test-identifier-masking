@@ -1,0 +1,81 @@
+{
+  "container": "flinkflinktableflinktablecommond4ca6eatestValueLiteralString",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "flinkflinktableflinktablecommond4ca6eatestValueLiteralString",
+    "project": "https://github.com/apache/flink",
+    "revision": "d4ca6ea2b0061c758f49c1edef562348eb96c9d0",
+    "test": "org.apache.flink.table.expressions.ExpressionTest.testValueLiteralString",
+    "label": "ID",
+    "module": "flink-table/flink-table-common",
+    "zip": "flink=flink-table+flink-table-common=d4ca6ea",
+    "config_row": 179,
+    "configured_test": "org.apache.flink.table.expressions.ExpressionTest#testValueLiteralString",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/flink::org.apache.flink.table.expressions.ExpressionTest.testValueLiteralString",
+    "variant_id": "https://github.com/apache/flink::org.apache.flink.table.expressions.ExpressionTest.testValueLiteralString::d4ca6ea2b0061c758f49c1edef562348eb96c9d0::flink-table/flink-table-common",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/flinkflinktableflinktablecommond4ca6eatestValueLiteralString/result/Flaky/.nondex/U2kB41X2EYAJKlWRt2Sfj+152XxQcbaFbIjjZdsE=/TEST-org.apache.flink.table.expressions.ExpressionTest.xml",
+        "size": 12945,
+        "compressed": 2461,
+        "crc32": "7f22a9fb",
+        "offset": 908154237,
+        "method": 8,
+        "local_path": "data/extracted/b9cafbf89834a6b3cae468f7.xml",
+        "sha256": "eb689e170b53a353bcfc7670f061703669b64113d5b5c43ddc184e147b24bfaa",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/flinkflinktableflinktablecommond4ca6eatestValueLiteralString/result/Flaky/rounds-test-results.csv",
+    "size": 21254,
+    "compressed": 4872,
+    "crc32": "2fe6fb33",
+    "offset": 907999662,
+    "method": 8,
+    "local_path": "data/extracted/d33761b192e61602fb9b7589.csv",
+    "sha256": "a0baaa65b26a4aad1822642b1d20468611003896f246ef2b04592b98f0116621",
+    "status": "verified"
+  },
+  "reported_failure_rows": 99,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/flinkflinktableflinktablecommond4ca6eatestValueLiteralString/result/Flaky/.nondex/U2kB41X2EYAJKlWRt2Sfj+152XxQcbaFbIjjZdsE=/TEST-org.apache.flink.table.expressions.ExpressionTest.xml",
+    "size": 12945,
+    "compressed": 2461,
+    "crc32": "7f22a9fb",
+    "offset": 908154237,
+    "method": 8,
+    "local_path": "data/extracted/b9cafbf89834a6b3cae468f7.xml",
+    "sha256": "eb689e170b53a353bcfc7670f061703669b64113d5b5c43ddc184e147b24bfaa",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testValueLiteralString",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<{key[1=1, key2=2, key3=3]}> but was:<{key[3=3, key2=2, key1=1]}>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<{key[1=1, key2=2, key3=3]}> but was:<{key[3=3, key2=2, key1=1]}>\n\tat org.apache.flink.table.expressions.ExpressionTest.testValueLiteralString(ExpressionTest.java:119)",
+    "text": "org.junit.ComparisonFailure\nexpected:<{key[1=1, key2=2, key3=3]}> but was:<{key[3=3, key2=2, key1=1]}>\norg.junit.ComparisonFailure: expected:<{key[1=1, key2=2, key3=3]}> but was:<{key[3=3, key2=2, key1=1]}>\n\tat org.apache.flink.table.expressions.ExpressionTest.testValueLiteralString(ExpressionTest.java:119)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "4ca57395e7a082e089744784a639139f10ad0127a8f10778a1d83a2fe7dd787f"
+}

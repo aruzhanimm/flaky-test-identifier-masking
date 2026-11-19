@@ -1,0 +1,81 @@
+{
+  "container": "incubatorshardingsphereshardingjdbcshardingjdbccorea0ffcf0assertInsertWithBatchExecute",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "incubatorshardingsphereshardingjdbcshardingjdbccorea0ffcf0assertInsertWithBatchExecute",
+    "project": "https://github.com/apache/incubator-shardingsphere",
+    "revision": "a0ffcf02c29e5259f0bdbf5a6f8a5e089c48a751",
+    "test": "org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptPreparedStatementTest.assertInsertWithBatchExecute",
+    "label": "ID",
+    "module": "sharding-jdbc/sharding-jdbc-core",
+    "zip": "incubator-shardingsphere=sharding-jdbc+sharding-jdbc-core=a0ffcf0",
+    "config_row": 389,
+    "configured_test": "org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptPreparedStatementTest#assertInsertWithBatchExecute",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/incubator-shardingsphere::org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptPreparedStatementTest.assertInsertWithBatchExecute",
+    "variant_id": "https://github.com/apache/incubator-shardingsphere::org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptPreparedStatementTest.assertInsertWithBatchExecute::a0ffcf02c29e5259f0bdbf5a6f8a5e089c48a751::sharding-jdbc/sharding-jdbc-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/incubatorshardingsphereshardingjdbcshardingjdbccorea0ffcf0assertInsertWithBatchExecute/result/Flaky/.nondex/CjI2uxwORFZ7SfabGjq7VgkVP5w+CJ1S1NcIDYWVFik=/TEST-org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptPreparedStatementTest.xml",
+        "size": 16815,
+        "compressed": 2737,
+        "crc32": "2c1b58ae",
+        "offset": 1981443694,
+        "method": 8,
+        "local_path": "data/extracted/29cbcb53269a9c6f734bd75e.xml",
+        "sha256": "955cb69952e2587eb48e7ad80468dbd99b34a41c78a28630c4b06066e4631771",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/incubatorshardingsphereshardingjdbcshardingjdbccorea0ffcf0assertInsertWithBatchExecute/result/Flaky/rounds-test-results.csv",
+    "size": 25168,
+    "compressed": 5167,
+    "crc32": "672fe50c",
+    "offset": 1981201986,
+    "method": 8,
+    "local_path": "data/extracted/d749adb24a32f3772f6f8e5e.csv",
+    "sha256": "e74fd70deb381adc6507762441a5ea57d6cca9879abaaa0d7a5052f3049c2161",
+    "status": "verified"
+  },
+  "reported_failure_rows": 65,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/incubatorshardingsphereshardingjdbcshardingjdbccorea0ffcf0assertInsertWithBatchExecute/result/Flaky/.nondex/CjI2uxwORFZ7SfabGjq7VgkVP5w+CJ1S1NcIDYWVFik=/TEST-org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptPreparedStatementTest.xml",
+    "size": 16815,
+    "compressed": 2737,
+    "crc32": "2c1b58ae",
+    "offset": 1981443694,
+    "method": 8,
+    "local_path": "data/extracted/29cbcb53269a9c6f734bd75e.xml",
+    "sha256": "955cb69952e2587eb48e7ad80468dbd99b34a41c78a28630c4b06066e4631771",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "assertInsertWithBatchExecute",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: is <4>\n     but: was <0>",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: is <4>\n     but: was <0>\n\tat org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptPreparedStatementTest.assertResultSet(EncryptPreparedStatementTest.java:163)\n\tat org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptPreparedStatementTest.assertInsertWithBatchExecute(EncryptPreparedStatementTest.java:76)",
+    "text": "java.lang.AssertionError\nExpected: is <4>\n     but: was <0>\njava.lang.AssertionError: \n\nExpected: is <4>\n     but: was <0>\n\tat org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptPreparedStatementTest.assertResultSet(EncryptPreparedStatementTest.java:163)\n\tat org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.EncryptPreparedStatementTest.assertInsertWithBatchExecute(EncryptPreparedStatementTest.java:76)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "6316d0324911f94e5c96c5f02e21c1587ae070337f11efd6e0ecf19834f5fd45"
+}

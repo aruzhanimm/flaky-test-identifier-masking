@@ -1,0 +1,81 @@
+{
+  "container": "jacksondataformatsbinaryprotobuf0eeb08ctestStringArrayWithName",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jacksondataformatsbinaryprotobuf0eeb08ctestStringArrayWithName",
+    "project": "https://github.com/fasterxml/jackson-dataformats-binary",
+    "revision": "0eeb08cfd07a9d23bc22090e17a67da57baf436e",
+    "test": "com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest.testStringArrayWithName",
+    "label": "ID",
+    "module": "protobuf",
+    "zip": "jackson-dataformats-binary=protobuf=0eeb08c",
+    "config_row": 338,
+    "configured_test": "com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest#testStringArrayWithName",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/fasterxml/jackson-dataformats-binary::com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest.testStringArrayWithName",
+    "variant_id": "https://github.com/fasterxml/jackson-dataformats-binary::com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest.testStringArrayWithName::0eeb08cfd07a9d23bc22090e17a67da57baf436e::protobuf",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/jacksondataformatsbinaryprotobuf0eeb08ctestStringArrayWithName/result/Flaky/.nondex/rH7kix7Lld3RPgUvwepqmzFdRTnEzHjR8QHy7cYfKI=/TEST-com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest.xml",
+        "size": 7490,
+        "compressed": 1853,
+        "crc32": "20a92712",
+        "offset": 1927663844,
+        "method": 8,
+        "local_path": "data/extracted/1f258fd0256180c7c9ae70b3.xml",
+        "sha256": "5de7992689399dd04d80930922598fddd52e6eac5a4f5400450a9c0b12bedefa",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jacksondataformatsbinaryprotobuf0eeb08ctestStringArrayWithName/result/Flaky/rounds-test-results.csv",
+    "size": 19568,
+    "compressed": 5048,
+    "crc32": "a5c358e6",
+    "offset": 1927466877,
+    "method": 8,
+    "local_path": "data/extracted/7dac333d3fc3e36582459983.csv",
+    "sha256": "80d41645067daed9b012ee0fae5827a1feb8a6ff22601f535bfdd8e391a5a05b",
+    "status": "verified"
+  },
+  "reported_failure_rows": 44,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/jacksondataformatsbinaryprotobuf0eeb08ctestStringArrayWithName/result/Flaky/.nondex/rH7kix7Lld3RPgUvwepqmzFdRTnEzHjR8QHy7cYfKI=/TEST-com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest.xml",
+    "size": 7490,
+    "compressed": 1853,
+    "crc32": "20a92712",
+    "offset": 1927663844,
+    "method": 8,
+    "local_path": "data/extracted/1f258fd0256180c7c9ae70b3.xml",
+    "sha256": "5de7992689399dd04d80930922598fddd52e6eac5a4f5400450a9c0b12bedefa",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testStringArrayWithName",
+    "outcome": "failure",
+    "exception_type": "junit.framework.ComparisonFailure",
+    "message": "expected:<[name]> but was:<[values]>",
+    "stack_trace": "junit.framework.ComparisonFailure: expected:<[name]> but was:<[values]>\n\tat com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest.testStringArrayWithName(ReadSimpleTest.java:286)",
+    "text": "junit.framework.ComparisonFailure\nexpected:<[name]> but was:<[values]>\njunit.framework.ComparisonFailure: expected:<[name]> but was:<[values]>\n\tat com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest.testStringArrayWithName(ReadSimpleTest.java:286)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "5d874d64b1d3b6716223f42aaf0ead33444bd50f8b1a72491e6e0f762166fc28"
+}

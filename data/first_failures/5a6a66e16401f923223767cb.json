@@ -1,0 +1,123 @@
+{
+  "container": "COLLECTIONS-850-ArrayListValuedHashMapTest-testMultiValuedMapIterator",
+  "metadata": {
+    "source": "JIRA",
+    "container": "COLLECTIONS-850-ArrayListValuedHashMapTest-testMultiValuedMapIterator",
+    "project": "https://github.com/apache/commons",
+    "revision": "35e408717379eed0085cdb29e879209dbadc1ead",
+    "test": "org.apache.commons.collections4.multimap.ArrayListValuedHashMapTest.testMultiValuedMapIterator",
+    "label": "ID",
+    "module": ".",
+    "zip": "COLLECTIONS-850",
+    "config_row": 1067,
+    "configured_test": "org.apache.commons.collections4.multimap.ArrayListValuedHashMapTest#testMultiValuedMapIterator",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/commons::org.apache.commons.collections4.multimap.ArrayListValuedHashMapTest.testMultiValuedMapIterator",
+    "variant_id": "https://github.com/apache/commons::org.apache.commons.collections4.multimap.ArrayListValuedHashMapTest.testMultiValuedMapIterator::35e408717379eed0085cdb29e879209dbadc1ead::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 5,
+      "iteration": 4,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 6,
+      "iteration": 5,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 7,
+      "iteration": 6,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 8,
+      "iteration": 7,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 9,
+      "iteration": 8,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 10,
+      "iteration": 9,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 11,
+      "iteration": 10,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 12,
+      "iteration": 11,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 13,
+      "iteration": 12,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 14,
+      "iteration": 13,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 16,
+      "iteration": 15,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 17,
+      "iteration": 16,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 18,
+      "iteration": 17,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 19,
+      "iteration": 18,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 20,
+      "iteration": 19,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 21,
+      "iteration": 20,
+      "status": "no_archived_report_for_iteration"
+    }
+  ],
+  "status": "no_confirmed_target_diagnostic",
+  "outcome_rows": 20,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/COLLECTIONS-850-ArrayListValuedHashMapTest-testMultiValuedMapIterator/result/Flaky/rounds-test-results.csv",
+    "size": 4099,
+    "compressed": 1146,
+    "crc32": "2149dc43",
+    "offset": 2013549906,
+    "method": 8,
+    "local_path": "data/extracted/9e16b9d1acb055d36e063104.csv",
+    "sha256": "0201d1aa6503dcf5a38c0a543aad2aa28f1722bb179e2c17024a4e591124e6bf",
+    "status": "verified"
+  },
+  "reported_failure_rows": 17
+}

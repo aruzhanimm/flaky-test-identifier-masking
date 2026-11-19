@@ -1,0 +1,98 @@
+{
+  "container": "ormlitecore59309e68",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ormlitecore59309e68",
+    "project": "https://github.com/j256/ormlite-core",
+    "revision": "59309e51c61e8a63cb5fd24a5a7607b668a5f095",
+    "test": "com.j256.ormlite.misc.TransactionManagerTest.testSpringWiredRollBack",
+    "label": "OD",
+    "module": ".",
+    "zip": "ormlitecore59309e5",
+    "config_row": 873,
+    "configured_test": "com.j256.ormlite.misc.TransactionManagerTest#testSpringWiredRollBack",
+    "configured_type": "od",
+    "iterations": "100",
+    "test_id": "https://github.com/j256/ormlite-core::com.j256.ormlite.misc.TransactionManagerTest.testSpringWiredRollBack",
+    "variant_id": "https://github.com/j256/ormlite-core::com.j256.ormlite.misc.TransactionManagerTest.testSpringWiredRollBack::59309e51c61e8a63cb5fd24a5a7607b668a5f095::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/ormlitecore59309e68/result/Flaky/surefire-reports/reports-0/com.j256.ormlite.misc.TransactionManagerTest.txt",
+        "size": 1297,
+        "compressed": 466,
+        "crc32": "c623a2c7",
+        "offset": 4459497,
+        "method": 8,
+        "local_path": "data/extracted/ced0c49189600317ca8e584a.txt",
+        "sha256": "983c47464ce3d1b0a9a0712d304638789baeb7bfe8a0562dc05fa033be4daba7",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/ormlitecore59309e68/result/Flaky/surefire-reports/reports-0/com.j256.ormlite.misc.TransactionManagerTest.txt",
+        "size": 1297,
+        "compressed": 466,
+        "crc32": "c623a2c7",
+        "offset": 4459497,
+        "method": 8,
+        "local_path": "data/extracted/ced0c49189600317ca8e584a.txt",
+        "sha256": "983c47464ce3d1b0a9a0712d304638789baeb7bfe8a0562dc05fa033be4daba7",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 10,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ormlitecore59309e68/result/Flaky/rounds-test-results.csv",
+    "size": 1649,
+    "compressed": 167,
+    "crc32": "5884358b",
+    "offset": 4220855,
+    "method": 8,
+    "local_path": "data/extracted/ffd21f80024a145df0052701.csv",
+    "sha256": "775991f5fa82f4ec4ee6f9253f93eca8a981946170eadb9bd5d7c9d3303b3c31",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10,
+  "iteration": 0,
+  "source_row": 1,
+  "diagnostic_member": {
+    "path": "result/ormlitecore59309e68/result/Flaky/surefire-reports/reports-0/com.j256.ormlite.misc.TransactionManagerTest.txt",
+    "size": 1297,
+    "compressed": 466,
+    "crc32": "c623a2c7",
+    "offset": 4459497,
+    "method": 8,
+    "local_path": "data/extracted/ced0c49189600317ca8e584a.txt",
+    "sha256": "983c47464ce3d1b0a9a0712d304638789baeb7bfe8a0562dc05fa033be4daba7",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "testSpringWiredRollBack",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "",
+    "stack_trace": "java.lang.AssertionError: \n\n  Unexpected method call LogBackend.isLevelEnabled(DEBUG):\n\tat org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:44)\n\tat org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:94)\n\tat com.sun.proxy.$Proxy10.isLevelEnabled(Unknown Source)\n\tat com.j256.ormlite.logger.BaseLogger.logIfEnabled(BaseLogger.java:86)\n\tat com.j256.ormlite.logger.Logger.debug(Logger.java:150)\n\tat com.j256.ormlite.dao.DaoManager.createDao(DaoManager.java:75)\n\tat com.j256.ormlite.BaseCoreTest.createDao(BaseCoreTest.java:52)\n\tat com.j256.ormlite.misc.TransactionManagerTest.testSpringWiredRollBack(TransactionManagerTest.java:289)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError: \n\n  Unexpected method call LogBackend.isLevelEnabled(DEBUG):\n\tat org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:44)\n\tat org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:94)\n\tat com.sun.proxy.$Proxy10.isLevelEnabled(Unknown Source)\n\tat com.j256.ormlite.logger.BaseLogger.logIfEnabled(BaseLogger.java:86)\n\tat com.j256.ormlite.logger.Logger.debug(Logger.java:150)\n\tat com.j256.ormlite.dao.DaoManager.createDao(DaoManager.java:75)\n\tat com.j256.ormlite.BaseCoreTest.createDao(BaseCoreTest.java:52)\n\tat com.j256.ormlite.misc.TransactionManagerTest.testSpringWiredRollBack(TransactionManagerTest.java:289)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "9c206d870137290b4aa2de050b98dff7d74d48038f1bb402c4ce6dbf5c3f594d"
+}

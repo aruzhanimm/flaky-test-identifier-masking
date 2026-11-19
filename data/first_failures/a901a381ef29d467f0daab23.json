@@ -1,0 +1,81 @@
+{
+  "container": "incubatorstreampipesstreampipesconnect0d97124parseEventCarPark",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "incubatorstreampipesstreampipesconnect0d97124parseEventCarPark",
+    "project": "https://github.com/apache/incubator-streampipes",
+    "revision": "0d9712477bbcbf007dc2f7c53c23a311efee4d26",
+    "test": "org.apache.streampipes.connect.adapter.format.json.xml.XmlTest.parseEventCarPark",
+    "label": "ID",
+    "module": "streampipes-connect",
+    "zip": "incubator-streampipes=streampipes-connect=0d97124",
+    "config_row": 268,
+    "configured_test": "org.apache.streampipes.connect.adapter.format.json.xml.XmlTest#parseEventCarPark",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/incubator-streampipes::org.apache.streampipes.connect.adapter.format.json.xml.XmlTest.parseEventCarPark",
+    "variant_id": "https://github.com/apache/incubator-streampipes::org.apache.streampipes.connect.adapter.format.json.xml.XmlTest.parseEventCarPark::0d9712477bbcbf007dc2f7c53c23a311efee4d26::streampipes-connect",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/incubatorstreampipesstreampipesconnect0d97124parseEventCarPark/result/Flaky/.nondex/YsS1rDOEx6qjyZ9gAswXwXgpbflDJDTH7x1ZrBYow=/TEST-org.apache.streampipes.connect.adapter.format.json.xml.XmlTest.xml",
+        "size": 35265,
+        "compressed": 5096,
+        "crc32": "7ac862b6",
+        "offset": 272973174,
+        "method": 8,
+        "local_path": "data/extracted/21836cb5c75555f74d804506.xml",
+        "sha256": "f8c65480f812a46a5e3ebfb2e4739335f14df98c95f126b8366eb2ba13d39ead",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/incubatorstreampipesstreampipesconnect0d97124parseEventCarPark/result/Flaky/rounds-test-results.csv",
+    "size": 21457,
+    "compressed": 5054,
+    "crc32": "2eb06c1c",
+    "offset": 272772549,
+    "method": 8,
+    "local_path": "data/extracted/1bcb25c292354559dd610c13.csv",
+    "sha256": "37704bd73603f393adaa926320fbd7779e715705b5e4ef1ef2a29af72b6192df",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/incubatorstreampipesstreampipesconnect0d97124parseEventCarPark/result/Flaky/.nondex/YsS1rDOEx6qjyZ9gAswXwXgpbflDJDTH7x1ZrBYow=/TEST-org.apache.streampipes.connect.adapter.format.json.xml.XmlTest.xml",
+    "size": 35265,
+    "compressed": 5096,
+    "crc32": "7ac862b6",
+    "offset": 272973174,
+    "method": 8,
+    "local_path": "data/extracted/21836cb5c75555f74d804506.xml",
+    "sha256": "f8c65480f812a46a5e3ebfb2e4739335f14df98c95f126b8366eb2ba13d39ead",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "parseEventCarPark",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<{\"[frei\":0,\"tendenz\":3,\"bezeichnung\":\"bahnhof.txt\",\"zeitstempel\":\"25.07.2018 10:45\",\"gesamt\":114,\"lfdnr\":1,\"status\":1]}> but was:<{\"[lfdnr\":1,\"gesamt\":114,\"status\":1,\"bezeichnung\":\"bahnhof.txt\",\"frei\":0,\"zeitstempel\":\"25.07.2018 10:45\",\"tendenz\":3]}>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<{\"[frei\":0,\"tendenz\":3,\"bezeichnung\":\"bahnhof.txt\",\"zeitstempel\":\"25.07.2018 10:45\",\"gesamt\":114,\"lfdnr\":1,\"status\":1]}> but was:<{\"[lfdnr\":1,\"gesamt\":114,\"status\":1,\"bezeichnung\":\"bahnhof.txt\",\"frei\":0,\"zeitstempel\":\"25.07.2018 10:45\",\"tendenz\":3]}>\n\tat org.apache.streampipes.connect.adapter.format.json.xml.XmlTest.parseEventCarPark(XmlTest.java:51)",
+    "text": "org.junit.ComparisonFailure\nexpected:<{\"[frei\":0,\"tendenz\":3,\"bezeichnung\":\"bahnhof.txt\",\"zeitstempel\":\"25.07.2018 10:45\",\"gesamt\":114,\"lfdnr\":1,\"status\":1]}> but was:<{\"[lfdnr\":1,\"gesamt\":114,\"status\":1,\"bezeichnung\":\"bahnhof.txt\",\"frei\":0,\"zeitstempel\":\"25.07.2018 10:45\",\"tendenz\":3]}>\norg.junit.ComparisonFailure: expected:<{\"[frei\":0,\"tendenz\":3,\"bezeichnung\":\"bahnhof.txt\",\"zeitstempel\":\"25.07.2018 10:45\",\"gesamt\":114,\"lfdnr\":1,\"status\":1]}> but was:<{\"[lfdnr\":1,\"gesamt\":114,\"status\":1,\"bezeichnung\":\"bahnhof.txt\",\"frei\":0,\"zeitstempel\":\"25.07.2018 10:45\",\"tendenz\":3]}>\n\tat org.apache.streampipes.connect.adapter.format.json.xml.XmlTest.parseEventCarPark(XmlTest.java:51)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "de04d8deb9a6649b8dada6a6c885a22b9d61c32c4e965efcda00853fccbab7c8"
+}

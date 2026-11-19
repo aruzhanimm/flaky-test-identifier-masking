@@ -1,0 +1,81 @@
+{
+  "container": "servicecombjavachassiscommoncommonprotobuf27552d2test_springmvc_model_schema_correct",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "servicecombjavachassiscommoncommonprotobuf27552d2test_springmvc_model_schema_correct",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "revision": "27552d28ac0d16eb73b9c0023833aa753fd09173",
+    "test": "org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator.test_springmvc_model_schema_correct",
+    "label": "ID",
+    "module": "common/common-protobuf",
+    "zip": "servicecomb-java-chassis=common+common-protobuf=27552d2",
+    "config_row": 237,
+    "configured_test": "org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator#test_springmvc_model_schema_correct",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator.test_springmvc_model_schema_correct",
+    "variant_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator.test_springmvc_model_schema_correct::27552d28ac0d16eb73b9c0023833aa753fd09173::common/common-protobuf",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/servicecombjavachassiscommoncommonprotobuf27552d2test_springmvc_model_schema_correct/result/Flaky/.nondex/3opPIOdDoXTBnRuxiYN8HNn4NsRMSbwZ6o8qtDZ1quQ=/TEST-org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator.xml",
+        "size": 36261,
+        "compressed": 4835,
+        "crc32": "6bca5e60",
+        "offset": 821836929,
+        "method": 8,
+        "local_path": "data/extracted/472dfb1b770542eefbcf1ef5.xml",
+        "sha256": "62a56a5866d954c418dd78c3d8b6fdb9a7a8bc91a2a0b0cfaed57a46c14d2552",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/servicecombjavachassiscommoncommonprotobuf27552d2test_springmvc_model_schema_correct/result/Flaky/rounds-test-results.csv",
+    "size": 22548,
+    "compressed": 5125,
+    "crc32": "28445aab",
+    "offset": 821588150,
+    "method": 8,
+    "local_path": "data/extracted/f42e80511e0a270dc4954fb8.csv",
+    "sha256": "d96099a6f15382ccb7fc04b3e49fe821caf2a62ec828ef793cdda46462954bf3",
+    "status": "verified"
+  },
+  "reported_failure_rows": 52,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/servicecombjavachassiscommoncommonprotobuf27552d2test_springmvc_model_schema_correct/result/Flaky/.nondex/3opPIOdDoXTBnRuxiYN8HNn4NsRMSbwZ6o8qtDZ1quQ=/TEST-org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator.xml",
+    "size": 36261,
+    "compressed": 4835,
+    "crc32": "6bca5e60",
+    "offset": 821836929,
+    "method": 8,
+    "local_path": "data/extracted/472dfb1b770542eefbcf1ef5.xml",
+    "sha256": "62a56a5866d954c418dd78c3d8b6fdb9a7a8bc91a2a0b0cfaed57a46c14d2552",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test_springmvc_model_schema_correct",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <syntax = \"proto3\";\npackage test.model;\n\nmessage Model {\n  string name = 1;\n  sint32 age = 2;\n}\n\n//@WrapProperty\nmessage testModelRequest {\n  Model value = 1;\n}> but was: <syntax = \"proto3\";\npackage test.model;\n\nmessage Model {\n  sint32 age = 1;\n  string name = 2;\n}\n\n//@WrapProperty\nmessage testModelRequest {\n  Model value = 1;\n}>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: \nexpected: <syntax = \"proto3\";\npackage test.model;\n\nmessage Model {\n  string name = 1;\n  sint32 age = 2;\n}\n\n//@WrapProperty\nmessage testModelRequest {\n  Model value = 1;\n}> but was: <syntax = \"proto3\";\npackage test.model;\n\nmessage Model {\n  sint32 age = 1;\n  string name = 2;\n}\n\n//@WrapProperty\nmessage testModelRequest {\n  Model value = 1;\n}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator.test_springmvc_model_schema_correct(TestSchemaToProtoGenerator.java:152)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <syntax = \"proto3\";\npackage test.model;\n\nmessage Model {\n  string name = 1;\n  sint32 age = 2;\n}\n\n//@WrapProperty\nmessage testModelRequest {\n  Model value = 1;\n}> but was: <syntax = \"proto3\";\npackage test.model;\n\nmessage Model {\n  sint32 age = 1;\n  string name = 2;\n}\n\n//@WrapProperty\nmessage testModelRequest {\n  Model value = 1;\n}>\norg.opentest4j.AssertionFailedError: \nexpected: <syntax = \"proto3\";\npackage test.model;\n\nmessage Model {\n  string name = 1;\n  sint32 age = 2;\n}\n\n//@WrapProperty\nmessage testModelRequest {\n  Model value = 1;\n}> but was: <syntax = \"proto3\";\npackage test.model;\n\nmessage Model {\n  sint32 age = 1;\n  string name = 2;\n}\n\n//@WrapProperty\nmessage testModelRequest {\n  Model value = 1;\n}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat org.apache.servicecomb.codec.protobuf.schema.TestSchemaToProtoGenerator.test_springmvc_model_schema_correct(TestSchemaToProtoGenerator.java:152)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "21b48726ac8abe90820486a4ca219021083edcd7f0572c666f855696a39d3ad5"
+}

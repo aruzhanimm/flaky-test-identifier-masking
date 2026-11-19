@@ -1,0 +1,81 @@
+{
+  "container": "apolloapolloconfigservicea1d45a2testWhenHasReleaseMsgAndHasRepeatMsg",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "apolloapolloconfigservicea1d45a2testWhenHasReleaseMsgAndHasRepeatMsg",
+    "project": "https://github.com/apolloconfig/apollo",
+    "revision": "a1d45a29dec3c7e8e329a39e9936f30d140b0bce",
+    "test": "com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCacheTest.testWhenHasReleaseMsgAndHasRepeatMsg",
+    "label": "ID",
+    "module": "apollo-configservice",
+    "zip": "apollo=apollo-configservice=a1d45a2",
+    "config_row": 583,
+    "configured_test": "com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCacheTest#testWhenHasReleaseMsgAndHasRepeatMsg",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apolloconfig/apollo::com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCacheTest.testWhenHasReleaseMsgAndHasRepeatMsg",
+    "variant_id": "https://github.com/apolloconfig/apollo::com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCacheTest.testWhenHasReleaseMsgAndHasRepeatMsg::a1d45a29dec3c7e8e329a39e9936f30d140b0bce::apollo-configservice",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/apolloapolloconfigservicea1d45a2testWhenHasReleaseMsgAndHasRepeatMsg/result/Flaky/.nondex/0WUNNo2Twid0pryAPidkkAQAq1UVVS2jAQLDz6ybJ0=/TEST-com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCacheTest.xml",
+        "size": 7366,
+        "compressed": 1857,
+        "crc32": "41cae83e",
+        "offset": 319808585,
+        "method": 8,
+        "local_path": "data/extracted/4329fb88b2543582ec05cd43.xml",
+        "sha256": "6356bcbb2d0e83dccc22ffe0d42cc4640481587e254638efeb29fca10c182c7b",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/apolloapolloconfigservicea1d45a2testWhenHasReleaseMsgAndHasRepeatMsg/result/Flaky/rounds-test-results.csv",
+    "size": 23510,
+    "compressed": 4980,
+    "crc32": "a4d9ea14",
+    "offset": 319626399,
+    "method": 8,
+    "local_path": "data/extracted/363482f4923fd796dfa2c3d4.csv",
+    "sha256": "54de712212d1903fb2d908e2aebeffe65330d0033a2b55e24df8697d2f8da826",
+    "status": "verified"
+  },
+  "reported_failure_rows": 41,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/apolloapolloconfigservicea1d45a2testWhenHasReleaseMsgAndHasRepeatMsg/result/Flaky/.nondex/0WUNNo2Twid0pryAPidkkAQAq1UVVS2jAQLDz6ybJ0=/TEST-com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCacheTest.xml",
+    "size": 7366,
+    "compressed": 1857,
+    "crc32": "41cae83e",
+    "offset": 319808585,
+    "method": 8,
+    "local_path": "data/extracted/4329fb88b2543582ec05cd43.xml",
+    "sha256": "6356bcbb2d0e83dccc22ffe0d42cc4640481587e254638efeb29fca10c182c7b",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testWhenHasReleaseMsgAndHasRepeatMsg",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "expected:<1> but was:<3>",
+    "stack_trace": "java.lang.AssertionError: expected:<1> but was:<3>\n\tat com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCacheTest.testWhenHasReleaseMsgAndHasRepeatMsg(ReleaseMessageServiceWithCacheTest.java:100)",
+    "text": "java.lang.AssertionError\nexpected:<1> but was:<3>\njava.lang.AssertionError: expected:<1> but was:<3>\n\tat com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCacheTest.testWhenHasReleaseMsgAndHasRepeatMsg(ReleaseMessageServiceWithCacheTest.java:100)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "5bc42ed36fa10ab7bc5ee2e2d43b6473684700f4f39b115d9919fdff808aa013"
+}

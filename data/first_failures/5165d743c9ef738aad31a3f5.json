@@ -1,0 +1,81 @@
+{
+  "container": "jsonschemacore43fda7dtoStringTest",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jsonschemacore43fda7dtoStringTest",
+    "project": "https://github.com/everit-org/json-schema",
+    "revision": "43fda7d4fae927f88b9326ffee88fcc21c95c23e",
+    "test": "org.everit.json.schema.ObjectSchemaTest.toStringTest",
+    "label": "ID",
+    "module": "core",
+    "zip": "json-schema=core=43fda7d",
+    "config_row": 331,
+    "configured_test": "org.everit.json.schema.ObjectSchemaTest#toStringTest",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/everit-org/json-schema::org.everit.json.schema.ObjectSchemaTest.toStringTest",
+    "variant_id": "https://github.com/everit-org/json-schema::org.everit.json.schema.ObjectSchemaTest.toStringTest::43fda7d4fae927f88b9326ffee88fcc21c95c23e::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/jsonschemacore43fda7dtoStringTest/result/Flaky/.nondex/z0EPRmntEA2F10whLVspgLOeqNCV4QJePCvK9rLkVzM=/TEST-org.everit.json.schema.ObjectSchemaTest.xml",
+        "size": 13393,
+        "compressed": 2687,
+        "crc32": "12642306",
+        "offset": 2245544969,
+        "method": 8,
+        "local_path": "data/extracted/01bfd0edac6f8aa11af18783.xml",
+        "sha256": "bfdf075796d7e3b6d12ef67a9c886eaa6bb5df03457957a7a870da3bcc776619",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jsonschemacore43fda7dtoStringTest/result/Flaky/rounds-test-results.csv",
+    "size": 17459,
+    "compressed": 5052,
+    "crc32": "4e0c2240",
+    "offset": 2245279866,
+    "method": 8,
+    "local_path": "data/extracted/a2c17a8e03a0bde9a01b08d0.csv",
+    "sha256": "3a39852042553b462898adbd1a998d4782c28284c705947c450d496f44972475",
+    "status": "verified"
+  },
+  "reported_failure_rows": 45,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/jsonschemacore43fda7dtoStringTest/result/Flaky/.nondex/z0EPRmntEA2F10whLVspgLOeqNCV4QJePCvK9rLkVzM=/TEST-org.everit.json.schema.ObjectSchemaTest.xml",
+    "size": 13393,
+    "compressed": 2687,
+    "crc32": "12642306",
+    "offset": 2245544969,
+    "method": 8,
+    "local_path": "data/extracted/01bfd0edac6f8aa11af18783.xml",
+    "sha256": "bfdf075796d7e3b6d12ef67a9c886eaa6bb5df03457957a7a870da3bcc776619",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "toStringTest",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: {\n  \"minProperties\": 3,\n  \"required\": [\"numprop\"],\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"type\": \"object\",\n  \"maxProperties\": 4,\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"dependencies\": {\"prop1\": [\n    \"prop2\",\n    \"prop3\"\n  ]}\n}\n     but: was {\n  \"type\": \"object\",\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"required\": [\"numprop\"],\n  \"dependencies\": {\"prop1\": [\n    \"prop3\",\n    \"prop2\"\n  ]},\n  \"minProperties\": 3,\n  \"maxProperties\": 4,\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"additionalProperties\": {\"type\": \"boolean\"}\n}",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: {\n  \"minProperties\": 3,\n  \"required\": [\"numprop\"],\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"type\": \"object\",\n  \"maxProperties\": 4,\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"dependencies\": {\"prop1\": [\n    \"prop2\",\n    \"prop3\"\n  ]}\n}\n     but: was {\n  \"type\": \"object\",\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"required\": [\"numprop\"],\n  \"dependencies\": {\"prop1\": [\n    \"prop3\",\n    \"prop2\"\n  ]},\n  \"minProperties\": 3,\n  \"maxProperties\": 4,\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"additionalProperties\": {\"type\": \"boolean\"}\n}\n\tat org.everit.json.schema.ObjectSchemaTest.toStringTest(ObjectSchemaTest.java:399)",
+    "text": "java.lang.AssertionError\nExpected: {\n  \"minProperties\": 3,\n  \"required\": [\"numprop\"],\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"type\": \"object\",\n  \"maxProperties\": 4,\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"dependencies\": {\"prop1\": [\n    \"prop2\",\n    \"prop3\"\n  ]}\n}\n     but: was {\n  \"type\": \"object\",\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"required\": [\"numprop\"],\n  \"dependencies\": {\"prop1\": [\n    \"prop3\",\n    \"prop2\"\n  ]},\n  \"minProperties\": 3,\n  \"maxProperties\": 4,\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"additionalProperties\": {\"type\": \"boolean\"}\n}\njava.lang.AssertionError: \n\nExpected: {\n  \"minProperties\": 3,\n  \"required\": [\"numprop\"],\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"type\": \"object\",\n  \"maxProperties\": 4,\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"dependencies\": {\"prop1\": [\n    \"prop2\",\n    \"prop3\"\n  ]}\n}\n     but: was {\n  \"type\": \"object\",\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"required\": [\"numprop\"],\n  \"dependencies\": {\"prop1\": [\n    \"prop3\",\n    \"prop2\"\n  ]},\n  \"minProperties\": 3,\n  \"maxProperties\": 4,\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"additionalProperties\": {\"type\": \"boolean\"}\n}\n\tat org.everit.json.schema.ObjectSchemaTest.toStringTest(ObjectSchemaTest.java:399)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "6170999138ce5f30429535ecacd785e4780a6272f7ebc0b0c72811d8b595849e"
+}

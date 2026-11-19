@@ -1,0 +1,81 @@
+{
+  "container": "oktahookssdkjavahooks9187787passwordImportUnverifiedTest",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "oktahookssdkjavahooks9187787passwordImportUnverifiedTest",
+    "project": "https://github.com/okta/okta-hooks-sdk-java",
+    "revision": "918778779c7f07ddd61bf86e1a22ace1ee279649",
+    "test": "com.okta.hooks.sdk.ImportHooksTest.passwordImportUnverifiedTest",
+    "label": "ID",
+    "module": "hooks",
+    "zip": "okta-hooks-sdk-java=hooks=9187787",
+    "config_row": 737,
+    "configured_test": "com.okta.hooks.sdk.ImportHooksTest#passwordImportUnverifiedTest",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.ImportHooksTest.passwordImportUnverifiedTest",
+    "variant_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.ImportHooksTest.passwordImportUnverifiedTest::918778779c7f07ddd61bf86e1a22ace1ee279649::hooks",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/oktahookssdkjavahooks9187787passwordImportUnverifiedTest/result/Flaky/.nondex/2fNytFa3jhrgNOMvOH5lu13b37HlpbBrYYHnanxf94=/TEST-com.okta.hooks.sdk.ImportHooksTest.xml",
+        "size": 11070,
+        "compressed": 2368,
+        "crc32": "c9e138d1",
+        "offset": 1379586568,
+        "method": 8,
+        "local_path": "data/extracted/c0b23dd5e4cb2f150622e5f3.xml",
+        "sha256": "6ff7cc78363c6528c9a8d973cec36e94349300212047b5484d2d17c1faadde26",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/oktahookssdkjavahooks9187787passwordImportUnverifiedTest/result/Flaky/rounds-test-results.csv",
+    "size": 17093,
+    "compressed": 5124,
+    "crc32": "fd868802",
+    "offset": 1375418599,
+    "method": 8,
+    "local_path": "data/extracted/21b91664f59016722df1e09e.csv",
+    "sha256": "561ac40a3e2c39aeb91d43f2f6f565a505e50701889cea060d12230d74f3ebac",
+    "status": "verified"
+  },
+  "reported_failure_rows": 48,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/oktahookssdkjavahooks9187787passwordImportUnverifiedTest/result/Flaky/.nondex/2fNytFa3jhrgNOMvOH5lu13b37HlpbBrYYHnanxf94=/TEST-com.okta.hooks.sdk.ImportHooksTest.xml",
+    "size": 11070,
+    "compressed": 2368,
+    "crc32": "c9e138d1",
+    "offset": 1379586568,
+    "method": 8,
+    "local_path": "data/extracted/c0b23dd5e4cb2f150622e5f3.xml",
+    "sha256": "6ff7cc78363c6528c9a8d973cec36e94349300212047b5484d2d17c1faadde26",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "passwordImportUnverifiedTest",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"credential\\\":\\\"UNVERIFIED\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"credential\\\":\\\"UNVERIFIED\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"}]}\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"credential\\\":\\\"UNVERIFIED\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"credential\\\":\\\"UNVERIFIED\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"}]}\"\n\tat com.okta.hooks.sdk.ImportHooksTest.passwordImportUnverifiedTest(ImportHooksTest.groovy:129)",
+    "text": "java.lang.AssertionError\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"credential\\\":\\\"UNVERIFIED\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"credential\\\":\\\"UNVERIFIED\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"}]}\"\njava.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"credential\\\":\\\"UNVERIFIED\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"credential\\\":\\\"UNVERIFIED\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"}]}\"\n\tat com.okta.hooks.sdk.ImportHooksTest.passwordImportUnverifiedTest(ImportHooksTest.groovy:129)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "6625eacf6287be1ad545fcc2b0128fab176dec68e3c970cb6c5afc0e15d986c3"
+}

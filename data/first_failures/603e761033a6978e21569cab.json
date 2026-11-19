@@ -1,0 +1,81 @@
+{
+  "container": "pairdistributionapp0be329dtestGenerateNewDayPairsNoPastState",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "pairdistributionapp0be329dtestGenerateNewDayPairsNoPastState",
+    "project": "https://github.com/sap/pair-distribution-app",
+    "revision": "0be329d2897f6d5fbb634e46e0ef3d283282dc93",
+    "test": "pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsNoPastState",
+    "label": "ID",
+    "module": ".",
+    "zip": "pair-distribution-app=.=0be329d",
+    "config_row": 756,
+    "configured_test": "pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsNoPastState",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/sap/pair-distribution-app::pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsNoPastState",
+    "variant_id": "https://github.com/sap/pair-distribution-app::pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsNoPastState::0be329d2897f6d5fbb634e46e0ef3d283282dc93::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/pairdistributionapp0be329dtestGenerateNewDayPairsNoPastState/result/Flaky/.nondex/onyYDZSdlFu8HrbOc08EAYU+4DCGZGQyyYNWVdtZo=/TEST-pair.distribution.app.helpers.DayPairsHelperTest.xml",
+        "size": 21125,
+        "compressed": 3140,
+        "crc32": "2f97008c",
+        "offset": 2208162247,
+        "method": 8,
+        "local_path": "data/extracted/84457c279972866eb63a5afb.xml",
+        "sha256": "0e35f3cd320cd9dc947a29835ce49b9048e46297211d66eabf364e3933f22eca",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/pairdistributionapp0be329dtestGenerateNewDayPairsNoPastState/result/Flaky/rounds-test-results.csv",
+    "size": 18093,
+    "compressed": 5097,
+    "crc32": "1929d224",
+    "offset": 2207526454,
+    "method": 8,
+    "local_path": "data/extracted/1b36e51c0f0702a4157529cf.csv",
+    "sha256": "8bfa2cc753d9cac216c39af3451e5647decc319ff1434b3bea4abc451223908c",
+    "status": "verified"
+  },
+  "reported_failure_rows": 47,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/pairdistributionapp0be329dtestGenerateNewDayPairsNoPastState/result/Flaky/.nondex/onyYDZSdlFu8HrbOc08EAYU+4DCGZGQyyYNWVdtZo=/TEST-pair.distribution.app.helpers.DayPairsHelperTest.xml",
+    "size": 21125,
+    "compressed": 3140,
+    "crc32": "2f97008c",
+    "offset": 2208162247,
+    "method": 8,
+    "local_path": "data/extracted/84457c279972866eb63a5afb.xml",
+    "sha256": "0e35f3cd320cd9dc947a29835ce49b9048e46297211d66eabf364e3933f22eca",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testGenerateNewDayPairsNoPastState",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: iterable containing [\"track1\", \"track2\"]\n     but: item 0: was \"track2\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: iterable containing [\"track1\", \"track2\"]\n     but: item 0: was \"track2\"\n\tat pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsNoPastState(DayPairsHelperTest.java:274)",
+    "text": "java.lang.AssertionError\nExpected: iterable containing [\"track1\", \"track2\"]\n     but: item 0: was \"track2\"\njava.lang.AssertionError: \n\nExpected: iterable containing [\"track1\", \"track2\"]\n     but: item 0: was \"track2\"\n\tat pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsNoPastState(DayPairsHelperTest.java:274)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "f760e55a80ac3422b1c83641a226684ec73196d2be11bf8665b8041748697c2f"
+}

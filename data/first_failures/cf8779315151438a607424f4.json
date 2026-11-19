@@ -1,0 +1,81 @@
+{
+  "container": "tinkerpopgremlincore62fb6d6shouldGetKeyValues",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "tinkerpopgremlincore62fb6d6shouldGetKeyValues",
+    "project": "https://github.com/apache/tinkerpop",
+    "revision": "62fb6d6ee6ccf34619f271e41b3f1d67968a9770",
+    "test": "org.apache.tinkerpop.gremlin.process.traversal.step.util.ParametersTest.shouldGetKeyValues",
+    "label": "ID",
+    "module": "gremlin-core",
+    "zip": "tinkerpop=gremlin-core=62fb6d6",
+    "config_row": 679,
+    "configured_test": "org.apache.tinkerpop.gremlin.process.traversal.step.util.ParametersTest#shouldGetKeyValues",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/tinkerpop::org.apache.tinkerpop.gremlin.process.traversal.step.util.ParametersTest.shouldGetKeyValues",
+    "variant_id": "https://github.com/apache/tinkerpop::org.apache.tinkerpop.gremlin.process.traversal.step.util.ParametersTest.shouldGetKeyValues::62fb6d6ee6ccf34619f271e41b3f1d67968a9770::gremlin-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/tinkerpopgremlincore62fb6d6shouldGetKeyValues/result/Flaky/.nondex/uOTBSz6ZdOiGHnhmMQGr1cC5cMYV9jyFMhUsH1EP5P4=/TEST-org.apache.tinkerpop.gremlin.process.traversal.step.util.ParametersTest.xml",
+        "size": 15522,
+        "compressed": 3101,
+        "crc32": "0c23070c",
+        "offset": 1688623322,
+        "method": 8,
+        "local_path": "data/extracted/c30236c4b0b3b15b5f10b0e3.xml",
+        "sha256": "65ae58c64a68c059cd9390a7bc63e4fc87d0ab22fc12f5972cce1bcd3d98b1ca",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/tinkerpopgremlincore62fb6d6shouldGetKeyValues/result/Flaky/rounds-test-results.csv",
+    "size": 21602,
+    "compressed": 5154,
+    "crc32": "537ffcfd",
+    "offset": 1687782144,
+    "method": 8,
+    "local_path": "data/extracted/79897225d1c21421663edc52.csv",
+    "sha256": "35747497198ca8c8e168e263591645e324cf8e879278ae3b78974205174fc99b",
+    "status": "verified"
+  },
+  "reported_failure_rows": 85,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/tinkerpopgremlincore62fb6d6shouldGetKeyValues/result/Flaky/.nondex/uOTBSz6ZdOiGHnhmMQGr1cC5cMYV9jyFMhUsH1EP5P4=/TEST-org.apache.tinkerpop.gremlin.process.traversal.step.util.ParametersTest.xml",
+    "size": 15522,
+    "compressed": 3101,
+    "crc32": "0c23070c",
+    "offset": 1688623322,
+    "method": 8,
+    "local_path": "data/extracted/c30236c4b0b3b15b5f10b0e3.xml",
+    "sha256": "65ae58c64a68c059cd9390a7bc63e4fc87d0ab22fc12f5972cce1bcd3d98b1ca",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "shouldGetKeyValues",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: is <true>\n     but: was <false>",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: is <true>\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat org.apache.tinkerpop.gremlin.process.traversal.step.util.ParametersTest.shouldGetKeyValues(ParametersTest.java:70)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)",
+    "text": "java.lang.AssertionError\nExpected: is <true>\n     but: was <false>\njava.lang.AssertionError: \n\nExpected: is <true>\n     but: was <false>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat org.apache.tinkerpop.gremlin.process.traversal.step.util.ParametersTest.shouldGetKeyValues(ParametersTest.java:70)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "3a3bb3986a0f33534154c98531e67396c2519427e4080f2149d66730e1d8216d"
+}

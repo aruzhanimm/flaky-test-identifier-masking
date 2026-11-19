@@ -1,0 +1,81 @@
+{
+  "container": "nacoscommon2c5c85ctestToQueryUrl",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "nacoscommon2c5c85ctestToQueryUrl",
+    "project": "https://github.com/alibaba/nacos",
+    "revision": "2c5c85cccdf00a3862d8de083d015dcdb3cec37f",
+    "test": "com.alibaba.nacos.common.http.param.QueryTest.testToQueryUrl",
+    "label": "ID",
+    "module": "common",
+    "zip": "nacos=common=2c5c85c",
+    "config_row": 226,
+    "configured_test": "com.alibaba.nacos.common.http.param.QueryTest#testToQueryUrl",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/nacos::com.alibaba.nacos.common.http.param.QueryTest.testToQueryUrl",
+    "variant_id": "https://github.com/alibaba/nacos::com.alibaba.nacos.common.http.param.QueryTest.testToQueryUrl::2c5c85cccdf00a3862d8de083d015dcdb3cec37f::common",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/nacoscommon2c5c85ctestToQueryUrl/result/Flaky/.nondex/7L02t3ZaTxNEyN7JPslpiFuMpraHH1Fozi5dERl8Ko=/TEST-com.alibaba.nacos.common.http.param.QueryTest.xml",
+        "size": 7381,
+        "compressed": 1897,
+        "crc32": "297808c2",
+        "offset": 812347851,
+        "method": 8,
+        "local_path": "data/extracted/7a2d4e5d122a77b5f29c8aec.xml",
+        "sha256": "bad69bd965184100a1fca7476d1ff022cd6f70124e1776fb18c9ac76dc9dc82f",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/nacoscommon2c5c85ctestToQueryUrl/result/Flaky/rounds-test-results.csv",
+    "size": 18476,
+    "compressed": 4840,
+    "crc32": "dc1a6dc3",
+    "offset": 812158079,
+    "method": 8,
+    "local_path": "data/extracted/f33b57eab944452b9f459c34.csv",
+    "sha256": "12297f1f1b5d09103c0ff44f99741c3441f2cddcfa5ffc7d77b6e6ba1c6adca5",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/nacoscommon2c5c85ctestToQueryUrl/result/Flaky/.nondex/7L02t3ZaTxNEyN7JPslpiFuMpraHH1Fozi5dERl8Ko=/TEST-com.alibaba.nacos.common.http.param.QueryTest.xml",
+    "size": 7381,
+    "compressed": 1897,
+    "crc32": "297808c2",
+    "offset": 812347851,
+    "method": 8,
+    "local_path": "data/extracted/7a2d4e5d122a77b5f29c8aec.xml",
+    "sha256": "bad69bd965184100a1fca7476d1ff022cd6f70124e1776fb18c9ac76dc9dc82f",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testToQueryUrl",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<[groupName=group&namespaceId=namespace&port=9999&ip=1.1.1.1&weight=1.0&ephemeral=true&serviceName=servi]ce> but was:<[ephemeral=true&groupName=group&serviceName=service&weight=1.0&ip=1.1.1.1&port=9999&namespaceId=namespa]ce>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<[groupName=group&namespaceId=namespace&port=9999&ip=1.1.1.1&weight=1.0&ephemeral=true&serviceName=servi]ce> but was:<[ephemeral=true&groupName=group&serviceName=service&weight=1.0&ip=1.1.1.1&port=9999&namespaceId=namespa]ce>\n\tat com.alibaba.nacos.common.http.param.QueryTest.testToQueryUrl(QueryTest.java:44)",
+    "text": "org.junit.ComparisonFailure\nexpected:<[groupName=group&namespaceId=namespace&port=9999&ip=1.1.1.1&weight=1.0&ephemeral=true&serviceName=servi]ce> but was:<[ephemeral=true&groupName=group&serviceName=service&weight=1.0&ip=1.1.1.1&port=9999&namespaceId=namespa]ce>\norg.junit.ComparisonFailure: expected:<[groupName=group&namespaceId=namespace&port=9999&ip=1.1.1.1&weight=1.0&ephemeral=true&serviceName=servi]ce> but was:<[ephemeral=true&groupName=group&serviceName=service&weight=1.0&ip=1.1.1.1&port=9999&namespaceId=namespa]ce>\n\tat com.alibaba.nacos.common.http.param.QueryTest.testToQueryUrl(QueryTest.java:44)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "2a5a35d23fefbb0a1bf1ef027537a4ed251fcafafbcd3c7c14d5d644530aec23"
+}

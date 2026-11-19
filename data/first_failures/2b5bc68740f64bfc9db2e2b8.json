@@ -1,0 +1,81 @@
+{
+  "container": "ecoschemacatalogstore95ee43btestPut3",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ecoschemacatalogstore95ee43btestPut3",
+    "project": "https://github.com/epam/eco-schema-catalog",
+    "revision": "95ee43bba89845d162f5d54a6046c14f7edc4755",
+    "test": "com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testPut3",
+    "label": "ID",
+    "module": "store",
+    "zip": "eco-schema-catalog=store=95ee43b",
+    "config_row": 35,
+    "configured_test": "com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest#testPut3",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/epam/eco-schema-catalog::com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testPut3",
+    "variant_id": "https://github.com/epam/eco-schema-catalog::com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testPut3::95ee43bba89845d162f5d54a6046c14f7edc4755::store",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/ecoschemacatalogstore95ee43btestPut3/result/Flaky/.nondex/UuqD7XW94FYxQj5qvzGHuvvCfML+fHb8Y7qMyAGPs=/TEST-com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.xml",
+        "size": 7170,
+        "compressed": 1828,
+        "crc32": "5a206046",
+        "offset": 603778237,
+        "method": 8,
+        "local_path": "data/extracted/7527db2af27b28cfefddf52a.xml",
+        "sha256": "c455894d232b317321bda0c8dbd02036e5377174f11c6f239554c54f8737a29c",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ecoschemacatalogstore95ee43btestPut3/result/Flaky/rounds-test-results.csv",
+    "size": 20949,
+    "compressed": 4948,
+    "crc32": "b0e64c0d",
+    "offset": 603631215,
+    "method": 8,
+    "local_path": "data/extracted/b9d585530abc0e2a33d5c88e.csv",
+    "sha256": "947b97e4cd43acee30ec21acc06230c8705c93d3245b76dab783eb6cf1d60df7",
+    "status": "verified"
+  },
+  "reported_failure_rows": 64,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/ecoschemacatalogstore95ee43btestPut3/result/Flaky/.nondex/UuqD7XW94FYxQj5qvzGHuvvCfML+fHb8Y7qMyAGPs=/TEST-com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.xml",
+    "size": 7170,
+    "compressed": 1828,
+    "crc32": "5a206046",
+    "offset": 603778237,
+    "method": 8,
+    "local_path": "data/extracted/7527db2af27b28cfefddf52a.xml",
+    "sha256": "c455894d232b317321bda0c8dbd02036e5377174f11c6f239554c54f8737a29c",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testPut3",
+    "outcome": "error",
+    "exception_type": "java.lang.IllegalStateException",
+    "message": "Duplicate key {doc: doc121, attributes: {}, updatedAt: Wed Nov 05 11:50:41 UTC 2025, updatedBy: me}",
+    "stack_trace": "java.lang.IllegalStateException: Duplicate key {doc: doc121, attributes: {}, updatedAt: Wed Nov 05 11:50:41 UTC 2025, updatedBy: me}\n\tat com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testPut3(InheritingMetadataContainerTest.java:311)",
+    "text": "java.lang.IllegalStateException\nDuplicate key {doc: doc121, attributes: {}, updatedAt: Wed Nov 05 11:50:41 UTC 2025, updatedBy: me}\njava.lang.IllegalStateException: Duplicate key {doc: doc121, attributes: {}, updatedAt: Wed Nov 05 11:50:41 UTC 2025, updatedBy: me}\n\tat com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testPut3(InheritingMetadataContainerTest.java:311)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "9119901a44fdda49317ae70be299568d3e78044f22edf06b61b9ca35bf880903"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "oktahookssdkjavahooks8bf25c8updateProfile",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "oktahookssdkjavahooks8bf25c8updateProfile",
+    "project": "https://github.com/okta/okta-hooks-sdk-java",
+    "revision": "8bf25c84b54e788040ae2272e1578bc625e871d4",
+    "test": "com.okta.hooks.sdk.UserRegHooksTest.updateProfile",
+    "label": "ID",
+    "module": "hooks",
+    "zip": "okta-hooks-sdk-java=hooks=8bf25c8",
+    "config_row": 753,
+    "configured_test": "com.okta.hooks.sdk.UserRegHooksTest#updateProfile",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.UserRegHooksTest.updateProfile",
+    "variant_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.UserRegHooksTest.updateProfile::8bf25c84b54e788040ae2272e1578bc625e871d4::hooks",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/oktahookssdkjavahooks8bf25c8updateProfile/result/Flaky/.nondex/77TXPEByL1QnKsF3Ck6tv67JWNn4laDc3NJNLCgnLE=/TEST-com.okta.hooks.sdk.UserRegHooksTest.xml",
+        "size": 11787,
+        "compressed": 2487,
+        "crc32": "546b9e3b",
+        "offset": 1350423289,
+        "method": 8,
+        "local_path": "data/extracted/e699a4c8fefbea03ae80b946.xml",
+        "sha256": "614db64d604e73d608d51a9191184c0d56700166ff2b7f216f06d1b73ceafec4",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8updateProfile/result/Flaky/rounds-test-results.csv",
+    "size": 17201,
+    "compressed": 5157,
+    "crc32": "fa8d0bb3",
+    "offset": 1344533150,
+    "method": 8,
+    "local_path": "data/extracted/140914a6707736e1610da03d.csv",
+    "sha256": "8f5293c895a111242a3614ede8300eb46fa81f5ea48e65422b439e7d0cd9877a",
+    "status": "verified"
+  },
+  "reported_failure_rows": 47,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8updateProfile/result/Flaky/.nondex/77TXPEByL1QnKsF3Ck6tv67JWNn4laDc3NJNLCgnLE=/TEST-com.okta.hooks.sdk.UserRegHooksTest.xml",
+    "size": 11787,
+    "compressed": 2487,
+    "crc32": "546b9e3b",
+    "offset": 1350423289,
+    "method": 8,
+    "local_path": "data/extracted/e699a4c8fefbea03ae80b946.xml",
+    "sha256": "614db64d604e73d608d51a9191184c0d56700166ff2b7f216f06d1b73ceafec4",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "updateProfile",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.user.profile.update\\\",\\\"value\\\":{\\\"prop1\\\":\\\"value1\\\",\\\"prop2\\\":2,\\\"prop3\\\":true,\\\"prop4\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"prop1\\\":\\\"value1\\\",\\\"prop2\\\":2,\\\"prop3\\\":true,\\\"prop4\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]},\\\"type\\\":\\\"com.okta.user.profile.update\\\"}]}\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.user.profile.update\\\",\\\"value\\\":{\\\"prop1\\\":\\\"value1\\\",\\\"prop2\\\":2,\\\"prop3\\\":true,\\\"prop4\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"prop1\\\":\\\"value1\\\",\\\"prop2\\\":2,\\\"prop3\\\":true,\\\"prop4\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]},\\\"type\\\":\\\"com.okta.user.profile.update\\\"}]}\"\n\tat com.okta.hooks.sdk.UserRegHooksTest.updateProfile(UserRegHooksTest.groovy:166)",
+    "text": "java.lang.AssertionError\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.user.profile.update\\\",\\\"value\\\":{\\\"prop1\\\":\\\"value1\\\",\\\"prop2\\\":2,\\\"prop3\\\":true,\\\"prop4\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"prop1\\\":\\\"value1\\\",\\\"prop2\\\":2,\\\"prop3\\\":true,\\\"prop4\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]},\\\"type\\\":\\\"com.okta.user.profile.update\\\"}]}\"\njava.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.user.profile.update\\\",\\\"value\\\":{\\\"prop1\\\":\\\"value1\\\",\\\"prop2\\\":2,\\\"prop3\\\":true,\\\"prop4\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"prop1\\\":\\\"value1\\\",\\\"prop2\\\":2,\\\"prop3\\\":true,\\\"prop4\\\":[\\\"one\\\",\\\"two\\\",\\\"three\\\"]},\\\"type\\\":\\\"com.okta.user.profile.update\\\"}]}\"\n\tat com.okta.hooks.sdk.UserRegHooksTest.updateProfile(UserRegHooksTest.groovy:166)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "5ac0ff0b3aa79ef12889ce0630f49e77c84e641367df78ee970f253ca96317b9"
+}

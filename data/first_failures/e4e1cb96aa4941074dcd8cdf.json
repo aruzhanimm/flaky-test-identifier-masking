@@ -1,0 +1,81 @@
+{
+  "container": "ignite3modulesconfiguration19c8a82testPolymorphicErrors",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ignite3modulesconfiguration19c8a82testPolymorphicErrors",
+    "project": "https://github.com/apache/ignite-3",
+    "revision": "19c8a824bd9d31f0d0dbd3fbbdd2a32ee360cab2",
+    "test": "org.apache.ignite.internal.configuration.asm.ConfigurationAsmGeneratorTest.testPolymorphicErrors",
+    "label": "ID",
+    "module": "modules/configuration",
+    "zip": "ignite-3=modules+configuration=19c8a82",
+    "config_row": 405,
+    "configured_test": "org.apache.ignite.internal.configuration.asm.ConfigurationAsmGeneratorTest#testPolymorphicErrors",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/ignite-3::org.apache.ignite.internal.configuration.asm.ConfigurationAsmGeneratorTest.testPolymorphicErrors",
+    "variant_id": "https://github.com/apache/ignite-3::org.apache.ignite.internal.configuration.asm.ConfigurationAsmGeneratorTest.testPolymorphicErrors::19c8a824bd9d31f0d0dbd3fbbdd2a32ee360cab2::modules/configuration",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/ignite3modulesconfiguration19c8a82testPolymorphicErrors/result/Flaky/.nondex/CiHm3VlyBlupULGibFX4GGmMvUjUzwDr4FHsnyNgVM=/TEST-org.apache.ignite.internal.configuration.asm.ConfigurationAsmGeneratorTest.xml",
+        "size": 19033,
+        "compressed": 2916,
+        "crc32": "af97666e",
+        "offset": 2069548846,
+        "method": 8,
+        "local_path": "data/extracted/00daa5e2d8a9c54c3a4a9db9.xml",
+        "sha256": "3baf8d47328ba0d49907e779844d46828be8ab0d70bd34c37f823ea1ad6e4c73",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ignite3modulesconfiguration19c8a82testPolymorphicErrors/result/Flaky/rounds-test-results.csv",
+    "size": 22832,
+    "compressed": 5141,
+    "crc32": "2ff506ad",
+    "offset": 2069096774,
+    "method": 8,
+    "local_path": "data/extracted/b1edc465a8d02d2ec6f56253.csv",
+    "sha256": "1d0f6740693c572b026428de8176d0079038501afc04eb71c6ee693e2d81eeef",
+    "status": "verified"
+  },
+  "reported_failure_rows": 88,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/ignite3modulesconfiguration19c8a82testPolymorphicErrors/result/Flaky/.nondex/CiHm3VlyBlupULGibFX4GGmMvUjUzwDr4FHsnyNgVM=/TEST-org.apache.ignite.internal.configuration.asm.ConfigurationAsmGeneratorTest.xml",
+    "size": 19033,
+    "compressed": 2916,
+    "crc32": "af97666e",
+    "offset": 2069548846,
+    "method": 8,
+    "local_path": "data/extracted/00daa5e2d8a9c54c3a4a9db9.xml",
+    "sha256": "3baf8d47328ba0d49907e779844d46828be8ab0d70bd34c37f823ea1ad6e4c73",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testPolymorphicErrors",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError: org.apache.ignite.internal.configuration.asm.ConfigurationAsmGeneratorTest$PolymorphicNamedTestConfigurationSchema\n\tat org.apache.ignite.internal.configuration.asm.ConfigurationAsmGeneratorTest.beforeEach(ConfigurationAsmGeneratorTest.java:110)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError: org.apache.ignite.internal.configuration.asm.ConfigurationAsmGeneratorTest$PolymorphicNamedTestConfigurationSchema\n\tat org.apache.ignite.internal.configuration.asm.ConfigurationAsmGeneratorTest.beforeEach(ConfigurationAsmGeneratorTest.java:110)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "9b33b11430b615421c7c0534afe362e523ca89c7dc68e32aafce92853cd45e3c"
+}

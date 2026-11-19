@@ -1,0 +1,81 @@
+{
+  "container": "hoppluginstransformsdatabaselookup96cfd6atestProvidesModelerMeta",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "hoppluginstransformsdatabaselookup96cfd6atestProvidesModelerMeta",
+    "project": "https://github.com/apache/hop",
+    "revision": "96cfd6aab518b8fa6275f6f12bdbfcb69f6ac0e1",
+    "test": "org.apache.hop.pipeline.transforms.databaselookup.DatabaseLookupMetaTest.testProvidesModelerMeta",
+    "label": "ID",
+    "module": "plugins/transforms/databaselookup",
+    "zip": "hop=plugins+transforms+databaselookup=96cfd6a",
+    "config_row": 448,
+    "configured_test": "org.apache.hop.pipeline.transforms.databaselookup.DatabaseLookupMetaTest#testProvidesModelerMeta",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hop::org.apache.hop.pipeline.transforms.databaselookup.DatabaseLookupMetaTest.testProvidesModelerMeta",
+    "variant_id": "https://github.com/apache/hop::org.apache.hop.pipeline.transforms.databaselookup.DatabaseLookupMetaTest.testProvidesModelerMeta::96cfd6aab518b8fa6275f6f12bdbfcb69f6ac0e1::plugins/transforms/databaselookup",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/hoppluginstransformsdatabaselookup96cfd6atestProvidesModelerMeta/result/Flaky/.nondex/I9AZ0YdIFG5spo3tnYLqGzWSKt5mPXhWVPyIxg+rCM=/TEST-org.apache.hop.pipeline.transforms.databaselookup.DatabaseLookupMetaTest.xml",
+        "size": 24987,
+        "compressed": 3692,
+        "crc32": "43ad99d1",
+        "offset": 2150029697,
+        "method": 8,
+        "local_path": "data/extracted/a53dc1676dc581777393a6be.xml",
+        "sha256": "219815d98bff1d17df835f5e3f8fc5eb5604b9abe6763e8cc970add509c111ad",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/hoppluginstransformsdatabaselookup96cfd6atestProvidesModelerMeta/result/Flaky/rounds-test-results.csv",
+    "size": 23863,
+    "compressed": 5158,
+    "crc32": "d759ffed",
+    "offset": 2149838286,
+    "method": 8,
+    "local_path": "data/extracted/26c7942b4875a89888bc4658.csv",
+    "sha256": "76681b91faf90905bba85c1a85d46bfc1ddabde6a5c11cf9457f502322f1d5b9",
+    "status": "verified"
+  },
+  "reported_failure_rows": 99,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/hoppluginstransformsdatabaselookup96cfd6atestProvidesModelerMeta/result/Flaky/.nondex/I9AZ0YdIFG5spo3tnYLqGzWSKt5mPXhWVPyIxg+rCM=/TEST-org.apache.hop.pipeline.transforms.databaselookup.DatabaseLookupMetaTest.xml",
+    "size": 24987,
+    "compressed": 3692,
+    "crc32": "43ad99d1",
+    "offset": 2150029697,
+    "method": 8,
+    "local_path": "data/extracted/a53dc1676dc581777393a6be.xml",
+    "sha256": "219815d98bff1d17df835f5e3f8fc5eb5604b9abe6763e8cc970add509c111ad",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testProvidesModelerMeta",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<f[1]> but was:<f[2]>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<f[1]> but was:<f[2]>\n\tat org.apache.hop.pipeline.transforms.databaselookup.DatabaseLookupMetaTest.testProvidesModelerMeta(DatabaseLookupMetaTest.java:165)",
+    "text": "org.junit.ComparisonFailure\nexpected:<f[1]> but was:<f[2]>\norg.junit.ComparisonFailure: expected:<f[1]> but was:<f[2]>\n\tat org.apache.hop.pipeline.transforms.databaselookup.DatabaseLookupMetaTest.testProvidesModelerMeta(DatabaseLookupMetaTest.java:165)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "d5b9e4b60fc8f98f3937e74b605cbb4d408a2ab7e0862f56f5aed1013aab0f92"
+}

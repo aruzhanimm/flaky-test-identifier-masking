@@ -1,0 +1,81 @@
+{
+  "container": "commonslang182b250testReflectionHierarchyArrayList",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "commonslang182b250testReflectionHierarchyArrayList",
+    "project": "https://github.com/apache/commons-lang",
+    "revision": "182b2506b304463f8f1a9ad765c6db0420fa356f",
+    "test": "org.apache.commons.lang3.builder.ToStringBuilderTest.testReflectionHierarchyArrayList",
+    "label": "ID",
+    "module": ".",
+    "zip": "commons-lang=.=182b250",
+    "config_row": 565,
+    "configured_test": "org.apache.commons.lang3.builder.ToStringBuilderTest#testReflectionHierarchyArrayList",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.ToStringBuilderTest.testReflectionHierarchyArrayList",
+    "variant_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.ToStringBuilderTest.testReflectionHierarchyArrayList::182b2506b304463f8f1a9ad765c6db0420fa356f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/commonslang182b250testReflectionHierarchyArrayList/result/Flaky/.nondex/pfwdpw3G54qNXIaaromEUoSWGVO3WKVfjjuRcJ2qfTE=/TEST-org.apache.commons.lang3.builder.ToStringBuilderTest.xml",
+        "size": 10491,
+        "compressed": 2267,
+        "crc32": "1d8b4cfc",
+        "offset": 409373529,
+        "method": 8,
+        "local_path": "data/extracted/25d5e0b802b36c91df55813d.xml",
+        "sha256": "940bf40db22c2fd348c5150552f3a133cc9e11618afafa14c88143a66015024f",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/commonslang182b250testReflectionHierarchyArrayList/result/Flaky/rounds-test-results.csv",
+    "size": 18501,
+    "compressed": 4933,
+    "crc32": "097a74c8",
+    "offset": 408891732,
+    "method": 8,
+    "local_path": "data/extracted/a6dd5f8b7a7debe41c5072d1.csv",
+    "sha256": "2070ceef8b60affe2e00b9f40577849182a548434314f83daa78f7a86724a524",
+    "status": "verified"
+  },
+  "reported_failure_rows": 42,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/commonslang182b250testReflectionHierarchyArrayList/result/Flaky/.nondex/pfwdpw3G54qNXIaaromEUoSWGVO3WKVfjjuRcJ2qfTE=/TEST-org.apache.commons.lang3.builder.ToStringBuilderTest.xml",
+    "size": 10491,
+    "compressed": 2267,
+    "crc32": "1d8b4cfc",
+    "offset": 409373529,
+    "method": 8,
+    "local_path": "data/extracted/25d5e0b802b36c91df55813d.xml",
+    "sha256": "940bf40db22c2fd348c5150552f3a133cc9e11618afafa14c88143a66015024f",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testReflectionHierarchyArrayList",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <java.util.ArrayList@32464a14[elementData={<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>},size=0,modCount=0]> but was: <java.util.ArrayList@32464a14[size=0,elementData={<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>},modCount=0]>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <java.util.ArrayList@32464a14[elementData={<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>},size=0,modCount=0]> but was: <java.util.ArrayList@32464a14[size=0,elementData={<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>},modCount=0]>\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.testReflectionHierarchyArrayList(ToStringBuilderTest.java:322)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <java.util.ArrayList@32464a14[elementData={<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>},size=0,modCount=0]> but was: <java.util.ArrayList@32464a14[size=0,elementData={<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>},modCount=0]>\norg.opentest4j.AssertionFailedError: expected: <java.util.ArrayList@32464a14[elementData={<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>},size=0,modCount=0]> but was: <java.util.ArrayList@32464a14[size=0,elementData={<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>},modCount=0]>\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.testReflectionHierarchyArrayList(ToStringBuilderTest.java:322)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "f87e479c0289dc25d257d5f2f257e9d9230b1c0f0ebb3d381345778aa122167b"
+}

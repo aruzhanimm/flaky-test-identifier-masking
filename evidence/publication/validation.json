@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-19",
+  "unit_tests": {
+    "command": "python -m unittest discover -s scripts -p test_*.py",
+    "run": 28,
+    "failures": 0,
+    "errors": 0
+  },
+  "saved_result_validation": "passed; all eight primary/extension/subtask populations, independent integer confusion counts, project partitions and cross-run reproductions",
+  "source_reparse_validation": {
+    "tests": 1051,
+    "CRC_size_SHA256_verified": true,
+    "exact_target_reparse": true,
+    "original_and_masked_hashes": true,
+    "exception_types_preserved": true
+  },
+  "corpus_sha256": "4fbee74d76717535e80f7c40841852784a23c1907954e8227ad2ae31f87c5127",
+  "recorded_experiment_values_unchanged": true,
+  "portability_checks": {
+    "recovered_project_help": true,
+    "fresh_output_argument": true,
+    "read_only_default_validators": true
+  },
+  "bootstrap_intervals": "retained from recorded runs, not recomputed during packaging",
+  "models_retrained_during_packaging": false
+}

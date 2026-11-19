@@ -1,0 +1,81 @@
+{
+  "container": "graylog2servergraylog2server036bdb5serializePrefixOnly",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "graylog2servergraylog2server036bdb5serializePrefixOnly",
+    "project": "https://github.com/graylog2/graylog2-server",
+    "revision": "036bdb574d7e0d69bb53eb3336762a737ffcfa38",
+    "test": "org.graylog2.plugin.lookup.LookupCacheKeyTest.serializePrefixOnly",
+    "label": "ID",
+    "module": "graylog2-server",
+    "zip": "graylog2-server=graylog2-server=036bdb5",
+    "config_row": 16,
+    "configured_test": "org.graylog2.plugin.lookup.LookupCacheKeyTest#serializePrefixOnly",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/graylog2/graylog2-server::org.graylog2.plugin.lookup.LookupCacheKeyTest.serializePrefixOnly",
+    "variant_id": "https://github.com/graylog2/graylog2-server::org.graylog2.plugin.lookup.LookupCacheKeyTest.serializePrefixOnly::036bdb574d7e0d69bb53eb3336762a737ffcfa38::graylog2-server",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/graylog2servergraylog2server036bdb5serializePrefixOnly/result/Flaky/.nondex/0YUDZMg4nbGmDEspf9QG73tB0kMUoeBTc3b2AzrK2Dk=/TEST-org.graylog2.plugin.lookup.LookupCacheKeyTest.xml",
+        "size": 66634,
+        "compressed": 7718,
+        "crc32": "cebe2356",
+        "offset": 579213762,
+        "method": 8,
+        "local_path": "data/extracted/70536029e23c4b35f5a6f7dd.xml",
+        "sha256": "cb6a19f3c733d7867cc969325c5cfa13d823d26ace7e9343cb4a9a71d26d7c4a",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/graylog2servergraylog2server036bdb5serializePrefixOnly/result/Flaky/rounds-test-results.csv",
+    "size": 19205,
+    "compressed": 5011,
+    "crc32": "194c76c9",
+    "offset": 579069652,
+    "method": 8,
+    "local_path": "data/extracted/9ace0d5ca50dad7a40a5425a.csv",
+    "sha256": "200b86a44f2343339ad01cf6244521eebf3a5ed4c651b87376f807929d551580",
+    "status": "verified"
+  },
+  "reported_failure_rows": 53,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/graylog2servergraylog2server036bdb5serializePrefixOnly/result/Flaky/.nondex/0YUDZMg4nbGmDEspf9QG73tB0kMUoeBTc3b2AzrK2Dk=/TEST-org.graylog2.plugin.lookup.LookupCacheKeyTest.xml",
+    "size": 66634,
+    "compressed": 7718,
+    "crc32": "cebe2356",
+    "offset": 579213762,
+    "method": 8,
+    "local_path": "data/extracted/70536029e23c4b35f5a6f7dd.xml",
+    "sha256": "cb6a19f3c733d7867cc969325c5cfa13d823d26ace7e9343cb4a9a71d26d7c4a",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "serializePrefixOnly",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Actual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <\"key\">\nwhereas expected element was:\n  <\"prefix\">",
+    "stack_trace": "java.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <\"key\">\nwhereas expected element was:\n  <\"prefix\">\n\n\tat org.graylog2.plugin.lookup.LookupCacheKeyTest.serializePrefixOnly(LookupCacheKeyTest.java:48)",
+    "text": "java.lang.AssertionError\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <\"key\">\nwhereas expected element was:\n  <\"prefix\">\njava.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <\"key\">\nwhereas expected element was:\n  <\"prefix\">\n\n\tat org.graylog2.plugin.lookup.LookupCacheKeyTest.serializePrefixOnly(LookupCacheKeyTest.java:48)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "f0be54f2a4c79ec228e3f53fb358781e50550c0487f19d17370d87818b501bed"
+}

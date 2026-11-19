@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.oracle.wls.exporter.domain.MBeanSelectorTest" time="0.054" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="nondexStart" value="0"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/wls-exporter-core/target/test-classes:/app/source/wls-exporter-core/target/classes:/root/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/root/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar:/root/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/root/.m2/repository/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar:/root/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/root/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/root/.m2/repository/com/jayway/jsonpath/json-path/2.5.0/json-path-2.5.0.jar:/root/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/root/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/root/.m2/repository/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4.jar:/root/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/root/.m2/repository/com/meterware/simplestub/simplestub/1.3.0/simplestub-1.3.0.jar:/root/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/root/.m2/repository/org/ow2/asm/asm-commons/7.1/asm-commons-7.1.jar:/root/.m2/repository/org/ow2/asm/asm-tree/7.1/asm-tree-7.1.jar:/root/.m2/repository/org/ow2/asm/asm-analysis/7.1/asm-analysis-7.1.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/root/.m2/repository/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar:/root/.m2/repository/org/httpunit/httpunit/1.7.3/httpunit-1.7.3.jar:/root/.m2/repository/rhino/js/1.6R5/js-1.6R5.jar:/root/.m2/repository/nekohtml/nekohtml/0.9.5/nekohtml-0.9.5.jar:/root/.m2/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar:/root/.m2/repository/net/sf/jtidy/jtidy/r938/jtidy-r938.jar:/root/.m2/repository/xerces/xercesImpl/2.6.1/xercesImpl-2.6.1.jar:/root/.m2/repository/xerces/xmlParserAPIs/2.6.1/xmlParserAPIs-2.6.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-11/lib"/>
+    <property name="sun.java.command" value="/app/source/wls-exporter-core/target/surefire/surefirebooter11998937809185053514.jar /app/source/wls-exporter-core/target/surefire 2025-11-06T05-16-41_979-jvmRun1 surefire11534197088583856041tmp surefire_19783175198819645560tmp"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/app/source/wls-exporter-core/target/test-classes:/app/source/wls-exporter-core/target/classes:/root/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/root/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar:/root/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/root/.m2/repository/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar:/root/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/root/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/root/.m2/repository/com/jayway/jsonpath/json-path/2.5.0/json-path-2.5.0.jar:/root/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/root/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/root/.m2/repository/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4.jar:/root/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/root/.m2/repository/com/meterware/simplestub/simplestub/1.3.0/simplestub-1.3.0.jar:/root/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/root/.m2/repository/org/ow2/asm/asm-commons/7.1/asm-commons-7.1.jar:/root/.m2/repository/org/ow2/asm/asm-tree/7.1/asm-tree-7.1.jar:/root/.m2/repository/org/ow2/asm/asm-analysis/7.1/asm-analysis-7.1.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/root/.m2/repository/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar:/root/.m2/repository/org/httpunit/httpunit/1.7.3/httpunit-1.7.3.jar:/root/.m2/repository/rhino/js/1.6R5/js-1.6R5.jar:/root/.m2/repository/nekohtml/nekohtml/0.9.5/nekohtml-0.9.5.jar:/root/.m2/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar:/root/.m2/repository/net/sf/jtidy/jtidy/r938/jtidy-r938.jar:/root/.m2/repository/xerces/xercesImpl/2.6.1/xercesImpl-2.6.1.jar:/root/.m2/repository/xerces/xmlParserAPIs/2.6.1/xmlParserAPIs-2.6.1.jar:"/>
+    <property name="test" value="com.oracle.wls.exporter.domain.MBeanSelectorTest#generateJsonRequest"/>
+    <property name="nondexExecid" value="PNsPM4jpl+pS8WUXny+Onb1+O5zdZu1vZOglLYDV58c="/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/openjdk-11"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="basedir" value="/app/source/wls-exporter-core"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="surefire.real.class.path" value="/app/source/wls-exporter-core/target/surefire/surefirebooter11998937809185053514.jar"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-33-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/wls-exporter-core/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="nondexJarDir" value="/app/source/wls-exporter-core/.nondex"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="/app/source/wls-exporter-core"/>
+    <property name="license.skip" value="true"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="xml.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="generateJsonRequest" classname="com.oracle.wls.exporter.domain.MBeanSelectorTest" time="0.045">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: "{\"links\":[],\"fields\":[],\"children\":{\"applicationRuntimes\":{\"links\":[],\"fields\":[\"name\"],\"children\":{\"componentRuntimes\":{\"links\":[],\"fields\":[\"name\",\"age\",\"beauty\"],\"children\":{\"servlets\":{\"links\":[],\"fields\":[\"servletName\",\"first\",\"second\",\"third\"]}}}}}}}"
+     but: was "{\"fields\":[],\"links\":[],\"children\":{\"applicationRuntimes\":{\"fields\":[\"name\"],\"links\":[],\"children\":{\"componentRuntimes\":{\"fields\":[\"name\",\"age\",\"beauty\"],\"links\":[],\"children\":{\"servlets\":{\"fields\":[\"servletName\",\"first\",\"second\",\"third\"],\"links\":[]}}}}}}}"
+	at com.oracle.wls.exporter.domain.MBeanSelectorTest.generateJsonRequest(MBeanSelectorTest.java:315)
+]]></failure>
+  </testcase>
+</testsuite>

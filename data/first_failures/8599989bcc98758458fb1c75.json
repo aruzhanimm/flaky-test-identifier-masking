@@ -1,0 +1,81 @@
+{
+  "container": "shenyushenyuadmin02696b4testBuildHandle2",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "shenyushenyuadmin02696b4testBuildHandle2",
+    "project": "https://github.com/apache/shenyu",
+    "revision": "02696b41e6865540a982b4a8fca84c825825b74a",
+    "test": "org.apache.shenyu.admin.service.register.ShenyuClientRegisterDubboServiceImplTest.testBuildHandle",
+    "label": "ID",
+    "module": "shenyu-admin",
+    "zip": "shenyu=shenyu-admin=02696b4",
+    "config_row": 720,
+    "configured_test": "org.apache.shenyu.admin.service.register.ShenyuClientRegisterDubboServiceImplTest#testBuildHandle",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/shenyu::org.apache.shenyu.admin.service.register.ShenyuClientRegisterDubboServiceImplTest.testBuildHandle",
+    "variant_id": "https://github.com/apache/shenyu::org.apache.shenyu.admin.service.register.ShenyuClientRegisterDubboServiceImplTest.testBuildHandle::02696b41e6865540a982b4a8fca84c825825b74a::shenyu-admin",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/shenyushenyuadmin02696b4testBuildHandle2/result/Flaky/.nondex/6Y5wzRi6C+9FsKDSZgsAERD1tfFWLkHokYgufP11moc=/TEST-org.apache.shenyu.admin.service.register.ShenyuClientRegisterDubboServiceImplTest.xml",
+        "size": 50514,
+        "compressed": 6133,
+        "crc32": "11927bd6",
+        "offset": 1590075352,
+        "method": 8,
+        "local_path": "data/extracted/2e2db1ee068b14d47ddd2fcd.xml",
+        "sha256": "1da99f4cf559bc0dce4745c20211ab298fa8d63cca20c99ebe3e582fe170c5a4",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/shenyushenyuadmin02696b4testBuildHandle2/result/Flaky/rounds-test-results.csv",
+    "size": 22653,
+    "compressed": 5180,
+    "crc32": "119e42ee",
+    "offset": 1589429213,
+    "method": 8,
+    "local_path": "data/extracted/04037d67e78f1da2254d21ab.csv",
+    "sha256": "a249c96731b8e4e5ccf0d74d8bd1e09b8eca97ae138f139f5fb4c7cfbe210e6a",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/shenyushenyuadmin02696b4testBuildHandle2/result/Flaky/.nondex/6Y5wzRi6C+9FsKDSZgsAERD1tfFWLkHokYgufP11moc=/TEST-org.apache.shenyu.admin.service.register.ShenyuClientRegisterDubboServiceImplTest.xml",
+    "size": 50514,
+    "compressed": 6133,
+    "crc32": "11927bd6",
+    "offset": 1590075352,
+    "method": 8,
+    "local_path": "data/extracted/2e2db1ee068b14d47ddd2fcd.xml",
+    "sha256": "1da99f4cf559bc0dce4745c20211ab298fa8d63cca20c99ebe3e582fe170c5a4",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testBuildHandle",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": null,
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <[{\"port\":0,\"weight\":50,\"warmup\":10,\"protocol\":\"dubbo://\",\"upstreamHost\":\"localhost\",\"upstreamUrl\":\"localhost:8090\",\"status\":true,\"timestamp\":0},{\"port\":0,\"weight\":50,\"warmup\":10,\"protocol\":\"dubbo://\",\"upstreamHost\":\"localhost\",\"upstreamUrl\":\"localhost:8091\",\"status\":false,\"timestamp\":0}]> but was: <[{\"port\":0,\"weight\":50,\"warmup\":10,\"upstreamUrl\":\"localhost:8090\",\"timestamp\":0,\"protocol\":\"dubbo://\",\"upstreamHost\":\"localhost\",\"status\":true},{\"port\":0,\"weight\":50,\"warmup\":10,\"upstreamUrl\":\"localhost:8091\",\"timestamp\":0,\"protocol\":\"dubbo://\",\"upstreamHost\":\"localhost\",\"status\":false}]>\n\tat org.apache.shenyu.admin.service.register.ShenyuClientRegisterDubboServiceImplTest.testBuildHandle(ShenyuClientRegisterDubboServiceImplTest.java:118)",
+    "text": "org.opentest4j.AssertionFailedError\norg.opentest4j.AssertionFailedError: expected: <[{\"port\":0,\"weight\":50,\"warmup\":10,\"protocol\":\"dubbo://\",\"upstreamHost\":\"localhost\",\"upstreamUrl\":\"localhost:8090\",\"status\":true,\"timestamp\":0},{\"port\":0,\"weight\":50,\"warmup\":10,\"protocol\":\"dubbo://\",\"upstreamHost\":\"localhost\",\"upstreamUrl\":\"localhost:8091\",\"status\":false,\"timestamp\":0}]> but was: <[{\"port\":0,\"weight\":50,\"warmup\":10,\"upstreamUrl\":\"localhost:8090\",\"timestamp\":0,\"protocol\":\"dubbo://\",\"upstreamHost\":\"localhost\",\"status\":true},{\"port\":0,\"weight\":50,\"warmup\":10,\"upstreamUrl\":\"localhost:8091\",\"timestamp\":0,\"protocol\":\"dubbo://\",\"upstreamHost\":\"localhost\",\"status\":false}]>\n\tat org.apache.shenyu.admin.service.register.ShenyuClientRegisterDubboServiceImplTest.testBuildHandle(ShenyuClientRegisterDubboServiceImplTest.java:118)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "1886eb87659e33f3bbc1e65631db5ce775253600006adc2a91766f8b076f1fce"
+}

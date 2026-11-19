@@ -1,0 +1,436 @@
+{
+  "extraction_complete": true,
+  "metadata_containers": 1115,
+  "processed_containers": 1115,
+  "confirmed_failure_containers": 1058,
+  "eligible_tests": 1051,
+  "eligible_project_groups": 127,
+  "categories": {
+    "NIO": 121,
+    "ID": 794,
+    "TD": 10,
+    "OD": 126
+  },
+  "category_project_groups": {
+    "ID": 118,
+    "NIO": 3,
+    "OD": 8,
+    "TD": 6
+  },
+  "coverage": {
+    "https://github.com/pholser/junit-quickcheck": {
+      "NIO": 116,
+      "ID": 6
+    },
+    "https://github.com/apache/sling-org-apache-sling-servlets-get": {
+      "ID": 2
+    },
+    "https://github.com/adobe/asset-share-commons": {
+      "ID": 4
+    },
+    "https://github.com/openfeign/feign": {
+      "ID": 12
+    },
+    "https://github.com/oracle/weblogic-monitoring-exporter": {
+      "ID": 5
+    },
+    "https://github.com/immutables/immutables": {
+      "ID": 5
+    },
+    "https://github.com/apache/maven-dependency-plugin": {
+      "ID": 3
+    },
+    "https://github.com/cerner/common-kafka": {
+      "ID": 4
+    },
+    "https://github.com/eclipse-ee4j/tyrus": {
+      "ID": 2
+    },
+    "https://github.com/stleary/json-java": {
+      "ID": 7
+    },
+    "https://github.com/smooks/smooks": {
+      "ID": 1
+    },
+    "https://github.com/languagetool-org/languagetool": {
+      "ID": 1
+    },
+    "https://github.com/jdereg/json-io": {
+      "ID": 7
+    },
+    "https://github.com/eclipse-ee4j/jersey": {
+      "ID": 4
+    },
+    "https://github.com/apache/streampipes": {
+      "ID": 2
+    },
+    "https://github.com/vipshop/vjtools": {
+      "ID": 3
+    },
+    "https://github.com/alibaba/nacos": {
+      "ID": 11
+    },
+    "https://github.com/apache/incubator-kie": {
+      "ID": 2
+    },
+    "https://github.com/quarkusio/quarkus": {
+      "ID": 6
+    },
+    "https://github.com/apache/shenyu": {
+      "ID": 8
+    },
+    "https://github.com/sap-archive/pair-distribution-app": {
+      "ID": 7
+    },
+    "https://github.com/apache/hugegraph-toolchain": {
+      "ID": 3
+    },
+    "https://github.com/raphw/byte-buddy": {
+      "ID": 3
+    },
+    "https://github.com/ericsson/ecchronos": {
+      "ID": 4
+    },
+    "https://github.com/apache/struts": {
+      "ID": 2
+    },
+    "https://github.com/apache/zookeeper": {
+      "TD": 1
+    },
+    "https://github.com/wikidata-toolkit/wikidata-toolkit": {
+      "OD": 2
+    },
+    "https://github.com/okta/okta-hooks-sdk-java": {
+      "ID": 19
+    },
+    "https://github.com/apache/incubator-seata": {
+      "ID": 1
+    },
+    "https://github.com/mirromutth/r2dbc-mysql": {
+      "ID": 2
+    },
+    "https://github.com/apache/curator": {
+      "TD": 1
+    },
+    "https://github.com/erudika/para": {
+      "ID": 1
+    },
+    "https://github.com/sap-archive/scimono": {
+      "ID": 8
+    },
+    "https://github.com/javadev/underscore-java": {
+      "ID": 1
+    },
+    "https://github.com/chinabugotech/hutool": {
+      "ID": 8
+    },
+    "https://github.com/streamx-co/fluentjpa": {
+      "ID": 1
+    },
+    "https://github.com/apache/pinot": {
+      "ID": 1
+    },
+    "https://github.com/apache/hbase": {
+      "ID": 2
+    },
+    "https://github.com/liquibase/liquibase": {
+      "ID": 4
+    },
+    "https://github.com/apache/flink": {
+      "ID": 3
+    },
+    "https://github.com/apache/commons-collections": {
+      "ID": 8,
+      "TD": 1
+    },
+    "https://github.com/apache/commons-lang": {
+      "ID": 22
+    },
+    "https://github.com/apache/activemq": {
+      "ID": 46
+    },
+    "https://github.com/apache/hive": {
+      "ID": 10
+    },
+    "https://github.com/apache/avro": {
+      "ID": 2
+    },
+    "https://github.com/opengamma/strata": {
+      "ID": 9
+    },
+    "https://github.com/epam/eco-schema-catalog": {
+      "ID": 9
+    },
+    "https://github.com/jnr/jnr-posix": {
+      "OD": 1
+    },
+    "https://github.com/apache/hop": {
+      "ID": 8
+    },
+    "https://github.com/hapifhir/hapi-fhir": {
+      "ID": 8
+    },
+    "https://github.com/oryxproject/oryx": {
+      "ID": 1
+    },
+    "https://github.com/sap-archive/emobility-smart-charging": {
+      "ID": 1
+    },
+    "https://github.com/classgraph/classgraph": {
+      "ID": 1
+    },
+    "https://github.com/alibaba/innodb-java-reader": {
+      "ID": 45
+    },
+    "https://github.com/apache/hadoop": {
+      "TD": 4,
+      "NIO": 1,
+      "ID": 1
+    },
+    "https://github.com/sap-archive/fosstars-rating-core": {
+      "ID": 1
+    },
+    "https://github.com/apache/oozie": {
+      "TD": 2
+    },
+    "https://github.com/moquette-io/moquette": {
+      "ID": 1
+    },
+    "https://github.com/hubspot/jinjava": {
+      "ID": 3
+    },
+    "https://github.com/apache/accumulo": {
+      "OD": 4
+    },
+    "https://github.com/vojtechhabarta/typescript-generator": {
+      "ID": 12
+    },
+    "https://github.com/alibaba/fastjson": {
+      "ID": 23
+    },
+    "https://github.com/oracle/tribuo": {
+      "ID": 4
+    },
+    "https://github.com/apache/opennlp": {
+      "ID": 4
+    },
+    "https://github.com/apache/nifi": {
+      "ID": 12
+    },
+    "https://github.com/sakaiproject/sakai": {
+      "ID": 5
+    },
+    "https://github.com/apache/kylin": {
+      "ID": 2
+    },
+    "https://github.com/stargate/stargate": {
+      "ID": 1
+    },
+    "https://github.com/apache/shiro": {
+      "ID": 1
+    },
+    "https://github.com/fasterxml/jackson-databind": {
+      "ID": 3
+    },
+    "https://github.com/apache/tinkerpop": {
+      "ID": 4
+    },
+    "https://github.com/twilio/twilio-java": {
+      "ID": 1
+    },
+    "https://github.com/intel/jndn-utils": {
+      "ID": 2
+    },
+    "https://github.com/alibaba/testable-mock": {
+      "ID": 1
+    },
+    "https://github.com/apache/ignite-3": {
+      "ID": 46
+    },
+    "https://github.com/spdx/tools": {
+      "ID": 2
+    },
+    "https://github.com/pac4j/pac4j": {
+      "ID": 1
+    },
+    "https://github.com/knowm/xchange": {
+      "ID": 1
+    },
+    "https://github.com/google/testparameterinjector": {
+      "ID": 51
+    },
+    "https://github.com/datadog/jmeter-datadog-backend-listener": {
+      "ID": 1
+    },
+    "https://github.com/graphhopper/graphhopper": {
+      "ID": 2
+    },
+    "https://github.com/lets-blade/blade": {
+      "ID": 5
+    },
+    "https://github.com/opengoofy/hippo4j": {
+      "ID": 1
+    },
+    "https://github.com/tencent/spring-cloud-tencent": {
+      "ID": 2
+    },
+    "https://github.com/apache/skywalking-java": {
+      "ID": 1
+    },
+    "https://github.com/snakeyaml/snakeyaml": {
+      "ID": 3
+    },
+    "https://github.com/snakeyaml/snakeyaml-engine": {
+      "ID": 4
+    },
+    "https://github.com/apache/shardingsphere-elasticjob": {
+      "OD": 4,
+      "NIO": 4
+    },
+    "https://github.com/everit-org/json-schema": {
+      "ID": 4
+    },
+    "https://github.com/sonarsource/sonar-php": {
+      "ID": 1
+    },
+    "https://github.com/apache/dubbo": {
+      "ID": 3,
+      "OD": 6
+    },
+    "https://github.com/gchq/gaffer": {
+      "ID": 2
+    },
+    "https://github.com/alibaba/fastjson2": {
+      "ID": 50
+    },
+    "https://github.com/apache/shardingsphere": {
+      "ID": 12
+    },
+    "https://github.com/pmd/pmd": {
+      "ID": 1
+    },
+    "https://github.com/undertow-io/undertow": {
+      "ID": 1
+    },
+    "https://github.com/fabiomaffioletti/jsondoc": {
+      "ID": 1
+    },
+    "https://github.com/apolloconfig/apollo": {
+      "ID": 11
+    },
+    "https://github.com/googlecloudplatform/appengine-plugins": {
+      "ID": 1
+    },
+    "https://github.com/apolloconfig/apollo-java": {
+      "ID": 1
+    },
+    "https://github.com/bpsm/edn-java": {
+      "ID": 1
+    },
+    "https://github.com/fasterxml/jackson-dataformats-binary": {
+      "ID": 12
+    },
+    "https://github.com/opengoofy/crane4j": {
+      "ID": 3
+    },
+    "https://github.com/adyen/adyen-java-api-library": {
+      "ID": 45
+    },
+    "https://github.com/apache/pulsar": {
+      "ID": 5
+    },
+    "https://github.com/openrefine/openrefine": {
+      "ID": 4
+    },
+    "https://github.com/snowflakedb/snowflake-jdbc": {
+      "ID": 1
+    },
+    "https://github.com/apache/fory": {
+      "ID": 1
+    },
+    "https://github.com/graylog2/graylog2-server": {
+      "ID": 13
+    },
+    "https://github.com/networknt/json-schema-validator": {
+      "ID": 1
+    },
+    "https://github.com/flowable/flowable-engine": {
+      "ID": 10
+    },
+    "https://github.com/apache/rocketmq": {
+      "ID": 1
+    },
+    "https://github.com/castle/castle-java": {
+      "ID": 13
+    },
+    "https://github.com/wildfly/wildfly": {
+      "OD": 21,
+      "ID": 10
+    },
+    "https://github.com/jolokia/jolokia": {
+      "ID": 1
+    },
+    "https://github.com/apache/ratis": {
+      "TD": 1
+    },
+    "https://github.com/karatelabs/karate": {
+      "ID": 2
+    },
+    "https://github.com/mybatis/mybatis-3": {
+      "ID": 1
+    },
+    "https://github.com/ktuukkan/marine-api": {
+      "OD": 2
+    },
+    "https://github.com/j256/ormlite-core": {
+      "OD": 86,
+      "ID": 1
+    },
+    "https://github.com/alibaba/jetcache": {
+      "ID": 3
+    },
+    "https://github.com/apache/servicecomb-java-chassis": {
+      "ID": 12
+    },
+    "https://github.com/biojava/biojava": {
+      "ID": 14
+    },
+    "https://github.com/fasterxml/java-classmate": {
+      "ID": 1
+    },
+    "https://github.com/jmeter-maven-plugin/jmeter-maven-plugin": {
+      "ID": 1
+    },
+    "https://github.com/apache/cloudstack": {
+      "ID": 13
+    },
+    "https://github.com/apache/seatunnel": {
+      "ID": 1
+    }
+  },
+  "format_by_category": {
+    "nio_json": {
+      "NIO": 121
+    },
+    "nondex_report": {
+      "ID": 794
+    },
+    "surefire_text": {
+      "TD": 10,
+      "OD": 126
+    }
+  },
+  "exclusions": {
+    "missing_or_invalid_revision": 6,
+    "no_confirmed_target_diagnostic": 23,
+    "no_failure_in_outcome_table": 25,
+    "unclassified": 9,
+    "revision_attribution_unresolved": 1
+  },
+  "mask_changed": 1005,
+  "corpus_sha256": "4fbee74d76717535e80f7c40841852784a23c1907954e8227ad2ae31f87c5127",
+  "original_exact_cross_project_duplicates": 0,
+  "normalized_template_duplicate_groups": 97,
+  "normalized_template_cross_project_groups": 4,
+  "near_duplicate_caution": "Normalized masked/numeric fingerprints flag template similarity, not proof of shared code or statistical independence"
+}

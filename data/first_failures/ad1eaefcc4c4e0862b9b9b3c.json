@@ -1,0 +1,81 @@
+{
+  "container": "fastjson2extensionsolonaaf9cbbhello23",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "fastjson2extensionsolonaaf9cbbhello23",
+    "project": "https://github.com/alibaba/fastjson2",
+    "revision": "aaf9cbbdc538cf8fd2535abd48c1d97ff05700dd",
+    "test": "com.alibaba.fastjson2.support.solon.test.config.test2.QuickConfigTest.hello2",
+    "label": "ID",
+    "module": "extension-solon",
+    "zip": "fastjson2=extension-solon=aaf9cbb",
+    "config_row": 510,
+    "configured_test": "com.alibaba.fastjson2.support.solon.test.config.test2.QuickConfigTest#hello2",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/fastjson2::com.alibaba.fastjson2.support.solon.test.config.test2.QuickConfigTest.hello2",
+    "variant_id": "https://github.com/alibaba/fastjson2::com.alibaba.fastjson2.support.solon.test.config.test2.QuickConfigTest.hello2::aaf9cbbdc538cf8fd2535abd48c1d97ff05700dd::extension-solon",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/fastjson2extensionsolonaaf9cbbhello23/result/Flaky/.nondex/PfPMGXET2SyNptDhYZCpmqARX0U2OxHVRGShF4Kvg=/TEST-com.alibaba.fastjson2.support.solon.test.config.test2.QuickConfigTest.xml",
+        "size": 21671,
+        "compressed": 3408,
+        "crc32": "3b03b3c6",
+        "offset": 520902484,
+        "method": 8,
+        "local_path": "data/extracted/189916540e290d0b83df179c.xml",
+        "sha256": "0ac5e9f1c6b77ad6a73f728f7c2ed5312bbdab6cad1ecf56eb2f42c72a578c33",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/fastjson2extensionsolonaaf9cbbhello23/result/Flaky/rounds-test-results.csv",
+    "size": 21704,
+    "compressed": 5140,
+    "crc32": "61adb2c5",
+    "offset": 520715395,
+    "method": 8,
+    "local_path": "data/extracted/16f76ea654585d35163857ad.csv",
+    "sha256": "875cdf6df23c809f71df7bfa4b91042033c7c5d8a0a4796edcc325c84107c022",
+    "status": "verified"
+  },
+  "reported_failure_rows": 83,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/fastjson2extensionsolonaaf9cbbhello23/result/Flaky/.nondex/PfPMGXET2SyNptDhYZCpmqARX0U2OxHVRGShF4Kvg=/TEST-com.alibaba.fastjson2.support.solon.test.config.test2.QuickConfigTest.xml",
+    "size": 21671,
+    "compressed": 3408,
+    "crc32": "3b03b3c6",
+    "offset": 520902484,
+    "method": 8,
+    "local_path": "data/extracted/189916540e290d0b83df179c.xml",
+    "sha256": "0ac5e9f1c6b77ad6a73f728f7c2ed5312bbdab6cad1ecf56eb2f42c72a578c33",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "hello2",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError\n\tat com.alibaba.fastjson2.support.solon.test.config.test2.QuickConfigTest.hello2(QuickConfigTest.java:48)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError\n\tat com.alibaba.fastjson2.support.solon.test.config.test2.QuickConfigTest.hello2(QuickConfigTest.java:48)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "ab0062feb4c3e3aa6dec511bbb0214739c91731fead32291d53dfdef83993685"
+}

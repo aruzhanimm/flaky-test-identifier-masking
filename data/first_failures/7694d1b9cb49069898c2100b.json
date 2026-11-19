@@ -1,0 +1,81 @@
+{
+  "container": "incubatorshenyushenyucommond64041ctoJson",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "incubatorshenyushenyucommond64041ctoJson",
+    "project": "https://github.com/apache/incubator-shenyu",
+    "revision": "d64041cadf8dbac65b9cb7958164e5a6671d2ce8",
+    "test": "org.apache.shenyu.common.utils.JsonUtilsTest.toJson",
+    "label": "ID",
+    "module": "shenyu-common",
+    "zip": "incubator-shenyu=shenyu-common=d64041c",
+    "config_row": 383,
+    "configured_test": "org.apache.shenyu.common.utils.JsonUtilsTest#toJson",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/incubator-shenyu::org.apache.shenyu.common.utils.JsonUtilsTest.toJson",
+    "variant_id": "https://github.com/apache/incubator-shenyu::org.apache.shenyu.common.utils.JsonUtilsTest.toJson::d64041cadf8dbac65b9cb7958164e5a6671d2ce8::shenyu-common",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/incubatorshenyushenyucommond64041ctoJson/result/Flaky/.nondex/xTUFTGBiVZPtj5RgZFylnQZ0vdDYMa7hLUsx3dYsDV0=/TEST-org.apache.shenyu.common.utils.JsonUtilsTest.xml",
+        "size": 19050,
+        "compressed": 3104,
+        "crc32": "05eea2f5",
+        "offset": 1970207559,
+        "method": 8,
+        "local_path": "data/extracted/81b639aebdaf37557834dc3b.xml",
+        "sha256": "44bfdddd664a7ceccb4924278c49a640bac3d65e73adbd8590bdca999283a13e",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/incubatorshenyushenyucommond64041ctoJson/result/Flaky/rounds-test-results.csv",
+    "size": 19045,
+    "compressed": 5060,
+    "crc32": "4d1b63f5",
+    "offset": 1969640503,
+    "method": 8,
+    "local_path": "data/extracted/7e47d1b2ad15644371b6b17d.csv",
+    "sha256": "70656dd7a7417fd3a77cbac24ae05451f1bce07d97609ed9d25a7277897d9f24",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/incubatorshenyushenyucommond64041ctoJson/result/Flaky/.nondex/xTUFTGBiVZPtj5RgZFylnQZ0vdDYMa7hLUsx3dYsDV0=/TEST-org.apache.shenyu.common.utils.JsonUtilsTest.xml",
+    "size": 19050,
+    "compressed": 3104,
+    "crc32": "05eea2f5",
+    "offset": 1970207559,
+    "method": 8,
+    "local_path": "data/extracted/81b639aebdaf37557834dc3b.xml",
+    "sha256": "44bfdddd664a7ceccb4924278c49a640bac3d65e73adbd8590bdca999283a13e",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "toJson",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": null,
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <{\"id\":123,\"name\":\"test object\",\"deleted\":false,\"testList\":[\"test_string_0\",\"test_string_1\",\"test_string_2\",\"test_string_3\",\"test_string_4\",\"test_string_5\",\"test_string_6\",\"test_string_7\",\"test_string_8\",\"test_string_9\"],\"testMap\":{\"test_map_9\":\"test_value_9\",\"test_map_8\":\"test_value_8\",\"test_map_3\":\"test_value_3\",\"test_map_2\":\"test_value_2\",\"test_map_1\":\"test_value_1\",\"test_map_0\":\"test_value_0\",\"test_map_7\":\"test_value_7\",\"test_map_6\":\"test_value_6\",\"test_map_5\":\"test_value_5\",\"test_map_4\":\"test_value_4\"},\"nullObject\":null,\"emptyList\":[],\"emptyMap\":{},\"nestedMap\":{\"boolean\":false,\"map2\":{},\"map1\":{\"test_map_9\":\"test_value_9\",\"test_map_8\":\"test_value_8\",\"test_map_3\":\"test_value_3\",\"test_map_2\":\"test_value_2\",\"test_map_1\":\"test_value_1\",\"test_map_0\":\"test_value_0\",\"test_map_7\":\"test_value_7\",\"test_map_6\":\"test_value_6\",\"test_map_5\":\"test_value_5\",\"test_map_4\":\"test_value_4\"},\"testInt\":100}}> but was: <{\"emptyList\":[],\"name\":\"test object\",\"deleted\":false,\"emptyMap\":{},\"nullObject\":null,\"id\":123,\"testMap\":{\"test_map_4\":\"test_value_4\",\"test_map_6\":\"test_value_6\",\"test_map_5\":\"test_value_5\",\"test_map_2\":\"test_value_2\",\"test_map_8\":\"test_value_8\",\"test_map_1\":\"test_value_1\",\"test_map_0\":\"test_value_0\",\"test_map_9\":\"test_value_9\",\"test_map_7\":\"test_value_7\",\"test_map_3\":\"test_value_3\"},\"testList\":[\"test_string_0\",\"test_string_1\",\"test_string_2\",\"test_string_3\",\"test_string_4\",\"test_string_5\",\"test_string_6\",\"test_string_7\",\"test_string_8\",\"test_string_9\"],\"nestedMap\":{\"boolean\":false,\"map2\":{},\"map1\":{\"test_map_6\":\"test_value_6\",\"test_map_7\":\"test_value_7\",\"test_map_3\":\"test_value_3\",\"test_map_2\":\"test_value_2\",\"test_map_9\":\"test_value_9\",\"test_map_4\":\"test_value_4\",\"test_map_0\":\"test_value_0\",\"test_map_5\":\"test_value_5\",\"test_map_8\":\"test_value_8\",\"test_map_1\":\"test_value_1\"},\"testInt\":100}}>\n\tat org.apache.shenyu.common.utils.JsonUtilsTest.toJson(JsonUtilsTest.java:76)",
+    "text": "org.opentest4j.AssertionFailedError\norg.opentest4j.AssertionFailedError: expected: <{\"id\":123,\"name\":\"test object\",\"deleted\":false,\"testList\":[\"test_string_0\",\"test_string_1\",\"test_string_2\",\"test_string_3\",\"test_string_4\",\"test_string_5\",\"test_string_6\",\"test_string_7\",\"test_string_8\",\"test_string_9\"],\"testMap\":{\"test_map_9\":\"test_value_9\",\"test_map_8\":\"test_value_8\",\"test_map_3\":\"test_value_3\",\"test_map_2\":\"test_value_2\",\"test_map_1\":\"test_value_1\",\"test_map_0\":\"test_value_0\",\"test_map_7\":\"test_value_7\",\"test_map_6\":\"test_value_6\",\"test_map_5\":\"test_value_5\",\"test_map_4\":\"test_value_4\"},\"nullObject\":null,\"emptyList\":[],\"emptyMap\":{},\"nestedMap\":{\"boolean\":false,\"map2\":{},\"map1\":{\"test_map_9\":\"test_value_9\",\"test_map_8\":\"test_value_8\",\"test_map_3\":\"test_value_3\",\"test_map_2\":\"test_value_2\",\"test_map_1\":\"test_value_1\",\"test_map_0\":\"test_value_0\",\"test_map_7\":\"test_value_7\",\"test_map_6\":\"test_value_6\",\"test_map_5\":\"test_value_5\",\"test_map_4\":\"test_value_4\"},\"testInt\":100}}> but was: <{\"emptyList\":[],\"name\":\"test object\",\"deleted\":false,\"emptyMap\":{},\"nullObject\":null,\"id\":123,\"testMap\":{\"test_map_4\":\"test_value_4\",\"test_map_6\":\"test_value_6\",\"test_map_5\":\"test_value_5\",\"test_map_2\":\"test_value_2\",\"test_map_8\":\"test_value_8\",\"test_map_1\":\"test_value_1\",\"test_map_0\":\"test_value_0\",\"test_map_9\":\"test_value_9\",\"test_map_7\":\"test_value_7\",\"test_map_3\":\"test_value_3\"},\"testList\":[\"test_string_0\",\"test_string_1\",\"test_string_2\",\"test_string_3\",\"test_string_4\",\"test_string_5\",\"test_string_6\",\"test_string_7\",\"test_string_8\",\"test_string_9\"],\"nestedMap\":{\"boolean\":false,\"map2\":{},\"map1\":{\"test_map_6\":\"test_value_6\",\"test_map_7\":\"test_value_7\",\"test_map_3\":\"test_value_3\",\"test_map_2\":\"test_value_2\",\"test_map_9\":\"test_value_9\",\"test_map_4\":\"test_value_4\",\"test_map_0\":\"test_value_0\",\"test_map_5\":\"test_value_5\",\"test_map_8\":\"test_value_8\",\"test_map_1\":\"test_value_1\"},\"testInt\":100}}>\n\tat org.apache.shenyu.common.utils.JsonUtilsTest.toJson(JsonUtilsTest.java:76)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "6a2843ce33798525e9d820fe863d76fb843017d3441e168d186b0693b4b8659c"
+}

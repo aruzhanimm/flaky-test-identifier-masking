@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.biojava.nbio.structure.cluster.TestSubunitExtractor" time="1.164" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="nondexStart" value="0"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/biojava-structure/target/test-classes:/app/source/biojava-structure/target/classes:/root/.m2/repository/org/rcsb/ciftools-java-jdk8/2.0.2/ciftools-java-jdk8-2.0.2.jar:/root/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/root/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/root/.m2/repository/org/rcsb/mmtf-api/1.0.9/mmtf-api-1.0.9.jar:/root/.m2/repository/org/rcsb/mmtf-serialization/1.0.9/mmtf-serialization-1.0.9.jar:/root/.m2/repository/org/msgpack/jackson-dataformat-msgpack/0.8.18/jackson-dataformat-msgpack-0.8.18.jar:/root/.m2/repository/org/msgpack/msgpack-core/0.8.18/msgpack-core-0.8.18.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.9.3/jackson-databind-2.9.9.3.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar:/root/.m2/repository/org/rcsb/mmtf-codec/1.0.9/mmtf-codec-1.0.9.jar:/root/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/root/.m2/repository/org/biojava/biojava-alignment/6.0.0-SNAPSHOT/biojava-alignment-6.0.0-SNAPSHOT.jar:/root/.m2/repository/org/biojava/thirdparty/forester/1.038/forester-1.038.jar:/root/.m2/repository/org/biojava/biojava-core/6.0.0-SNAPSHOT/biojava-core-6.0.0-SNAPSHOT.jar:/root/.m2/repository/java3d/vecmath/1.3.1/vecmath-1.3.1.jar:/root/.m2/repository/org/jgrapht/jgrapht-core/1.1.0/jgrapht-core-1.1.0.jar:/root/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar:/root/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.13.3/log4j-slf4j-impl-2.13.3.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/root/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/xmlunit/xmlunit/1.6/xmlunit-1.6.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-8/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/app/source/biojava-structure/target/surefire/surefirebooter2519362601766496764.jar /app/source/biojava-structure/target/surefire 2025-11-08T01-43-48_133-jvmRun1 surefire7704414900864497760tmp surefire_16011869916476107897tmp"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="test" value="org.biojava.nbio.structure.cluster.TestSubunitExtractor#testHistone"/>
+    <property name="surefire.test.class.path" value="/app/source/biojava-structure/target/test-classes:/app/source/biojava-structure/target/classes:/root/.m2/repository/org/rcsb/ciftools-java-jdk8/2.0.2/ciftools-java-jdk8-2.0.2.jar:/root/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/root/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/root/.m2/repository/org/rcsb/mmtf-api/1.0.9/mmtf-api-1.0.9.jar:/root/.m2/repository/org/rcsb/mmtf-serialization/1.0.9/mmtf-serialization-1.0.9.jar:/root/.m2/repository/org/msgpack/jackson-dataformat-msgpack/0.8.18/jackson-dataformat-msgpack-0.8.18.jar:/root/.m2/repository/org/msgpack/msgpack-core/0.8.18/msgpack-core-0.8.18.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.9.3/jackson-databind-2.9.9.3.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar:/root/.m2/repository/org/rcsb/mmtf-codec/1.0.9/mmtf-codec-1.0.9.jar:/root/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/root/.m2/repository/org/biojava/biojava-alignment/6.0.0-SNAPSHOT/biojava-alignment-6.0.0-SNAPSHOT.jar:/root/.m2/repository/org/biojava/thirdparty/forester/1.038/forester-1.038.jar:/root/.m2/repository/org/biojava/biojava-core/6.0.0-SNAPSHOT/biojava-core-6.0.0-SNAPSHOT.jar:/root/.m2/repository/java3d/vecmath/1.3.1/vecmath-1.3.1.jar:/root/.m2/repository/org/jgrapht/jgrapht-core/1.1.0/jgrapht-core-1.1.0.jar:/root/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar:/root/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.13.3/log4j-slf4j-impl-2.13.3.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/root/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/xmlunit/xmlunit/1.6/xmlunit-1.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="hgOk13Hg9hQhnXcubpYQo5BExQszfmJkXwyziCMWY4="/>
+    <property name="user.home" value="/root"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/local/openjdk-8/jre"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/app/source/biojava-structure"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="surefire.real.class.path" value="/app/source/biojava-structure/target/surefire/surefirebooter2519362601766496764.jar"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="sun.boot.class.path" value="/app/source/biojava-structure/.nondex/nondex-instr.jar:/root/.m2/repository/edu/illinois/nondex-common/2.1.1/nondex-common-2.1.1.jar:/root/.m2/repository/edu/illinois/nondex-annotations/2.1.1/nondex-annotations-2.1.1.jar:/usr/local/openjdk-8/jre/lib/resources.jar:/usr/local/openjdk-8/jre/lib/rt.jar:/usr/local/openjdk-8/jre/lib/sunrsasign.jar:/usr/local/openjdk-8/jre/lib/jsse.jar:/usr/local/openjdk-8/jre/lib/jce.jar:/usr/local/openjdk-8/jre/lib/charsets.jar:/usr/local/openjdk-8/jre/lib/jfr.jar:/usr/local/openjdk-8/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="java.runtime.version" value="1.8.0_342-b07"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-35-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.endorsed.dirs" value="/usr/local/openjdk-8/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/biojava-structure/.nondex"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="nondexJarDir" value="/app/source/biojava-structure/.nondex"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_342"/>
+    <property name="user.dir" value="/app/source/biojava-structure"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="license.skip" value="true"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="xml.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.342-b07"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="java.ext.dirs" value="/usr/local/openjdk-8/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="testHistone" classname="org.biojava.nbio.structure.cluster.TestSubunitExtractor" time="1.163">
+    <error message="mmtf.rcsb.org" type="java.net.UnknownHostException">java.net.UnknownHostException: mmtf.rcsb.org
+	at org.biojava.nbio.structure.cluster.TestSubunitExtractor.testHistone(TestSubunitExtractor.java:71)
+</error>
+    <system-err><![CDATA[01:43:54 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+]]></system-err>
+  </testcase>
+</testsuite>

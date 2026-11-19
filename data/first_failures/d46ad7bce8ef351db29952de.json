@@ -1,0 +1,81 @@
+{
+  "container": "shenyushenyuadmin02696b4testBuildHandle3",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "shenyushenyuadmin02696b4testBuildHandle3",
+    "project": "https://github.com/apache/shenyu",
+    "revision": "02696b41e6865540a982b4a8fca84c825825b74a",
+    "test": "org.apache.shenyu.admin.service.register.ShenyuClientRegisterGrpcServiceImplTest.testBuildHandle",
+    "label": "ID",
+    "module": "shenyu-admin",
+    "zip": "shenyu=shenyu-admin=02696b4",
+    "config_row": 721,
+    "configured_test": "org.apache.shenyu.admin.service.register.ShenyuClientRegisterGrpcServiceImplTest#testBuildHandle",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/shenyu::org.apache.shenyu.admin.service.register.ShenyuClientRegisterGrpcServiceImplTest.testBuildHandle",
+    "variant_id": "https://github.com/apache/shenyu::org.apache.shenyu.admin.service.register.ShenyuClientRegisterGrpcServiceImplTest.testBuildHandle::02696b41e6865540a982b4a8fca84c825825b74a::shenyu-admin",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/shenyushenyuadmin02696b4testBuildHandle3/result/Flaky/.nondex/dMLnnbBTKUt2ycdSFyikbECt15c02HSoUK4TYyCWxME=/TEST-org.apache.shenyu.admin.service.register.ShenyuClientRegisterGrpcServiceImplTest.xml",
+        "size": 50273,
+        "compressed": 6104,
+        "crc32": "51e6b34f",
+        "offset": 1592718420,
+        "method": 8,
+        "local_path": "data/extracted/d306b5e270c3e1a6807422ff.xml",
+        "sha256": "03d9b9189470b8dfc01d23b0df33cb1b096c7cf50ce4ef6814b7c0c1fe90073b",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/shenyushenyuadmin02696b4testBuildHandle3/result/Flaky/rounds-test-results.csv",
+    "size": 22528,
+    "compressed": 5195,
+    "crc32": "9fb15ec2",
+    "offset": 1591657848,
+    "method": 8,
+    "local_path": "data/extracted/b0c39ed9ad2ae6168cce374f.csv",
+    "sha256": "8b09a6a1cc689c038ccb1ef8ab552d834240b5a85c84c38fe42073f8b6676292",
+    "status": "verified"
+  },
+  "reported_failure_rows": 88,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/shenyushenyuadmin02696b4testBuildHandle3/result/Flaky/.nondex/dMLnnbBTKUt2ycdSFyikbECt15c02HSoUK4TYyCWxME=/TEST-org.apache.shenyu.admin.service.register.ShenyuClientRegisterGrpcServiceImplTest.xml",
+    "size": 50273,
+    "compressed": 6104,
+    "crc32": "51e6b34f",
+    "offset": 1592718420,
+    "method": 8,
+    "local_path": "data/extracted/d306b5e270c3e1a6807422ff.xml",
+    "sha256": "03d9b9189470b8dfc01d23b0df33cb1b096c7cf50ce4ef6814b7c0c1fe90073b",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testBuildHandle",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": null,
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <[{\"weight\":1,\"timestamp\":1637826588267,\"status\":true,\"upstreamUrl\":\"localhost:8090\"},{\"weight\":2,\"timestamp\":1637826588267,\"status\":true,\"upstreamUrl\":\"localhost:8091\"}]> but was: <[{\"weight\":1,\"upstreamUrl\":\"localhost:8090\",\"status\":true,\"timestamp\":1637826588267},{\"weight\":2,\"upstreamUrl\":\"localhost:8091\",\"status\":true,\"timestamp\":1637826588267}]>\n\tat org.apache.shenyu.admin.service.register.ShenyuClientRegisterGrpcServiceImplTest.testBuildHandle(ShenyuClientRegisterGrpcServiceImplTest.java:117)",
+    "text": "org.opentest4j.AssertionFailedError\norg.opentest4j.AssertionFailedError: expected: <[{\"weight\":1,\"timestamp\":1637826588267,\"status\":true,\"upstreamUrl\":\"localhost:8090\"},{\"weight\":2,\"timestamp\":1637826588267,\"status\":true,\"upstreamUrl\":\"localhost:8091\"}]> but was: <[{\"weight\":1,\"upstreamUrl\":\"localhost:8090\",\"status\":true,\"timestamp\":1637826588267},{\"weight\":2,\"upstreamUrl\":\"localhost:8091\",\"status\":true,\"timestamp\":1637826588267}]>\n\tat org.apache.shenyu.admin.service.register.ShenyuClientRegisterGrpcServiceImplTest.testBuildHandle(ShenyuClientRegisterGrpcServiceImplTest.java:117)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "3ecd0bb0c0b80e0638c7922fa4d34ab2867eecce0aec401e869aa84d0809524b"
+}

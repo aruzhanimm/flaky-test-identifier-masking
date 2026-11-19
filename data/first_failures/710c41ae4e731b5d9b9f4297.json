@@ -1,0 +1,273 @@
+{
+  "container": "SCB-2731",
+  "metadata": {
+    "source": "JIRA",
+    "container": "SCB-2731",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "revision": "ad0b38f9de90c73526fed719fd5dba6430e653b2",
+    "test": "org.apache.servicecomb.common.rest.codec.param.TestRestClientRequestImpl.testForm",
+    "label": "ID",
+    "module": "common/common-rest",
+    "zip": "SCB-2731",
+    "config_row": 1083,
+    "configured_test": "org.apache.servicecomb.common.rest.codec.param.TestRestClientRequestImpl#testForm",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.common.rest.codec.param.TestRestClientRequestImpl.testForm",
+    "variant_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.common.rest.codec.param.TestRestClientRequestImpl.testForm::ad0b38f9de90c73526fed719fd5dba6430e653b2::common/common-rest",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 5,
+      "iteration": 4,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 6,
+      "iteration": 5,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 7,
+      "iteration": 6,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 8,
+      "iteration": 7,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 11,
+      "iteration": 10,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 15,
+      "iteration": 14,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 19,
+      "iteration": 18,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 20,
+      "iteration": 19,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 23,
+      "iteration": 22,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 26,
+      "iteration": 25,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 27,
+      "iteration": 26,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 28,
+      "iteration": 27,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 29,
+      "iteration": 28,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 30,
+      "iteration": 29,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 32,
+      "iteration": 31,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 35,
+      "iteration": 34,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 36,
+      "iteration": 35,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 37,
+      "iteration": 36,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 39,
+      "iteration": 38,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 41,
+      "iteration": 40,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 45,
+      "iteration": 44,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 49,
+      "iteration": 48,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 50,
+      "iteration": 49,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 51,
+      "iteration": 50,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 54,
+      "iteration": 53,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 56,
+      "iteration": 55,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 57,
+      "iteration": 56,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 58,
+      "iteration": 57,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 61,
+      "iteration": 60,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 62,
+      "iteration": 61,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 63,
+      "iteration": 62,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 66,
+      "iteration": 65,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 68,
+      "iteration": 67,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 69,
+      "iteration": 68,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 71,
+      "iteration": 70,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 72,
+      "iteration": 71,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 73,
+      "iteration": 72,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 76,
+      "iteration": 75,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 79,
+      "iteration": 78,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 80,
+      "iteration": 79,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 84,
+      "iteration": 83,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 86,
+      "iteration": 85,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 89,
+      "iteration": 88,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 93,
+      "iteration": 92,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 99,
+      "iteration": 98,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 101,
+      "iteration": 100,
+      "status": "no_archived_report_for_iteration"
+    }
+  ],
+  "status": "no_confirmed_target_diagnostic",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/SCB-2731/result/Flaky/rounds-test-results.csv",
+    "size": 22176,
+    "compressed": 5211,
+    "crc32": "3520366c",
+    "offset": 173537569,
+    "method": 8,
+    "local_path": "data/extracted/700d51569efd4dd7e1d12273.csv",
+    "sha256": "45dc80ce620215347e7ce3d6fab446974ce7c4bdb2ca453e542764cdc44b4f15",
+    "status": "verified"
+  },
+  "reported_failure_rows": 47
+}

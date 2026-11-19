@@ -1,0 +1,81 @@
+{
+  "container": "feigncore15cf841overridingConcreteGenericCollectionGenericFifthLevel",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "feigncore15cf841overridingConcreteGenericCollectionGenericFifthLevel",
+    "project": "https://github.com/openfeign/feign",
+    "revision": "15cf84157428c9b5f71ae0ae020b5c5ec0762bb6",
+    "test": "feign.TypesResolveReturnTypeTest.overridingConcreteGenericCollectionGenericFifthLevel",
+    "label": "ID",
+    "module": "core",
+    "zip": "feign=core=15cf841",
+    "config_row": 471,
+    "configured_test": "feign.TypesResolveReturnTypeTest#overridingConcreteGenericCollectionGenericFifthLevel",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/openfeign/feign::feign.TypesResolveReturnTypeTest.overridingConcreteGenericCollectionGenericFifthLevel",
+    "variant_id": "https://github.com/openfeign/feign::feign.TypesResolveReturnTypeTest.overridingConcreteGenericCollectionGenericFifthLevel::15cf84157428c9b5f71ae0ae020b5c5ec0762bb6::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/feigncore15cf841overridingConcreteGenericCollectionGenericFifthLevel/result/Flaky/.nondex/osJCc4wODzjn1upJYMNBWBPQSdUyq9ibqPNLw5TEKU=/TEST-feign.TypesResolveReturnTypeTest.xml",
+        "size": 14613,
+        "compressed": 2890,
+        "crc32": "d3e5844a",
+        "offset": 753870948,
+        "method": 8,
+        "local_path": "data/extracted/e486a376fbc89529add09b44.xml",
+        "sha256": "436062036ef87fa951ec2ace3d28c6d71cfc4016f2bbfbf6d23bd2a5ba30aab0",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/feigncore15cf841overridingConcreteGenericCollectionGenericFifthLevel/result/Flaky/rounds-test-results.csv",
+    "size": 16786,
+    "compressed": 5009,
+    "crc32": "06225275",
+    "offset": 753795829,
+    "method": 8,
+    "local_path": "data/extracted/199ff3a7f6b97af6256db486.csv",
+    "sha256": "71ed72a8d7f7000f014a87892e0bcb4dfd79725fa4947e525c8359814d0cebe6",
+    "status": "verified"
+  },
+  "reported_failure_rows": 40,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/feigncore15cf841overridingConcreteGenericCollectionGenericFifthLevel/result/Flaky/.nondex/osJCc4wODzjn1upJYMNBWBPQSdUyq9ibqPNLw5TEKU=/TEST-feign.TypesResolveReturnTypeTest.xml",
+    "size": 14613,
+    "compressed": 2890,
+    "crc32": "d3e5844a",
+    "offset": 753870948,
+    "method": 8,
+    "local_path": "data/extracted/e486a376fbc89529add09b44.xml",
+    "sha256": "436062036ef87fa951ec2ace3d28c6d71cfc4016f2bbfbf6d23bd2a5ba30aab0",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "overridingConcreteGenericCollectionGenericFifthLevel",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "Expecting value to be true but was false expected:<[tru]e> but was:<[fals]e>",
+    "stack_trace": "org.junit.ComparisonFailure: \n\nExpecting value to be true but was false expected:<[tru]e> but was:<[fals]e>\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat feign.TypesResolveReturnTypeTest.overridingConcreteGenericCollectionGenericFifthLevel(TypesResolveReturnTypeTest.java:514)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)",
+    "text": "org.junit.ComparisonFailure\nExpecting value to be true but was false expected:<[tru]e> but was:<[fals]e>\norg.junit.ComparisonFailure: \n\nExpecting value to be true but was false expected:<[tru]e> but was:<[fals]e>\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat feign.TypesResolveReturnTypeTest.overridingConcreteGenericCollectionGenericFifthLevel(TypesResolveReturnTypeTest.java:514)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "d4c6e8d75bc5a2c390719a4e4d92c09499a6eea645722ec4051e18b662b5eed0"
+}

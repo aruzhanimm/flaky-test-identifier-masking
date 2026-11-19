@@ -1,0 +1,81 @@
+{
+  "container": "pairdistributionapp0be329dtestGenerateNewDayPairsNoPastStateAndRotationNeeded",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "pairdistributionapp0be329dtestGenerateNewDayPairsNoPastStateAndRotationNeeded",
+    "project": "https://github.com/sap/pair-distribution-app",
+    "revision": "0be329d2897f6d5fbb634e46e0ef3d283282dc93",
+    "test": "pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsNoPastStateAndRotationNeeded",
+    "label": "ID",
+    "module": ".",
+    "zip": "pair-distribution-app=.=0be329d",
+    "config_row": 757,
+    "configured_test": "pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsNoPastStateAndRotationNeeded",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/sap/pair-distribution-app::pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsNoPastStateAndRotationNeeded",
+    "variant_id": "https://github.com/sap/pair-distribution-app::pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsNoPastStateAndRotationNeeded::0be329d2897f6d5fbb634e46e0ef3d283282dc93::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/pairdistributionapp0be329dtestGenerateNewDayPairsNoPastStateAndRotationNeeded/result/Flaky/.nondex/3yF8e7HIVNF8Atk2JArq0DXe3+16tSc52GE8lPEHQCk=/TEST-pair.distribution.app.helpers.DayPairsHelperTest.xml",
+        "size": 21664,
+        "compressed": 3233,
+        "crc32": "370d629c",
+        "offset": 2209248411,
+        "method": 8,
+        "local_path": "data/extracted/e7cd6f094b81b0a839505678.xml",
+        "sha256": "c5a27cb5334601bbfb7a5d3e60b455e5435138efc2c64affc700b08504b2d515",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/pairdistributionapp0be329dtestGenerateNewDayPairsNoPastStateAndRotationNeeded/result/Flaky/rounds-test-results.csv",
+    "size": 18105,
+    "compressed": 5098,
+    "crc32": "6d20873f",
+    "offset": 2208925978,
+    "method": 8,
+    "local_path": "data/extracted/cfa1f567536bf292dbe7856a.csv",
+    "sha256": "e39f1c498e25f489b0c40a44af9f35b6a799fea2a429985c42cf2d6efaf7b1f7",
+    "status": "verified"
+  },
+  "reported_failure_rows": 46,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/pairdistributionapp0be329dtestGenerateNewDayPairsNoPastStateAndRotationNeeded/result/Flaky/.nondex/3yF8e7HIVNF8Atk2JArq0DXe3+16tSc52GE8lPEHQCk=/TEST-pair.distribution.app.helpers.DayPairsHelperTest.xml",
+    "size": 21664,
+    "compressed": 3233,
+    "crc32": "370d629c",
+    "offset": 2209248411,
+    "method": 8,
+    "local_path": "data/extracted/e7cd6f094b81b0a839505678.xml",
+    "sha256": "c5a27cb5334601bbfb7a5d3e60b455e5435138efc2c64affc700b08504b2d515",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testGenerateNewDayPairsNoPastStateAndRotationNeeded",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: iterable containing [\"track1\", \"track2\"]\n     but: item 0: was \"track2\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: iterable containing [\"track1\", \"track2\"]\n     but: item 0: was \"track2\"\n\tat pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsNoPastStateAndRotationNeeded(DayPairsHelperTest.java:288)",
+    "text": "java.lang.AssertionError\nExpected: iterable containing [\"track1\", \"track2\"]\n     but: item 0: was \"track2\"\njava.lang.AssertionError: \n\nExpected: iterable containing [\"track1\", \"track2\"]\n     but: item 0: was \"track2\"\n\tat pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsNoPastStateAndRotationNeeded(DayPairsHelperTest.java:288)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "bb17eca03df38ed4582696e93582fbc251650529970fe34e81af17554c16e62b"
+}

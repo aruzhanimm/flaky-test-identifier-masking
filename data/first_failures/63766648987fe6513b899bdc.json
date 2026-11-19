@@ -1,0 +1,98 @@
+{
+  "container": "ACCUMULO-2102_testSetInstance_HdfsZooInstance_Explicit",
+  "metadata": {
+    "source": "JIRA",
+    "container": "ACCUMULO-2102_testSetInstance_HdfsZooInstance_Explicit",
+    "project": "https://github.com/apache/accumulo",
+    "revision": "a573f96d434fb5ef3016b8f7d3d9904e4fd88d65",
+    "test": "org.apache.accumulo.core.util.shell.ShellSetInstanceTest.testSetInstance_HdfsZooInstance_Explicit",
+    "label": "OD",
+    "module": "core",
+    "zip": "ACCUMULO-2102",
+    "config_row": 1055,
+    "configured_test": "org.apache.accumulo.core.util.shell.ShellSetInstanceTest#testSetInstance_HdfsZooInstance_Explicit",
+    "configured_type": "od",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/accumulo::org.apache.accumulo.core.util.shell.ShellSetInstanceTest.testSetInstance_HdfsZooInstance_Explicit",
+    "variant_id": "https://github.com/apache/accumulo::org.apache.accumulo.core.util.shell.ShellSetInstanceTest.testSetInstance_HdfsZooInstance_Explicit::a573f96d434fb5ef3016b8f7d3d9904e4fd88d65::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/ACCUMULO-2102_testSetInstance_HdfsZooInstance_Explicit/result/Flaky/surefire-reports/reports-0/org.apache.accumulo.core.util.shell.ShellSetInstanceTest.txt",
+        "size": 4836,
+        "compressed": 1003,
+        "crc32": "ed69dc3a",
+        "offset": 326294798,
+        "method": 8,
+        "local_path": "data/extracted/072a66bfc70b14a5312a362d.txt",
+        "sha256": "bd083e7c70e4289b43f8b35823f087d1d607865cfb77fe1c5e4e583457a799bb",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/ACCUMULO-2102_testSetInstance_HdfsZooInstance_Explicit/result/Flaky/surefire-reports/reports-0/org.apache.accumulo.core.util.shell.ShellSetInstanceTest.txt",
+        "size": 4836,
+        "compressed": 1003,
+        "crc32": "ed69dc3a",
+        "offset": 326294798,
+        "method": 8,
+        "local_path": "data/extracted/072a66bfc70b14a5312a362d.txt",
+        "sha256": "bd083e7c70e4289b43f8b35823f087d1d607865cfb77fe1c5e4e583457a799bb",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 10,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ACCUMULO-2102_testSetInstance_HdfsZooInstance_Explicit/result/Flaky/rounds-test-results.csv",
+    "size": 2110,
+    "compressed": 180,
+    "crc32": "84d75a47",
+    "offset": 326273158,
+    "method": 8,
+    "local_path": "data/extracted/20301688e326c02a8b51041c.csv",
+    "sha256": "762abe71ab597c6095eaba01163756a477d9ed7c67e66d22b2c044aa6f07cb0e",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10,
+  "iteration": 0,
+  "source_row": 1,
+  "diagnostic_member": {
+    "path": "result/ACCUMULO-2102_testSetInstance_HdfsZooInstance_Explicit/result/Flaky/surefire-reports/reports-0/org.apache.accumulo.core.util.shell.ShellSetInstanceTest.txt",
+    "size": 4836,
+    "compressed": 1003,
+    "crc32": "ed69dc3a",
+    "offset": 326294798,
+    "method": 8,
+    "local_path": "data/extracted/072a66bfc70b14a5312a362d.txt",
+    "sha256": "bd083e7c70e4289b43f8b35823f087d1d607865cfb77fe1c5e4e583457a799bb",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "testSetInstance_HdfsZooInstance_Explicit",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "",
+    "stack_trace": "java.lang.AssertionError: \n\n  Unexpected method call ClientConfiguration.containsKey(\"instance.dfs.dir\"):\n\tat org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:44)\n\tat org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:85)\n\tat org.easymock.internal.ClassProxyFactory$MockMethodInterceptor.intercept(ClassProxyFactory.java:94)\n\tat org.apache.accumulo.core.client.ClientConfiguration$$EnhancerByCGLIB$$95940065.containsKey(<generated>)\n\tat org.apache.accumulo.core.client.impl.ServerConfigurationUtil$1.get(ServerConfigurationUtil.java:41)\n\tat org.apache.accumulo.core.conf.SiteConfiguration.get(SiteConfiguration.java:67)\n\tat org.apache.accumulo.core.util.shell.Shell.getZooInstance(Shell.java:433)\n\tat org.apache.accumulo.core.util.shell.Shell.setInstance(Shell.java:414)\n\tat org.apache.accumulo.core.util.shell.ShellSetInstanceTest.testSetInstance_HdfsZooInstance(ShellSetInstanceTest.java:188)\n\tat org.apache.accumulo.core.util.shell.ShellSetInstanceTest.testSetInstance_HdfsZooInstance_Explicit(ShellSetInstanceTest.java:113)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.internal.runners.TestMethod.invoke(TestMethod.java:68)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:312)\n\tat org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:88)\n\tat org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:96)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:296)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit49RunnerDelegateImpl$PowerMockJUnit49MethodRunner.executeTestInSuper(PowerMockJUnit49RunnerDelegateImpl.java:116)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit49RunnerDelegateImpl$PowerMockJUnit49MethodRunner.executeTest(PowerMockJUnit49RunnerDelegateImpl.java:77)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:284)\n\tat org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:86)\n\tat org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:49)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:209)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:148)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:122)\n\tat org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:33)\n\tat org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:45)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:120)\n\tat org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:101)\n\tat org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:53)\n\tat org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:53)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:385)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:285)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:249)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:168)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError: \n\n  Unexpected method call ClientConfiguration.containsKey(\"instance.dfs.dir\"):\n\tat org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:44)\n\tat org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:85)\n\tat org.easymock.internal.ClassProxyFactory$MockMethodInterceptor.intercept(ClassProxyFactory.java:94)\n\tat org.apache.accumulo.core.client.ClientConfiguration$$EnhancerByCGLIB$$95940065.containsKey(<generated>)\n\tat org.apache.accumulo.core.client.impl.ServerConfigurationUtil$1.get(ServerConfigurationUtil.java:41)\n\tat org.apache.accumulo.core.conf.SiteConfiguration.get(SiteConfiguration.java:67)\n\tat org.apache.accumulo.core.util.shell.Shell.getZooInstance(Shell.java:433)\n\tat org.apache.accumulo.core.util.shell.Shell.setInstance(Shell.java:414)\n\tat org.apache.accumulo.core.util.shell.ShellSetInstanceTest.testSetInstance_HdfsZooInstance(ShellSetInstanceTest.java:188)\n\tat org.apache.accumulo.core.util.shell.ShellSetInstanceTest.testSetInstance_HdfsZooInstance_Explicit(ShellSetInstanceTest.java:113)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.internal.runners.TestMethod.invoke(TestMethod.java:68)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:312)\n\tat org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:88)\n\tat org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:96)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:296)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit49RunnerDelegateImpl$PowerMockJUnit49MethodRunner.executeTestInSuper(PowerMockJUnit49RunnerDelegateImpl.java:116)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit49RunnerDelegateImpl$PowerMockJUnit49MethodRunner.executeTest(PowerMockJUnit49RunnerDelegateImpl.java:77)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:284)\n\tat org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:86)\n\tat org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:49)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:209)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:148)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:122)\n\tat org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:33)\n\tat org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:45)\n\tat org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:120)\n\tat org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:101)\n\tat org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:53)\n\tat org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:53)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:385)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:285)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:249)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:168)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "8e8a8b19c2dc68d70ba89f32f8aeb774ad3cd93314cb7e2426dc690b52a80912"
+}

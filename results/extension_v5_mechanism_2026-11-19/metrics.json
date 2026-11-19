@@ -1,0 +1,802 @@
+{
+  "run": "extension_v5_mechanism_2026-11-19",
+  "tests": 1051,
+  "groups": 127,
+  "labels": [
+    "ID",
+    "NIO",
+    "OD",
+    "TD"
+  ],
+  "conditions": {
+    "OOO": {
+      "vectorizer_fit_text": "original",
+      "classifier_fit_text": "original",
+      "test_text": "original"
+    },
+    "OOM": {
+      "vectorizer_fit_text": "original",
+      "classifier_fit_text": "original",
+      "test_text": "masked"
+    },
+    "OMO": {
+      "vectorizer_fit_text": "original",
+      "classifier_fit_text": "masked",
+      "test_text": "original"
+    },
+    "OMM": {
+      "vectorizer_fit_text": "original",
+      "classifier_fit_text": "masked",
+      "test_text": "masked"
+    },
+    "MOO": {
+      "vectorizer_fit_text": "masked",
+      "classifier_fit_text": "original",
+      "test_text": "original"
+    },
+    "MOM": {
+      "vectorizer_fit_text": "masked",
+      "classifier_fit_text": "original",
+      "test_text": "masked"
+    },
+    "MMO": {
+      "vectorizer_fit_text": "masked",
+      "classifier_fit_text": "masked",
+      "test_text": "original"
+    },
+    "MMM": {
+      "vectorizer_fit_text": "masked",
+      "classifier_fit_text": "masked",
+      "test_text": "masked"
+    }
+  },
+  "metrics": {
+    "OOO": {
+      "pooled_macro_f1": 0.5990862838410107,
+      "accuracy": 0.8839200761179828,
+      "mean_project_macro_f1": 0.9127325577908757,
+      "classification_report": {
+        "ID": {
+          "precision": 0.8809523809523809,
+          "recall": 0.9785894206549118,
+          "f1-score": 0.9272076372315036,
+          "support": 794.0
+        },
+        "NIO": {
+          "precision": 1.0,
+          "recall": 0.9917355371900827,
+          "f1-score": 0.995850622406639,
+          "support": 121.0
+        },
+        "OD": {
+          "precision": 0.8157894736842105,
+          "recall": 0.24603174603174602,
+          "f1-score": 0.3780487804878049,
+          "support": 126.0
+        },
+        "TD": {
+          "precision": 0.09090909090909091,
+          "recall": 0.1,
+          "f1-score": 0.09523809523809523,
+          "support": 10.0
+        },
+        "accuracy": 0.8839200761179828,
+        "macro avg": {
+          "precision": 0.6969127363864206,
+          "recall": 0.5790891759691852,
+          "f1-score": 0.5990862838410107,
+          "support": 1051.0
+        },
+        "weighted avg": {
+          "precision": 0.8793289772307249,
+          "recall": 0.8839200761179828,
+          "f1-score": 0.861358055724892,
+          "support": 1051.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          777,
+          0,
+          7,
+          10
+        ],
+        [
+          1,
+          120,
+          0,
+          0
+        ],
+        [
+          95,
+          0,
+          31,
+          0
+        ],
+        [
+          9,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "OOM": {
+      "pooled_macro_f1": 0.5956291643318995,
+      "accuracy": 0.8810656517602283,
+      "mean_project_macro_f1": 0.9044090919552904,
+      "classification_report": {
+        "ID": {
+          "precision": 0.8805460750853242,
+          "recall": 0.9748110831234257,
+          "f1-score": 0.9252839210998207,
+          "support": 794.0
+        },
+        "NIO": {
+          "precision": 1.0,
+          "recall": 0.9917355371900827,
+          "f1-score": 0.995850622406639,
+          "support": 121.0
+        },
+        "OD": {
+          "precision": 0.8157894736842105,
+          "recall": 0.24603174603174602,
+          "f1-score": 0.3780487804878049,
+          "support": 126.0
+        },
+        "TD": {
+          "precision": 0.07142857142857142,
+          "recall": 0.1,
+          "f1-score": 0.08333333333333333,
+          "support": 10.0
+        },
+        "accuracy": 0.8810656517602283,
+        "macro avg": {
+          "precision": 0.6919410300495266,
+          "recall": 0.5781445915863136,
+          "f1-score": 0.5956291643318995,
+          "support": 1051.0
+        },
+        "weighted avg": {
+          "precision": 0.878836672708129,
+          "recall": 0.8810656517602283,
+          "f1-score": 0.8597914732057638,
+          "support": 1051.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          774,
+          0,
+          7,
+          13
+        ],
+        [
+          1,
+          120,
+          0,
+          0
+        ],
+        [
+          95,
+          0,
+          31,
+          0
+        ],
+        [
+          9,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "OMO": {
+      "pooled_macro_f1": 0.5717172762090411,
+      "accuracy": 0.8363463368220743,
+      "mean_project_macro_f1": 0.8879998785720796,
+      "classification_report": {
+        "ID": {
+          "precision": 0.8729016786570744,
+          "recall": 0.9168765743073047,
+          "f1-score": 0.8943488943488943,
+          "support": 794.0
+        },
+        "NIO": {
+          "precision": 1.0,
+          "recall": 0.9917355371900827,
+          "f1-score": 0.995850622406639,
+          "support": 121.0
+        },
+        "OD": {
+          "precision": 0.8108108108108109,
+          "recall": 0.23809523809523808,
+          "f1-score": 0.36809815950920244,
+          "support": 126.0
+        },
+        "TD": {
+          "precision": 0.016666666666666666,
+          "recall": 0.1,
+          "f1-score": 0.02857142857142857,
+          "support": 10.0
+        },
+        "accuracy": 0.8363463368220743,
+        "macro avg": {
+          "precision": 0.675094789033638,
+          "recall": 0.5616768373981564,
+          "f1-score": 0.5717172762090411,
+          "support": 1051.0
+        },
+        "weighted avg": {
+          "precision": 0.8719436362345822,
+          "recall": 0.8363463368220743,
+          "f1-score": 0.834706974127592,
+          "support": 1051.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          728,
+          0,
+          7,
+          59
+        ],
+        [
+          1,
+          120,
+          0,
+          0
+        ],
+        [
+          96,
+          0,
+          30,
+          0
+        ],
+        [
+          9,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "OMM": {
+      "pooled_macro_f1": 0.5658684349308905,
+      "accuracy": 0.829686013320647,
+      "mean_project_macro_f1": 0.8704621158151129,
+      "classification_report": {
+        "ID": {
+          "precision": 0.871825876662636,
+          "recall": 0.9080604534005038,
+          "f1-score": 0.8895743368291178,
+          "support": 794.0
+        },
+        "NIO": {
+          "precision": 1.0,
+          "recall": 0.9917355371900827,
+          "f1-score": 0.995850622406639,
+          "support": 121.0
+        },
+        "OD": {
+          "precision": 0.8157894736842105,
+          "recall": 0.24603174603174602,
+          "f1-score": 0.3780487804878049,
+          "support": 126.0
+        },
+        "TD": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 10.0
+        },
+        "accuracy": 0.829686013320647,
+        "macro avg": {
+          "precision": 0.6719038375867117,
+          "recall": 0.5364569341555832,
+          "f1-score": 0.5658684349308905,
+          "support": 1051.0
+        },
+        "weighted avg": {
+          "precision": 0.8715691910126959,
+          "recall": 0.829686013320647,
+          "f1-score": 0.8320210229257718,
+          "support": 1051.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          721,
+          0,
+          7,
+          66
+        ],
+        [
+          1,
+          120,
+          0,
+          0
+        ],
+        [
+          95,
+          0,
+          31,
+          0
+        ],
+        [
+          10,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "MOO": {
+      "pooled_macro_f1": 0.5990862838410107,
+      "accuracy": 0.8839200761179828,
+      "mean_project_macro_f1": 0.9127851239533697,
+      "classification_report": {
+        "ID": {
+          "precision": 0.8809523809523809,
+          "recall": 0.9785894206549118,
+          "f1-score": 0.9272076372315036,
+          "support": 794.0
+        },
+        "NIO": {
+          "precision": 1.0,
+          "recall": 0.9917355371900827,
+          "f1-score": 0.995850622406639,
+          "support": 121.0
+        },
+        "OD": {
+          "precision": 0.8157894736842105,
+          "recall": 0.24603174603174602,
+          "f1-score": 0.3780487804878049,
+          "support": 126.0
+        },
+        "TD": {
+          "precision": 0.09090909090909091,
+          "recall": 0.1,
+          "f1-score": 0.09523809523809523,
+          "support": 10.0
+        },
+        "accuracy": 0.8839200761179828,
+        "macro avg": {
+          "precision": 0.6969127363864206,
+          "recall": 0.5790891759691852,
+          "f1-score": 0.5990862838410107,
+          "support": 1051.0
+        },
+        "weighted avg": {
+          "precision": 0.8793289772307249,
+          "recall": 0.8839200761179828,
+          "f1-score": 0.861358055724892,
+          "support": 1051.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          777,
+          0,
+          7,
+          10
+        ],
+        [
+          1,
+          120,
+          0,
+          0
+        ],
+        [
+          95,
+          0,
+          31,
+          0
+        ],
+        [
+          9,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "MOM": {
+      "pooled_macro_f1": 0.5978439144956598,
+      "accuracy": 0.8829686013320647,
+      "mean_project_macro_f1": 0.9048585420428442,
+      "classification_report": {
+        "ID": {
+          "precision": 0.8808172531214529,
+          "recall": 0.9773299748110831,
+          "f1-score": 0.9265671641791045,
+          "support": 794.0
+        },
+        "NIO": {
+          "precision": 1.0,
+          "recall": 0.9917355371900827,
+          "f1-score": 0.995850622406639,
+          "support": 121.0
+        },
+        "OD": {
+          "precision": 0.8157894736842105,
+          "recall": 0.24603174603174602,
+          "f1-score": 0.3780487804878049,
+          "support": 126.0
+        },
+        "TD": {
+          "precision": 0.08333333333333333,
+          "recall": 0.1,
+          "f1-score": 0.09090909090909091,
+          "support": 10.0
+        },
+        "accuracy": 0.8829686013320647,
+        "macro avg": {
+          "precision": 0.6949850150347492,
+          "recall": 0.5787743145082279,
+          "f1-score": 0.5978439144956598,
+          "support": 1051.0
+        },
+        "weighted avg": {
+          "precision": 0.8791548106526902,
+          "recall": 0.8829686013320647,
+          "f1-score": 0.8608330075356485,
+          "support": 1051.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          776,
+          0,
+          7,
+          11
+        ],
+        [
+          1,
+          120,
+          0,
+          0
+        ],
+        [
+          95,
+          0,
+          31,
+          0
+        ],
+        [
+          9,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "MMO": {
+      "pooled_macro_f1": 0.5637564262481911,
+      "accuracy": 0.8315889628924833,
+      "mean_project_macro_f1": 0.8778761440388964,
+      "classification_report": {
+        "ID": {
+          "precision": 0.8712394705174489,
+          "recall": 0.9118387909319899,
+          "f1-score": 0.8910769230769231,
+          "support": 794.0
+        },
+        "NIO": {
+          "precision": 1.0,
+          "recall": 0.9917355371900827,
+          "f1-score": 0.995850622406639,
+          "support": 121.0
+        },
+        "OD": {
+          "precision": 0.8108108108108109,
+          "recall": 0.23809523809523808,
+          "f1-score": 0.36809815950920244,
+          "support": 126.0
+        },
+        "TD": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 10.0
+        },
+        "accuracy": 0.8315889628924833,
+        "macro avg": {
+          "precision": 0.6705125703320649,
+          "recall": 0.5354173915543277,
+          "f1-score": 0.5637564262481911,
+          "support": 1051.0
+        },
+        "weighted avg": {
+          "precision": 0.8705293070913573,
+          "recall": 0.8315889628924833,
+          "f1-score": 0.8319632448453279,
+          "support": 1051.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          724,
+          0,
+          7,
+          63
+        ],
+        [
+          1,
+          120,
+          0,
+          0
+        ],
+        [
+          96,
+          0,
+          30,
+          0
+        ],
+        [
+          10,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "MMM": {
+      "pooled_macro_f1": 0.5660395856188021,
+      "accuracy": 0.8306374881065651,
+      "mean_project_macro_f1": 0.869873515285353,
+      "classification_report": {
+        "ID": {
+          "precision": 0.8719806763285024,
+          "recall": 0.9093198992443325,
+          "f1-score": 0.8902589395807645,
+          "support": 794.0
+        },
+        "NIO": {
+          "precision": 1.0,
+          "recall": 0.9917355371900827,
+          "f1-score": 0.995850622406639,
+          "support": 121.0
+        },
+        "OD": {
+          "precision": 0.8157894736842105,
+          "recall": 0.24603174603174602,
+          "f1-score": 0.3780487804878049,
+          "support": 126.0
+        },
+        "TD": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 10.0
+        },
+        "accuracy": 0.8306374881065651,
+        "macro avg": {
+          "precision": 0.6719425375031782,
+          "recall": 0.5367717956165403,
+          "f1-score": 0.5660395856188021,
+          "support": 1051.0
+        },
+        "weighted avg": {
+          "precision": 0.8716861376679748,
+          "recall": 0.8306374881065651,
+          "f1-score": 0.8325382204374822,
+          "support": 1051.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          722,
+          0,
+          7,
+          65
+        ],
+        [
+          1,
+          120,
+          0,
+          0
+        ],
+        [
+          95,
+          0,
+          31,
+          0
+        ],
+        [
+          10,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "paths": [
+    {
+      "order": [
+        "vectorizer_fit",
+        "classifier_fit",
+        "evaluation_input"
+      ],
+      "steps": [
+        {
+          "stage": "vectorizer_fit",
+          "from": "OOO",
+          "to": "MOO",
+          "delta_macro_f1": 0.0
+        },
+        {
+          "stage": "classifier_fit",
+          "from": "MOO",
+          "to": "MMO",
+          "delta_macro_f1": -0.03532985759281959
+        },
+        {
+          "stage": "evaluation_input",
+          "from": "MMO",
+          "to": "MMM",
+          "delta_macro_f1": 0.0022831593706109654
+        }
+      ],
+      "total_delta": -0.033046698222208626
+    },
+    {
+      "order": [
+        "vectorizer_fit",
+        "evaluation_input",
+        "classifier_fit"
+      ],
+      "steps": [
+        {
+          "stage": "vectorizer_fit",
+          "from": "OOO",
+          "to": "MOO",
+          "delta_macro_f1": 0.0
+        },
+        {
+          "stage": "evaluation_input",
+          "from": "MOO",
+          "to": "MOM",
+          "delta_macro_f1": -0.0012423693453509355
+        },
+        {
+          "stage": "classifier_fit",
+          "from": "MOM",
+          "to": "MMM",
+          "delta_macro_f1": -0.03180432887685769
+        }
+      ],
+      "total_delta": -0.033046698222208626
+    },
+    {
+      "order": [
+        "classifier_fit",
+        "vectorizer_fit",
+        "evaluation_input"
+      ],
+      "steps": [
+        {
+          "stage": "classifier_fit",
+          "from": "OOO",
+          "to": "OMO",
+          "delta_macro_f1": -0.02736900763196959
+        },
+        {
+          "stage": "vectorizer_fit",
+          "from": "OMO",
+          "to": "MMO",
+          "delta_macro_f1": -0.007960849960850003
+        },
+        {
+          "stage": "evaluation_input",
+          "from": "MMO",
+          "to": "MMM",
+          "delta_macro_f1": 0.0022831593706109654
+        }
+      ],
+      "total_delta": -0.033046698222208626
+    },
+    {
+      "order": [
+        "classifier_fit",
+        "evaluation_input",
+        "vectorizer_fit"
+      ],
+      "steps": [
+        {
+          "stage": "classifier_fit",
+          "from": "OOO",
+          "to": "OMO",
+          "delta_macro_f1": -0.02736900763196959
+        },
+        {
+          "stage": "evaluation_input",
+          "from": "OMO",
+          "to": "OMM",
+          "delta_macro_f1": -0.005848841278150663
+        },
+        {
+          "stage": "vectorizer_fit",
+          "from": "OMM",
+          "to": "MMM",
+          "delta_macro_f1": 0.00017115068791162535
+        }
+      ],
+      "total_delta": -0.033046698222208626
+    },
+    {
+      "order": [
+        "evaluation_input",
+        "vectorizer_fit",
+        "classifier_fit"
+      ],
+      "steps": [
+        {
+          "stage": "evaluation_input",
+          "from": "OOO",
+          "to": "OOM",
+          "delta_macro_f1": -0.003457119509111206
+        },
+        {
+          "stage": "vectorizer_fit",
+          "from": "OOM",
+          "to": "MOM",
+          "delta_macro_f1": 0.0022147501637602707
+        },
+        {
+          "stage": "classifier_fit",
+          "from": "MOM",
+          "to": "MMM",
+          "delta_macro_f1": -0.03180432887685769
+        }
+      ],
+      "total_delta": -0.033046698222208626
+    },
+    {
+      "order": [
+        "evaluation_input",
+        "classifier_fit",
+        "vectorizer_fit"
+      ],
+      "steps": [
+        {
+          "stage": "evaluation_input",
+          "from": "OOO",
+          "to": "OOM",
+          "delta_macro_f1": -0.003457119509111206
+        },
+        {
+          "stage": "classifier_fit",
+          "from": "OOM",
+          "to": "OMM",
+          "delta_macro_f1": -0.029760729401009045
+        },
+        {
+          "stage": "vectorizer_fit",
+          "from": "OMM",
+          "to": "MMM",
+          "delta_macro_f1": 0.00017115068791162535
+        }
+      ],
+      "total_delta": -0.033046698222208626
+    }
+  ],
+  "endpoint_pooled_delta": -0.033046698222208626,
+  "vectorizer_fits": 254,
+  "classifier_fits": 508,
+  "seconds": 149.35459760000003,
+  "predictions_sha256": "371e914c60678d127c453d69cd7f227c615d1addb037349e062b471b635da003",
+  "mean_vocabulary_jaccard": 0.7622028491183651,
+  "checks": {
+    "project_splits_match_main": true,
+    "train_only_vectorizer_fits": true,
+    "all_training_folds_contain_all_labels": true,
+    "convergence_warnings": 0,
+    "endpoints_match_main_predictions_vocab_coefficients": true,
+    "cross_input_predictions_match_extension_v4": true,
+    "independent_count_metrics_match": true
+  },
+  "interpretation": "Stage interventions are conditional diagnostics. Vocabulary, IDF and normalisation change jointly; attribution depends on intervention order. No population-level causal or significance claim.",
+  "completed_utc": "2026-11-19T08:26:16.662032+00:00"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "fastjson97ee7b6test_for_issue5",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "fastjson97ee7b6test_for_issue5",
+    "project": "https://github.com/alibaba/fastjson",
+    "revision": "97ee7b63bfd1563d5071fa5a7a55806bb1c3cb85",
+    "test": "com.alibaba.json.bvt.issue_1400.Issue1480.test_for_issue",
+    "label": "ID",
+    "module": ".",
+    "zip": "fastjson=.=97ee7b6",
+    "config_row": 3,
+    "configured_test": "com.alibaba.json.bvt.issue_1400.Issue1480#test_for_issue",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/fastjson::com.alibaba.json.bvt.issue_1400.Issue1480.test_for_issue",
+    "variant_id": "https://github.com/alibaba/fastjson::com.alibaba.json.bvt.issue_1400.Issue1480.test_for_issue::97ee7b63bfd1563d5071fa5a7a55806bb1c3cb85::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/fastjson97ee7b6test_for_issue5/result/Flaky/.nondex/xGaUBiC9Ng7bzs5kcyzIgJWa75+6WCinLxLSg5Ur4M=/TEST-com.alibaba.json.bvt.issue_1400.Issue1480.xml",
+        "size": 9150,
+        "compressed": 2216,
+        "crc32": "3e630da1",
+        "offset": 553576943,
+        "method": 8,
+        "local_path": "data/extracted/8d7c99fdf4432d5cc0f3b138.xml",
+        "sha256": "7f164ac1f923963fd4b1e3b85d339b005ffa61426085a34d27ad3058aa10b57e",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/fastjson97ee7b6test_for_issue5/result/Flaky/rounds-test-results.csv",
+    "size": 17463,
+    "compressed": 4819,
+    "crc32": "ea8948c5",
+    "offset": 553381404,
+    "method": 8,
+    "local_path": "data/extracted/7825508d9bd9f2b0b119592b.csv",
+    "sha256": "4a6387aeb83eef6e6b8a939cd15e3f26298e9b345b1871feee46e638c62544ee",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/fastjson97ee7b6test_for_issue5/result/Flaky/.nondex/xGaUBiC9Ng7bzs5kcyzIgJWa75+6WCinLxLSg5Ur4M=/TEST-com.alibaba.json.bvt.issue_1400.Issue1480.xml",
+    "size": 9150,
+    "compressed": 2216,
+    "crc32": "3e630da1",
+    "offset": 553576943,
+    "method": 8,
+    "local_path": "data/extracted/8d7c99fdf4432d5cc0f3b138.xml",
+    "sha256": "7f164ac1f923963fd4b1e3b85d339b005ffa61426085a34d27ad3058aa10b57e",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test_for_issue",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<{[1:10,2:4,3:5,4:5,37306:98,36796:9]}> but was:<{[2:4,4:5,37306:98,36796:9,3:5,1:10]}>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<{[1:10,2:4,3:5,4:5,37306:98,36796:9]}> but was:<{[2:4,4:5,37306:98,36796:9,3:5,1:10]}>\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat com.alibaba.json.bvt.issue_1400.Issue1480.test_for_issue(Issue1480.java:25)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat junit.framework.TestCase.runTest(TestCase.java:176)\n\tat junit.framework.TestCase.runBare(TestCase.java:141)\n\tat junit.framework.TestResult$1.protect(TestResult.java:122)\n\tat junit.framework.TestResult.runProtected(TestResult.java:142)\n\tat junit.framework.TestResult.run(TestResult.java:125)\n\tat junit.framework.TestCase.run(TestCase.java:129)\n\tat junit.framework.TestSuite.runTest(TestSuite.java:252)\n\tat junit.framework.TestSuite.run(TestSuite.java:247)\n\tat org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:62)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:139)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)",
+    "text": "org.junit.ComparisonFailure\nexpected:<{[1:10,2:4,3:5,4:5,37306:98,36796:9]}> but was:<{[2:4,4:5,37306:98,36796:9,3:5,1:10]}>\norg.junit.ComparisonFailure: expected:<{[1:10,2:4,3:5,4:5,37306:98,36796:9]}> but was:<{[2:4,4:5,37306:98,36796:9,3:5,1:10]}>\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat com.alibaba.json.bvt.issue_1400.Issue1480.test_for_issue(Issue1480.java:25)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat junit.framework.TestCase.runTest(TestCase.java:176)\n\tat junit.framework.TestCase.runBare(TestCase.java:141)\n\tat junit.framework.TestResult$1.protect(TestResult.java:122)\n\tat junit.framework.TestResult.runProtected(TestResult.java:142)\n\tat junit.framework.TestResult.run(TestResult.java:125)\n\tat junit.framework.TestCase.run(TestCase.java:129)\n\tat junit.framework.TestSuite.runTest(TestSuite.java:252)\n\tat junit.framework.TestSuite.run(TestSuite.java:247)\n\tat org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:62)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:139)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "420f7b715d3401e65ec29db41708b0e7cc31a70239b414aa9e5a4c0df8395c64"
+}

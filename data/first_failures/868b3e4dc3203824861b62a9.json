@@ -1,0 +1,98 @@
+{
+  "container": "CURATOR-681",
+  "metadata": {
+    "source": "JIRA",
+    "container": "CURATOR-681",
+    "project": "https://github.com/apache/apache/curator",
+    "revision": "d14cb464cbd4e8e0e1bb51daba76e84eb2e346db",
+    "test": "org.apache.curator.framework.recipes.locks.TestInterProcessMutex.testReentrantSingleLock",
+    "label": "TD",
+    "module": "curator-recipes",
+    "zip": "CURATOR-681",
+    "config_row": 1091,
+    "configured_test": "org.apache.curator.framework.recipes.locks.TestInterProcessMutex#testReentrantSingleLock",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/apache/curator::org.apache.curator.framework.recipes.locks.TestInterProcessMutex.testReentrantSingleLock",
+    "variant_id": "https://github.com/apache/apache/curator::org.apache.curator.framework.recipes.locks.TestInterProcessMutex.testReentrantSingleLock::d14cb464cbd4e8e0e1bb51daba76e84eb2e346db::curator-recipes",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 33,
+      "iteration": 32,
+      "member": {
+        "path": "result/CURATOR-681/result/Flaky/surefire-reports/reports-32/org.apache.curator.framework.recipes.locks.TestInterProcessMutex.txt",
+        "size": 708,
+        "compressed": 260,
+        "crc32": "bb959ae6",
+        "offset": 87665235,
+        "method": 8,
+        "local_path": "data/extracted/1862c5e9a03041dc72a5280c.txt",
+        "sha256": "c197fac12e134f40bfd10149f8ec35937403f6a5e14db000a5db7f4c868db561",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 33,
+      "iteration": 32,
+      "member": {
+        "path": "result/CURATOR-681/result/Flaky/surefire-reports/reports-32/org.apache.curator.framework.recipes.locks.TestInterProcessMutex.txt",
+        "size": 708,
+        "compressed": 260,
+        "crc32": "bb959ae6",
+        "offset": 87665235,
+        "method": 8,
+        "local_path": "data/extracted/1862c5e9a03041dc72a5280c.txt",
+        "sha256": "c197fac12e134f40bfd10149f8ec35937403f6a5e14db000a5db7f4c868db561",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/CURATOR-681/result/Flaky/rounds-test-results.csv",
+    "size": 21880,
+    "compressed": 748,
+    "crc32": "e5308a17",
+    "offset": 87694905,
+    "method": 8,
+    "local_path": "data/extracted/14b49b84db414ea49ba685e0.csv",
+    "sha256": "3b986c3ab1451ab08bb1aa8fbb7c843ac2c0c756ddbbbcf0fd0a7da47fb56a77",
+    "status": "verified"
+  },
+  "reported_failure_rows": 1,
+  "iteration": 32,
+  "source_row": 33,
+  "diagnostic_member": {
+    "path": "result/CURATOR-681/result/Flaky/surefire-reports/reports-32/org.apache.curator.framework.recipes.locks.TestInterProcessMutex.txt",
+    "size": 708,
+    "compressed": 260,
+    "crc32": "bb959ae6",
+    "offset": 87665235,
+    "method": 8,
+    "local_path": "data/extracted/1862c5e9a03041dc72a5280c.txt",
+    "sha256": "c197fac12e134f40bfd10149f8ec35937403f6a5e14db000a5db7f4c868db561",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "testReentrantSingleLock",
+    "outcome": "error",
+    "exception_type": "java.util.concurrent.ExecutionException",
+    "message": "org.opentest4j.AssertionFailedError: expected: <true> but was: <false>",
+    "stack_trace": "java.util.concurrent.ExecutionException: org.opentest4j.AssertionFailedError: expected: <true> but was: <false>\nCaused by: org.opentest4j.AssertionFailedError: expected: <true> but was: <false>",
+    "text": "java.util.concurrent.ExecutionException\norg.opentest4j.AssertionFailedError: expected: <true> but was: <false>\njava.util.concurrent.ExecutionException: org.opentest4j.AssertionFailedError: expected: <true> but was: <false>\nCaused by: org.opentest4j.AssertionFailedError: expected: <true> but was: <false>",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "4b5b2f85b9d40bc7d85ab4e65667976505a3bb12796116964ac07a914d7ca1a7"
+}

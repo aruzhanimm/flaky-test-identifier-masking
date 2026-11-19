@@ -1,0 +1,81 @@
+{
+  "container": "fastjson2core013b7a1test76",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "fastjson2core013b7a1test76",
+    "project": "https://github.com/alibaba/fastjson2",
+    "revision": "013b7a1de1cf8d52beb8162204aa2cca424adac9",
+    "test": "com.alibaba.fastjson2.features.MapSortFieldTest.test",
+    "label": "ID",
+    "module": "core",
+    "zip": "fastjson2=core=013b7a1",
+    "config_row": 527,
+    "configured_test": "com.alibaba.fastjson2.features.MapSortFieldTest#test",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/fastjson2::com.alibaba.fastjson2.features.MapSortFieldTest.test",
+    "variant_id": "https://github.com/alibaba/fastjson2::com.alibaba.fastjson2.features.MapSortFieldTest.test::013b7a1de1cf8d52beb8162204aa2cca424adac9::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/fastjson2core013b7a1test76/result/Flaky/.nondex/a0j3bSagwu33vrSYYOhuyvvXnn7YFXA57EGFE+gDO4E=/TEST-com.alibaba.fastjson2.features.MapSortFieldTest.xml",
+        "size": 42632,
+        "compressed": 5403,
+        "crc32": "b8014947",
+        "offset": 455199954,
+        "method": 8,
+        "local_path": "data/extracted/46f0c221694b4ae818e47563.xml",
+        "sha256": "cb2087da2ca3e86c59197a3c8e592301f09d56e1d023c9edf82331aaac12d3e8",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/fastjson2core013b7a1test76/result/Flaky/rounds-test-results.csv",
+    "size": 18346,
+    "compressed": 5087,
+    "crc32": "46dbc324",
+    "offset": 453941837,
+    "method": 8,
+    "local_path": "data/extracted/9f1ac616221ea36bdfd73d2a.csv",
+    "sha256": "2c4fa1b46496ab6eb0a4060e255ff3b5e933f27e2fa15e1ad49bcb685d2c0e55",
+    "status": "verified"
+  },
+  "reported_failure_rows": 56,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/fastjson2core013b7a1test76/result/Flaky/.nondex/a0j3bSagwu33vrSYYOhuyvvXnn7YFXA57EGFE+gDO4E=/TEST-com.alibaba.fastjson2.features.MapSortFieldTest.xml",
+    "size": 42632,
+    "compressed": 5403,
+    "crc32": "b8014947",
+    "offset": 455199954,
+    "method": 8,
+    "local_path": "data/extracted/46f0c221694b4ae818e47563.xml",
+    "sha256": "cb2087da2ca3e86c59197a3c8e592301f09d56e1d023c9edf82331aaac12d3e8",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <{\"v1\":1,\"v2\":2}> but was: <{\"v2\":2,\"v1\":1}>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <{\"v1\":1,\"v2\":2}> but was: <{\"v2\":2,\"v1\":1}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat com.alibaba.fastjson2.features.MapSortFieldTest.test(MapSortFieldTest.java:35)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <{\"v1\":1,\"v2\":2}> but was: <{\"v2\":2,\"v1\":1}>\norg.opentest4j.AssertionFailedError: expected: <{\"v1\":1,\"v2\":2}> but was: <{\"v2\":2,\"v1\":1}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat com.alibaba.fastjson2.features.MapSortFieldTest.test(MapSortFieldTest.java:35)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "a604f8265b37c6a479f9cf08587025cd33dbaa943bb58e9c8650de9c24f3c66b"
+}

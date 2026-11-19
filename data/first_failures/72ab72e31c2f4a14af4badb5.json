@@ -1,0 +1,98 @@
+{
+  "container": "jnrposixd9f3f84",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jnrposixd9f3f84",
+    "project": "https://github.com/jnr/jnr-posix",
+    "revision": "dbda72ce198a8dd766c30c591d63d726d2a28a7c",
+    "test": "jnr.posix.GroupTest.getgroups",
+    "label": "OD",
+    "module": ".",
+    "zip": "jnrposixd9f3f84",
+    "config_row": 923,
+    "configured_test": "jnr.posix.GroupTest#getgroups",
+    "configured_type": "od",
+    "iterations": "100",
+    "test_id": "https://github.com/jnr/jnr-posix::jnr.posix.GroupTest.getgroups",
+    "variant_id": "https://github.com/jnr/jnr-posix::jnr.posix.GroupTest.getgroups::dbda72ce198a8dd766c30c591d63d726d2a28a7c::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/jnrposixd9f3f84/result/Flaky/surefire-reports/reports-0/jnr.posix.GroupTest.txt",
+        "size": 3512,
+        "compressed": 840,
+        "crc32": "b5de072c",
+        "offset": 2069998181,
+        "method": 8,
+        "local_path": "data/extracted/13c97d08ca13da8619c36862.txt",
+        "sha256": "8052429d0ad3b1d6b9f66cf3145218cbcf8ba681b28bbde20ca57ff309d5aca0",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/jnrposixd9f3f84/result/Flaky/surefire-reports/reports-0/jnr.posix.GroupTest.txt",
+        "size": 3512,
+        "compressed": 840,
+        "crc32": "b5de072c",
+        "offset": 2069998181,
+        "method": 8,
+        "local_path": "data/extracted/13c97d08ca13da8619c36862.txt",
+        "sha256": "8052429d0ad3b1d6b9f66cf3145218cbcf8ba681b28bbde20ca57ff309d5aca0",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 10,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jnrposixd9f3f84/result/Flaky/rounds-test-results.csv",
+    "size": 958,
+    "compressed": 119,
+    "crc32": "d66a2026",
+    "offset": 2069979533,
+    "method": 8,
+    "local_path": "data/extracted/fd72e934a2a59049a2ad42a1.csv",
+    "sha256": "d0a4ba4c5e65097e4e9ae5474e655a25edfa1dd060d9d844e432d36b65e9dbd3",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10,
+  "iteration": 0,
+  "source_row": 1,
+  "diagnostic_member": {
+    "path": "result/jnrposixd9f3f84/result/Flaky/surefire-reports/reports-0/jnr.posix.GroupTest.txt",
+    "size": 3512,
+    "compressed": 840,
+    "crc32": "b5de072c",
+    "offset": 2069998181,
+    "method": 8,
+    "local_path": "data/extracted/13c97d08ca13da8619c36862.txt",
+    "sha256": "8052429d0ad3b1d6b9f66cf3145218cbcf8ba681b28bbde20ca57ff309d5aca0",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "getgroups",
+    "outcome": "error",
+    "exception_type": "java.io.IOException",
+    "message": "Cannot run program \"id\": error=2, No such file or directory",
+    "stack_trace": "java.io.IOException: Cannot run program \"id\": error=2, No such file or directory\n\tat java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)\n\tat java.lang.Runtime.exec(Runtime.java:621)\n\tat java.lang.Runtime.exec(Runtime.java:486)\n\tat jnr.posix.GroupTest.exec(GroupTest.java:122)\n\tat jnr.posix.GroupTest.getgroups(GroupTest.java:92)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:385)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:285)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:249)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:168)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)\nCaused by: java.io.IOException: error=2, No such file or directory\n\tat java.lang.UNIXProcess.forkAndExec(Native Method)\n\tat java.lang.UNIXProcess.<init>(UNIXProcess.java:247)\n\tat java.lang.ProcessImpl.start(ProcessImpl.java:134)\n\tat java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)\n\t... 36 more",
+    "text": "java.io.IOException\nCannot run program \"id\": error=2, No such file or directory\njava.io.IOException: Cannot run program \"id\": error=2, No such file or directory\n\tat java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)\n\tat java.lang.Runtime.exec(Runtime.java:621)\n\tat java.lang.Runtime.exec(Runtime.java:486)\n\tat jnr.posix.GroupTest.exec(GroupTest.java:122)\n\tat jnr.posix.GroupTest.getgroups(GroupTest.java:92)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:385)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:285)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:249)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:168)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)\nCaused by: java.io.IOException: error=2, No such file or directory\n\tat java.lang.UNIXProcess.forkAndExec(Native Method)\n\tat java.lang.UNIXProcess.<init>(UNIXProcess.java:247)\n\tat java.lang.ProcessImpl.start(ProcessImpl.java:134)\n\tat java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)\n\t... 36 more",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "db27c01ed2d732ca967f529fbe7548b0f824d3f7f1414f852a1a79c5c278fc85"
+}

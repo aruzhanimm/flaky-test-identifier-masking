@@ -1,0 +1,81 @@
+{
+  "container": "commonslang9f67b81test_getEnumMap",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "commonslang9f67b81test_getEnumMap",
+    "project": "https://github.com/apache/commons-lang",
+    "revision": "9f67b81dab0502b9fde981cbeac9ae3bbcd2039d",
+    "test": "org.apache.commons.lang3.EnumUtilsTest.test_getEnumMap",
+    "label": "ID",
+    "module": ".",
+    "zip": "commons-lang=.=9f67b81",
+    "config_row": 537,
+    "configured_test": "org.apache.commons.lang3.EnumUtilsTest#test_getEnumMap",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.EnumUtilsTest.test_getEnumMap",
+    "variant_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.EnumUtilsTest.test_getEnumMap::9f67b81dab0502b9fde981cbeac9ae3bbcd2039d::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/commonslang9f67b81test_getEnumMap/result/Flaky/.nondex/b5VGGthvNEU+VQg8PSHqZLggEW1C3EfoFmZ4+FPAVUU=/TEST-org.apache.commons.lang3.EnumUtilsTest.xml",
+        "size": 11277,
+        "compressed": 2431,
+        "crc32": "c99b4a44",
+        "offset": 382976421,
+        "method": 8,
+        "local_path": "data/extracted/acc56e025a677cda60d5aabb.xml",
+        "sha256": "f268bebfa8d23a181656876292322c6626d7bf7146e15015f97f321929e7136c",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/commonslang9f67b81test_getEnumMap/result/Flaky/rounds-test-results.csv",
+    "size": 17204,
+    "compressed": 4955,
+    "crc32": "0ef593bc",
+    "offset": 382395587,
+    "method": 8,
+    "local_path": "data/extracted/0d92cc7c3d06571be8dda409.csv",
+    "sha256": "484b7c7638385f42a91c53bb82b51eba9220c21d6bbb0179431fea03dd02b662",
+    "status": "verified"
+  },
+  "reported_failure_rows": 83,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/commonslang9f67b81test_getEnumMap/result/Flaky/.nondex/b5VGGthvNEU+VQg8PSHqZLggEW1C3EfoFmZ4+FPAVUU=/TEST-org.apache.commons.lang3.EnumUtilsTest.xml",
+    "size": 11277,
+    "compressed": 2431,
+    "crc32": "c99b4a44",
+    "offset": 382976421,
+    "method": 8,
+    "local_path": "data/extracted/acc56e025a677cda60d5aabb.xml",
+    "sha256": "f268bebfa8d23a181656876292322c6626d7bf7146e15015f97f321929e7136c",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test_getEnumMap",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "getEnumMap not created correctly ==> expected: <{RED=RED, AMBER=AMBER, GREEN=GREEN}> but was: <{GREEN=GREEN, AMBER=AMBER, RED=RED}>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: getEnumMap not created correctly ==> expected: <{RED=RED, AMBER=AMBER, GREEN=GREEN}> but was: <{GREEN=GREEN, AMBER=AMBER, RED=RED}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1152)\n\tat org.apache.commons.lang3.EnumUtilsTest.test_getEnumMap(EnumUtilsTest.java:343)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)",
+    "text": "org.opentest4j.AssertionFailedError\ngetEnumMap not created correctly ==> expected: <{RED=RED, AMBER=AMBER, GREEN=GREEN}> but was: <{GREEN=GREEN, AMBER=AMBER, RED=RED}>\norg.opentest4j.AssertionFailedError: getEnumMap not created correctly ==> expected: <{RED=RED, AMBER=AMBER, GREEN=GREEN}> but was: <{GREEN=GREEN, AMBER=AMBER, RED=RED}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1152)\n\tat org.apache.commons.lang3.EnumUtilsTest.test_getEnumMap(EnumUtilsTest.java:343)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "c6b821cde9de4c36fea4841efc6edb7eaa9bdc70ef0867413741ada10590eb7a"
+}

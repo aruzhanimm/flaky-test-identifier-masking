@@ -1,0 +1,1008 @@
+{
+  "project": {
+    "fold": 61,
+    "project_group": "2700474",
+    "repository": "https://github.com/alibaba/fastjson",
+    "support": 23,
+    "category_counts": {
+      "ID": 23
+    },
+    "supported_labels": [
+      "ID"
+    ],
+    "scores": {
+      "word_lr_original": 0.7894736842105263,
+      "word_svc_original": 1.0,
+      "word_cnb_original": 1.0,
+      "word_lr_c0p1_original": 0.6470588235294118,
+      "word_lr_c10_original": 0.85,
+      "word_lr_masked": 0.7567567567567568,
+      "word_svc_masked": 1.0,
+      "word_cnb_masked": 1.0,
+      "word_lr_c0p1_masked": 0.6470588235294118,
+      "word_lr_c10_masked": 0.85,
+      "char_lr_original": 0.8205128205128205,
+      "char_svc_original": 1.0,
+      "char_cnb_original": 1.0,
+      "char_lr_masked": 0.7567567567567568,
+      "char_svc_masked": 1.0,
+      "char_cnb_masked": 1.0
+    },
+    "fixed_four_label_scores": {
+      "word_lr_original": 0.19736842105263158,
+      "word_svc_original": 0.25,
+      "word_cnb_original": 0.25,
+      "word_lr_c0p1_original": 0.16176470588235295,
+      "word_lr_c10_original": 0.2125,
+      "word_lr_masked": 0.1891891891891892,
+      "word_svc_masked": 0.25,
+      "word_cnb_masked": 0.25,
+      "word_lr_c0p1_masked": 0.16176470588235295,
+      "word_lr_c10_masked": 0.2125,
+      "char_lr_original": 0.20512820512820512,
+      "char_svc_original": 0.25,
+      "char_cnb_original": 0.25,
+      "char_lr_masked": 0.1891891891891892,
+      "char_svc_masked": 0.25,
+      "char_cnb_masked": 0.25
+    },
+    "delta": {
+      "word_lr": -0.03271692745376953,
+      "word_svc": 0.0,
+      "word_cnb": 0.0,
+      "char_lr": -0.06375606375606369,
+      "char_svc": 0.0,
+      "char_cnb": 0.0,
+      "word_lr_c0p1": 0.0,
+      "word_lr_c10": 0.0
+    }
+  },
+  "predictions": [
+    {
+      "sample_id": "01e69f482a213f32bb24a983",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case3Test.test1_2",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "ID",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "ID",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "ID",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "ID",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "ID",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "06b1174bc541a59504a465dd",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.issue_3000.Issue3082.test_for_issue",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "ID",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "ID",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "ID",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "ID",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "ID",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "0b55a98e7182f8cb5e562788",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.jsonp.JSONPParseTest2.test_f",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "ID",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "TD",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "ID",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "TD",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "ID",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "0c64035e7a6ce18e8127711c",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case2Test.test1_2",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "ID",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "ID",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "ID",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "ID",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "ID",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "21025ebb1c15a2e9af128615",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.issue_1100.Issue1177_2.test_for_issue",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "ID",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "TD",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "ID",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "TD",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "ID",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "42b9e8cc58a7763dc7153ac9",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.writeClassName.WriteDuplicateType.test_dupType2",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "TD",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "TD",
+        "word_lr_c10_original": "TD",
+        "word_lr_masked": "TD",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "TD",
+        "word_lr_c10_masked": "TD",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "TD",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "452a31755a6fbbc9cd33e5d2",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.path.JSONPath_reverse_test.test_reserve",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "ID",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "ID",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "ID",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "ID",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "ID",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "567f19b16eafce01eceb682e",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.bug.Bug_for_smoothrat6.test_set",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "TD",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "TD",
+        "word_lr_c10_original": "TD",
+        "word_lr_masked": "TD",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "TD",
+        "word_lr_c10_masked": "TD",
+        "char_lr_original": "TD",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "TD",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "678f9c0cfa2c91e30866e3b3",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.issue_1700.Issue1780_Module.test_for_issue",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "TD",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "TD",
+        "word_lr_c10_original": "TD",
+        "word_lr_masked": "TD",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "TD",
+        "word_lr_c10_masked": "TD",
+        "char_lr_original": "TD",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "TD",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "702505479e4c60f050ec3530",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.jsonp.JSONPParseTest3.test_f",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "TD",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "TD",
+        "word_lr_c10_original": "TD",
+        "word_lr_masked": "TD",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "TD",
+        "word_lr_c10_masked": "TD",
+        "char_lr_original": "TD",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "TD",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "7813eed349b0224467170f45",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case2Test.test2_2",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "ID",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "ID",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "ID",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "ID",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "ID",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "787da9b03689114fdf5a2401",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.issue_1500.Issue1584.test_for_issue",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "ID",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "TD",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "TD",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "TD",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "TD",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "7ce438d8f765351174c77be8",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.issue_2400.Issue2430.testForIssue2",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "TD",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "TD",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "TD",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "TD",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "TD",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "TD",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "86390d670302e386dc821641",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.issue_1700.Issue1780_JSONObject.test_for_issue",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "TD",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "TD",
+        "word_lr_c10_original": "TD",
+        "word_lr_masked": "TD",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "TD",
+        "word_lr_c10_masked": "TD",
+        "char_lr_original": "TD",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "TD",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "8cd39a534d66ada952f7b726",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.parser.TypeUtilsTest.test_cast_to_Timestamp_1970_01_01_00_00_00",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "ID",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "ID",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "ID",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "ID",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "ID",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "99d3f82f8822bc361642e3f3",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case1Test.test1_2",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "ID",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "ID",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "ID",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "ID",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "ID",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "a87b6bb1da0dcd68e5a54f1f",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.issue_2400.Issue2430.testForIssue",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "TD",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "TD",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "TD",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "TD",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "TD",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "TD",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "adc6dd9cb06dd1f180e7b536",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case3Test.test2_2",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "ID",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "ID",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "ID",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "ID",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "ID",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "bd678bde217af4469a274ed6",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.issue_1400.Issue1480.test_for_issue",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "ID",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "TD",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "ID",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "TD",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "ID",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "bfc1b4b7b3950e740c90cf31",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.support.spring.mock.testcase.FastJsonpHttpMessageConverter4Case1Test.test2_2",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "ID",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "ID",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "ID",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "ID",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "ID",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "c2cf3c0197a6a6d28f608cd3",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.guava.ArrayListMultimapTest.test_for_multimap",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "TD",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "TD",
+        "word_lr_c10_original": "TD",
+        "word_lr_masked": "TD",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "TD",
+        "word_lr_c10_masked": "TD",
+        "char_lr_original": "TD",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "TD",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "edfc671c1a622b75e8bfd4de",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.path.JSONPath_reverse_test.test_reserve3",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "ID",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "ID",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "ID",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "ID",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "ID",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    },
+    {
+      "sample_id": "fd2b961f0201e569daa35e6b",
+      "canonical_test_id": "2700474::com.alibaba.json.bvt.guava.HashMultimapTest.test_for_multimap",
+      "project_group": "2700474",
+      "repository": "https://github.com/alibaba/fastjson",
+      "label": "ID",
+      "format": "nondex_report",
+      "fold": 61,
+      "predictions": {
+        "word_lr_original": "ID",
+        "word_svc_original": "ID",
+        "word_cnb_original": "ID",
+        "word_lr_c0p1_original": "ID",
+        "word_lr_c10_original": "ID",
+        "word_lr_masked": "ID",
+        "word_svc_masked": "ID",
+        "word_cnb_masked": "ID",
+        "word_lr_c0p1_masked": "ID",
+        "word_lr_c10_masked": "ID",
+        "char_lr_original": "ID",
+        "char_svc_original": "ID",
+        "char_cnb_original": "ID",
+        "char_lr_masked": "ID",
+        "char_svc_masked": "ID",
+        "char_cnb_masked": "ID"
+      }
+    }
+  ],
+  "fits": [
+    {
+      "fold": 61,
+      "condition": "word_lr_original",
+      "features": 20947,
+      "model_sha256": "9b6dcb0e08defe15c948b0d317e1e5db997e5a7c1580e00ddf106bfe4e6b8e07",
+      "model_array": "coef_",
+      "vocabulary_sha256": "5e05248e0459ab11df4e85613f3bed61eb7d4b8a02dc925030a3cdfb7ffd2f1c",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.11530070000003434,
+      "iterations": [
+        22
+      ]
+    },
+    {
+      "fold": 61,
+      "condition": "word_svc_original",
+      "features": 20947,
+      "model_sha256": "0b7e4979aad46b46ad708bb3767d2131c19eb48803b7ce13fce44d19b664236f",
+      "model_array": "coef_",
+      "vocabulary_sha256": "5e05248e0459ab11df4e85613f3bed61eb7d4b8a02dc925030a3cdfb7ffd2f1c",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.023579299999937575,
+      "iterations": [
+        60
+      ]
+    },
+    {
+      "fold": 61,
+      "condition": "word_cnb_original",
+      "features": 20947,
+      "model_sha256": "7758a2a8861daad3c25c834c1bfe8c60e1c793c7bd362bf49a275f2ac6032be1",
+      "model_array": "feature_log_prob_",
+      "vocabulary_sha256": "5e05248e0459ab11df4e85613f3bed61eb7d4b8a02dc925030a3cdfb7ffd2f1c",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.0024375000000418368
+    },
+    {
+      "fold": 61,
+      "condition": "word_lr_c0p1_original",
+      "features": 20947,
+      "model_sha256": "876ae9bb126bf28685096e005034455c024b9957abbbb108f8d40cfb6215e1cc",
+      "model_array": "coef_",
+      "vocabulary_sha256": "5e05248e0459ab11df4e85613f3bed61eb7d4b8a02dc925030a3cdfb7ffd2f1c",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.07136790000004112,
+      "iterations": [
+        14
+      ]
+    },
+    {
+      "fold": 61,
+      "condition": "word_lr_c10_original",
+      "features": 20947,
+      "model_sha256": "7ce5fa0000a726218de727f65db8cb7c6dcc32128553240fa605f1e2d98807cd",
+      "model_array": "coef_",
+      "vocabulary_sha256": "5e05248e0459ab11df4e85613f3bed61eb7d4b8a02dc925030a3cdfb7ffd2f1c",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.13738179999995737,
+      "iterations": [
+        26
+      ]
+    },
+    {
+      "fold": 61,
+      "condition": "word_lr_masked",
+      "features": 16745,
+      "model_sha256": "6f658cadf4998e5303842bfd01aa7ca28c2a51f049d1f0c060a7f98f118f3895",
+      "model_array": "coef_",
+      "vocabulary_sha256": "399c5325efc5d947ff79ef3b0a52396933e30ec30e131f2371e22fbe9a5fa335",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.060867099999995844,
+      "iterations": [
+        17
+      ]
+    },
+    {
+      "fold": 61,
+      "condition": "word_svc_masked",
+      "features": 16745,
+      "model_sha256": "fcd499dfb2cef9555d9ca73b1b3ccdedbf4fbb89f99f8153c130b9480245cd06",
+      "model_array": "coef_",
+      "vocabulary_sha256": "399c5325efc5d947ff79ef3b0a52396933e30ec30e131f2371e22fbe9a5fa335",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.023000500000080137,
+      "iterations": [
+        65
+      ]
+    },
+    {
+      "fold": 61,
+      "condition": "word_cnb_masked",
+      "features": 16745,
+      "model_sha256": "75c932d5dd0dbe270a5b128a8cec18bea62ec2be22748f3084723e8f89b83d18",
+      "model_array": "feature_log_prob_",
+      "vocabulary_sha256": "399c5325efc5d947ff79ef3b0a52396933e30ec30e131f2371e22fbe9a5fa335",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.0024212999999235763
+    },
+    {
+      "fold": 61,
+      "condition": "word_lr_c0p1_masked",
+      "features": 16745,
+      "model_sha256": "11cb90b391f254616e03a6be416748de53d707da09c70b8fd7d17a5fdade7f27",
+      "model_array": "coef_",
+      "vocabulary_sha256": "399c5325efc5d947ff79ef3b0a52396933e30ec30e131f2371e22fbe9a5fa335",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.04891840000004777,
+      "iterations": [
+        14
+      ]
+    },
+    {
+      "fold": 61,
+      "condition": "word_lr_c10_masked",
+      "features": 16745,
+      "model_sha256": "f17f46e4b837431a6b1b7f09d33cdd4e301fe9b7ffa65986703fc931afaa4cfa",
+      "model_array": "coef_",
+      "vocabulary_sha256": "399c5325efc5d947ff79ef3b0a52396933e30ec30e131f2371e22fbe9a5fa335",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.0876648999999361,
+      "iterations": [
+        23
+      ]
+    },
+    {
+      "fold": 61,
+      "condition": "char_lr_original",
+      "features": 30000,
+      "model_sha256": "017b15be741c2880ed392f1a43e2290bfb5345907d2af82c14888c33a10ba946",
+      "model_array": "coef_",
+      "vocabulary_sha256": "22ce230ca441864e8a0ba5f1c37afa39f8037346315ebfd72e2a43cb61c3e2fe",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.2858937999999398,
+      "iterations": [
+        23
+      ]
+    },
+    {
+      "fold": 61,
+      "condition": "char_svc_original",
+      "features": 30000,
+      "model_sha256": "0d89b9bc0ab7d7b8df5e2dfa1b857413195a2ea319633e11da712048595c6b5f",
+      "model_array": "coef_",
+      "vocabulary_sha256": "22ce230ca441864e8a0ba5f1c37afa39f8037346315ebfd72e2a43cb61c3e2fe",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.1914091000001008,
+      "iterations": [
+        87
+      ]
+    },
+    {
+      "fold": 61,
+      "condition": "char_cnb_original",
+      "features": 30000,
+      "model_sha256": "9ff37813222292e9e4774aeb6d4c8a42b9688586d77d79ef8b2a8ae72aa1fa4a",
+      "model_array": "feature_log_prob_",
+      "vocabulary_sha256": "22ce230ca441864e8a0ba5f1c37afa39f8037346315ebfd72e2a43cb61c3e2fe",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.006096699999943667
+    },
+    {
+      "fold": 61,
+      "condition": "char_lr_masked",
+      "features": 30000,
+      "model_sha256": "6b428c803235424737bf51de23c082d32d918d15b91e9589153ad50e4575557e",
+      "model_array": "coef_",
+      "vocabulary_sha256": "b48fc02fbae20debab66bfcb31c81246380bb15e056dbaab926db6e6de157fe5",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.2944517000000815,
+      "iterations": [
+        24
+      ]
+    },
+    {
+      "fold": 61,
+      "condition": "char_svc_masked",
+      "features": 30000,
+      "model_sha256": "5e20575cf99ec68af8c749f68bec5ef4dd582d80fa9e04fe08bd071fc15fc675",
+      "model_array": "coef_",
+      "vocabulary_sha256": "b48fc02fbae20debab66bfcb31c81246380bb15e056dbaab926db6e6de157fe5",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.21341510000002017,
+      "iterations": [
+        149
+      ]
+    },
+    {
+      "fold": 61,
+      "condition": "char_cnb_masked",
+      "features": 30000,
+      "model_sha256": "3a3480f6df8b5be944b5b1f60d0f256c13abf0044b1daaaa31047db8844ce84d",
+      "model_array": "feature_log_prob_",
+      "vocabulary_sha256": "b48fc02fbae20debab66bfcb31c81246380bb15e056dbaab926db6e6de157fe5",
+      "classes": [
+        "ID",
+        "NIO",
+        "OD",
+        "TD"
+      ],
+      "seconds": 0.005623999999897933
+    }
+  ],
+  "vectorizers": [
+    {
+      "fold": 61,
+      "representation": "word",
+      "version": "original",
+      "training_documents": 1028,
+      "evaluation_documents": 23,
+      "features": 20947,
+      "vocabulary_sha256": "5e05248e0459ab11df4e85613f3bed61eb7d4b8a02dc925030a3cdfb7ffd2f1c",
+      "idf_sha256": "4f63341d10dea6d0a41277935b1eee08274c5f15371536e1dac70121d1831237",
+      "seconds": 0.18693579999990106
+    },
+    {
+      "fold": 61,
+      "representation": "word",
+      "version": "masked",
+      "training_documents": 1028,
+      "evaluation_documents": 23,
+      "features": 16745,
+      "vocabulary_sha256": "399c5325efc5d947ff79ef3b0a52396933e30ec30e131f2371e22fbe9a5fa335",
+      "idf_sha256": "9b6c4c12881dea876acf6aba55038e5a682bf95caace4f0cac4601d45ff65968",
+      "seconds": 0.1768886999998358
+    },
+    {
+      "fold": 61,
+      "representation": "char",
+      "version": "original",
+      "training_documents": 1028,
+      "evaluation_documents": 23,
+      "features": 30000,
+      "vocabulary_sha256": "22ce230ca441864e8a0ba5f1c37afa39f8037346315ebfd72e2a43cb61c3e2fe",
+      "idf_sha256": "e2b5c58a7da1b59087f9ff7f4809a853d168c007417db654755c3e89cdd79d62",
+      "seconds": 1.472417299999961
+    },
+    {
+      "fold": 61,
+      "representation": "char",
+      "version": "masked",
+      "training_documents": 1028,
+      "evaluation_documents": 23,
+      "features": 30000,
+      "vocabulary_sha256": "b48fc02fbae20debab66bfcb31c81246380bb15e056dbaab926db6e6de157fe5",
+      "idf_sha256": "6f80047060616f0f03a0acc85b0a79dc93543542c7b0bbf7e3332c7809b5154a",
+      "seconds": 1.3882432000000335
+    }
+  ],
+  "seconds": 4.850631899999826
+}

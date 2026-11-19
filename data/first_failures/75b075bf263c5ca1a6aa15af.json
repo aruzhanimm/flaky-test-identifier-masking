@@ -1,0 +1,81 @@
+{
+  "container": "quarkusindependentprojectstoolsregistryclient291e830testExtensionCatalog",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "quarkusindependentprojectstoolsregistryclient291e830testExtensionCatalog",
+    "project": "https://github.com/quarkusio/quarkus",
+    "revision": "291e830a181d345241876c684b92a952ee6d86c0",
+    "test": "io.quarkus.registry.catalog.ExtensionCatalogSerializationTest.testExtensionCatalog",
+    "label": "ID",
+    "module": "independent-projects/tools/registry-client",
+    "zip": "quarkus=independent-projects+tools+registry-client=291e830",
+    "config_row": 234,
+    "configured_test": "io.quarkus.registry.catalog.ExtensionCatalogSerializationTest#testExtensionCatalog",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/quarkusio/quarkus::io.quarkus.registry.catalog.ExtensionCatalogSerializationTest.testExtensionCatalog",
+    "variant_id": "https://github.com/quarkusio/quarkus::io.quarkus.registry.catalog.ExtensionCatalogSerializationTest.testExtensionCatalog::291e830a181d345241876c684b92a952ee6d86c0::independent-projects/tools/registry-client",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/quarkusindependentprojectstoolsregistryclient291e830testExtensionCatalog/result/Flaky/.nondex/de5UTHCgyeE9IwiAWmWejXAnGM976vSmO+FDOzYhII=/TEST-io.quarkus.registry.catalog.ExtensionCatalogSerializationTest.xml",
+        "size": 24662,
+        "compressed": 3617,
+        "crc32": "6f449bfe",
+        "offset": 817332439,
+        "method": 8,
+        "local_path": "data/extracted/c6e7452fd4d71111bb654415.xml",
+        "sha256": "2cb20dec05ef284d3733dd658a8af0223c9edc91b854ec03e00afae0aa4e4ba2",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/quarkusindependentprojectstoolsregistryclient291e830testExtensionCatalog/result/Flaky/rounds-test-results.csv",
+    "size": 23648,
+    "compressed": 5083,
+    "crc32": "da00d194",
+    "offset": 817159261,
+    "method": 8,
+    "local_path": "data/extracted/1e7f8babc496d3c76dc001b1.csv",
+    "sha256": "52d8a7cabdebeb8bf77a4b17349773d4882b3171f49cb173f55b5d642c4f6033",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/quarkusindependentprojectstoolsregistryclient291e830testExtensionCatalog/result/Flaky/.nondex/de5UTHCgyeE9IwiAWmWejXAnGM976vSmO+FDOzYhII=/TEST-io.quarkus.registry.catalog.ExtensionCatalogSerializationTest.xml",
+    "size": 24662,
+    "compressed": 3617,
+    "crc32": "6f449bfe",
+    "offset": 817332439,
+    "method": 8,
+    "local_path": "data/extracted/c6e7452fd4d71111bb654415.xml",
+    "sha256": "2cb20dec05ef284d3733dd658a8af0223c9edc91b854ec03e00afae0aa4e4ba2",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testExtensionCatalog",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "File /app/source/independent-projects/tools/registry-client/target/test-serialization/extension-catalog.json does not have the expected content (/app/source/independent-projects/tools/registry-client/src/test/resources/catalog-config/extension-catalog.json) ==> expected: <true> but was: <false>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: File /app/source/independent-projects/tools/registry-client/target/test-serialization/extension-catalog.json does not have the expected content (/app/source/independent-projects/tools/registry-client/src/test/resources/catalog-config/extension-catalog.json) ==> expected: <true> but was: <false>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)\n\tat org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)\n\tat io.quarkus.registry.catalog.ExtensionCatalogSerializationTest.assertSerializedMatches(ExtensionCatalogSerializationTest.java:103)\n\tat io.quarkus.registry.catalog.ExtensionCatalogSerializationTest.testExtensionCatalog(ExtensionCatalogSerializationTest.java:95)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "text": "org.opentest4j.AssertionFailedError\nFile /app/source/independent-projects/tools/registry-client/target/test-serialization/extension-catalog.json does not have the expected content (/app/source/independent-projects/tools/registry-client/src/test/resources/catalog-config/extension-catalog.json) ==> expected: <true> but was: <false>\norg.opentest4j.AssertionFailedError: File /app/source/independent-projects/tools/registry-client/target/test-serialization/extension-catalog.json does not have the expected content (/app/source/independent-projects/tools/registry-client/src/test/resources/catalog-config/extension-catalog.json) ==> expected: <true> but was: <false>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)\n\tat org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)\n\tat io.quarkus.registry.catalog.ExtensionCatalogSerializationTest.assertSerializedMatches(ExtensionCatalogSerializationTest.java:103)\n\tat io.quarkus.registry.catalog.ExtensionCatalogSerializationTest.testExtensionCatalog(ExtensionCatalogSerializationTest.java:95)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "aabc427697b6d7e37b3b302193b993d6d015ed48a6a5a3be5d5ca81f2f7a7680"
+}

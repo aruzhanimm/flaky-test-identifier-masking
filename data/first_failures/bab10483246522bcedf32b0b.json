@@ -1,0 +1,81 @@
+{
+  "container": "jetcachejetcachetest995e70atest",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jetcachejetcachetest995e70atest",
+    "project": "https://github.com/alibaba/jetcache",
+    "revision": "995e70a1028140b99f813a19e29fcecfe8054faf",
+    "test": "com.alicp.jetcache.anno.support.ConfigProvider_CacheMessagePublisher_Test.test",
+    "label": "ID",
+    "module": "jetcache-test",
+    "zip": "jetcache=jetcache-test=995e70a",
+    "config_row": 802,
+    "configured_test": "com.alicp.jetcache.anno.support.ConfigProvider_CacheMessagePublisher_Test#test",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/jetcache::com.alicp.jetcache.anno.support.ConfigProvider_CacheMessagePublisher_Test.test",
+    "variant_id": "https://github.com/alibaba/jetcache::com.alicp.jetcache.anno.support.ConfigProvider_CacheMessagePublisher_Test.test::995e70a1028140b99f813a19e29fcecfe8054faf::jetcache-test",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/jetcachejetcachetest995e70atest/result/Flaky/.nondex/fu2i+VN+OpOXrJmDoR36f5pvNpfTKh8acsAqjG3q7C8=/TEST-com.alicp.jetcache.anno.support.ConfigProvider_CacheMessagePublisher_Test.xml",
+        "size": 8046,
+        "compressed": 2062,
+        "crc32": "b0bc3ee8",
+        "offset": 1143649741,
+        "method": 8,
+        "local_path": "data/extracted/22162b0e63e904873debfede.xml",
+        "sha256": "9987e85751b33ec2dffd0dbe10f5466e5a6dd959329ed770fbb53de79be2d2f5",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jetcachejetcachetest995e70atest/result/Flaky/rounds-test-results.csv",
+    "size": 21888,
+    "compressed": 5102,
+    "crc32": "5ed90b17",
+    "offset": 1143426645,
+    "method": 8,
+    "local_path": "data/extracted/d5386071091aaee0dea2f0ee.csv",
+    "sha256": "5b4becb36dc06d2d2084cb56bccacab3ccc9ff95de9f7ece2d502e782445f610",
+    "status": "verified"
+  },
+  "reported_failure_rows": 78,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/jetcachejetcachetest995e70atest/result/Flaky/.nondex/fu2i+VN+OpOXrJmDoR36f5pvNpfTKh8acsAqjG3q7C8=/TEST-com.alicp.jetcache.anno.support.ConfigProvider_CacheMessagePublisher_Test.xml",
+    "size": 8046,
+    "compressed": 2062,
+    "crc32": "b0bc3ee8",
+    "offset": 1143649741,
+    "method": 8,
+    "local_path": "data/extracted/22162b0e63e904873debfede.xml",
+    "sha256": "9987e85751b33ec2dffd0dbe10f5466e5a6dd959329ed770fbb53de79be2d2f5",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<K[1]> but was:<K[2]>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<K[1]> but was:<K[2]>\n\tat com.alicp.jetcache.anno.support.ConfigProvider_CacheMessagePublisher_Test.test(ConfigProvider_CacheMessagePublisher_Test.java:86)",
+    "text": "org.junit.ComparisonFailure\nexpected:<K[1]> but was:<K[2]>\norg.junit.ComparisonFailure: expected:<K[1]> but was:<K[2]>\n\tat com.alicp.jetcache.anno.support.ConfigProvider_CacheMessagePublisher_Test.test(ConfigProvider_CacheMessagePublisher_Test.java:86)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "9040fda466196b4608f04da083ac49d484e256856a934d3a3438cfb3ef03029d"
+}

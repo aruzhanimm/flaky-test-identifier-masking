@@ -1,0 +1,81 @@
+{
+  "container": "innodbjavareaderinnodbjavareader24a95d8testQueryAllIteratorMysql57",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "innodbjavareaderinnodbjavareader24a95d8testQueryAllIteratorMysql57",
+    "project": "https://github.com/alibaba/innodb-java-reader",
+    "revision": "24a95d8005d480d460c3004fad89cfa295b9cbb4",
+    "test": "com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryAllIteratorMysql57",
+    "label": "ID",
+    "module": "innodb-java-reader",
+    "zip": "innodb-java-reader=innodb-java-reader=24a95d8",
+    "config_row": 282,
+    "configured_test": "com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest#testQueryAllIteratorMysql57",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/innodb-java-reader::com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryAllIteratorMysql57",
+    "variant_id": "https://github.com/alibaba/innodb-java-reader::com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryAllIteratorMysql57::24a95d8005d480d460c3004fad89cfa295b9cbb4::innodb-java-reader",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/innodbjavareaderinnodbjavareader24a95d8testQueryAllIteratorMysql57/result/Flaky/.nondex/re3baUBnIjDH1LZfr9oCpWEEr2E13h6Dnyj3YMDok=/TEST-com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.xml",
+        "size": 11208,
+        "compressed": 2495,
+        "crc32": "a7c2c863",
+        "offset": 1912172264,
+        "method": 8,
+        "local_path": "data/extracted/9b816ef7ea1d37d3c95d748e.xml",
+        "sha256": "e257e39475658f1f80d754243ab9aa656e17454fd35872f722d5b942b781df1a",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/innodbjavareaderinnodbjavareader24a95d8testQueryAllIteratorMysql57/result/Flaky/rounds-test-results.csv",
+    "size": 20645,
+    "compressed": 4999,
+    "crc32": "bca2be26",
+    "offset": 1911924954,
+    "method": 8,
+    "local_path": "data/extracted/ab8004c1f1f3e460fe531442.csv",
+    "sha256": "c8b65dee30db0852a3b91d5c8c821d04d3b789c47bde04c7e4b3f7b0dfa42450",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/innodbjavareaderinnodbjavareader24a95d8testQueryAllIteratorMysql57/result/Flaky/.nondex/re3baUBnIjDH1LZfr9oCpWEEr2E13h6Dnyj3YMDok=/TEST-com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.xml",
+    "size": 11208,
+    "compressed": 2495,
+    "crc32": "a7c2c863",
+    "offset": 1912172264,
+    "method": 8,
+    "local_path": "data/extracted/9b816ef7ea1d37d3c95d748e.xml",
+    "sha256": "e257e39475658f1f80d754243ab9aa656e17454fd35872f722d5b942b781df1a",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testQueryAllIteratorMysql57",
+    "outcome": "error",
+    "exception_type": "java.lang.NullPointerException:",
+    "message": null,
+    "stack_trace": "java.lang.NullPointerException: null\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.allRowsPk(SimpleSkTableReaderTest.java:1663)\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryAllIteratorMysql57(SimpleSkTableReaderTest.java:86)",
+    "text": "java.lang.NullPointerException:\njava.lang.NullPointerException: null\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.allRowsPk(SimpleSkTableReaderTest.java:1663)\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryAllIteratorMysql57(SimpleSkTableReaderTest.java:86)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "df2abcefa92c300d3f6275e028a26f4db8fbf3908031da4b21c62a5e0afaed62"
+}

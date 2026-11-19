@@ -1,0 +1,81 @@
+{
+  "container": "commonslang182b250stringArray",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "commonslang182b250stringArray",
+    "project": "https://github.com/apache/commons-lang",
+    "revision": "182b2506b304463f8f1a9ad765c6db0420fa356f",
+    "test": "org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.stringArray",
+    "label": "ID",
+    "module": ".",
+    "zip": "commons-lang=.=182b250",
+    "config_row": 560,
+    "configured_test": "org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest#stringArray",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.stringArray",
+    "variant_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.stringArray::182b2506b304463f8f1a9ad765c6db0420fa356f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/commonslang182b250stringArray/result/Flaky/.nondex/2zZ+2AmoWdvJBY1rMFPYCkhu90L3enomPUJjN0uckc=/TEST-org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.xml",
+        "size": 10905,
+        "compressed": 2332,
+        "crc32": "b95a15da",
+        "offset": 402429306,
+        "method": 8,
+        "local_path": "data/extracted/ab130b73c07e30452269cc1e.xml",
+        "sha256": "7dc0f94aebd488a1e5e378f24225c43b83b77edc76b93ec3dd56acf3b3cb2c27",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/commonslang182b250stringArray/result/Flaky/rounds-test-results.csv",
+    "size": 20253,
+    "compressed": 4865,
+    "crc32": "29082f7d",
+    "offset": 401938120,
+    "method": 8,
+    "local_path": "data/extracted/60ad2a62b40ff805b9cb90c7.csv",
+    "sha256": "bf1ce9b6acc18d624c47c903ae6f798fa0afc211a38fdc4dc7c983b66062f1e7",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/commonslang182b250stringArray/result/Flaky/.nondex/2zZ+2AmoWdvJBY1rMFPYCkhu90L3enomPUJjN0uckc=/TEST-org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.xml",
+    "size": 10905,
+    "compressed": 2332,
+    "crc32": "b95a15da",
+    "offset": 402429306,
+    "method": 8,
+    "local_path": "data/extracted/ab130b73c07e30452269cc1e.xml",
+    "sha256": "7dc0f94aebd488a1e5e378f24225c43b83b77edc76b93ec3dd56acf3b3cb2c27",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "stringArray",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$WithArrays@13eb8acf[\n  boolArray=<null>,\n  charArray=<null>,\n  intArray=<null>,\n  doubleArray=<null>,\n  longArray=<null>,\n  stringArray={\n    a,\n    A\n  }\n]> but was: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$WithArrays@13eb8acf[\n  longArray=<null>,\n  charArray=<null>,\n  stringArray={\n    a,\n    A\n  },\n  intArray=<null>,\n  boolArray=<null>,\n  doubleArray=<null>\n]>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: \nexpected: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$WithArrays@13eb8acf[\n  boolArray=<null>,\n  charArray=<null>,\n  intArray=<null>,\n  doubleArray=<null>,\n  longArray=<null>,\n  stringArray={\n    a,\n    A\n  }\n]> but was: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$WithArrays@13eb8acf[\n  longArray=<null>,\n  charArray=<null>,\n  stringArray={\n    a,\n    A\n  },\n  intArray=<null>,\n  boolArray=<null>,\n  doubleArray=<null>\n]>\n\tat org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.stringArray(MultilineRecursiveToStringStyleTest.java:201)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$WithArrays@13eb8acf[\n  boolArray=<null>,\n  charArray=<null>,\n  intArray=<null>,\n  doubleArray=<null>,\n  longArray=<null>,\n  stringArray={\n    a,\n    A\n  }\n]> but was: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$WithArrays@13eb8acf[\n  longArray=<null>,\n  charArray=<null>,\n  stringArray={\n    a,\n    A\n  },\n  intArray=<null>,\n  boolArray=<null>,\n  doubleArray=<null>\n]>\norg.opentest4j.AssertionFailedError: \nexpected: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$WithArrays@13eb8acf[\n  boolArray=<null>,\n  charArray=<null>,\n  intArray=<null>,\n  doubleArray=<null>,\n  longArray=<null>,\n  stringArray={\n    a,\n    A\n  }\n]> but was: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$WithArrays@13eb8acf[\n  longArray=<null>,\n  charArray=<null>,\n  stringArray={\n    a,\n    A\n  },\n  intArray=<null>,\n  boolArray=<null>,\n  doubleArray=<null>\n]>\n\tat org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.stringArray(MultilineRecursiveToStringStyleTest.java:201)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "e93620f81bda3303a50b8872598f331f662fbb63c280db20a8b49f094c02fc2a"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "karatekaratecore935f0a8testBeanConversion",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "karatekaratecore935f0a8testBeanConversion",
+    "project": "https://github.com/karatelabs/karate",
+    "revision": "935f0a8f4355c653ff10c929804c99bc332398f3",
+    "test": "com.intuit.karate.JsonUtilsTest.testBeanConversion",
+    "label": "ID",
+    "module": "karate-core",
+    "zip": "karate=karate-core=935f0a8",
+    "config_row": 803,
+    "configured_test": "com.intuit.karate.JsonUtilsTest#testBeanConversion",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/karatelabs/karate::com.intuit.karate.JsonUtilsTest.testBeanConversion",
+    "variant_id": "https://github.com/karatelabs/karate::com.intuit.karate.JsonUtilsTest.testBeanConversion::935f0a8f4355c653ff10c929804c99bc332398f3::karate-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/karatekaratecore935f0a8testBeanConversion/result/Flaky/.nondex/4NG+TmiJgc2sHFSAuwIRpWejR0iNntiBDLWeU8IN9Ec=/TEST-com.intuit.karate.JsonUtilsTest.xml",
+        "size": 17637,
+        "compressed": 3010,
+        "crc32": "71d8014b",
+        "offset": 1169971194,
+        "method": 8,
+        "local_path": "data/extracted/574706b5a3113ee69d27c1eb.xml",
+        "sha256": "16b4f7eeea0aca162419a65908df83617ccd8172d9ffb15dd5085c94ccadc013",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/karatekaratecore935f0a8testBeanConversion/result/Flaky/rounds-test-results.csv",
+    "size": 17406,
+    "compressed": 5084,
+    "crc32": "1f464769",
+    "offset": 1169817261,
+    "method": 8,
+    "local_path": "data/extracted/7e1f81a27a02586f01051450.csv",
+    "sha256": "7e91ced8aaf843af030f1fd6d277192d51166c0b79d60880e7dbb4538449cd67",
+    "status": "verified"
+  },
+  "reported_failure_rows": 49,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/karatekaratecore935f0a8testBeanConversion/result/Flaky/.nondex/4NG+TmiJgc2sHFSAuwIRpWejR0iNntiBDLWeU8IN9Ec=/TEST-com.intuit.karate.JsonUtilsTest.xml",
+    "size": 17637,
+    "compressed": 3010,
+    "crc32": "71d8014b",
+    "offset": 1169971194,
+    "method": 8,
+    "local_path": "data/extracted/574706b5a3113ee69d27c1eb.xml",
+    "sha256": "16b4f7eeea0aca162419a65908df83617ccd8172d9ffb15dd5085c94ccadc013",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testBeanConversion",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <{\"bar\":0,\"foo\":null}> but was: <{\"foo\":null,\"bar\":0}>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <{\"bar\":0,\"foo\":null}> but was: <{\"foo\":null,\"bar\":0}>\n\tat com.intuit.karate.JsonUtilsTest.testBeanConversion(JsonUtilsTest.java:42)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <{\"bar\":0,\"foo\":null}> but was: <{\"foo\":null,\"bar\":0}>\norg.opentest4j.AssertionFailedError: expected: <{\"bar\":0,\"foo\":null}> but was: <{\"foo\":null,\"bar\":0}>\n\tat com.intuit.karate.JsonUtilsTest.testBeanConversion(JsonUtilsTest.java:42)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "85eaed6f2967e80443bd95cdc938aeea98113e59bd995f5dd522a22328ae79ae"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "innodbjavareaderinnodbjavareader24a95d8testQueryBySkAgeProjectionMysql57",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "innodbjavareaderinnodbjavareader24a95d8testQueryBySkAgeProjectionMysql57",
+    "project": "https://github.com/alibaba/innodb-java-reader",
+    "revision": "24a95d8005d480d460c3004fad89cfa295b9cbb4",
+    "test": "com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkAgeProjectionMysql57",
+    "label": "ID",
+    "module": "innodb-java-reader",
+    "zip": "innodb-java-reader=innodb-java-reader=24a95d8",
+    "config_row": 300,
+    "configured_test": "com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest#testQueryBySkAgeProjectionMysql57",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/innodb-java-reader::com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkAgeProjectionMysql57",
+    "variant_id": "https://github.com/alibaba/innodb-java-reader::com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkAgeProjectionMysql57::24a95d8005d480d460c3004fad89cfa295b9cbb4::innodb-java-reader",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/innodbjavareaderinnodbjavareader24a95d8testQueryBySkAgeProjectionMysql57/result/Flaky/.nondex/G6enKYZrTCCQgnR13yB0Hqr1PIHXOtBETB7hZdQmqBk=/TEST-com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.xml",
+        "size": 11577,
+        "compressed": 2545,
+        "crc32": "c1bdc744",
+        "offset": 1869566994,
+        "method": 8,
+        "local_path": "data/extracted/82f4aacbd636d438301940a4.xml",
+        "sha256": "daaf0fa4cf2e246149db55af3633aca88a04f22dbb590836472544ba9c401a06",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/innodbjavareaderinnodbjavareader24a95d8testQueryBySkAgeProjectionMysql57/result/Flaky/rounds-test-results.csv",
+    "size": 20657,
+    "compressed": 5025,
+    "crc32": "18acc9ea",
+    "offset": 1869255516,
+    "method": 8,
+    "local_path": "data/extracted/83e6dd7f05a866abc9854123.csv",
+    "sha256": "41901b7180868d9aec7ef3299df5ade5a9c5658143be84520b80a8880e944209",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/innodbjavareaderinnodbjavareader24a95d8testQueryBySkAgeProjectionMysql57/result/Flaky/.nondex/G6enKYZrTCCQgnR13yB0Hqr1PIHXOtBETB7hZdQmqBk=/TEST-com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.xml",
+    "size": 11577,
+    "compressed": 2545,
+    "crc32": "c1bdc744",
+    "offset": 1869566994,
+    "method": 8,
+    "local_path": "data/extracted/82f4aacbd636d438301940a4.xml",
+    "sha256": "daaf0fa4cf2e246149db55af3633aca88a04f22dbb590836472544ba9c401a06",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testQueryBySkAgeProjectionMysql57",
+    "outcome": "error",
+    "exception_type": "java.lang.NullPointerException:",
+    "message": null,
+    "stack_trace": "java.lang.NullPointerException: null\n\tat java.base/java.util.ArrayList.<init>(ArrayList.java:179)\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.allRowsPkOrderBy(SimpleSkTableReaderTest.java:1667)\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkAgeProjection(SimpleSkTableReaderTest.java:1129)\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkAgeProjectionMysql57(SimpleSkTableReaderTest.java:1114)",
+    "text": "java.lang.NullPointerException:\njava.lang.NullPointerException: null\n\tat java.base/java.util.ArrayList.<init>(ArrayList.java:179)\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.allRowsPkOrderBy(SimpleSkTableReaderTest.java:1667)\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkAgeProjection(SimpleSkTableReaderTest.java:1129)\n\tat com.alibaba.innodb.java.reader.sk.SimpleSkTableReaderTest.testQueryBySkAgeProjectionMysql57(SimpleSkTableReaderTest.java:1114)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "418b8f80f5eb9a41d4ad0a0f3bcc0d06ff9d933df7d0b70ee8995634ceeadd74"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "nacoscommon2c5c85ctestGetMap3",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "nacoscommon2c5c85ctestGetMap3",
+    "project": "https://github.com/alibaba/nacos",
+    "revision": "2c5c85cccdf00a3862d8de083d015dcdb3cec37f",
+    "test": "com.alibaba.nacos.common.utils.CollectionUtilsTest.testGetMap3",
+    "label": "ID",
+    "module": "common",
+    "zip": "nacos=common=2c5c85c",
+    "config_row": 227,
+    "configured_test": "com.alibaba.nacos.common.utils.CollectionUtilsTest#testGetMap3",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/nacos::com.alibaba.nacos.common.utils.CollectionUtilsTest.testGetMap3",
+    "variant_id": "https://github.com/alibaba/nacos::com.alibaba.nacos.common.utils.CollectionUtilsTest.testGetMap3::2c5c85cccdf00a3862d8de083d015dcdb3cec37f::common",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/nacoscommon2c5c85ctestGetMap3/result/Flaky/.nondex/HUIxaHEsuNd63nWGOOWT3DdDJy871fMYIatn1OGaW0=/TEST-com.alibaba.nacos.common.utils.CollectionUtilsTest.xml",
+        "size": 6972,
+        "compressed": 1797,
+        "crc32": "6a9027e8",
+        "offset": 2110313759,
+        "method": 8,
+        "local_path": "data/extracted/e897952df3fd62be13c96efe.xml",
+        "sha256": "0b21b11c6534b46ff72fc1935d42d346f0730eba71b19ba5fab4fe9309e40651",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/nacoscommon2c5c85ctestGetMap3/result/Flaky/rounds-test-results.csv",
+    "size": 18842,
+    "compressed": 4866,
+    "crc32": "c682b491",
+    "offset": 2110135766,
+    "method": 8,
+    "local_path": "data/extracted/c318af9dd46d94c2a5a9bc6c.csv",
+    "sha256": "7a25e3e8b2ea936fe177ed6478c940d9940a8f883b40a4fcc0c613ed85161418",
+    "status": "verified"
+  },
+  "reported_failure_rows": 57,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/nacoscommon2c5c85ctestGetMap3/result/Flaky/.nondex/HUIxaHEsuNd63nWGOOWT3DdDJy871fMYIatn1OGaW0=/TEST-com.alibaba.nacos.common.utils.CollectionUtilsTest.xml",
+    "size": 6972,
+    "compressed": 1797,
+    "crc32": "6a9027e8",
+    "offset": 2110313759,
+    "method": 8,
+    "local_path": "data/extracted/e897952df3fd62be13c96efe.xml",
+    "sha256": "0b21b11c6534b46ff72fc1935d42d346f0730eba71b19ba5fab4fe9309e40651",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testGetMap3",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "expected:<key2=value2> but was:<key1=value1>",
+    "stack_trace": "java.lang.AssertionError: expected:<key2=value2> but was:<key1=value1>\n\tat com.alibaba.nacos.common.utils.CollectionUtilsTest.testGetMap3(CollectionUtilsTest.java:88)",
+    "text": "java.lang.AssertionError\nexpected:<key2=value2> but was:<key1=value1>\njava.lang.AssertionError: expected:<key2=value2> but was:<key1=value1>\n\tat com.alibaba.nacos.common.utils.CollectionUtilsTest.testGetMap3(CollectionUtilsTest.java:88)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "cae5c4aa67d33af2041be25335c57ab80cb61d8a2ec3ff4e5adce17278fd3c84"
+}

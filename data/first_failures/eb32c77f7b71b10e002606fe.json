@@ -1,0 +1,37 @@
+{
+  "container": "HBASE-27193",
+  "metadata": {
+    "source": "JIRA",
+    "container": "HBASE-27193",
+    "project": "https://github.com/apache/hbase",
+    "revision": "7cb7100de5351fd2dc3afb1a0193632cfa025f8c",
+    "test": "org.apache.hadoop.hbase.TestZooKeeper.testRegionAssignmentAfterMasterRecoveryDueToZKExpiry",
+    "label": "UNCLASSIFIED",
+    "module": "hbase-server",
+    "zip": "HBASE-27193",
+    "config_row": 1116,
+    "configured_test": "org.apache.hadoop.hbase.TestZooKeeper#testRegionAssignmentAfterMasterRecoveryDueToZKExpiry",
+    "configured_type": "Unclassified",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hbase::org.apache.hadoop.hbase.TestZooKeeper.testRegionAssignmentAfterMasterRecoveryDueToZKExpiry",
+    "variant_id": "https://github.com/apache/hbase::org.apache.hadoop.hbase.TestZooKeeper.testRegionAssignmentAfterMasterRecoveryDueToZKExpiry::7cb7100de5351fd2dc3afb1a0193632cfa025f8c::hbase-server",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "unclassified",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/HBASE-27193/result/Flaky/rounds-test-results.csv",
+    "size": 19169,
+    "compressed": 827,
+    "crc32": "8ed96250",
+    "offset": 96648844,
+    "method": 8,
+    "local_path": "data/extracted/c7003de9876aaa1c3da86b94.csv",
+    "sha256": "434bff5e95548fc4ce056229a055f4a4043bf415c5d37fc9e0a7ab13d03318de",
+    "status": "verified"
+  },
+  "reported_failure_rows": 21
+}

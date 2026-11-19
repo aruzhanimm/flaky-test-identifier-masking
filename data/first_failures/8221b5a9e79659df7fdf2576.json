@@ -1,0 +1,81 @@
+{
+  "container": "scimonoscimonoclient7487ec5testCreateCustomIdentityFilter1",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "scimonoscimonoclient7487ec5testCreateCustomIdentityFilter1",
+    "project": "https://github.com/sap/scimono",
+    "revision": "7487ec5c28c12469fd57980d9f810b9d357b6d81",
+    "test": "com.sap.scimono.client.ResourcePageQueryTest.testCreateCustomIdentityFilter",
+    "label": "ID",
+    "module": "scimono-client",
+    "zip": "scimono=scimono-client=7487ec5",
+    "config_row": 711,
+    "configured_test": "com.sap.scimono.client.ResourcePageQueryTest#testCreateCustomIdentityFilter",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/sap/scimono::com.sap.scimono.client.ResourcePageQueryTest.testCreateCustomIdentityFilter",
+    "variant_id": "https://github.com/sap/scimono::com.sap.scimono.client.ResourcePageQueryTest.testCreateCustomIdentityFilter::7487ec5c28c12469fd57980d9f810b9d357b6d81::scimono-client",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/scimonoscimonoclient7487ec5testCreateCustomIdentityFilter1/result/Flaky/.nondex/xXbzZCF4LKNykzsB2MZXW1Y91Q1IIHKbb2w35wLFjpE=/TEST-com.sap.scimono.client.ResourcePageQueryTest.xml",
+        "size": 24264,
+        "compressed": 3663,
+        "crc32": "dab5085c",
+        "offset": 1576670493,
+        "method": 8,
+        "local_path": "data/extracted/688b3512ff37b633d9d5300c.xml",
+        "sha256": "b1fbfbb677a59aef61009ff38c8ca41ab0ebf5ec817c6ec3f94d6d2f3676dcae",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/scimonoscimonoclient7487ec5testCreateCustomIdentityFilter1/result/Flaky/rounds-test-results.csv",
+    "size": 19041,
+    "compressed": 5077,
+    "crc32": "d0e930f7",
+    "offset": 1576283615,
+    "method": 8,
+    "local_path": "data/extracted/e3317b4dcd3acef17e8bb2b9.csv",
+    "sha256": "be82f92f221a20dba8749af0c35a4abd8e502e3c9e4d96ab4f58b4b1ff335d47",
+    "status": "verified"
+  },
+  "reported_failure_rows": 58,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/scimonoscimonoclient7487ec5testCreateCustomIdentityFilter1/result/Flaky/.nondex/xXbzZCF4LKNykzsB2MZXW1Y91Q1IIHKbb2w35wLFjpE=/TEST-com.sap.scimono.client.ResourcePageQueryTest.xml",
+    "size": 24264,
+    "compressed": 3663,
+    "crc32": "dab5085c",
+    "offset": 1576670493,
+    "method": 8,
+    "local_path": "data/extracted/688b3512ff37b633d9d5300c.xml",
+    "sha256": "b1fbfbb677a59aef61009ff38c8ca41ab0ebf5ec817c6ec3f94d6d2f3676dcae",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testCreateCustomIdentityFilter",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <http://localhost:7070/idds/scim/v2/Users?startId=00000000-0000-1000-9000-000000000000&count=50> but was: <http://localhost:7070/idds/scim/v2/Users?count=50&startId=00000000-0000-1000-9000-000000000000>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <http://localhost:7070/idds/scim/v2/Users?startId=00000000-0000-1000-9000-000000000000&count=50> but was: <http://localhost:7070/idds/scim/v2/Users?count=50&startId=00000000-0000-1000-9000-000000000000>\n\tat com.sap.scimono.client.ResourcePageQueryTest.testCreateCustomIdentityFilter(ResourcePageQueryTest.java:48)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <http://localhost:7070/idds/scim/v2/Users?startId=00000000-0000-1000-9000-000000000000&count=50> but was: <http://localhost:7070/idds/scim/v2/Users?count=50&startId=00000000-0000-1000-9000-000000000000>\norg.opentest4j.AssertionFailedError: expected: <http://localhost:7070/idds/scim/v2/Users?startId=00000000-0000-1000-9000-000000000000&count=50> but was: <http://localhost:7070/idds/scim/v2/Users?count=50&startId=00000000-0000-1000-9000-000000000000>\n\tat com.sap.scimono.client.ResourcePageQueryTest.testCreateCustomIdentityFilter(ResourcePageQueryTest.java:48)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "237b51509b7fa519ad5cc44406c86865448b0b61aec6841af357e69b142cfe0d"
+}

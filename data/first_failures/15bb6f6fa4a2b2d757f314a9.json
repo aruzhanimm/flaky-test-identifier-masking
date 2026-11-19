@@ -1,0 +1,81 @@
+{
+  "container": "sonarphpphpfrontende4bbedctest",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "sonarphpphpfrontende4bbedctest",
+    "project": "https://github.com/sonarsource/sonar-php",
+    "revision": "e4bbedc022b5347593e3ad1755d8a35f72300452",
+    "test": "org.sonar.php.metrics.ExecutableLineVisitorTest.test",
+    "label": "ID",
+    "module": "php-frontend",
+    "zip": "sonar-php=php-frontend=e4bbedc",
+    "config_row": 210,
+    "configured_test": "org.sonar.php.metrics.ExecutableLineVisitorTest#test",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/sonarsource/sonar-php::org.sonar.php.metrics.ExecutableLineVisitorTest.test",
+    "variant_id": "https://github.com/sonarsource/sonar-php::org.sonar.php.metrics.ExecutableLineVisitorTest.test::e4bbedc022b5347593e3ad1755d8a35f72300452::php-frontend",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/sonarphpphpfrontende4bbedctest/result/Flaky/.nondex/++1nw3EDPv2N6Xm1f6z0ujxD0gQvLGH1VGfA7rAHkvI=/TEST-org.sonar.php.metrics.ExecutableLineVisitorTest.xml",
+        "size": 12781,
+        "compressed": 2563,
+        "crc32": "3e9f286a",
+        "offset": 793385496,
+        "method": 8,
+        "local_path": "data/extracted/fc4b5af29d2de47dc1a1e180.xml",
+        "sha256": "1292fd008ea3ce7a76edc62a7ada67034ae7954855c364902d7e0c9929c79d13",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/sonarphpphpfrontende4bbedctest/result/Flaky/rounds-test-results.csv",
+    "size": 19255,
+    "compressed": 5000,
+    "crc32": "4859637e",
+    "offset": 793230067,
+    "method": 8,
+    "local_path": "data/extracted/accf34521b314ced23e61168.csv",
+    "sha256": "549fcb35f45003e0ecbccf4c28deb5d9b62b32202938c52ec6b7e63c73389ac8",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/sonarphpphpfrontende4bbedctest/result/Flaky/.nondex/++1nw3EDPv2N6Xm1f6z0ujxD0gQvLGH1VGfA7rAHkvI=/TEST-org.sonar.php.metrics.ExecutableLineVisitorTest.xml",
+    "size": 12781,
+    "compressed": 2563,
+    "crc32": "3e9f286a",
+    "offset": 793385496,
+    "method": 8,
+    "local_path": "data/extracted/fc4b5af29d2de47dc1a1e180.xml",
+    "sha256": "1292fd008ea3ce7a76edc62a7ada67034ae7954855c364902d7e0c9929c79d13",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Actual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <26>\nwhereas expected element was:\n  <14>",
+    "stack_trace": "java.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <26>\nwhereas expected element was:\n  <14>\n\n\tat org.sonar.php.metrics.ExecutableLineVisitorTest.test(ExecutableLineVisitorTest.java:43)",
+    "text": "java.lang.AssertionError\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <26>\nwhereas expected element was:\n  <14>\njava.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <26>\nwhereas expected element was:\n  <14>\n\n\tat org.sonar.php.metrics.ExecutableLineVisitorTest.test(ExecutableLineVisitorTest.java:43)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "5c8abda33cdc5132c21b60cdc537b84b09dd0b683241eb25c9207f502855dbb2"
+}

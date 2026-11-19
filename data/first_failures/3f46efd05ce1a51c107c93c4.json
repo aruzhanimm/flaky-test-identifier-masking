@@ -1,0 +1,81 @@
+{
+  "container": "cloudstackutils4c5a2bavalidateGetNonSelectedFieldsObjectIsNotACollectionAndValidSelectedFieldsMustReturnNonSelectedFields",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "cloudstackutils4c5a2bavalidateGetNonSelectedFieldsObjectIsNotACollectionAndValidSelectedFieldsMustReturnNonSelectedFields",
+    "project": "https://github.com/apache/cloudstack",
+    "revision": "4c5a2ba3a6eb6399390c2f8963cb26e0e35fc058",
+    "test": "org.apache.cloudstack.utils.reflectiontostringbuilderutils.ReflectionToStringBuilderUtilsTest.validateGetNonSelectedFieldsObjectIsNotACollectionAndValidSelectedFieldsMustReturnNonSelectedFields",
+    "label": "ID",
+    "module": "utils",
+    "zip": "cloudstack=utils=4c5a2ba",
+    "config_row": 545,
+    "configured_test": "org.apache.cloudstack.utils.reflectiontostringbuilderutils.ReflectionToStringBuilderUtilsTest#validateGetNonSelectedFieldsObjectIsNotACollectionAndValidSelectedFieldsMustReturnNonSelectedFields",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/cloudstack::org.apache.cloudstack.utils.reflectiontostringbuilderutils.ReflectionToStringBuilderUtilsTest.validateGetNonSelectedFieldsObjectIsNotACollectionAndValidSelectedFieldsMustReturnNonSelectedFields",
+    "variant_id": "https://github.com/apache/cloudstack::org.apache.cloudstack.utils.reflectiontostringbuilderutils.ReflectionToStringBuilderUtilsTest.validateGetNonSelectedFieldsObjectIsNotACollectionAndValidSelectedFieldsMustReturnNonSelectedFields::4c5a2ba3a6eb6399390c2f8963cb26e0e35fc058::utils",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/cloudstackutils4c5a2bavalidateGetNonSelectedFieldsObjectIsNotACollectionAndValidSelectedFieldsMustReturnNonSelectedFields/result/Flaky/.nondex/63Aq+1FYhXsSRFMZOkyjDI6X49oG75aesxbpjD3ZmE=/TEST-org.apache.cloudstack.utils.reflectiontostringbuilderutils.ReflectionToStringBuilderUtilsTest.xml",
+        "size": 26819,
+        "compressed": 4169,
+        "crc32": "84ea22e7",
+        "offset": 363330698,
+        "method": 8,
+        "local_path": "data/extracted/bfb2670dee8d49b6567cb4a0.xml",
+        "sha256": "e77aca71b1290cf4cd0003d2140bb5b2d2a7c207bcbebb8342dd945057afa238",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/cloudstackutils4c5a2bavalidateGetNonSelectedFieldsObjectIsNotACollectionAndValidSelectedFieldsMustReturnNonSelectedFields/result/Flaky/rounds-test-results.csv",
+    "size": 23095,
+    "compressed": 5105,
+    "crc32": "a9ee97cd",
+    "offset": 363038308,
+    "method": 8,
+    "local_path": "data/extracted/3fde722c3db1774a9e8c0115.csv",
+    "sha256": "373cd9cee21f5038d58f0a894199ad6072fc5914d616b9f9fb4e817561966ee3",
+    "status": "verified"
+  },
+  "reported_failure_rows": 77,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/cloudstackutils4c5a2bavalidateGetNonSelectedFieldsObjectIsNotACollectionAndValidSelectedFieldsMustReturnNonSelectedFields/result/Flaky/.nondex/63Aq+1FYhXsSRFMZOkyjDI6X49oG75aesxbpjD3ZmE=/TEST-org.apache.cloudstack.utils.reflectiontostringbuilderutils.ReflectionToStringBuilderUtilsTest.xml",
+    "size": 26819,
+    "compressed": 4169,
+    "crc32": "84ea22e7",
+    "offset": 363330698,
+    "method": 8,
+    "local_path": "data/extracted/bfb2670dee8d49b6567cb4a0.xml",
+    "sha256": "e77aca71b1290cf4cd0003d2140bb5b2d2a7c207bcbebb8342dd945057afa238",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "validateGetNonSelectedFieldsObjectIsNotACollectionAndValidSelectedFieldsMustReturnNonSelectedFields",
+    "outcome": "failure",
+    "exception_type": "org.junit.internal.ArrayComparisonFailure",
+    "message": "arrays first differed at element [5]; expected:<[serialPersistentFields]> but was:<[CASE_INSENSITIVE_ORDER]>",
+    "stack_trace": "org.junit.internal.ArrayComparisonFailure: arrays first differed at element [5]; expected:<[serialPersistentFields]> but was:<[CASE_INSENSITIVE_ORDER]>\n\tat org.apache.cloudstack.utils.reflectiontostringbuilderutils.ReflectionToStringBuilderUtilsTest.validateGetNonSelectedFieldsObjectIsNotACollectionAndValidSelectedFieldsMustReturnNonSelectedFields(ReflectionToStringBuilderUtilsTest.java:180)\nCaused by: org.junit.ComparisonFailure: expected:<[serialPersistentFields]> but was:<[CASE_INSENSITIVE_ORDER]>\n\tat org.apache.cloudstack.utils.reflectiontostringbuilderutils.ReflectionToStringBuilderUtilsTest.validateGetNonSelectedFieldsObjectIsNotACollectionAndValidSelectedFieldsMustReturnNonSelectedFields(ReflectionToStringBuilderUtilsTest.java:180)",
+    "text": "org.junit.internal.ArrayComparisonFailure\narrays first differed at element [5]; expected:<[serialPersistentFields]> but was:<[CASE_INSENSITIVE_ORDER]>\norg.junit.internal.ArrayComparisonFailure: arrays first differed at element [5]; expected:<[serialPersistentFields]> but was:<[CASE_INSENSITIVE_ORDER]>\n\tat org.apache.cloudstack.utils.reflectiontostringbuilderutils.ReflectionToStringBuilderUtilsTest.validateGetNonSelectedFieldsObjectIsNotACollectionAndValidSelectedFieldsMustReturnNonSelectedFields(ReflectionToStringBuilderUtilsTest.java:180)\nCaused by: org.junit.ComparisonFailure: expected:<[serialPersistentFields]> but was:<[CASE_INSENSITIVE_ORDER]>\n\tat org.apache.cloudstack.utils.reflectiontostringbuilderutils.ReflectionToStringBuilderUtilsTest.validateGetNonSelectedFieldsObjectIsNotACollectionAndValidSelectedFieldsMustReturnNonSelectedFields(ReflectionToStringBuilderUtilsTest.java:180)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "8141eb4f05afb9ec5622188bb0b99604c329abf3763b54d21d4e5d96f0df0371"
+}

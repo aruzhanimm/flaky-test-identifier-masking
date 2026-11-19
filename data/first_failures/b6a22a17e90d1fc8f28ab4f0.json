@@ -1,0 +1,98 @@
+{
+  "container": "RATIS-1363",
+  "metadata": {
+    "source": "JIRA",
+    "container": "RATIS-1363",
+    "project": "https://github.com/apache/ratis",
+    "revision": "52a52ed2c7f75cfbbfa81f7ce8fd18b01c54b66b",
+    "test": "org.apache.ratis.grpc.TestInstallSnapshotNotificationWithGrpc.testInstallSnapshotNotificationCount",
+    "label": "TD",
+    "module": "ratis-test",
+    "zip": "RATIS-1363",
+    "config_row": 1112,
+    "configured_test": "org.apache.ratis.grpc.TestInstallSnapshotNotificationWithGrpc#testInstallSnapshotNotificationCount",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/ratis::org.apache.ratis.grpc.TestInstallSnapshotNotificationWithGrpc.testInstallSnapshotNotificationCount",
+    "variant_id": "https://github.com/apache/ratis::org.apache.ratis.grpc.TestInstallSnapshotNotificationWithGrpc.testInstallSnapshotNotificationCount::52a52ed2c7f75cfbbfa81f7ce8fd18b01c54b66b::ratis-test",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 20,
+      "iteration": 19,
+      "member": {
+        "path": "result/RATIS-1363/result/Flaky/surefire-reports/reports-19/org.apache.ratis.grpc.TestInstallSnapshotNotificationWithGrpc.txt",
+        "size": 2277,
+        "compressed": 604,
+        "crc32": "41bde8e7",
+        "offset": 164493196,
+        "method": 8,
+        "local_path": "data/extracted/b14e625277f403a8604fd756.txt",
+        "sha256": "4e3b68bd389a2827632209aae040c10bb05126eb239b9e35d2df5802b8b2b664",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 20,
+      "iteration": 19,
+      "member": {
+        "path": "result/RATIS-1363/result/Flaky/surefire-reports/reports-19/org.apache.ratis.grpc.TestInstallSnapshotNotificationWithGrpc.txt",
+        "size": 2277,
+        "compressed": 604,
+        "crc32": "41bde8e7",
+        "offset": 164493196,
+        "method": 8,
+        "local_path": "data/extracted/b14e625277f403a8604fd756.txt",
+        "sha256": "4e3b68bd389a2827632209aae040c10bb05126eb239b9e35d2df5802b8b2b664",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/RATIS-1363/result/Flaky/rounds-test-results.csv",
+    "size": 22095,
+    "compressed": 734,
+    "crc32": "1234055b",
+    "offset": 164209255,
+    "method": 8,
+    "local_path": "data/extracted/a09390a3903d8bb59abc87d8.csv",
+    "sha256": "d161de638f3094abe1679c0fe5074e3c608b2fb9b37b7df45ce07f2d78373a04",
+    "status": "verified"
+  },
+  "reported_failure_rows": 4,
+  "iteration": 19,
+  "source_row": 20,
+  "diagnostic_member": {
+    "path": "result/RATIS-1363/result/Flaky/surefire-reports/reports-19/org.apache.ratis.grpc.TestInstallSnapshotNotificationWithGrpc.txt",
+    "size": 2277,
+    "compressed": 604,
+    "crc32": "41bde8e7",
+    "offset": 164493196,
+    "method": 8,
+    "local_path": "data/extracted/b14e625277f403a8604fd756.txt",
+    "sha256": "4e3b68bd389a2827632209aae040c10bb05126eb239b9e35d2df5802b8b2b664",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "testInstallSnapshotNotificationCount",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "expected:<20> but was:<19>",
+    "stack_trace": "java.lang.AssertionError: expected:<20> but was:<19>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat org.apache.ratis.InstallSnapshotNotificationTests.testInstallSnapshotNotificationCount(InstallSnapshotNotificationTests.java:280)\n\tat org.apache.ratis.server.impl.MiniRaftCluster$Factory$Get.runWithNewCluster(MiniRaftCluster.java:125)\n\tat org.apache.ratis.server.impl.MiniRaftCluster$Factory$Get.runWithNewCluster(MiniRaftCluster.java:113)\n\tat org.apache.ratis.InstallSnapshotNotificationTests.testInstallSnapshotNotificationCount(InstallSnapshotNotificationTests.java:252)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.lang.Thread.run(Thread.java:750)",
+    "text": "java.lang.AssertionError\nexpected:<20> but was:<19>\njava.lang.AssertionError: expected:<20> but was:<19>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat org.apache.ratis.InstallSnapshotNotificationTests.testInstallSnapshotNotificationCount(InstallSnapshotNotificationTests.java:280)\n\tat org.apache.ratis.server.impl.MiniRaftCluster$Factory$Get.runWithNewCluster(MiniRaftCluster.java:125)\n\tat org.apache.ratis.server.impl.MiniRaftCluster$Factory$Get.runWithNewCluster(MiniRaftCluster.java:113)\n\tat org.apache.ratis.InstallSnapshotNotificationTests.testInstallSnapshotNotificationCount(InstallSnapshotNotificationTests.java:252)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.lang.Thread.run(Thread.java:750)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "3d2b002a44f0ee9432411940beb8892e6b52d4f1297275f58f46bcc1c479cecf"
+}

@@ -1,0 +1,954 @@
+[
+  {
+    "sample_id": "00b3436c286909c30a113235",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompNIOSSLTest.testTransformationReceiveJSONObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject21",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ecd52aa8700cc0724eb0fd6fce4f44d96156b88225a78c38c746d5d53e08fc8c",
+    "masked_sha256": "efd905ba70bce5dcdfa97d300062d00e0691250aecd91fb7e16b47294b55a76c",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "03087b604eb2581567c43dff",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompSslAuthTest.testTransformationReceiveObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveObject33",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ceb220028511673226d4911400b17cf6e9d5b369dc091dd6932101a4e545163c",
+    "masked_sha256": "7cba7d136cb95bbfa7b49fb7e824ce5cb2b7a036306d6c7d63bdc0f432a93065",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "082021d185d50cb6f610198d",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoNioTest.testTransformationReceiveObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveObject8",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ceb220028511673226d4911400b17cf6e9d5b369dc091dd6932101a4e545163c",
+    "masked_sha256": "7cba7d136cb95bbfa7b49fb7e824ce5cb2b7a036306d6c7d63bdc0f432a93065",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "0a9bef12e2c8a4039a3b413e",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveJSONObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject43",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ecd52aa8700cc0724eb0fd6fce4f44d96156b88225a78c38c746d5d53e08fc8c",
+    "masked_sha256": "03dad7bbd269696e812cae0783ebfce03db6d0161433c9ee092aa5a347dae132",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "1171c57487e35c62c596d06f",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompSslTest.testTransformationReceiveObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveObject38",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ceb220028511673226d4911400b17cf6e9d5b369dc091dd6932101a4e545163c",
+    "masked_sha256": "7cba7d136cb95bbfa7b49fb7e824ce5cb2b7a036306d6c7d63bdc0f432a93065",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "17d31ae0532d5d2ac28ba32b",
+    "canonical_test_id": "420659054::org.snakeyaml.engine.issues.issue25.DumpToStringTest.dumpToStringTwice",
+    "project_group": "420659054",
+    "repository": "https://github.com/snakeyaml/snakeyaml-engine",
+    "container": "snakeyamlengine9d2bca8dumpToStringTwice",
+    "label": "ID",
+    "fold": 86,
+    "original_sha256": "ef8d5462d6d1fca6b448017b3a1e025d52f252b13c1b60a4018c235550ffd556",
+    "masked_sha256": "b60864e89ae956b0f2a8287c32f1c653276b1b76d5afffe9bf27349dde600502",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "2285138a9407af3496a63b82",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompSslTest.testTransformationReceiveJSONObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject37",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ecd52aa8700cc0724eb0fd6fce4f44d96156b88225a78c38c746d5d53e08fc8c",
+    "masked_sha256": "efd905ba70bce5dcdfa97d300062d00e0691250aecd91fb7e16b47294b55a76c",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "22e4264c6539e917fec7ea67",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompNIOTest.testTransformationReceiveJSONObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject26",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ecd52aa8700cc0724eb0fd6fce4f44d96156b88225a78c38c746d5d53e08fc8c",
+    "masked_sha256": "efd905ba70bce5dcdfa97d300062d00e0691250aecd91fb7e16b47294b55a76c",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "2c4ed501b82ecc8bafd955fe",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoSslTest.testTransformationNotOverrideSubscription",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationNotOverrideSubscription9",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ab0a2a54404f93d035209040660f17a1dd144c91118a3b4d996dfca898b023ac",
+    "masked_sha256": "b0c09d6e41f6e50a1cf9d5b19cf436fa95908c4b4b4986b156bf736d31e192d8",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "2ccffd4463e9869c1416028a",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoNioSslTest.testTransformationReceiveObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveObject2",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ceb220028511673226d4911400b17cf6e9d5b369dc091dd6932101a4e545163c",
+    "masked_sha256": "7cba7d136cb95bbfa7b49fb7e824ce5cb2b7a036306d6c7d63bdc0f432a93065",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "2e3f3e0b6cf683cf0d99c935",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompSslAuthTest.testTransformationSubscribeXML",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML36",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "96c263bea8b3e0396d8b7a1141029a3abf0a7282d469af4742ba581f5fa921e3",
+    "masked_sha256": "1e1557896f9bf3d7697d31c58589790e2da1816285d3fcbe2d0a19d04d40bd2c",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "3207a60c9e29802b5d8a90e3",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompTest.testTransformationNotOverrideSubscription",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationNotOverrideSubscription42",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ab0a2a54404f93d035209040660f17a1dd144c91118a3b4d996dfca898b023ac",
+    "masked_sha256": "020ac4e29154f8df65bc4210deca042949b66804cf6e519dab65d534e217e8c3",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "3567b173ce8b72c0c9509933",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompNIOTest.testTransformationNotOverrideSubscription",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationNotOverrideSubscription25",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ab0a2a54404f93d035209040660f17a1dd144c91118a3b4d996dfca898b023ac",
+    "masked_sha256": "b0c09d6e41f6e50a1cf9d5b19cf436fa95908c4b4b4986b156bf736d31e192d8",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "3d67cfda9b85a1943fefa5c8",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoNioSslTest.testTransformationReceiveXMLObjectAndMap",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap4",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "d236e145998f41091905779cf5ecd1a91bbdd96e707c9e99c1362b5fff2b128f",
+    "masked_sha256": "0a60f57f860caad225f57d60efa6bbfb574917299fa210257c206eba08574ce9",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "3eedb3365c989860662a6233",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoTest.testTransformationReceiveXMLObjectAndMap",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap18",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "d236e145998f41091905779cf5ecd1a91bbdd96e707c9e99c1362b5fff2b128f",
+    "masked_sha256": "0a60f57f860caad225f57d60efa6bbfb574917299fa210257c206eba08574ce9",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "411368315dba370a39084461",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoNioSslTest.testTransformationSubscribeXML",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML5",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "96c263bea8b3e0396d8b7a1141029a3abf0a7282d469af4742ba581f5fa921e3",
+    "masked_sha256": "1e1557896f9bf3d7697d31c58589790e2da1816285d3fcbe2d0a19d04d40bd2c",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "49cd105f56d6ef915ffb6d68",
+    "canonical_test_id": "42369667::org.everit.json.schema.ObjectSchemaTest.multipleSchemaDepViolation",
+    "project_group": "42369667",
+    "repository": "https://github.com/everit-org/json-schema",
+    "container": "jsonschemacore7dbae50multipleSchemaDepViolation",
+    "label": "ID",
+    "fold": 88,
+    "original_sha256": "21e98426d81e96f42680aa88fbe675a8e8bb78baa74ded7186df221608382217",
+    "masked_sha256": "40ff18aaedf17c4e61883b7ba1e2814e6eecc439705a55c16e79b483f1e53665",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "4cbcbeee0a6aeb47fc179f3f",
+    "canonical_test_id": "57942251::com.fasterxml.jackson.dataformat.protobuf.WriteSimpleTest.testWritePointInt",
+    "project_group": "57942251",
+    "repository": "https://github.com/fasterxml/jackson-dataformats-binary",
+    "container": "jacksondataformatsbinaryprotobuf0eeb08ctestWritePointInt",
+    "label": "ID",
+    "fold": 101,
+    "original_sha256": "87ff14e570ef91ed88f2224d65f4d3f0ae8130a096f199982fe09feb34feee72",
+    "masked_sha256": "97df64353bc96366d059ee57ddce9afe92901fe71454c46bf2a7eb60833a9751",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "4d00146fa122baf752afbae8",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompSslAuthTest.testTransformationReceiveXMLObjectAndMap",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap35",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "d236e145998f41091905779cf5ecd1a91bbdd96e707c9e99c1362b5fff2b128f",
+    "masked_sha256": "0a60f57f860caad225f57d60efa6bbfb574917299fa210257c206eba08574ce9",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "4d724410ba25977710150922",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoTest.testTransformationReceiveXMLObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObject17",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ad16cdba08bcf1f50f7362f475610c11272d3ae042cfd63857dc55842c99f50f",
+    "masked_sha256": "f2890fbb116b9f98efcb733a64d1479d91dbb1a62f8b5231cf1522dc7b2303d4",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "4ec9764d78379e9548df9166",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObject45",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ad16cdba08bcf1f50f7362f475610c11272d3ae042cfd63857dc55842c99f50f",
+    "masked_sha256": "4893315cf6046f86a902ca704fc11e89a87aeaff4bfd29a05e60042c6614cb2e",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "4eec85321471f876ed20b096",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveObject44",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ceb220028511673226d4911400b17cf6e9d5b369dc091dd6932101a4e545163c",
+    "masked_sha256": "4f73ec04b04397574ffd57ce397d9145ed0691bc3e979ca2fc0027b18ba60177",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "50219c2c0bf9c98e924f1730",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoNioSslTest.testTransformationNotOverrideSubscription",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationNotOverrideSubscription",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ab0a2a54404f93d035209040660f17a1dd144c91118a3b4d996dfca898b023ac",
+    "masked_sha256": "b0c09d6e41f6e50a1cf9d5b19cf436fa95908c4b4b4986b156bf736d31e192d8",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "51ae8ed043ae51785328ceaf",
+    "canonical_test_id": "163387337::io.seata.common.util.CollectionUtilsTest.encodeMap",
+    "project_group": "163387337",
+    "repository": "https://github.com/apache/incubator-seata",
+    "container": "seatacommon0cad72eencodeMap",
+    "label": "ID",
+    "fold": 28,
+    "original_sha256": "64ce4b8a35744efa032ada484e7470343c0dfac1fc80d3a20f42d70e8b0b597f",
+    "masked_sha256": "b2ff15652fe0db45cadb657af893604c521c9f0af1d574668c9fcc8e4da716d0",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "537aee137df43ee6a85015da",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompSslAuthTest.testTransformationReceiveJSONObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject32",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ecd52aa8700cc0724eb0fd6fce4f44d96156b88225a78c38c746d5d53e08fc8c",
+    "masked_sha256": "efd905ba70bce5dcdfa97d300062d00e0691250aecd91fb7e16b47294b55a76c",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "5a554259c76df99a539f3f55",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompNIOSSLTest.testTransformationNotOverrideSubscription",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationNotOverrideSubscription20",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ab0a2a54404f93d035209040660f17a1dd144c91118a3b4d996dfca898b023ac",
+    "masked_sha256": "b0c09d6e41f6e50a1cf9d5b19cf436fa95908c4b4b4986b156bf736d31e192d8",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "5e0cf24708e8342f6feaf02a",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompNIOTest.testTransformationReceiveXMLObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObject28",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ad16cdba08bcf1f50f7362f475610c11272d3ae042cfd63857dc55842c99f50f",
+    "masked_sha256": "f2890fbb116b9f98efcb733a64d1479d91dbb1a62f8b5231cf1522dc7b2303d4",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "64b903c90de43e0ca11caed3",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompSslTest.testTransformationReceiveXMLObjectAndMap",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap40",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "d236e145998f41091905779cf5ecd1a91bbdd96e707c9e99c1362b5fff2b128f",
+    "masked_sha256": "0a60f57f860caad225f57d60efa6bbfb574917299fa210257c206eba08574ce9",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "7771e79f475666399b11a423",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompSslAuthTest.testTransformationNotOverrideSubscription",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationNotOverrideSubscription31",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ab0a2a54404f93d035209040660f17a1dd144c91118a3b4d996dfca898b023ac",
+    "masked_sha256": "b0c09d6e41f6e50a1cf9d5b19cf436fa95908c4b4b4986b156bf736d31e192d8",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "787da9b03689114fdf5a2401",
+    "canonical_test_id": "2700474::com.alibaba.json.bvt.issue_1500.Issue1584.test_for_issue",
+    "project_group": "2700474",
+    "repository": "https://github.com/alibaba/fastjson",
+    "container": "fastjson23070b2test_for_issue6",
+    "label": "ID",
+    "fold": 61,
+    "original_sha256": "e77ebeff45628117b8b37097dd007e135915a37627c93ad2b55b8dcfcbdc165c",
+    "masked_sha256": "ec77fb0e0c05714531d7d094ddfd7e0be4ae50aaed7f1a197a9833aad513ce2d",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "8249c20f35590870931c15b7",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoSslTest.testTransformationSubscribeXML",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML13",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "96c263bea8b3e0396d8b7a1141029a3abf0a7282d469af4742ba581f5fa921e3",
+    "masked_sha256": "1e1557896f9bf3d7697d31c58589790e2da1816285d3fcbe2d0a19d04d40bd2c",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "856b7199efe53145943acc54",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompNIOTest.testTransformationSubscribeXML",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML30",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "96c263bea8b3e0396d8b7a1141029a3abf0a7282d469af4742ba581f5fa921e3",
+    "masked_sha256": "1e1557896f9bf3d7697d31c58589790e2da1816285d3fcbe2d0a19d04d40bd2c",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "8725485b6e2de6ca9d29a22a",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoSslTest.testTransformationReceiveXMLObjectAndMap",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap12",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "d236e145998f41091905779cf5ecd1a91bbdd96e707c9e99c1362b5fff2b128f",
+    "masked_sha256": "0a60f57f860caad225f57d60efa6bbfb574917299fa210257c206eba08574ce9",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "91f0efeb5613cecabb2a12b0",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompSslTest.testTransformationSubscribeXML",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML41",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "96c263bea8b3e0396d8b7a1141029a3abf0a7282d469af4742ba581f5fa921e3",
+    "masked_sha256": "1e1557896f9bf3d7697d31c58589790e2da1816285d3fcbe2d0a19d04d40bd2c",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "92bdb08b11e57f9a40240471",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompNIOSSLTest.testTransformationSubscribeXML",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML24",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "96c263bea8b3e0396d8b7a1141029a3abf0a7282d469af4742ba581f5fa921e3",
+    "masked_sha256": "1e1557896f9bf3d7697d31c58589790e2da1816285d3fcbe2d0a19d04d40bd2c",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "ab57bcac1139b4c0fdf37831",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoSslTest.testTransformationReceiveXMLObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObject11",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ad16cdba08bcf1f50f7362f475610c11272d3ae042cfd63857dc55842c99f50f",
+    "masked_sha256": "f2890fbb116b9f98efcb733a64d1479d91dbb1a62f8b5231cf1522dc7b2303d4",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "ae59bf5cec154481ba306a68",
+    "canonical_test_id": "57942251::com.fasterxml.jackson.dataformat.protobuf.WriteArrayTest.testPointArrayPacked",
+    "project_group": "57942251",
+    "repository": "https://github.com/fasterxml/jackson-dataformats-binary",
+    "container": "jacksondataformatsbinaryprotobuf0eeb08ctestPointArrayPacked",
+    "label": "ID",
+    "fold": 101,
+    "original_sha256": "10560588bd54fd6d2f47ce834b7bea6ce1037bc1b6794dbadf61bc80c0efb28a",
+    "masked_sha256": "df10368a7ae877b25b5f722795f29ea4b7b87b9b0187748454dd6a0f310337a2",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "aeb94fe97b05560ad1b11f22",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoNioSslTest.testTransformationReceiveXMLObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObject3",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ad16cdba08bcf1f50f7362f475610c11272d3ae042cfd63857dc55842c99f50f",
+    "masked_sha256": "f2890fbb116b9f98efcb733a64d1479d91dbb1a62f8b5231cf1522dc7b2303d4",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "b1399ac4f38d47e03cd52942",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoTest.testTransformationSubscribeXML",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML19",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "96c263bea8b3e0396d8b7a1141029a3abf0a7282d469af4742ba581f5fa921e3",
+    "masked_sha256": "1e1557896f9bf3d7697d31c58589790e2da1816285d3fcbe2d0a19d04d40bd2c",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "ba8208ab69395e7b004d7304",
+    "canonical_test_id": "68291529::com.networknt.schema.CollectorContextTest.testCollectorContextWithKeyword",
+    "project_group": "68291529",
+    "repository": "https://github.com/networknt/json-schema-validator",
+    "container": "jsonschemavalidator0c2a855testCollectorContextWithKeyword",
+    "label": "ID",
+    "fold": 109,
+    "original_sha256": "ad4cffa2e910f872a872dddb396eb00ae2e31fe0a63a24ac9b75d6990533d287",
+    "masked_sha256": "8abb4ece7ba80825164a6646ec9fe5218d5693a2a6d14f2adf9e7a9888902360",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "c0262714335bb0a09774b0d7",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoSslTest.testTransformationReceiveObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveObject10",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ceb220028511673226d4911400b17cf6e9d5b369dc091dd6932101a4e545163c",
+    "masked_sha256": "7cba7d136cb95bbfa7b49fb7e824ce5cb2b7a036306d6c7d63bdc0f432a93065",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "c0451945956e10ba15781e73",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompSslAuthTest.testTransformationReceiveXMLObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObject34",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ad16cdba08bcf1f50f7362f475610c11272d3ae042cfd63857dc55842c99f50f",
+    "masked_sha256": "f2890fbb116b9f98efcb733a64d1479d91dbb1a62f8b5231cf1522dc7b2303d4",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "c672c4e8e9597bed2204fb98",
+    "canonical_test_id": "80501529::org.apache.ratis.grpc.TestInstallSnapshotNotificationWithGrpc.testInstallSnapshotNotificationCount",
+    "project_group": "80501529",
+    "repository": "https://github.com/apache/ratis",
+    "container": "RATIS-1363",
+    "label": "TD",
+    "fold": 115,
+    "original_sha256": "3d2b002a44f0ee9432411940beb8892e6b52d4f1297275f58f46bcc1c479cecf",
+    "masked_sha256": "6828c2bd765b110f053c58ef43af17a066b868a53e834da9cff1d36a0a2ee452",
+    "predictions": {
+      "original": "TD",
+      "masked": "ID",
+      "majority": "ID",
+      "source_format": "OD"
+    }
+  },
+  {
+    "sample_id": "c7e48f6dfb402ba10e867722",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompNIOTest.testTransformationReceiveXMLObjectAndMap",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap29",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "d236e145998f41091905779cf5ecd1a91bbdd96e707c9e99c1362b5fff2b128f",
+    "masked_sha256": "0a60f57f860caad225f57d60efa6bbfb574917299fa210257c206eba08574ce9",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "c807bb0508f9be0a2e5bb812",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompTest.testTransformationSubscribeXML",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML47",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "96c263bea8b3e0396d8b7a1141029a3abf0a7282d469af4742ba581f5fa921e3",
+    "masked_sha256": "a8f74c40ea2d491005f0069318969a3c51835c766c3cf3d034aabacad465cd95",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "ccaf641d47be707c140e93aa",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoNioTest.testTransformationNotOverrideSubscription",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationNotOverrideSubscription6",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ab0a2a54404f93d035209040660f17a1dd144c91118a3b4d996dfca898b023ac",
+    "masked_sha256": "b0c09d6e41f6e50a1cf9d5b19cf436fa95908c4b4b4986b156bf736d31e192d8",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "cd67c8b3d33b084a83e1dd09",
+    "canonical_test_id": "57942251::com.fasterxml.jackson.dataformat.protobuf.WriteArrayTest.testPointArraySparse",
+    "project_group": "57942251",
+    "repository": "https://github.com/fasterxml/jackson-dataformats-binary",
+    "container": "jacksondataformatsbinaryprotobuf0eeb08ctestPointArraySparse",
+    "label": "ID",
+    "fold": 101,
+    "original_sha256": "5fc53324dd3362bd3ff6a10099595da22688cc1f8fc20a1e4f49eb1dc5692c0a",
+    "masked_sha256": "c93221edd5ab7ba2bf7c7c124cd05c979d782ba13aa269f26410f2ebdebc6380",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "da33e2a597684eb291c38524",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoNioTest.testTransformationReceiveJSONObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject7",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ecd52aa8700cc0724eb0fd6fce4f44d96156b88225a78c38c746d5d53e08fc8c",
+    "masked_sha256": "efd905ba70bce5dcdfa97d300062d00e0691250aecd91fb7e16b47294b55a76c",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "db1f5141131a4c9b17e64b88",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompNIOSSLTest.testTransformationReceiveXMLObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObject22",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ad16cdba08bcf1f50f7362f475610c11272d3ae042cfd63857dc55842c99f50f",
+    "masked_sha256": "f2890fbb116b9f98efcb733a64d1479d91dbb1a62f8b5231cf1522dc7b2303d4",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "db731067da54fe59278ccfb4",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoTest.testTransformationReceiveObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveObject16",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ceb220028511673226d4911400b17cf6e9d5b369dc091dd6932101a4e545163c",
+    "masked_sha256": "7cba7d136cb95bbfa7b49fb7e824ce5cb2b7a036306d6c7d63bdc0f432a93065",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "e3e871de422d25fc3d6d1c6e",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoTest.testTransformationReceiveJSONObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject14",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ecd52aa8700cc0724eb0fd6fce4f44d96156b88225a78c38c746d5d53e08fc8c",
+    "masked_sha256": "efd905ba70bce5dcdfa97d300062d00e0691250aecd91fb7e16b47294b55a76c",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "f3b0ab46cb06ed32cb390443",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.auto.StompAutoNioSslTest.testTransformationReceiveJSONObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveJSONObject1",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ecd52aa8700cc0724eb0fd6fce4f44d96156b88225a78c38c746d5d53e08fc8c",
+    "masked_sha256": "efd905ba70bce5dcdfa97d300062d00e0691250aecd91fb7e16b47294b55a76c",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "f6d3eb6c17267ec7f97837c2",
+    "canonical_test_id": "206378::org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionHierarchyHashCode",
+    "project_group": "206378",
+    "repository": "https://github.com/apache/commons-lang",
+    "container": "commonslang1163e17testReflectionHierarchyHashCode",
+    "label": "ID",
+    "fold": 41,
+    "original_sha256": "7e93bc6471b1dc50d20b375977555ffe08af7e28d8d5b04f2d4129a6efe94c61",
+    "masked_sha256": "73488523b1a020667c2bdc2ec428b6e587e0292c7c0683bdc7beb27dc2fdaca9",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "f8c75771d45433662595caa0",
+    "canonical_test_id": "311530297::com.alibaba.testable.core.tool.OmniAccessorTest.should_generate_member_index",
+    "project_group": "311530297",
+    "repository": "https://github.com/alibaba/testable-mock",
+    "container": "testablemocktestablecore80b0f3bshould_generate_member_index",
+    "label": "ID",
+    "fold": 73,
+    "original_sha256": "ba9ea59d79d0baafe91de06fd1fc88910025b27a6a822817e78a7cc18ff58638",
+    "masked_sha256": "f76202f6f81efb4acd26f1ea1628c3c524298c688d6f04287bcc7bc4d931e542",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "fdc0f3f5b7eddd86fc8012cb",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompNIOTest.testTransformationReceiveObject",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveObject27",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "ceb220028511673226d4911400b17cf6e9d5b369dc091dd6932101a4e545163c",
+    "masked_sha256": "7cba7d136cb95bbfa7b49fb7e824ce5cb2b7a036306d6c7d63bdc0f432a93065",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  },
+  {
+    "sample_id": "fea19491baf0a7f54c1b083f",
+    "canonical_test_id": "206387::org.apache.activemq.transport.stomp.StompNIOSSLTest.testTransformationReceiveXMLObjectAndMap",
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap23",
+    "label": "ID",
+    "fold": 42,
+    "original_sha256": "d236e145998f41091905779cf5ecd1a91bbdd96e707c9e99c1362b5fff2b128f",
+    "masked_sha256": "0a60f57f860caad225f57d60efa6bbfb574917299fa210257c206eba08574ce9",
+    "predictions": {
+      "original": "ID",
+      "masked": "TD",
+      "majority": "ID",
+      "source_format": "ID"
+    }
+  }
+]

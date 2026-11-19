@@ -1,0 +1,58 @@
+{
+  "started_utc": "2026-11-19T08:23:46.976259+00:00",
+  "protocol_sha256": "fa085951eb91006334623b1353c8f45564592eeb985b01cec2c6a633230ea12d",
+  "config_sha256": "31e7bee91bd23eb569ed19129c685cfcf4b181a0e96bea390d87940f1d270c05",
+  "corpus_sha256": "4fbee74d76717535e80f7c40841852784a23c1907954e8227ad2ae31f87c5127",
+  "code_sha256": "871bce31fd36f8718e520bdd4a6b76b5b5e9c351c1bf439449b3ab24edb56142",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "computation_threads": 1
+  },
+  "conditions": {
+    "OOO": {
+      "vectorizer_fit_text": "original",
+      "classifier_fit_text": "original",
+      "test_text": "original"
+    },
+    "OOM": {
+      "vectorizer_fit_text": "original",
+      "classifier_fit_text": "original",
+      "test_text": "masked"
+    },
+    "OMO": {
+      "vectorizer_fit_text": "original",
+      "classifier_fit_text": "masked",
+      "test_text": "original"
+    },
+    "OMM": {
+      "vectorizer_fit_text": "original",
+      "classifier_fit_text": "masked",
+      "test_text": "masked"
+    },
+    "MOO": {
+      "vectorizer_fit_text": "masked",
+      "classifier_fit_text": "original",
+      "test_text": "original"
+    },
+    "MOM": {
+      "vectorizer_fit_text": "masked",
+      "classifier_fit_text": "original",
+      "test_text": "masked"
+    },
+    "MMO": {
+      "vectorizer_fit_text": "masked",
+      "classifier_fit_text": "masked",
+      "test_text": "original"
+    },
+    "MMM": {
+      "vectorizer_fit_text": "masked",
+      "classifier_fit_text": "masked",
+      "test_text": "masked"
+    }
+  },
+  "exploratory": true
+}

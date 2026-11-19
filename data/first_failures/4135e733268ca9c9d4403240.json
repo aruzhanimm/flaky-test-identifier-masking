@@ -1,0 +1,81 @@
+{
+  "container": "castlejavaa5e9ef9fullBuilderJson3",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "castlejavaa5e9ef9fullBuilderJson3",
+    "project": "https://github.com/castle/castle-java",
+    "revision": "a5e9ef94b46b4ba6accf630c5d50ed53dc86183f",
+    "test": "io.castle.client.model.CastleUserDeviceTest.fullBuilderJson",
+    "label": "ID",
+    "module": ".",
+    "zip": "castle-java=.=a5e9ef9",
+    "config_row": 44,
+    "configured_test": "io.castle.client.model.CastleUserDeviceTest#fullBuilderJson",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/castle/castle-java::io.castle.client.model.CastleUserDeviceTest.fullBuilderJson",
+    "variant_id": "https://github.com/castle/castle-java::io.castle.client.model.CastleUserDeviceTest.fullBuilderJson::a5e9ef94b46b4ba6accf630c5d50ed53dc86183f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/castlejavaa5e9ef9fullBuilderJson3/result/Flaky/.nondex/k0BT8rsABnP21KHtO+CYz9pcSRyqkXmz71s3cgAVvl8=/TEST-io.castle.client.model.CastleUserDeviceTest.xml",
+        "size": 14912,
+        "compressed": 3108,
+        "crc32": "6921f104",
+        "offset": 612143898,
+        "method": 8,
+        "local_path": "data/extracted/fd5efec021f103a0b4583eb8.xml",
+        "sha256": "7be9ee3244173d1550d73d190ef8b4e04307cbad561d8d4781acde0e1d02b11a",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/castlejavaa5e9ef9fullBuilderJson3/result/Flaky/rounds-test-results.csv",
+    "size": 17782,
+    "compressed": 4876,
+    "crc32": "2f1d4490",
+    "offset": 611929786,
+    "method": 8,
+    "local_path": "data/extracted/8bfbf9eae223750d690c3c41.csv",
+    "sha256": "2d5ba010550408cb33095c51667db369047135d49cd0ad79fdc5328cf5227486",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/castlejavaa5e9ef9fullBuilderJson3/result/Flaky/.nondex/k0BT8rsABnP21KHtO+CYz9pcSRyqkXmz71s3cgAVvl8=/TEST-io.castle.client.model.CastleUserDeviceTest.xml",
+    "size": 14912,
+    "compressed": 3108,
+    "crc32": "6921f104",
+    "offset": 612143898,
+    "method": 8,
+    "local_path": "data/extracted/fd5efec021f103a0b4583eb8.xml",
+    "sha256": "7be9ee3244173d1550d73d190ef8b4e04307cbad561d8d4781acde0e1d02b11a",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "fullBuilderJson",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<\"{\"[token\":\"abcdefg12345\",\"risk\":0.0,\"created_at\":\"2018-06-15T16:36:22.916Z\",\"last_seen_at\":\"2018-07-19T23:09:29.681Z\",\"context\":{\"ip\":\"1.1.1.1\",\"user_agent\":{\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"browser\":\"Opera\",\"version\":\"54.0.2952\",\"os\":\"Mac OS X 10.13.6\",\"mobile\":false,\"platform\":\"Mac OS X\",\"device\":\"Unknown\",\"family\":\"Opera\"},\"type\":\"desktop\"},\"is_current_device\":true]}\"> but was:<\"{\"[context\":{\"type\":\"desktop\",\"ip\":\"1.1.1.1\",\"user_agent\":{\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"mobile\":false,\"os\":\"Mac OS X 10.13.6\",\"platform\":\"Mac OS X\",\"browser\":\"Opera\",\"version\":\"54.0.2952\",\"family\":\"Opera\",\"device\":\"Unknown\"}},\"is_current_device\":true,\"risk\":0.0,\"last_seen_at\":\"2018-07-19T23:09:29.681Z\",\"token\":\"abcdefg12345\",\"created_at\":\"2018-06-15T16:36:22.916Z\"]}\">",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<\"{\"[token\":\"abcdefg12345\",\"risk\":0.0,\"created_at\":\"2018-06-15T16:36:22.916Z\",\"last_seen_at\":\"2018-07-19T23:09:29.681Z\",\"context\":{\"ip\":\"1.1.1.1\",\"user_agent\":{\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"browser\":\"Opera\",\"version\":\"54.0.2952\",\"os\":\"Mac OS X 10.13.6\",\"mobile\":false,\"platform\":\"Mac OS X\",\"device\":\"Unknown\",\"family\":\"Opera\"},\"type\":\"desktop\"},\"is_current_device\":true]}\"> but was:<\"{\"[context\":{\"type\":\"desktop\",\"ip\":\"1.1.1.1\",\"user_agent\":{\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"mobile\":false,\"os\":\"Mac OS X 10.13.6\",\"platform\":\"Mac OS X\",\"browser\":\"Opera\",\"version\":\"54.0.2952\",\"family\":\"Opera\",\"device\":\"Unknown\"}},\"is_current_device\":true,\"risk\":0.0,\"last_seen_at\":\"2018-07-19T23:09:29.681Z\",\"token\":\"abcdefg12345\",\"created_at\":\"2018-06-15T16:36:22.916Z\"]}\">\n\tat io.castle.client.model.CastleUserDeviceTest.fullBuilderJson(CastleUserDeviceTest.java:59)",
+    "text": "org.junit.ComparisonFailure\nexpected:<\"{\"[token\":\"abcdefg12345\",\"risk\":0.0,\"created_at\":\"2018-06-15T16:36:22.916Z\",\"last_seen_at\":\"2018-07-19T23:09:29.681Z\",\"context\":{\"ip\":\"1.1.1.1\",\"user_agent\":{\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"browser\":\"Opera\",\"version\":\"54.0.2952\",\"os\":\"Mac OS X 10.13.6\",\"mobile\":false,\"platform\":\"Mac OS X\",\"device\":\"Unknown\",\"family\":\"Opera\"},\"type\":\"desktop\"},\"is_current_device\":true]}\"> but was:<\"{\"[context\":{\"type\":\"desktop\",\"ip\":\"1.1.1.1\",\"user_agent\":{\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"mobile\":false,\"os\":\"Mac OS X 10.13.6\",\"platform\":\"Mac OS X\",\"browser\":\"Opera\",\"version\":\"54.0.2952\",\"family\":\"Opera\",\"device\":\"Unknown\"}},\"is_current_device\":true,\"risk\":0.0,\"last_seen_at\":\"2018-07-19T23:09:29.681Z\",\"token\":\"abcdefg12345\",\"created_at\":\"2018-06-15T16:36:22.916Z\"]}\">\norg.junit.ComparisonFailure: expected:<\"{\"[token\":\"abcdefg12345\",\"risk\":0.0,\"created_at\":\"2018-06-15T16:36:22.916Z\",\"last_seen_at\":\"2018-07-19T23:09:29.681Z\",\"context\":{\"ip\":\"1.1.1.1\",\"user_agent\":{\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"browser\":\"Opera\",\"version\":\"54.0.2952\",\"os\":\"Mac OS X 10.13.6\",\"mobile\":false,\"platform\":\"Mac OS X\",\"device\":\"Unknown\",\"family\":\"Opera\"},\"type\":\"desktop\"},\"is_current_device\":true]}\"> but was:<\"{\"[context\":{\"type\":\"desktop\",\"ip\":\"1.1.1.1\",\"user_agent\":{\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"mobile\":false,\"os\":\"Mac OS X 10.13.6\",\"platform\":\"Mac OS X\",\"browser\":\"Opera\",\"version\":\"54.0.2952\",\"family\":\"Opera\",\"device\":\"Unknown\"}},\"is_current_device\":true,\"risk\":0.0,\"last_seen_at\":\"2018-07-19T23:09:29.681Z\",\"token\":\"abcdefg12345\",\"created_at\":\"2018-06-15T16:36:22.916Z\"]}\">\n\tat io.castle.client.model.CastleUserDeviceTest.fullBuilderJson(CastleUserDeviceTest.java:59)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "c57bb6a887787e618db3f11fe7bfbf5271e26f50842358d17b49147209eaa77c"
+}

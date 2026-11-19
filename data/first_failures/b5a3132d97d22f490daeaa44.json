@@ -1,0 +1,81 @@
+{
+  "container": "hapifhirhapifhirclientokhttp443b59atestSearchByPostUseJson5",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "hapifhirhapifhirclientokhttp443b59atestSearchByPostUseJson5",
+    "project": "https://github.com/hapifhir/hapi-fhir",
+    "revision": "443b59a78b08021cd101a591547a06353fd8242c",
+    "test": "ca.uhn.fhir.okhttp.GenericOkHttpClientDstu2Test.testSearchByPostUseJson",
+    "label": "ID",
+    "module": "hapi-fhir-client-okhttp",
+    "zip": "hapi-fhir=hapi-fhir-client-okhttp=443b59a",
+    "config_row": 353,
+    "configured_test": "ca.uhn.fhir.okhttp.GenericOkHttpClientDstu2Test#testSearchByPostUseJson",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/hapifhir/hapi-fhir::ca.uhn.fhir.okhttp.GenericOkHttpClientDstu2Test.testSearchByPostUseJson",
+    "variant_id": "https://github.com/hapifhir/hapi-fhir::ca.uhn.fhir.okhttp.GenericOkHttpClientDstu2Test.testSearchByPostUseJson::443b59a78b08021cd101a591547a06353fd8242c::hapi-fhir-client-okhttp",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/hapifhirhapifhirclientokhttp443b59atestSearchByPostUseJson5/result/Flaky/.nondex/D6Li7tR5cEuQVSyXwqXy1rmBZ3B4B4oZNZ52zUoA41g=/TEST-ca.uhn.fhir.okhttp.GenericOkHttpClientDstu2Test.xml",
+        "size": 168389,
+        "compressed": 17829,
+        "crc32": "d8932d7b",
+        "offset": 1959395760,
+        "method": 8,
+        "local_path": "data/extracted/8539935ca5ae107bdd66adc1.xml",
+        "sha256": "fb35703dc193f711eb0de614d3c27aa9b9e4afe3d337b5209a1717e429f71bf2",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/hapifhirhapifhirclientokhttp443b59atestSearchByPostUseJson5/result/Flaky/rounds-test-results.csv",
+    "size": 20167,
+    "compressed": 5176,
+    "crc32": "65501c5b",
+    "offset": 1959131800,
+    "method": 8,
+    "local_path": "data/extracted/5be0d47a2101f9b3a1886fdf.csv",
+    "sha256": "a6bf0719af65941e602a8dde7da2de0db4d01cdfd1d98c767ba37bb6528f89df",
+    "status": "verified"
+  },
+  "reported_failure_rows": 47,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/hapifhirhapifhirclientokhttp443b59atestSearchByPostUseJson5/result/Flaky/.nondex/D6Li7tR5cEuQVSyXwqXy1rmBZ3B4B4oZNZ52zUoA41g=/TEST-ca.uhn.fhir.okhttp.GenericOkHttpClientDstu2Test.xml",
+    "size": 168389,
+    "compressed": 17829,
+    "crc32": "d8932d7b",
+    "offset": 1959395760,
+    "method": 8,
+    "local_path": "data/extracted/8539935ca5ae107bdd66adc1.xml",
+    "sha256": "fb35703dc193f711eb0de614d3c27aa9b9e4afe3d337b5209a1717e429f71bf2",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testSearchByPostUseJson",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expecting actual:\n  \"http://localhost:41785/fhir/Patient/_search?_elements=name%2Cidentifier\"\nto contain:\n  \"_elements=identifier%2Cname\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpecting actual:\n  \"http://localhost:41785/fhir/Patient/_search?_elements=name%2Cidentifier\"\nto contain:\n  \"_elements=identifier%2Cname\" \n\tat ca.uhn.fhir.okhttp.GenericOkHttpClientDstu2Test.testSearchByPostUseJson(GenericOkHttpClientDstu2Test.java:1394)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "text": "java.lang.AssertionError\nExpecting actual:\n  \"http://localhost:41785/fhir/Patient/_search?_elements=name%2Cidentifier\"\nto contain:\n  \"_elements=identifier%2Cname\"\njava.lang.AssertionError: \n\nExpecting actual:\n  \"http://localhost:41785/fhir/Patient/_search?_elements=name%2Cidentifier\"\nto contain:\n  \"_elements=identifier%2Cname\" \n\tat ca.uhn.fhir.okhttp.GenericOkHttpClientDstu2Test.testSearchByPostUseJson(GenericOkHttpClientDstu2Test.java:1394)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "ffaadfc2d7fa7791a4a6ec112d0e7647ddc98a1abdc4135ac0256a8c315b3d23"
+}

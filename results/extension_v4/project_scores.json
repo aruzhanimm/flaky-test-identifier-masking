@@ -1,0 +1,3185 @@
+[
+  {
+    "fold": 0,
+    "project_group": "1001284",
+    "repository": "https://github.com/pholser/junit-quickcheck",
+    "support": 122,
+    "category_counts": {
+      "NIO": 116,
+      "ID": 6
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 1,
+    "project_group": "107434177",
+    "repository": "https://github.com/apache/sling-org-apache-sling-servlets-get",
+    "support": 2,
+    "category_counts": {
+      "ID": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 2,
+    "project_group": "107437722",
+    "repository": "https://github.com/adobe/asset-share-commons",
+    "support": 4,
+    "category_counts": {
+      "ID": 4
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 3,
+    "project_group": "10981994",
+    "repository": "https://github.com/openfeign/feign",
+    "support": 12,
+    "category_counts": {
+      "ID": 12
+    },
+    "scores": {
+      "original": 0.9565217391304348,
+      "T": 0.9565217391304348,
+      "R": 0.9565217391304348,
+      "P": 0.9565217391304348,
+      "TR": 0.9565217391304348,
+      "TP": 0.9565217391304348,
+      "RP": 0.9565217391304348,
+      "full": 0.9565217391304348,
+      "svc_original": 0.9565217391304348,
+      "svc_full": 0.9565217391304348,
+      "original_model_masked_text": 0.9565217391304348,
+      "masked_model_original_text": 0.9565217391304348
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 4,
+    "project_group": "110129066",
+    "repository": "https://github.com/oracle/weblogic-monitoring-exporter",
+    "support": 5,
+    "category_counts": {
+      "ID": 5
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 5,
+    "project_group": "11233996",
+    "repository": "https://github.com/immutables/immutables",
+    "support": 5,
+    "category_counts": {
+      "ID": 5
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 6,
+    "project_group": "113678133",
+    "repository": "https://github.com/apache/maven-dependency-plugin",
+    "support": 3,
+    "category_counts": {
+      "ID": 3
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 7,
+    "project_group": "116714930",
+    "repository": "https://github.com/cerner/common-kafka",
+    "support": 4,
+    "category_counts": {
+      "ID": 4
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 8,
+    "project_group": "117292444",
+    "repository": "https://github.com/eclipse-ee4j/tyrus",
+    "support": 2,
+    "category_counts": {
+      "ID": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 9,
+    "project_group": "1187853",
+    "repository": "https://github.com/stleary/json-java",
+    "support": 7,
+    "category_counts": {
+      "ID": 7
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 10,
+    "project_group": "1194243",
+    "repository": "https://github.com/smooks/smooks",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 11,
+    "project_group": "11981144",
+    "repository": "https://github.com/languagetool-org/languagetool",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 12,
+    "project_group": "12594924",
+    "repository": "https://github.com/jdereg/json-io",
+    "support": 7,
+    "category_counts": {
+      "ID": 7
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 13,
+    "project_group": "129954828",
+    "repository": "https://github.com/eclipse-ee4j/jersey",
+    "support": 4,
+    "category_counts": {
+      "ID": 4
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 14,
+    "project_group": "130603282",
+    "repository": "https://github.com/apache/streampipes",
+    "support": 2,
+    "category_counts": {
+      "ID": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 15,
+    "project_group": "135270285",
+    "repository": "https://github.com/vipshop/vjtools",
+    "support": 3,
+    "category_counts": {
+      "ID": 3
+    },
+    "scores": {
+      "original": 0.0,
+      "T": 0.0,
+      "R": 0.0,
+      "P": 0.0,
+      "TR": 0.0,
+      "TP": 0.0,
+      "RP": 0.0,
+      "full": 0.0,
+      "svc_original": 0.8,
+      "svc_full": 0.8,
+      "original_model_masked_text": 0.0,
+      "masked_model_original_text": 0.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 16,
+    "project_group": "137451403",
+    "repository": "https://github.com/alibaba/nacos",
+    "support": 11,
+    "category_counts": {
+      "ID": 11
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 17,
+    "project_group": "1381673",
+    "repository": "https://github.com/apache/incubator-kie",
+    "support": 2,
+    "category_counts": {
+      "ID": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 18,
+    "project_group": "139914932",
+    "repository": "https://github.com/quarkusio/quarkus",
+    "support": 6,
+    "category_counts": {
+      "ID": 6
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 19,
+    "project_group": "140543886",
+    "repository": "https://github.com/apache/shenyu",
+    "support": 8,
+    "category_counts": {
+      "ID": 8
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 20,
+    "project_group": "143156558",
+    "repository": "https://github.com/sap-archive/pair-distribution-app",
+    "support": 7,
+    "category_counts": {
+      "ID": 7
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 21,
+    "project_group": "144999365",
+    "repository": "https://github.com/apache/hugegraph-toolchain",
+    "support": 3,
+    "category_counts": {
+      "ID": 3
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 22,
+    "project_group": "14696091",
+    "repository": "https://github.com/raphw/byte-buddy",
+    "support": 3,
+    "category_counts": {
+      "ID": 3
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 23,
+    "project_group": "152415097",
+    "repository": "https://github.com/ericsson/ecchronos",
+    "support": 4,
+    "category_counts": {
+      "ID": 4
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 24,
+    "project_group": "15928650",
+    "repository": "https://github.com/apache/struts",
+    "support": 2,
+    "category_counts": {
+      "ID": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 25,
+    "project_group": "160999",
+    "repository": "https://github.com/apache/zookeeper",
+    "support": 1,
+    "category_counts": {
+      "TD": 1
+    },
+    "scores": {
+      "original": 0.0,
+      "T": 0.0,
+      "R": 0.0,
+      "P": 0.0,
+      "TR": 0.0,
+      "TP": 0.0,
+      "RP": 0.0,
+      "full": 0.0,
+      "svc_original": 0.0,
+      "svc_full": 0.0,
+      "original_model_masked_text": 0.0,
+      "masked_model_original_text": 0.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 26,
+    "project_group": "16144428",
+    "repository": "https://github.com/wikidata-toolkit/wikidata-toolkit",
+    "support": 2,
+    "category_counts": {
+      "OD": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 27,
+    "project_group": "161665401",
+    "repository": "https://github.com/okta/okta-hooks-sdk-java",
+    "support": 19,
+    "category_counts": {
+      "ID": 19
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 28,
+    "project_group": "163387337",
+    "repository": "https://github.com/apache/incubator-seata",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 0.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 0.0,
+      "TP": 0.0,
+      "RP": 1.0,
+      "full": 0.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 0.0,
+      "masked_model_original_text": 0.0
+    },
+    "full_delta": -1.0,
+    "changed": 1
+  },
+  {
+    "fold": 29,
+    "project_group": "163492945",
+    "repository": "https://github.com/mirromutth/r2dbc-mysql",
+    "support": 2,
+    "category_counts": {
+      "ID": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 30,
+    "project_group": "17359057",
+    "repository": "https://github.com/apache/curator",
+    "support": 1,
+    "category_counts": {
+      "TD": 1
+    },
+    "scores": {
+      "original": 0.0,
+      "T": 0.0,
+      "R": 0.0,
+      "P": 0.0,
+      "TR": 0.0,
+      "TP": 0.0,
+      "RP": 0.0,
+      "full": 0.0,
+      "svc_original": 0.0,
+      "svc_full": 0.0,
+      "original_model_masked_text": 0.0,
+      "masked_model_original_text": 0.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 31,
+    "project_group": "17575379",
+    "repository": "https://github.com/erudika/para",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 32,
+    "project_group": "180537027",
+    "repository": "https://github.com/sap-archive/scimono",
+    "support": 8,
+    "category_counts": {
+      "ID": 8
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 33,
+    "project_group": "18259368",
+    "repository": "https://github.com/javadev/underscore-java",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 34,
+    "project_group": "18723836",
+    "repository": "https://github.com/chinabugotech/hutool",
+    "support": 8,
+    "category_counts": {
+      "ID": 8
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 35,
+    "project_group": "198266782",
+    "repository": "https://github.com/streamx-co/fluentjpa",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 36,
+    "project_group": "19961085",
+    "repository": "https://github.com/apache/pinot",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 37,
+    "project_group": "20089857",
+    "repository": "https://github.com/apache/hbase",
+    "support": 2,
+    "category_counts": {
+      "ID": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 38,
+    "project_group": "2019791",
+    "repository": "https://github.com/liquibase/liquibase",
+    "support": 4,
+    "category_counts": {
+      "ID": 4
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 39,
+    "project_group": "20587599",
+    "repository": "https://github.com/apache/flink",
+    "support": 3,
+    "category_counts": {
+      "ID": 3
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 40,
+    "project_group": "206362",
+    "repository": "https://github.com/apache/commons-collections",
+    "support": 9,
+    "category_counts": {
+      "ID": 8,
+      "TD": 1
+    },
+    "scores": {
+      "original": 0.47058823529411764,
+      "T": 0.47058823529411764,
+      "R": 0.47058823529411764,
+      "P": 0.47058823529411764,
+      "TR": 0.47058823529411764,
+      "TP": 0.47058823529411764,
+      "RP": 0.47058823529411764,
+      "full": 0.47058823529411764,
+      "svc_original": 0.47058823529411764,
+      "svc_full": 0.47058823529411764,
+      "original_model_masked_text": 0.47058823529411764,
+      "masked_model_original_text": 0.47058823529411764
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 41,
+    "project_group": "206378",
+    "repository": "https://github.com/apache/commons-lang",
+    "support": 22,
+    "category_counts": {
+      "ID": 22
+    },
+    "scores": {
+      "original": 0.9767441860465116,
+      "T": 0.9523809523809523,
+      "R": 0.9767441860465116,
+      "P": 0.9767441860465116,
+      "TR": 0.9523809523809523,
+      "TP": 0.9523809523809523,
+      "RP": 0.9767441860465116,
+      "full": 0.9523809523809523,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 0.9523809523809523,
+      "masked_model_original_text": 0.9767441860465116
+    },
+    "full_delta": -0.02436323366555926,
+    "changed": 1
+  },
+  {
+    "fold": 42,
+    "project_group": "206387",
+    "repository": "https://github.com/apache/activemq",
+    "support": 46,
+    "category_counts": {
+      "ID": 46
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 0.0425531914893617,
+      "R": 0.0,
+      "P": 1.0,
+      "TR": 0.0425531914893617,
+      "TP": 0.0425531914893617,
+      "RP": 0.2962962962962963,
+      "full": 0.0425531914893617,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 0.0
+    },
+    "full_delta": -0.9574468085106383,
+    "changed": 45
+  },
+  {
+    "fold": 43,
+    "project_group": "206444",
+    "repository": "https://github.com/apache/hive",
+    "support": 10,
+    "category_counts": {
+      "ID": 10
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 44,
+    "project_group": "206459",
+    "repository": "https://github.com/apache/avro",
+    "support": 2,
+    "category_counts": {
+      "ID": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 45,
+    "project_group": "20882897",
+    "repository": "https://github.com/opengamma/strata",
+    "support": 9,
+    "category_counts": {
+      "ID": 9
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 46,
+    "project_group": "209076507",
+    "repository": "https://github.com/epam/eco-schema-catalog",
+    "support": 9,
+    "category_counts": {
+      "ID": 9
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 47,
+    "project_group": "2095282",
+    "repository": "https://github.com/jnr/jnr-posix",
+    "support": 1,
+    "category_counts": {
+      "OD": 1
+    },
+    "scores": {
+      "original": 0.0,
+      "T": 0.0,
+      "R": 0.0,
+      "P": 0.0,
+      "TR": 0.0,
+      "TP": 0.0,
+      "RP": 0.0,
+      "full": 0.0,
+      "svc_original": 0.0,
+      "svc_full": 0.0,
+      "original_model_masked_text": 0.0,
+      "masked_model_original_text": 0.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 48,
+    "project_group": "210579021",
+    "repository": "https://github.com/apache/hop",
+    "support": 8,
+    "category_counts": {
+      "ID": 8
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 49,
+    "project_group": "21180741",
+    "repository": "https://github.com/hapifhir/hapi-fhir",
+    "support": 8,
+    "category_counts": {
+      "ID": 8
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 50,
+    "project_group": "22269384",
+    "repository": "https://github.com/oryxproject/oryx",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 51,
+    "project_group": "228855233",
+    "repository": "https://github.com/sap-archive/emobility-smart-charging",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 52,
+    "project_group": "23050110",
+    "repository": "https://github.com/classgraph/classgraph",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 53,
+    "project_group": "232306581",
+    "repository": "https://github.com/alibaba/innodb-java-reader",
+    "support": 45,
+    "category_counts": {
+      "ID": 45
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 54,
+    "project_group": "23418517",
+    "repository": "https://github.com/apache/hadoop",
+    "support": 6,
+    "category_counts": {
+      "ID": 1,
+      "NIO": 1,
+      "TD": 4
+    },
+    "scores": {
+      "original": 0.09523809523809523,
+      "T": 0.09523809523809523,
+      "R": 0.09523809523809523,
+      "P": 0.09523809523809523,
+      "TR": 0.09523809523809523,
+      "TP": 0.09523809523809523,
+      "RP": 0.09523809523809523,
+      "full": 0.09523809523809523,
+      "svc_original": 0.09523809523809523,
+      "svc_full": 0.09523809523809523,
+      "original_model_masked_text": 0.09523809523809523,
+      "masked_model_original_text": 0.09523809523809523
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 55,
+    "project_group": "236462734",
+    "repository": "https://github.com/sap-archive/fosstars-rating-core",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 56,
+    "project_group": "2383782",
+    "repository": "https://github.com/apache/oozie",
+    "support": 2,
+    "category_counts": {
+      "TD": 2
+    },
+    "scores": {
+      "original": 0.0,
+      "T": 0.0,
+      "R": 0.0,
+      "P": 0.0,
+      "TR": 0.0,
+      "TP": 0.0,
+      "RP": 0.0,
+      "full": 0.0,
+      "svc_original": 0.0,
+      "svc_full": 0.0,
+      "original_model_masked_text": 0.0,
+      "masked_model_original_text": 0.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 57,
+    "project_group": "24653868",
+    "repository": "https://github.com/moquette-io/moquette",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 58,
+    "project_group": "25169896",
+    "repository": "https://github.com/hubspot/jinjava",
+    "support": 3,
+    "category_counts": {
+      "ID": 3
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 59,
+    "project_group": "2524488",
+    "repository": "https://github.com/apache/accumulo",
+    "support": 4,
+    "category_counts": {
+      "OD": 4
+    },
+    "scores": {
+      "original": 0.0,
+      "T": 0.0,
+      "R": 0.0,
+      "P": 0.0,
+      "TR": 0.0,
+      "TP": 0.0,
+      "RP": 0.0,
+      "full": 0.0,
+      "svc_original": 0.0,
+      "svc_full": 0.0,
+      "original_model_masked_text": 0.0,
+      "masked_model_original_text": 0.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 60,
+    "project_group": "26125896",
+    "repository": "https://github.com/vojtechhabarta/typescript-generator",
+    "support": 12,
+    "category_counts": {
+      "ID": 12
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 61,
+    "project_group": "2700474",
+    "repository": "https://github.com/alibaba/fastjson",
+    "support": 23,
+    "category_counts": {
+      "ID": 23
+    },
+    "scores": {
+      "original": 0.7894736842105263,
+      "T": 0.7567567567567568,
+      "R": 0.7894736842105263,
+      "P": 0.7894736842105263,
+      "TR": 0.7567567567567568,
+      "TP": 0.7567567567567568,
+      "RP": 0.7894736842105263,
+      "full": 0.7567567567567568,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 0.7567567567567568,
+      "masked_model_original_text": 0.7567567567567568
+    },
+    "full_delta": -0.03271692745376953,
+    "changed": 1
+  },
+  {
+    "fold": 62,
+    "project_group": "272672735",
+    "repository": "https://github.com/oracle/tribuo",
+    "support": 4,
+    "category_counts": {
+      "ID": 4
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 63,
+    "project_group": "2740148",
+    "repository": "https://github.com/apache/opennlp",
+    "support": 4,
+    "category_counts": {
+      "ID": 4
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 64,
+    "project_group": "27911088",
+    "repository": "https://github.com/apache/nifi",
+    "support": 12,
+    "category_counts": {
+      "ID": 12
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 65,
+    "project_group": "28589709",
+    "repository": "https://github.com/sakaiproject/sakai",
+    "support": 5,
+    "category_counts": {
+      "ID": 5
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 66,
+    "project_group": "28738447",
+    "repository": "https://github.com/apache/kylin",
+    "support": 2,
+    "category_counts": {
+      "ID": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 67,
+    "project_group": "288550742",
+    "repository": "https://github.com/stargate/stargate",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 68,
+    "project_group": "291570",
+    "repository": "https://github.com/apache/shiro",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 69,
+    "project_group": "3038937",
+    "repository": "https://github.com/fasterxml/jackson-databind",
+    "support": 3,
+    "category_counts": {
+      "ID": 3
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 70,
+    "project_group": "30449481",
+    "repository": "https://github.com/apache/tinkerpop",
+    "support": 4,
+    "category_counts": {
+      "ID": 4
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 71,
+    "project_group": "307476",
+    "repository": "https://github.com/twilio/twilio-java",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 72,
+    "project_group": "31076872",
+    "repository": "https://github.com/intel/jndn-utils",
+    "support": 2,
+    "category_counts": {
+      "ID": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 73,
+    "project_group": "311530297",
+    "repository": "https://github.com/alibaba/testable-mock",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 0.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 0.0,
+      "TP": 0.0,
+      "RP": 1.0,
+      "full": 0.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": -1.0,
+    "changed": 1
+  },
+  {
+    "fold": 74,
+    "project_group": "315377678",
+    "repository": "https://github.com/apache/ignite-3",
+    "support": 46,
+    "category_counts": {
+      "ID": 46
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 75,
+    "project_group": "32760696",
+    "repository": "https://github.com/spdx/tools",
+    "support": 2,
+    "category_counts": {
+      "ID": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 76,
+    "project_group": "3291848",
+    "repository": "https://github.com/pac4j/pac4j",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 77,
+    "project_group": "3333998",
+    "repository": "https://github.com/knowm/xchange",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 78,
+    "project_group": "339537434",
+    "repository": "https://github.com/google/testparameterinjector",
+    "support": 51,
+    "category_counts": {
+      "ID": 51
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 79,
+    "project_group": "347917861",
+    "repository": "https://github.com/datadog/jmeter-datadog-backend-listener",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 80,
+    "project_group": "3480666",
+    "repository": "https://github.com/graphhopper/graphhopper",
+    "support": 2,
+    "category_counts": {
+      "ID": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 81,
+    "project_group": "37173512",
+    "repository": "https://github.com/lets-blade/blade",
+    "support": 5,
+    "category_counts": {
+      "ID": 5
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 82,
+    "project_group": "377354200",
+    "repository": "https://github.com/opengoofy/hippo4j",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 83,
+    "project_group": "390607649",
+    "repository": "https://github.com/tencent/spring-cloud-tencent",
+    "support": 2,
+    "category_counts": {
+      "ID": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 84,
+    "project_group": "400172901",
+    "repository": "https://github.com/apache/skywalking-java",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 85,
+    "project_group": "420026145",
+    "repository": "https://github.com/snakeyaml/snakeyaml",
+    "support": 3,
+    "category_counts": {
+      "ID": 3
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 86,
+    "project_group": "420659054",
+    "repository": "https://github.com/snakeyaml/snakeyaml-engine",
+    "support": 4,
+    "category_counts": {
+      "ID": 4
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 0.8571428571428571,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 0.8571428571428571,
+      "TP": 0.8571428571428571,
+      "RP": 1.0,
+      "full": 0.8571428571428571,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 0.8571428571428571
+    },
+    "full_delta": -0.1428571428571429,
+    "changed": 1
+  },
+  {
+    "fold": 87,
+    "project_group": "42304749",
+    "repository": "https://github.com/apache/shardingsphere-elasticjob",
+    "support": 8,
+    "category_counts": {
+      "NIO": 4,
+      "OD": 4
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 88,
+    "project_group": "42369667",
+    "repository": "https://github.com/everit-org/json-schema",
+    "support": 4,
+    "category_counts": {
+      "ID": 4
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 0.8571428571428571,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 0.8571428571428571,
+      "TP": 0.8571428571428571,
+      "RP": 1.0,
+      "full": 0.8571428571428571,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": -0.1428571428571429,
+    "changed": 1
+  },
+  {
+    "fold": 89,
+    "project_group": "4544982",
+    "repository": "https://github.com/sonarsource/sonar-php",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 90,
+    "project_group": "4710920",
+    "repository": "https://github.com/apache/dubbo",
+    "support": 9,
+    "category_counts": {
+      "OD": 6,
+      "ID": 3
+    },
+    "scores": {
+      "original": 0.775,
+      "T": 0.775,
+      "R": 0.775,
+      "P": 0.775,
+      "TR": 0.775,
+      "TP": 0.775,
+      "RP": 0.775,
+      "full": 0.775,
+      "svc_original": 0.775,
+      "svc_full": 0.775,
+      "original_model_masked_text": 0.775,
+      "masked_model_original_text": 0.6666666666666666
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 91,
+    "project_group": "47973088",
+    "repository": "https://github.com/gchq/gaffer",
+    "support": 2,
+    "category_counts": {
+      "ID": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 92,
+    "project_group": "482425877",
+    "repository": "https://github.com/alibaba/fastjson2",
+    "support": 50,
+    "category_counts": {
+      "ID": 50
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 93,
+    "project_group": "49876476",
+    "repository": "https://github.com/apache/shardingsphere",
+    "support": 12,
+    "category_counts": {
+      "ID": 12
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 94,
+    "project_group": "4992906",
+    "repository": "https://github.com/pmd/pmd",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 95,
+    "project_group": "5103785",
+    "repository": "https://github.com/undertow-io/undertow",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 96,
+    "project_group": "5294661",
+    "repository": "https://github.com/fabiomaffioletti/jsondoc",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 97,
+    "project_group": "53127403",
+    "repository": "https://github.com/apolloconfig/apollo",
+    "support": 11,
+    "category_counts": {
+      "ID": 11
+    },
+    "scores": {
+      "original": 0.8421052631578947,
+      "T": 0.8421052631578947,
+      "R": 0.8421052631578947,
+      "P": 0.8421052631578947,
+      "TR": 0.8421052631578947,
+      "TP": 0.8421052631578947,
+      "RP": 0.8421052631578947,
+      "full": 0.8421052631578947,
+      "svc_original": 0.8421052631578947,
+      "svc_full": 0.8421052631578947,
+      "original_model_masked_text": 0.8421052631578947,
+      "masked_model_original_text": 0.8421052631578947
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 98,
+    "project_group": "54120965",
+    "repository": "https://github.com/googlecloudplatform/appengine-plugins",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 99,
+    "project_group": "544339452",
+    "repository": "https://github.com/apolloconfig/apollo-java",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 100,
+    "project_group": "5771666",
+    "repository": "https://github.com/bpsm/edn-java",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 101,
+    "project_group": "57942251",
+    "repository": "https://github.com/fasterxml/jackson-dataformats-binary",
+    "support": 12,
+    "category_counts": {
+      "ID": 12
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 0.8571428571428571,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 0.8571428571428571,
+      "TP": 0.8571428571428571,
+      "RP": 1.0,
+      "full": 0.8571428571428571,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 0.8571428571428571
+    },
+    "full_delta": -0.1428571428571429,
+    "changed": 3
+  },
+  {
+    "fold": 102,
+    "project_group": "595553326",
+    "repository": "https://github.com/opengoofy/crane4j",
+    "support": 3,
+    "category_counts": {
+      "ID": 3
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 103,
+    "project_group": "61282052",
+    "repository": "https://github.com/adyen/adyen-java-api-library",
+    "support": 45,
+    "category_counts": {
+      "ID": 45
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 104,
+    "project_group": "62117812",
+    "repository": "https://github.com/apache/pulsar",
+    "support": 5,
+    "category_counts": {
+      "ID": 5
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 105,
+    "project_group": "6220644",
+    "repository": "https://github.com/openrefine/openrefine",
+    "support": 4,
+    "category_counts": {
+      "ID": 4
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 106,
+    "project_group": "62267978",
+    "repository": "https://github.com/snowflakedb/snowflake-jdbc",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 107,
+    "project_group": "633686625",
+    "repository": "https://github.com/apache/fory",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 108,
+    "project_group": "671825",
+    "repository": "https://github.com/graylog2/graylog2-server",
+    "support": 13,
+    "category_counts": {
+      "ID": 13
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 109,
+    "project_group": "68291529",
+    "repository": "https://github.com/networknt/json-schema-validator",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 0.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 0.0,
+      "TP": 0.0,
+      "RP": 1.0,
+      "full": 0.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 0.0
+    },
+    "full_delta": -1.0,
+    "changed": 1
+  },
+  {
+    "fold": 110,
+    "project_group": "70780002",
+    "repository": "https://github.com/flowable/flowable-engine",
+    "support": 10,
+    "category_counts": {
+      "ID": 10
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 111,
+    "project_group": "75164823",
+    "repository": "https://github.com/apache/rocketmq",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 112,
+    "project_group": "76383371",
+    "repository": "https://github.com/castle/castle-java",
+    "support": 13,
+    "category_counts": {
+      "ID": 13
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 113,
+    "project_group": "764708",
+    "repository": "https://github.com/wildfly/wildfly",
+    "support": 31,
+    "category_counts": {
+      "ID": 10,
+      "OD": 21
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 114,
+    "project_group": "777444",
+    "repository": "https://github.com/jolokia/jolokia",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 115,
+    "project_group": "80501529",
+    "repository": "https://github.com/apache/ratis",
+    "support": 1,
+    "category_counts": {
+      "TD": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 0.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 0.0,
+      "TP": 0.0,
+      "RP": 1.0,
+      "full": 0.0,
+      "svc_original": 0.0,
+      "svc_full": 0.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 0.0
+    },
+    "full_delta": -1.0,
+    "changed": 1
+  },
+  {
+    "fold": 116,
+    "project_group": "81226206",
+    "repository": "https://github.com/karatelabs/karate",
+    "support": 2,
+    "category_counts": {
+      "ID": 2
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 117,
+    "project_group": "8205602",
+    "repository": "https://github.com/mybatis/mybatis-3",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 0.0,
+      "T": 0.0,
+      "R": 0.0,
+      "P": 0.0,
+      "TR": 0.0,
+      "TP": 0.0,
+      "RP": 0.0,
+      "full": 0.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 0.0,
+      "masked_model_original_text": 0.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 118,
+    "project_group": "8322256",
+    "repository": "https://github.com/ktuukkan/marine-api",
+    "support": 2,
+    "category_counts": {
+      "OD": 2
+    },
+    "scores": {
+      "original": 0.0,
+      "T": 0.0,
+      "R": 0.0,
+      "P": 0.0,
+      "TR": 0.0,
+      "TP": 0.0,
+      "RP": 0.0,
+      "full": 0.0,
+      "svc_original": 0.0,
+      "svc_full": 0.0,
+      "original_model_masked_text": 0.0,
+      "masked_model_original_text": 0.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 119,
+    "project_group": "8654828",
+    "repository": "https://github.com/j256/ormlite-core",
+    "support": 87,
+    "category_counts": {
+      "OD": 86,
+      "ID": 1
+    },
+    "scores": {
+      "original": 0.011363636363636364,
+      "T": 0.011363636363636364,
+      "R": 0.011363636363636364,
+      "P": 0.011363636363636364,
+      "TR": 0.011363636363636364,
+      "TP": 0.011363636363636364,
+      "RP": 0.011363636363636364,
+      "full": 0.011363636363636364,
+      "svc_original": 0.011363636363636364,
+      "svc_full": 0.011363636363636364,
+      "original_model_masked_text": 0.011363636363636364,
+      "masked_model_original_text": 0.011363636363636364
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 120,
+    "project_group": "88024517",
+    "repository": "https://github.com/alibaba/jetcache",
+    "support": 3,
+    "category_counts": {
+      "ID": 3
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 121,
+    "project_group": "91674936",
+    "repository": "https://github.com/apache/servicecomb-java-chassis",
+    "support": 12,
+    "category_counts": {
+      "ID": 12
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 122,
+    "project_group": "9199359",
+    "repository": "https://github.com/biojava/biojava",
+    "support": 14,
+    "category_counts": {
+      "ID": 14
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 123,
+    "project_group": "935336",
+    "repository": "https://github.com/fasterxml/java-classmate",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 124,
+    "project_group": "971134",
+    "repository": "https://github.com/jmeter-maven-plugin/jmeter-maven-plugin",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 125,
+    "project_group": "9759448",
+    "repository": "https://github.com/apache/cloudstack",
+    "support": 13,
+    "category_counts": {
+      "ID": 13
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  },
+  {
+    "fold": 126,
+    "project_group": "99412308",
+    "repository": "https://github.com/apache/seatunnel",
+    "support": 1,
+    "category_counts": {
+      "ID": 1
+    },
+    "scores": {
+      "original": 1.0,
+      "T": 1.0,
+      "R": 1.0,
+      "P": 1.0,
+      "TR": 1.0,
+      "TP": 1.0,
+      "RP": 1.0,
+      "full": 1.0,
+      "svc_original": 1.0,
+      "svc_full": 1.0,
+      "original_model_masked_text": 1.0,
+      "masked_model_original_text": 1.0
+    },
+    "full_delta": 0.0,
+    "changed": 0
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "container": "commonslang9f67b81test_getEnumMap_keyFunction",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "commonslang9f67b81test_getEnumMap_keyFunction",
+    "project": "https://github.com/apache/commons-lang",
+    "revision": "9f67b81dab0502b9fde981cbeac9ae3bbcd2039d",
+    "test": "org.apache.commons.lang3.EnumUtilsTest.test_getEnumMap_keyFunction",
+    "label": "ID",
+    "module": ".",
+    "zip": "commons-lang=.=9f67b81",
+    "config_row": 538,
+    "configured_test": "org.apache.commons.lang3.EnumUtilsTest#test_getEnumMap_keyFunction",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.EnumUtilsTest.test_getEnumMap_keyFunction",
+    "variant_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.EnumUtilsTest.test_getEnumMap_keyFunction::9f67b81dab0502b9fde981cbeac9ae3bbcd2039d::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/commonslang9f67b81test_getEnumMap_keyFunction/result/Flaky/.nondex/jPCvaYPOBhCYvxpVHMrbjbxQXsCL8D4RwAl9foKpY=/TEST-org.apache.commons.lang3.EnumUtilsTest.xml",
+        "size": 11519,
+        "compressed": 2485,
+        "crc32": "c22eed62",
+        "offset": 384853494,
+        "method": 8,
+        "local_path": "data/extracted/894291403aefe6698cea3540.xml",
+        "sha256": "fb2494299900177f6c20d333b38bbe61c463e2b1000a5ae6b7e95b294ecefdd5",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/commonslang9f67b81test_getEnumMap_keyFunction/result/Flaky/rounds-test-results.csv",
+    "size": 17296,
+    "compressed": 4965,
+    "crc32": "ce2b0b6d",
+    "offset": 384314211,
+    "method": 8,
+    "local_path": "data/extracted/21b349d691f779e99dad48d7.csv",
+    "sha256": "1b893152a765e6a6fc57f847dafe3d0fc428a99516e23466b9c8359767b57f08",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/commonslang9f67b81test_getEnumMap_keyFunction/result/Flaky/.nondex/jPCvaYPOBhCYvxpVHMrbjbxQXsCL8D4RwAl9foKpY=/TEST-org.apache.commons.lang3.EnumUtilsTest.xml",
+    "size": 11519,
+    "compressed": 2485,
+    "crc32": "c22eed62",
+    "offset": 384853494,
+    "method": 8,
+    "local_path": "data/extracted/894291403aefe6698cea3540.xml",
+    "sha256": "fb2494299900177f6c20d333b38bbe61c463e2b1000a5ae6b7e95b294ecefdd5",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test_getEnumMap_keyFunction",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "getEnumMap not created correctly ==> expected: <{1=JAN, 2=FEB, 3=MAR, 4=APR, 5=MAY, 6=JUN, 7=JUL, 8=AUG, 9=SEP, 10=OCT, 11=NOV, 12=DEC}> but was: <{2=FEB, 7=JUL, 3=MAR, 10=OCT, 5=MAY, 1=JAN, 8=AUG, 9=SEP, 6=JUN, 11=NOV, 12=DEC, 4=APR}>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: getEnumMap not created correctly ==> expected: <{1=JAN, 2=FEB, 3=MAR, 4=APR, 5=MAY, 6=JUN, 7=JUL, 8=AUG, 9=SEP, 10=OCT, 11=NOV, 12=DEC}> but was: <{2=FEB, 7=JUL, 3=MAR, 10=OCT, 5=MAY, 1=JAN, 8=AUG, 9=SEP, 6=JUN, 11=NOV, 12=DEC, 4=APR}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1152)\n\tat org.apache.commons.lang3.EnumUtilsTest.test_getEnumMap_keyFunction(EnumUtilsTest.java:357)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)",
+    "text": "org.opentest4j.AssertionFailedError\ngetEnumMap not created correctly ==> expected: <{1=JAN, 2=FEB, 3=MAR, 4=APR, 5=MAY, 6=JUN, 7=JUL, 8=AUG, 9=SEP, 10=OCT, 11=NOV, 12=DEC}> but was: <{2=FEB, 7=JUL, 3=MAR, 10=OCT, 5=MAY, 1=JAN, 8=AUG, 9=SEP, 6=JUN, 11=NOV, 12=DEC, 4=APR}>\norg.opentest4j.AssertionFailedError: getEnumMap not created correctly ==> expected: <{1=JAN, 2=FEB, 3=MAR, 4=APR, 5=MAY, 6=JUN, 7=JUL, 8=AUG, 9=SEP, 10=OCT, 11=NOV, 12=DEC}> but was: <{2=FEB, 7=JUL, 3=MAR, 10=OCT, 5=MAY, 1=JAN, 8=AUG, 9=SEP, 6=JUN, 11=NOV, 12=DEC, 4=APR}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1152)\n\tat org.apache.commons.lang3.EnumUtilsTest.test_getEnumMap_keyFunction(EnumUtilsTest.java:357)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "73a7a008b1c4689a788a88f75ec773b2abf8e623d27c95d46513cd6bb6608ff9"
+}

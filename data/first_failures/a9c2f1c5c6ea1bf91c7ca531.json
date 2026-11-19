@@ -1,0 +1,81 @@
+{
+  "container": "hapifhirhapifhirjaxrsserverbase443b59atestSearchByPostUseJson1",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "hapifhirhapifhirjaxrsserverbase443b59atestSearchByPostUseJson1",
+    "project": "https://github.com/hapifhir/hapi-fhir",
+    "revision": "443b59a78b08021cd101a591547a06353fd8242c",
+    "test": "ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test.testSearchByPostUseJson",
+    "label": "ID",
+    "module": "hapi-fhir-jaxrsserver-base",
+    "zip": "hapi-fhir=hapi-fhir-jaxrsserver-base=443b59a",
+    "config_row": 349,
+    "configured_test": "ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test#testSearchByPostUseJson",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/hapifhir/hapi-fhir::ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test.testSearchByPostUseJson",
+    "variant_id": "https://github.com/hapifhir/hapi-fhir::ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test.testSearchByPostUseJson::443b59a78b08021cd101a591547a06353fd8242c::hapi-fhir-jaxrsserver-base",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 7,
+      "iteration": 6,
+      "member": {
+        "path": "result/hapifhirhapifhirjaxrsserverbase443b59atestSearchByPostUseJson1/result/Flaky/.nondex/oq2mzJOczXw6e8KrRZGYKyRKadK4GwkdqHPqzz9JlQs=/TEST-ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test.xml",
+        "size": 41962,
+        "compressed": 5843,
+        "crc32": "5af8e7bf",
+        "offset": 1940685584,
+        "method": 8,
+        "local_path": "data/extracted/2b1134f7d32a244228de5178.xml",
+        "sha256": "97205be5203c1478204b5db4ee1020d443e3843889c1e6a9c7e3845f026b1472",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/hapifhirhapifhirjaxrsserverbase443b59atestSearchByPostUseJson1/result/Flaky/rounds-test-results.csv",
+    "size": 21027,
+    "compressed": 5200,
+    "crc32": "89b27edb",
+    "offset": 1940457889,
+    "method": 8,
+    "local_path": "data/extracted/6223d46c5804f14f1546149c.csv",
+    "sha256": "aa65663c1dfc786dcaee89bff4b1161705e6c9f2dd23599197da6a38affd8874",
+    "status": "verified"
+  },
+  "reported_failure_rows": 48,
+  "iteration": 6,
+  "source_row": 7,
+  "diagnostic_member": {
+    "path": "result/hapifhirhapifhirjaxrsserverbase443b59atestSearchByPostUseJson1/result/Flaky/.nondex/oq2mzJOczXw6e8KrRZGYKyRKadK4GwkdqHPqzz9JlQs=/TEST-ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test.xml",
+    "size": 41962,
+    "compressed": 5843,
+    "crc32": "5af8e7bf",
+    "offset": 1940685584,
+    "method": 8,
+    "local_path": "data/extracted/2b1134f7d32a244228de5178.xml",
+    "sha256": "97205be5203c1478204b5db4ee1020d443e3843889c1e6a9c7e3845f026b1472",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testSearchByPostUseJson",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expecting actual:\n  \"http://localhost:33553/fhir/Patient/_search?_elements=name%2Cidentifier\"\nto contain:\n  \"_elements=identifier%2Cname\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpecting actual:\n  \"http://localhost:33553/fhir/Patient/_search?_elements=name%2Cidentifier\"\nto contain:\n  \"_elements=identifier%2Cname\" \n\tat ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test.testSearchByPostUseJson(GenericJaxRsClientDstu2Test.java:1514)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "text": "java.lang.AssertionError\nExpecting actual:\n  \"http://localhost:33553/fhir/Patient/_search?_elements=name%2Cidentifier\"\nto contain:\n  \"_elements=identifier%2Cname\"\njava.lang.AssertionError: \n\nExpecting actual:\n  \"http://localhost:33553/fhir/Patient/_search?_elements=name%2Cidentifier\"\nto contain:\n  \"_elements=identifier%2Cname\" \n\tat ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test.testSearchByPostUseJson(GenericJaxRsClientDstu2Test.java:1514)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "f95718b8cb89b82f0cd9c25e6232e21ace2a931e011349928037e31d17899c62"
+}

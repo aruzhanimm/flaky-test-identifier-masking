@@ -1,0 +1,81 @@
+{
+  "container": "ecoschemacatalogstore95ee43btestRemove11",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ecoschemacatalogstore95ee43btestRemove11",
+    "project": "https://github.com/epam/eco-schema-catalog",
+    "revision": "95ee43bba89845d162f5d54a6046c14f7edc4755",
+    "test": "com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testRemove1",
+    "label": "ID",
+    "module": "store",
+    "zip": "eco-schema-catalog=store=95ee43b",
+    "config_row": 37,
+    "configured_test": "com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest#testRemove1",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/epam/eco-schema-catalog::com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testRemove1",
+    "variant_id": "https://github.com/epam/eco-schema-catalog::com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testRemove1::95ee43bba89845d162f5d54a6046c14f7edc4755::store",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/ecoschemacatalogstore95ee43btestRemove11/result/Flaky/.nondex/yOXyxbxSScrwGQIIxFLut9xTidLiacjdeZgqRxroUs=/TEST-com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.xml",
+        "size": 7216,
+        "compressed": 1863,
+        "crc32": "51de07f8",
+        "offset": 605752692,
+        "method": 8,
+        "local_path": "data/extracted/2371cebfee35867dcc129fce.xml",
+        "sha256": "349244bb572b8448905bdc2aae06304c3ac2f3d30f61dd9adc11a7839c77e5aa",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ecoschemacatalogstore95ee43btestRemove11/result/Flaky/rounds-test-results.csv",
+    "size": 21132,
+    "compressed": 4959,
+    "crc32": "bd04350f",
+    "offset": 605594093,
+    "method": 8,
+    "local_path": "data/extracted/54ea1420a65f13ad8fa4ff5d.csv",
+    "sha256": "b7be6dbc9278ba339c166ef9d01298ef0573f0c3fc5ebafddc92276b551a2762",
+    "status": "verified"
+  },
+  "reported_failure_rows": 93,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/ecoschemacatalogstore95ee43btestRemove11/result/Flaky/.nondex/yOXyxbxSScrwGQIIxFLut9xTidLiacjdeZgqRxroUs=/TEST-com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.xml",
+    "size": 7216,
+    "compressed": 1863,
+    "crc32": "51de07f8",
+    "offset": 605752692,
+    "method": 8,
+    "local_path": "data/extracted/2371cebfee35867dcc129fce.xml",
+    "sha256": "349244bb572b8448905bdc2aae06304c3ac2f3d30f61dd9adc11a7839c77e5aa",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testRemove1",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "expected:<null> but was:<{doc: doc1, attributes: {}, updatedAt: Wed Nov 05 11:57:54 UTC 2025, updatedBy: me}>",
+    "stack_trace": "java.lang.AssertionError: expected:<null> but was:<{doc: doc1, attributes: {}, updatedAt: Wed Nov 05 11:57:54 UTC 2025, updatedBy: me}>\n\tat com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testRemove1(InheritingMetadataContainerTest.java:345)",
+    "text": "java.lang.AssertionError\nexpected:<null> but was:<{doc: doc1, attributes: {}, updatedAt: Wed Nov 05 11:57:54 UTC 2025, updatedBy: me}>\njava.lang.AssertionError: expected:<null> but was:<{doc: doc1, attributes: {}, updatedAt: Wed Nov 05 11:57:54 UTC 2025, updatedBy: me}>\n\tat com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testRemove1(InheritingMetadataContainerTest.java:345)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "586894b5b01e22f622a6eee7aeb5abc7908387ef7306973e0c8b12fe7af14b55"
+}

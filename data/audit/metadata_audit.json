@@ -1,0 +1,97 @@
+{
+  "config_rows": 1115,
+  "metadata_rows": 1115,
+  "metadata_by_source": {
+    "JIRA": 63,
+    "iDoFT": 1052
+  },
+  "metadata_categories": {
+    "OD": 126,
+    "TD": 36,
+    "ID": 819,
+    "UNCLASSIFIED": 9,
+    "NIO": 125
+  },
+  "config_types": {
+    "id": 819,
+    "britle": 1,
+    "od": 125,
+    "nio": 125,
+    "td": 36,
+    "Unclassified": 5,
+    "unclassified": 4
+  },
+  "mapped_config_rows": 1115,
+  "unique_repository_urls": 140,
+  "unique_test_ids": 1106,
+  "unique_variants": 1110,
+  "category_repository_counts": {
+    "ID": 125,
+    "NIO": 3,
+    "OD": 8,
+    "TD": 10,
+    "UNCLASSIFIED": 7
+  },
+  "duplicate_test_ids": {
+    "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.common.rest.codec.param.TestRestClientRequestImpl.testForm": [
+      "servicecombjavachassiscommoncommonrest94a672ftestForm",
+      "SCB-2731"
+    ],
+    "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.common.rest.filter.inner.RestServerCodecFilterTest.should_convert_exception_to_response_when_decode_request_failed": [
+      "servicecombjavachassiscommoncommonrest94a672fshould_convert_exception_to_response_when_decode_request_failed",
+      "SCB-2731-decode_request_failed"
+    ],
+    "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.common.rest.RestProducerInvocationCreatorTest.should_failed_when_accept_is_not_support": [
+      "servicecombjavachassiscommoncommonrest94a672fshould_failed_when_accept_is_not_support",
+      "SCB-2731-not_support"
+    ],
+    "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.common.rest.RestProducerInvocationCreatorTest.should_failed_when_not_defined_any_schema": [
+      "servicecombjavachassiscommoncommonrest94a672fshould_failed_when_not_defined_any_schema",
+      "SCB-2731-not-defined_any_schema"
+    ],
+    "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.foundation.vertx.http.TestAbstractHttpServletRequest.testAttribute": [
+      "servicecombjavachassisfoundationsfoundationvertxf37cdb1testAttribute",
+      "SCB-2692"
+    ],
+    "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.parameterMap_merge": [
+      "servicecombjavachassisfoundationsfoundationvertxf37cdb1parameterMap_merge",
+      "SCB-2692-parameterMap"
+    ],
+    "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.foundation.vertx.http.TestVertxServerRequestToHttpServletRequest.setParameter": [
+      "servicecombjavachassisfoundationsfoundationvertxf37cdb1setParameter",
+      "SCB-2692-TestVertxServerRequestToHttpServletRequest"
+    ],
+    "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.setParameter": [
+      "servicecombjavachassisfoundationsfoundationvertxf37cdb1setParameter1",
+      "SCB-2692-TestStandardHttpServletRequestEx"
+    ],
+    "https://github.com/apache/commons-collections::org.apache.commons.collections4.bidimap.DualHashBidiMapTest.testBidiKeySetValuesOrder": [
+      "commonscollections9582007testBidiKeySetValuesOrder",
+      "COLLECTIONS-836"
+    ]
+  },
+  "duplicate_variant_ids": {
+    "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.foundation.vertx.http.TestAbstractHttpServletRequest.testAttribute::f37cdb10d1aa35d14469b7613f99b23348ae5851::foundations/foundation-vertx": [
+      "servicecombjavachassisfoundationsfoundationvertxf37cdb1testAttribute",
+      "SCB-2692"
+    ],
+    "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.parameterMap_merge::f37cdb10d1aa35d14469b7613f99b23348ae5851::foundations/foundation-vertx": [
+      "servicecombjavachassisfoundationsfoundationvertxf37cdb1parameterMap_merge",
+      "SCB-2692-parameterMap"
+    ],
+    "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.foundation.vertx.http.TestVertxServerRequestToHttpServletRequest.setParameter::f37cdb10d1aa35d14469b7613f99b23348ae5851::foundations/foundation-vertx": [
+      "servicecombjavachassisfoundationsfoundationvertxf37cdb1setParameter",
+      "SCB-2692-TestVertxServerRequestToHttpServletRequest"
+    ],
+    "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.foundation.vertx.http.TestStandardHttpServletRequestEx.setParameter::f37cdb10d1aa35d14469b7613f99b23348ae5851::foundations/foundation-vertx": [
+      "servicecombjavachassisfoundationsfoundationvertxf37cdb1setParameter1",
+      "SCB-2692-TestStandardHttpServletRequestEx"
+    ],
+    "https://github.com/apache/commons-collections::org.apache.commons.collections4.bidimap.DualHashBidiMapTest.testBidiKeySetValuesOrder::9582007123799dab2f1ddb38aa8654c26867da3f::.": [
+      "commonscollections9582007testBidiKeySetValuesOrder",
+      "COLLECTIONS-836"
+    ]
+  },
+  "issues": [],
+  "eligibility_status": "Metadata only. No logs verified and no independent-fork audit yet."
+}

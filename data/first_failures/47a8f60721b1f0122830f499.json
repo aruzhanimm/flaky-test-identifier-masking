@@ -1,0 +1,37 @@
+{
+  "container": "CAMEL-12025-testFromStreamTimer",
+  "metadata": {
+    "source": "JIRA",
+    "container": "CAMEL-12025-testFromStreamTimer",
+    "project": "https://github.com/apache/camel",
+    "revision": "c501ba7e6d8c94ad3c26c78a4ee941fdd745717f",
+    "test": "org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest.testFromStreamTimer",
+    "label": "TD",
+    "module": "components/camel-reactor",
+    "zip": "CAMEL-12025",
+    "config_row": 1110,
+    "configured_test": "org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest#testFromStreamTimer",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/camel::org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest.testFromStreamTimer",
+    "variant_id": "https://github.com/apache/camel::org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest.testFromStreamTimer::c501ba7e6d8c94ad3c26c78a4ee941fdd745717f::components/camel-reactor",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/CAMEL-12025-testFromStreamTimer/result/Flaky/rounds-test-results.csv",
+    "size": 22979,
+    "compressed": 670,
+    "crc32": "4d46609e",
+    "offset": 2012778065,
+    "method": 8,
+    "local_path": "data/extracted/4111b3f17391875de04c5965.csv",
+    "sha256": "48858a28d0e688b4ef77177b213e17392726dbb682498c846b4071713d0e6d62",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

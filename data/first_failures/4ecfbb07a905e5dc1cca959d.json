@@ -1,0 +1,81 @@
+{
+  "container": "jsonschemavalidator0c2a855testCollectorContextWithKeyword",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jsonschemavalidator0c2a855testCollectorContextWithKeyword",
+    "project": "https://github.com/networknt/json-schema-validator",
+    "revision": "0c2a8558f26c890337c56540f1d128b5b47606f8",
+    "test": "com.networknt.schema.CollectorContextTest.testCollectorContextWithKeyword",
+    "label": "ID",
+    "module": ".",
+    "zip": "json-schema-validator=.=0c2a855",
+    "config_row": 251,
+    "configured_test": "com.networknt.schema.CollectorContextTest#testCollectorContextWithKeyword",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/networknt/json-schema-validator::com.networknt.schema.CollectorContextTest.testCollectorContextWithKeyword",
+    "variant_id": "https://github.com/networknt/json-schema-validator::com.networknt.schema.CollectorContextTest.testCollectorContextWithKeyword::0c2a8558f26c890337c56540f1d128b5b47606f8::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/jsonschemavalidator0c2a855testCollectorContextWithKeyword/result/Flaky/.nondex/ZmhuOH4QM4rtINehbCuD6RH56rdCpl6J7nCceNtlmc=/TEST-com.networknt.schema.CollectorContextTest.xml",
+        "size": 11476,
+        "compressed": 2367,
+        "crc32": "a9b8d900",
+        "offset": 248226135,
+        "method": 8,
+        "local_path": "data/extracted/b9e745df5b7dfaa08affef9e.xml",
+        "sha256": "45d3b562f2f373e1cd62ad0c58a4a8ddc4a4bd11427c2f83dd42291a02d8bf02",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jsonschemavalidator0c2a855testCollectorContextWithKeyword/result/Flaky/rounds-test-results.csv",
+    "size": 17429,
+    "compressed": 5007,
+    "crc32": "bbb822eb",
+    "offset": 248083555,
+    "method": 8,
+    "local_path": "data/extracted/4fb670093cf5dfdf4dc56041.csv",
+    "sha256": "1302c1d8915245773b1d9f034846ed16f910b818ad207cdb807d7dd64d5618ed",
+    "status": "verified"
+  },
+  "reported_failure_rows": 51,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/jsonschemavalidator0c2a855testCollectorContextWithKeyword/result/Flaky/.nondex/ZmhuOH4QM4rtINehbCuD6RH56rdCpl6J7nCceNtlmc=/TEST-com.networknt.schema.CollectorContextTest.xml",
+    "size": 11476,
+    "compressed": 2367,
+    "crc32": "a9b8d900",
+    "offset": 248226135,
+    "method": 8,
+    "local_path": "data/extracted/b9e745df5b7dfaa08affef9e.xml",
+    "sha256": "45d3b562f2f373e1cd62ad0c58a4a8ddc4a4bd11427c2f83dd42291a02d8bf02",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testCollectorContextWithKeyword",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <actual_value_added_to_context2> but was: <actual_value_added_to_context1>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <actual_value_added_to_context2> but was: <actual_value_added_to_context1>\n\tat com.networknt.schema.CollectorContextTest.testCollectorContextWithKeyword(CollectorContextTest.java:61)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <actual_value_added_to_context2> but was: <actual_value_added_to_context1>\norg.opentest4j.AssertionFailedError: expected: <actual_value_added_to_context2> but was: <actual_value_added_to_context1>\n\tat com.networknt.schema.CollectorContextTest.testCollectorContextWithKeyword(CollectorContextTest.java:61)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "ad4cffa2e910f872a872dddb396eb00ae2e31fe0a63a24ac9b75d6990533d287"
+}

@@ -1,0 +1,37 @@
+{
+  "container": "OOZIE-3686",
+  "metadata": {
+    "source": "JIRA",
+    "container": "OOZIE-3686",
+    "project": "https://github.com/apache/oozie",
+    "revision": "87b812465fb05d2b77230a58bc1bf49bb86acdd3",
+    "test": "org.apache.oozie.command.wf.TestWorkflowActionRetryInfoXCommand.testRetryConsoleUrlForked",
+    "label": "TD",
+    "module": "core",
+    "zip": "OOZIE-3686",
+    "config_row": 1065,
+    "configured_test": "org.apache.oozie.command.wf.TestWorkflowActionRetryInfoXCommand#testRetryConsoleUrlForked",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/oozie::org.apache.oozie.command.wf.TestWorkflowActionRetryInfoXCommand.testRetryConsoleUrlForked",
+    "variant_id": "https://github.com/apache/oozie::org.apache.oozie.command.wf.TestWorkflowActionRetryInfoXCommand.testRetryConsoleUrlForked::87b812465fb05d2b77230a58bc1bf49bb86acdd3::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/OOZIE-3686/result/Flaky/rounds-test-results.csv",
+    "size": 20880,
+    "compressed": 770,
+    "crc32": "86416853",
+    "offset": 148312466,
+    "method": 8,
+    "local_path": "data/extracted/088f3841e76c940fa0c1962d.csv",
+    "sha256": "b4684ad246adb21521d2ee95d2e0ea4851683e24265b4fc24cf9ee23182b1936",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

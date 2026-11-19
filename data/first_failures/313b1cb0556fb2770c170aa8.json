@@ -1,0 +1,81 @@
+{
+  "container": "cloudstackpluginsnetworkelementstungstendf4cd2alistTungstenNetworkTest",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "cloudstackpluginsnetworkelementstungstendf4cd2alistTungstenNetworkTest",
+    "project": "https://github.com/apache/cloudstack",
+    "revision": "df4cd2aae42f7fea114b091ee2830ff263e7aaf7",
+    "test": "org.apache.cloudstack.network.tungsten.service.TungstenApiTest.listTungstenNetworkTest",
+    "label": "ID",
+    "module": "plugins/network-elements/tungsten",
+    "zip": "cloudstack=plugins+network-elements+tungsten=df4cd2a",
+    "config_row": 73,
+    "configured_test": "org.apache.cloudstack.network.tungsten.service.TungstenApiTest#listTungstenNetworkTest",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/cloudstack::org.apache.cloudstack.network.tungsten.service.TungstenApiTest.listTungstenNetworkTest",
+    "variant_id": "https://github.com/apache/cloudstack::org.apache.cloudstack.network.tungsten.service.TungstenApiTest.listTungstenNetworkTest::df4cd2aae42f7fea114b091ee2830ff263e7aaf7::plugins/network-elements/tungsten",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 5,
+      "iteration": 4,
+      "member": {
+        "path": "result/cloudstackpluginsnetworkelementstungstendf4cd2alistTungstenNetworkTest/result/Flaky/.nondex/irJ5Z8SgJUK8kJt9wiiQmW1dullQ4OqjmSTuTj+hzn0=/TEST-org.apache.cloudstack.network.tungsten.service.TungstenApiTest.xml",
+        "size": 38786,
+        "compressed": 5364,
+        "crc32": "23827e8f",
+        "offset": 650879631,
+        "method": 8,
+        "local_path": "data/extracted/0db6841070bf7afb581fde17.xml",
+        "sha256": "80bc206550c1a2d76ebd7c1cb9fc4f149bcc32cf8e13c1ad72d27d001e263488",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/cloudstackpluginsnetworkelementstungstendf4cd2alistTungstenNetworkTest/result/Flaky/rounds-test-results.csv",
+    "size": 22741,
+    "compressed": 5086,
+    "crc32": "ec435131",
+    "offset": 650591740,
+    "method": 8,
+    "local_path": "data/extracted/2bbb70b50482b8e5c87aae14.csv",
+    "sha256": "8b8de89dfe546b424f4710951735e477d5c06909ae5ac9bc6ff038c63acfbb43",
+    "status": "verified"
+  },
+  "reported_failure_rows": 53,
+  "iteration": 4,
+  "source_row": 5,
+  "diagnostic_member": {
+    "path": "result/cloudstackpluginsnetworkelementstungstendf4cd2alistTungstenNetworkTest/result/Flaky/.nondex/irJ5Z8SgJUK8kJt9wiiQmW1dullQ4OqjmSTuTj+hzn0=/TEST-org.apache.cloudstack.network.tungsten.service.TungstenApiTest.xml",
+    "size": 38786,
+    "compressed": 5364,
+    "crc32": "23827e8f",
+    "offset": 650879631,
+    "method": 8,
+    "local_path": "data/extracted/0db6841070bf7afb581fde17.xml",
+    "sha256": "80bc206550c1a2d76ebd7c1cb9fc4f149bcc32cf8e13c1ad72d27d001e263488",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "listTungstenNetworkTest",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "expected:<[net.juniper.tungsten.api.types.VirtualNetwork@36676c1a, net.juniper.tungsten.api.types.VirtualNetwork@5b408dc3]> but was:<[net.juniper.tungsten.api.types.VirtualNetwork@5b408dc3, net.juniper.tungsten.api.types.VirtualNetwork@36676c1a]>",
+    "stack_trace": "java.lang.AssertionError: expected:<[net.juniper.tungsten.api.types.VirtualNetwork@36676c1a, net.juniper.tungsten.api.types.VirtualNetwork@5b408dc3]> but was:<[net.juniper.tungsten.api.types.VirtualNetwork@5b408dc3, net.juniper.tungsten.api.types.VirtualNetwork@36676c1a]>\n\tat org.apache.cloudstack.network.tungsten.service.TungstenApiTest.listTungstenNetworkTest(TungstenApiTest.java:1386)",
+    "text": "java.lang.AssertionError\nexpected:<[net.juniper.tungsten.api.types.VirtualNetwork@36676c1a, net.juniper.tungsten.api.types.VirtualNetwork@5b408dc3]> but was:<[net.juniper.tungsten.api.types.VirtualNetwork@5b408dc3, net.juniper.tungsten.api.types.VirtualNetwork@36676c1a]>\njava.lang.AssertionError: expected:<[net.juniper.tungsten.api.types.VirtualNetwork@36676c1a, net.juniper.tungsten.api.types.VirtualNetwork@5b408dc3]> but was:<[net.juniper.tungsten.api.types.VirtualNetwork@5b408dc3, net.juniper.tungsten.api.types.VirtualNetwork@36676c1a]>\n\tat org.apache.cloudstack.network.tungsten.service.TungstenApiTest.listTungstenNetworkTest(TungstenApiTest.java:1386)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "3d2409272ff871497a1e9d8ffd2bba89350dd78055e80876983d0148fa342d6a"
+}

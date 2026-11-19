@@ -1,0 +1,81 @@
+{
+  "container": "hbasehbasecommon635c911testClassFinderDefaultsToOwnPackage",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "hbasehbasecommon635c911testClassFinderDefaultsToOwnPackage",
+    "project": "https://github.com/apache/hbase",
+    "revision": "635c9115322b0be6eae2a630ef5cd59ba401fcb7",
+    "test": "org.apache.hadoop.hbase.TestClassFinder.testClassFinderDefaultsToOwnPackage",
+    "label": "ID",
+    "module": "hbase-common",
+    "zip": "hbase=hbase-common=635c911",
+    "config_row": 263,
+    "configured_test": "org.apache.hadoop.hbase.TestClassFinder#testClassFinderDefaultsToOwnPackage",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hbase::org.apache.hadoop.hbase.TestClassFinder.testClassFinderDefaultsToOwnPackage",
+    "variant_id": "https://github.com/apache/hbase::org.apache.hadoop.hbase.TestClassFinder.testClassFinderDefaultsToOwnPackage::635c9115322b0be6eae2a630ef5cd59ba401fcb7::hbase-common",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/hbasehbasecommon635c911testClassFinderDefaultsToOwnPackage/result/Flaky/.nondex/6Dx0j8DRcOenuIuWwb63+knxgpfL70dC6gTG2JGg6c=/TEST-org.apache.hadoop.hbase.TestClassFinder.xml",
+        "size": 26530,
+        "compressed": 4032,
+        "crc32": "e2e7ffee",
+        "offset": 266340992,
+        "method": 8,
+        "local_path": "data/extracted/f1e9f501960c75cf1252e36c.xml",
+        "sha256": "30bf0dca7b3410d660eac4124d9273f8060f126db5f0b79a849e6484b9d19e66",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/hbasehbasecommon635c911testClassFinderDefaultsToOwnPackage/result/Flaky/rounds-test-results.csv",
+    "size": 18476,
+    "compressed": 5016,
+    "crc32": "20e2dc96",
+    "offset": 266177008,
+    "method": 8,
+    "local_path": "data/extracted/b568604433693c7d0fae7a72.csv",
+    "sha256": "dbec9d7a6d5eb0ce1d4b4ad3551d37e3494b759e54eebad9fc27ac561a958c5e",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/hbasehbasecommon635c911testClassFinderDefaultsToOwnPackage/result/Flaky/.nondex/6Dx0j8DRcOenuIuWwb63+knxgpfL70dC6gTG2JGg6c=/TEST-org.apache.hadoop.hbase.TestClassFinder.xml",
+    "size": 26530,
+    "compressed": 4032,
+    "crc32": "e2e7ffee",
+    "offset": 266340992,
+    "method": 8,
+    "local_path": "data/extracted/f1e9f501960c75cf1252e36c.xml",
+    "sha256": "30bf0dca7b3410d660eac4124d9273f8060f126db5f0b79a849e6484b9d19e66",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testClassFinderDefaultsToOwnPackage",
+    "outcome": "failure",
+    "exception_type": "org.junit.internal.ArrayComparisonFailure",
+    "message": "arrays first differed at element [0]; expected:<class org.apache.hadoop.hbase.util.TestAvlUtil$TestAvlNode> but was:<class org.apache.hadoop.hbase.util.TestFutureUtils>",
+    "stack_trace": "org.junit.internal.ArrayComparisonFailure: arrays first differed at element [0]; expected:<class org.apache.hadoop.hbase.util.TestAvlUtil$TestAvlNode> but was:<class org.apache.hadoop.hbase.util.TestFutureUtils>\n\tat org.apache.hadoop.hbase.TestClassFinder.testClassFinderDefaultsToOwnPackage(TestClassFinder.java:298)\nCaused by: java.lang.AssertionError: expected:<class org.apache.hadoop.hbase.util.TestAvlUtil$TestAvlNode> but was:<class org.apache.hadoop.hbase.util.TestFutureUtils>\n\tat org.apache.hadoop.hbase.TestClassFinder.testClassFinderDefaultsToOwnPackage(TestClassFinder.java:298)",
+    "text": "org.junit.internal.ArrayComparisonFailure\narrays first differed at element [0]; expected:<class org.apache.hadoop.hbase.util.TestAvlUtil$TestAvlNode> but was:<class org.apache.hadoop.hbase.util.TestFutureUtils>\norg.junit.internal.ArrayComparisonFailure: arrays first differed at element [0]; expected:<class org.apache.hadoop.hbase.util.TestAvlUtil$TestAvlNode> but was:<class org.apache.hadoop.hbase.util.TestFutureUtils>\n\tat org.apache.hadoop.hbase.TestClassFinder.testClassFinderDefaultsToOwnPackage(TestClassFinder.java:298)\nCaused by: java.lang.AssertionError: expected:<class org.apache.hadoop.hbase.util.TestAvlUtil$TestAvlNode> but was:<class org.apache.hadoop.hbase.util.TestFutureUtils>\n\tat org.apache.hadoop.hbase.TestClassFinder.testClassFinderDefaultsToOwnPackage(TestClassFinder.java:298)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "88c16ec2e33ab60162e8f178d98144f78483b9b7054941f2922a9b55b246f2f5"
+}

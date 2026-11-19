@@ -1,0 +1,81 @@
+{
+  "container": "TestParameterInjectorjunit45d67f8ctest4",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "TestParameterInjectorjunit45d67f8ctest4",
+    "project": "https://github.com/google/testparameterinjector",
+    "revision": "5d67f8cb66481638bcd117227bd0103c32c84491",
+    "test": "com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test[DuplicateFieldAnnotationTestClass:SUCCESS_ALWAYS]",
+    "label": "ID",
+    "module": "junit4",
+    "zip": "TestParameterInjector=junit4=5d67f8c",
+    "config_row": 660,
+    "configured_test": "com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest#test[DuplicateFieldAnnotationTestClass:SUCCESS_ALWAYS]",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/google/testparameterinjector::com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test[DuplicateFieldAnnotationTestClass:SUCCESS_ALWAYS]",
+    "variant_id": "https://github.com/google/testparameterinjector::com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test[DuplicateFieldAnnotationTestClass:SUCCESS_ALWAYS]::5d67f8cb66481638bcd117227bd0103c32c84491::junit4",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/TestParameterInjectorjunit45d67f8ctest4/result/Flaky/.nondex/wC7fegIUJN2w5Ir7GfMfoq2BGyx9SQQL2BgZViUEv8=/TEST-com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.xml",
+        "size": 12293,
+        "compressed": 2574,
+        "crc32": "572342f9",
+        "offset": 1666352202,
+        "method": 8,
+        "local_path": "data/extracted/8b0253f892d0bcbb4199a4e8.xml",
+        "sha256": "3a69154cc02a00e1f767a530b33d16fc0a83608df6e882edd7d005cd28041699",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/TestParameterInjectorjunit45d67f8ctest4/result/Flaky/rounds-test-results.csv",
+    "size": 22877,
+    "compressed": 5106,
+    "crc32": "cd0526b8",
+    "offset": 1665747022,
+    "method": 8,
+    "local_path": "data/extracted/bce93a05bfffa170f807bea7.csv",
+    "sha256": "adc0dba328d130326e36afe79b08e1d643c78c4dd9dfbc74a2ce27e73779842b",
+    "status": "verified"
+  },
+  "reported_failure_rows": 99,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/TestParameterInjectorjunit45d67f8ctest4/result/Flaky/.nondex/wC7fegIUJN2w5Ir7GfMfoq2BGyx9SQQL2BgZViUEv8=/TEST-com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.xml",
+    "size": 12293,
+    "compressed": 2574,
+    "crc32": "572342f9",
+    "offset": 1666352202,
+    "method": 8,
+    "local_path": "data/extracted/8b0253f892d0bcbb4199a4e8.xml",
+    "sha256": "3a69154cc02a00e1f767a530b33d16fc0a83608df6e882edd7d005cd28041699",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test[DuplicateFieldAnnotationTestClass:SUCCESS_ALWAYS]",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "----------------------\nImmutableMap.<String, String>builder()\n    .put(\"test[baz,foo]\", \"baz:foo\")\n    .put(\"test[baz,bar]\", \"bar:baz\")\n    .put(\"test[qux,foo]\", \"qux:foo\")\n    .put(\"test[qux,bar]\", \"qux:bar\")\n    .build()\n----------------------\n\nmissing keys\nfor key         : test[foo,baz]\nexpected value  : foo:baz\nfor key         : test[foo,qux]\nexpected value  : foo:qux\nfor key         : test[bar,baz]\nexpected value  : bar:baz\nfor key         : test[bar,qux]\nexpected value  : bar:qux\nunexpected keys\nfor key         : test[baz,foo]\nunexpected value: baz:foo\nfor key         : test[baz,bar]\nunexpected value: bar:baz\nfor key         : test[qux,foo]\nunexpected value: qux:foo\nfor key         : test[qux,bar]\nunexpected value: qux:bar\n---\nexpected        : {test[foo,baz]=foo:baz, test[foo,qux]=foo:qux, test[bar,baz]=bar:baz, test[bar,qux]=bar:qux}\nbut was         : {test[baz,foo]=baz:foo, test[baz,bar]=bar:baz, test[qux,foo]=qux:foo, test[qux,bar]=qux:bar}",
+    "stack_trace": "java.lang.AssertionError: \n\n----------------------\nImmutableMap.<String, String>builder()\n    .put(\"test[baz,foo]\", \"baz:foo\")\n    .put(\"test[baz,bar]\", \"bar:baz\")\n    .put(\"test[qux,foo]\", \"qux:foo\")\n    .put(\"test[qux,bar]\", \"qux:bar\")\n    .build()\n----------------------\n\nmissing keys\nfor key         : test[foo,baz]\nexpected value  : foo:baz\nfor key         : test[foo,qux]\nexpected value  : foo:qux\nfor key         : test[bar,baz]\nexpected value  : bar:baz\nfor key         : test[bar,qux]\nexpected value  : bar:qux\nunexpected keys\nfor key         : test[baz,foo]\nunexpected value: baz:foo\nfor key         : test[baz,bar]\nunexpected value: bar:baz\nfor key         : test[qux,foo]\nunexpected value: qux:foo\nfor key         : test[qux,bar]\nunexpected value: qux:bar\n---\nexpected        : {test[foo,baz]=foo:baz, test[foo,qux]=foo:qux, test[bar,baz]=bar:baz, test[bar,qux]=bar:qux}\nbut was         : {test[baz,foo]=baz:foo, test[baz,bar]=bar:baz, test[qux,foo]=qux:foo, test[qux,bar]=qux:bar}\n\tat com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)\nCaused by: com.google.common.truth.AssertionErrorWithFacts: \n\n----------------------\nImmutableMap.<String, String>builder()\n    .put(\"test[baz,foo]\", \"baz:foo\")\n    .put(\"test[baz,bar]\", \"bar:baz\")\n    .put(\"test[qux,foo]\", \"qux:foo\")\n    .put(\"test[qux,bar]\", \"qux:bar\")\n    .build()\n----------------------\n\nmissing keys\nfor key         : test[foo,baz]\nexpected value  : foo:baz\nfor key         : test[foo,qux]\nexpected value  : foo:qux\nfor key         : test[bar,baz]\nexpected value  : bar:baz\nfor key         : test[bar,qux]\nexpected value  : bar:qux\nunexpected keys\nfor key         : test[baz,foo]\nunexpected value: baz:foo\nfor key         : test[baz,bar]\nunexpected value: bar:baz\nfor key         : test[qux,foo]\nunexpected value: qux:foo\nfor key         : test[qux,bar]\nunexpected value: qux:bar\n---\nexpected        : {test[foo,baz]=foo:baz, test[foo,qux]=foo:qux, test[bar,baz]=bar:baz, test[bar,qux]=bar:qux}\nbut was         : {test[baz,foo]=baz:foo, test[baz,bar]=bar:baz, test[qux,foo]=qux:foo, test[qux,bar]=qux:bar}",
+    "text": "java.lang.AssertionError\n----------------------\nImmutableMap.<String, String>builder()\n    .put(\"test[baz,foo]\", \"baz:foo\")\n    .put(\"test[baz,bar]\", \"bar:baz\")\n    .put(\"test[qux,foo]\", \"qux:foo\")\n    .put(\"test[qux,bar]\", \"qux:bar\")\n    .build()\n----------------------\n\nmissing keys\nfor key         : test[foo,baz]\nexpected value  : foo:baz\nfor key         : test[foo,qux]\nexpected value  : foo:qux\nfor key         : test[bar,baz]\nexpected value  : bar:baz\nfor key         : test[bar,qux]\nexpected value  : bar:qux\nunexpected keys\nfor key         : test[baz,foo]\nunexpected value: baz:foo\nfor key         : test[baz,bar]\nunexpected value: bar:baz\nfor key         : test[qux,foo]\nunexpected value: qux:foo\nfor key         : test[qux,bar]\nunexpected value: qux:bar\n---\nexpected        : {test[foo,baz]=foo:baz, test[foo,qux]=foo:qux, test[bar,baz]=bar:baz, test[bar,qux]=bar:qux}\nbut was         : {test[baz,foo]=baz:foo, test[baz,bar]=bar:baz, test[qux,foo]=qux:foo, test[qux,bar]=qux:bar}\njava.lang.AssertionError: \n\n----------------------\nImmutableMap.<String, String>builder()\n    .put(\"test[baz,foo]\", \"baz:foo\")\n    .put(\"test[baz,bar]\", \"bar:baz\")\n    .put(\"test[qux,foo]\", \"qux:foo\")\n    .put(\"test[qux,bar]\", \"qux:bar\")\n    .build()\n----------------------\n\nmissing keys\nfor key         : test[foo,baz]\nexpected value  : foo:baz\nfor key         : test[foo,qux]\nexpected value  : foo:qux\nfor key         : test[bar,baz]\nexpected value  : bar:baz\nfor key         : test[bar,qux]\nexpected value  : bar:qux\nunexpected keys\nfor key         : test[baz,foo]\nunexpected value: baz:foo\nfor key         : test[baz,bar]\nunexpected value: bar:baz\nfor key         : test[qux,foo]\nunexpected value: qux:foo\nfor key         : test[qux,bar]\nunexpected value: qux:bar\n---\nexpected        : {test[foo,baz]=foo:baz, test[foo,qux]=foo:qux, test[bar,baz]=bar:baz, test[bar,qux]=bar:qux}\nbut was         : {test[baz,foo]=baz:foo, test[baz,bar]=bar:baz, test[qux,foo]=qux:foo, test[qux,bar]=qux:bar}\n\tat com.google.testing.junit.testparameterinjector.TestParameterAnnotationMethodProcessorTest.test(TestParameterAnnotationMethodProcessorTest.java:833)\nCaused by: com.google.common.truth.AssertionErrorWithFacts: \n\n----------------------\nImmutableMap.<String, String>builder()\n    .put(\"test[baz,foo]\", \"baz:foo\")\n    .put(\"test[baz,bar]\", \"bar:baz\")\n    .put(\"test[qux,foo]\", \"qux:foo\")\n    .put(\"test[qux,bar]\", \"qux:bar\")\n    .build()\n----------------------\n\nmissing keys\nfor key         : test[foo,baz]\nexpected value  : foo:baz\nfor key         : test[foo,qux]\nexpected value  : foo:qux\nfor key         : test[bar,baz]\nexpected value  : bar:baz\nfor key         : test[bar,qux]\nexpected value  : bar:qux\nunexpected keys\nfor key         : test[baz,foo]\nunexpected value: baz:foo\nfor key         : test[baz,bar]\nunexpected value: bar:baz\nfor key         : test[qux,foo]\nunexpected value: qux:foo\nfor key         : test[qux,bar]\nunexpected value: qux:bar\n---\nexpected        : {test[foo,baz]=foo:baz, test[foo,qux]=foo:qux, test[bar,baz]=bar:baz, test[bar,qux]=bar:qux}\nbut was         : {test[baz,foo]=baz:foo, test[baz,bar]=bar:baz, test[qux,foo]=qux:foo, test[qux,bar]=qux:bar}",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "d3cfc6c8419385189812bbe24dce31117156bef67a7ac80fb7f9a530334ccdd1"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "incubatorshardingsphereshardingjdbcshardingjdbccored517e5eassertGetDatabaseProductName",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "incubatorshardingsphereshardingjdbcshardingjdbccored517e5eassertGetDatabaseProductName",
+    "project": "https://github.com/apache/incubator-shardingsphere",
+    "revision": "d517e5ec3168ddd3f174d04f852de4f523d60bed",
+    "test": "org.apache.shardingsphere.shardingjdbc.jdbc.core.datasource.MasterSlaveDataSourceTest.assertGetDatabaseProductName",
+    "label": "ID",
+    "module": "sharding-jdbc/sharding-jdbc-core",
+    "zip": "incubator-shardingsphere=sharding-jdbc+sharding-jdbc-core=d517e5e",
+    "config_row": 280,
+    "configured_test": "org.apache.shardingsphere.shardingjdbc.jdbc.core.datasource.MasterSlaveDataSourceTest#assertGetDatabaseProductName",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/incubator-shardingsphere::org.apache.shardingsphere.shardingjdbc.jdbc.core.datasource.MasterSlaveDataSourceTest.assertGetDatabaseProductName",
+    "variant_id": "https://github.com/apache/incubator-shardingsphere::org.apache.shardingsphere.shardingjdbc.jdbc.core.datasource.MasterSlaveDataSourceTest.assertGetDatabaseProductName::d517e5ec3168ddd3f174d04f852de4f523d60bed::sharding-jdbc/sharding-jdbc-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/incubatorshardingsphereshardingjdbcshardingjdbccored517e5eassertGetDatabaseProductName/result/Flaky/.nondex/pxLakbQPKdzzjeOXSsz6HrdnjUlcGsHEktRb4CfHB5E=/TEST-org.apache.shardingsphere.shardingjdbc.jdbc.core.datasource.MasterSlaveDataSourceTest.xml",
+        "size": 17129,
+        "compressed": 2775,
+        "crc32": "33082dee",
+        "offset": 1885198909,
+        "method": 8,
+        "local_path": "data/extracted/6ad898d45d4ffae547bc5dbb.xml",
+        "sha256": "c883a417be41c96d537614ffdfa76cda7612ef90477fb064d9a9fd74a70b4312",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/incubatorshardingsphereshardingjdbcshardingjdbccored517e5eassertGetDatabaseProductName/result/Flaky/rounds-test-results.csv",
+    "size": 24965,
+    "compressed": 5044,
+    "crc32": "f0d25624",
+    "offset": 1884952830,
+    "method": 8,
+    "local_path": "data/extracted/43828aa352c56b6c5f0a512c.csv",
+    "sha256": "5fdf57d1a5232fcb5ea101f4732de76228062709ac9d62f49ee34d7348a6eb17",
+    "status": "verified"
+  },
+  "reported_failure_rows": 68,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/incubatorshardingsphereshardingjdbcshardingjdbccored517e5eassertGetDatabaseProductName/result/Flaky/.nondex/pxLakbQPKdzzjeOXSsz6HrdnjUlcGsHEktRb4CfHB5E=/TEST-org.apache.shardingsphere.shardingjdbc.jdbc.core.datasource.MasterSlaveDataSourceTest.xml",
+    "size": 17129,
+    "compressed": 2775,
+    "crc32": "33082dee",
+    "offset": 1885198909,
+    "method": 8,
+    "local_path": "data/extracted/6ad898d45d4ffae547bc5dbb.xml",
+    "sha256": "c883a417be41c96d537614ffdfa76cda7612ef90477fb064d9a9fd74a70b4312",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "assertGetDatabaseProductName",
+    "outcome": "failure",
+    "exception_type": "org.mockito.exceptions.verification.TooManyActualInvocations",
+    "message": "connection.close();\nWanted 1 time:\n-> at org.apache.shardingsphere.shardingjdbc.jdbc.core.datasource.MasterSlaveDataSourceTest.assertGetDatabaseProductName(MasterSlaveDataSourceTest.java:116)\nBut was 2 times. Undesired invocation:\n-> at org.apache.shardingsphere.shardingjdbc.jdbc.core.context.MasterSlaveRuntimeContext.createCachedDatabaseMetaData(MasterSlaveRuntimeContext.java:50)",
+    "stack_trace": "org.mockito.exceptions.verification.TooManyActualInvocations: \n\nconnection.close();\nWanted 1 time:\n-> at org.apache.shardingsphere.shardingjdbc.jdbc.core.datasource.MasterSlaveDataSourceTest.assertGetDatabaseProductName(MasterSlaveDataSourceTest.java:116)\nBut was 2 times. Undesired invocation:\n-> at org.apache.shardingsphere.shardingjdbc.jdbc.core.context.MasterSlaveRuntimeContext.createCachedDatabaseMetaData(MasterSlaveRuntimeContext.java:50)\n\n\tat org.apache.shardingsphere.shardingjdbc.jdbc.core.datasource.MasterSlaveDataSourceTest.assertGetDatabaseProductName(MasterSlaveDataSourceTest.java:116)",
+    "text": "org.mockito.exceptions.verification.TooManyActualInvocations\nconnection.close();\nWanted 1 time:\n-> at org.apache.shardingsphere.shardingjdbc.jdbc.core.datasource.MasterSlaveDataSourceTest.assertGetDatabaseProductName(MasterSlaveDataSourceTest.java:116)\nBut was 2 times. Undesired invocation:\n-> at org.apache.shardingsphere.shardingjdbc.jdbc.core.context.MasterSlaveRuntimeContext.createCachedDatabaseMetaData(MasterSlaveRuntimeContext.java:50)\norg.mockito.exceptions.verification.TooManyActualInvocations: \n\nconnection.close();\nWanted 1 time:\n-> at org.apache.shardingsphere.shardingjdbc.jdbc.core.datasource.MasterSlaveDataSourceTest.assertGetDatabaseProductName(MasterSlaveDataSourceTest.java:116)\nBut was 2 times. Undesired invocation:\n-> at org.apache.shardingsphere.shardingjdbc.jdbc.core.context.MasterSlaveRuntimeContext.createCachedDatabaseMetaData(MasterSlaveRuntimeContext.java:50)\n\n\tat org.apache.shardingsphere.shardingjdbc.jdbc.core.datasource.MasterSlaveDataSourceTest.assertGetDatabaseProductName(MasterSlaveDataSourceTest.java:116)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "3610b209c2a140b2eb1233bf70fa2ec8d9d3bda706f780b7685de9d213e33ae7"
+}

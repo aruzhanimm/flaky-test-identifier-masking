@@ -1,0 +1,1509 @@
+{
+  "exact_cross_project": [],
+  "normalized_templates": [
+    {
+      "sample_ids": [
+        "71b4c860e6e57c7826899f6c",
+        "67363094e8447c6338fd69f2",
+        "74777de182a45f8e796ec0d1",
+        "14d118004150fb9743440562",
+        "4e182168d66d87f2ef0c9d5f",
+        "3704e2d114fd9e1ec9680323",
+        "ee37068ebba3c98e5ed950af",
+        "bda126901f7b2316699a2ba1",
+        "e8a20fa0a4faa363451ef6d7",
+        "1657d6263988170b076ba68f",
+        "8a5e890d3db008d6ebf51837",
+        "edd529ed0ba79f76fea4cba6",
+        "eacbbc01c582d930aa622e13",
+        "8a0ecc64b2f466528f056707",
+        "14b6e09f82c96aa14840f158",
+        "ee20b3291d137412bc8697b5",
+        "9f2f6a5aa345e31689a5e820",
+        "e6a312b7377e8a5f5654727c",
+        "681d814c5b1d82e92b6b734f",
+        "05a76d3337ac3a849971173e",
+        "424878bbe23ab7d09015aa29",
+        "890c6e37bd6b9b4c8b226dee",
+        "74e4d15afeb871f6fd9e590a",
+        "43c04abc96a3bd5b6878e89d",
+        "ed6f24ad43c351d82e514147",
+        "7bdf41c3040ec82726c0166b",
+        "4c610aeebf4f9edc7a14c57c",
+        "402b5a8ed3bbbd10195f1980",
+        "79f1cd13e325da8aa265c4ed",
+        "c91dfe35c799df9d2d6f89cd",
+        "953799ff1c962c14c65b33f1",
+        "9627836ba570812d2e4876cd",
+        "b5da44b57278054857884f79",
+        "3a25cb5c40175cd73a2aab68",
+        "ba36c977f45cfb762acd4077",
+        "66179059fea80ef452d6052c",
+        "9d0e84653b525b6d59c0b0df",
+        "f142c8c8dbf40adc182ca963",
+        "c8bf1b3901abb938b17849eb",
+        "93c76c4c1a19bae2364030a4",
+        "2129c6cc0a748370b0caed05",
+        "20961abb673ce7a38c56c70b",
+        "9e9a176648db2bcc0ae1eeb6",
+        "2bd06d90d2b838c27a841c3b",
+        "b5f625ae2dc92eb8432f42e6",
+        "2b1d33aed7be83cfd05d1c23",
+        "0758449c70baf605ed5d4eed",
+        "f4ff56e16e64643066694737",
+        "2842592cdf2265723cd30ebb",
+        "40bedbf60fe74db603af1694",
+        "6262f493dff4d27280dd2c93",
+        "635346f8fc0eb64cb7d55568",
+        "3648c5d9dc9285bca233eeed",
+        "75f160d89878be307050621a",
+        "8adb26448ec0cc5978051a4c",
+        "1862811f7013b159a096c792",
+        "17fd7444a14b4acefcc7acbe",
+        "6fb0a96b62605aee8818d3af",
+        "76478040e9265c8dd70e35fe",
+        "5ebd3f8c1adc4485ddaa7b79",
+        "1e11b55fd59affb7078599e5",
+        "b62afeb12a7ce013cb120309",
+        "5225c0b267d95998208b2cb1",
+        "9927da30f9be85758f8c9d5b",
+        "c3c0ad124b97dff7329987ec",
+        "bbef18746f16e24a3330d2f5",
+        "d67435bc3f098adfe061e9e7",
+        "24e7e9a020654c77ce6b1637",
+        "86a0ab05ddbb27a180336589",
+        "a7e6dc4f24847ea9faa9b402",
+        "550d8d345facb1097b247e04",
+        "a4441e488e457849368aac28",
+        "0120752d906be033bdc9828f",
+        "9d58d39a605184cac1db55b0",
+        "73d78196a83ccebb1ce3dde3",
+        "e49cc352e14c5ffa1bb6529d",
+        "f02dbe9e3489bbb17e5a4741",
+        "4d241ce24b2baad7142cf4a6",
+        "9d133a950bb5de4723a54331",
+        "18180781753fcb9971bba709",
+        "92f2b83f1bf3450f3ff984a9",
+        "4ada610b7b3ab757e0808523",
+        "c60ab64f64863eb217169439",
+        "11fea76a849931f5c1440f48",
+        "b825d28be0a68a8be1db8b07",
+        "0df420a15fd3c8b2dd535e65",
+        "9d7597982996c4fa497eca4a",
+        "7db1d08b2e88ae57e18dd871",
+        "a90f3656225cea7a5f8cbe2a",
+        "6de490bffebfc87a8650151f",
+        "8949280630e18fd4cec6b689",
+        "0de25c0de924fc818042f2c1",
+        "a36f42a0f991f3ab4b159f44",
+        "49a5167b1667b0e1efc36457",
+        "bca308a18d7c3719ba325577",
+        "2f95a532163a8c5e5077be81",
+        "09e949d2ab5c0de11084e196",
+        "e7a81f5bd6a6e199bab8ce34",
+        "fc4f4df235bcfe5c43aa8a13",
+        "5d4c430a543af1336ba4ea50",
+        "6a2c8a504498f0f9c996bff4",
+        "d2dbb0a00e859c4aadbe62ee",
+        "5aa43660f3e2dbfe08d15021",
+        "6254b054774663d644c5601e",
+        "fb8a9b569bf906c81b880101",
+        "a644ee3cbe9c668b1764426c",
+        "2b1b309d516ae2a8fea06f52",
+        "fee64ec782f96724314a9c81",
+        "5ec3fa9a2b3e147de31870c1",
+        "d90f23f9d6ad77546c4cefd0",
+        "f1a42533caae34b540ddfd92",
+        "c33891c2b5fb483f60c592fd",
+        "5d28f13edb48d16b6e0b9678"
+      ],
+      "projects": [
+        "https://github.com/pholser/junit-quickcheck"
+      ],
+      "labels": [
+        "NIO"
+      ]
+    },
+    {
+      "sample_ids": [
+        "06bfaa7f1729309075d8a807",
+        "2c36f44af94e57df3e796f70"
+      ],
+      "projects": [
+        "https://github.com/pholser/junit-quickcheck"
+      ],
+      "labels": [
+        "NIO"
+      ]
+    },
+    {
+      "sample_ids": [
+        "cc2e9c38854547a89d68a2e9",
+        "de430cc7f231d24b21f66ec4",
+        "d36746f288698f7c4849e005"
+      ],
+      "projects": [
+        "https://github.com/pholser/junit-quickcheck"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "59b7ace4de0923e69f4e8782",
+        "5df435865289d76d1e960720",
+        "5458f8b5868a426e01c957ea",
+        "afaf1249c98b71ec4c09682b",
+        "920d20f16064043a86d70821"
+      ],
+      "projects": [
+        "https://github.com/adobe/asset-share-commons",
+        "https://github.com/apolloconfig/apollo",
+        "https://github.com/epam/eco-schema-catalog"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "7e570fc7d75c6c17cca08856",
+        "f3eaacf7d0ae1e33e902a3f4",
+        "b69f74f8abb4165b1814b904",
+        "63e65bfebb38ff760e9e7de6",
+        "1346a7be064b66eb7fa8cf2b",
+        "57e4c586014bf76dd04df19d"
+      ],
+      "projects": [
+        "https://github.com/openfeign/feign"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "95e7d91665de7310be9798f1",
+        "2ae64f287e00554a4638421c",
+        "ef6b651eadc4d45028a237d7"
+      ],
+      "projects": [
+        "https://github.com/openfeign/feign"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "2ae6ba3d4d75b6e2b1f36701",
+        "b09d721c615d5d4d17b5f81e"
+      ],
+      "projects": [
+        "https://github.com/cerner/common-kafka"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "805e786f7c3a5fa0d700fd14",
+        "0c456f9a854c067f860069cb"
+      ],
+      "projects": [
+        "https://github.com/eclipse-ee4j/tyrus"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "97991426630ad7e051cc94e4",
+        "a9adb585ff0ae689fa77347e"
+      ],
+      "projects": [
+        "https://github.com/jdereg/json-io"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "c4f39b435909c1a19dcc0ad6",
+        "35753b2b42d05f43dc518d19"
+      ],
+      "projects": [
+        "https://github.com/eclipse-ee4j/jersey"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "ad77e55a966eef487ce83ff9",
+        "782311db994a071a7fb017bc"
+      ],
+      "projects": [
+        "https://github.com/alibaba/nacos"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "da91412bc5f9eb001028d732",
+        "afffd0f0fffc820bdac1f412",
+        "cb20620c597124879bc23793",
+        "ad9a00d61c692e997b5f3d84"
+      ],
+      "projects": [
+        "https://github.com/alibaba/nacos",
+        "https://github.com/epam/eco-schema-catalog"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "efa955b5fb7438e0f02b3e8a",
+        "1ce0eecc2f13214b1acc9f79",
+        "ff05726f97d00bfa1fca7a71",
+        "6de25b1f8ee8a564572cc293",
+        "04d1174cef478550c4ab33fd",
+        "7a154e31a2375ddfebf0c7f0"
+      ],
+      "projects": [
+        "https://github.com/sap-archive/pair-distribution-app"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "a137a8c5721caa1ae156c848",
+        "5f9c5b242fb99aa85dd6db95"
+      ],
+      "projects": [
+        "https://github.com/ericsson/ecchronos"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "df02fb734913e075749c7e43",
+        "80b60e40cb3fd760629f2c6e",
+        "f6d3eb6c17267ec7f97837c2"
+      ],
+      "projects": [
+        "https://github.com/apache/commons-lang",
+        "https://github.com/apache/zookeeper"
+      ],
+      "labels": [
+        "ID",
+        "TD"
+      ]
+    },
+    {
+      "sample_ids": [
+        "27e9ef8656b0672a6be0922d",
+        "bd7e3403204dcb9e4215f94c"
+      ],
+      "projects": [
+        "https://github.com/sap-archive/scimono"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "827010472a3a01506aa2abe8",
+        "4e3195eb4ee86c8ee7864b5a"
+      ],
+      "projects": [
+        "https://github.com/sap-archive/scimono"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "78f2130d81dd971aadb831ac",
+        "0729af3ab3ea51cb68efb357",
+        "d4fa2f30b48f8656b67b497c"
+      ],
+      "projects": [
+        "https://github.com/sap-archive/scimono"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "86f083a1b410436522dfd388",
+        "7438cd172a48d9fddfd33cae",
+        "7dc597af2ded6bb83df7e221"
+      ],
+      "projects": [
+        "https://github.com/chinabugotech/hutool"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "190936df008b94178b019112",
+        "c9f75188befbaaa3955d9c71"
+      ],
+      "projects": [
+        "https://github.com/apache/flink"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "5a554259c76df99a539f3f55",
+        "00b3436c286909c30a113235",
+        "db1f5141131a4c9b17e64b88",
+        "fea19491baf0a7f54c1b083f",
+        "92bdb08b11e57f9a40240471",
+        "3567b173ce8b72c0c9509933",
+        "22e4264c6539e917fec7ea67",
+        "fdc0f3f5b7eddd86fc8012cb",
+        "5e0cf24708e8342f6feaf02a",
+        "c7e48f6dfb402ba10e867722",
+        "856b7199efe53145943acc54",
+        "7771e79f475666399b11a423",
+        "537aee137df43ee6a85015da",
+        "03087b604eb2581567c43dff",
+        "c0451945956e10ba15781e73",
+        "4d00146fa122baf752afbae8",
+        "2e3f3e0b6cf683cf0d99c935",
+        "2285138a9407af3496a63b82",
+        "1171c57487e35c62c596d06f",
+        "64b903c90de43e0ca11caed3",
+        "91f0efeb5613cecabb2a12b0",
+        "50219c2c0bf9c98e924f1730",
+        "f3b0ab46cb06ed32cb390443",
+        "2ccffd4463e9869c1416028a",
+        "aeb94fe97b05560ad1b11f22",
+        "3d67cfda9b85a1943fefa5c8",
+        "411368315dba370a39084461",
+        "ccaf641d47be707c140e93aa",
+        "da33e2a597684eb291c38524",
+        "082021d185d50cb6f610198d",
+        "2c4ed501b82ecc8bafd955fe",
+        "c0262714335bb0a09774b0d7",
+        "ab57bcac1139b4c0fdf37831",
+        "8725485b6e2de6ca9d29a22a",
+        "8249c20f35590870931c15b7",
+        "e3e871de422d25fc3d6d1c6e",
+        "db731067da54fe59278ccfb4",
+        "4d724410ba25977710150922",
+        "3eedb3365c989860662a6233",
+        "b1399ac4f38d47e03cd52942"
+      ],
+      "projects": [
+        "https://github.com/apache/activemq"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "3207a60c9e29802b5d8a90e3",
+        "0a9bef12e2c8a4039a3b413e",
+        "4eec85321471f876ed20b096",
+        "4ec9764d78379e9548df9166",
+        "4b399e32a8e06061551c692f",
+        "c807bb0508f9be0a2e5bb812"
+      ],
+      "projects": [
+        "https://github.com/apache/activemq"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "e0cf183d1c51bf6fd827a6f6",
+        "365e0474f663ed5a51dfa5fa",
+        "6a5a2ed3e7058bfb1c40282d"
+      ],
+      "projects": [
+        "https://github.com/apache/hive"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "b8e09a736377f8a4b093d0fd",
+        "6f8260e667c9bbf390769c6d",
+        "6831da6c51a79b3e8f5d74ea",
+        "4c220c285a8775ab4b3429e5",
+        "e49f869304781ce797147960",
+        "474cefc70b0c557d51885cde",
+        "7b525fef9c4d9392b4edeb1a",
+        "5b242026a29b64c35f27cf6e",
+        "040b105d03f55d4a95e9beba"
+      ],
+      "projects": [
+        "https://github.com/opengamma/strata"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "8461556949704aec797ae5c0",
+        "57816c835d63856dc3457c21",
+        "ee9c4e6de29fac22e977de99",
+        "b3b612150c621407f67a580b"
+      ],
+      "projects": [
+        "https://github.com/epam/eco-schema-catalog"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "7c3567423dd220a4682708bf",
+        "907d10c50c01abd78206693f",
+        "e6d84f58a68b952ffed19a65",
+        "c3d7994465a99143c5bab173"
+      ],
+      "projects": [
+        "https://github.com/hapifhir/hapi-fhir"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "12af8735aa00cc796f76e45b",
+        "25741d8b6828f82d8906810d",
+        "396ac099e9aa33dfb498d784",
+        "ed356aef861e5a349d5345ba"
+      ],
+      "projects": [
+        "https://github.com/hapifhir/hapi-fhir"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "e3f3d12b187bde2b064ffa3a",
+        "6b9e727fa18c2ee3ff1414f3",
+        "75719f58ed67f508e18b4371"
+      ],
+      "projects": [
+        "https://github.com/alibaba/innodb-java-reader"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "2c6c7f8ce2324b057d03358e",
+        "6c2770e644c129e4c4425666",
+        "9a0a0af167c9809455eafa77",
+        "a71e11daa17ce86824652020",
+        "c68f56f4fca5d522bc064ecd",
+        "3e7dc9faebca4d75bf0572ac",
+        "d4909f868bb7a8baa5ce7bb0",
+        "e35b0aa532f4493654a94633",
+        "2fa0207d6d6736f9fc14903b",
+        "356d58ceabbf30c23484e717",
+        "79100f524120b52ddcd514d3",
+        "9a643afad6b5089b368e1032",
+        "129d8bda49698b7d9973fef6",
+        "e8314913eddaf948acf4359b",
+        "f3096830649c59cd144e7490",
+        "8e5ab9d2855fd7316e24a6a5",
+        "a7920097681073545ae27f90",
+        "13ef19de89d33da91cc085b8",
+        "42007bbddb1e4a259657f3cb",
+        "0f51c5a5e1a56eb85c5960ae",
+        "1bec71737ac0062e79136e16"
+      ],
+      "projects": [
+        "https://github.com/alibaba/innodb-java-reader"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "3ac1d618075cfed58e1646da",
+        "d2229e12c08eacf486bbe312",
+        "a79c89dc67a43b412b04f2fa"
+      ],
+      "projects": [
+        "https://github.com/alibaba/innodb-java-reader"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "49995e34486d30fb3f0f9ced",
+        "2e178f9394441e11232a1a97",
+        "93987cc4c8604f1e1cdfe1d2"
+      ],
+      "projects": [
+        "https://github.com/alibaba/innodb-java-reader"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "65a01c89cc4e5c746958ae9e",
+        "fe2ace98009d6e67aaa08de6",
+        "aeb8136617a08ecbd0f9e3a2"
+      ],
+      "projects": [
+        "https://github.com/alibaba/innodb-java-reader"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "f054334b162b2165ecf96872",
+        "581f04d9f0d62aa8cadf70d2",
+        "3f1ee3b5542533251f9fc601"
+      ],
+      "projects": [
+        "https://github.com/alibaba/innodb-java-reader"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "f54bc6a9cb1b28b5867bdf8c",
+        "3ec51829968d7e9a52688855",
+        "a6c63e1e05c46cfa07bfe7b2"
+      ],
+      "projects": [
+        "https://github.com/alibaba/innodb-java-reader"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "8c6bb3fc20e093070a18c95f",
+        "07a2a2b269e92b4551f3531b",
+        "af5a95c02799c03c031f8620"
+      ],
+      "projects": [
+        "https://github.com/alibaba/innodb-java-reader"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "06c012b5f3f904e2bbe7bb4e",
+        "0500dafd5177633060ef1076",
+        "b635b03a396dc6f3846c93eb"
+      ],
+      "projects": [
+        "https://github.com/alibaba/innodb-java-reader"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "9357a639e6b76dc20f0a1b2a",
+        "1454b202b5a3fc3c6c5eea4b",
+        "6dff4ff7806d0ba462bc4068"
+      ],
+      "projects": [
+        "https://github.com/apache/accumulo"
+      ],
+      "labels": [
+        "OD"
+      ]
+    },
+    {
+      "sample_ids": [
+        "eb3acd7dc07c42a475d9f42b",
+        "b1552c776403181f9b449014"
+      ],
+      "projects": [
+        "https://github.com/vojtechhabarta/typescript-generator"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "86390d670302e386dc821641",
+        "678f9c0cfa2c91e30866e3b3"
+      ],
+      "projects": [
+        "https://github.com/alibaba/fastjson"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "99d3f82f8822bc361642e3f3",
+        "0c64035e7a6ce18e8127711c",
+        "01e69f482a213f32bb24a983"
+      ],
+      "projects": [
+        "https://github.com/alibaba/fastjson"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "bfc1b4b7b3950e740c90cf31",
+        "7813eed349b0224467170f45",
+        "adc6dd9cb06dd1f180e7b536"
+      ],
+      "projects": [
+        "https://github.com/alibaba/fastjson"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "112621e47313c91cf89e5532",
+        "3d31676b48daeb0ba06b8f8a"
+      ],
+      "projects": [
+        "https://github.com/apache/opennlp"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "f2ae077c0e945b0f3a260983",
+        "790eff361b0c1cdcd2429f1a"
+      ],
+      "projects": [
+        "https://github.com/apache/nifi"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "36d9e86932ae2467f64d3928",
+        "b5194842993d90196a017425"
+      ],
+      "projects": [
+        "https://github.com/apache/nifi"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "202c6dcff2362d27cb50413b",
+        "1737ace6acb90fcfe02ae39b"
+      ],
+      "projects": [
+        "https://github.com/sakaiproject/sakai"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "290edbe474d679ec60fe49a6",
+        "93ef295287e4b39235075c0e"
+      ],
+      "projects": [
+        "https://github.com/apache/kylin"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "9bc70140d955da759ae8bf3a",
+        "5ce123c20347bfdc2d3bd968",
+        "32b2be6486953d1e9252ead2"
+      ],
+      "projects": [
+        "https://github.com/apache/tinkerpop"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "d70b8f323f1fe319e49e7717",
+        "910e174207f968b06530ccfa"
+      ],
+      "projects": [
+        "https://github.com/intel/jndn-utils"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "bc030465022268431970325e",
+        "a1eea8d9a5851cb740bfbb8f",
+        "984474b3bae1acb2615db66f",
+        "d8d3a4c1d2625fb6a3ed740d",
+        "6e3f16070707fd351a3977d0",
+        "3e87c1a63bfde5ca2d1fe47f",
+        "096adb7ff4ad28e61e2d4304",
+        "578bb917e16deeb05849cbba",
+        "2e70babcad52a1d27d509b88",
+        "b8ecc66097bf3cb689c8dfe0",
+        "49373ad035eff816e47edcd0",
+        "762847ab9cac731846562bc6",
+        "ea8941c73bfc721a41e3ab31",
+        "15a2298879d4fed656579a4a",
+        "a4c44d3f209931e28eab2851",
+        "ab79c645df66d784e7fc6341",
+        "db4ef2ca6d94d58bfc415a11",
+        "953a3fcd10d9b8feff9a1f8d",
+        "dc6cbd1e6d4754c2199a7cd4",
+        "45f27e13495596e812502994",
+        "4e0789f020447ac9b9d8edca",
+        "b1f6c3ddca658b15269f955d",
+        "be1695ef90744e9fbf1b17f6",
+        "dddc4b7131236976af5b94d0",
+        "4ae57f3b26ebe0f4dbf985c7",
+        "56e1c877174e9acc5f093b69",
+        "669eb4a052ef44479c93e5a9",
+        "3277dc572edd0d6281706f8c",
+        "9e60aee4c264ec4efd97e0c5",
+        "c84033ca3ae4c408fc2ced91",
+        "58acba13b0eb4512a485127d",
+        "1ee1f18b0a6fe7671f2f414e",
+        "34143f3132068470ef04ae28"
+      ],
+      "projects": [
+        "https://github.com/apache/ignite-3"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "2a1d1cdcadafaf5e01facb23",
+        "36e484d137096c796c04b1d1"
+      ],
+      "projects": [
+        "https://github.com/apache/ignite-3"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "a80f7950dccbb51188c3611c",
+        "72145cffdcefd57923ed0eb1",
+        "c141708b52f0eefe6bd4e472",
+        "e46f239128a649efc1646ce2",
+        "dd7297520e33e4dde57ec90e",
+        "810b4f3f891410dbde4e69fa",
+        "19db6936088ae063d2a4db45",
+        "8853e68cbc6734de6c84f6fe",
+        "aaf475cbcceb96b2f3ffdd7d"
+      ],
+      "projects": [
+        "https://github.com/apache/ignite-3"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "25033771ad912cb279232493",
+        "0bedd5c734eb44f5531be851",
+        "6ed2d18fcc9a6eddb746a68a",
+        "90c8b2665713a386c88c4973",
+        "c504652a2a1ad4887d98afb9",
+        "0ec0461dd42b72fea5193e71",
+        "98bce96da2930ab21744bd0d",
+        "4bcbc6cfc102bd6d5b2136bf",
+        "e9037124aad8a2e92054c4fc",
+        "48cccc4b9d475a73715f3940",
+        "6997ab78ed6cbec7f17b2ee2",
+        "ee28035383190f5ca3bdf1a3",
+        "63ea5660a6d46766fc1b4bec",
+        "115165a2c796c50eab5a0fc8",
+        "325df42fc72fde4efd4c7210",
+        "7f3338abe787ff66ea3fac9d",
+        "98feeb45553e97f10169e27c",
+        "8b86caee0367af01682172f7",
+        "e2011f5780ceec2143f1d7b2",
+        "844f2e374b3bceda6f236e0c",
+        "66b3233a7a6405c62f9237b0",
+        "71bafa269b5bd75a70229564",
+        "2f36b230e3e48b5ab062568d",
+        "c128ee1fb5f87aaee12ad9f0"
+      ],
+      "projects": [
+        "https://github.com/google/testparameterinjector"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "4dfe3c16c8fa6b783049638a",
+        "071cf0b72d026da6387d14f2",
+        "cecdbf51710eb1ad350715f5"
+      ],
+      "projects": [
+        "https://github.com/google/testparameterinjector"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "f28d03f4dab0748b8c60e3ab",
+        "2a6b21d6aa78c3c223e122e0",
+        "adc88182df8d50986fce034e",
+        "6402deac49c04a0fdb31998f",
+        "cd566481a207edd476d4b23a",
+        "193da4265c97133de871c67e",
+        "4a6882f1f778af3137b1a69c"
+      ],
+      "projects": [
+        "https://github.com/google/testparameterinjector"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "f8de8766fa328fef396a9d1e",
+        "30cbd21e09319b7a84aa8123"
+      ],
+      "projects": [
+        "https://github.com/lets-blade/blade",
+        "https://github.com/opengoofy/crane4j"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "55292067aa8887390fcf3c2e",
+        "6fe007fa0cef8759ce276259"
+      ],
+      "projects": [
+        "https://github.com/apache/shardingsphere-elasticjob"
+      ],
+      "labels": [
+        "NIO"
+      ]
+    },
+    {
+      "sample_ids": [
+        "33d67d1a8cc8541414702b19",
+        "fb79937f52ff5ec1ac2f8d7f"
+      ],
+      "projects": [
+        "https://github.com/gchq/gaffer"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "7adfc16093dfb8b24ca9f9d8",
+        "f76e360309033a53a5611fb5",
+        "955023add84d942f6c253d0e"
+      ],
+      "projects": [
+        "https://github.com/alibaba/fastjson2"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "63b86b14ca8c5e5213e6e017",
+        "fbb562fa865f9a8c109a6c1a"
+      ],
+      "projects": [
+        "https://github.com/alibaba/fastjson2"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "73ce2b652d7ab1a22012bfd8",
+        "6581ffb8797b3b1f24cab93c"
+      ],
+      "projects": [
+        "https://github.com/alibaba/fastjson2"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "d93c4f5b9f9f325def41ee5f",
+        "64c8f0f631bd78c592ff9807"
+      ],
+      "projects": [
+        "https://github.com/alibaba/fastjson2"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "5170804ce8fd65e9b4e6441c",
+        "c5467ca24c8cba8f3e196e23"
+      ],
+      "projects": [
+        "https://github.com/alibaba/fastjson2"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "4f74e2847640f826f6c938d8",
+        "d3cd1a32b99a8ce6b6688518"
+      ],
+      "projects": [
+        "https://github.com/alibaba/fastjson2"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "06b8d4de3506e7f7b510d9eb",
+        "452f07873522a136aa9947e7",
+        "bf5a035c67adc61448f2993d"
+      ],
+      "projects": [
+        "https://github.com/alibaba/fastjson2"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "af5a182bc2ee6313ef2f088c",
+        "b3a8e7a5dfae87c632f8b574",
+        "0ebbcd81425cc0e385c495ae",
+        "c9401fbe4da6a965e016baeb"
+      ],
+      "projects": [
+        "https://github.com/alibaba/fastjson2"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "1687e1b8eb4d35b26f2f9a30",
+        "389c63ceb93ffa01526d9356"
+      ],
+      "projects": [
+        "https://github.com/alibaba/fastjson2"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "26413f5b59a05d506f1b9195",
+        "06147aab6854261cc3db10e6",
+        "00e19fb01d5124ca857368ff",
+        "fca009f6c0f1a5f739532452"
+      ],
+      "projects": [
+        "https://github.com/apache/shardingsphere"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "4399886a06167264edd2014a",
+        "dfbeca8fab76c6dde1fe297e",
+        "05ca7d1b1741e0a86b2be2b8",
+        "bbaf16ca6e02f9a58f080801",
+        "af1f2e8aaef364eae7114658",
+        "a276c18b8d40216e0dc901a3",
+        "5d5221366f64c8b0232ca63d"
+      ],
+      "projects": [
+        "https://github.com/apache/shardingsphere"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "8cd5bde8daee78ac2be25c51",
+        "a1d42cf53df60828fbdd1887"
+      ],
+      "projects": [
+        "https://github.com/apolloconfig/apollo"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "3795eaceccce6b7227b1af13",
+        "2731424984a5e2acb6087f69",
+        "a8c2be8d3b1609c2ffa534e7"
+      ],
+      "projects": [
+        "https://github.com/apolloconfig/apollo"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "d3ca815b417ddcd8e14ba914",
+        "7846d4630c83e4f75c1b10fb"
+      ],
+      "projects": [
+        "https://github.com/fasterxml/jackson-dataformats-binary"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "ae59bf5cec154481ba306a68",
+        "cd67c8b3d33b084a83e1dd09",
+        "9f8c422f43ab5187fc6935c4",
+        "4cbcbeee0a6aeb47fc179f3f",
+        "27cced33fdf70708a3d4d0b3"
+      ],
+      "projects": [
+        "https://github.com/fasterxml/jackson-dataformats-binary"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "a2a84e61370ac585b9088ecb",
+        "04f1fb62ae96df0d2a12b239",
+        "2a35598f959e24229b35f594"
+      ],
+      "projects": [
+        "https://github.com/fasterxml/jackson-dataformats-binary"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "66ccca99266eb0c3269e10bd",
+        "a19638f7ec0cfa5cbf848cd2"
+      ],
+      "projects": [
+        "https://github.com/openrefine/openrefine"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "e7c235f6c93f150f0a17be6a",
+        "2a77023020d206d4be12af07"
+      ],
+      "projects": [
+        "https://github.com/graylog2/graylog2-server"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "99ea8ee7b0bb00b930930ab7",
+        "b3e61a0256e5aa17d5cc4b5c"
+      ],
+      "projects": [
+        "https://github.com/graylog2/graylog2-server"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "5f213e176147a7c9af9b599b",
+        "879c404ae62d12af19581879",
+        "b8fd0bcf79b7d569be9dd551",
+        "7a590e5c6a712b727d850821"
+      ],
+      "projects": [
+        "https://github.com/flowable/flowable-engine"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "1be0154992a850d73c178ac0",
+        "f2d85cb8f4d02456e48a1f6b"
+      ],
+      "projects": [
+        "https://github.com/castle/castle-java"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "e584a2b03b7fe27b6dc3c28d",
+        "ee15fc8104b9acbaf625bdbd"
+      ],
+      "projects": [
+        "https://github.com/castle/castle-java"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "f64c4c2dd64fa29f607bfcb9",
+        "3ff23b9a854f4c74b7044f10"
+      ],
+      "projects": [
+        "https://github.com/wildfly/wildfly"
+      ],
+      "labels": [
+        "OD"
+      ]
+    },
+    {
+      "sample_ids": [
+        "7334d6680da3d1a7653a9412",
+        "32444828124d103d5ee33fff",
+        "2fa26f6b2cec9d1bd7685d51",
+        "d7c7740312e1db809e69de49",
+        "79aff5c259bd0a7d5b250f06"
+      ],
+      "projects": [
+        "https://github.com/wildfly/wildfly"
+      ],
+      "labels": [
+        "OD"
+      ]
+    },
+    {
+      "sample_ids": [
+        "75025f49f1668cf786e5c4b9",
+        "6f7502c028e8e92b6b077627"
+      ],
+      "projects": [
+        "https://github.com/wildfly/wildfly"
+      ],
+      "labels": [
+        "OD"
+      ]
+    },
+    {
+      "sample_ids": [
+        "9de426ade87fe1af6f5cb8c0",
+        "6d7a0bdd42f61b863d1bfc56",
+        "a34dc26c4bc33b2b1fcd365d"
+      ],
+      "projects": [
+        "https://github.com/wildfly/wildfly"
+      ],
+      "labels": [
+        "OD"
+      ]
+    },
+    {
+      "sample_ids": [
+        "5be943fa5e197863d90fdb7b",
+        "ef774f90541f21f6a21866ed"
+      ],
+      "projects": [
+        "https://github.com/wildfly/wildfly"
+      ],
+      "labels": [
+        "OD"
+      ]
+    },
+    {
+      "sample_ids": [
+        "66e496e5b82a8cf0acba061b",
+        "042c20780d89fe576278e011",
+        "f6531712f6a73bd0419fa738"
+      ],
+      "projects": [
+        "https://github.com/wildfly/wildfly"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "e059e26df4f1c971213cd695",
+        "47c5df9fb4fab4b434bf66fe",
+        "6e9d4eee027d06c9eb924b7f",
+        "4547df1fc0b69fdec78298fc",
+        "e75f6ee8af47a6281c790a05",
+        "4a4563b0a0ada73fe05d1f79",
+        "473003041069e0f67776cd48"
+      ],
+      "projects": [
+        "https://github.com/wildfly/wildfly"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "5a1cfaee4ddc1abd9104b44a",
+        "539bf75779571cdc432dee0a"
+      ],
+      "projects": [
+        "https://github.com/ktuukkan/marine-api"
+      ],
+      "labels": [
+        "OD"
+      ]
+    },
+    {
+      "sample_ids": [
+        "f3c968f8b09d7d844f3f1996",
+        "5adc3f40da4d05a5a7145d4f",
+        "d49d3a3fc2419d768e7b5620",
+        "5e1ba58f1f0958c07c18bd0e",
+        "f79b3ddd841b2f0c1f01a502",
+        "e5b8a23c2fbc0b50b54035f4",
+        "f8eb8606573a3a65b817bd0c",
+        "db55c196039f9bde69dfc5db",
+        "8268411f0ef548ccedb5e38d",
+        "1a7c1f609f7e2f9dad783b31",
+        "6a36ba3658ae2f4fe0a658b5"
+      ],
+      "projects": [
+        "https://github.com/j256/ormlite-core"
+      ],
+      "labels": [
+        "OD"
+      ]
+    },
+    {
+      "sample_ids": [
+        "d9dcbe5c3b21917628c80004",
+        "a7408aac5e04a255ff67ffb2"
+      ],
+      "projects": [
+        "https://github.com/j256/ormlite-core"
+      ],
+      "labels": [
+        "OD"
+      ]
+    },
+    {
+      "sample_ids": [
+        "ecf66bd184d3ca444bf4459c",
+        "a9abb2c1392b80003f86c494",
+        "48ca9f57c661d4c661c21d8f",
+        "a37aae8c71f2467070d72b0b",
+        "ed0469e1158cbddbc1f07d40",
+        "5b700950dc43933b8caeca7c",
+        "2387c959cff66961b0b10e89"
+      ],
+      "projects": [
+        "https://github.com/j256/ormlite-core"
+      ],
+      "labels": [
+        "OD"
+      ]
+    },
+    {
+      "sample_ids": [
+        "0eeb798bab34f35155e111e0",
+        "b74c4e032d37496adc01c428"
+      ],
+      "projects": [
+        "https://github.com/j256/ormlite-core"
+      ],
+      "labels": [
+        "OD"
+      ]
+    },
+    {
+      "sample_ids": [
+        "720aa33b6db4d95768168dfd",
+        "74967e4f05a9b1768bde58d1"
+      ],
+      "projects": [
+        "https://github.com/j256/ormlite-core"
+      ],
+      "labels": [
+        "OD"
+      ]
+    },
+    {
+      "sample_ids": [
+        "712a84397aa83734b4f80d13",
+        "bf867501e67dc0d8145a63f4",
+        "071738ea5f43224420c0f68e",
+        "c2d35bbed868b3a855f55333"
+      ],
+      "projects": [
+        "https://github.com/j256/ormlite-core"
+      ],
+      "labels": [
+        "OD"
+      ]
+    },
+    {
+      "sample_ids": [
+        "b087fee2400f69d9e91a22de",
+        "e5e2ebe37b22f6138737e880"
+      ],
+      "projects": [
+        "https://github.com/apache/servicecomb-java-chassis"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "8c0ec190c4de507c1f0419b1",
+        "ffe1ff2823a2d9ee5f5f50ac"
+      ],
+      "projects": [
+        "https://github.com/apache/servicecomb-java-chassis"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "a06c8cd9e9634a2472b6f09e",
+        "98fb9945b645e0b9d3ffafbc",
+        "e5c5e07a3f2b23248056ad3a",
+        "28e39e911d501f9f46c061cd",
+        "09a6e79cd75918a85571226f",
+        "7ba7616a7c7cdd3f96d31b6d",
+        "9d34742d8d8e5add1019d8b7",
+        "6e29b33e5252443344879e2e",
+        "4664b26602472c96fd3af7f0"
+      ],
+      "projects": [
+        "https://github.com/biojava/biojava"
+      ],
+      "labels": [
+        "ID"
+      ]
+    },
+    {
+      "sample_ids": [
+        "d2055a458797bf624a02cc4f",
+        "766f03b83f9beed5f922294f",
+        "4767faff002e35ffb771304e"
+      ],
+      "projects": [
+        "https://github.com/apache/cloudstack"
+      ],
+      "labels": [
+        "ID"
+      ]
+    }
+  ]
+}

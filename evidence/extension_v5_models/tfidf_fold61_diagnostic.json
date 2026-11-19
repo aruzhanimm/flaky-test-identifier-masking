@@ -1,0 +1,284 @@
+{
+  "fold": 61,
+  "repository": "https://github.com/alibaba/fastjson",
+  "corpus_sha256": "4fbee74d76717535e80f7c40841852784a23c1907954e8227ad2ae31f87c5127",
+  "conditions": [
+    {
+      "representation": "word",
+      "version": "original",
+      "counts": {
+        "shape": [
+          1028,
+          20947
+        ],
+        "dtype": "float64",
+        "nnz": 162749,
+        "minimum": 1.0,
+        "maximum": 2187.0,
+        "finite": true,
+        "strictly_positive": true,
+        "sha256": "5fd8f7299549d34a6b1caea648d9cff79e81ad276a3b3c32f8dd327a985b2f0b"
+      },
+      "idf": {
+        "minimum": 1.0009722898189393,
+        "maximum": 7.243195555274104,
+        "finite": true
+      },
+      "transformed": {
+        "shape": [
+          1028,
+          20947
+        ],
+        "dtype": "float64",
+        "nnz": 162749,
+        "minimum": 0.0014316462494067634,
+        "maximum": 0.6199984823206948,
+        "finite": true,
+        "strictly_positive": true,
+        "sha256": "a74547894cd895935fb94db21f5b9faec07687f15af851c0d037b2395d884d62"
+      },
+      "separate_count_then_tfidf_identical": true,
+      "vocabulary_matches_checkpoint": true,
+      "idf_matches_checkpoint": true,
+      "classifiers": [
+        {
+          "condition": "word_lr_original",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        },
+        {
+          "condition": "word_svc_original",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        },
+        {
+          "condition": "word_cnb_original",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        },
+        {
+          "condition": "word_lr_c0p1_original",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        },
+        {
+          "condition": "word_lr_c10_original",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        }
+      ],
+      "separate_transform_max_abs_difference": 0.0
+    },
+    {
+      "representation": "word",
+      "version": "masked",
+      "counts": {
+        "shape": [
+          1028,
+          16745
+        ],
+        "dtype": "float64",
+        "nnz": 156640,
+        "minimum": 1.0,
+        "maximum": 2187.0,
+        "finite": true,
+        "strictly_positive": true,
+        "sha256": "19f9364e0efd0a3643d305479b53cf3af13da4f02895a93fdba163ef678489fc"
+      },
+      "idf": {
+        "minimum": 1.0009722898189393,
+        "maximum": 7.243195555274104,
+        "finite": true
+      },
+      "transformed": {
+        "shape": [
+          1028,
+          16745
+        ],
+        "dtype": "float64",
+        "nnz": 156640,
+        "minimum": 0.0013699517808215937,
+        "maximum": 0.619914303118227,
+        "finite": true,
+        "strictly_positive": true,
+        "sha256": "e2deeee382016ea3ce43b33d327f969fe43110ad20f08e203d1e91c7420c3435"
+      },
+      "separate_count_then_tfidf_identical": true,
+      "vocabulary_matches_checkpoint": true,
+      "idf_matches_checkpoint": true,
+      "classifiers": [
+        {
+          "condition": "word_lr_masked",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        },
+        {
+          "condition": "word_svc_masked",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        },
+        {
+          "condition": "word_cnb_masked",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        },
+        {
+          "condition": "word_lr_c0p1_masked",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        },
+        {
+          "condition": "word_lr_c10_masked",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        }
+      ],
+      "separate_transform_max_abs_difference": 0.0
+    },
+    {
+      "representation": "char",
+      "version": "original",
+      "counts": {
+        "shape": [
+          1028,
+          30000
+        ],
+        "dtype": "float64",
+        "nnz": 1294823,
+        "minimum": 1.0,
+        "maximum": 4738.0,
+        "finite": true,
+        "strictly_positive": true,
+        "sha256": "4806c363ed732318f85467a4fef60f5d69e4cffc8b53413212c69cc1a9be28c8"
+      },
+      "idf": {
+        "minimum": 1.0009722898189393,
+        "maximum": 7.243195555274104,
+        "finite": true
+      },
+      "transformed": {
+        "shape": [
+          1028,
+          30000
+        ],
+        "dtype": "float64",
+        "nnz": 1294823,
+        "minimum": 0.0006481538468183764,
+        "maximum": 0.2460863335939048,
+        "finite": true,
+        "strictly_positive": true,
+        "sha256": "f5d6ad86e96f58d0f4f35a3b5587199480e4c1016d441572b22922ac9b881918"
+      },
+      "separate_count_then_tfidf_identical": true,
+      "vocabulary_matches_checkpoint": true,
+      "idf_matches_checkpoint": true,
+      "classifiers": [
+        {
+          "condition": "char_lr_original",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        },
+        {
+          "condition": "char_svc_original",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        },
+        {
+          "condition": "char_cnb_original",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        }
+      ],
+      "separate_transform_max_abs_difference": 0.0
+    },
+    {
+      "representation": "char",
+      "version": "masked",
+      "counts": {
+        "shape": [
+          1028,
+          30000
+        ],
+        "dtype": "float64",
+        "nnz": 1238396,
+        "minimum": 1.0,
+        "maximum": 4738.0,
+        "finite": true,
+        "strictly_positive": true,
+        "sha256": "e9e070672cb9c16b524968afc31336ee72c404e7b38cac380b5116695e4cc96f"
+      },
+      "idf": {
+        "minimum": 1.0009722898189393,
+        "maximum": 7.243195555274104,
+        "finite": true
+      },
+      "transformed": {
+        "shape": [
+          1028,
+          30000
+        ],
+        "dtype": "float64",
+        "nnz": 1238396,
+        "minimum": 0.0006161905179600228,
+        "maximum": 0.3462168401667558,
+        "finite": true,
+        "strictly_positive": true,
+        "sha256": "8d18e1bd5b8ecd035388221f934da797b9523af4427d8d32343f515027a7dd22"
+      },
+      "separate_count_then_tfidf_identical": true,
+      "vocabulary_matches_checkpoint": true,
+      "idf_matches_checkpoint": true,
+      "classifiers": [
+        {
+          "condition": "char_lr_masked",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        },
+        {
+          "condition": "char_svc_masked",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        },
+        {
+          "condition": "char_cnb_masked",
+          "train_csr_unchanged": true,
+          "test_csr_unchanged": true,
+          "fitted_hash_matches_checkpoint": true,
+          "predictions_match_checkpoint": true
+        }
+      ],
+      "separate_transform_max_abs_difference": 0.0
+    }
+  ],
+  "all_checks_passed": true
+}

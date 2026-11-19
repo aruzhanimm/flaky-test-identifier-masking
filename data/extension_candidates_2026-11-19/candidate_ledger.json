@@ -1,0 +1,593 @@
+[
+  {
+    "container": "elideelidecore5c39308testGetIdAnnotationsSubClass",
+    "category": "ID",
+    "configured_test": "com.yahoo.elide.core.dictionary.EntityDictionaryTest#testGetIdAnnotationsSubClass",
+    "repository": "https://github.com/yahoo/elide",
+    "original_exclusion": "missing_or_invalid_revision",
+    "archived_outcome_status": "confirmed_failure",
+    "status": "eligible_exact_target_source",
+    "resolved_revision": "43a292e0ed6a0517851802997c7c6b9e0efb8248",
+    "project_group": "44124366",
+    "new_project": true,
+    "source_provenance": {
+      "revision": "43a292e0ed6a0517851802997c7c6b9e0efb8248",
+      "group": "44124366",
+      "repo": "https://github.com/yahoo/elide",
+      "target_source_exact": true,
+      "source_member": {
+        "member": "elide=elide-core=5c39308/Flaky/elide-core/src/test/java/com/yahoo/elide/core/dictionary/EntityDictionaryTest.java",
+        "local": "elide5_427c2234103c.txt",
+        "sha256": "c0a4eaae4d7e452c6115a40e7ff11f174ba97f49d886668c229474fde03be4d7",
+        "crc32": "f2e5d3a5",
+        "text": "/*\n * Copyright 2015, Yahoo Inc.\n * Licensed under the Apache License, Version 2.0\n * See LICENSE file in project root for terms.\n */\npackage com.yahoo.elide.core.dictionary;\n\nimport static com.yahoo.elide.annotation.LifeCycleHookBinding.Operation.UPDATE;\nimport static org.junit.jupiter.api.Assertions.assertEquals;\nimport static org.junit.jupiter.api.Assertions.assertFalse;\nimport static org.junit.jupiter.api.Assertions.assertNotEquals;\nimport static org.junit.jupiter.api.Assertions.assertNotNull;\nimport static org.junit.jupiter.api.Assertions.assertNull;\nimport static org.junit.jupiter.api.Assertions.assertThrows;\nimport static org.junit.jupiter.api.Assertions.assertTrue;\nimport static org.mockito.Mockito.mock;\n\nimport com.yahoo.elide.annotation.ComputedAttribute;\nimport com.yahoo.elide.annotation.Exclude;\nimport com.yahoo.elide.annotation.FilterExpressionPath;\nimport com.yahoo.elide.annotation.Include;\nimport com.yahoo.elide.annotation.LifeCycleHookBinding;\nimport com.yahoo.elide.annotation.ReadPermission;\nimport com.yahoo.elide.annotation.SecurityCheck;\nimport com.yahoo.elide.core.RequestScope;\nimport com.yahoo.elide.core.exceptions.InvalidAttributeException;\nimport com.yahoo.elide.core.filter.expression.FilterExpression;\nimport com.yahoo.elide.core.lifecycle.LifeCycleHook;\nimport com.yahoo.elide.core.security.checks.FilterExpressionCheck;\nimport com.yahoo.elide.core.security.checks.UserCheck;\nimport com.yahoo.elide.core.security.checks.prefab.Collections.AppendOnly;\nimport com.yahoo.elide.core.security.checks.prefab.Collections.RemoveOnly;\nimport com.yahoo.elide.core.security.checks.prefab.Role;\nimport com.yahoo.elide.core.type.AccessibleObject;\nimport com.yahoo.elide.core.type.ClassType;\nimport com.yahoo.elide.core.type.Type;\nimport com.yahoo.elide.core.utils.DefaultClassScanner;\nimport com.yahoo.elide.core.utils.coerce.CoerceUtil;\nimport com.yahoo.elide.core.utils.coerce.converters.ISO8601DateSerde;\nimport com.google.common.collect.ImmutableList;\nimport com.google.common.collect.ImmutableMap;\nimport com.google.common.collect.ImmutableSet;\nimport example.Address;\nimport example.Author;\nimport example.Book;\nimport example.Child;\nimport example.CoerceBean;\nimport example.Editor;\nimport example.FieldAnnotations;\nimport example.FunWithPermissions;\nimport example.GeoLocation;\nimport example.Job;\nimport example.Left;\nimport example.Parent;\nimport example.Price;\nimport example.Publisher;\nimport example.Right;\nimport example.StringId;\nimport example.User;\nimport example.models.generics.Employee;\nimport example.models.generics.Manager;\nimport example.models.packageinfo.ExcludedPackageLevel;\nimport example.models.packageinfo.IncludedPackageLevel;\nimport example.models.packageinfo.excluded.ExcludedSubPackage;\nimport example.models.packageinfo.included.ExcludedBySuperClass;\nimport example.models.packageinfo.included.IncludedSubPackage;\nimport example.models.versioned.BookV2;\nimport example.nontransferable.NoTransferBiDirectional;\nimport example.nontransferable.StrictNoTransfer;\nimport org.junit.jupiter.api.Test;\n\nimport jakarta.inject.Inject;\nimport jakarta.persistence.AccessType;\nimport jakarta.persistence.Entity;\nimport jakarta.persistence.GeneratedValue;\nimport jakarta.persistence.Id;\nimport jakarta.persistence.OneToOne;\nimport jakarta.persistence.Transient;\n\nimport java.lang.annotation.Annotation;\nimport java.math.BigDecimal;\nimport java.util.Arrays;\nimport java.util.Collection;\nimport java.util.Collections;\nimport java.util.Date;\nimport java.util.HashMap;\nimport java.util.List;\nimport java.util.Map;\nimport java.util.Set;\nimport java.util.stream.Collectors;\n\npublic class EntityDictionaryTest extends EntityDictionary {\n\n    //Test class to validate inheritance logic\n    @Include(name = \"friend\")\n    private class Friend extends Child {\n    }\n\n    public EntityDictionaryTest() {\n        super(\n                Collections.emptyMap(), //checks\n                Collections.emptyMap(), //role Checks\n                DEFAULT_INJECTOR,\n                CoerceUtil::lookup,\n                Collections.emptySet(),\n                new DefaultClassScanner()\n        );\n        init();\n    }\n\n    private void init() {\n        bindEntity(FunWithPermissions.class);\n        bindEntity(Parent.class);\n        bindEntity(Child.class);\n        bindEntity(Publisher.class);\n        bindEntity(User.class);\n        bindEntity(Left.class);\n        bindEntity(Right.class);\n        bindEntity(StringId.class);\n        bindEntity(Friend.class);\n        bindEntity(FieldAnnotations.class);\n        bindEntity(Manager.class);\n        bindEntity(Employee.class);\n        bindEntity(Job.class);\n        bindEntity(NoId.class);\n        bindEntity(BookV2.class);\n        bindEntity(Book.class);\n        bindEntity(Author.class);\n        bindEntity(Editor.class);\n        bindEntity(IncludedPackageLevel.class);\n        bindEntity(IncludedSubPackage.class);\n        bindEntity(ExcludedPackageLevel.class);\n        bindEntity(ExcludedSubPackage.class);\n        bindEntity(ExcludedBySuperClass.class);\n        bindEntity(StrictNoTransfer.class);\n        bindEntity(NoTransferBiDirectional.class);\n\n        checkNames.forcePut(\"user has all access\", Role.ALL.class);\n    }\n\n    @Test\n    public void testGetInjector() {\n        assertNotNull(getInjector());\n    }\n\n    @Test\n    public void testSetId() {\n        Parent parent = new Parent();\n        setId(parent, \"123\");\n        assertEquals(parent.getId(), 123);\n    }\n\n    @Test\n    public void testFindCheckByExpression() {\n        assertEquals(\"user has all access\", getCheckIdentifier(Role.ALL.class));\n        assertEquals(\"Prefab.Role.None\", getCheckIdentifier(Role.NONE.class));\n        assertEquals(\"Prefab.Collections.AppendOnly\", getCheckIdentifier(AppendOnly.class));\n        assertEquals(\"Prefab.Collections.RemoveOnly\", getCheckIdentifier(RemoveOnly.class));\n    }\n\n    @SecurityCheck(\"User is Admin\")\n    public static class Bar extends UserCheck {\n\n        @Override\n        public boolean ok(com.yahoo.elide.core.security.User user) {\n            return false;\n        }\n    }\n\n    @Test\n    public void testBindingNoExcludeSet() {\n\n        EntityDictionary testDictionary = EntityDictionary.builder().build();\n        testDictionary.bindEntity(Employee.class);\n        // Finds the Binding\n        assertNotNull(testDictionary.entityBindings.get(ClassType.of(Employee.class)));\n    }\n\n    @Test\n    public void testCheckScan() {\n\n        EntityDictionary testDictionary = EntityDictionary.builder().build();\n        testDictionary.scanForSecurityChecks();\n\n        assertEquals(\"User is Admin\", testDictionary.getCheckIdentifier(Bar.class));\n    }\n\n    @SecurityCheck(\"Filter Expression Injection Test\")\n    public static class Foo extends FilterExpressionCheck {\n\n        @Inject\n        Long testLong;\n\n        @Override\n        public FilterExpression getFilterExpression(Type entityClass,\n                                                    com.yahoo.elide.core.security.RequestScope requestScope) {\n            assertEquals(testLong, 123L);\n            return null;\n        }\n    }\n\n    @Test\n    public void testCheckInjection() {\n        EntityDictionary testDictionary = EntityDictionary.builder()\n                .injector(new Injector() {\n                    @Override\n                    public void inject(Object entity) {\n                        if (entity instanceof Foo) {\n                            ((Foo) entity).testLong = 123L;\n                        }\n                    }\n                })\n                .build();\n        testDictionary.scanForSecurityChecks();\n\n        assertEquals(\"Filter Expression Injection Test\", testDictionary.getCheckIdentifier(Foo.class));\n    }\n\n    @Test\n    public void testSerdeId() {\n\n        @Include(rootLevel = false)\n        class EntityWithDateId {\n            @Id\n            private Date id;\n        }\n\n        EntityDictionary testDictionary = new EntityDictionary(\n                new HashMap<>(),\n                null,\n                DEFAULT_INJECTOR,\n                unused -> new ISO8601DateSerde(),\n                Collections.emptySet(),\n                new DefaultClassScanner());\n\n        testDictionary.bindEntity(EntityWithDateId.class);\n\n        EntityWithDateId testModel = new EntityWithDateId();\n        testModel.id = new Date(0);\n        assertEquals(\"1970-01-01T00:00Z\", testDictionary.getId(testModel));\n    }\n\n    @Test\n    public void testGetAttributeOrRelationAnnotation() {\n        String[] fields = {\"field1\", \"field2\", \"field3\", \"relation1\", \"relation2\"};\n        Annotation annotation;\n        for (String field : fields) {\n            annotation = getAttributeOrRelationAnnotation(ClassType.of(FunWithPermissions.class), ReadPermission.class, field);\n            assertTrue(annotation instanceof ReadPermission, \"Every field should return a ReadPermission annotation\");\n        }\n    }\n\n    @Test\n    public void testHasAnnotation() {\n        assertTrue(hasAnnotation(ClassType.of(Book.class), Include.class));\n        assertTrue(hasAnnotation(ClassType.of(Book.class), Transient.class));\n        assertFalse(hasAnnotation(ClassType.of(Book.class), Exclude.class));\n    }\n\n    @Test\n    public void testBindingTriggerPriorToBindingEntityClass1() {\n        @Entity\n        @Include(rootLevel = false)\n        class Foo2 {\n            @Id\n            private long id;\n\n            private int bar;\n        }\n\n        LifeCycleHook<Foo2> trigger = mock(LifeCycleHook.class);\n\n        bindTrigger(Foo2.class, \"bar\", UPDATE, LifeCycleHookBinding.TransactionPhase.PRESECURITY, trigger);\n        assertEquals(1, getAllExposedFields(ClassType.of(Foo2.class)).size());\n    }\n\n    @Test\n    public void testBindingTriggerPriorToBindingEntityClass2() {\n        @Entity\n        @Include(rootLevel = false)\n        class Foo3 {\n            @Id\n            private long id;\n\n            private int bar;\n        }\n\n        LifeCycleHook<Foo3> trigger = mock(LifeCycleHook.class);\n\n        bindTrigger(Foo3.class, "
+      },
+      "flaky_info_member": {
+        "member": "elide=elide-core=5c39308/flaky_info.txt",
+        "local": "elide5_1a26750c5c59.txt",
+        "sha256": "e9543897009d2fe03ab98906b1c36e4df9b77cfaf7276da1a37a59dba5f6a556",
+        "crc32": "e05fbce5",
+        "text": "Flaky directory created from https://github.com/yahoo/elide at commit 43a292e0ed6a0517851802997c7c6b9e0efb8248\n"
+      },
+      "source_archive_record": 18634501,
+      "source_archive": "elide=elide-core=5c39308.zip",
+      "source_archive_checksum_declared": "md5:dac16b77fa39cc64808481d732db9fde",
+      "github_commit_url": "https://github.com/yahoo/elide/commit/43a292e0ed6a0517851802997c7c6b9e0efb8248",
+      "source_snapshot_sha256": "c0a4eaae4d7e452c6115a40e7ff11f174ba97f49d886668c229474fde03be4d7",
+      "source_diff": null
+    },
+    "checks": {
+      "raw_report_sha256": true,
+      "exact_target_failure_reparsed": true,
+      "exception_preserved": true,
+      "no_test_or_group_or_exact_diagnostic_overlap": true
+    },
+    "remaining_prerequisite": null
+  },
+  {
+    "container": "elideelidecore5c39308testHiddenFields",
+    "category": "ID",
+    "configured_test": "com.yahoo.elide.core.dictionary.EntityDictionaryTest#testHiddenFields",
+    "repository": "https://github.com/yahoo/elide",
+    "original_exclusion": "missing_or_invalid_revision",
+    "archived_outcome_status": "confirmed_failure",
+    "status": "eligible_exact_target_source",
+    "resolved_revision": "43a292e0ed6a0517851802997c7c6b9e0efb8248",
+    "project_group": "44124366",
+    "new_project": true,
+    "source_provenance": {
+      "revision": "43a292e0ed6a0517851802997c7c6b9e0efb8248",
+      "group": "44124366",
+      "repo": "https://github.com/yahoo/elide",
+      "target_source_exact": true,
+      "source_member": {
+        "member": "elide=elide-core=5c39308/Flaky/elide-core/src/test/java/com/yahoo/elide/core/dictionary/EntityDictionaryTest.java",
+        "local": "elide5_427c2234103c.txt",
+        "sha256": "c0a4eaae4d7e452c6115a40e7ff11f174ba97f49d886668c229474fde03be4d7",
+        "crc32": "f2e5d3a5",
+        "text": "/*\n * Copyright 2015, Yahoo Inc.\n * Licensed under the Apache License, Version 2.0\n * See LICENSE file in project root for terms.\n */\npackage com.yahoo.elide.core.dictionary;\n\nimport static com.yahoo.elide.annotation.LifeCycleHookBinding.Operation.UPDATE;\nimport static org.junit.jupiter.api.Assertions.assertEquals;\nimport static org.junit.jupiter.api.Assertions.assertFalse;\nimport static org.junit.jupiter.api.Assertions.assertNotEquals;\nimport static org.junit.jupiter.api.Assertions.assertNotNull;\nimport static org.junit.jupiter.api.Assertions.assertNull;\nimport static org.junit.jupiter.api.Assertions.assertThrows;\nimport static org.junit.jupiter.api.Assertions.assertTrue;\nimport static org.mockito.Mockito.mock;\n\nimport com.yahoo.elide.annotation.ComputedAttribute;\nimport com.yahoo.elide.annotation.Exclude;\nimport com.yahoo.elide.annotation.FilterExpressionPath;\nimport com.yahoo.elide.annotation.Include;\nimport com.yahoo.elide.annotation.LifeCycleHookBinding;\nimport com.yahoo.elide.annotation.ReadPermission;\nimport com.yahoo.elide.annotation.SecurityCheck;\nimport com.yahoo.elide.core.RequestScope;\nimport com.yahoo.elide.core.exceptions.InvalidAttributeException;\nimport com.yahoo.elide.core.filter.expression.FilterExpression;\nimport com.yahoo.elide.core.lifecycle.LifeCycleHook;\nimport com.yahoo.elide.core.security.checks.FilterExpressionCheck;\nimport com.yahoo.elide.core.security.checks.UserCheck;\nimport com.yahoo.elide.core.security.checks.prefab.Collections.AppendOnly;\nimport com.yahoo.elide.core.security.checks.prefab.Collections.RemoveOnly;\nimport com.yahoo.elide.core.security.checks.prefab.Role;\nimport com.yahoo.elide.core.type.AccessibleObject;\nimport com.yahoo.elide.core.type.ClassType;\nimport com.yahoo.elide.core.type.Type;\nimport com.yahoo.elide.core.utils.DefaultClassScanner;\nimport com.yahoo.elide.core.utils.coerce.CoerceUtil;\nimport com.yahoo.elide.core.utils.coerce.converters.ISO8601DateSerde;\nimport com.google.common.collect.ImmutableList;\nimport com.google.common.collect.ImmutableMap;\nimport com.google.common.collect.ImmutableSet;\nimport example.Address;\nimport example.Author;\nimport example.Book;\nimport example.Child;\nimport example.CoerceBean;\nimport example.Editor;\nimport example.FieldAnnotations;\nimport example.FunWithPermissions;\nimport example.GeoLocation;\nimport example.Job;\nimport example.Left;\nimport example.Parent;\nimport example.Price;\nimport example.Publisher;\nimport example.Right;\nimport example.StringId;\nimport example.User;\nimport example.models.generics.Employee;\nimport example.models.generics.Manager;\nimport example.models.packageinfo.ExcludedPackageLevel;\nimport example.models.packageinfo.IncludedPackageLevel;\nimport example.models.packageinfo.excluded.ExcludedSubPackage;\nimport example.models.packageinfo.included.ExcludedBySuperClass;\nimport example.models.packageinfo.included.IncludedSubPackage;\nimport example.models.versioned.BookV2;\nimport example.nontransferable.NoTransferBiDirectional;\nimport example.nontransferable.StrictNoTransfer;\nimport org.junit.jupiter.api.Test;\n\nimport jakarta.inject.Inject;\nimport jakarta.persistence.AccessType;\nimport jakarta.persistence.Entity;\nimport jakarta.persistence.GeneratedValue;\nimport jakarta.persistence.Id;\nimport jakarta.persistence.OneToOne;\nimport jakarta.persistence.Transient;\n\nimport java.lang.annotation.Annotation;\nimport java.math.BigDecimal;\nimport java.util.Arrays;\nimport java.util.Collection;\nimport java.util.Collections;\nimport java.util.Date;\nimport java.util.HashMap;\nimport java.util.List;\nimport java.util.Map;\nimport java.util.Set;\nimport java.util.stream.Collectors;\n\npublic class EntityDictionaryTest extends EntityDictionary {\n\n    //Test class to validate inheritance logic\n    @Include(name = \"friend\")\n    private class Friend extends Child {\n    }\n\n    public EntityDictionaryTest() {\n        super(\n                Collections.emptyMap(), //checks\n                Collections.emptyMap(), //role Checks\n                DEFAULT_INJECTOR,\n                CoerceUtil::lookup,\n                Collections.emptySet(),\n                new DefaultClassScanner()\n        );\n        init();\n    }\n\n    private void init() {\n        bindEntity(FunWithPermissions.class);\n        bindEntity(Parent.class);\n        bindEntity(Child.class);\n        bindEntity(Publisher.class);\n        bindEntity(User.class);\n        bindEntity(Left.class);\n        bindEntity(Right.class);\n        bindEntity(StringId.class);\n        bindEntity(Friend.class);\n        bindEntity(FieldAnnotations.class);\n        bindEntity(Manager.class);\n        bindEntity(Employee.class);\n        bindEntity(Job.class);\n        bindEntity(NoId.class);\n        bindEntity(BookV2.class);\n        bindEntity(Book.class);\n        bindEntity(Author.class);\n        bindEntity(Editor.class);\n        bindEntity(IncludedPackageLevel.class);\n        bindEntity(IncludedSubPackage.class);\n        bindEntity(ExcludedPackageLevel.class);\n        bindEntity(ExcludedSubPackage.class);\n        bindEntity(ExcludedBySuperClass.class);\n        bindEntity(StrictNoTransfer.class);\n        bindEntity(NoTransferBiDirectional.class);\n\n        checkNames.forcePut(\"user has all access\", Role.ALL.class);\n    }\n\n    @Test\n    public void testGetInjector() {\n        assertNotNull(getInjector());\n    }\n\n    @Test\n    public void testSetId() {\n        Parent parent = new Parent();\n        setId(parent, \"123\");\n        assertEquals(parent.getId(), 123);\n    }\n\n    @Test\n    public void testFindCheckByExpression() {\n        assertEquals(\"user has all access\", getCheckIdentifier(Role.ALL.class));\n        assertEquals(\"Prefab.Role.None\", getCheckIdentifier(Role.NONE.class));\n        assertEquals(\"Prefab.Collections.AppendOnly\", getCheckIdentifier(AppendOnly.class));\n        assertEquals(\"Prefab.Collections.RemoveOnly\", getCheckIdentifier(RemoveOnly.class));\n    }\n\n    @SecurityCheck(\"User is Admin\")\n    public static class Bar extends UserCheck {\n\n        @Override\n        public boolean ok(com.yahoo.elide.core.security.User user) {\n            return false;\n        }\n    }\n\n    @Test\n    public void testBindingNoExcludeSet() {\n\n        EntityDictionary testDictionary = EntityDictionary.builder().build();\n        testDictionary.bindEntity(Employee.class);\n        // Finds the Binding\n        assertNotNull(testDictionary.entityBindings.get(ClassType.of(Employee.class)));\n    }\n\n    @Test\n    public void testCheckScan() {\n\n        EntityDictionary testDictionary = EntityDictionary.builder().build();\n        testDictionary.scanForSecurityChecks();\n\n        assertEquals(\"User is Admin\", testDictionary.getCheckIdentifier(Bar.class));\n    }\n\n    @SecurityCheck(\"Filter Expression Injection Test\")\n    public static class Foo extends FilterExpressionCheck {\n\n        @Inject\n        Long testLong;\n\n        @Override\n        public FilterExpression getFilterExpression(Type entityClass,\n                                                    com.yahoo.elide.core.security.RequestScope requestScope) {\n            assertEquals(testLong, 123L);\n            return null;\n        }\n    }\n\n    @Test\n    public void testCheckInjection() {\n        EntityDictionary testDictionary = EntityDictionary.builder()\n                .injector(new Injector() {\n                    @Override\n                    public void inject(Object entity) {\n                        if (entity instanceof Foo) {\n                            ((Foo) entity).testLong = 123L;\n                        }\n                    }\n                })\n                .build();\n        testDictionary.scanForSecurityChecks();\n\n        assertEquals(\"Filter Expression Injection Test\", testDictionary.getCheckIdentifier(Foo.class));\n    }\n\n    @Test\n    public void testSerdeId() {\n\n        @Include(rootLevel = false)\n        class EntityWithDateId {\n            @Id\n            private Date id;\n        }\n\n        EntityDictionary testDictionary = new EntityDictionary(\n                new HashMap<>(),\n                null,\n                DEFAULT_INJECTOR,\n                unused -> new ISO8601DateSerde(),\n                Collections.emptySet(),\n                new DefaultClassScanner());\n\n        testDictionary.bindEntity(EntityWithDateId.class);\n\n        EntityWithDateId testModel = new EntityWithDateId();\n        testModel.id = new Date(0);\n        assertEquals(\"1970-01-01T00:00Z\", testDictionary.getId(testModel));\n    }\n\n    @Test\n    public void testGetAttributeOrRelationAnnotation() {\n        String[] fields = {\"field1\", \"field2\", \"field3\", \"relation1\", \"relation2\"};\n        Annotation annotation;\n        for (String field : fields) {\n            annotation = getAttributeOrRelationAnnotation(ClassType.of(FunWithPermissions.class), ReadPermission.class, field);\n            assertTrue(annotation instanceof ReadPermission, \"Every field should return a ReadPermission annotation\");\n        }\n    }\n\n    @Test\n    public void testHasAnnotation() {\n        assertTrue(hasAnnotation(ClassType.of(Book.class), Include.class));\n        assertTrue(hasAnnotation(ClassType.of(Book.class), Transient.class));\n        assertFalse(hasAnnotation(ClassType.of(Book.class), Exclude.class));\n    }\n\n    @Test\n    public void testBindingTriggerPriorToBindingEntityClass1() {\n        @Entity\n        @Include(rootLevel = false)\n        class Foo2 {\n            @Id\n            private long id;\n\n            private int bar;\n        }\n\n        LifeCycleHook<Foo2> trigger = mock(LifeCycleHook.class);\n\n        bindTrigger(Foo2.class, \"bar\", UPDATE, LifeCycleHookBinding.TransactionPhase.PRESECURITY, trigger);\n        assertEquals(1, getAllExposedFields(ClassType.of(Foo2.class)).size());\n    }\n\n    @Test\n    public void testBindingTriggerPriorToBindingEntityClass2() {\n        @Entity\n        @Include(rootLevel = false)\n        class Foo3 {\n            @Id\n            private long id;\n\n            private int bar;\n        }\n\n        LifeCycleHook<Foo3> trigger = mock(LifeCycleHook.class);\n\n        bindTrigger(Foo3.class, "
+      },
+      "flaky_info_member": {
+        "member": "elide=elide-core=5c39308/flaky_info.txt",
+        "local": "elide5_1a26750c5c59.txt",
+        "sha256": "e9543897009d2fe03ab98906b1c36e4df9b77cfaf7276da1a37a59dba5f6a556",
+        "crc32": "e05fbce5",
+        "text": "Flaky directory created from https://github.com/yahoo/elide at commit 43a292e0ed6a0517851802997c7c6b9e0efb8248\n"
+      },
+      "source_archive_record": 18634501,
+      "source_archive": "elide=elide-core=5c39308.zip",
+      "source_archive_checksum_declared": "md5:dac16b77fa39cc64808481d732db9fde",
+      "github_commit_url": "https://github.com/yahoo/elide/commit/43a292e0ed6a0517851802997c7c6b9e0efb8248",
+      "source_snapshot_sha256": "c0a4eaae4d7e452c6115a40e7ff11f174ba97f49d886668c229474fde03be4d7",
+      "source_diff": null
+    },
+    "checks": {
+      "raw_report_sha256": true,
+      "exact_target_failure_reparsed": true,
+      "exception_preserved": true,
+      "no_test_or_group_or_exact_diagnostic_overlap": true
+    },
+    "remaining_prerequisite": null
+  },
+  {
+    "container": "elideelidecore80439b6writeListIncluded",
+    "category": "ID",
+    "configured_test": "com.yahoo.elide.jsonapi.JsonApiTest#writeListIncluded",
+    "repository": "https://github.com/yahoo/elide",
+    "original_exclusion": "missing_or_invalid_revision",
+    "archived_outcome_status": "confirmed_failure",
+    "status": "eligible_exact_target_source",
+    "resolved_revision": "43a292e0ed6a0517851802997c7c6b9e0efb8248",
+    "project_group": "44124366",
+    "new_project": true,
+    "source_provenance": {
+      "revision": "43a292e0ed6a0517851802997c7c6b9e0efb8248",
+      "group": "44124366",
+      "repo": "https://github.com/yahoo/elide",
+      "target_source_exact": true,
+      "source_member": {
+        "member": "elide=elide-core=80439b6/Flaky/elide-core/src/test/java/com/yahoo/elide/jsonapi/JsonApiTest.java",
+        "local": "elide8_8fc43818573d.txt",
+        "sha256": "662bf655daccbe29d7c84438ee0bff88de8ba741bf07fe25ce06285f54880a05",
+        "crc32": "a495069c",
+        "text": "/*\n * Copyright 2015, Yahoo Inc.\n * Licensed under the Apache License, Version 2.0\n * See LICENSE file in project root for terms.\n */\npackage com.yahoo.elide.jsonapi;\n\nimport static org.junit.jupiter.api.Assertions.assertEquals;\nimport static org.junit.jupiter.api.Assertions.assertNull;\nimport static org.junit.jupiter.api.Assertions.assertThrows;\nimport static org.mockito.ArgumentMatchers.any;\nimport static org.mockito.ArgumentMatchers.eq;\nimport static org.mockito.Mockito.doThrow;\nimport static org.mockito.Mockito.mock;\nimport static org.mockito.Mockito.verify;\nimport static org.mockito.Mockito.when;\n\nimport com.yahoo.elide.Elide;\nimport com.yahoo.elide.ElideResponse;\nimport com.yahoo.elide.ElideSettings;\nimport com.yahoo.elide.core.PersistentResource;\nimport com.yahoo.elide.core.RequestScope;\nimport com.yahoo.elide.core.TestRequestScope;\nimport com.yahoo.elide.core.TransactionRegistry;\nimport com.yahoo.elide.core.datastore.DataStore;\nimport com.yahoo.elide.core.datastore.DataStoreTransaction;\nimport com.yahoo.elide.core.dictionary.EntityDictionary;\nimport com.yahoo.elide.core.dictionary.TestDictionary;\nimport com.yahoo.elide.core.exceptions.ExceptionMappers;\nimport com.yahoo.elide.core.exceptions.Slf4jExceptionLogger;\nimport com.yahoo.elide.core.lifecycle.FieldTestModel;\nimport com.yahoo.elide.core.lifecycle.LegacyTestModel;\nimport com.yahoo.elide.core.lifecycle.PropertyTestModel;\nimport com.yahoo.elide.core.request.route.Route;\nimport com.yahoo.elide.core.security.TestUser;\nimport com.yahoo.elide.core.security.User;\nimport com.yahoo.elide.core.type.ClassType;\nimport com.yahoo.elide.jsonapi.models.Data;\nimport com.yahoo.elide.jsonapi.models.JsonApiDocument;\nimport com.yahoo.elide.jsonapi.models.JsonApiError;\nimport com.yahoo.elide.jsonapi.models.JsonApiErrors;\nimport com.yahoo.elide.jsonapi.models.Meta;\nimport com.yahoo.elide.jsonapi.models.Relationship;\nimport com.yahoo.elide.jsonapi.models.Resource;\nimport com.yahoo.elide.jsonapi.models.ResourceIdentifier;\nimport com.fasterxml.jackson.core.JsonProcessingException;\nimport com.fasterxml.jackson.databind.JsonMappingException;\nimport com.google.common.collect.Lists;\nimport com.google.common.collect.Sets;\n\nimport example.Child;\nimport example.Parent;\n\nimport org.apache.commons.collections4.IterableUtils;\nimport org.junit.jupiter.api.BeforeEach;\nimport org.junit.jupiter.api.Test;\nimport org.mockito.Answers;\n\nimport jakarta.validation.ConstraintViolation;\nimport jakarta.validation.ConstraintViolationException;\nimport jakarta.validation.Valid;\nimport jakarta.validation.Validation;\nimport jakarta.validation.Validator;\nimport jakarta.validation.ValidatorFactory;\nimport jakarta.validation.constraints.Min;\nimport jakarta.validation.constraints.NotNull;\n\nimport java.io.IOException;\nimport java.io.UncheckedIOException;\nimport java.util.ArrayList;\nimport java.util.Collections;\nimport java.util.HashSet;\nimport java.util.List;\nimport java.util.Map;\nimport java.util.Set;\nimport java.util.UUID;\n\n\n/**\n * JSON API testing.\n */\npublic class JsonApiTest {\n    private JsonApiMapper mapper;\n    private User user = new TestUser(\"0\");\n    private static String BASE_URL = \"http://localhost:8080/json\";\n\n    private EntityDictionary dictionary;\n    private DataStoreTransaction tx = mock(DataStoreTransaction.class, Answers.CALLS_REAL_METHODS);\n\n    @BeforeEach\n    void init() {\n        dictionary = TestDictionary.getTestDictionary();\n        dictionary.bindEntity(Parent.class);\n        dictionary.bindEntity(Child.class);\n        dictionary.bindEntity(FieldTestModel.class);\n        dictionary.bindEntity(PropertyTestModel.class);\n        dictionary.bindEntity(LegacyTestModel.class);\n        mapper = new JsonApiMapper();\n    }\n\n    @Test\n    public void writeSingleNoAttributesNoRel() throws JsonProcessingException {\n        Parent parent = new Parent();\n        parent.setId(123L);\n\n        RequestScope userScope = new TestRequestScope(BASE_URL, tx, user, dictionary);\n\n        JsonApiDocument jsonApiDocument = new JsonApiDocument();\n        jsonApiDocument.setData(new Data<>(new PersistentResource<>(parent, userScope.getUUIDFor(parent), userScope).toResource()));\n\n        String expected = \"{\\\"data\\\":{\"\n                + \"\\\"type\\\":\\\"parent\\\",\"\n                + \"\\\"id\\\":\\\"123\\\",\"\n                + \"\\\"attributes\\\":{\\\"firstName\\\":null},\"\n                + \"\\\"relationships\\\":{\"\n                +   \"\\\"children\\\":{\"\n                +       \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123/relationships/children\\\",\\\"related\\\":\\\"http://localhost:8080/json/parent/123/children\\\"},\"\n                +       \"\\\"data\\\":[]},\"\n                +   \"\\\"spouses\\\":{\"\n                +       \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123/relationships/spouses\\\",\\\"related\\\":\\\"http://localhost:8080/json/parent/123/spouses\\\"},\"\n                +       \"\\\"data\\\":[]}},\"\n                + \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123\\\"}}}\";\n\n        Data<Resource> data = jsonApiDocument.getData();\n        String doc = mapper.writeJsonApiDocument(jsonApiDocument);\n        assertEquals(data, jsonApiDocument.getData());\n\n        assertEquals(expected, doc);\n        checkEquality(jsonApiDocument);\n    }\n\n    @Test\n    public void writeSingle() throws JsonProcessingException {\n        Parent parent = new Parent();\n        Child child = new Child();\n        parent.setId(123L);\n        child.setId(2);\n        parent.setChildren(Collections.singleton(child));\n        parent.setFirstName(\"bob\");\n        child.setParents(Collections.singleton(parent));\n        child.setFriends(new HashSet<>());\n\n        RequestScope userScope = new TestRequestScope(BASE_URL, tx, user, dictionary);\n\n        JsonApiDocument jsonApiDocument = new JsonApiDocument();\n        jsonApiDocument.setData(new Data<>(new PersistentResource<>(parent, userScope.getUUIDFor(parent), userScope).toResource()));\n\n        String expected = \"{\\\"data\\\":{\"\n                + \"\\\"type\\\":\\\"parent\\\",\"\n                + \"\\\"id\\\":\\\"123\\\",\"\n                + \"\\\"attributes\\\":{\\\"firstName\\\":\\\"bob\\\"},\"\n                + \"\\\"relationships\\\":{\"\n                +   \"\\\"children\\\":{\"\n                +       \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123/relationships/children\\\",\\\"related\\\":\\\"http://localhost:8080/json/parent/123/children\\\"},\"\n                +       \"\\\"data\\\":[{\\\"type\\\":\\\"child\\\",\\\"id\\\":\\\"2\\\"}]},\"\n                +   \"\\\"spouses\\\":{\"\n                +       \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123/relationships/spouses\\\",\\\"related\\\":\\\"http://localhost:8080/json/parent/123/spouses\\\"},\"\n                +       \"\\\"data\\\":[]}},\"\n                + \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123\\\"}}}\";\n\n        Data<Resource> data = jsonApiDocument.getData();\n        String doc = mapper.writeJsonApiDocument(jsonApiDocument);\n        assertEquals(data, jsonApiDocument.getData());\n\n        assertEquals(expected, doc);\n        checkEquality(jsonApiDocument);\n    }\n\n    @Test\n    public void writeSingleWithMeta() throws JsonProcessingException {\n        Child child = new Child();\n        child.setId(2);\n        child.setMetadataField(\"foo\", \"bar\");\n\n        RequestScope userScope = new TestRequestScope(BASE_URL, tx, user, dictionary);\n\n        JsonApiDocument jsonApiDocument = new JsonApiDocument();\n        jsonApiDocument.setData(new Data<>(new PersistentResource<>(child, userScope.getUUIDFor(child), userScope).toResource()));\n\n        String expected = \"{\\\"data\\\":{\\\"type\\\":\\\"child\\\",\\\"id\\\":\\\"2\\\",\\\"\"\n                + \"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/child/2\\\"},\\\"meta\\\":{\\\"foo\\\":\\\"bar\\\"}}}\";\n\n        Data<Resource> data = jsonApiDocument.getData();\n        String doc = mapper.writeJsonApiDocument(jsonApiDocument);\n        assertEquals(data, jsonApiDocument.getData());\n\n        assertEquals(expected, doc);\n    }\n\n    @Test\n    public void writeSingleIncluded() throws JsonProcessingException {\n        Parent parent = new Parent();\n        Child child = new Child();\n        parent.setId(123L);\n        child.setId(2);\n        parent.setFirstName(\"bob\");\n        parent.setChildren(Collections.singleton(child));\n        child.setParents(Collections.singleton(parent));\n        child.setFriends(new HashSet<>());\n\n        RequestScope userScope = new TestRequestScope(BASE_URL, tx, user, dictionary);\n\n        PersistentResource<Parent> pRec = new PersistentResource<>(parent, userScope.getUUIDFor(parent), userScope);\n\n        JsonApiDocument jsonApiDocument = new JsonApiDocument();\n        jsonApiDocument.setData(new Data<>(pRec.toResource()));\n        jsonApiDocument.addIncluded(\n                new PersistentResource<>(child, pRec, \"children\", userScope.getUUIDFor(child), userScope).toResource());\n\n        String expected = \"{\\\"data\\\":{\"\n                + \"\\\"type\\\":\\\"parent\\\",\"\n                + \"\\\"id\\\":\\\"123\\\",\"\n                + \"\\\"attributes\\\":{\\\"firstName\\\":\\\"bob\\\"},\"\n                + \"\\\"relationships\\\":{\"\n                +   \"\\\"children\\\":{\"\n                +       \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123/relationships/children\\\",\\\"related\\\":\\\"http://localhost:8080/json/parent/123/children\\\"},\"\n                +       \"\\\"data\\\":[{\\\"type\\\":\\\"child\\\",\\\"id\\\":\\\"2\\\"}]},\"\n                +   \"\\\"spouses\\\":{\"\n                +       \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123/relationships/spouses\\\",\\\"related\\\":\\\"http://localhost:8080/json/parent/123/spouses\\\"},\"\n                +       \"\\\"data\\\":[]}},\"\n                + \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123\\\"}},\"\n                + \"\\\"included\\\":[{\"\n                +   \"\\\"type\\\":\\\"child\\\",\"\n                +   \"\\\"id\\\":\\\"2\\\",\"\n                +   \"\\\"attributes\\\":{\\\"name\\\":null},\"\n                +   \"\\\"relationships\\\":{\"\n                +       \"\\\"friends\\\":{\"\n                +           \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123/children/2/relationships/friends\\"
+      },
+      "flaky_info_member": {
+        "member": "elide=elide-core=80439b6/flaky_info.txt",
+        "local": "elide8_b94239c4ebd9.txt",
+        "sha256": "e9543897009d2fe03ab98906b1c36e4df9b77cfaf7276da1a37a59dba5f6a556",
+        "crc32": "e05fbce5",
+        "text": "Flaky directory created from https://github.com/yahoo/elide at commit 43a292e0ed6a0517851802997c7c6b9e0efb8248\n"
+      },
+      "source_archive_record": 18634501,
+      "source_archive": "elide=elide-core=80439b6.zip",
+      "source_archive_checksum_declared": "md5:291b4ed5dba4511cbe3f7d3dd4c24c90",
+      "github_commit_url": "https://github.com/yahoo/elide/commit/43a292e0ed6a0517851802997c7c6b9e0efb8248",
+      "source_snapshot_sha256": "662bf655daccbe29d7c84438ee0bff88de8ba741bf07fe25ce06285f54880a05",
+      "source_diff": null
+    },
+    "checks": {
+      "raw_report_sha256": true,
+      "exact_target_failure_reparsed": true,
+      "exception_preserved": true,
+      "no_test_or_group_or_exact_diagnostic_overlap": true
+    },
+    "remaining_prerequisite": null
+  },
+  {
+    "container": "elideelidecore80439b6writeSingleIncluded",
+    "category": "ID",
+    "configured_test": "com.yahoo.elide.jsonapi.JsonApiTest#writeSingleIncluded",
+    "repository": "https://github.com/yahoo/elide",
+    "original_exclusion": "missing_or_invalid_revision",
+    "archived_outcome_status": "confirmed_failure",
+    "status": "eligible_exact_target_source",
+    "resolved_revision": "43a292e0ed6a0517851802997c7c6b9e0efb8248",
+    "project_group": "44124366",
+    "new_project": true,
+    "source_provenance": {
+      "revision": "43a292e0ed6a0517851802997c7c6b9e0efb8248",
+      "group": "44124366",
+      "repo": "https://github.com/yahoo/elide",
+      "target_source_exact": true,
+      "source_member": {
+        "member": "elide=elide-core=80439b6/Flaky/elide-core/src/test/java/com/yahoo/elide/jsonapi/JsonApiTest.java",
+        "local": "elide8_8fc43818573d.txt",
+        "sha256": "662bf655daccbe29d7c84438ee0bff88de8ba741bf07fe25ce06285f54880a05",
+        "crc32": "a495069c",
+        "text": "/*\n * Copyright 2015, Yahoo Inc.\n * Licensed under the Apache License, Version 2.0\n * See LICENSE file in project root for terms.\n */\npackage com.yahoo.elide.jsonapi;\n\nimport static org.junit.jupiter.api.Assertions.assertEquals;\nimport static org.junit.jupiter.api.Assertions.assertNull;\nimport static org.junit.jupiter.api.Assertions.assertThrows;\nimport static org.mockito.ArgumentMatchers.any;\nimport static org.mockito.ArgumentMatchers.eq;\nimport static org.mockito.Mockito.doThrow;\nimport static org.mockito.Mockito.mock;\nimport static org.mockito.Mockito.verify;\nimport static org.mockito.Mockito.when;\n\nimport com.yahoo.elide.Elide;\nimport com.yahoo.elide.ElideResponse;\nimport com.yahoo.elide.ElideSettings;\nimport com.yahoo.elide.core.PersistentResource;\nimport com.yahoo.elide.core.RequestScope;\nimport com.yahoo.elide.core.TestRequestScope;\nimport com.yahoo.elide.core.TransactionRegistry;\nimport com.yahoo.elide.core.datastore.DataStore;\nimport com.yahoo.elide.core.datastore.DataStoreTransaction;\nimport com.yahoo.elide.core.dictionary.EntityDictionary;\nimport com.yahoo.elide.core.dictionary.TestDictionary;\nimport com.yahoo.elide.core.exceptions.ExceptionMappers;\nimport com.yahoo.elide.core.exceptions.Slf4jExceptionLogger;\nimport com.yahoo.elide.core.lifecycle.FieldTestModel;\nimport com.yahoo.elide.core.lifecycle.LegacyTestModel;\nimport com.yahoo.elide.core.lifecycle.PropertyTestModel;\nimport com.yahoo.elide.core.request.route.Route;\nimport com.yahoo.elide.core.security.TestUser;\nimport com.yahoo.elide.core.security.User;\nimport com.yahoo.elide.core.type.ClassType;\nimport com.yahoo.elide.jsonapi.models.Data;\nimport com.yahoo.elide.jsonapi.models.JsonApiDocument;\nimport com.yahoo.elide.jsonapi.models.JsonApiError;\nimport com.yahoo.elide.jsonapi.models.JsonApiErrors;\nimport com.yahoo.elide.jsonapi.models.Meta;\nimport com.yahoo.elide.jsonapi.models.Relationship;\nimport com.yahoo.elide.jsonapi.models.Resource;\nimport com.yahoo.elide.jsonapi.models.ResourceIdentifier;\nimport com.fasterxml.jackson.core.JsonProcessingException;\nimport com.fasterxml.jackson.databind.JsonMappingException;\nimport com.google.common.collect.Lists;\nimport com.google.common.collect.Sets;\n\nimport example.Child;\nimport example.Parent;\n\nimport org.apache.commons.collections4.IterableUtils;\nimport org.junit.jupiter.api.BeforeEach;\nimport org.junit.jupiter.api.Test;\nimport org.mockito.Answers;\n\nimport jakarta.validation.ConstraintViolation;\nimport jakarta.validation.ConstraintViolationException;\nimport jakarta.validation.Valid;\nimport jakarta.validation.Validation;\nimport jakarta.validation.Validator;\nimport jakarta.validation.ValidatorFactory;\nimport jakarta.validation.constraints.Min;\nimport jakarta.validation.constraints.NotNull;\n\nimport java.io.IOException;\nimport java.io.UncheckedIOException;\nimport java.util.ArrayList;\nimport java.util.Collections;\nimport java.util.HashSet;\nimport java.util.List;\nimport java.util.Map;\nimport java.util.Set;\nimport java.util.UUID;\n\n\n/**\n * JSON API testing.\n */\npublic class JsonApiTest {\n    private JsonApiMapper mapper;\n    private User user = new TestUser(\"0\");\n    private static String BASE_URL = \"http://localhost:8080/json\";\n\n    private EntityDictionary dictionary;\n    private DataStoreTransaction tx = mock(DataStoreTransaction.class, Answers.CALLS_REAL_METHODS);\n\n    @BeforeEach\n    void init() {\n        dictionary = TestDictionary.getTestDictionary();\n        dictionary.bindEntity(Parent.class);\n        dictionary.bindEntity(Child.class);\n        dictionary.bindEntity(FieldTestModel.class);\n        dictionary.bindEntity(PropertyTestModel.class);\n        dictionary.bindEntity(LegacyTestModel.class);\n        mapper = new JsonApiMapper();\n    }\n\n    @Test\n    public void writeSingleNoAttributesNoRel() throws JsonProcessingException {\n        Parent parent = new Parent();\n        parent.setId(123L);\n\n        RequestScope userScope = new TestRequestScope(BASE_URL, tx, user, dictionary);\n\n        JsonApiDocument jsonApiDocument = new JsonApiDocument();\n        jsonApiDocument.setData(new Data<>(new PersistentResource<>(parent, userScope.getUUIDFor(parent), userScope).toResource()));\n\n        String expected = \"{\\\"data\\\":{\"\n                + \"\\\"type\\\":\\\"parent\\\",\"\n                + \"\\\"id\\\":\\\"123\\\",\"\n                + \"\\\"attributes\\\":{\\\"firstName\\\":null},\"\n                + \"\\\"relationships\\\":{\"\n                +   \"\\\"children\\\":{\"\n                +       \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123/relationships/children\\\",\\\"related\\\":\\\"http://localhost:8080/json/parent/123/children\\\"},\"\n                +       \"\\\"data\\\":[]},\"\n                +   \"\\\"spouses\\\":{\"\n                +       \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123/relationships/spouses\\\",\\\"related\\\":\\\"http://localhost:8080/json/parent/123/spouses\\\"},\"\n                +       \"\\\"data\\\":[]}},\"\n                + \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123\\\"}}}\";\n\n        Data<Resource> data = jsonApiDocument.getData();\n        String doc = mapper.writeJsonApiDocument(jsonApiDocument);\n        assertEquals(data, jsonApiDocument.getData());\n\n        assertEquals(expected, doc);\n        checkEquality(jsonApiDocument);\n    }\n\n    @Test\n    public void writeSingle() throws JsonProcessingException {\n        Parent parent = new Parent();\n        Child child = new Child();\n        parent.setId(123L);\n        child.setId(2);\n        parent.setChildren(Collections.singleton(child));\n        parent.setFirstName(\"bob\");\n        child.setParents(Collections.singleton(parent));\n        child.setFriends(new HashSet<>());\n\n        RequestScope userScope = new TestRequestScope(BASE_URL, tx, user, dictionary);\n\n        JsonApiDocument jsonApiDocument = new JsonApiDocument();\n        jsonApiDocument.setData(new Data<>(new PersistentResource<>(parent, userScope.getUUIDFor(parent), userScope).toResource()));\n\n        String expected = \"{\\\"data\\\":{\"\n                + \"\\\"type\\\":\\\"parent\\\",\"\n                + \"\\\"id\\\":\\\"123\\\",\"\n                + \"\\\"attributes\\\":{\\\"firstName\\\":\\\"bob\\\"},\"\n                + \"\\\"relationships\\\":{\"\n                +   \"\\\"children\\\":{\"\n                +       \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123/relationships/children\\\",\\\"related\\\":\\\"http://localhost:8080/json/parent/123/children\\\"},\"\n                +       \"\\\"data\\\":[{\\\"type\\\":\\\"child\\\",\\\"id\\\":\\\"2\\\"}]},\"\n                +   \"\\\"spouses\\\":{\"\n                +       \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123/relationships/spouses\\\",\\\"related\\\":\\\"http://localhost:8080/json/parent/123/spouses\\\"},\"\n                +       \"\\\"data\\\":[]}},\"\n                + \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123\\\"}}}\";\n\n        Data<Resource> data = jsonApiDocument.getData();\n        String doc = mapper.writeJsonApiDocument(jsonApiDocument);\n        assertEquals(data, jsonApiDocument.getData());\n\n        assertEquals(expected, doc);\n        checkEquality(jsonApiDocument);\n    }\n\n    @Test\n    public void writeSingleWithMeta() throws JsonProcessingException {\n        Child child = new Child();\n        child.setId(2);\n        child.setMetadataField(\"foo\", \"bar\");\n\n        RequestScope userScope = new TestRequestScope(BASE_URL, tx, user, dictionary);\n\n        JsonApiDocument jsonApiDocument = new JsonApiDocument();\n        jsonApiDocument.setData(new Data<>(new PersistentResource<>(child, userScope.getUUIDFor(child), userScope).toResource()));\n\n        String expected = \"{\\\"data\\\":{\\\"type\\\":\\\"child\\\",\\\"id\\\":\\\"2\\\",\\\"\"\n                + \"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/child/2\\\"},\\\"meta\\\":{\\\"foo\\\":\\\"bar\\\"}}}\";\n\n        Data<Resource> data = jsonApiDocument.getData();\n        String doc = mapper.writeJsonApiDocument(jsonApiDocument);\n        assertEquals(data, jsonApiDocument.getData());\n\n        assertEquals(expected, doc);\n    }\n\n    @Test\n    public void writeSingleIncluded() throws JsonProcessingException {\n        Parent parent = new Parent();\n        Child child = new Child();\n        parent.setId(123L);\n        child.setId(2);\n        parent.setFirstName(\"bob\");\n        parent.setChildren(Collections.singleton(child));\n        child.setParents(Collections.singleton(parent));\n        child.setFriends(new HashSet<>());\n\n        RequestScope userScope = new TestRequestScope(BASE_URL, tx, user, dictionary);\n\n        PersistentResource<Parent> pRec = new PersistentResource<>(parent, userScope.getUUIDFor(parent), userScope);\n\n        JsonApiDocument jsonApiDocument = new JsonApiDocument();\n        jsonApiDocument.setData(new Data<>(pRec.toResource()));\n        jsonApiDocument.addIncluded(\n                new PersistentResource<>(child, pRec, \"children\", userScope.getUUIDFor(child), userScope).toResource());\n\n        String expected = \"{\\\"data\\\":{\"\n                + \"\\\"type\\\":\\\"parent\\\",\"\n                + \"\\\"id\\\":\\\"123\\\",\"\n                + \"\\\"attributes\\\":{\\\"firstName\\\":\\\"bob\\\"},\"\n                + \"\\\"relationships\\\":{\"\n                +   \"\\\"children\\\":{\"\n                +       \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123/relationships/children\\\",\\\"related\\\":\\\"http://localhost:8080/json/parent/123/children\\\"},\"\n                +       \"\\\"data\\\":[{\\\"type\\\":\\\"child\\\",\\\"id\\\":\\\"2\\\"}]},\"\n                +   \"\\\"spouses\\\":{\"\n                +       \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123/relationships/spouses\\\",\\\"related\\\":\\\"http://localhost:8080/json/parent/123/spouses\\\"},\"\n                +       \"\\\"data\\\":[]}},\"\n                + \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123\\\"}},\"\n                + \"\\\"included\\\":[{\"\n                +   \"\\\"type\\\":\\\"child\\\",\"\n                +   \"\\\"id\\\":\\\"2\\\",\"\n                +   \"\\\"attributes\\\":{\\\"name\\\":null},\"\n                +   \"\\\"relationships\\\":{\"\n                +       \"\\\"friends\\\":{\"\n                +           \"\\\"links\\\":{\\\"self\\\":\\\"http://localhost:8080/json/parent/123/children/2/relationships/friends\\"
+      },
+      "flaky_info_member": {
+        "member": "elide=elide-core=80439b6/flaky_info.txt",
+        "local": "elide8_b94239c4ebd9.txt",
+        "sha256": "e9543897009d2fe03ab98906b1c36e4df9b77cfaf7276da1a37a59dba5f6a556",
+        "crc32": "e05fbce5",
+        "text": "Flaky directory created from https://github.com/yahoo/elide at commit 43a292e0ed6a0517851802997c7c6b9e0efb8248\n"
+      },
+      "source_archive_record": 18634501,
+      "source_archive": "elide=elide-core=80439b6.zip",
+      "source_archive_checksum_declared": "md5:291b4ed5dba4511cbe3f7d3dd4c24c90",
+      "github_commit_url": "https://github.com/yahoo/elide/commit/43a292e0ed6a0517851802997c7c6b9e0efb8248",
+      "source_snapshot_sha256": "662bf655daccbe29d7c84438ee0bff88de8ba741bf07fe25ce06285f54880a05",
+      "source_diff": null
+    },
+    "checks": {
+      "raw_report_sha256": true,
+      "exact_target_failure_reparsed": true,
+      "exception_preserved": true,
+      "no_test_or_group_or_exact_diagnostic_overlap": true
+    },
+    "remaining_prerequisite": null
+  },
+  {
+    "container": "elideelidecore5c39308testGetIdAnnotations",
+    "category": "ID",
+    "configured_test": "com.yahoo.elide.core.dictionary.EntityDictionaryTest#testGetIdAnnotations",
+    "repository": "https://github.com/yahoo/elide",
+    "original_exclusion": "missing_or_invalid_revision",
+    "archived_outcome_status": "confirmed_failure",
+    "status": "eligible_exact_target_source",
+    "resolved_revision": "43a292e0ed6a0517851802997c7c6b9e0efb8248",
+    "project_group": "44124366",
+    "new_project": true,
+    "source_provenance": {
+      "revision": "43a292e0ed6a0517851802997c7c6b9e0efb8248",
+      "group": "44124366",
+      "repo": "https://github.com/yahoo/elide",
+      "target_source_exact": true,
+      "source_member": {
+        "member": "elide=elide-core=5c39308/Flaky/elide-core/src/test/java/com/yahoo/elide/core/dictionary/EntityDictionaryTest.java",
+        "local": "elide5_427c2234103c.txt",
+        "sha256": "c0a4eaae4d7e452c6115a40e7ff11f174ba97f49d886668c229474fde03be4d7",
+        "crc32": "f2e5d3a5",
+        "text": "/*\n * Copyright 2015, Yahoo Inc.\n * Licensed under the Apache License, Version 2.0\n * See LICENSE file in project root for terms.\n */\npackage com.yahoo.elide.core.dictionary;\n\nimport static com.yahoo.elide.annotation.LifeCycleHookBinding.Operation.UPDATE;\nimport static org.junit.jupiter.api.Assertions.assertEquals;\nimport static org.junit.jupiter.api.Assertions.assertFalse;\nimport static org.junit.jupiter.api.Assertions.assertNotEquals;\nimport static org.junit.jupiter.api.Assertions.assertNotNull;\nimport static org.junit.jupiter.api.Assertions.assertNull;\nimport static org.junit.jupiter.api.Assertions.assertThrows;\nimport static org.junit.jupiter.api.Assertions.assertTrue;\nimport static org.mockito.Mockito.mock;\n\nimport com.yahoo.elide.annotation.ComputedAttribute;\nimport com.yahoo.elide.annotation.Exclude;\nimport com.yahoo.elide.annotation.FilterExpressionPath;\nimport com.yahoo.elide.annotation.Include;\nimport com.yahoo.elide.annotation.LifeCycleHookBinding;\nimport com.yahoo.elide.annotation.ReadPermission;\nimport com.yahoo.elide.annotation.SecurityCheck;\nimport com.yahoo.elide.core.RequestScope;\nimport com.yahoo.elide.core.exceptions.InvalidAttributeException;\nimport com.yahoo.elide.core.filter.expression.FilterExpression;\nimport com.yahoo.elide.core.lifecycle.LifeCycleHook;\nimport com.yahoo.elide.core.security.checks.FilterExpressionCheck;\nimport com.yahoo.elide.core.security.checks.UserCheck;\nimport com.yahoo.elide.core.security.checks.prefab.Collections.AppendOnly;\nimport com.yahoo.elide.core.security.checks.prefab.Collections.RemoveOnly;\nimport com.yahoo.elide.core.security.checks.prefab.Role;\nimport com.yahoo.elide.core.type.AccessibleObject;\nimport com.yahoo.elide.core.type.ClassType;\nimport com.yahoo.elide.core.type.Type;\nimport com.yahoo.elide.core.utils.DefaultClassScanner;\nimport com.yahoo.elide.core.utils.coerce.CoerceUtil;\nimport com.yahoo.elide.core.utils.coerce.converters.ISO8601DateSerde;\nimport com.google.common.collect.ImmutableList;\nimport com.google.common.collect.ImmutableMap;\nimport com.google.common.collect.ImmutableSet;\nimport example.Address;\nimport example.Author;\nimport example.Book;\nimport example.Child;\nimport example.CoerceBean;\nimport example.Editor;\nimport example.FieldAnnotations;\nimport example.FunWithPermissions;\nimport example.GeoLocation;\nimport example.Job;\nimport example.Left;\nimport example.Parent;\nimport example.Price;\nimport example.Publisher;\nimport example.Right;\nimport example.StringId;\nimport example.User;\nimport example.models.generics.Employee;\nimport example.models.generics.Manager;\nimport example.models.packageinfo.ExcludedPackageLevel;\nimport example.models.packageinfo.IncludedPackageLevel;\nimport example.models.packageinfo.excluded.ExcludedSubPackage;\nimport example.models.packageinfo.included.ExcludedBySuperClass;\nimport example.models.packageinfo.included.IncludedSubPackage;\nimport example.models.versioned.BookV2;\nimport example.nontransferable.NoTransferBiDirectional;\nimport example.nontransferable.StrictNoTransfer;\nimport org.junit.jupiter.api.Test;\n\nimport jakarta.inject.Inject;\nimport jakarta.persistence.AccessType;\nimport jakarta.persistence.Entity;\nimport jakarta.persistence.GeneratedValue;\nimport jakarta.persistence.Id;\nimport jakarta.persistence.OneToOne;\nimport jakarta.persistence.Transient;\n\nimport java.lang.annotation.Annotation;\nimport java.math.BigDecimal;\nimport java.util.Arrays;\nimport java.util.Collection;\nimport java.util.Collections;\nimport java.util.Date;\nimport java.util.HashMap;\nimport java.util.List;\nimport java.util.Map;\nimport java.util.Set;\nimport java.util.stream.Collectors;\n\npublic class EntityDictionaryTest extends EntityDictionary {\n\n    //Test class to validate inheritance logic\n    @Include(name = \"friend\")\n    private class Friend extends Child {\n    }\n\n    public EntityDictionaryTest() {\n        super(\n                Collections.emptyMap(), //checks\n                Collections.emptyMap(), //role Checks\n                DEFAULT_INJECTOR,\n                CoerceUtil::lookup,\n                Collections.emptySet(),\n                new DefaultClassScanner()\n        );\n        init();\n    }\n\n    private void init() {\n        bindEntity(FunWithPermissions.class);\n        bindEntity(Parent.class);\n        bindEntity(Child.class);\n        bindEntity(Publisher.class);\n        bindEntity(User.class);\n        bindEntity(Left.class);\n        bindEntity(Right.class);\n        bindEntity(StringId.class);\n        bindEntity(Friend.class);\n        bindEntity(FieldAnnotations.class);\n        bindEntity(Manager.class);\n        bindEntity(Employee.class);\n        bindEntity(Job.class);\n        bindEntity(NoId.class);\n        bindEntity(BookV2.class);\n        bindEntity(Book.class);\n        bindEntity(Author.class);\n        bindEntity(Editor.class);\n        bindEntity(IncludedPackageLevel.class);\n        bindEntity(IncludedSubPackage.class);\n        bindEntity(ExcludedPackageLevel.class);\n        bindEntity(ExcludedSubPackage.class);\n        bindEntity(ExcludedBySuperClass.class);\n        bindEntity(StrictNoTransfer.class);\n        bindEntity(NoTransferBiDirectional.class);\n\n        checkNames.forcePut(\"user has all access\", Role.ALL.class);\n    }\n\n    @Test\n    public void testGetInjector() {\n        assertNotNull(getInjector());\n    }\n\n    @Test\n    public void testSetId() {\n        Parent parent = new Parent();\n        setId(parent, \"123\");\n        assertEquals(parent.getId(), 123);\n    }\n\n    @Test\n    public void testFindCheckByExpression() {\n        assertEquals(\"user has all access\", getCheckIdentifier(Role.ALL.class));\n        assertEquals(\"Prefab.Role.None\", getCheckIdentifier(Role.NONE.class));\n        assertEquals(\"Prefab.Collections.AppendOnly\", getCheckIdentifier(AppendOnly.class));\n        assertEquals(\"Prefab.Collections.RemoveOnly\", getCheckIdentifier(RemoveOnly.class));\n    }\n\n    @SecurityCheck(\"User is Admin\")\n    public static class Bar extends UserCheck {\n\n        @Override\n        public boolean ok(com.yahoo.elide.core.security.User user) {\n            return false;\n        }\n    }\n\n    @Test\n    public void testBindingNoExcludeSet() {\n\n        EntityDictionary testDictionary = EntityDictionary.builder().build();\n        testDictionary.bindEntity(Employee.class);\n        // Finds the Binding\n        assertNotNull(testDictionary.entityBindings.get(ClassType.of(Employee.class)));\n    }\n\n    @Test\n    public void testCheckScan() {\n\n        EntityDictionary testDictionary = EntityDictionary.builder().build();\n        testDictionary.scanForSecurityChecks();\n\n        assertEquals(\"User is Admin\", testDictionary.getCheckIdentifier(Bar.class));\n    }\n\n    @SecurityCheck(\"Filter Expression Injection Test\")\n    public static class Foo extends FilterExpressionCheck {\n\n        @Inject\n        Long testLong;\n\n        @Override\n        public FilterExpression getFilterExpression(Type entityClass,\n                                                    com.yahoo.elide.core.security.RequestScope requestScope) {\n            assertEquals(testLong, 123L);\n            return null;\n        }\n    }\n\n    @Test\n    public void testCheckInjection() {\n        EntityDictionary testDictionary = EntityDictionary.builder()\n                .injector(new Injector() {\n                    @Override\n                    public void inject(Object entity) {\n                        if (entity instanceof Foo) {\n                            ((Foo) entity).testLong = 123L;\n                        }\n                    }\n                })\n                .build();\n        testDictionary.scanForSecurityChecks();\n\n        assertEquals(\"Filter Expression Injection Test\", testDictionary.getCheckIdentifier(Foo.class));\n    }\n\n    @Test\n    public void testSerdeId() {\n\n        @Include(rootLevel = false)\n        class EntityWithDateId {\n            @Id\n            private Date id;\n        }\n\n        EntityDictionary testDictionary = new EntityDictionary(\n                new HashMap<>(),\n                null,\n                DEFAULT_INJECTOR,\n                unused -> new ISO8601DateSerde(),\n                Collections.emptySet(),\n                new DefaultClassScanner());\n\n        testDictionary.bindEntity(EntityWithDateId.class);\n\n        EntityWithDateId testModel = new EntityWithDateId();\n        testModel.id = new Date(0);\n        assertEquals(\"1970-01-01T00:00Z\", testDictionary.getId(testModel));\n    }\n\n    @Test\n    public void testGetAttributeOrRelationAnnotation() {\n        String[] fields = {\"field1\", \"field2\", \"field3\", \"relation1\", \"relation2\"};\n        Annotation annotation;\n        for (String field : fields) {\n            annotation = getAttributeOrRelationAnnotation(ClassType.of(FunWithPermissions.class), ReadPermission.class, field);\n            assertTrue(annotation instanceof ReadPermission, \"Every field should return a ReadPermission annotation\");\n        }\n    }\n\n    @Test\n    public void testHasAnnotation() {\n        assertTrue(hasAnnotation(ClassType.of(Book.class), Include.class));\n        assertTrue(hasAnnotation(ClassType.of(Book.class), Transient.class));\n        assertFalse(hasAnnotation(ClassType.of(Book.class), Exclude.class));\n    }\n\n    @Test\n    public void testBindingTriggerPriorToBindingEntityClass1() {\n        @Entity\n        @Include(rootLevel = false)\n        class Foo2 {\n            @Id\n            private long id;\n\n            private int bar;\n        }\n\n        LifeCycleHook<Foo2> trigger = mock(LifeCycleHook.class);\n\n        bindTrigger(Foo2.class, \"bar\", UPDATE, LifeCycleHookBinding.TransactionPhase.PRESECURITY, trigger);\n        assertEquals(1, getAllExposedFields(ClassType.of(Foo2.class)).size());\n    }\n\n    @Test\n    public void testBindingTriggerPriorToBindingEntityClass2() {\n        @Entity\n        @Include(rootLevel = false)\n        class Foo3 {\n            @Id\n            private long id;\n\n            private int bar;\n        }\n\n        LifeCycleHook<Foo3> trigger = mock(LifeCycleHook.class);\n\n        bindTrigger(Foo3.class, "
+      },
+      "flaky_info_member": {
+        "member": "elide=elide-core=5c39308/flaky_info.txt",
+        "local": "elide5_1a26750c5c59.txt",
+        "sha256": "e9543897009d2fe03ab98906b1c36e4df9b77cfaf7276da1a37a59dba5f6a556",
+        "crc32": "e05fbce5",
+        "text": "Flaky directory created from https://github.com/yahoo/elide at commit 43a292e0ed6a0517851802997c7c6b9e0efb8248\n"
+      },
+      "source_archive_record": 18634501,
+      "source_archive": "elide=elide-core=5c39308.zip",
+      "source_archive_checksum_declared": "md5:dac16b77fa39cc64808481d732db9fde",
+      "github_commit_url": "https://github.com/yahoo/elide/commit/43a292e0ed6a0517851802997c7c6b9e0efb8248",
+      "source_snapshot_sha256": "c0a4eaae4d7e452c6115a40e7ff11f174ba97f49d886668c229474fde03be4d7",
+      "source_diff": null
+    },
+    "checks": {
+      "raw_report_sha256": true,
+      "exact_target_failure_reparsed": true,
+      "exception_preserved": true,
+      "no_test_or_group_or_exact_diagnostic_overlap": true
+    },
+    "remaining_prerequisite": null
+  },
+  {
+    "container": "wildflycorecliff32351testStandalone",
+    "category": "ID",
+    "configured_test": "org.jboss.as.cli.impl.aesh.HelpSupportTestCase#testStandalone",
+    "repository": "https://github.com/wildfly/wildfly-core",
+    "original_exclusion": "missing_or_invalid_revision",
+    "archived_outcome_status": "confirmed_failure",
+    "status": "conditional_source_compatibility_patch",
+    "resolved_revision": "624b3aa22e4064b42bd171e8d7753238a1d6616c",
+    "project_group": "21394954",
+    "new_project": true,
+    "source_provenance": {
+      "revision": "624b3aa22e4064b42bd171e8d7753238a1d6616c",
+      "group": "21394954",
+      "repo": "https://github.com/wildfly/wildfly-core",
+      "target_source_exact": false,
+      "source_member": {
+        "member": "wildfly-core=cli=ff32351/Flaky/cli/src/test/java/org/jboss/as/cli/impl/aesh/HelpSupportTestCase.java",
+        "local": "wildfly_59cf9ba157c5.txt",
+        "sha256": "51e055a450a74bf8e72ba1276229d67f30d290537c2fbe6d02a14d51d088917c",
+        "crc32": "1f0c0347",
+        "text": "/*\nCopyright 2017 Red Hat, Inc.\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n  http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n */\npackage org.jboss.as.cli.impl.aesh;\n\nimport org.aesh.command.Command;\nimport org.aesh.command.impl.container.AeshCommandContainerBuilder;\nimport org.aesh.command.impl.parser.CommandLineParser;\nimport org.aesh.command.parser.CommandLineParserException;\nimport org.aesh.terminal.utils.Config;\nimport org.jboss.as.cli.CommandContextFactory;\nimport org.jboss.as.cli.impl.CommandContextImpl;\nimport static org.jboss.as.cli.impl.aesh.AeshCommands.isAeshExtension;\nimport org.jboss.as.cli.impl.aesh.cmd.operation.LegacyCommandContainer;\nimport org.junit.Assert;\nimport org.junit.Test;\nimport org.wildfly.core.cli.command.aesh.CLICommandInvocation;\n\n/**\n *\n * @author jdenise@redhat.com\n */\npublic class HelpSupportTestCase {\n\n    private static final AeshCommandContainerBuilder containerBuilder = new AeshCommandContainerBuilder();\n\n    @Test\n    public void testStandalone() throws Exception {\n        for (Class<? extends Command> clazz : Commands.TESTS_STANDALONE) {\n            testStandalone(clazz);\n        }\n    }\n\n    @Test\n    public void testStandaloneOnly() throws Exception {\n        for (Class<? extends Command> clazz : Commands.TESTS_STANDALONE_ONLY) {\n            testStandaloneOnly(clazz);\n        }\n    }\n\n    @Test\n    public void testDomain() throws Exception {\n        for (Class<? extends Command> clazz : Commands.TESTS_DOMAIN) {\n            testDomain(clazz);\n        }\n    }\n\n    @Test\n    public void testCLICommands() throws Exception {\n        CommandContextImpl ctx = (CommandContextImpl) CommandContextFactory.getInstance().newCommandContext();\n        AeshCommands commands = ctx.getAeshCommands();\n        for (String name : commands.getRegistry().getAllCommandNames()) {\n            CLICommandContainer container = (CLICommandContainer) commands.getRegistry().getCommand(name, name);\n            if (!(container.getWrappedContainer() instanceof LegacyCommandContainer)\n                    && !isAeshExtension(container.getParser().getCommand())) {\n                HelpSupport.checkCommand(null, container.getParser());\n                for (CommandLineParser<CLICommandInvocation> child : container.getParser().getAllChildParsers()) {\n                    HelpSupport.checkCommand(container.getParser(), child);\n                }\n            }\n        }\n    }\n\n    @Test\n    public void testInvalidCommand() throws Exception {\n        boolean failed = false;\n        try {\n            HelpSupport.checkCommand(null,\n                    new AeshCommandContainerBuilder().create(Commands.Standalone.Command1.class).getParser());\n        } catch (Exception ex) {\n            failed = true;\n        }\n        if (!failed) {\n            throw new Exception(\"Check should have failed\");\n        }\n    }\n\n    private static void testStandalone(Class<? extends Command> clazz) throws Exception {\n        Command c = clazz.newInstance();\n        String synopsis = getStandaloneSynopsis(c);\n        Assert.assertEquals(clazz.getName() + \". EXPECTED [\" + ((TestCommand) c).getSynopsis()\n                + \"]. FOUND [\" + synopsis + \"]\", ((TestCommand) c).getSynopsis(), synopsis);\n    }\n\n    private static void testStandaloneOnly(Class<? extends Command> clazz) throws Exception {\n        Command c = clazz.newInstance();\n        String synopsis = getStandaloneOnlySynopsis(c);\n        Assert.assertEquals(clazz.getName() + \". EXPECTED [\" + ((TestCommand) c).getSynopsis()\n                + \"]. FOUND [\" + synopsis + \"]\", ((TestCommand) c).getSynopsis(), synopsis);\n    }\n\n    private static void testDomain(Class<? extends Command> clazz) throws Exception {\n        Command c = clazz.newInstance();\n        String synopsis = getDomainSynopsis(c);\n        Assert.assertEquals(clazz.getName() + \". EXPECTED [\" + ((TestCommand) c).getSynopsis()\n                + \"]. FOUND [\" + synopsis + \"]\", ((TestCommand) c).getSynopsis(), synopsis);\n    }\n\n    private static String getStandaloneSynopsis(Command c) throws CommandLineParserException {\n        return getSynopsis(c, \"SYNOPSIS\", \"DESCRIPTION\");\n    }\n\n    private static String getStandaloneOnlySynopsis(Command c) throws CommandLineParserException {\n        return getSynopsis(c, \"Standalone mode:\", \"Domain mode:\");\n    }\n\n    private static String getDomainSynopsis(Command c) throws CommandLineParserException {\n        return getSynopsis(c, \"Domain mode:\", \"DESCRIPTION\");\n    }\n\n    private static String getSynopsis(Command<CLICommandInvocation> c, String markerStart, String markerEnd) throws CommandLineParserException {\n        String fullHelp = HelpSupport.getCommandHelp(containerBuilder.create(c).getParser());\n        int begin = fullHelp.indexOf(markerStart);\n        int start = begin + (markerStart + Config.getLineSeparator() + Config.getLineSeparator()).length();\n        int end = fullHelp.indexOf(Config.getLineSeparator() + Config.getLineSeparator() + markerEnd);\n        String synopsis = fullHelp.substring(start, end).trim();\n        String[] lines = synopsis.split(\"\\\\n\");\n        StringBuilder builder = new StringBuilder();\n        for (String line : lines) {\n            builder.append(\" \" + line.trim());\n        }\n        return builder.toString().trim();\n    }\n\n}\n"
+      },
+      "flaky_info_member": {
+        "member": "wildfly-core=cli=ff32351/flaky_info.txt",
+        "local": "wildfly_29c0e1691268.txt",
+        "sha256": "f299b865af15aa0ef5dc613114f388a0576b98a09892878c457d99ee9a76a35c",
+        "crc32": "afaa658f",
+        "text": "Flaky directory created from https://github.com/wildfly/wildfly-core at commit 624b3aa22e4064b42bd171e8d7753238a1d6616c\n"
+      },
+      "source_archive_record": 18605131,
+      "source_archive": "wildfly-core=cli=ff32351.zip",
+      "source_archive_checksum_declared": "md5:8992d65a949dc2a7980da670da49bb24",
+      "github_commit_url": "https://github.com/wildfly/wildfly-core/commit/624b3aa22e4064b42bd171e8d7753238a1d6616c",
+      "source_snapshot_sha256": "51e055a450a74bf8e72ba1276229d67f30d290537c2fbe6d02a14d51d088917c",
+      "source_diff": "evidence/extension_v5_data/wildfly_target_source_compatibility.diff"
+    },
+    "checks": {
+      "raw_report_sha256": true,
+      "exact_target_failure_reparsed": true,
+      "exception_preserved": true,
+      "no_test_or_group_or_exact_diagnostic_overlap": true
+    },
+    "remaining_prerequisite": "Explicitly retain base revision plus source-snapshot hash and disclose two API compatibility edits; coordinator decides inclusion scope."
+  },
+  {
+    "container": "BOOKKEEPER-846",
+    "category": "TD",
+    "configured_test": "org.apache.bookkeeper.client.TestLedgerChecker#testShouldGetTwoFrgamentsIfTwoBookiesFailedInSameEnsemble",
+    "repository": "https://github.com/apache/bookkeeper",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "BOOKKEEPER-709",
+    "category": "TD",
+    "configured_test": "org.apache.bookkeeper.client.SlowBookieTest#testSlowBookie",
+    "repository": "https://github.com/apache/bookkeeper",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "YARN-9405",
+    "category": "TD",
+    "configured_test": "org.apache.hadoop.yarn.service.TestYarnNativeServices#testExpressUpgrade",
+    "repository": "https://github.com/apache/hadoop",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "CAMEL-17188",
+    "category": "TD",
+    "configured_test": "org.apache.camel.support.task.BackgroundTaskTest#testRunNoMoreSupplier",
+    "repository": "https://github.com/apache/camel",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "HDFS-10281",
+    "category": "TD",
+    "configured_test": "org.apache.hadoop.hdfs.server.namenode.ha.TestPendingCorruptDnMessages#testChangedStorageId",
+    "repository": "https://github.com/apache/hadoop",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "OOZIE-3686",
+    "category": "TD",
+    "configured_test": "org.apache.oozie.command.wf.TestWorkflowActionRetryInfoXCommand#testRetryConsoleUrlForked",
+    "repository": "https://github.com/apache/oozie",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "HDFS-15702",
+    "category": "TD",
+    "configured_test": "org.apache.hadoop.hdfs.TestDecommission#testAllocAndIBRWhileDecommission",
+    "repository": "https://github.com/apache/hadoop",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "HADOOP-10394_testDoFilterAuthentication",
+    "category": "TD",
+    "configured_test": "org.apache.hadoop.security.authentication.server.TestAuthenticationFilter#testDoFilterAuthentication",
+    "repository": "https://github.com/apache/hadoop",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "HADOOP-10394_testDoFilterAuthenticationWithDomainPath",
+    "category": "TD",
+    "configured_test": "org.apache.hadoop.security.authentication.server.TestAuthenticationFilter#testDoFilterAuthenticationWithDomainPath",
+    "repository": "https://github.com/apache/hadoop",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "HADOOP-10394_testDoFilterAuthenticationWithInvalidToken",
+    "category": "TD",
+    "configured_test": "org.apache.hadoop.security.authentication.server.TestAuthenticationFilter#testDoFilterAuthenticationWithInvalidToken",
+    "repository": "https://github.com/apache/hadoop",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "HADOOP-12181",
+    "category": "TD",
+    "configured_test": "org.apache.hadoop.security.authentication.util.TestZKSignerSecretProvider#testMultipleUnsychnronized",
+    "repository": "https://github.com/apache/hadoop",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "HADOOP-12588",
+    "category": "TD",
+    "configured_test": "org.apache.hadoop.metrics2.impl.TestGangliaMetrics#testGangliaMetrics2",
+    "repository": "https://github.com/apache/hadoop",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "HBASE-27051",
+    "category": "TD",
+    "configured_test": "org.apache.hadoop.hbase.replication.regionserver.TestReplicationSource#testReplicationSourceInitializingMetric",
+    "repository": "https://github.com/apache/hbase",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "CURATOR-671",
+    "category": "TD",
+    "configured_test": "org.apache.curator.framework.recipes.leader.TestLeaderSelectorCluster#testLostRestart",
+    "repository": "https://github.com/apache/apache/curator",
+    "original_exclusion": "revision_attribution_unresolved",
+    "archived_outcome_status": "confirmed_failure",
+    "status": "excluded_revision_unresolved",
+    "remaining_prerequisite": "Curator archive flaky_info repeats unresolvable SHA; GitHub commit lookup returns 422 and raw target source returns 404. The SHA is 40 characters, but not validated.",
+    "evidence": [
+      "evidence/extension_v5_data/source_members/curator_afd776e9213f.txt",
+      "evidence/extension_v5_data/public/retrieval_manifest_*.json"
+    ]
+  },
+  {
+    "container": "APEXCORE-403",
+    "category": "TD",
+    "configured_test": "com.datatorrent.stram.plan.logical.DelayOperatorTest#testFibonacciRecovery1",
+    "repository": "https://github.com/apache/apache/apex-core",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "CAMEL-15580",
+    "category": "TD",
+    "configured_test": "org.apache.camel.component.sjms.batch.SjmsBatchConsumerTest#testConsumption",
+    "repository": "https://github.com/apache/camel",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "ZOOKEEPER-4327-testRequestThrottler",
+    "category": "TD",
+    "configured_test": "org.apache.zookeeper.server.RequestThrottlerTest#testRequestThrottler",
+    "repository": "https://github.com/apache/zookeeper",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "APEXCORE-617-testEmitTuplesOutsideStreamingWindow",
+    "category": "TD",
+    "configured_test": "com.datatorrent.stram.engine.InputNodeTest#testEmitTuplesOutsideStreamingWindow",
+    "repository": "https://github.com/apache/apache/apex-core",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "APEXCORE-617-testHandleIdleTimeOutsideStreamingWindow",
+    "category": "TD",
+    "configured_test": "com.datatorrent.stram.engine.InputNodeTest#testHandleIdleTimeOutsideStreamingWindow",
+    "repository": "https://github.com/apache/apache/apex-core",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "CAMEL-12025-testTo",
+    "category": "TD",
+    "configured_test": "org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest#testTo",
+    "repository": "https://github.com/apache/camel",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "CAMEL-12025-testToWithExchange",
+    "category": "TD",
+    "configured_test": "org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest#testToWithExchange",
+    "repository": "https://github.com/apache/camel",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "CAMEL-12025-testToFunction",
+    "category": "TD",
+    "configured_test": "org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest#testToFunction",
+    "repository": "https://github.com/apache/camel",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "CAMEL-12025-testToFunctionWithExchange",
+    "category": "TD",
+    "configured_test": "org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest#testToFunctionWithExchange",
+    "repository": "https://github.com/apache/camel",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "CAMEL-12025-testFrom",
+    "category": "TD",
+    "configured_test": "org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest#testFrom",
+    "repository": "https://github.com/apache/camel",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "CAMEL-12025-testMultipleSubscriptionsWithTimer",
+    "category": "TD",
+    "configured_test": "org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest#testMultipleSubscriptionsWithTimer",
+    "repository": "https://github.com/apache/camel",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "container": "CAMEL-12025-testFromStreamTimer",
+    "category": "TD",
+    "configured_test": "org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest#testFromStreamTimer",
+    "repository": "https://github.com/apache/camel",
+    "original_exclusion": "no_failure_in_outcome_table",
+    "archived_outcome_status": "no_failure_in_outcome_table",
+    "status": "excluded_no_observed_failure",
+    "remaining_prerequisite": "A newly observed exact target failure with source revision, requiring a compatible Java/Maven/Docker environment or a qualifying existing raw log; none available in archived outcome table.",
+    "attempt_scope": "Original archived first-failure audit inspected; no Java execution claimed."
+  },
+  {
+    "source_url": "https://github.com/Activiti/Activiti/pull/3488",
+    "category": "NIO",
+    "status": "external_candidate_not_eligible",
+    "evidence": "evidence/extension_v5_data/public/activiti_pull3488.json",
+    "evidence_sha256": "8aa88fad19d0d4eee7d873c9252ed9ea86cc436d876e5d926f92a4963941b3c9",
+    "remaining_prerequisite": "The PR reports the exact failure and gives an assertion excerpt, but no complete raw target execution diagnostic with matching execution revision was retrieved. Retain as explanatory candidate, not a model observation."
+  },
+  {
+    "source_url": "https://github.com/eBay/mTracker/pull/3",
+    "category": "NIO",
+    "status": "external_candidate_not_eligible",
+    "evidence": "evidence/extension_v5_data/public/mtracker_pull3.json",
+    "evidence_sha256": "4b6e288db535eb4ae2a7aecd65c2b5029adc3781a9e8e4a9b5fb163843c64b41",
+    "remaining_prerequisite": "Reproduction commands and state-pollution explanation present; raw failed target diagnostic absent."
+  },
+  {
+    "source_url": "https://github.com/kanwangzjm/funiture/issues/50",
+    "category": "NIO",
+    "status": "external_candidate_not_eligible",
+    "evidence": "evidence/extension_v5_data/public/funiture_issue50.json",
+    "evidence_sha256": "54faca47330b2fbc13ac5bca7fd7ad8aa8e5fbce667a10807f4b7f964f9b44d2",
+    "remaining_prerequisite": "Root-cause explanation and exact source revision present; raw target failure log absent."
+  },
+  {
+    "source_url": "https://github.com/TestingResearchIllinois/idoft/issues/1851",
+    "category": "TD",
+    "status": "external_candidate_not_eligible",
+    "evidence": "evidence/extension_v5_data/public/idoft_issue1851.json",
+    "evidence_sha256": "a47fe7fe7d09e60a0cf6512a47c3abbe0febb33f3fa8c8c70058bb5ac1a3ccbc",
+    "remaining_prerequisite": "Issue notes fixed release range and unavailable snapshot dependencies; no exact failure log with execution revision."
+  }
+]

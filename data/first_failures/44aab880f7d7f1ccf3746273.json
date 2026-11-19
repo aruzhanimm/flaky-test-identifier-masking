@@ -1,0 +1,81 @@
+{
+  "container": "snakeyamlengine9d2bca8parseManyAliasesForCollections",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "snakeyamlengine9d2bca8parseManyAliasesForCollections",
+    "project": "https://github.com/snakeyaml/snakeyaml-engine",
+    "revision": "9d2bca887ad1be7575bae2e427d074e2c49ff109",
+    "test": "org.snakeyaml.engine.usecases.references.ReferencesTest.parseManyAliasesForCollections",
+    "label": "ID",
+    "module": ".",
+    "zip": "snakeyaml-engine=.=9d2bca8",
+    "config_row": 695,
+    "configured_test": "org.snakeyaml.engine.usecases.references.ReferencesTest#parseManyAliasesForCollections",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/snakeyaml/snakeyaml-engine::org.snakeyaml.engine.usecases.references.ReferencesTest.parseManyAliasesForCollections",
+    "variant_id": "https://github.com/snakeyaml/snakeyaml-engine::org.snakeyaml.engine.usecases.references.ReferencesTest.parseManyAliasesForCollections::9d2bca887ad1be7575bae2e427d074e2c49ff109::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/snakeyamlengine9d2bca8parseManyAliasesForCollections/result/Flaky/.nondex/GP9ZueCDQeeVxawGz7tiJA0pfQp8HLCzgHv7k33z6Y4=/TEST-org.snakeyaml.engine.usecases.references.ReferencesTest.xml",
+        "size": 9045,
+        "compressed": 2126,
+        "crc32": "1e275b40",
+        "offset": 1610882231,
+        "method": 8,
+        "local_path": "data/extracted/203f924940a0eef54d57e3d3.xml",
+        "sha256": "1b28a6ea7266bbad641cd7ac6935aaac994c8a65672e3eb62543e4c11bb1d7bb",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/snakeyamlengine9d2bca8parseManyAliasesForCollections/result/Flaky/rounds-test-results.csv",
+    "size": 18729,
+    "compressed": 5073,
+    "crc32": "971d4174",
+    "offset": 1610465240,
+    "method": 8,
+    "local_path": "data/extracted/016f9b7c3281d1f2a7626bc7.csv",
+    "sha256": "c05219e52ad0da44d86c991983cbe29f551df791f08a4bdee7ffbeeac0574220",
+    "status": "verified"
+  },
+  "reported_failure_rows": 54,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/snakeyamlengine9d2bca8parseManyAliasesForCollections/result/Flaky/.nondex/GP9ZueCDQeeVxawGz7tiJA0pfQp8HLCzgHv7k33z6Y4=/TEST-org.snakeyaml.engine.usecases.references.ReferencesTest.xml",
+    "size": 9045,
+    "compressed": 2126,
+    "crc32": "1e275b40",
+    "offset": 1610882231,
+    "method": 8,
+    "local_path": "data/extracted/203f924940a0eef54d57e3d3.xml",
+    "sha256": "1b28a6ea7266bbad641cd7ac6935aaac994c8a65672e3eb62543e4c11bb1d7bb",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "parseManyAliasesForCollections",
+    "outcome": "error",
+    "exception_type": "org.snakeyaml.engine.v2.exceptions.ScannerException",
+    "message": "while scanning a simple key\n in reader, line 149, column 1:\n    *id049: a\n    ^\ncould not find expected ':'\n in reader, line 150, column 1:\n    \n    ^",
+    "stack_trace": "org.snakeyaml.engine.v2.exceptions.ScannerException: \nwhile scanning a simple key\n in reader, line 149, column 1:\n    *id049: a\n    ^\ncould not find expected ':'\n in reader, line 150, column 1:\n    \n    ^\n\n\tat org.snakeyaml.engine.usecases.references.ReferencesTest.parseManyAliasesForCollections(ReferencesTest.java:104)",
+    "text": "org.snakeyaml.engine.v2.exceptions.ScannerException\nwhile scanning a simple key\n in reader, line 149, column 1:\n    *id049: a\n    ^\ncould not find expected ':'\n in reader, line 150, column 1:\n    \n    ^\norg.snakeyaml.engine.v2.exceptions.ScannerException: \nwhile scanning a simple key\n in reader, line 149, column 1:\n    *id049: a\n    ^\ncould not find expected ':'\n in reader, line 150, column 1:\n    \n    ^\n\n\tat org.snakeyaml.engine.usecases.references.ReferencesTest.parseManyAliasesForCollections(ReferencesTest.java:104)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "19f9850cf036802659a617665b01357aadc36ee10488dcf45e05296f892815bb"
+}

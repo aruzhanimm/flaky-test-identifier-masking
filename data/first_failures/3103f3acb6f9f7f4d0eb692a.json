@@ -1,0 +1,81 @@
+{
+  "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML13",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML13",
+    "project": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "test": "org.apache.activemq.transport.stomp.auto.StompAutoSslTest.testTransformationSubscribeXML",
+    "label": "ID",
+    "module": "activemq-stomp",
+    "zip": "activemq=activemq-stomp=aeab06e",
+    "config_row": 129,
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoSslTest#testTransformationSubscribeXML",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/activemq::org.apache.activemq.transport.stomp.auto.StompAutoSslTest.testTransformationSubscribeXML",
+    "variant_id": "https://github.com/apache/activemq::org.apache.activemq.transport.stomp.auto.StompAutoSslTest.testTransformationSubscribeXML::aeab06e93e40d3a3ec198dc537388326832ff270::activemq-stomp",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/activemqactivemqstompaeab06etestTransformationSubscribeXML13/result/Flaky/.nondex/qBzAwrxSknKnO80UYwL7Nye935Kfk0p0+5OU54TITBQ=/TEST-org.apache.activemq.transport.stomp.auto.StompAutoSslTest.xml",
+        "size": 18319,
+        "compressed": 3653,
+        "crc32": "1c668b4b",
+        "offset": 743916677,
+        "method": 8,
+        "local_path": "data/extracted/e2ddfd778b6671b82cd5ecff.xml",
+        "sha256": "e52650c46be2045fc34cc575f7c558d2b6c7ea60f4fff0013455e2468bc580e5",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/activemqactivemqstompaeab06etestTransformationSubscribeXML13/result/Flaky/rounds-test-results.csv",
+    "size": 20326,
+    "compressed": 5101,
+    "crc32": "37147881",
+    "offset": 743744983,
+    "method": 8,
+    "local_path": "data/extracted/d916b069841995fea31926ab.csv",
+    "sha256": "f824e5810dcb0ff5a55e6c95267df1899eb88bfcf1493d129c29f505a51e97b7",
+    "status": "verified"
+  },
+  "reported_failure_rows": 50,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/activemqactivemqstompaeab06etestTransformationSubscribeXML13/result/Flaky/.nondex/qBzAwrxSknKnO80UYwL7Nye935Kfk0p0+5OU54TITBQ=/TEST-org.apache.activemq.transport.stomp.auto.StompAutoSslTest.xml",
+    "size": 18319,
+    "compressed": 3653,
+    "crc32": "1c668b4b",
+    "offset": 743916677,
+    "method": 8,
+    "local_path": "data/extracted/e2ddfd778b6671b82cd5ecff.xml",
+    "sha256": "e52650c46be2045fc34cc575f7c558d2b6c7ea60f4fff0013455e2468bc580e5",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testTransformationSubscribeXML",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.apache.activemq.transport.stomp.StompTest.testTransformationSubscribeXML(StompTest.java:1093)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.lang.Thread.run(Thread.java:833)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.apache.activemq.transport.stomp.StompTest.testTransformationSubscribeXML(StompTest.java:1093)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.lang.Thread.run(Thread.java:833)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "96c263bea8b3e0396d8b7a1141029a3abf0a7282d469af4742ba581f5fa921e3"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "fastjson2core62a67f2test6",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "fastjson2core62a67f2test6",
+    "project": "https://github.com/alibaba/fastjson2",
+    "revision": "62a67f2602c515c27ef2b9e0f4fbec5b2e572623",
+    "test": "com.alibaba.fastjson2.dubbo.DubboTest4.test6",
+    "label": "ID",
+    "module": "core",
+    "zip": "fastjson2=core=62a67f2",
+    "config_row": 491,
+    "configured_test": "com.alibaba.fastjson2.dubbo.DubboTest4#test6",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/fastjson2::com.alibaba.fastjson2.dubbo.DubboTest4.test6",
+    "variant_id": "https://github.com/alibaba/fastjson2::com.alibaba.fastjson2.dubbo.DubboTest4.test6::62a67f2602c515c27ef2b9e0f4fbec5b2e572623::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/fastjson2core62a67f2test6/result/Flaky/.nondex/XLD8Aq6NVDSjEroBN3ER+y21GOPLJI9xPxUYK+kOJyI=/TEST-com.alibaba.fastjson2.dubbo.DubboTest4.xml",
+        "size": 43403,
+        "compressed": 5504,
+        "crc32": "43bfc598",
+        "offset": 477816379,
+        "method": 8,
+        "local_path": "data/extracted/091972d563ac22f00ad3c5bf.xml",
+        "sha256": "06d7b685b47b6928e1729525bd098bcd954b666c72bdd729b40c1372dc07fcb3",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/fastjson2core62a67f2test6/result/Flaky/rounds-test-results.csv",
+    "size": 17365,
+    "compressed": 5082,
+    "crc32": "2189c573",
+    "offset": 477643894,
+    "method": 8,
+    "local_path": "data/extracted/4b6202a03bc9b9c5719317e8.csv",
+    "sha256": "07c47739724fff8020315cd89f4974f489aa349bfd3625e0e0aa1f4a32947dd6",
+    "status": "verified"
+  },
+  "reported_failure_rows": 47,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/fastjson2core62a67f2test6/result/Flaky/.nondex/XLD8Aq6NVDSjEroBN3ER+y21GOPLJI9xPxUYK+kOJyI=/TEST-com.alibaba.fastjson2.dubbo.DubboTest4.xml",
+    "size": 43403,
+    "compressed": 5504,
+    "crc32": "43bfc598",
+    "offset": 477816379,
+    "method": 8,
+    "local_path": "data/extracted/091972d563ac22f00ad3c5bf.xml",
+    "sha256": "06d7b685b47b6928e1729525bd098bcd954b666c72bdd729b40c1372dc07fcb3",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test6",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <null> but was: <java.io.IOException: xxx>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <null> but was: <java.io.IOException: xxx>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat com.alibaba.fastjson2.dubbo.DubboTest4.test6(DubboTest4.java:224)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <null> but was: <java.io.IOException: xxx>\norg.opentest4j.AssertionFailedError: expected: <null> but was: <java.io.IOException: xxx>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat com.alibaba.fastjson2.dubbo.DubboTest4.test6(DubboTest4.java:224)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "a619f726eabd99baa93411f57ee061fae6c0d3a59ae82ba2e158085f551c0647"
+}

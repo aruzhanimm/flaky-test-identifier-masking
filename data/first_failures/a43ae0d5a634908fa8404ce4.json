@@ -1,0 +1,81 @@
+{
+  "container": "graylog2servergraylog2server77d2635mergesMultipleResultsFromMultipleChecksWithConflictingKeys",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "graylog2servergraylog2server77d2635mergesMultipleResultsFromMultipleChecksWithConflictingKeys",
+    "project": "https://github.com/graylog2/graylog2-server",
+    "revision": "77d26352ed5fcc0e0517fbbd7bb15db4a3ea56af",
+    "test": "org.graylog.plugins.views.search.views.ViewRequirementsTest.mergesMultipleResultsFromMultipleChecksWithConflictingKeys",
+    "label": "ID",
+    "module": "graylog2-server",
+    "zip": "graylog2-server=graylog2-server=77d2635",
+    "config_row": 8,
+    "configured_test": "org.graylog.plugins.views.search.views.ViewRequirementsTest#mergesMultipleResultsFromMultipleChecksWithConflictingKeys",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/graylog2/graylog2-server::org.graylog.plugins.views.search.views.ViewRequirementsTest.mergesMultipleResultsFromMultipleChecksWithConflictingKeys",
+    "variant_id": "https://github.com/graylog2/graylog2-server::org.graylog.plugins.views.search.views.ViewRequirementsTest.mergesMultipleResultsFromMultipleChecksWithConflictingKeys::77d26352ed5fcc0e0517fbbd7bb15db4a3ea56af::graylog2-server",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/graylog2servergraylog2server77d2635mergesMultipleResultsFromMultipleChecksWithConflictingKeys/result/Flaky/.nondex/+ypvpI9i8qOtp+nq6cv6q65pALz9c6sHVpU1EO3WeTA=/TEST-org.graylog.plugins.views.search.views.ViewRequirementsTest.xml",
+        "size": 64367,
+        "compressed": 7548,
+        "crc32": "872ec0b3",
+        "offset": 562135151,
+        "method": 8,
+        "local_path": "data/extracted/448f1be0b9d313390e28eb4a.xml",
+        "sha256": "d0ec45f4e4a15fe43856e54fa736d2ae0c8d5c8334825f6a52cd1492ff674287",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/graylog2servergraylog2server77d2635mergesMultipleResultsFromMultipleChecksWithConflictingKeys/result/Flaky/rounds-test-results.csv",
+    "size": 20589,
+    "compressed": 4987,
+    "crc32": "a81553e7",
+    "offset": 561966751,
+    "method": 8,
+    "local_path": "data/extracted/ac1decb50498f1007ba3bc30.csv",
+    "sha256": "d1667fb3b25b6b7490a05d2f35d9a72bde65e54c9dcb08609cdc4a487d5c5881",
+    "status": "verified"
+  },
+  "reported_failure_rows": 42,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/graylog2servergraylog2server77d2635mergesMultipleResultsFromMultipleChecksWithConflictingKeys/result/Flaky/.nondex/+ypvpI9i8qOtp+nq6cv6q65pALz9c6sHVpU1EO3WeTA=/TEST-org.graylog.plugins.views.search.views.ViewRequirementsTest.xml",
+    "size": 64367,
+    "compressed": 7548,
+    "crc32": "872ec0b3",
+    "offset": 562135151,
+    "method": 8,
+    "local_path": "data/extracted/448f1be0b9d313390e28eb4a.xml",
+    "sha256": "d0ec45f4e4a15fe43856e54fa736d2ae0c8d5c8334825f6a52cd1492ff674287",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "mergesMultipleResultsFromMultipleChecksWithConflictingKeys",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Actual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <MapEntry[key=\"parameters\", value=PluginMetadataSummary{uniqueId=org.graylog.plugins.aioverlord, name=Graylog AI Overlord, author=garybot@graylog.org, url=https://www.graylog.org/ai, version=3.0.0, description=Graylog becomes self-aware at 2:14AM.}]>\nwhereas expected element was:\n  <aioverlord=PluginMetadataSummary{uniqueId=org.graylog.plugins.aioverlord, name=Graylog AI Overlord, author=garybot@graylog.org, url=https://www.graylog.org/ai, version=3.0.0, description=Graylog becomes self-aware at 2:14AM.}>",
+    "stack_trace": "java.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <MapEntry[key=\"parameters\", value=PluginMetadataSummary{uniqueId=org.graylog.plugins.aioverlord, name=Graylog AI Overlord, author=garybot@graylog.org, url=https://www.graylog.org/ai, version=3.0.0, description=Graylog becomes self-aware at 2:14AM.}]>\nwhereas expected element was:\n  <aioverlord=PluginMetadataSummary{uniqueId=org.graylog.plugins.aioverlord, name=Graylog AI Overlord, author=garybot@graylog.org, url=https://www.graylog.org/ai, version=3.0.0, description=Graylog becomes self-aware at 2:14AM.}>\n\n\tat org.graylog.plugins.views.search.views.ViewRequirementsTest.mergesMultipleResultsFromMultipleChecksWithConflictingKeys(ViewRequirementsTest.java:123)",
+    "text": "java.lang.AssertionError\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <MapEntry[key=\"parameters\", value=PluginMetadataSummary{uniqueId=org.graylog.plugins.aioverlord, name=Graylog AI Overlord, author=garybot@graylog.org, url=https://www.graylog.org/ai, version=3.0.0, description=Graylog becomes self-aware at 2:14AM.}]>\nwhereas expected element was:\n  <aioverlord=PluginMetadataSummary{uniqueId=org.graylog.plugins.aioverlord, name=Graylog AI Overlord, author=garybot@graylog.org, url=https://www.graylog.org/ai, version=3.0.0, description=Graylog becomes self-aware at 2:14AM.}>\njava.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <MapEntry[key=\"parameters\", value=PluginMetadataSummary{uniqueId=org.graylog.plugins.aioverlord, name=Graylog AI Overlord, author=garybot@graylog.org, url=https://www.graylog.org/ai, version=3.0.0, description=Graylog becomes self-aware at 2:14AM.}]>\nwhereas expected element was:\n  <aioverlord=PluginMetadataSummary{uniqueId=org.graylog.plugins.aioverlord, name=Graylog AI Overlord, author=garybot@graylog.org, url=https://www.graylog.org/ai, version=3.0.0, description=Graylog becomes self-aware at 2:14AM.}>\n\n\tat org.graylog.plugins.views.search.views.ViewRequirementsTest.mergesMultipleResultsFromMultipleChecksWithConflictingKeys(ViewRequirementsTest.java:123)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "681c3cb7de2e8de9a241e917f5d0ad9ef692123819b20a0a4a4ac6328aedf83c"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "cloudstackengineschema6001772tstSetOtherDeployParamsForUpdate",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "cloudstackengineschema6001772tstSetOtherDeployParamsForUpdate",
+    "project": "https://github.com/apache/cloudstack",
+    "revision": "60017723357c5c5d3f81931d2b1be286aa986ad8",
+    "test": "com.cloud.network.as.AutoScaleVmProfileVOTest.tstSetOtherDeployParamsForUpdate",
+    "label": "ID",
+    "module": "engine/schema",
+    "zip": "cloudstack=engine+schema=6001772",
+    "config_row": 590,
+    "configured_test": "com.cloud.network.as.AutoScaleVmProfileVOTest#tstSetOtherDeployParamsForUpdate",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/cloudstack::com.cloud.network.as.AutoScaleVmProfileVOTest.tstSetOtherDeployParamsForUpdate",
+    "variant_id": "https://github.com/apache/cloudstack::com.cloud.network.as.AutoScaleVmProfileVOTest.tstSetOtherDeployParamsForUpdate::60017723357c5c5d3f81931d2b1be286aa986ad8::engine/schema",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/cloudstackengineschema6001772tstSetOtherDeployParamsForUpdate/result/Flaky/.nondex/DC5kYOq1OGpzqAtXC+PVsZqjjBO66TdFQYcXyPs3k2A=/TEST-com.cloud.network.as.AutoScaleVmProfileVOTest.xml",
+        "size": 31688,
+        "compressed": 4671,
+        "crc32": "39c00dc0",
+        "offset": 359367796,
+        "method": 8,
+        "local_path": "data/extracted/f51c116c1d3e31a86238fc1c.xml",
+        "sha256": "f3c4b3cef739e62ae7e8ec6535fef5586328b90f1dcfb4ff4cfbeed2645517da",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/cloudstackengineschema6001772tstSetOtherDeployParamsForUpdate/result/Flaky/rounds-test-results.csv",
+    "size": 18979,
+    "compressed": 4967,
+    "crc32": "af1d8817",
+    "offset": 358920466,
+    "method": 8,
+    "local_path": "data/extracted/4f40bdfb19e7d32d62e7ad08.csv",
+    "sha256": "7300af76e7b04014418afc6e1884f757c18d9a02b88dde196e035f87b7ff6b78",
+    "status": "verified"
+  },
+  "reported_failure_rows": 48,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/cloudstackengineschema6001772tstSetOtherDeployParamsForUpdate/result/Flaky/.nondex/DC5kYOq1OGpzqAtXC+PVsZqjjBO66TdFQYcXyPs3k2A=/TEST-com.cloud.network.as.AutoScaleVmProfileVOTest.xml",
+    "size": 31688,
+    "compressed": 4671,
+    "crc32": "39c00dc0",
+    "offset": 359367796,
+    "method": 8,
+    "local_path": "data/extracted/f51c116c1d3e31a86238fc1c.xml",
+    "sha256": "f3c4b3cef739e62ae7e8ec6535fef5586328b90f1dcfb4ff4cfbeed2645517da",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "tstSetOtherDeployParamsForUpdate",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<[serviceofferingid]> but was:<[rootdisksize]>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<[serviceofferingid]> but was:<[rootdisksize]>\n\tat com.cloud.network.as.AutoScaleVmProfileVOTest.tstSetOtherDeployParamsForUpdate(AutoScaleVmProfileVOTest.java:72)",
+    "text": "org.junit.ComparisonFailure\nexpected:<[serviceofferingid]> but was:<[rootdisksize]>\norg.junit.ComparisonFailure: expected:<[serviceofferingid]> but was:<[rootdisksize]>\n\tat com.cloud.network.as.AutoScaleVmProfileVOTest.tstSetOtherDeployParamsForUpdate(AutoScaleVmProfileVOTest.java:72)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "8a71f1145d9fa3be35b25314a915ca87d7c0a63160d9db2c78ba5df254676a2e"
+}

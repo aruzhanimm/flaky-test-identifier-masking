@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="net.sourceforge.pmd.renderers.SummaryHTMLRendererTest" time="0.302" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="nondexStart" value="0"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/pmd-core/target/test-classes:/app/source/pmd-core/target/classes:/root/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/root/.m2/repository/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar:/root/.m2/repository/net/sf/saxon/Saxon-HE/10.7/Saxon-HE-10.7.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/root/.m2/repository/org/ow2/asm/asm/9.5/asm-9.5.jar:/root/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/root/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/root/.m2/repository/org/pcollections/pcollections/3.1.3/pcollections-3.1.3.jar:/root/.m2/repository/com/github/oowekyala/ooxml/nice-xml-messages/3.1/nice-xml-messages-3.1.jar:/root/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar:/root/.m2/repository/com/github/tomakehurst/wiremock-jre8/2.35.1/wiremock-jre8-2.35.1.jar:/root/.m2/repository/org/eclipse/jetty/jetty-server/9.4.49.v20220914/jetty-server-9.4.49.v20220914.jar:/root/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/root/.m2/repository/org/eclipse/jetty/jetty-http/9.4.49.v20220914/jetty-http-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-io/9.4.49.v20220914/jetty-io-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.49.v20220914/jetty-servlet-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-security/9.4.49.v20220914/jetty-security-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-util-ajax/9.4.49.v20220914/jetty-util-ajax-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.49.v20220914/jetty-servlets-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-continuation/9.4.49.v20220914/jetty-continuation-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-util/9.4.49.v20220914/jetty-util-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.49.v20220914/jetty-webapp-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.49.v20220914/jetty-xml-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-proxy/9.4.49.v20220914/jetty-proxy-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-client/9.4.49.v20220914/jetty-client-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/http2/http2-server/9.4.49.v20220914/http2-server-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/http2/http2-common/9.4.49.v20220914/http2-common-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/http2/http2-hpack/9.4.49.v20220914/http2-hpack-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-alpn-server/9.4.49.v20220914/jetty-alpn-server-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-alpn-java-server/9.4.49.v20220914/jetty-alpn-java-server-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-alpn-openjdk8-server/9.4.49.v20220914/jetty-alpn-openjdk8-server-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-alpn-java-client/9.4.49.v20220914/jetty-alpn-java-client-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-alpn-client/9.4.49.v20220914/jetty-alpn-client-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-alpn-openjdk8-client/9.4.49.v20220914/jetty-alpn-openjdk8-client-9.4.49.v20220914.jar:/root/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar:/root/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/root/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/root/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/root/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/root/.m2/repository/org/xmlunit/xmlunit-core/2.9.0/xmlunit-core-2.9.0.jar:/root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/root/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/root/.m2/repository/org/xmlunit/xmlunit-legacy/2.9.0/xmlunit-legacy-2.9.0.jar:/root/.m2/repository/org/xmlunit/xmlunit-placeholders/2.9.0/xmlunit-placeholders-2.9.0.jar:/root/.m2/repository/net/javacrumbs/json-unit/json-unit-core/2.36.0/json-unit-core-2.36.0.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/root/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/root/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/root/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/root/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/root/.m2/repository/com/github/jknack/handlebars/4.3.1/handlebars-4.3.1.jar:/root/.m2/repository/com/github/jknack/handlebars-helpers/4.3.1/handlebars-helpers-4.3.1.jar:/root/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar:/root/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/root/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-suite/1.9.0-M1/junit-platform-suite-1.9.0-M1.jar:/root/.m2/repository/org/junit/platform/junit-platform-suite-api/1.8.2/junit-platform-suite-api-1.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.8.2/junit-platform-suite-engine-1.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.8.2/junit-platform-suite-commons-1.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-launcher/1.8.2/junit-platform-launcher-1.8.2.jar:/root/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.9/byte-buddy-agent-1.14.9.jar:/root/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/root/.m2/repository/com/github/stefanbirkner/system-lambda/1.2.1/system-lambda-1.2.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-11/lib"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="sun.java.command" value="/app/source/pmd-core/target/surefire/surefirebooter-20251107033051736_12.jar /app/source/pmd-core/target/surefire 2025-11-07T03-30-50_973-jvmRun1 surefire-20251107033051736_10tmp surefire_3-20251107033051736_11tmp"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="net.sourceforge.pmd.renderers.SummaryHTMLRendererTest#testRendererMultiple"/>
+    <property name="surefire.test.class.path" value="/app/source/pmd-core/target/test-classes:/app/source/pmd-core/target/classes:/root/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/root/.m2/repository/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar:/root/.m2/repository/net/sf/saxon/Saxon-HE/10.7/Saxon-HE-10.7.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/root/.m2/repository/org/ow2/asm/asm/9.5/asm-9.5.jar:/root/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/root/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/root/.m2/repository/org/pcollections/pcollections/3.1.3/pcollections-3.1.3.jar:/root/.m2/repository/com/github/oowekyala/ooxml/nice-xml-messages/3.1/nice-xml-messages-3.1.jar:/root/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar:/root/.m2/repository/com/github/tomakehurst/wiremock-jre8/2.35.1/wiremock-jre8-2.35.1.jar:/root/.m2/repository/org/eclipse/jetty/jetty-server/9.4.49.v20220914/jetty-server-9.4.49.v20220914.jar:/root/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/root/.m2/repository/org/eclipse/jetty/jetty-http/9.4.49.v20220914/jetty-http-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-io/9.4.49.v20220914/jetty-io-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.49.v20220914/jetty-servlet-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-security/9.4.49.v20220914/jetty-security-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-util-ajax/9.4.49.v20220914/jetty-util-ajax-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.49.v20220914/jetty-servlets-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-continuation/9.4.49.v20220914/jetty-continuation-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-util/9.4.49.v20220914/jetty-util-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.49.v20220914/jetty-webapp-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.49.v20220914/jetty-xml-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-proxy/9.4.49.v20220914/jetty-proxy-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-client/9.4.49.v20220914/jetty-client-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/http2/http2-server/9.4.49.v20220914/http2-server-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/http2/http2-common/9.4.49.v20220914/http2-common-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/http2/http2-hpack/9.4.49.v20220914/http2-hpack-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-alpn-server/9.4.49.v20220914/jetty-alpn-server-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-alpn-java-server/9.4.49.v20220914/jetty-alpn-java-server-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-alpn-openjdk8-server/9.4.49.v20220914/jetty-alpn-openjdk8-server-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-alpn-java-client/9.4.49.v20220914/jetty-alpn-java-client-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-alpn-client/9.4.49.v20220914/jetty-alpn-client-9.4.49.v20220914.jar:/root/.m2/repository/org/eclipse/jetty/jetty-alpn-openjdk8-client/9.4.49.v20220914/jetty-alpn-openjdk8-client-9.4.49.v20220914.jar:/root/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar:/root/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/root/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/root/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/root/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/root/.m2/repository/org/xmlunit/xmlunit-core/2.9.0/xmlunit-core-2.9.0.jar:/root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/root/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/root/.m2/repository/org/xmlunit/xmlunit-legacy/2.9.0/xmlunit-legacy-2.9.0.jar:/root/.m2/repository/org/xmlunit/xmlunit-placeholders/2.9.0/xmlunit-placeholders-2.9.0.jar:/root/.m2/repository/net/javacrumbs/json-unit/json-unit-core/2.36.0/json-unit-core-2.36.0.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/root/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/root/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/root/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/root/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/root/.m2/repository/com/github/jknack/handlebars/4.3.1/handlebars-4.3.1.jar:/root/.m2/repository/com/github/jknack/handlebars-helpers/4.3.1/handlebars-helpers-4.3.1.jar:/root/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar:/root/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/root/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-suite/1.9.0-M1/junit-platform-suite-1.9.0-M1.jar:/root/.m2/repository/org/junit/platform/junit-platform-suite-api/1.8.2/junit-platform-suite-api-1.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.8.2/junit-platform-suite-engine-1.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.8.2/junit-platform-suite-commons-1.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-launcher/1.8.2/junit-platform-launcher-1.8.2.jar:/root/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.9/byte-buddy-agent-1.14.9.jar:/root/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/root/.m2/repository/com/github/stefanbirkner/system-lambda/1.2.1/system-lambda-1.2.1.jar:"/>
+    <property name="nondexExecid" value="phJhPC6pwe3MdDgJqBYwx353V7Y7hojrqX9Fn0J9qM="/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/openjdk-11"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/app/source/pmd-core"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="skip.npm" value="true"/>
+    <property name="mvn.project.src.test.resources" value="/app/source/pmd-core/src/test/resources"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexSeed" value="1098954"/>
+    <property name="surefire.real.class.path" value="/app/source/pmd-core/target/surefire/surefirebooter-20251107033051736_12.jar"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-34-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/pmd-core/.nondex"/>
+    <property name="nondexJarDir" value="/app/source/pmd-core/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="/app/source/pmd-core"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="license.skip" value="true"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="xml.skip" value="true"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="testRendererMultiple" classname="net.sourceforge.pmd.renderers.SummaryHTMLRendererTest" time="0.249">
+    <failure message="expected: &lt;&lt;html&gt;&lt;head&gt;&lt;title&gt;PMD&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&#10;&lt;center&gt;&lt;h2&gt;Summary&lt;/h2&gt;&lt;/center&gt;&#10;&lt;table align=&quot;center&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot;&gt;&#10;&lt;tr&gt;&lt;th&gt;Rule name&lt;/th&gt;&lt;th&gt;Number of violations&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;td&gt;Boo&lt;/td&gt;&lt;td align=center&gt;1&lt;/td&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;td&gt;Foo&lt;/td&gt;&lt;td align=center&gt;1&lt;/td&gt;&lt;/tr&gt;&#10;&lt;/table&gt;&#10;&lt;center&gt;&lt;h2&gt;Detail&lt;/h2&gt;&lt;/center&gt;&lt;table align=&quot;center&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot;&gt;&lt;tr&gt;&#10;&lt;center&gt;&lt;h3&gt;PMD report&lt;/h3&gt;&lt;/center&gt;&lt;center&gt;&lt;h3&gt;Problems found&lt;/h3&gt;&lt;/center&gt;&lt;table align=&quot;center&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot;&gt;&lt;tr&gt;&#10;&lt;th&gt;#&lt;/th&gt;&lt;th&gt;File&lt;/th&gt;&lt;th&gt;Line&lt;/th&gt;&lt;th&gt;Problem&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr bgcolor=&quot;lightgrey&quot;&gt; &#10;&lt;td align=&quot;center&quot;&gt;1&lt;/td&gt;&#10;&lt;td width=&quot;*%&quot;&gt;&lt;a href=&quot;link_prefixnotAvailable.html#line_prefix1&quot;&gt;notAvailable&lt;/a&gt;&lt;/td&gt;&#10;&lt;td align=&quot;center&quot; width=&quot;5%&quot;&gt;1&lt;/td&gt;&#10;&lt;td width=&quot;*&quot;&gt;blah&lt;/td&gt;&#10;&lt;/tr&gt;&#10;&lt;tr&gt; &#10;&lt;td align=&quot;center&quot;&gt;2&lt;/td&gt;&#10;&lt;td width=&quot;*%&quot;&gt;&lt;a href=&quot;link_prefixnotAvailable.html#line_prefix1&quot;&gt;notAvailable&lt;/a&gt;&lt;/td&gt;&#10;&lt;td align=&quot;center&quot; width=&quot;5%&quot;&gt;1&lt;/td&gt;&#10;&lt;td width=&quot;*&quot;&gt;blah&lt;/td&gt;&#10;&lt;/tr&gt;&#10;&lt;/table&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;&#10;&gt; but was: &lt;&lt;html&gt;&lt;head&gt;&lt;title&gt;PMD&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&#10;&lt;center&gt;&lt;h2&gt;Summary&lt;/h2&gt;&lt;/center&gt;&#10;&lt;table align=&quot;center&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot;&gt;&#10;&lt;tr&gt;&lt;th&gt;Rule name&lt;/th&gt;&lt;th&gt;Number of violations&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;td&gt;Foo&lt;/td&gt;&lt;td align=center&gt;1&lt;/td&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;td&gt;Boo&lt;/td&gt;&lt;td align=center&gt;1&lt;/td&gt;&lt;/tr&gt;&#10;&lt;/table&gt;&#10;&lt;center&gt;&lt;h2&gt;Detail&lt;/h2&gt;&lt;/center&gt;&lt;table align=&quot;center&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot;&gt;&lt;tr&gt;&#10;&lt;center&gt;&lt;h3&gt;PMD report&lt;/h3&gt;&lt;/center&gt;&lt;center&gt;&lt;h3&gt;Problems found&lt;/h3&gt;&lt;/center&gt;&lt;table align=&quot;center&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot;&gt;&lt;tr&gt;&#10;&lt;th&gt;#&lt;/th&gt;&lt;th&gt;File&lt;/th&gt;&lt;th&gt;Line&lt;/th&gt;&lt;th&gt;Problem&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr bgcolor=&quot;lightgrey&quot;&gt; &#10;&lt;td align=&quot;center&quot;&gt;1&lt;/td&gt;&#10;&lt;td width=&quot;*%&quot;&gt;&lt;a href=&quot;link_prefixnotAvailable.html#line_prefix1&quot;&gt;notAvailable&lt;/a&gt;&lt;/td&gt;&#10;&lt;td align=&quot;center&quot; width=&quot;5%&quot;&gt;1&lt;/td&gt;&#10;&lt;td width=&quot;*&quot;&gt;blah&lt;/td&gt;&#10;&lt;/tr&gt;&#10;&lt;tr&gt; &#10;&lt;td align=&quot;center&quot;&gt;2&lt;/td&gt;&#10;&lt;td width=&quot;*%&quot;&gt;&lt;a href=&quot;link_prefixnotAvailable.html#line_prefix1&quot;&gt;notAvailable&lt;/a&gt;&lt;/td&gt;&#10;&lt;td align=&quot;center&quot; width=&quot;5%&quot;&gt;1&lt;/td&gt;&#10;&lt;td width=&quot;*&quot;&gt;blah&lt;/td&gt;&#10;&lt;/tr&gt;&#10;&lt;/table&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;&#10;&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+expected: <<html><head><title>PMD</title></head><body>
+<center><h2>Summary</h2></center>
+<table align="center" cellspacing="0" cellpadding="3">
+<tr><th>Rule name</th><th>Number of violations</th></tr>
+<tr><td>Boo</td><td align=center>1</td></tr>
+<tr><td>Foo</td><td align=center>1</td></tr>
+</table>
+<center><h2>Detail</h2></center><table align="center" cellspacing="0" cellpadding="3"><tr>
+<center><h3>PMD report</h3></center><center><h3>Problems found</h3></center><table align="center" cellspacing="0" cellpadding="3"><tr>
+<th>#</th><th>File</th><th>Line</th><th>Problem</th></tr>
+<tr bgcolor="lightgrey"> 
+<td align="center">1</td>
+<td width="*%"><a href="link_prefixnotAvailable.html#line_prefix1">notAvailable</a></td>
+<td align="center" width="5%">1</td>
+<td width="*">blah</td>
+</tr>
+<tr> 
+<td align="center">2</td>
+<td width="*%"><a href="link_prefixnotAvailable.html#line_prefix1">notAvailable</a></td>
+<td align="center" width="5%">1</td>
+<td width="*">blah</td>
+</tr>
+</table></tr></table></body></html>
+> but was: <<html><head><title>PMD</title></head><body>
+<center><h2>Summary</h2></center>
+<table align="center" cellspacing="0" cellpadding="3">
+<tr><th>Rule name</th><th>Number of violations</th></tr>
+<tr><td>Foo</td><td align=center>1</td></tr>
+<tr><td>Boo</td><td align=center>1</td></tr>
+</table>
+<center><h2>Detail</h2></center><table align="center" cellspacing="0" cellpadding="3"><tr>
+<center><h3>PMD report</h3></center><center><h3>Problems found</h3></center><table align="center" cellspacing="0" cellpadding="3"><tr>
+<th>#</th><th>File</th><th>Line</th><th>Problem</th></tr>
+<tr bgcolor="lightgrey"> 
+<td align="center">1</td>
+<td width="*%"><a href="link_prefixnotAvailable.html#line_prefix1">notAvailable</a></td>
+<td align="center" width="5%">1</td>
+<td width="*">blah</td>
+</tr>
+<tr> 
+<td align="center">2</td>
+<td width="*%"><a href="link_prefixnotAvailable.html#line_prefix1">notAvailable</a></td>
+<td align="center" width="5%">1</td>
+<td width="*">blah</td>
+</tr>
+</table></tr></table></body></html>
+>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at net.sourceforge.pmd.renderers.AbstractRendererTest.testRendererMultiple(AbstractRendererTest.java:174)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,81 @@
+{
+  "container": "hapifhirhapifhirjaxrsserverbase443b59atestSearchByPost",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "hapifhirhapifhirjaxrsserverbase443b59atestSearchByPost",
+    "project": "https://github.com/hapifhir/hapi-fhir",
+    "revision": "443b59a78b08021cd101a591547a06353fd8242c",
+    "test": "ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test.testSearchByPost",
+    "label": "ID",
+    "module": "hapi-fhir-jaxrsserver-base",
+    "zip": "hapi-fhir=hapi-fhir-jaxrsserver-base=443b59a",
+    "config_row": 348,
+    "configured_test": "ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test#testSearchByPost",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/hapifhir/hapi-fhir::ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test.testSearchByPost",
+    "variant_id": "https://github.com/hapifhir/hapi-fhir::ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test.testSearchByPost::443b59a78b08021cd101a591547a06353fd8242c::hapi-fhir-jaxrsserver-base",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 7,
+      "iteration": 6,
+      "member": {
+        "path": "result/hapifhirhapifhirjaxrsserverbase443b59atestSearchByPost/result/Flaky/.nondex/Z7CqRQ6q5rUkWBFBUzMdPKH4NNxhmtZlKoq1Kg+3caA=/TEST-ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test.xml",
+        "size": 42477,
+        "compressed": 5930,
+        "crc32": "736f871f",
+        "offset": 2246587450,
+        "method": 8,
+        "local_path": "data/extracted/474cbcf9bacd4573697a0792.xml",
+        "sha256": "bce3377e86ee11a33dd5250c3eae31e070bc38031ab1eade0795b93944a826ee",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/hapifhirhapifhirjaxrsserverbase443b59atestSearchByPost/result/Flaky/rounds-test-results.csv",
+    "size": 21010,
+    "compressed": 5180,
+    "crc32": "b06a0a4e",
+    "offset": 2246354153,
+    "method": 8,
+    "local_path": "data/extracted/2bf2e50b84a20c73081e9718.csv",
+    "sha256": "07c4c1c4fb0c3b12fa9b6aba1d42770f6867c7e9235f87c54f809eb47dd6f991",
+    "status": "verified"
+  },
+  "reported_failure_rows": 48,
+  "iteration": 6,
+  "source_row": 7,
+  "diagnostic_member": {
+    "path": "result/hapifhirhapifhirjaxrsserverbase443b59atestSearchByPost/result/Flaky/.nondex/Z7CqRQ6q5rUkWBFBUzMdPKH4NNxhmtZlKoq1Kg+3caA=/TEST-ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test.xml",
+    "size": 42477,
+    "compressed": 5930,
+    "crc32": "736f871f",
+    "offset": 2246587450,
+    "method": 8,
+    "local_path": "data/extracted/474cbcf9bacd4573697a0792.xml",
+    "sha256": "bce3377e86ee11a33dd5250c3eae31e070bc38031ab1eade0795b93944a826ee",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testSearchByPost",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <http://localhost:39635/fhir/Patient/_search?_elements=identifier%2Cname> but was: <http://localhost:39635/fhir/Patient/_search?_elements=name%2Cidentifier>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <http://localhost:39635/fhir/Patient/_search?_elements=identifier%2Cname> but was: <http://localhost:39635/fhir/Patient/_search?_elements=name%2Cidentifier>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test.testSearchByPost(GenericJaxRsClientDstu2Test.java:1477)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <http://localhost:39635/fhir/Patient/_search?_elements=identifier%2Cname> but was: <http://localhost:39635/fhir/Patient/_search?_elements=name%2Cidentifier>\norg.opentest4j.AssertionFailedError: expected: <http://localhost:39635/fhir/Patient/_search?_elements=identifier%2Cname> but was: <http://localhost:39635/fhir/Patient/_search?_elements=name%2Cidentifier>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat ca.uhn.fhir.jaxrs.client.GenericJaxRsClientDstu2Test.testSearchByPost(GenericJaxRsClientDstu2Test.java:1477)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "9d10508a8b5bb2d45f7acf31bc8dde5ba79aa6bec4e2309f2311a61a1b42be10"
+}

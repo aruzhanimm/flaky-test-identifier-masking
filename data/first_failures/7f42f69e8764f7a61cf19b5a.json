@@ -1,0 +1,81 @@
+{
+  "container": "biojavabiojavastructure65ad15ftestHistone",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "biojavabiojavastructure65ad15ftestHistone",
+    "project": "https://github.com/biojava/biojava",
+    "revision": "65ad15fe58dcedd258fee1c14505e424c8536efc",
+    "test": "org.biojava.nbio.structure.cluster.TestSubunitExtractor.testHistone",
+    "label": "ID",
+    "module": "biojava-structure",
+    "zip": "biojava=biojava-structure=65ad15f",
+    "config_row": 571,
+    "configured_test": "org.biojava.nbio.structure.cluster.TestSubunitExtractor#testHistone",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.cluster.TestSubunitExtractor.testHistone",
+    "variant_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.cluster.TestSubunitExtractor.testHistone::65ad15fe58dcedd258fee1c14505e424c8536efc::biojava-structure",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/biojavabiojavastructure65ad15ftestHistone/result/Flaky/.nondex/hgOk13Hg9hQhnXcubpYQo5BExQszfmJkXwyziCMWY4=/TEST-org.biojava.nbio.structure.cluster.TestSubunitExtractor.xml",
+        "size": 12006,
+        "compressed": 2517,
+        "crc32": "828047b5",
+        "offset": 352451010,
+        "method": 8,
+        "local_path": "data/extracted/f61b566fdf35fc56df1c09d9.xml",
+        "sha256": "c37b34451aa0140753eafb4445e728ac30d2e9555b52a878c9a3c5847669692b",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestHistone/result/Flaky/rounds-test-results.csv",
+    "size": 20369,
+    "compressed": 5035,
+    "crc32": "81839ae7",
+    "offset": 352323661,
+    "method": 8,
+    "local_path": "data/extracted/88e6487b938378b5374be41c.csv",
+    "sha256": "9961cbf71d5f3d9e9626c10e9be2de1ffcc7ea7e25531cb2ced38b18708292a4",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestHistone/result/Flaky/.nondex/hgOk13Hg9hQhnXcubpYQo5BExQszfmJkXwyziCMWY4=/TEST-org.biojava.nbio.structure.cluster.TestSubunitExtractor.xml",
+    "size": 12006,
+    "compressed": 2517,
+    "crc32": "828047b5",
+    "offset": 352451010,
+    "method": 8,
+    "local_path": "data/extracted/f61b566fdf35fc56df1c09d9.xml",
+    "sha256": "c37b34451aa0140753eafb4445e728ac30d2e9555b52a878c9a3c5847669692b",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testHistone",
+    "outcome": "error",
+    "exception_type": "java.net.UnknownHostException",
+    "message": "mmtf.rcsb.org",
+    "stack_trace": "java.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.cluster.TestSubunitExtractor.testHistone(TestSubunitExtractor.java:71)",
+    "text": "java.net.UnknownHostException\nmmtf.rcsb.org\njava.net.UnknownHostException: mmtf.rcsb.org\n\tat org.biojava.nbio.structure.cluster.TestSubunitExtractor.testHistone(TestSubunitExtractor.java:71)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "d2319bbdee366396397f6038560ba164258837f61c2b71eca48a5a46404b2ebd"
+}

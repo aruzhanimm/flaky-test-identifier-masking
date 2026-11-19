@@ -1,0 +1,81 @@
+{
+  "container": "castlejavaa5e9ef9minimalContextAsJson",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "castlejavaa5e9ef9minimalContextAsJson",
+    "project": "https://github.com/castle/castle-java",
+    "revision": "a5e9ef94b46b4ba6accf630c5d50ed53dc86183f",
+    "test": "io.castle.client.model.CastleContextTest.minimalContextAsJson",
+    "label": "ID",
+    "module": ".",
+    "zip": "castle-java=.=a5e9ef9",
+    "config_row": 41,
+    "configured_test": "io.castle.client.model.CastleContextTest#minimalContextAsJson",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/castle/castle-java::io.castle.client.model.CastleContextTest.minimalContextAsJson",
+    "variant_id": "https://github.com/castle/castle-java::io.castle.client.model.CastleContextTest.minimalContextAsJson::a5e9ef94b46b4ba6accf630c5d50ed53dc86183f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/castlejavaa5e9ef9minimalContextAsJson/result/Flaky/.nondex/8FN70j8MOXKYPiRXgo+ix5HoOp8twSKaGLIukt9opTo=/TEST-io.castle.client.model.CastleContextTest.xml",
+        "size": 13021,
+        "compressed": 2683,
+        "crc32": "437c4b84",
+        "offset": 608440579,
+        "method": 8,
+        "local_path": "data/extracted/d5e72b7adcdbd2e33ee9ff2c.xml",
+        "sha256": "31bceb21f0466df0bb233b02a7d480e40c317533e8cbf365c75c73733840056c",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/castlejavaa5e9ef9minimalContextAsJson/result/Flaky/rounds-test-results.csv",
+    "size": 17424,
+    "compressed": 4890,
+    "crc32": "39115fba",
+    "offset": 608260598,
+    "method": 8,
+    "local_path": "data/extracted/72caa29dffcd40ada23a22e2.csv",
+    "sha256": "2cb39356cf8388b6cd27c1eafda4a9c6879bc890723b502a6418dbe1620b0c33",
+    "status": "verified"
+  },
+  "reported_failure_rows": 97,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/castlejavaa5e9ef9minimalContextAsJson/result/Flaky/.nondex/8FN70j8MOXKYPiRXgo+ix5HoOp8twSKaGLIukt9opTo=/TEST-io.castle.client.model.CastleContextTest.xml",
+    "size": 13021,
+    "compressed": 2683,
+    "crc32": "437c4b84",
+    "offset": 608440579,
+    "method": 8,
+    "local_path": "data/extracted/d5e72b7adcdbd2e33ee9ff2c.xml",
+    "sha256": "31bceb21f0466df0bb233b02a7d480e40c317533e8cbf365c75c73733840056c",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "minimalContextAsJson",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<...e\":true,\"library\":{\"[name\":\"castle-java\",\"version\":\"2.1.0\",\"platform\":\"OpenJDK 64-Bit Server VM]\",\"platform_version\"...> but was:<...e\":true,\"library\":{\"[platform\":\"OpenJDK 64-Bit Server VM\",\"name\":\"castle-java\",\"version\":\"2.1.0]\",\"platform_version\"...>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<...e\":true,\"library\":{\"[name\":\"castle-java\",\"version\":\"2.1.0\",\"platform\":\"OpenJDK 64-Bit Server VM]\",\"platform_version\"...> but was:<...e\":true,\"library\":{\"[platform\":\"OpenJDK 64-Bit Server VM\",\"name\":\"castle-java\",\"version\":\"2.1.0]\",\"platform_version\"...>\n\tat io.castle.client.model.CastleContextTest.minimalContextAsJson(CastleContextTest.java:29)",
+    "text": "org.junit.ComparisonFailure\nexpected:<...e\":true,\"library\":{\"[name\":\"castle-java\",\"version\":\"2.1.0\",\"platform\":\"OpenJDK 64-Bit Server VM]\",\"platform_version\"...> but was:<...e\":true,\"library\":{\"[platform\":\"OpenJDK 64-Bit Server VM\",\"name\":\"castle-java\",\"version\":\"2.1.0]\",\"platform_version\"...>\norg.junit.ComparisonFailure: expected:<...e\":true,\"library\":{\"[name\":\"castle-java\",\"version\":\"2.1.0\",\"platform\":\"OpenJDK 64-Bit Server VM]\",\"platform_version\"...> but was:<...e\":true,\"library\":{\"[platform\":\"OpenJDK 64-Bit Server VM\",\"name\":\"castle-java\",\"version\":\"2.1.0]\",\"platform_version\"...>\n\tat io.castle.client.model.CastleContextTest.minimalContextAsJson(CastleContextTest.java:29)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "43dafa2c16e5762dd23285de0fb19f5bee84584e3a3dfb72cfb48056dcd798e5"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "scimonoscimonoclient7487ec5testCreateDefaultIndexFilter4",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "scimonoscimonoclient7487ec5testCreateDefaultIndexFilter4",
+    "project": "https://github.com/sap/scimono",
+    "revision": "7487ec5c28c12469fd57980d9f810b9d357b6d81",
+    "test": "com.sap.scimono.client.ResourcePageQueryTest.testCreateDefaultIndexFilter",
+    "label": "ID",
+    "module": "scimono-client",
+    "zip": "scimono=scimono-client=7487ec5",
+    "config_row": 714,
+    "configured_test": "com.sap.scimono.client.ResourcePageQueryTest#testCreateDefaultIndexFilter",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/sap/scimono::com.sap.scimono.client.ResourcePageQueryTest.testCreateDefaultIndexFilter",
+    "variant_id": "https://github.com/sap/scimono::com.sap.scimono.client.ResourcePageQueryTest.testCreateDefaultIndexFilter::7487ec5c28c12469fd57980d9f810b9d357b6d81::scimono-client",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/scimonoscimonoclient7487ec5testCreateDefaultIndexFilter4/result/Flaky/.nondex/bmq0QkHD89zIbMiM36zgPwhtJYOrrzV1WU9r2mFCmw=/TEST-com.sap.scimono.client.ResourcePageQueryTest.xml",
+        "size": 24133,
+        "compressed": 3646,
+        "crc32": "6b39af77",
+        "offset": 1580048351,
+        "method": 8,
+        "local_path": "data/extracted/9e96a3f190bf71183d90d990.xml",
+        "sha256": "56f0c706675a8160e5fd8974b4eb740d88a895cea0bdd14a4320a322de482bcf",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/scimonoscimonoclient7487ec5testCreateDefaultIndexFilter4/result/Flaky/rounds-test-results.csv",
+    "size": 18996,
+    "compressed": 5064,
+    "crc32": "cc6085e7",
+    "offset": 1580450900,
+    "method": 8,
+    "local_path": "data/extracted/f5b40a2c51744e64be37caa0.csv",
+    "sha256": "7dbbcf3a902d01200898cbb37ddb3b500d6b4a845e89f9de65bde9630d28f8b5",
+    "status": "verified"
+  },
+  "reported_failure_rows": 58,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/scimonoscimonoclient7487ec5testCreateDefaultIndexFilter4/result/Flaky/.nondex/bmq0QkHD89zIbMiM36zgPwhtJYOrrzV1WU9r2mFCmw=/TEST-com.sap.scimono.client.ResourcePageQueryTest.xml",
+    "size": 24133,
+    "compressed": 3646,
+    "crc32": "6b39af77",
+    "offset": 1580048351,
+    "method": 8,
+    "local_path": "data/extracted/9e96a3f190bf71183d90d990.xml",
+    "sha256": "56f0c706675a8160e5fd8974b4eb740d88a895cea0bdd14a4320a322de482bcf",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testCreateDefaultIndexFilter",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <http://localhost:7070/idds/scim/v2/Users?startIndex=1&count=100> but was: <http://localhost:7070/idds/scim/v2/Users?count=100&startIndex=1>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <http://localhost:7070/idds/scim/v2/Users?startIndex=1&count=100> but was: <http://localhost:7070/idds/scim/v2/Users?count=100&startIndex=1>\n\tat com.sap.scimono.client.ResourcePageQueryTest.testCreateDefaultIndexFilter(ResourcePageQueryTest.java:24)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <http://localhost:7070/idds/scim/v2/Users?startIndex=1&count=100> but was: <http://localhost:7070/idds/scim/v2/Users?count=100&startIndex=1>\norg.opentest4j.AssertionFailedError: expected: <http://localhost:7070/idds/scim/v2/Users?startIndex=1&count=100> but was: <http://localhost:7070/idds/scim/v2/Users?count=100&startIndex=1>\n\tat com.sap.scimono.client.ResourcePageQueryTest.testCreateDefaultIndexFilter(ResourcePageQueryTest.java:24)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "1e09c9313946c837938b25c042b1094b771ae16ceb41ff09812c0cbb526a9473"
+}

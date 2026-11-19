@@ -1,0 +1,81 @@
+{
+  "container": "ecchronoscore5d58b0etestGetPartialRepairTasks",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ecchronoscore5d58b0etestGetPartialRepairTasks",
+    "project": "https://github.com/ericsson/ecchronos",
+    "revision": "5d58b0e4c922822c9df3d893fff2246d5784b11f",
+    "test": "com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairGroup.testGetPartialRepairTasks",
+    "label": "ID",
+    "module": "core",
+    "zip": "ecchronos=core=5d58b0e",
+    "config_row": 540,
+    "configured_test": "com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairGroup#testGetPartialRepairTasks",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/ericsson/ecchronos::com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairGroup.testGetPartialRepairTasks",
+    "variant_id": "https://github.com/ericsson/ecchronos::com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairGroup.testGetPartialRepairTasks::5d58b0e4c922822c9df3d893fff2246d5784b11f::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/ecchronoscore5d58b0etestGetPartialRepairTasks/result/Flaky/.nondex/giBTlRN3+lEbvHJwR9hKIZrDNLiLfInP7ATPX73FBRE=/TEST-com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairGroup.xml",
+        "size": 27792,
+        "compressed": 4003,
+        "crc32": "727bcd86",
+        "offset": 422041824,
+        "method": 8,
+        "local_path": "data/extracted/bca278a26fb6287142fad82f.xml",
+        "sha256": "a4b636018cf295aa2817fa7c7f80624cb3d7076262a18c2eee2f1da61422ed8c",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ecchronoscore5d58b0etestGetPartialRepairTasks/result/Flaky/rounds-test-results.csv",
+    "size": 20127,
+    "compressed": 5020,
+    "crc32": "2243369a",
+    "offset": 421782492,
+    "method": 8,
+    "local_path": "data/extracted/5eba9435c6d02e71c20b93d1.csv",
+    "sha256": "f1634ea7467d052381d92ac2fe32408566164ee1c88f56bf423da1140943157b",
+    "status": "verified"
+  },
+  "reported_failure_rows": 88,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/ecchronoscore5d58b0etestGetPartialRepairTasks/result/Flaky/.nondex/giBTlRN3+lEbvHJwR9hKIZrDNLiLfInP7ATPX73FBRE=/TEST-com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairGroup.xml",
+    "size": 27792,
+    "compressed": 4003,
+    "crc32": "727bcd86",
+    "offset": 422041824,
+    "method": 8,
+    "local_path": "data/extracted/bca278a26fb6287142fad82f.xml",
+    "sha256": "a4b636018cf295aa2817fa7c7f80624cb3d7076262a18c2eee2f1da61422ed8c",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testGetPartialRepairTasks",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Actual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <(2,3]>\nwhereas expected element was:\n  <(1,2]>",
+    "stack_trace": "java.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <(2,3]>\nwhereas expected element was:\n  <(1,2]>\n\n\tat com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairGroup.testGetPartialRepairTasks(TestRepairGroup.java:258)",
+    "text": "java.lang.AssertionError\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <(2,3]>\nwhereas expected element was:\n  <(1,2]>\njava.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  <(2,3]>\nwhereas expected element was:\n  <(1,2]>\n\n\tat com.ericsson.bss.cassandra.ecchronos.core.repair.TestRepairGroup.testGetPartialRepairTasks(TestRepairGroup.java:258)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "e7e5b5ae66304dc4632be4a45d0a88349dde736d0f15e516b03c637c667cb963"
+}

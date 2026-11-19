@@ -1,0 +1,81 @@
+{
+  "container": "nifinifinarbundlesnififrameworkbundlenififrameworknififrameworkauthorizationprovidersa558156testMultipleProvidersWithConflictingUsers",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "nifinifinarbundlesnififrameworkbundlenififrameworknififrameworkauthorizationprovidersa558156testMultipleProvidersWithConflictingUsers",
+    "project": "https://github.com/apache/nifi",
+    "revision": "a5581562bf0bb86caee78181cc116b0bd6f240a4",
+    "test": "org.apache.nifi.authorization.CompositeUserGroupProviderTest.testMultipleProvidersWithConflictingUsers",
+    "label": "ID",
+    "module": "nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-framework-authorization-providers",
+    "zip": "nifi=nifi-nar-bundles+nifi-framework-bundle+nifi-framework+nifi-framework-authorization-providers=a558156",
+    "config_row": 770,
+    "configured_test": "org.apache.nifi.authorization.CompositeUserGroupProviderTest#testMultipleProvidersWithConflictingUsers",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/nifi::org.apache.nifi.authorization.CompositeUserGroupProviderTest.testMultipleProvidersWithConflictingUsers",
+    "variant_id": "https://github.com/apache/nifi::org.apache.nifi.authorization.CompositeUserGroupProviderTest.testMultipleProvidersWithConflictingUsers::a5581562bf0bb86caee78181cc116b0bd6f240a4::nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-framework-authorization-providers",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/nifinifinarbundlesnififrameworkbundlenififrameworknififrameworkauthorizationprovidersa558156testMultipleProvidersWithConflictingUsers/result/Flaky/.nondex/Qn2GVWc5LqrDkx0YirGY2W4oA35gBIIOfrOtixJl9gU=/TEST-org.apache.nifi.authorization.CompositeUserGroupProviderTest.xml",
+        "size": 17954,
+        "compressed": 2871,
+        "crc32": "0be5faf0",
+        "offset": 1193651964,
+        "method": 8,
+        "local_path": "data/extracted/b8439438bef35953b94bca45.xml",
+        "sha256": "b60990980d688eb0b0c8a62d75ff712f284aa93974982d46f1c1c370c6f4039c",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/nifinifinarbundlesnififrameworkbundlenififrameworknififrameworkauthorizationprovidersa558156testMultipleProvidersWithConflictingUsers/result/Flaky/rounds-test-results.csv",
+    "size": 28413,
+    "compressed": 5243,
+    "crc32": "4e680b2e",
+    "offset": 1194234212,
+    "method": 8,
+    "local_path": "data/extracted/5b0a20984502ed7254e3feb4.csv",
+    "sha256": "6de765c49661d370ab1f3e54073c0a4d7de66459a808e46149438b598978759e",
+    "status": "verified"
+  },
+  "reported_failure_rows": 54,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/nifinifinarbundlesnififrameworkbundlenififrameworknififrameworkauthorizationprovidersa558156testMultipleProvidersWithConflictingUsers/result/Flaky/.nondex/Qn2GVWc5LqrDkx0YirGY2W4oA35gBIIOfrOtixJl9gU=/TEST-org.apache.nifi.authorization.CompositeUserGroupProviderTest.xml",
+    "size": 17954,
+    "compressed": 2871,
+    "crc32": "0be5faf0",
+    "offset": 1193651964,
+    "method": 8,
+    "local_path": "data/extracted/b8439438bef35953b94bca45.xml",
+    "sha256": "b60990980d688eb0b0c8a62d75ff712f284aa93974982d46f1c1c370c6f4039c",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testMultipleProvidersWithConflictingUsers",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError: expected:<1> but was:<2>\n\tat org.apache.nifi.authorization.CompositeUserGroupProviderTest.testMultipleProvidersWithConflictingUsers(CompositeUserGroupProviderTest.java:135)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError: expected:<1> but was:<2>\n\tat org.apache.nifi.authorization.CompositeUserGroupProviderTest.testMultipleProvidersWithConflictingUsers(CompositeUserGroupProviderTest.java:135)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "5c1228c317a5ce158828aa8928d508c3724a9fc1b2e2eeeedfe8f6edc17f60ba"
+}

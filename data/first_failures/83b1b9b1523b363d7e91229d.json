@@ -1,0 +1,81 @@
+{
+  "container": "oktahookssdkjavahooks9187787linkUserTest",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "oktahookssdkjavahooks9187787linkUserTest",
+    "project": "https://github.com/okta/okta-hooks-sdk-java",
+    "revision": "918778779c7f07ddd61bf86e1a22ace1ee279649",
+    "test": "com.okta.hooks.sdk.ImportHooksTest.linkUserTest",
+    "label": "ID",
+    "module": "hooks",
+    "zip": "okta-hooks-sdk-java=hooks=9187787",
+    "config_row": 736,
+    "configured_test": "com.okta.hooks.sdk.ImportHooksTest#linkUserTest",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.ImportHooksTest.linkUserTest",
+    "variant_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.ImportHooksTest.linkUserTest::918778779c7f07ddd61bf86e1a22ace1ee279649::hooks",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/oktahookssdkjavahooks9187787linkUserTest/result/Flaky/.nondex/oAQqr28qZWyJMTzsqb9vEeAIoMb7VLCtwYBNnWYeJs=/TEST-com.okta.hooks.sdk.ImportHooksTest.xml",
+        "size": 11418,
+        "compressed": 2424,
+        "crc32": "75939b83",
+        "offset": 1360087345,
+        "method": 8,
+        "local_path": "data/extracted/16a1a322cd1838f0e760c960.xml",
+        "sha256": "da05954b48a9602af3e3f2680fe23d954816e7503c59894c4714e7a8f6ada7e0",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/oktahookssdkjavahooks9187787linkUserTest/result/Flaky/rounds-test-results.csv",
+    "size": 17126,
+    "compressed": 5127,
+    "crc32": "bdbc86ce",
+    "offset": 1356923422,
+    "method": 8,
+    "local_path": "data/extracted/7e732c4c6e21565584ab4fe6.csv",
+    "sha256": "2338aeb2e316a6a1c63891026e945e2fc281541f06cd019194d497a316bc1cca",
+    "status": "verified"
+  },
+  "reported_failure_rows": 52,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/oktahookssdkjavahooks9187787linkUserTest/result/Flaky/.nondex/oAQqr28qZWyJMTzsqb9vEeAIoMb7VLCtwYBNnWYeJs=/TEST-com.okta.hooks.sdk.ImportHooksTest.xml",
+    "size": 11418,
+    "compressed": 2424,
+    "crc32": "75939b83",
+    "offset": 1360087345,
+    "method": 8,
+    "local_path": "data/extracted/16a1a322cd1838f0e760c960.xml",
+    "sha256": "da05954b48a9602af3e3f2680fe23d954816e7503c59894c4714e7a8f6ada7e0",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "linkUserTest",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"result\\\":\\\"LINK_USER\\\"}},{\\\"type\\\":\\\"com.okta.user.update\\\",\\\"value\\\":{\\\"id\\\":\\\"00garwpuyxHaWOkdV0g4\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"result\\\":\\\"LINK_USER\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"},{\\\"value\\\":{\\\"id\\\":\\\"00garwpuyxHaWOkdV0g4\\\"},\\\"type\\\":\\\"com.okta.user.update\\\"}]}\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"result\\\":\\\"LINK_USER\\\"}},{\\\"type\\\":\\\"com.okta.user.update\\\",\\\"value\\\":{\\\"id\\\":\\\"00garwpuyxHaWOkdV0g4\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"result\\\":\\\"LINK_USER\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"},{\\\"value\\\":{\\\"id\\\":\\\"00garwpuyxHaWOkdV0g4\\\"},\\\"type\\\":\\\"com.okta.user.update\\\"}]}\"\n\tat com.okta.hooks.sdk.ImportHooksTest.linkUserTest(ImportHooksTest.groovy:93)",
+    "text": "java.lang.AssertionError\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"result\\\":\\\"LINK_USER\\\"}},{\\\"type\\\":\\\"com.okta.user.update\\\",\\\"value\\\":{\\\"id\\\":\\\"00garwpuyxHaWOkdV0g4\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"result\\\":\\\"LINK_USER\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"},{\\\"value\\\":{\\\"id\\\":\\\"00garwpuyxHaWOkdV0g4\\\"},\\\"type\\\":\\\"com.okta.user.update\\\"}]}\"\njava.lang.AssertionError: \n\nExpected: is \"{\\\"commands\\\":[{\\\"type\\\":\\\"com.okta.action.update\\\",\\\"value\\\":{\\\"result\\\":\\\"LINK_USER\\\"}},{\\\"type\\\":\\\"com.okta.user.update\\\",\\\"value\\\":{\\\"id\\\":\\\"00garwpuyxHaWOkdV0g4\\\"}}]}\"\n     but: was \"{\\\"commands\\\":[{\\\"value\\\":{\\\"result\\\":\\\"LINK_USER\\\"},\\\"type\\\":\\\"com.okta.action.update\\\"},{\\\"value\\\":{\\\"id\\\":\\\"00garwpuyxHaWOkdV0g4\\\"},\\\"type\\\":\\\"com.okta.user.update\\\"}]}\"\n\tat com.okta.hooks.sdk.ImportHooksTest.linkUserTest(ImportHooksTest.groovy:93)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "9a2c353a230f77c02e71fbee2c3e058d6c734a72fbab78e3de0c317ad0eee9c5"
+}

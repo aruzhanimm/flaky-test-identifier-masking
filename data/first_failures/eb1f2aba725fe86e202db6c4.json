@@ -1,0 +1,37 @@
+{
+  "container": "RATIS-1621",
+  "metadata": {
+    "source": "JIRA",
+    "container": "RATIS-1621",
+    "project": "https://github.com/apache/ratis",
+    "revision": "85ca5680c1548a9b0cefb0cc48859b296131a187",
+    "test": "org.apache.ratis.server.metrics.TestLeaderElectionMetrics.testOnLeaderElectionCompletion",
+    "label": "UNCLASSIFIED",
+    "module": "ratis-server",
+    "zip": "RATIS-1621",
+    "config_row": 1113,
+    "configured_test": "org.apache.ratis.server.metrics.TestLeaderElectionMetrics#testOnLeaderElectionCompletion",
+    "configured_type": "unclassified",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/ratis::org.apache.ratis.server.metrics.TestLeaderElectionMetrics.testOnLeaderElectionCompletion",
+    "variant_id": "https://github.com/apache/ratis::org.apache.ratis.server.metrics.TestLeaderElectionMetrics.testOnLeaderElectionCompletion::85ca5680c1548a9b0cefb0cc48859b296131a187::ratis-server",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "unclassified",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/RATIS-1621/result/Flaky/rounds-test-results.csv",
+    "size": 20982,
+    "compressed": 599,
+    "crc32": "c4555be4",
+    "offset": 172412248,
+    "method": 8,
+    "local_path": "data/extracted/3e4d6aa259cd4a7f47640fab.csv",
+    "sha256": "38e7c96e76583d7e26bfe26878f8f2e42d32f75882c7d0403a8937145298039e",
+    "status": "verified"
+  },
+  "reported_failure_rows": 33
+}

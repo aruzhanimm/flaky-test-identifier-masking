@@ -1,0 +1,8130 @@
+[
+  {
+    "fold": 0,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "aba4dcff9ddc3bc4f848ce99d925e3d7dbd8978f6889387302c71e81e696d810",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0853237999999692
+  },
+  {
+    "fold": 0,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "47e939b98d4f16d8d7fd5938c2d46f63e8c4d275e5975719d9d345c1b2acabc7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.0988723000000391
+  },
+  {
+    "fold": 0,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "dc237f7cd5f66863f7c1e7c8d3270527553c98527b5d367a401d1ab9fd1b5c68",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.07271709999986342
+  },
+  {
+    "fold": 0,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "6aa0852c0bafb5eb084fda5604ca636778a2c5255f98264fffcd6a54d430183c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.07975400000009358
+  },
+  {
+    "fold": 1,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "96424c5b968c687fe117b826163d5762dc7919d97877239fb8d2ac34bcdf5b4c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.12897689999999784
+  },
+  {
+    "fold": 1,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "06e972c5d9e22663298455ecc31764eae83dace66874527b883b89f09e2f8c7f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.12818160000006174
+  },
+  {
+    "fold": 1,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "e11c542603122286dec3da001da21828c784616ae0cac0c1ca19c257e36e9a6c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07268559999988611
+  },
+  {
+    "fold": 1,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "b575253df07401cb5d7cf29cb0a48c2260756b4a9482d671f9a368d83b453a93",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06983740000009675
+  },
+  {
+    "fold": 2,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "0173492afd907bc3432d2b803efd06c45c3c061986f06fc046c3e98017267e62",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.12106700000003912
+  },
+  {
+    "fold": 2,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "7cda4f34026e4ef1b0a5ca8f140cb604441648ef69eec5e61e90b041a323abe2",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11663550000002942
+  },
+  {
+    "fold": 2,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "35ac4e4dfc20962630368c014b43b4108c1a321c3403cfaae0ba1fd507a03de8",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06285330000014255
+  },
+  {
+    "fold": 2,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "8bd6186fff993e335ab4bf0e436f52c29c02dd54ed489eef99bd084e9f75b199",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06852759999992486
+  },
+  {
+    "fold": 3,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "8aa8667e8a2419b222d2210d782e360dbb8f9449f772bb2cd697ca4d2f09559d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.12494360000005145
+  },
+  {
+    "fold": 3,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "ba2acb8442dfdf52d921773c381919d25da012953e03e88be5ebe01fc4401dc8",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.12223070000004554
+  },
+  {
+    "fold": 3,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "459699006c7d0c5d9f6b9a9655ccc38c745ebe0f3dd1b4e5a05e37620ccae097",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.10307600000010098
+  },
+  {
+    "fold": 3,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "4db8563f4e2eb5d30d26d40a010adecdc25d1ddbfd835bb153bae14fac8d8534",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11725830000000315
+  },
+  {
+    "fold": 4,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "8b5e4295f7439159cc055d126c2610d75664d1127aab3ffcf37b54e9d6c1e687",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.14204109999991488
+  },
+  {
+    "fold": 4,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "8743806f79f0d9319d9b6c0afe3d52f74cb7de11e0ef97e13b744713930b2f19",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.13431069999978718
+  },
+  {
+    "fold": 4,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "b58085120e7a7407dd9db02bf9a0bff5ccc4eeb5d05c9f550f72249962ad760c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0720989000001282
+  },
+  {
+    "fold": 4,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "85dca915b518ff86e671a734fca98dbca94740e34022ba78ee99b021202d17f7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08153179999999338
+  },
+  {
+    "fold": 5,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "1225307c4b98e01e7f08a94f4de703fe2382606db0e27eb1e3c30ec848e0ade7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.12299490000009428
+  },
+  {
+    "fold": 5,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "1d81fbb9cbf58c1da761b5745d45a0873d42b98e525ae3880d9baf670a25d183",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.09902439999996204
+  },
+  {
+    "fold": 5,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "1f4fa81fa7e4732f821916feb335e854a93bf75208155d39054da7fe333e217a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07496910000008938
+  },
+  {
+    "fold": 5,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "92cbe526249d71e338678db6b08878f03d29d37c231e28a39bfadd30bb31274c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06869309999979123
+  },
+  {
+    "fold": 6,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "152e74f239965520f7d710304289e9e27577e467cbf810813c059f4ff393eec4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.13562809999984893
+  },
+  {
+    "fold": 6,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "70c5cb47ee61c5a5e4ce30862ac34c988bc468ebdb8bb43be9515a391fef8c23",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.1254476000001432
+  },
+  {
+    "fold": 6,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "43574661c864dbd05366b89fd601fefff42477e4497665c0016dc36c8c75a572",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08215150000000904
+  },
+  {
+    "fold": 6,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "1f7f1c241b57adaf0ea5be138e80459a2134856bacc5d0cceaebc2dee4128ab9",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07973070000002735
+  },
+  {
+    "fold": 7,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "c00fa243a8413ba8207c74a3c3682eeb2b8f9c7828f6e15f7e6c83a3dbb4c523",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.12314889999993284
+  },
+  {
+    "fold": 7,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "b3130f6f73a3581dd63c2303b6319d11d00be931478e07a9f5e67b2724e32542",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.12156770000001416
+  },
+  {
+    "fold": 7,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "5c62dfcb525deba607364c975f72245aaec87b614631554e30deb7d38099b212",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08558519999996861
+  },
+  {
+    "fold": 7,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "b9d3313a174716a8d88424d55fc8a63e8fced859162e44c59e130a5a5e54145d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08461699999998018
+  },
+  {
+    "fold": 8,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "cbd24e11ba9f850b5f2e4ce63a10cf57044aafa0ecb48a455c69c337e27f6edf",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.1610693000000083
+  },
+  {
+    "fold": 8,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "7bb41c55b438824c8f91be4060fb3703853ecfa556e698023936d764831ff25e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.14219520000006014
+  },
+  {
+    "fold": 8,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "1daa21da73d6226c8d8df8d37b1c35bb23d3c89cc38ebb385d54a69af1ea862c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08899599999995189
+  },
+  {
+    "fold": 8,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "889f84e84b822fcd19064ab70186bcc5a719c1ae0e13b06db341204d8311676e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08331390000012107
+  },
+  {
+    "fold": 9,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "b8ccd0dcf2687904521588bdf960294af7ffe4ac43fbc6c1c9934ad6ce149d18",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.11344799999983479
+  },
+  {
+    "fold": 9,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "6a5299f6bc950b5213c349ad7a07ae6785c8369a9460365a173249880378986e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.10598319999985506
+  },
+  {
+    "fold": 9,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "010f15089ced875a0ab1d28c54a95c1e4602b05020c759c4fa1aae36e98106a0",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      16
+    ],
+    "seconds": 0.05045039999981782
+  },
+  {
+    "fold": 9,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "c2b69927d20f84a51c8db1cc05935cbdcfee86beff71e4aaedce35df28bd13c8",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.051026299999875846
+  },
+  {
+    "fold": 10,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9a08011df58e6125d9179bdb857b6cccc383e381a035e5fb433e98009aee6322",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10627079999994749
+  },
+  {
+    "fold": 10,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "3863c75d06768b07a260276b141b5f22d7626b53dc44f213817397f9951a9755",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11970789999986664
+  },
+  {
+    "fold": 10,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "24dc16bfa1847bee517d9c86fb46892afeccb56c6cb500474562f6e435b3c436",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06386350000002494
+  },
+  {
+    "fold": 10,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "110c941a9fee6efd64f498329bca70465ee2dd1445eb8472176614d29b9dcf13",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0657826000001478
+  },
+  {
+    "fold": 11,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "6db4343b39d8a87237cfd9465b06c09901c082c2946cc9fc532e542f00935676",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.12495229999990443
+  },
+  {
+    "fold": 11,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "236108055ab9f453264dce6e7def35c642a4d2024d893edc69f9b42272b7cbcf",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11977569999999105
+  },
+  {
+    "fold": 11,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "0f8424c318b3219038f5471c659a5d5f8b6c1dd7389f0c8ed61801fc67efe86f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06462859999987813
+  },
+  {
+    "fold": 11,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "94220755693219a2fb944ac38ede16829eda9c72ea910f96f3717785224cfc6e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07262259999993148
+  },
+  {
+    "fold": 12,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "198afa461662a5b6357c6ab19c65494e2c7deaf59e5939d89c18fb938f09b7c9",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.11029159999998228
+  },
+  {
+    "fold": 12,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "7ea27404c34417aab021eab8455ab534476ebf72962dd0f4c36f1fac3060bb08",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11393509999993512
+  },
+  {
+    "fold": 12,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "b4d1ecbc8e461caab5ad87b8294a1ac7b7274016382904d0d5bf5e40c4f0877d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06876830000010159
+  },
+  {
+    "fold": 12,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "eee97d65df860b66db7134a99895a57bb4ed60d245117a8f7e7b50206e2f5731",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06640780000020641
+  },
+  {
+    "fold": 13,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "7caef8541b2e723582315269eb2e3945667f1d0219e14e4a8d8ed84ce9cf2d8e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.12462200000004486
+  },
+  {
+    "fold": 13,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "ead2f6c9cf543b3d3ca00760307ef0537e1414a23b548628d6223976df765f6b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10184630000003381
+  },
+  {
+    "fold": 13,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "55ac393d82df8b95513a45b5e07efb11b8f919bdd0860023aca49d13e3029c78",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06072590000007949
+  },
+  {
+    "fold": 13,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "1769d8bb387def62ccbe93719275346e0819b8f21656aa61eed9f71bceaa239e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06174920000012207
+  },
+  {
+    "fold": 14,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "e87ed220d794db113a6d8d7c31c0ae0c7d90b797c413cd531ab828128fda1fbf",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.11409149999985857
+  },
+  {
+    "fold": 14,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "de408b2572862b6d79da2f329b58981f30989964f9daca0b53c04eeca3ccd24f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10581559999991441
+  },
+  {
+    "fold": 14,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "c77260e4ccc2e231e8184a14c95cba646300f3fd75c1042d703a358e5bffd98e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06920280000008461
+  },
+  {
+    "fold": 14,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "9945554daeec23f083cf8d50f24248dba771f48fc7ae5df8797baf494cb20ae7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07281880000005003
+  },
+  {
+    "fold": 15,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9140a45d7cf887c33fb6ec949415669a26d3dfac1bd48334e2029e8492cdbab7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.10541639999996733
+  },
+  {
+    "fold": 15,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "504f5499c152f5b3dc2b1c569b0802cdf48551f0fdcc4015c51e95a8a355a89e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.10739080000007561
+  },
+  {
+    "fold": 15,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "22e4f30ce9f9381e730e8ac21b31c9a61646d27dbbf704e9f3a860480afbd241",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      16
+    ],
+    "seconds": 0.05627700000013647
+  },
+  {
+    "fold": 15,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "63315098a6b47bf6d75c2b1420e017691d056e2cf8c785699bf194cf84e57ead",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06122330000016518
+  },
+  {
+    "fold": 16,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "0a9ddae128ceed774bad741237d8d1e2add0c9441e0f28df6042f22ab1ca114b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.08903179999992972
+  },
+  {
+    "fold": 16,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "0bb6653af14bd6b4f0818d4bf2ec60c0304c164eef1ae1a37d6fee59fb230aca",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.12539769999989403
+  },
+  {
+    "fold": 16,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "fbb70958f5ffc6d8ae8cee0bce2c9be534117b9548085ea9765b20a84e1ec117",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06455469999991692
+  },
+  {
+    "fold": 16,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "1ccbf7afccef2cbba8ade7dcbad389107da888cf87b4d16ec7c1774b397303f4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06775869999978568
+  },
+  {
+    "fold": 17,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "40891128f7edfc432c3cae3d73ce6a4994bf6f2ea4c37712683ca51c06ad6ffb",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.12372900000013942
+  },
+  {
+    "fold": 17,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "3a5156f8f563953d67f73baaaf94fc3bdd3f16becab7caf8a3f64b4949d534d4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11866630000008627
+  },
+  {
+    "fold": 17,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "c2b0cfa91df627df80468b53cdf2fbfb53ff359e1cd8e28f02b06d070f7f3e86",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06161730000007992
+  },
+  {
+    "fold": 17,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "d091c2959656ad6cb35fd52a1d8f7fc7cda0f477befcc38b489bd423f25af54a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05762430000004315
+  },
+  {
+    "fold": 18,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "19e8f161a55406efd0a591a084679cead95fbdcaeef7c593e30255ad7c3e66ed",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.11148469999989175
+  },
+  {
+    "fold": 18,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "76cd7c69f740234e29776fd94fd18cec3ddce66e7517a834d97b3675f96fea13",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08244949999993878
+  },
+  {
+    "fold": 18,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9a5ba301bc65494024bc5a7c4da8bfd84d9ec758df7e51cc3a94d44994b5a644",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06200279999984559
+  },
+  {
+    "fold": 18,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "b4dfb875bb558c5c492aa1825c695d6df4c2586e628beb447ec987ff1d3f5d5e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06361149999997906
+  },
+  {
+    "fold": 19,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "0ff87369d3d61e9a1c333272a1c5b9535e7f8a3081628fa937a37a1b7407e2a9",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.09486379999998462
+  },
+  {
+    "fold": 19,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "d8ec8d166f27294c54779d95904dc23e4691f1bc29cd0ce6a2412e6f3617c548",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.12591789999987668
+  },
+  {
+    "fold": 19,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "ba05f5bda0a9a35294012fb8ff27df18a5598b53dd14aa82d374871d81694e8a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05953660000000127
+  },
+  {
+    "fold": 19,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "cdabbf82dade907e7a95a7102cd31d612508b53a5aa9f8d937ef914e30b894f9",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05957799999987401
+  },
+  {
+    "fold": 20,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "90c21e85700e5fedd0f111a249e4090cd476ef38b7a6e3a5970ca9c6ce5ff7ae",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.08687239999994745
+  },
+  {
+    "fold": 20,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "9270beda2df5335439d2efce49a726eeddf5c4ff3c8a3790f221757ffcfd6047",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.12246150000009948
+  },
+  {
+    "fold": 20,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "ae3344c3f6df2aa4aeeb9808dfcdc50a5e447f885537c8b666ca50c165cdf623",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06954780000000937
+  },
+  {
+    "fold": 20,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "45aacf2dc9d14b61b6ad6e1f50045a030fce82b4f46b886112dd43f964d446f8",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06986129999995683
+  },
+  {
+    "fold": 21,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "54b45fe21a8f0d01ee9b4773297bdc80bc9127c02746b914d03e5045fdec6188",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.10919220000005225
+  },
+  {
+    "fold": 21,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "36724eba8322d472482323b26d05305504c79b567a989d33d823080b8da2eacd",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11987079999994421
+  },
+  {
+    "fold": 21,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "1508b75c3a968264c091a99184972344d1f8c8c461294e0fe25cc7bfc582a50c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06147929999997359
+  },
+  {
+    "fold": 21,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "830dbe8635a1b1c4f902b59d14bf325cd3d6bba965ce9c7561a1ce36d068b5af",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06742639999993116
+  },
+  {
+    "fold": 22,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "ae344145909eca0ce38602fbe561e5093ad57c57191f29f412e91aa6a060e75d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.09872359999985747
+  },
+  {
+    "fold": 22,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "32f80ceb444be30d9fb865002015fca20366c838381512c0c0c20fc7ce2e6dd7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11316580000016074
+  },
+  {
+    "fold": 22,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "906d49bd5b8459fd06ee66c04e9c62080c8ce2f3b27e1624f912ca7226c17b95",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06455619999996998
+  },
+  {
+    "fold": 22,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "ae2e2cbcc57f85257983a513da00be0a83943b746d22d45ecfc8dc3b195604e5",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06011029999990569
+  },
+  {
+    "fold": 23,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "c4fe5bbf9d6c4db3cd37283af38039ebe296d186d13257346f826dbd5c9628c2",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.12415879999980461
+  },
+  {
+    "fold": 23,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "72414c39686ec628a9ab95a729f20da73ea00d4803eb9a4807b43f3b6870b773",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10209880000002158
+  },
+  {
+    "fold": 23,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "19fbeea721b8397d7ee7697ee2494a18d39a36162936f51195fc7a6d4c5973b7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07863130000009733
+  },
+  {
+    "fold": 23,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "8c429a69593389e03a658158fbfbe693d2faddf938d75b97bc18a54c99e6eea7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08445269999992888
+  },
+  {
+    "fold": 24,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "fa20690eb0e49f6ca6896afbcf93c85d5ee0487cf0386638f1ff3c7255839d82",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.1347994000000199
+  },
+  {
+    "fold": 24,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "a98a2000dd3c2f4e94c56c9ab389addbcbf1265b132401c592613dfe77ebf0a6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11557319999997162
+  },
+  {
+    "fold": 24,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "409d9ad9cf9d84ceae8de0ba5e5791d25ba839c069e6f97536712fd500a21240",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07199799999989409
+  },
+  {
+    "fold": 24,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "e682c63092667e286bf04f05ca030e1038dc6de3acceab27407fba6017208194",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.075606199999811
+  },
+  {
+    "fold": 25,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "332a9000cddc5310f946c6cc9fcb39a17c556ed0a792a90d2a02aa5ee07308b7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.14349029999993945
+  },
+  {
+    "fold": 25,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "a316554c5c9e2dedbc127f5d3b972765342779d01867f8129fd14c2cad172ac6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.15209260000005997
+  },
+  {
+    "fold": 25,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9d4173024f011a2671283474e08592f9751990926fc23f0a849b7b955e3d0314",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      19
+    ],
+    "seconds": 0.07997900000009395
+  },
+  {
+    "fold": 25,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "238dba25164247b4ab6dfea7eef67c2bbe09a12b3d1a668fb1ae5796b910410e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07144349999998667
+  },
+  {
+    "fold": 26,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "61a236169065b3a2ccaef1a64197366a11663a819c92c091c2f161a91212b2bf",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.09420700000009674
+  },
+  {
+    "fold": 26,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "e60a050a859759a1ca7687e9caf5553cd474271c2ef7961fef8af2dd0777dbab",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.13740759999996044
+  },
+  {
+    "fold": 26,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "408869e00ce5bfadcd0db287c2bb5fbcda12343c328d2cec78013b133bb37403",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.12176380000005338
+  },
+  {
+    "fold": 26,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "bcba3de8cc108d583dba307de457014dc2ea2ec483ef951f871b0debaa0e15cf",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08266269999990072
+  },
+  {
+    "fold": 27,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "7dc34b36bf076c42252d7ea768152d0765c5e3506f3cc3d378cfa26ec988d58d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.09139439999989918
+  },
+  {
+    "fold": 27,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "b94a07d7be5e804fa9ef5f395c8a4099d261f02e487eb1c82af2b481fd58a9c6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.12005219999991823
+  },
+  {
+    "fold": 27,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "fd207cb206af46c7feb84e4740068593677eae8adc5f24494731901d33dd5020",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07125920000021324
+  },
+  {
+    "fold": 27,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "c26e430d6bd14c82b9e5b0ae383c2d50e511dcdc39fd26c8088a7ddbb25a1e14",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.061800200000107
+  },
+  {
+    "fold": 28,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "01956d44b516f4f59857363449405d092b3eb941da081ff68b26d3d18fff21bd",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.13510069999983898
+  },
+  {
+    "fold": 28,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "6508c2d18083a3da8abd883637356299de3bb202ff4683f36de7eeb25d0b1016",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10777140000004692
+  },
+  {
+    "fold": 28,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "d4da9cc3bd07803bf47fd0bcce239e138c14fdf73de1e2fefc75e29447c4606b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06513689999997041
+  },
+  {
+    "fold": 28,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "43becbe26a1bafd9406c995a4664aa9036844345175b7883acd7ca3ffd8f7978",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06838669999979174
+  },
+  {
+    "fold": 29,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "610a10c5beea41c11266febc9c853c94996162f19bfbe0d80949b071657f0896",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.09256329999993795
+  },
+  {
+    "fold": 29,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "df0e97fb48d1d0bf983e15a26001a90d8f17cd86a0cd32a0a952dfbc28c7f1aa",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10899389999985942
+  },
+  {
+    "fold": 29,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "4ca6436be45cacb5f22424ff08d9fbce90eb5cf4d54c0bf2f4a7a573ac272aa6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08763069999986328
+  },
+  {
+    "fold": 29,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "3fd43527e11c47fc92fb86f8995cd38b63aa9ffc513d71cf747b2736ce2ea923",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08449019999989105
+  },
+  {
+    "fold": 30,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "0174bced4d8506a4539128f60afd6915b3d2281067514147615d910d5589663b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.11078480000014679
+  },
+  {
+    "fold": 30,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "fd0782c6d5c8a90046bcb245b03636f6079695c8ec12f74bf2658545f2fc44fc",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.1100400999998783
+  },
+  {
+    "fold": 30,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "db9c639e9952594eace7fc63ae65f461a4e2afcc434b0e961507544363593e38",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      19
+    ],
+    "seconds": 0.08586420000006001
+  },
+  {
+    "fold": 30,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "20a8186b27f8c4b5772561ccf0c478c280c19089fc0606e13d95ed08e243ed0a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06910329999982423
+  },
+  {
+    "fold": 31,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "c5f0fbb915da6acb936c3011eafe21f89353b60c5192e89e7afaece34da624b8",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.13435490000006212
+  },
+  {
+    "fold": 31,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "18bc59b9fea515445df1c439cb26a6085e6e451cdc619cc928817afce920cb35",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.1337101999999959
+  },
+  {
+    "fold": 31,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "6cceb00ca79420c20271b90607d715ee44bf11b09b19d67bfce89ccadb57c557",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07785650000005262
+  },
+  {
+    "fold": 31,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "47e2b47e8290a65bd37e52c3da007fad8a4a6ad47f2e0d4d8f2e452ac8fb024f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07150909999995747
+  },
+  {
+    "fold": 32,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "90616381f1f658965797dff2500aca32b9b6b79c54f696ca15923fb9863d8b36",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.10524370000007366
+  },
+  {
+    "fold": 32,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "473e2a96c342765a749b7bc76b51addf519c769a3491120311666a49de74c7ad",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.13589630000001307
+  },
+  {
+    "fold": 32,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "6f6a47a137c92847e7d65799d717338d48b1bffbc2f4b3c660ddc40b0666f822",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07030289999988781
+  },
+  {
+    "fold": 32,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "56ace62a8982d85020005a0792e4e9641b6f5e0421381087ae78e17511a70ff7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0696920999998838
+  },
+  {
+    "fold": 33,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "337f2a5e98f30ea21b32f2171a5a22c86d97604a557f74a69414bd9116a33036",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.1173974000000726
+  },
+  {
+    "fold": 33,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "36ab7fd46df245c1eff843c20e4788e206fcacdb1cf304e7beabfee7be179057",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.1119691999999759
+  },
+  {
+    "fold": 33,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "53b389f527048b98121671b137c6689e8086805a372cd757d666883c3686d285",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07148060000008627
+  },
+  {
+    "fold": 33,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "76887526c83ad1f2a3f210a65408d765b9f056b78bd9a7e32a0c80c1769566f5",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08526160000019445
+  },
+  {
+    "fold": 34,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "0865ab8cc1fc4c06165b22bf09b87d256b83b3705ff46398e932aa6bddc5239c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.10499749999985397
+  },
+  {
+    "fold": 34,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "37316dd4bfe758b0d2a3fe57803641ec7a59655e6c4b72314cc529653b0faf54",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.1221130000001267
+  },
+  {
+    "fold": 34,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "bee4018eb06b261843b699bfd69346c4239e35886ed8f277238d863575e7e1e7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.07870699999989483
+  },
+  {
+    "fold": 34,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "e19162cf116f3930c9c77fddde00bb424dcf89b3986ced830b24f0be708a301e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.0806356999999025
+  },
+  {
+    "fold": 35,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "4c6f0415e4a01927b55e1e295da08b839c11a64453c9b96cac6279fc9dfde3f8",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.12196999999991931
+  },
+  {
+    "fold": 35,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "d40a17b749fe3b3db4d14fa02a2196762b93b6e5d367e347582d96908fcc3e24",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.13157000000001062
+  },
+  {
+    "fold": 35,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "0cba62a321591ea2201b9d162d709be85d435e74d6220e59fc0772e2148f27bc",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07471099999997932
+  },
+  {
+    "fold": 35,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "a430f10c0d14863a410257300d72718ec5ab9504650f368ff89c2277781767c3",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07210680000002867
+  },
+  {
+    "fold": 36,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "cd2ab18d9ab36750af78ab2ae170d18b2d7b1090f214e12551f01441bddca153",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.13353589999996984
+  },
+  {
+    "fold": 36,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "1ed499d22625806577d0a27aa9262eafdcac925ae2d902503ab196d3318a0d90",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11392810000006648
+  },
+  {
+    "fold": 36,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "e8cbcd31ca76950be8d10010c63dd58630157ebfa2a4936841696a3fc4df4157",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06298190000006798
+  },
+  {
+    "fold": 36,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "9ff67afbc64ff03be095b7fcd766282749d551acec15023f1fd774f47e9d0472",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07350669999982529
+  },
+  {
+    "fold": 37,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "1597208ad88a00fe78ffeb4811472a9419e6fc72a635de20faf2a0a00ffb8583",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.12793939999983195
+  },
+  {
+    "fold": 37,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "cf1d9f3680112085f0174037c537474f2b194de708af4ffeb993d9f83b8c18d8",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.12373700000011922
+  },
+  {
+    "fold": 37,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "344624974e0ac5e55b1d8331fa01bce3e76d0fb7f259201f144c9fc9ccb30318",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08576349999998456
+  },
+  {
+    "fold": 37,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "020c44c08a847fee60a24c097e31220dfe9db1ae92b1bd45fd64a88716cf9126",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.10598240000012993
+  },
+  {
+    "fold": 38,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "aa4ab94f43e0b34f2225d1b58c84aa95e4088ac6307bfba72407c4e2f9ab052a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.1344910999998774
+  },
+  {
+    "fold": 38,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "ff6c2ce399d1667000d7f32ac576f7aaabd490533458f0d16b78e1e455e8f6bf",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.12737480000009782
+  },
+  {
+    "fold": 38,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "411b602295d77b9714eb3fc560454c54f7abdf7451601ef9809cac6eb93ece5b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08844169999997575
+  },
+  {
+    "fold": 38,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "065c5d080a143f383bd323545fb4d110aa44000519b38c3b7bccd6664ed1a91a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08160439999983282
+  },
+  {
+    "fold": 39,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "1e50850c52c7f82a3605e3b79f6f59635ea4ebe04800e54443833597b9960649",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.1483893000001899
+  },
+  {
+    "fold": 39,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "fa7f32151cbf376bc12e5c465ef9e45b0a3fc1b7f1b935be0ae0ae776c84db0d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.14314090000016222
+  },
+  {
+    "fold": 39,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9f698b0a5c51bb56be465b2c797390e841fe18494be252c4a4e77ffa3f97df3a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07506259999991016
+  },
+  {
+    "fold": 39,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "b578a64192d20f351ff5fa407974c29c9905c07696ecae27b12ac59aa3843774",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07357759999990776
+  },
+  {
+    "fold": 40,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "cde578c98b88a8c2908cd14879e324d1a2dbfd4ac78596ea112cbce6bce2283d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.11284030000001621
+  },
+  {
+    "fold": 40,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "db8b5adb58e2fbd36b1580a36cb490be0b1c256a6baf639252e03a1130f7c7d4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.11385380000001533
+  },
+  {
+    "fold": 40,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "6ac00ef1470572c7b669d6d322aaed630d1b63c370d9fc798a616303d907c811",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.07664230000000316
+  },
+  {
+    "fold": 40,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "a9171aac2441f5361686d12cb3f44220e33809e6b8f4a835e0b7d1dac7315fba",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0652001000000837
+  },
+  {
+    "fold": 41,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "510c5b5b586bf6dd8448f92c2c9d3ca77e0f4eb8e8acf0b5e581edc87adaa4d1",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.09419769999999517
+  },
+  {
+    "fold": 41,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "cb46fa3de332f1152171c8a037fe4192bd8cabf6515500fb33288fc6332cdfa8",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.1278100000001814
+  },
+  {
+    "fold": 41,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "093fbbe8b30dbf2b4433609876f4a4564f603449e77f7c6cb5d56cfbe88449c4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06265540000003966
+  },
+  {
+    "fold": 41,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "ee072bdceac0231bd14a291ed08e1d540d1377964493c89d9b50afda657497f1",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06339860000002773
+  },
+  {
+    "fold": 42,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "d8dc9ea315b15ec76a9274e5d3b2beba9848ef6a7841c14bbb65ce37741fbf1a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.09850869999991119
+  },
+  {
+    "fold": 42,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "938004c5c8489c8efe66cedb1eb5e5c5af918f359bc248488b39701f1db08a0c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.11999659999992218
+  },
+  {
+    "fold": 42,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "62e76c5c3b32d88e8a1d47b1fb34c220758e8552d76a32634415f06357c6f9c6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.09232270000006793
+  },
+  {
+    "fold": 42,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "12ec83a73561e9cd0dbdf3cf0423f28d0de32b5ae6477b5e92e6a4eab64818e7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.09806550000007519
+  },
+  {
+    "fold": 43,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "988ebd7888aa7a88b67abbeb900017b9bc1631fa1d2677b6a9790e66cafe6a5e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.11550899999997455
+  },
+  {
+    "fold": 43,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "e8b7cc9e945f37b4a9379db241f40660f1e472b3debdb82e7c653e221ab1024c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.09819210000000567
+  },
+  {
+    "fold": 43,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "de2776d66c964e0ad705d6d5b00d2ba93372af3af5e0e0705ea7cc78bc344766",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.0906091000001652
+  },
+  {
+    "fold": 43,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "b1a67b713dd0710d4e98047e7858e4a3cb60b96e22d584463b363666c6f4d10a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0654520999999022
+  },
+  {
+    "fold": 44,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "bdf661567502bf166da9ba80b29a481cf5761f8504af53c5e9a5aecf3b022f67",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.11752759999990303
+  },
+  {
+    "fold": 44,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "7f7091033d667fea5ef02abd305901a458ff92f398a2021b0798e1ba3fe27c53",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11170519999996031
+  },
+  {
+    "fold": 44,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "61a3c362db8df642ace27a7fce6541750d5051c5981477ce3646d144af8b0082",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06566450000013901
+  },
+  {
+    "fold": 44,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "72438fb154d732945f3984f3ac15e3133daae55c9e9235711799381b527a4b78",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06584760000009737
+  },
+  {
+    "fold": 45,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "c549b33df1dfde991f29bc8a8682116310f74e03b66eae46c01c31848a6ea879",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.08876120000013543
+  },
+  {
+    "fold": 45,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "1143cfe263860befd7eb390f616b88911bfaded206d4c7616878fa0da1ab66d1",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.11834690000000592
+  },
+  {
+    "fold": 45,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9f21375018163a9e7ea1979979932dd5d61c4bb169de50f3b66eafb265677202",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07386879999990015
+  },
+  {
+    "fold": 45,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "26fd412322b0a71ef08503d505c82154811edb599b8c1f284449aa77f0e20fcd",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.089620400000058
+  },
+  {
+    "fold": 46,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "2c77b53eaf0088290a3d871c0e6f85bef9aa0dffc2df8c63f843b6f2a9cc7d84",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.106414900000118
+  },
+  {
+    "fold": 46,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "7e3cadfbc05c1928b91143cca07fb62ba7bdf05daa7281f34d9ef11c5653a4ab",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.11956210000016654
+  },
+  {
+    "fold": 46,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "a86e44a81c499ddb8ed3edfd015c02dbb3cefc38f4191263fcbb4471fca29d20",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07587689999991198
+  },
+  {
+    "fold": 46,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "e8db8d6aad4b64f141c9d54daa1afb24a6376d3532e450b8a6929eaeefce1595",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06818950000001678
+  },
+  {
+    "fold": 47,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "7c31e03b749bf9c9abce67cf7a95ed2b2b73ab9ea12d616f8549291c6611d30f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.12131729999987328
+  },
+  {
+    "fold": 47,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "a1ea2a347abeb0c5e895375f64367268f070096fd31cb61c89497cb7de9fb655",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.1258685999998761
+  },
+  {
+    "fold": 47,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9c904f0863d110b8db4f172962b445822e2db1d9247586d1b507d2d145537ba4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      19
+    ],
+    "seconds": 0.08550479999985328
+  },
+  {
+    "fold": 47,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "8b2d96ec239dbc2661598844eb609b552abe68eaef8898e238c3db2360ef29b8",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0796199000001252
+  },
+  {
+    "fold": 48,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "52a5f9b0964ffc362d5d4d038a979253702549ed13d097f23a55725e67b6c39d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.10518619999993462
+  },
+  {
+    "fold": 48,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "b657aec010e0e8ccf43e37d31bd3094b7b352f29165348e602c7bc9c805e3a4e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.1442643999998836
+  },
+  {
+    "fold": 48,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "7c34c21034130edea84b1edf0765a6b2b9f5e90d48f2c118159f91a7c61fd9aa",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.11769430000003922
+  },
+  {
+    "fold": 48,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "d50c0ccca17194f15482734dace515321b25dab9197d1940238687ad419cc44c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.10505729999999858
+  },
+  {
+    "fold": 49,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "2a99dbaaf05defdf85806fdb561387335473524370e31ea7e9e7edbe9e2786dc",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.12374539999996159
+  },
+  {
+    "fold": 49,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "c3c7072da8fc6435e6ff208d1865b2ce2eb6a69c842046d3c25fa20db7420eb6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11496740000006866
+  },
+  {
+    "fold": 49,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9ab7bd667a2de39ebc1c511a8ad6cd8c6c89ec04b62d2abe6e0b5bed5bdfc84c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06287910000014563
+  },
+  {
+    "fold": 49,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "18c15b7129baaa44882d125c4b6d130c3ee109538cbd3a79b82a0c4045f64433",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06199420000007194
+  },
+  {
+    "fold": 50,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "defb365f590ca42f15c416d390d321057faaa28f35e0657fcf1b13ff14f5adac",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.12840990000017882
+  },
+  {
+    "fold": 50,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "4433d92349cd52428788544acfb61e467be1b3bb601b300936dd20f8227e366d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11286619999987124
+  },
+  {
+    "fold": 50,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9c3ccf7ee7a001f5512dc1f1c6402ee44ec50fc4823fbeb770f71935da8b7fc7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06268599999998514
+  },
+  {
+    "fold": 50,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "765e4d734a12aef685ec2f09751bb2fd502efcb0676dec058cbeab6c8eee6113",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06511040000009416
+  },
+  {
+    "fold": 51,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "d80547878a9af7ede5fcb1d9cf183702e96cb6aedbb767b7871b54dd92c077ac",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.11736039999982495
+  },
+  {
+    "fold": 51,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "554110443fbf7857e1203bcfb8253583933e394c7f3baf396023523833527bc6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10321560000011232
+  },
+  {
+    "fold": 51,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "8a23122532267106af7be7c39f1bbe63111d59af18799be83e44065aead0b5f7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07652570000004744
+  },
+  {
+    "fold": 51,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "e10356e72c66c6de7e67d908994b35186af66f85ac10c135a38db0a7b71c46f2",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07596800000010262
+  },
+  {
+    "fold": 52,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "3780868c77ac751ae421397a47a4f1f5c53d78ccdba89ea773346180628b0b5f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.11489630000005491
+  },
+  {
+    "fold": 52,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "23eaaa19936d5cc704dbab009cacbdfcfe9e05b62c0a9074ee9032428a941e9c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11228009999990718
+  },
+  {
+    "fold": 52,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "bf246fe39eac5f87b8af906a6490c883c17cf0044ac153963679d4ce39eff97e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08372750000012275
+  },
+  {
+    "fold": 52,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "a2794c6d2d23f038e1649cfcdadf7ae9eb625dd8e7ab13e7d3e50c0fa3192674",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07685769999989134
+  },
+  {
+    "fold": 53,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "2e45207435069bb3d5ad7dcff4b93bd654784e82c10b4180cc76af6900c1e25b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.10200050000003102
+  },
+  {
+    "fold": 53,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "bc2dc9b414b09e982b35c61e583e9874b9c3b85a2cfb5c93e22465f96f274a64",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      19
+    ],
+    "seconds": 0.10686090000012882
+  },
+  {
+    "fold": 53,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "c1c2b7a53b65f8e5fb68bfabe70d79caaa98397e7520b0445219d1823d37d388",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.07968639999990046
+  },
+  {
+    "fold": 53,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "19f032af9859abee535896d247d65524fa674d7f3dda2e95ec7ded5551ee58fc",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      25
+    ],
+    "seconds": 0.0999739999999747
+  },
+  {
+    "fold": 54,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "7ad3ea7d5f5b6b2cf8c6fc1f9eebba094b9aedd566de898f9ca96dcb97108b19",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.10254630000008547
+  },
+  {
+    "fold": 54,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "ab18819541e6e1e4dd4108a5a629fc6c4d5ee53ffd99a5f3ff5a89266313f4c8",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.09094170000003032
+  },
+  {
+    "fold": 54,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "4f0248ad0d6406babdf593221d4e2234c8811c7c6a8f3271ac39106e5e9ceae6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.06312609999986307
+  },
+  {
+    "fold": 54,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "1b32e5e035c593acd9b8200a78f58b9a3bf62f6b8da2814fca431f92396f1760",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.09963360000006105
+  },
+  {
+    "fold": 55,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "b23da7e98f2168a0c941c68379b655993e8ad347fd3e521fdf26f0edd4ab9d01",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10051180000004933
+  },
+  {
+    "fold": 55,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "2d05bbfea757785aed283c13aeada64b9acc3544c2e661844fef467eda69a74f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10401680000018132
+  },
+  {
+    "fold": 55,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "0ac9388c0d3cee6640296a6f2a3914376ab0093c220331f7a53bdd1d8136a004",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07276290000004337
+  },
+  {
+    "fold": 55,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "cc14268f0008d9d082e4348c5db156ccf4b2113fc0bc35880c9500c75a1803fc",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06933249999997315
+  },
+  {
+    "fold": 56,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "b479975e4c1d2d97b95d6de363c913214e6fcb3576e2d34aacc95a265d0b4eb0",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.12172749999990629
+  },
+  {
+    "fold": 56,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "5ab1dced1bc30db69d151ca5eca62357aa47cdfc20f77d6758c77ae830fd772c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.11330259999999726
+  },
+  {
+    "fold": 56,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "d3c67ae1b54cd498676e17c97bd42eb3207d0a0d9fdf2171a1da3a82b39b0c0a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0704865999998674
+  },
+  {
+    "fold": 56,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "4b4eb8a22080c627caefd8324882fa6213bffb0bfdf71b898fcd4e1b814bebb6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.08569069999998646
+  },
+  {
+    "fold": 57,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "1d80a80cce76763de81af22e1a1443ee7a16eb74b2dd0a8e0fda4d76e9b64cb6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.11352009999995971
+  },
+  {
+    "fold": 57,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "d8325bf545b6b4329699bf693f41a54c03ebd1e2df27088053f2565c6a9da9e5",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10552399999983209
+  },
+  {
+    "fold": 57,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "5453f18b4aefaa6a46d09270c90b551ef1bcd5e3bc4286bb35a8ec6cb08f93ac",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06213209999987157
+  },
+  {
+    "fold": 57,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "64f4459cc5e388376af96aae2898f26d8647df0b9b7a90fe4bb0e598195ed262",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05856689999995979
+  },
+  {
+    "fold": 58,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "5333226a69fca26b0c3df41351d1668e78a821a9d9f22189c9719fd28d407d2f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.09657240000001366
+  },
+  {
+    "fold": 58,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "cc55cebe26f0b90954dd68c2fd2610b3865de4c4f391437c35c0542b55d877b4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10839489999989382
+  },
+  {
+    "fold": 58,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "793029f9dd06b07a57768669b9e124d3ce9229e81009e54653775cd6e4dcc913",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.055944899999985864
+  },
+  {
+    "fold": 58,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "0574c485f6f425754a4cafff56e441dd7def2023d1f5ac7a01587eadef0ca001",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05530329999987771
+  },
+  {
+    "fold": 59,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "4d927c4b263be189a53662876beec3e90caf54508d8c8dd88d08bbf53a043760",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10194789999991372
+  },
+  {
+    "fold": 59,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "c7687a0346eb0b20de15072de4a2fdae14268a652687b190f3afe6bf22971722",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.10879850000014812
+  },
+  {
+    "fold": 59,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "b31014a21ef663422daa8d686172b8eba2f08c31b2ee710418a0831b6b4bc6bb",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.06919730000004165
+  },
+  {
+    "fold": 59,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "f68ef2e7e24a260596cdb0b3e36523025f8bc380b0ca445f88bc5c48eb1f6dcd",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05659020000007331
+  },
+  {
+    "fold": 60,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "bc657405e0f3dfea277b3ec6121744f456df794143bb6cbc3fcace11e8dcd2ab",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.09797539999999572
+  },
+  {
+    "fold": 60,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "3ee0778e260a5417c448a131e4c2645ad7cb2ad78ef2c2866d8d0e23046cb71a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08184619999997267
+  },
+  {
+    "fold": 60,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "dab43efe7d740da63ba1b74b5dfee96c06b853cffdbac17f3622cf484fbbba3d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      15
+    ],
+    "seconds": 0.04658509999990201
+  },
+  {
+    "fold": 60,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "895c3decd4a49d3770c9dd45d131dd1a5ac2451d2752f705628afc7deac7977d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.07267239999987396
+  },
+  {
+    "fold": 61,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9b6dcb0e08defe15c948b0d317e1e5db997e5a7c1580e00ddf106bfe4e6b8e07",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.12211469999988367
+  },
+  {
+    "fold": 61,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "f7c59bfbd5c2c5f73bac684cf65d5882492970d06cd6f4ba1b927cfd1304f8ac",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10603349999996681
+  },
+  {
+    "fold": 61,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "e2dc29c10a2e165fcc1c9c8e26a0daf502e91611f82de70e20ef852983f5bd4a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      16
+    ],
+    "seconds": 0.061379600000009304
+  },
+  {
+    "fold": 61,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "6f658cadf4998e5303842bfd01aa7ca28c2a51f049d1f0c060a7f98f118f3895",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06342180000001463
+  },
+  {
+    "fold": 62,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "c310d85dc6e1acc75df1a2d815585fc12d9566aeb3c8f0fe657bce8cddaf97a7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.1253378999999768
+  },
+  {
+    "fold": 62,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "a10a71dd1e8cec1490b0962444a59267bfe9adda369761069e683ccee75fb3ea",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.13884180000013657
+  },
+  {
+    "fold": 62,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "d2418b735c4d6d0b81fd015bf50b177403f2e9ff2b3bf43ec71d202d51246740",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06351059999997233
+  },
+  {
+    "fold": 62,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "bf4ff2ebb449c897a774c2deff911231fefdf7255dc53af92e4f98c1488e5355",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0668487999998888
+  },
+  {
+    "fold": 63,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "e862d90b16cb75245eedb41cb12d7e0ca1b9e71c10895e7ae2000b50ae21e8b2",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.1337665000000925
+  },
+  {
+    "fold": 63,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "13ab664195232b18b008717896b197fd20c7af4643ee7d9a0da115c68c6efb46",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10432470000000649
+  },
+  {
+    "fold": 63,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "b768d9e7d3523bb9ca05305e3ef9e56007c6b701570c7e201ab271711308268b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0544675000001007
+  },
+  {
+    "fold": 63,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "60b28e9b63f7ae30d21f89aab2806ddbc6536de5a9142ec45ac4d3b510ac5801",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05696310000007543
+  },
+  {
+    "fold": 64,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "8d19c27ab28631cfb90e81b499692385a47208c35679c44bfdfb75c93a2f21e9",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.09483000000000175
+  },
+  {
+    "fold": 64,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "c4a3372fde22bd51e0ff6bee6e997afe7a60039f71e0b1afdd00cc17e3536ac9",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.11132410000004711
+  },
+  {
+    "fold": 64,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "f751f44453233b0b38e88025b1281f5ee7451ea5187dc68d0eb3bca0a806e5a9",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06686570000010761
+  },
+  {
+    "fold": 64,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "ef5d8dc86cd1e80ec0d81f7d1745d6ac7afbdd9854b4893c44c198f2fb0010af",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06558640000002924
+  },
+  {
+    "fold": 65,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "816264c07b6120d76d33cc945b07e70448709e3e6daaf1507672db8dbecbea3c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.11221279999995204
+  },
+  {
+    "fold": 65,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "bb195070adb58c8e4c69e5613d55459ad67df889fce70a77c0281f7e238c8b05",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.10401349999983722
+  },
+  {
+    "fold": 65,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "4c3c19490e323826cdadfb0225f964efe7dd1492527ac7a2bfb6374224bcc9ac",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05871400000000904
+  },
+  {
+    "fold": 65,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "d84dd62a1109df81de4e24642b8287bd646670c105c35602ad4cdb00e6f5e7ba",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06104290000007495
+  },
+  {
+    "fold": 66,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "094615a5eead3fc8e2f1873acb8f81a469670c99c6e4f8000cde40e34ea27383",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.11378119999994851
+  },
+  {
+    "fold": 66,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "92e070df615aa5c6702ad4ab61c77e10edcded54c99f1695592b3343ff67ab97",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11769409999988056
+  },
+  {
+    "fold": 66,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "e92f9f791384d16077977b6217da77bcf7b6979bc789adbc8e8f99ffa5b4a9d0",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06534829999986869
+  },
+  {
+    "fold": 66,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "cd0c93876432b9020acf69600b155d00e6a153aab6b84862f86383b868ddbf0f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06606439999995928
+  },
+  {
+    "fold": 67,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "f9d5bfcf4e7abace79d8d16fa30f9676216513e3dc03cf4f878ef81e506d61a3",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.13067409999985102
+  },
+  {
+    "fold": 67,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "61fb278617251725a0243660d18de58a62bc974e83a92f8be4740ba0886c783a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.12960769999995136
+  },
+  {
+    "fold": 67,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "2f41c828e87076df7de36f15536950687fc0bd756924319ed275cf36b554cf0a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07359330000008413
+  },
+  {
+    "fold": 67,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "6880e3358ba3dc9e5b8189f08d1719608a8c9e4de7b73d344d5080486b0f3790",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.10094120000007933
+  },
+  {
+    "fold": 68,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "97e9c67edc16d1532bcf237157268fa68dd356870f3617b977cf8149333f5b9a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.12487779999992199
+  },
+  {
+    "fold": 68,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "050706b6432f03041f46773d61c726583b0a1844ddcf2cc5765c451589d87472",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.1165081999999984
+  },
+  {
+    "fold": 68,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "c71999ed2714ddd73a250a965e802e9e6e51230596e2972e6bc07cf70407b35c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06255319999991116
+  },
+  {
+    "fold": 68,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "bb56cf88842dd67d0903ed62414f7eb860fe981ab1cd5ee527184d36b8b912ef",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06285920000004808
+  },
+  {
+    "fold": 69,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "8cb637c85bc33c589dbbc95d15e971e3ceeacb027aa5d53565eec6a17bf15065",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.09509810000008656
+  },
+  {
+    "fold": 69,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "f1b0dfcde7b1a56ff5d7fb8fd04d9a3818adb53cc4a840ddf7472ac84f2e5f6a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10658820000003288
+  },
+  {
+    "fold": 69,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "c9e6a8555f09d7479666d33e105b7437380c5c51864a1eb29a82047733057dc7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06014820000018517
+  },
+  {
+    "fold": 69,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "844b5729e70182cd49b1bd85ee5c3be110e73563e3455efda57a3c0646895b20",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06137040000021443
+  },
+  {
+    "fold": 70,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "7f11db36ccad746a931d0ac85aa3ee37e2daef3c3d3ef9fa54f94045f93a0bbd",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.12249140000017178
+  },
+  {
+    "fold": 70,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "b3888d3996e9ec1bc0d919751bfef95fc9257b3f66725deefefb95ca036995e4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.15634210000007442
+  },
+  {
+    "fold": 70,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "b24e91122b29cb52c47a36079c34be783fd619764d726d77044526e567bdee6a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07188019999989592
+  },
+  {
+    "fold": 70,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "83d46feaf1c583cf2e68e5ae397fed8b6d9ee860a18e1fae356d98dcdb10aa6a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07037500000001273
+  },
+  {
+    "fold": 71,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "8f88962faf2614589fec11d5da46af97713a537fd02f7ce2f160d68a2bcfc0d8",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.12421569999992244
+  },
+  {
+    "fold": 71,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "0ab082688660e5bcff993ec9c282cf75d9e809855d72a86c4ad88e13cc3d5cb2",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.13668189999998503
+  },
+  {
+    "fold": 71,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "6de7839f99d167171eaa5551ef6f4b54856e588611ed05437a9d5171c88abed5",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06239400000004025
+  },
+  {
+    "fold": 71,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "a7896796656a8b493cd5fad00428dc553d15809314e3186c5e4c1e889f99059d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06835039999987202
+  },
+  {
+    "fold": 72,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "d9c329f6f3cab7ebd194f9bbda545b6ec1f51b937f157a067e65c5272960d328",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.1109632000000147
+  },
+  {
+    "fold": 72,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "37bfa871d5d2c5ec7ecca61ca42469c508f771b53f01fd507cbe0039827c1882",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.09786559999997735
+  },
+  {
+    "fold": 72,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "c5480b9780d5af00a2e7859f2acf52895c84f3be26493349a1ef830dc2228c21",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06138749999990978
+  },
+  {
+    "fold": 72,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "c720c397a352728c87786df54cc66e7ecacfcdbef01ae78ef8c231f263ce86b5",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0605511999999635
+  },
+  {
+    "fold": 73,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "da76a9ef559ab362216a92353bd65c1be23fbebfb1d405e6c52b66c5091203db",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11216140000010455
+  },
+  {
+    "fold": 73,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "ac76b487a6218e85f12d9de7eb6284ab859de1dc9de019b5e79a46252e512aa7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.1058528999999453
+  },
+  {
+    "fold": 73,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "61d95a407da8c5d5ee0d279a213e5b0d46a43ffce0a2c4b4f1405ed1b66af7a0",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07354310000005171
+  },
+  {
+    "fold": 73,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "d9d0b4d7488ed839c7156f95bb26a3ab042f1fa8d87a8fb2dd3c87cd0fcbd32b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07379530000002887
+  },
+  {
+    "fold": 74,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "debc8d98396ec2d99462aa75e8d55fee59ee0f828354368b7f9f5a7381dc0336",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11356999999998152
+  },
+  {
+    "fold": 74,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "51a74781a4c65ebdbfe3feff75d031c32976a0ce362395abc3cfda369ee80eb1",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11814639999988685
+  },
+  {
+    "fold": 74,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "bdf5f0780735795e91c0de9b06b930b87b30c9e5e5bcde0918fea312ce7b999b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.08272509999983413
+  },
+  {
+    "fold": 74,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "9869b6805f63a112a4fd126f534c10abcfadd443d34ab5169e1a51f13d71f68e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      25
+    ],
+    "seconds": 0.09926360000008572
+  },
+  {
+    "fold": 75,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "746788d57eccb6f6247dbb1ca8a2639558a280bbe683fb198d61c60d1175b7e2",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.09721669999998994
+  },
+  {
+    "fold": 75,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "fb11604af9ebb47c1644be2afe6202e86a442c83ecfa4af736ad49df94dd1466",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.11905569999998988
+  },
+  {
+    "fold": 75,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "87bc8de2e0847d63eeb1574e52aa8b7ef115b26ec572396c423684931fb1ae8d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06382050000001982
+  },
+  {
+    "fold": 75,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "97cfc032f4977d03586417c932dae79905155531939e87b360beea621ee5765e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08951130000014018
+  },
+  {
+    "fold": 76,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "fbe51c6e2d91ec52fea67e30d6dd9380c50e875d6ed9997d10480293e6a82501",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11018230000013318
+  },
+  {
+    "fold": 76,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "8cb0164c399b16d85a05a608e8a471142266146cf5d94b6bebc2d70f73f5557c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11847060000013698
+  },
+  {
+    "fold": 76,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "d2f2ff133712838375f32a7cee09e7dc4b839cadab283d65cc743e9cead2e6c5",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06107959999985724
+  },
+  {
+    "fold": 76,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "abe2d57e43c399d9a74ffc7d62d024329099076a4fc617365ef4c0582e25024b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06160509999995156
+  },
+  {
+    "fold": 77,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "ef204bdce1e29690bb3032c29e35cfcb1483058b92aeafcf7f17d49c1ebf2b8e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.13579970000000685
+  },
+  {
+    "fold": 77,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "599784a269ece864536e99694608086b42b90a247f5fd9d3676792618c675d0c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11404100000004291
+  },
+  {
+    "fold": 77,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "682b2187c7e9eebb141f3e25d70b4e294ba88c3d8d59c8fdab35a9f45c92fb81",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05830530000002909
+  },
+  {
+    "fold": 77,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "ded46f3e9b35918d155b234016b621b7f6ee916f889d09a16dfebb1988a86b71",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06116620000011608
+  },
+  {
+    "fold": 78,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9ff932de4a749afce74e415ecaa6a4e427ac5391892fdd0a3b7d1dc46475d9b6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.11323719999995774
+  },
+  {
+    "fold": 78,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "f37a910fc476310664bd4577d8b4c8f95d0dc04d010230c68f579de944e99420",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      19
+    ],
+    "seconds": 0.09589170000003833
+  },
+  {
+    "fold": 78,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "6347cc568b6ff39b9786aaa32c32551ca0a22e106af1b920d85194a079169171",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      19
+    ],
+    "seconds": 0.07975630000009915
+  },
+  {
+    "fold": 78,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "69bf998331d4dd36032c140136845e2b069476ffe4e1ee0383b00f89552640d4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07222600000000057
+  },
+  {
+    "fold": 79,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9cb1dcac414fe30311bba719627222c7815e01230bac4a056ffd43cc9a8ebe9b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.15552529999990838
+  },
+  {
+    "fold": 79,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "5093b15fcb325af2daa4b02ee6cb86be650c5655bd2427edca64be9614a50020",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.1333326000001307
+  },
+  {
+    "fold": 79,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "f9eff40dd9c7a052a29bc38fd74d4e69ac7b653549b4aee8c8d9d85e92518be6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05704690000015944
+  },
+  {
+    "fold": 79,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "562ec36be1e7fcf45f4bfe8db356566ba5ff9b7a5ea1f758b2bb8422a4f8786a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07011919999990823
+  },
+  {
+    "fold": 80,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "51268cca6c869a9852c6a057c110eaff4086df7deab21aa499777def6d6030ae",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.09413889999996172
+  },
+  {
+    "fold": 80,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "9b3a3b3a4b093d82b3f6f9351c60e774cbcee7436cdea906aa83c19d6e19cd06",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.09958080000001246
+  },
+  {
+    "fold": 80,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "74bba7e9e2e9337b52199ed1e969fb6e5cde23c5755dedaea4e0bcad6b583d89",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05978999999979351
+  },
+  {
+    "fold": 80,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "e9efb4782a1bae2e5e2223bf94c3850fa4c06f89d91b41f2287bb8d508033ab6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.060610300000007555
+  },
+  {
+    "fold": 81,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "911ab710ab888f252a30975f4389c66c212b37cb573d4cd4b88afad53ce2c10c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.09770670000011705
+  },
+  {
+    "fold": 81,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "f270c93f1a2b3bbf44204ec779a93657d2ec47f72e8bce80f61767de4be91c03",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.10134640000001127
+  },
+  {
+    "fold": 81,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9a27768f8f5e040549969cba49011c52eaf029ceefd80ac182eb47fe6930b5ed",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.08225089999996271
+  },
+  {
+    "fold": 81,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "7b6ea8afeb72c62eeb1cd083e46e6b967a7349c1bf2dc6a6d409a4a8d7a33d37",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06978200000003199
+  },
+  {
+    "fold": 82,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "f6d85b76cebdbc802fc105ed8612958a12c2a97926f7f79c3722a2ebf70e3918",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10464359999991757
+  },
+  {
+    "fold": 82,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "14f4cdab7d79b3030dbe7eabeaf3ad9c8d94001202c147ba157ca76da31a0d67",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10073970000007648
+  },
+  {
+    "fold": 82,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "4bc3bdd1bfb3f67b452c6cdfb495c42de8cb3cd6d2942218e0cabc914f9d41ea",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.062469199999895864
+  },
+  {
+    "fold": 82,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "4604ffb667db72297c9f73981f7ab1dec19482ade03b1b5ddec752aa599a8b7a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05848009999999704
+  },
+  {
+    "fold": 83,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "db080a37e3f7973f24589e90881ff51e45fdb2e63bc69c0585c6010a15c2360e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.1020784999998341
+  },
+  {
+    "fold": 83,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "f4ea84e3f39ffb951eb5010300348b5bf760cfe1a7d4fb8c371c5b6f9c2b3031",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10916189999989001
+  },
+  {
+    "fold": 83,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "7d0555cdcca35eeb782b1bf513c43032442c8c43096c3fe503091a439bd411e2",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06983609999997498
+  },
+  {
+    "fold": 83,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "03a853775481d7e058222ae069c6aa1b84ad1d9166d5109a88cb590172035fe5",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07600849999994352
+  },
+  {
+    "fold": 84,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "3b5598f8c5b304d32bdb8d68acd9f1be153997f09d54008af9a31ba4dbd2f9b5",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.12149189999990995
+  },
+  {
+    "fold": 84,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "d69610aee5d2c9b96f717e57111d915881e3cc4eb53dc70711bfbdd23b11b52f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10990259999994123
+  },
+  {
+    "fold": 84,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "d9501e04005ab24a1aac2fc1cd5f8b0b8a594dabe2892d546d29cc13a87def13",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0750906999999188
+  },
+  {
+    "fold": 84,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "6d136c03d519d67655fe424ea80f2055ec249fb89c56d9837aec768e7872487a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07499459999985447
+  },
+  {
+    "fold": 85,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "47d3a57069ff4d640dd21b529e5bfc605b6231b28346e4ef39e474cf12bdcc8b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10573950000002696
+  },
+  {
+    "fold": 85,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "6c2255e8066c0984b06a87081272dbb5b4a013d99d18c71893546ce00b1149b8",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10607819999995627
+  },
+  {
+    "fold": 85,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "c6bfc6e49e4e2268047200db2b02b19b74d054877ce0fdab1f934ae8e825f76f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07080320000000029
+  },
+  {
+    "fold": 85,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "6243e21f8ad15f093d694bba516b2c643c3d9d9d145903795af877f06899e899",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06885489999990568
+  },
+  {
+    "fold": 86,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "fbe2484edc164b9131359b91c31b34949dcde433b2127639e09b1295bf743778",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.11638030000017352
+  },
+  {
+    "fold": 86,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "19f900a231f5fb3f1db4ac7b5fd2b22592565f8f9c728b286b6b92621d3ff302",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10039610000012544
+  },
+  {
+    "fold": 86,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "749e2a17c1291e65ce5081a3aee52f1199a666e3626ab600fd3197e11c306056",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06336510000005546
+  },
+  {
+    "fold": 86,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "e8b03ee70ffe6b7f009b6d0ac2120bb80c7033be2173b9aafff54ebff8f4d75b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06051390000015999
+  },
+  {
+    "fold": 87,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "ff6154cdba8cfed20f1ef2502f0c279d7ca1087c1005e8df13985cf40176711a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.0957419999999729
+  },
+  {
+    "fold": 87,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "2ab05b3b50ca23089b929bc57634220b60975a31dc8410f8b98f121cafe472b2",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10277190000010705
+  },
+  {
+    "fold": 87,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "83a90135c924f884807f357917a6f9514a4f55fe44b4ef666933f50eeae94c19",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      16
+    ],
+    "seconds": 0.05437720000008994
+  },
+  {
+    "fold": 87,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "fdefdef9141fa5c766db6fcf430409ea166017371068421831bf9f8ec1af865d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.07738709999989624
+  },
+  {
+    "fold": 88,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "01836ca7757daa4f35057b028b79098528396bf37c6acefa04f5bebfb758ea94",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.09381579999990208
+  },
+  {
+    "fold": 88,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "7bda862a0d19870f3cc3789e1a470704b675576a397eda1f8711733cb3a17e96",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10311999999998989
+  },
+  {
+    "fold": 88,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "192df219719ae124312ae32fa86be755bc46659c008a3811fa4c64b113d3990a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06506139999987681
+  },
+  {
+    "fold": 88,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "e82d39dd57b57b0f43e4bb424e1847dfd7a609e3e0f28b4d973964da21e2726c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0630181999999877
+  },
+  {
+    "fold": 89,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "aff3d68e21e5ed2094f919faac8643a4c0f2a6b6f71e508bf2b20b3a039be1c6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.11595089999991615
+  },
+  {
+    "fold": 89,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "af37666d82b28b927d6a2b5735bd1ab4ddad4e859c14375aba7dc7244fab2000",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10248379999984536
+  },
+  {
+    "fold": 89,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "677b720cf0bd6f4972054360ee6fe260456c6440d562b785f28cd7d79ceddcc3",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06066400000008798
+  },
+  {
+    "fold": 89,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "7bd1e4e00e470dadfd7e9bd6bdc6fd42b207af504729c1d97ad56d0e75de63b3",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06105119999983799
+  },
+  {
+    "fold": 90,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "a9d9818040f17fae8329ca280782b8bd14d7ff9b9b4e6d694cc275c1dba9679c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.10857069999997293
+  },
+  {
+    "fold": 90,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "56433d5cbeae5bb3949f6fd3566e4bf00eb82b36a5fe29929bff73401f0aa647",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      19
+    ],
+    "seconds": 0.08924369999999726
+  },
+  {
+    "fold": 90,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "7ae6ea88e13b111fc400bf4e2a149dff07af3998fd88dc0541bb78ec8ca3f37c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.07876109999983782
+  },
+  {
+    "fold": 90,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "040c5ca780a80ba7716403fc195a57f0216d5489607e84abaa777b6d0b263ff7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.087143499999911
+  },
+  {
+    "fold": 91,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "c4bab7d35a4bc4e21062d4985bc946fabdd0cbe867b7a8a7deb99280316f29e4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.09456060000002253
+  },
+  {
+    "fold": 91,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "9fdd84d4a888ebfa9baa7db94f263eeed625f8eed4146e0d17dbe7f0bb31f627",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.08845039999982873
+  },
+  {
+    "fold": 91,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "e86f5d06cb7e7458edea0b580eca40bd6de72ce74cb279cd8ebb0a3176ad2142",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05884979999996176
+  },
+  {
+    "fold": 91,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "0002c0135af0954fd1391324c2f6b0e1bd0e3640e752dc061110d02254e6b12a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06050789999994777
+  },
+  {
+    "fold": 92,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "92b8f74e5ceb16f246e0db1798989cc4a815f91fde533bd88e66ff8bfeed3ff7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.106259399999999
+  },
+  {
+    "fold": 92,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "9f0516ba2677f2f3b44ce5465fe7ceab7b14b0eea40ba5d74e3b46c78c1160b3",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.11769589999994423
+  },
+  {
+    "fold": 92,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "ee74f1a4a0a4feb47c56a973cff66fd6c0c303ddbb2fbf6dd232f57605a37d5f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      19
+    ],
+    "seconds": 0.07218439999996917
+  },
+  {
+    "fold": 92,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "21a8930545b8cf3bc39bafae54a59daa4c3750b8cb99ad055ac0535286d67a37",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.060694699999885415
+  },
+  {
+    "fold": 93,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "159455a8f37561bd5693d725120e6eb238a47573661c33ac4030f8cdb208371f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      16
+    ],
+    "seconds": 0.07422299999984716
+  },
+  {
+    "fold": 93,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "30029c8ec4ad6fe00af64b27b84936a130e33dff3ad3c3acadcafbd51da7a495",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.11230030000001534
+  },
+  {
+    "fold": 93,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "d84c77de61f2c429ce61bcd4a7a2d631e1c08c6a44f7933acbd96ed6cdf5dfbc",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06886080000003858
+  },
+  {
+    "fold": 93,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "38f71a209dc2be7211af28b7f63f989ae4d33775a23a974910c6146127696e2d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07009220000009009
+  },
+  {
+    "fold": 94,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9b3d35e927e12650f3b27eedba5098ae1441ba08599666021ad01047eb63cb0f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.13727300000005016
+  },
+  {
+    "fold": 94,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "701fea45a09fffd925897c5687e0df258bc6407a9b083bc486da1496d31a6d7d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.1243474000000333
+  },
+  {
+    "fold": 94,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "6d1f053c7f463afbf60b1770bea4bbfa2d43e32a8898bf53a7551594ee3c7ec5",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08699849999993603
+  },
+  {
+    "fold": 94,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "aa61a996346451a34b83a539b74d035f1bb02ceb264213f6c8ba93cd67d4ca74",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.10665900000003603
+  },
+  {
+    "fold": 95,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9e589bb5b922752cf20fe80d49126f2b16815994e4af3b6929053f56933a3be6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10468390000005456
+  },
+  {
+    "fold": 95,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "0deda5c7a5edbe33e348fb53aaab8efebf67b63b68e5ae025670a4e98f677d6d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.09786020000001372
+  },
+  {
+    "fold": 95,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "bc71a339a903abe83cc0b53d744d01dc06e20f7325b2cc86ec398caadf63a9ae",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06094260000008944
+  },
+  {
+    "fold": 95,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "930bc984791d5eb5fc95ad030c54a89857046f85402a4237b0d26750e90946cf",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06236050000006799
+  },
+  {
+    "fold": 96,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "5c68bd1ab6ab8cb8bb72306e0b2cb584d2e79f9dc03547aa42257c2bdb7d29aa",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.11571719999983543
+  },
+  {
+    "fold": 96,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "debaf3573235312b4d11b26097d0f49943de8a635b4ff330933a1f85e3691b08",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.1225222999999005
+  },
+  {
+    "fold": 96,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "4020719da8c113cc510b0a32a481ab9bb03b24f6af42c8712ba78a7c5c0dccdb",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07038779999993494
+  },
+  {
+    "fold": 96,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "97be1765adf36cff963fb7270ae0c4e75a30d515109fcddc5438d79eecd50376",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06999580000001515
+  },
+  {
+    "fold": 97,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "20756ae63e3ce8029ab49c38fef9cba455e9506e36bfd8e4cb889d529b8015f4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.10834030000000894
+  },
+  {
+    "fold": 97,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "e0faa2f5d7748ac910fd10e5e839e5ddbf55089dac83286153e241ae9df579dc",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.10395889999995234
+  },
+  {
+    "fold": 97,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "d1f49eb0a1cce3f8d4ce2aeb3a867a9f56715c6ef1587102f40f556c0b051687",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      16
+    ],
+    "seconds": 0.057671199999958844
+  },
+  {
+    "fold": 97,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "2ccc475b8d1936dbcb6c5c29413afaff7b0f67cf97b4633f02e7aad681a99a7e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.058978199999955905
+  },
+  {
+    "fold": 98,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "10561b13fbb36c54ebb889250b91232c6c627cedfb40d15ee42e11dd0dc3c51a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.10841059999984282
+  },
+  {
+    "fold": 98,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "ce02c16148d9c86ac7589ba2fd20f59819a341bf24db5bc2e62cbb3e1b1231bf",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11171280000007755
+  },
+  {
+    "fold": 98,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "49638d830e53a04db78a769c5a97934b06dc486a0a389d7994fcae2e08bb8859",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06542400000012094
+  },
+  {
+    "fold": 98,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "9c5474ef5775345d5c3425988bf4d83ab222a03029922637b4e8b2cd88fc8b23",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0702189000000999
+  },
+  {
+    "fold": 99,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "42432de4311fac309012db0b9c6423eed70fbe05457620f71a03d8e0255472e6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.12219740000000456
+  },
+  {
+    "fold": 99,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "94b19a31138e087e42ed19a5ed34d7809553ca6523670529fce3542f38c67d76",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.09683700000005047
+  },
+  {
+    "fold": 99,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "e5f638c46d4e63ce20c13e71e979b3eb1ce95545c86eee7ae65ab104d2e6dfb4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06452390000004016
+  },
+  {
+    "fold": 99,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "9b069642f1d01f2d1a9a0bbbf2efa83069fcfa2c6c7ace2ca31d09017fa7e827",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06208749999996144
+  },
+  {
+    "fold": 100,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "706f109c73e2b32a9dff15254cb1ab37dbb2b873c0749caeb595b4529a993f6d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.10542400000008456
+  },
+  {
+    "fold": 100,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "cf80397d57dc4a63527f7c77c130ae947c4e0f172a5502091b93081654eadfb1",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10422010000002047
+  },
+  {
+    "fold": 100,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "69feb6b1f582886d81d9636935e444bb90e644e91c0fa2bf3151706a31f56c01",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07030319999989842
+  },
+  {
+    "fold": 100,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "298b057cef6df42267dcf22f6aba3e5b2d88af64c73ed72704975f4724ee6d21",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07377610000003187
+  },
+  {
+    "fold": 101,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "ddbd97d73b4322f71c68fb309d139b19c7dca931ca3d220a4b7185b931e317db",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07974680000006629
+  },
+  {
+    "fold": 101,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "55b0352499450d074686a511b9f9809e8093bfefb59f165f9a42d4fe563a4246",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.10809509999990041
+  },
+  {
+    "fold": 101,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "a9fe0fb42d42908b10a0b5692b06db3e9916a0e2fe7e9d4754242f3dcc398257",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06410970000001726
+  },
+  {
+    "fold": 101,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "6ec1f9450a171fb5198e95e7f4412a72b37e63b4e8fb7c8b6e6f68dfafeca2f8",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06748870000001261
+  },
+  {
+    "fold": 102,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "0a80c4bb54b740ca4f9a824dc19443a7280f8346757b1a46549f29dac15b3812",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.12030970000000707
+  },
+  {
+    "fold": 102,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "da9607e175e13b9f1b391145383e1ae778deabe8ec32f0195614cf88e4a2615b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.10860470000011446
+  },
+  {
+    "fold": 102,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "366afad27eb221260fa7a35b9e43b88144e57cb0528c3184087180b95b6f7ed0",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05976319999990665
+  },
+  {
+    "fold": 102,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "e5f3fe47d82e3e5ee324cb5f3fe2941af3578b0d689c6fc8c9acfe7ce22e1adf",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.061530400000037844
+  },
+  {
+    "fold": 103,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9e04ee78d8938d3844d199cd995dfc3c406d510a8ace386a8619de82048f1b6e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.09056250000003274
+  },
+  {
+    "fold": 103,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "22a251c969fdceca02065720b521c861b0da923094dc1966f3b20e4cf7e384fc",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.08922110000003158
+  },
+  {
+    "fold": 103,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "5e4986aae0082577aff2b4f982305212e5b1e1f9fdb409b527228b84296d44ff",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05965939999987313
+  },
+  {
+    "fold": 103,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "f58d6d245587288ea03aaf5d43b1550b2ab0e8e3ceafbe670ad47705a45f3ee4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      26
+    ],
+    "seconds": 0.0840462999999545
+  },
+  {
+    "fold": 104,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "e3c3083340c28ed843aa12e84b361a7d7628bdfdb8e7dbbde8869f4379e8a336",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.09079990000009275
+  },
+  {
+    "fold": 104,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "778d76b2f6702b117903f80cdad3ac8424b356ac50795f86231715d865715c23",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.09614570000007916
+  },
+  {
+    "fold": 104,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "925676c895e06776b0f3c018ac64aa4ebbf9f5a7103a6fb072fb6dc642ae1d09",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06590620000019953
+  },
+  {
+    "fold": 104,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "45645a805a50d7d20b234dbf386fd580fe7c78eabc10cc0cd775fa6d4da11895",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06448970000019472
+  },
+  {
+    "fold": 105,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "5072b191b5a763ddae8952600284b71819b07c174997321bff6aeef20d4f24ca",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.09031000000004497
+  },
+  {
+    "fold": 105,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "332c97c97428ec51fc55f4c25c639d678546998387dfe59c8c70ba60f6b4e894",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10859430000004977
+  },
+  {
+    "fold": 105,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "b86ff6ac09b3128a5748b1536212f55ced6aef0c53318c31c82ff082a2db4282",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05708959999992658
+  },
+  {
+    "fold": 105,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "cb67e339477121dd3aaf3b466ec8c718016eedfe70b948e839ae31e98d038978",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.055919000000130836
+  },
+  {
+    "fold": 106,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "5693df60ee2ce4888eb53b314ae75d144d6509bef31e823a950b677e29531b71",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.09916040000007342
+  },
+  {
+    "fold": 106,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "294d671fc881ae99babb3f305294c6ac2a6dbe3b1544f2302016fbd00c3271d6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.09917139999993196
+  },
+  {
+    "fold": 106,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9d541165e562ece980194cc4dc49d52a92131cdec2fa813f1aa113b5cbdf6e16",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05813699999998789
+  },
+  {
+    "fold": 106,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "7a11d7602e74f3c4f46d1ef3e3930525d2f9c76c3c586013d112cb7fc225b19e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06263460000013765
+  },
+  {
+    "fold": 107,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "7f1420467ee64019c1c47c7dce46fc8e30818e50d15fd7d04219435fd9d83e13",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.10708529999988059
+  },
+  {
+    "fold": 107,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "d91773aa2b4e82b6845da467060c03c70ee2fd78eed0847f7fa7202a8a466a6b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.09925879999991594
+  },
+  {
+    "fold": 107,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "1a0b0a66cb3cf9e8aca657b9b2d5e072077853d63dd67f8e7f82279e0f416da5",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.059062599999833765
+  },
+  {
+    "fold": 107,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "98e4647caf64c5b9987bc24969a4c9491903f98cf5f0ae024ac4b7f5b8207765",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06043479999993906
+  },
+  {
+    "fold": 108,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "12d98dae29c6e9e0d689a3d05e09d2c85c1566a938864c5de04fbf8a7a5b8a6b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      19
+    ],
+    "seconds": 0.08325560000002952
+  },
+  {
+    "fold": 108,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "85957722c5febf8ef3688e57bda02ed07502c03e0f133739a67bce96c2d40ad3",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.11265339999999924
+  },
+  {
+    "fold": 108,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "c77c3339397e65056bede46ad8142e9c1eee2abbc5c25ff15a094abff2eef706",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05889349999984006
+  },
+  {
+    "fold": 108,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "80f42e09477fd965f918726f9d4b201380949e52837f5e436c6de5427972adf3",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05991190000008828
+  },
+  {
+    "fold": 109,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "2ed5bc71b7ff9f9cc547c966fbc1440c1463f60b0e46b0f8154a9a06b046b8b6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.12349229999995259
+  },
+  {
+    "fold": 109,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "84ef281befc9c3ee245b86cdfbd0b88d832b88b6847c1b140a854d0242e673d4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.09809399999994639
+  },
+  {
+    "fold": 109,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "341698d9c7999e377fe38ddb7a188008bd26c5f0e1d8569da83d1290d0f6af51",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0594464999999218
+  },
+  {
+    "fold": 109,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "306159056692d496a5676ed9ef3dc6f81cf7c4b313b4cd03b31200646e7729fe",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06364400000006754
+  },
+  {
+    "fold": 110,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "d264d65b27642ab92cb6c2ce6a519fecbcc7e5cc12e2af521e3a65acf4dc8670",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.08446610000009969
+  },
+  {
+    "fold": 110,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "5b955e07ef7afa09e27fe73a52b4e791cc89ef1aa45524acc1716879195ca9a7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10293449999994664
+  },
+  {
+    "fold": 110,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "cfef67afcbf174d58d51683c79b86e1f47d38b1c683130117a452ead7d782b06",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.053137999999989916
+  },
+  {
+    "fold": 110,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "42d8f284378977438c5ecc363a30d8af51e5887e5fdb700a080a117227897f33",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05887779999989107
+  },
+  {
+    "fold": 111,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "f8e5505538e7eb9bff2349dccf8cd22e234b443d7487a8be750f201d707db60c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.11096369999995659
+  },
+  {
+    "fold": 111,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "b19e74bb4b3acd199d9cfdba5474526a9bb77deb4246da6db90924ebe51c97ab",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11048470000014277
+  },
+  {
+    "fold": 111,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "559781cbeaacd5c4e35f439406a0a8ecd4eb21c1af493b568579666af3b504e9",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0779997000001913
+  },
+  {
+    "fold": 111,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "c62fe3bc9c65ecb8f49da0b227292d296c0be0dfbac5534bb743d53bebd6884d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07271760000003269
+  },
+  {
+    "fold": 112,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "ba426af7eb925b1d64dedf4e188477b1e56ec91d8da590fa147c3764f8c1c83f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08655099999987215
+  },
+  {
+    "fold": 112,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "e5e03985054ee64987fd357257e28a51792fb2c9512c2dac30a3f07e33497dbe",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.13733400000000984
+  },
+  {
+    "fold": 112,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "a19ef499b649e3d2165dc962596a325c65cbaab3d57b3424b18d2dcc41838f6f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.054480000000012296
+  },
+  {
+    "fold": 112,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "777eca74a715d049381a629ccb49f18d9889bd01ea63eac4c54f5fa6fbd75fdd",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.057072600000083185
+  },
+  {
+    "fold": 113,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "fa90ec62c3dbe6d981b33507c04ebec16feec8a3fc327643eb1b6e738e215451",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.1496366000001217
+  },
+  {
+    "fold": 113,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "711b9b0aabd83793228d6db64c66ff66ff9c170da872995585b9951b67ed522f",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.12331060000019534
+  },
+  {
+    "fold": 113,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "9e9b4c3f5af0ac19b8b5ed5580718e16853b07535ba845a6addb7f0b3be881d6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.06927550000000338
+  },
+  {
+    "fold": 113,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "1b0c989e249b89ed7ca11d0fc87ab7d41a9d4c97af4f08b8ac5fb890e743a0f4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      26
+    ],
+    "seconds": 0.13740450000000237
+  },
+  {
+    "fold": 114,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "dfc9171d7053a02c2c9f78e6de6c6cb544a0caefad6b5709dae838d5c119ab04",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.12154989999999088
+  },
+  {
+    "fold": 114,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "c5c9172f437cecb74c28d90e1b79e0779c19356d6f1c1d83069d690461c401e7",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11268859999995584
+  },
+  {
+    "fold": 114,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "0c2c2f97dc3a669d9fbca5ddb0cd88846084d0686e1d9d8d464ebd464b71c7ed",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06787130000020625
+  },
+  {
+    "fold": 114,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "28db178940eacfd4347a9d2ec20cb5c9b8e1fc63ea6fca876ce697c741cd857b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07654509999997572
+  },
+  {
+    "fold": 115,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "f153cfe917a24e0e1458c15423a20d73511e58f93fe18a907957d59690fbfd1a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      22
+    ],
+    "seconds": 0.10945880000008401
+  },
+  {
+    "fold": 115,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "0cbd9d51e451cc35558e579144ddb9e2f2540129e08954f218247d536da80c9a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.1046704000000318
+  },
+  {
+    "fold": 115,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "a65ad2dde20389f887f10c2196889b36a86daad03142c29f404edf4597557509",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.08645980000005693
+  },
+  {
+    "fold": 115,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "522f1700daaa7a7f3285f0e606a81716213acad072e362e1d4b32cdbed727152",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      19
+    ],
+    "seconds": 0.0894865000000209
+  },
+  {
+    "fold": 116,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "ca9268d060bd9e8af2c75084106a88a7116c75b1bfa261fd491403ce5f7f8bba",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.10718280000014602
+  },
+  {
+    "fold": 116,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "95ea8c764d7403b81977caea798e420157dacbfa0537d17acb0a581f32b823fd",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11689400000000205
+  },
+  {
+    "fold": 116,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "714a588f468e94a770335d7ab87f3be3a3bd03fc34dd9e0aed3dae8868b17a0a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06614479999984724
+  },
+  {
+    "fold": 116,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "ca4850fc340fa57d78d3bfb3ab4a899315ffd5149626468a245065d1a5b406c6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.08230410000010124
+  },
+  {
+    "fold": 117,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "cdc4f712eac2eff303ef2728c9d495b20f159cdffeb8d8c33c9d20a57790cb1c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.14013660000000527
+  },
+  {
+    "fold": 117,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "4c80665f9e3e196199921a2c462b4d31b810dcecc5b4e6d85103b1bb62241fda",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11768030000007457
+  },
+  {
+    "fold": 117,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "76375d6c1f708020df03843213663b8ac609a90dddade467b8a42ae368b7ad38",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07335960000000341
+  },
+  {
+    "fold": 117,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "bff2b5270847a8df428b479da4e39347c963eb94843e19c1b229682ea257d464",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06881560000010722
+  },
+  {
+    "fold": 118,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "ff369baef1299c518a593121f6a7b6465c668aaa2cdb35ff32b8da7a1aeea6b3",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.1090907000000243
+  },
+  {
+    "fold": 118,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "59f96a05647969eaef7926c458181a4a54cdc84f9a480996e199a796b55e16fd",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.1258788000000095
+  },
+  {
+    "fold": 118,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "469c932e65e48928ca3385e5b6ea51fbf8f58bcd4913b068a2baa4b613830fbe",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.10257730000012089
+  },
+  {
+    "fold": 118,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "99467375b2673eea1e691032ac709e52bb8abd719b7dcda7b47010b4da2948f1",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.074342599999909
+  },
+  {
+    "fold": 119,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "cc3f586b669dac40cfe95df683923953852d4c241740c15354bc2bd38040fac6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.07997599999998783
+  },
+  {
+    "fold": 119,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "4f27867548eede558a8da4ad7024a7fabc564944bfef9a0096cc78822c87b087",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.10189549999995506
+  },
+  {
+    "fold": 119,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "4799657f09671abc1710b8a0eab56a9b822f8650a16617948d54bc5db6db3fdd",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.08998219999989487
+  },
+  {
+    "fold": 119,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "1c471dc64f068975a3b1c7a68934a71c5d4d28504fdfa9bc091a00f554c83a17",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.08932449999997516
+  },
+  {
+    "fold": 120,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "a6983da2ac82030ed9cc22aff4a54fe948dac84a2243775610f4c27cea855d5b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      20
+    ],
+    "seconds": 0.10554159999992407
+  },
+  {
+    "fold": 120,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "78ad59c7884e022c623f38cbe091d9745a727f9766a59587e29f9441f23cb54d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11343350000015562
+  },
+  {
+    "fold": 120,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "3aa6cb3f93458494ad8e5d80cb0dc177e106d4ca97839e4ace7a09c9956fb14c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05451820000007501
+  },
+  {
+    "fold": 120,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "d6aa78392d7c96761bd5d11547daa52e2a151c50c4bc05716c3b705f31b1e257",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.061151699999982156
+  },
+  {
+    "fold": 121,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "4304adcbea389338dfdf75d4a1b867c39fb5a78ec27e0338f0996e118fe9d49e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.09415089999993143
+  },
+  {
+    "fold": 121,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "2b3808a2af158a6252bea7dfdaf928cf1a5d736449fa22d328ab8d54a6fa84e8",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.12712839999994685
+  },
+  {
+    "fold": 121,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "d17fddb90cd455aaa0d3ca4b74281ff495d92885a7f71dc4dada4e2912957aa0",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06468049999989489
+  },
+  {
+    "fold": 121,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "2f88742747fb4b80218fb4845914111f28853732571b8c05d44a06b464ebab49",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05855339999993703
+  },
+  {
+    "fold": 122,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "405bb6c1c74e5bbec0281408a5831db14c193bc1a434e52cd4acec0ce2d960bb",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.09378309999988232
+  },
+  {
+    "fold": 122,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "f5ff93f201ac521b94b44ae59992f14875d252629b3f6a6b82d99865d493c733",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.12377650000007634
+  },
+  {
+    "fold": 122,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "780317fa2c474c31e2f982e5e75f3c230e1c79234d3c36fdfb3161c6f5691436",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.062417299999879106
+  },
+  {
+    "fold": 122,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "ef643ddb376d77027041892ee69793fde68f933a29165c4a6086a9421293149c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06589039999994384
+  },
+  {
+    "fold": 123,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "e734fa21b81887018069644e39e85a5ae1a8f41dd214cce81a3e9ea135fe2591",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      24
+    ],
+    "seconds": 0.12526360000015302
+  },
+  {
+    "fold": 123,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "35f550da29744a93d99a7ab796b897d80b8eb4c127f9e38f8e5ba184fac8528d",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11847560000001067
+  },
+  {
+    "fold": 123,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "1e137bc87f89d71c792cd02eda7f5b0a39c84f84a44738f46456fc159c1974ed",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05728820000013002
+  },
+  {
+    "fold": 123,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "023f46aa69d1e0ea02a8d8f69ce3d81b80490dfd59dd529a26e60ec0d222b87b",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.05903020000005199
+  },
+  {
+    "fold": 124,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "eccfa83c9ac7ec2f87d4de9f2f6b459922aebc5bbba2c9bda109692df62d65c4",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.09927259999994931
+  },
+  {
+    "fold": 124,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "b585a8ae91ac908165f51fe4d26cb7c4cbb490181d247be905d151c50c347a9c",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.11127959999998893
+  },
+  {
+    "fold": 124,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "e8f44caa3176189908c91afb3868f445d039b494234d6ec6b3dc26c8eecfcaae",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.058808199999930366
+  },
+  {
+    "fold": 124,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "2276c043c92ed1b2d9bc96da0d91f55fd10e61e21879ec189f79171cd70cca71",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06070719999979701
+  },
+  {
+    "fold": 125,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "2362f1db29e326a1f518d5682afb7cd1846c36444ff3bf00b6d71dc6c0fae90a",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      18
+    ],
+    "seconds": 0.08163009999998394
+  },
+  {
+    "fold": 125,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "81ae013693f57574e136067ca5fa7d286cb29edae5d0030a5142a1056ed59000",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      25
+    ],
+    "seconds": 0.11485749999997097
+  },
+  {
+    "fold": 125,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "6a6e491713d89ee0c6bbb9d4453184af11b9ec44312c09725b364483173e6822",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.0612404000000879
+  },
+  {
+    "fold": 125,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "14c7e1f0c688e523f58ed0cc2fd52ed6f1ff4a744576d08f267e4b86584adfa0",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06438329999991765
+  },
+  {
+    "fold": 126,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "O",
+    "coef_sha256": "021695191a7f154685c359692f74241c8ef4bddb7cbfb5f75fcb8ccf43dfebf6",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      23
+    ],
+    "seconds": 0.10886199999981727
+  },
+  {
+    "fold": 126,
+    "vectorizer_fit_text": "O",
+    "classifier_fit_text": "M",
+    "coef_sha256": "ef99cf9f44678d3e94f35e16428f85c4bd09cffca51e557bb581ad842fd54881",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      21
+    ],
+    "seconds": 0.10023230000001604
+  },
+  {
+    "fold": 126,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "O",
+    "coef_sha256": "7075aaaac52bd38cdb3386007406bf6d4d6896c675970e2048e4b39beec0d51e",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06933269999990443
+  },
+  {
+    "fold": 126,
+    "vectorizer_fit_text": "M",
+    "classifier_fit_text": "M",
+    "coef_sha256": "f9e4f3bd0acd0b3316794302a9624111d6835d924f2b7179c1b926520fc448f9",
+    "classes": [
+      "ID",
+      "NIO",
+      "OD",
+      "TD"
+    ],
+    "iterations": [
+      17
+    ],
+    "seconds": 0.06808589999991455
+  }
+]

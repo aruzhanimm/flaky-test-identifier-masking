@@ -1,0 +1,81 @@
+{
+  "container": "Stratamodulesdatadc3ebb8test_combinedWith_noClash",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "Stratamodulesdatadc3ebb8test_combinedWith_noClash",
+    "project": "https://github.com/opengamma/strata",
+    "revision": "dc3ebb884c7fc0c19b348942a30a77bab9517e55",
+    "test": "com.opengamma.strata.data.MarketDataTest.test_combinedWith_noClash",
+    "label": "ID",
+    "module": "modules/data",
+    "zip": "Strata=modules+data=dc3ebb8",
+    "config_row": 685,
+    "configured_test": "com.opengamma.strata.data.MarketDataTest#test_combinedWith_noClash",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/opengamma/strata::com.opengamma.strata.data.MarketDataTest.test_combinedWith_noClash",
+    "variant_id": "https://github.com/opengamma/strata::com.opengamma.strata.data.MarketDataTest.test_combinedWith_noClash::dc3ebb884c7fc0c19b348942a30a77bab9517e55::modules/data",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/Stratamodulesdatadc3ebb8test_combinedWith_noClash/result/Flaky/.nondex/acFzWwmTX+RxhPHYArrIdbEK0agCAp29runvcOMGUE=/TEST-com.opengamma.strata.data.MarketDataTest.xml",
+        "size": 10254,
+        "compressed": 2211,
+        "crc32": "12ac821c",
+        "offset": 1620042001,
+        "method": 8,
+        "local_path": "data/extracted/9cdb74cc3161375ec047a7e0.xml",
+        "sha256": "f7a75ff7c740d18d63b528b7790f03ea329750fe06df6abce2ad4b0baa89a4a6",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/Stratamodulesdatadc3ebb8test_combinedWith_noClash/result/Flaky/rounds-test-results.csv",
+    "size": 18388,
+    "compressed": 5085,
+    "crc32": "6e6cbadc",
+    "offset": 1619575632,
+    "method": 8,
+    "local_path": "data/extracted/a520b0439522fa555f0a06e1.csv",
+    "sha256": "0f5d3c02bcdbf77e36519f73b59dd7a7ef08946ddffe8b89e5f30d98b0556574",
+    "status": "verified"
+  },
+  "reported_failure_rows": 42,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/Stratamodulesdatadc3ebb8test_combinedWith_noClash/result/Flaky/.nondex/acFzWwmTX+RxhPHYArrIdbEK0agCAp29runvcOMGUE=/TEST-com.opengamma.strata.data.MarketDataTest.xml",
+    "size": 10254,
+    "compressed": 2211,
+    "crc32": "12ac821c",
+    "offset": 1620042001,
+    "method": 8,
+    "local_path": "data/extracted/9cdb74cc3161375ec047a7e0.xml",
+    "sha256": "f7a75ff7c740d18d63b528b7790f03ea329750fe06df6abce2ad4b0baa89a4a6",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test_combinedWith_noClash",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  2\nwhereas expected element was:\n  1\n\n\tat com.opengamma.strata.data.MarketDataTest.test_combinedWith_noClash(MarketDataTest.java:217)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError: \n\nActual and expected have the same elements but not in the same order, at index 0 actual element was:\n  2\nwhereas expected element was:\n  1\n\n\tat com.opengamma.strata.data.MarketDataTest.test_combinedWith_noClash(MarketDataTest.java:217)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "6a616e628862ed5a632a2d27d45964530ec537e6b05780f807ed24c1a13eea21"
+}

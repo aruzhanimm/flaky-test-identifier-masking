@@ -1,0 +1,81 @@
+{
+  "container": "seatacommon0cad72eencodeMap",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "seatacommon0cad72eencodeMap",
+    "project": "https://github.com/seata/seata",
+    "revision": "0cad72eb425a38b2bff7a51244cd70d360e6d76b",
+    "test": "io.seata.common.util.CollectionUtilsTest.encodeMap",
+    "label": "ID",
+    "module": "common",
+    "zip": "seata=common=0cad72e",
+    "config_row": 232,
+    "configured_test": "io.seata.common.util.CollectionUtilsTest#encodeMap",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/seata/seata::io.seata.common.util.CollectionUtilsTest.encodeMap",
+    "variant_id": "https://github.com/seata/seata::io.seata.common.util.CollectionUtilsTest.encodeMap::0cad72eb425a38b2bff7a51244cd70d360e6d76b::common",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/seatacommon0cad72eencodeMap/result/Flaky/.nondex/BTn1u9N4RvLJnYFAekLFlXaA1YxfDGsdRibPkd3nzos=/TEST-io.seata.common.util.CollectionUtilsTest.xml",
+        "size": 9913,
+        "compressed": 2170,
+        "crc32": "953077f9",
+        "offset": 815638797,
+        "method": 8,
+        "local_path": "data/extracted/70cd0b700257362151a26116.xml",
+        "sha256": "e8a4223d5e30a16dc5f6b29e435e472e9f8cd0902eb1d3d730e5042144452296",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/seatacommon0cad72eencodeMap/result/Flaky/rounds-test-results.csv",
+    "size": 17852,
+    "compressed": 4883,
+    "crc32": "9d5158c8",
+    "offset": 815482771,
+    "method": 8,
+    "local_path": "data/extracted/a2be26eaeb2fb28bdd8f13f3.csv",
+    "sha256": "7f3f38deeea29b089baadf82483448cea6c35d4402d6fec3430dab40fdffd0a8",
+    "status": "verified"
+  },
+  "reported_failure_rows": 57,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/seatacommon0cad72eencodeMap/result/Flaky/.nondex/BTn1u9N4RvLJnYFAekLFlXaA1YxfDGsdRibPkd3nzos=/TEST-io.seata.common.util.CollectionUtilsTest.xml",
+    "size": 9913,
+    "compressed": 2170,
+    "crc32": "953077f9",
+    "offset": 815638797,
+    "method": 8,
+    "local_path": "data/extracted/70cd0b700257362151a26116.xml",
+    "sha256": "e8a4223d5e30a16dc5f6b29e435e472e9f8cd0902eb1d3d730e5042144452296",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "encodeMap",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <x=1&y=2> but was: <y=2&x=1>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <x=1&y=2> but was: <y=2&x=1>\n\tat io.seata.common.util.CollectionUtilsTest.encodeMap(CollectionUtilsTest.java:65)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <x=1&y=2> but was: <y=2&x=1>\norg.opentest4j.AssertionFailedError: expected: <x=1&y=2> but was: <y=2&x=1>\n\tat io.seata.common.util.CollectionUtilsTest.encodeMap(CollectionUtilsTest.java:65)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "64ce4b8a35744efa032ada484e7470343c0dfac1fc80d3a20f42d70e8b0b597f"
+}

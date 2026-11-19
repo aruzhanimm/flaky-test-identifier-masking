@@ -1,0 +1,81 @@
+{
+  "container": "liquibaseliquibasecore02ffb85testDropMultipleColumnsMySQL",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "liquibaseliquibasecore02ffb85testDropMultipleColumnsMySQL",
+    "project": "https://github.com/liquibase/liquibase",
+    "revision": "02ffb85e1028038d8c07821fe89575e70c137526",
+    "test": "liquibase.sqlgenerator.core.DropColumnGeneratorTest.testDropMultipleColumnsMySQL",
+    "label": "ID",
+    "module": "liquibase-core",
+    "zip": "liquibase=liquibase-core=02ffb85",
+    "config_row": 783,
+    "configured_test": "liquibase.sqlgenerator.core.DropColumnGeneratorTest#testDropMultipleColumnsMySQL",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/liquibase/liquibase::liquibase.sqlgenerator.core.DropColumnGeneratorTest.testDropMultipleColumnsMySQL",
+    "variant_id": "https://github.com/liquibase/liquibase::liquibase.sqlgenerator.core.DropColumnGeneratorTest.testDropMultipleColumnsMySQL::02ffb85e1028038d8c07821fe89575e70c137526::liquibase-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/liquibaseliquibasecore02ffb85testDropMultipleColumnsMySQL/result/Flaky/.nondex/GPukjFQBI8KMdoTFCX+kgmCasV6Z4utC9eIH1drhXs=/TEST-liquibase.sqlgenerator.core.DropColumnGeneratorTest.xml",
+        "size": 12191,
+        "compressed": 2474,
+        "crc32": "7ceef77d",
+        "offset": 1179627038,
+        "method": 8,
+        "local_path": "data/extracted/22843d2baf1e7a296c057d3f.xml",
+        "sha256": "a694b8163215607fb0c853b56149fe3231da02241ffaed18fbf271d2ace81f21",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/liquibaseliquibasecore02ffb85testDropMultipleColumnsMySQL/result/Flaky/rounds-test-results.csv",
+    "size": 19817,
+    "compressed": 4999,
+    "crc32": "004bf922",
+    "offset": 1180065102,
+    "method": 8,
+    "local_path": "data/extracted/fa11042e560c56f74ab06cab.csv",
+    "sha256": "43b92dee48b87452d5860408aa34df64d6684fce2ad9da38937b7c7f98551b70",
+    "status": "verified"
+  },
+  "reported_failure_rows": 93,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/liquibaseliquibasecore02ffb85testDropMultipleColumnsMySQL/result/Flaky/.nondex/GPukjFQBI8KMdoTFCX+kgmCasV6Z4utC9eIH1drhXs=/TEST-liquibase.sqlgenerator.core.DropColumnGeneratorTest.xml",
+    "size": 12191,
+    "compressed": 2474,
+    "crc32": "7ceef77d",
+    "offset": 1179627038,
+    "method": 8,
+    "local_path": "data/extracted/22843d2baf1e7a296c057d3f.xml",
+    "sha256": "a694b8163215607fb0c853b56149fe3231da02241ffaed18fbf271d2ace81f21",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testDropMultipleColumnsMySQL",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<[[DEFAULT, TEST_TABLE, TEST_TABLE.col1, TEST_TABLE.col2]]> but was:<[[TEST_TABLE, DEFAULT, TEST_TABLE.col2, TEST_TABLE.col1]]>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<[[DEFAULT, TEST_TABLE, TEST_TABLE.col1, TEST_TABLE.col2]]> but was:<[[TEST_TABLE, DEFAULT, TEST_TABLE.col2, TEST_TABLE.col1]]>\tat liquibase.sqlgenerator.core.DropColumnGeneratorTest.testDropMultipleColumnsMySQL(DropColumnGeneratorTest.java:35)",
+    "text": "org.junit.ComparisonFailure\nexpected:<[[DEFAULT, TEST_TABLE, TEST_TABLE.col1, TEST_TABLE.col2]]> but was:<[[TEST_TABLE, DEFAULT, TEST_TABLE.col2, TEST_TABLE.col1]]>\norg.junit.ComparisonFailure: expected:<[[DEFAULT, TEST_TABLE, TEST_TABLE.col1, TEST_TABLE.col2]]> but was:<[[TEST_TABLE, DEFAULT, TEST_TABLE.col2, TEST_TABLE.col1]]>\tat liquibase.sqlgenerator.core.DropColumnGeneratorTest.testDropMultipleColumnsMySQL(DropColumnGeneratorTest.java:35)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "7cd0f4284e9c74774470d4702dda34e4965648759d4a4d044924b666582fbf49"
+}

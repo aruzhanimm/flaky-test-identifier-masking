@@ -1,0 +1,81 @@
+{
+  "container": "opennlpopennlptools57c685etestTrigram",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "opennlpopennlptools57c685etestTrigram",
+    "project": "https://github.com/apache/opennlp",
+    "revision": "57c685eef695a8b951ada343c3914104963445c8",
+    "test": "opennlp.tools.languagemodel.NgramLanguageModelTest.testTrigram",
+    "label": "ID",
+    "module": "opennlp-tools",
+    "zip": "opennlp=opennlp-tools=57c685e",
+    "config_row": 733,
+    "configured_test": "opennlp.tools.languagemodel.NgramLanguageModelTest#testTrigram",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/opennlp::opennlp.tools.languagemodel.NgramLanguageModelTest.testTrigram",
+    "variant_id": "https://github.com/apache/opennlp::opennlp.tools.languagemodel.NgramLanguageModelTest.testTrigram::57c685eef695a8b951ada343c3914104963445c8::opennlp-tools",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 6,
+      "iteration": 5,
+      "member": {
+        "path": "result/opennlpopennlptools57c685etestTrigram/result/Flaky/.nondex/RboBorfbkA1jxuFebPzEK8ut87AU0+H8LgxLka3hRo=/TEST-opennlp.tools.languagemodel.NgramLanguageModelTest.xml",
+        "size": 7759,
+        "compressed": 1940,
+        "crc32": "d819c87d",
+        "offset": 1410207677,
+        "method": 8,
+        "local_path": "data/extracted/dc9030fb8a4dd63469937e8f.xml",
+        "sha256": "4f2ef9e984154fbada05548ae5fa7b5d9a64b6813ade8a833313978719749975",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/opennlpopennlptools57c685etestTrigram/result/Flaky/rounds-test-results.csv",
+    "size": 19506,
+    "compressed": 4980,
+    "crc32": "26feca05",
+    "offset": 1409765576,
+    "method": 8,
+    "local_path": "data/extracted/68293a6a3b79de4291cb6fb3.csv",
+    "sha256": "8791860a36f46c5aada117fee2dbc56b58032111cc7a9d9e2e0b9bc77c220e09",
+    "status": "verified"
+  },
+  "reported_failure_rows": 46,
+  "iteration": 5,
+  "source_row": 6,
+  "diagnostic_member": {
+    "path": "result/opennlpopennlptools57c685etestTrigram/result/Flaky/.nondex/RboBorfbkA1jxuFebPzEK8ut87AU0+H8LgxLka3hRo=/TEST-opennlp.tools.languagemodel.NgramLanguageModelTest.xml",
+    "size": 7759,
+    "compressed": 1940,
+    "crc32": "d819c87d",
+    "offset": 1410207677,
+    "method": 8,
+    "local_path": "data/extracted/dc9030fb8a4dd63469937e8f.xml",
+    "sha256": "4f2ef9e984154fbada05548ae5fa7b5d9a64b6813ade8a833313978719749975",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testTrigram",
+    "outcome": "failure",
+    "exception_type": "org.junit.internal.ArrayComparisonFailure",
+    "message": "array lengths differed, expected.length=1 actual.length=2; arrays first differed at element [1]; expected:<end of array> but was:<nice>",
+    "stack_trace": "org.junit.internal.ArrayComparisonFailure: array lengths differed, expected.length=1 actual.length=2; arrays first differed at element [1]; expected:<end of array> but was:<nice>\n\tat opennlp.tools.languagemodel.NgramLanguageModelTest.testTrigram(NgramLanguageModelTest.java:104)\nCaused by: java.lang.AssertionError: expected:<end of array> but was:<nice>\n\tat opennlp.tools.languagemodel.NgramLanguageModelTest.testTrigram(NgramLanguageModelTest.java:104)",
+    "text": "org.junit.internal.ArrayComparisonFailure\narray lengths differed, expected.length=1 actual.length=2; arrays first differed at element [1]; expected:<end of array> but was:<nice>\norg.junit.internal.ArrayComparisonFailure: array lengths differed, expected.length=1 actual.length=2; arrays first differed at element [1]; expected:<end of array> but was:<nice>\n\tat opennlp.tools.languagemodel.NgramLanguageModelTest.testTrigram(NgramLanguageModelTest.java:104)\nCaused by: java.lang.AssertionError: expected:<end of array> but was:<nice>\n\tat opennlp.tools.languagemodel.NgramLanguageModelTest.testTrigram(NgramLanguageModelTest.java:104)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "2f188ea94ec7a49661df3f5839f8d93ad51d2c60a4377a96fd375d96d8339137"
+}

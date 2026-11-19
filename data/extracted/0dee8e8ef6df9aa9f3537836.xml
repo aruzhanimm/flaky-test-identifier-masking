@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="dev.miku.r2dbc.mysql.codec.SetCodecTest" time="0.196" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="nondexStart" value="0"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/target/test-classes:/app/source/target/classes:/root/.m2/repository/io/projectreactor/reactor-core/3.4.11/reactor-core-3.4.11.jar:/root/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/root/.m2/repository/io/projectreactor/addons/reactor-extra/3.4.5/reactor-extra-3.4.5.jar:/root/.m2/repository/io/projectreactor/netty/reactor-netty/1.0.12/reactor-netty-1.0.12.jar:/root/.m2/repository/io/projectreactor/netty/reactor-netty-core/1.0.12/reactor-netty-core-1.0.12.jar:/root/.m2/repository/io/netty/netty-handler/4.1.69.Final/netty-handler-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-common/4.1.69.Final/netty-common-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-resolver/4.1.69.Final/netty-resolver-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-buffer/4.1.69.Final/netty-buffer-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-transport/4.1.69.Final/netty-transport-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-codec/4.1.69.Final/netty-codec-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-handler-proxy/4.1.69.Final/netty-handler-proxy-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-codec-socks/4.1.69.Final/netty-codec-socks-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-resolver-dns/4.1.69.Final/netty-resolver-dns-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-codec-dns/4.1.69.Final/netty-codec-dns-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.69.Final/netty-resolver-dns-native-macos-4.1.69.Final-osx-x86_64.jar:/root/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.69.Final/netty-transport-native-unix-common-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-transport-native-epoll/4.1.69.Final/netty-transport-native-epoll-4.1.69.Final-linux-x86_64.jar:/root/.m2/repository/io/projectreactor/netty/reactor-netty-http/1.0.12/reactor-netty-http-1.0.12.jar:/root/.m2/repository/io/netty/netty-codec-http/4.1.69.Final/netty-codec-http-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-codec-http2/4.1.69.Final/netty-codec-http2-4.1.69.Final.jar:/root/.m2/repository/io/projectreactor/netty/incubator/reactor-netty-incubator-quic/0.0.1/reactor-netty-incubator-quic-0.0.1.jar:/root/.m2/repository/io/netty/incubator/netty-incubator-codec-quic/0.0.18.Final/netty-incubator-codec-quic-0.0.18.Final-linux-x86_64.jar:/root/.m2/repository/io/projectreactor/netty/reactor-netty-http-brave/1.0.12/reactor-netty-http-brave-1.0.12.jar:/root/.m2/repository/io/zipkin/brave/brave-instrumentation-http/5.13.3/brave-instrumentation-http-5.13.3.jar:/root/.m2/repository/io/zipkin/brave/brave/5.13.3/brave-5.13.3.jar:/root/.m2/repository/io/zipkin/reporter2/zipkin-reporter-brave/2.16.3/zipkin-reporter-brave-2.16.3.jar:/root/.m2/repository/io/zipkin/reporter2/zipkin-reporter/2.16.3/zipkin-reporter-2.16.3.jar:/root/.m2/repository/io/zipkin/zipkin2/zipkin/2.23.2/zipkin-2.23.2.jar:/root/.m2/repository/io/r2dbc/r2dbc-spi/0.9.0.BUILD-SNAPSHOT/r2dbc-spi-0.9.0.BUILD-SNAPSHOT.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.6/logback-classic-1.2.6.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.6/logback-core-1.2.6.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/root/.m2/repository/io/projectreactor/reactor-test/3.4.11/reactor-test-3.4.11.jar:/root/.m2/repository/io/r2dbc/r2dbc-spi-test/0.9.0.BUILD-SNAPSHOT/r2dbc-spi-test-0.9.0.BUILD-SNAPSHOT.jar:/root/.m2/repository/org/assertj/assertj-core/3.21.0/assertj-core-3.21.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/root/.m2/repository/org/mockito/mockito-core/4.0.0/mockito-core-4.0.0.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.19/byte-buddy-agent-1.11.19.jar:/root/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/root/.m2/repository/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar:/root/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/root/.m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar:/root/.m2/repository/org/springframework/spring-jdbc/5.3.12/spring-jdbc-5.3.12.jar:/root/.m2/repository/org/springframework/spring-beans/5.3.12/spring-beans-5.3.12.jar:/root/.m2/repository/org/springframework/spring-core/5.3.12/spring-core-5.3.12.jar:/root/.m2/repository/org/springframework/spring-jcl/5.3.12/spring-jcl-5.3.12.jar:/root/.m2/repository/org/springframework/spring-tx/5.3.12/spring-tx-5.3.12.jar:/root/.m2/repository/org/testcontainers/mysql/1.16.2/mysql-1.16.2.jar:/root/.m2/repository/org/testcontainers/jdbc/1.16.2/jdbc-1.16.2.jar:/root/.m2/repository/org/testcontainers/database-commons/1.16.2/database-commons-1.16.2.jar:/root/.m2/repository/org/testcontainers/testcontainers/1.16.2/testcontainers-1.16.2.jar:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/root/.m2/repository/org/rnorth/duct-tape/duct-tape/1.0.8/duct-tape-1.0.8.jar:/root/.m2/repository/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar:/root/.m2/repository/com/github/docker-java/docker-java-api/3.2.12/docker-java-api-3.2.12.jar:/root/.m2/repository/com/github/docker-java/docker-java-transport-zerodep/3.2.12/docker-java-transport-zerodep-3.2.12.jar:/root/.m2/repository/com/github/docker-java/docker-java-transport/3.2.12/docker-java-transport-3.2.12.jar:/root/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-8/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/app/source/target/surefire/surefirebooter1512774171541308339.jar /app/source/target/surefire 2025-11-06T14-51-09_512-jvmRun1 surefire6666023182759592959tmp surefire_13772226456768126697tmp"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="surefire.test.class.path" value="/app/source/target/test-classes:/app/source/target/classes:/root/.m2/repository/io/projectreactor/reactor-core/3.4.11/reactor-core-3.4.11.jar:/root/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/root/.m2/repository/io/projectreactor/addons/reactor-extra/3.4.5/reactor-extra-3.4.5.jar:/root/.m2/repository/io/projectreactor/netty/reactor-netty/1.0.12/reactor-netty-1.0.12.jar:/root/.m2/repository/io/projectreactor/netty/reactor-netty-core/1.0.12/reactor-netty-core-1.0.12.jar:/root/.m2/repository/io/netty/netty-handler/4.1.69.Final/netty-handler-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-common/4.1.69.Final/netty-common-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-resolver/4.1.69.Final/netty-resolver-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-buffer/4.1.69.Final/netty-buffer-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-transport/4.1.69.Final/netty-transport-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-codec/4.1.69.Final/netty-codec-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-handler-proxy/4.1.69.Final/netty-handler-proxy-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-codec-socks/4.1.69.Final/netty-codec-socks-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-resolver-dns/4.1.69.Final/netty-resolver-dns-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-codec-dns/4.1.69.Final/netty-codec-dns-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.69.Final/netty-resolver-dns-native-macos-4.1.69.Final-osx-x86_64.jar:/root/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.69.Final/netty-transport-native-unix-common-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-transport-native-epoll/4.1.69.Final/netty-transport-native-epoll-4.1.69.Final-linux-x86_64.jar:/root/.m2/repository/io/projectreactor/netty/reactor-netty-http/1.0.12/reactor-netty-http-1.0.12.jar:/root/.m2/repository/io/netty/netty-codec-http/4.1.69.Final/netty-codec-http-4.1.69.Final.jar:/root/.m2/repository/io/netty/netty-codec-http2/4.1.69.Final/netty-codec-http2-4.1.69.Final.jar:/root/.m2/repository/io/projectreactor/netty/incubator/reactor-netty-incubator-quic/0.0.1/reactor-netty-incubator-quic-0.0.1.jar:/root/.m2/repository/io/netty/incubator/netty-incubator-codec-quic/0.0.18.Final/netty-incubator-codec-quic-0.0.18.Final-linux-x86_64.jar:/root/.m2/repository/io/projectreactor/netty/reactor-netty-http-brave/1.0.12/reactor-netty-http-brave-1.0.12.jar:/root/.m2/repository/io/zipkin/brave/brave-instrumentation-http/5.13.3/brave-instrumentation-http-5.13.3.jar:/root/.m2/repository/io/zipkin/brave/brave/5.13.3/brave-5.13.3.jar:/root/.m2/repository/io/zipkin/reporter2/zipkin-reporter-brave/2.16.3/zipkin-reporter-brave-2.16.3.jar:/root/.m2/repository/io/zipkin/reporter2/zipkin-reporter/2.16.3/zipkin-reporter-2.16.3.jar:/root/.m2/repository/io/zipkin/zipkin2/zipkin/2.23.2/zipkin-2.23.2.jar:/root/.m2/repository/io/r2dbc/r2dbc-spi/0.9.0.BUILD-SNAPSHOT/r2dbc-spi-0.9.0.BUILD-SNAPSHOT.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.6/logback-classic-1.2.6.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.6/logback-core-1.2.6.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/root/.m2/repository/io/projectreactor/reactor-test/3.4.11/reactor-test-3.4.11.jar:/root/.m2/repository/io/r2dbc/r2dbc-spi-test/0.9.0.BUILD-SNAPSHOT/r2dbc-spi-test-0.9.0.BUILD-SNAPSHOT.jar:/root/.m2/repository/org/assertj/assertj-core/3.21.0/assertj-core-3.21.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/root/.m2/repository/org/mockito/mockito-core/4.0.0/mockito-core-4.0.0.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.19/byte-buddy-agent-1.11.19.jar:/root/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/root/.m2/repository/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar:/root/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/root/.m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar:/root/.m2/repository/org/springframework/spring-jdbc/5.3.12/spring-jdbc-5.3.12.jar:/root/.m2/repository/org/springframework/spring-beans/5.3.12/spring-beans-5.3.12.jar:/root/.m2/repository/org/springframework/spring-core/5.3.12/spring-core-5.3.12.jar:/root/.m2/repository/org/springframework/spring-jcl/5.3.12/spring-jcl-5.3.12.jar:/root/.m2/repository/org/springframework/spring-tx/5.3.12/spring-tx-5.3.12.jar:/root/.m2/repository/org/testcontainers/mysql/1.16.2/mysql-1.16.2.jar:/root/.m2/repository/org/testcontainers/jdbc/1.16.2/jdbc-1.16.2.jar:/root/.m2/repository/org/testcontainers/database-commons/1.16.2/database-commons-1.16.2.jar:/root/.m2/repository/org/testcontainers/testcontainers/1.16.2/testcontainers-1.16.2.jar:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/root/.m2/repository/org/rnorth/duct-tape/duct-tape/1.0.8/duct-tape-1.0.8.jar:/root/.m2/repository/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar:/root/.m2/repository/com/github/docker-java/docker-java-api/3.2.12/docker-java-api-3.2.12.jar:/root/.m2/repository/com/github/docker-java/docker-java-transport-zerodep/3.2.12/docker-java-transport-zerodep-3.2.12.jar:/root/.m2/repository/com/github/docker-java/docker-java-transport/3.2.12/docker-java-transport-3.2.12.jar:/root/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar:"/>
+    <property name="test" value="dev.miku.r2dbc.mysql.codec.SetCodecTest#stringifySet"/>
+    <property name="nondexExecid" value="406VgHUTqRIQaJlLPBLbTjahLxfuqpaBlXodFrls+M="/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/local/openjdk-8/jre"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="basedir" value="/app/source"/>
+    <property name="file.separator" value="/"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="surefire.real.class.path" value="/app/source/target/surefire/surefirebooter1512774171541308339.jar"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="sun.boot.class.path" value="/app/source/.nondex/nondex-instr.jar:/root/.m2/repository/edu/illinois/nondex-common/2.1.1/nondex-common-2.1.1.jar:/root/.m2/repository/edu/illinois/nondex-annotations/2.1.1/nondex-annotations-2.1.1.jar:/usr/local/openjdk-8/jre/lib/resources.jar:/usr/local/openjdk-8/jre/lib/rt.jar:/usr/local/openjdk-8/jre/lib/sunrsasign.jar:/usr/local/openjdk-8/jre/lib/jsse.jar:/usr/local/openjdk-8/jre/lib/jce.jar:/usr/local/openjdk-8/jre/lib/charsets.jar:/usr/local/openjdk-8/jre/lib/jfr.jar:/usr/local/openjdk-8/jre/classes"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_342-b07"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-34-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.endorsed.dirs" value="/usr/local/openjdk-8/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/.nondex"/>
+    <property name="nondexJarDir" value="/app/source/.nondex"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_342"/>
+    <property name="user.dir" value="/app/source"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="license.skip" value="true"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="xml.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.342-b07"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="java.ext.dirs" value="/usr/local/openjdk-8/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="stringifySet" classname="dev.miku.r2dbc.mysql.codec.SetCodecTest" time="0.181">
+    <failure message="&#10;expected: &quot;&apos;Hello,world!&apos;&quot;&#10; but was: &quot;&apos;world!,Hello&apos;&quot;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+
+expected: "'Hello,world!'"
+ but was: "'world!,Hello'"
+	at dev.miku.r2dbc.mysql.codec.SetCodecTest.stringifySet(SetCodecTest.java:138)
+</failure>
+  </testcase>
+</testsuite>

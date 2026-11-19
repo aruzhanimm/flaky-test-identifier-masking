@@ -1,0 +1,81 @@
+{
+  "container": "liquibaseliquibasecorea0e7852testIndependentBranchesCase",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "liquibaseliquibasecorea0e7852testIndependentBranchesCase",
+    "project": "https://github.com/liquibase/liquibase",
+    "revision": "a0e7852a4743cbfd48835855ae6bbaf09b43100e",
+    "test": "liquibase.util.DependencyUtilTest.testIndependentBranchesCase",
+    "label": "ID",
+    "module": "liquibase-core",
+    "zip": "liquibase=liquibase-core=a0e7852",
+    "config_row": 784,
+    "configured_test": "liquibase.util.DependencyUtilTest#testIndependentBranchesCase",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/liquibase/liquibase::liquibase.util.DependencyUtilTest.testIndependentBranchesCase",
+    "variant_id": "https://github.com/liquibase/liquibase::liquibase.util.DependencyUtilTest.testIndependentBranchesCase::a0e7852a4743cbfd48835855ae6bbaf09b43100e::liquibase-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/liquibaseliquibasecorea0e7852testIndependentBranchesCase/result/Flaky/.nondex/QIHrmdjs4bFbfLf5FOAZgg3NJcMXCwDIRjle6Nhqbw=/TEST-liquibase.util.DependencyUtilTest.xml",
+        "size": 12211,
+        "compressed": 2431,
+        "crc32": "6439548b",
+        "offset": 1181122736,
+        "method": 8,
+        "local_path": "data/extracted/dcc9b00d683cc51926ba8b11.xml",
+        "sha256": "9daa0466e52b0d4e3a8dcec03aa7f595713f31a7305acef0d4eb03fb1dbd0751",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/liquibaseliquibasecorea0e7852testIndependentBranchesCase/result/Flaky/rounds-test-results.csv",
+    "size": 18005,
+    "compressed": 4935,
+    "crc32": "9d377508",
+    "offset": 1180526386,
+    "method": 8,
+    "local_path": "data/extracted/409bb1a1e07a860a027eb42c.csv",
+    "sha256": "89fde119b8f9d40ad73e32f109c25b98861ee4fa33da7a3f487f4751294a8bf1",
+    "status": "verified"
+  },
+  "reported_failure_rows": 86,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/liquibaseliquibasecorea0e7852testIndependentBranchesCase/result/Flaky/.nondex/QIHrmdjs4bFbfLf5FOAZgg3NJcMXCwDIRjle6Nhqbw=/TEST-liquibase.util.DependencyUtilTest.xml",
+    "size": 12211,
+    "compressed": 2431,
+    "crc32": "6439548b",
+    "offset": 1181122736,
+    "method": 8,
+    "local_path": "data/extracted/dcc9b00d683cc51926ba8b11.xml",
+    "sha256": "9daa0466e52b0d4e3a8dcec03aa7f595713f31a7305acef0d4eb03fb1dbd0751",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testIndependentBranchesCase",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "expected:<[a, o, x, b, p1, p2, y, c1, c2, r1, r2, s, s2, s3]> but was:<[a, x, o, b, y, p1, p2, c1, c2, r1, r2, s, s2, s3]>",
+    "stack_trace": "java.lang.AssertionError: expected:<[a, o, x, b, p1, p2, y, c1, c2, r1, r2, s, s2, s3]> but was:<[a, x, o, b, y, p1, p2, c1, c2, r1, r2, s, s2, s3]>\n\tat liquibase.util.DependencyUtilTest.testIndependentBranchesCase(DependencyUtilTest.java:79)",
+    "text": "java.lang.AssertionError\nexpected:<[a, o, x, b, p1, p2, y, c1, c2, r1, r2, s, s2, s3]> but was:<[a, x, o, b, y, p1, p2, c1, c2, r1, r2, s, s2, s3]>\njava.lang.AssertionError: expected:<[a, o, x, b, p1, p2, y, c1, c2, r1, r2, s, s2, s3]> but was:<[a, x, o, b, y, p1, p2, c1, c2, r1, r2, s, s2, s3]>\n\tat liquibase.util.DependencyUtilTest.testIndependentBranchesCase(DependencyUtilTest.java:79)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "294d45afcd3b1a24f463abf605644f0cdf2bf0729c9dff4ed298db107321a9ea"
+}

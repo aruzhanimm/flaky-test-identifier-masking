@@ -1,0 +1,81 @@
+{
+  "container": "snakeyamlengine9d2bca8referencesWithRecursiveKeysNotAllowedByDefault",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "snakeyamlengine9d2bca8referencesWithRecursiveKeysNotAllowedByDefault",
+    "project": "https://github.com/snakeyaml/snakeyaml-engine",
+    "revision": "9d2bca887ad1be7575bae2e427d074e2c49ff109",
+    "test": "org.snakeyaml.engine.usecases.references.ReferencesTest.referencesWithRecursiveKeysNotAllowedByDefault",
+    "label": "ID",
+    "module": ".",
+    "zip": "snakeyaml-engine=.=9d2bca8",
+    "config_row": 696,
+    "configured_test": "org.snakeyaml.engine.usecases.references.ReferencesTest#referencesWithRecursiveKeysNotAllowedByDefault",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/snakeyaml/snakeyaml-engine::org.snakeyaml.engine.usecases.references.ReferencesTest.referencesWithRecursiveKeysNotAllowedByDefault",
+    "variant_id": "https://github.com/snakeyaml/snakeyaml-engine::org.snakeyaml.engine.usecases.references.ReferencesTest.referencesWithRecursiveKeysNotAllowedByDefault::9d2bca887ad1be7575bae2e427d074e2c49ff109::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/snakeyamlengine9d2bca8referencesWithRecursiveKeysNotAllowedByDefault/result/Flaky/.nondex/XGAEJ6CFZoxm6dY8tZ2CZh3lue3vZPk7vjXCwPnkt4=/TEST-org.snakeyaml.engine.usecases.references.ReferencesTest.xml",
+        "size": 9292,
+        "compressed": 2222,
+        "crc32": "2674066a",
+        "offset": 1611766893,
+        "method": 8,
+        "local_path": "data/extracted/8f886e7e36ac4c57d40f9b8c.xml",
+        "sha256": "d4d212df0382a4bf6c251347b8aa1d554a48f12669e2c38a362ced232568d385",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/snakeyamlengine9d2bca8referencesWithRecursiveKeysNotAllowedByDefault/result/Flaky/rounds-test-results.csv",
+    "size": 18830,
+    "compressed": 5044,
+    "crc32": "936d7566",
+    "offset": 1612186083,
+    "method": 8,
+    "local_path": "data/extracted/dc8a8a1a00d09fd34b0fb4ff.csv",
+    "sha256": "929b56bc5f6fef868a6c2cc26847cdc76594e33295f8780c68d284500aa71090",
+    "status": "verified"
+  },
+  "reported_failure_rows": 59,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/snakeyamlengine9d2bca8referencesWithRecursiveKeysNotAllowedByDefault/result/Flaky/.nondex/XGAEJ6CFZoxm6dY8tZ2CZh3lue3vZPk7vjXCwPnkt4=/TEST-org.snakeyaml.engine.usecases.references.ReferencesTest.xml",
+    "size": 9292,
+    "compressed": 2222,
+    "crc32": "2674066a",
+    "offset": 1611766893,
+    "method": 8,
+    "local_path": "data/extracted/8f886e7e36ac4c57d40f9b8c.xml",
+    "sha256": "d4d212df0382a4bf6c251347b8aa1d554a48f12669e2c38a362ced232568d385",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "referencesWithRecursiveKeysNotAllowedByDefault",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <Recursive key for mapping is detected but it is not configured to be allowed.> but was: <while scanning a simple key\n in reader, line 179, column 1:\n    *id059: a\n    ^\ncould not find expected ':'\n in reader, line 180, column 1:\n    \n    ^\n>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: \nexpected: <Recursive key for mapping is detected but it is not configured to be allowed.> but was: <while scanning a simple key\n in reader, line 179, column 1:\n    *id059: a\n    ^\ncould not find expected ':'\n in reader, line 180, column 1:\n    \n    ^\n>\n\tat org.snakeyaml.engine.usecases.references.ReferencesTest.referencesWithRecursiveKeysNotAllowedByDefault(ReferencesTest.java:87)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <Recursive key for mapping is detected but it is not configured to be allowed.> but was: <while scanning a simple key\n in reader, line 179, column 1:\n    *id059: a\n    ^\ncould not find expected ':'\n in reader, line 180, column 1:\n    \n    ^\n>\norg.opentest4j.AssertionFailedError: \nexpected: <Recursive key for mapping is detected but it is not configured to be allowed.> but was: <while scanning a simple key\n in reader, line 179, column 1:\n    *id059: a\n    ^\ncould not find expected ':'\n in reader, line 180, column 1:\n    \n    ^\n>\n\tat org.snakeyaml.engine.usecases.references.ReferencesTest.referencesWithRecursiveKeysNotAllowedByDefault(ReferencesTest.java:87)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "9d74cc7ce6c5d2634b25420ebd5ccf77b4993a298333afa23609d86b7d5e77f5"
+}

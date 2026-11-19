@@ -1,0 +1,81 @@
+{
+  "container": "jacksondataformatsbinaryprotobuf0eeb08ctestReadPointInt",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jacksondataformatsbinaryprotobuf0eeb08ctestReadPointInt",
+    "project": "https://github.com/fasterxml/jackson-dataformats-binary",
+    "revision": "0eeb08cfd07a9d23bc22090e17a67da57baf436e",
+    "test": "com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest.testReadPointInt",
+    "label": "ID",
+    "module": "protobuf",
+    "zip": "jackson-dataformats-binary=protobuf=0eeb08c",
+    "config_row": 336,
+    "configured_test": "com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest#testReadPointInt",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/fasterxml/jackson-dataformats-binary::com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest.testReadPointInt",
+    "variant_id": "https://github.com/fasterxml/jackson-dataformats-binary::com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest.testReadPointInt::0eeb08cfd07a9d23bc22090e17a67da57baf436e::protobuf",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/jacksondataformatsbinaryprotobuf0eeb08ctestReadPointInt/result/Flaky/.nondex/863wT9JUCtUI0HR92PDj2cdK5+1dKzzx1Dnq+sIgscQ=/TEST-com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest.xml",
+        "size": 7453,
+        "compressed": 1839,
+        "crc32": "155d4ee2",
+        "offset": 1925865914,
+        "method": 8,
+        "local_path": "data/extracted/c21312240069dd7be253a4c7.xml",
+        "sha256": "36bf664e662fb843f539545d4e400c094d70af1983156c5b75e093929a70b4c9",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jacksondataformatsbinaryprotobuf0eeb08ctestReadPointInt/result/Flaky/rounds-test-results.csv",
+    "size": 19597,
+    "compressed": 5106,
+    "crc32": "43b1afc7",
+    "offset": 1925805479,
+    "method": 8,
+    "local_path": "data/extracted/09e83822e403592a89654a0a.csv",
+    "sha256": "6c47d6ffc6fd18594f5f9b111be6176a269c3fda02cdad0a17261ef459894d07",
+    "status": "verified"
+  },
+  "reported_failure_rows": 44,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/jacksondataformatsbinaryprotobuf0eeb08ctestReadPointInt/result/Flaky/.nondex/863wT9JUCtUI0HR92PDj2cdK5+1dKzzx1Dnq+sIgscQ=/TEST-com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest.xml",
+    "size": 7453,
+    "compressed": 1839,
+    "crc32": "155d4ee2",
+    "offset": 1925865914,
+    "method": 8,
+    "local_path": "data/extracted/c21312240069dd7be253a4c7.xml",
+    "sha256": "36bf664e662fb843f539545d4e400c094d70af1983156c5b75e093929a70b4c9",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testReadPointInt",
+    "outcome": "failure",
+    "exception_type": "junit.framework.ComparisonFailure",
+    "message": "expected:<[x]> but was:<[y]>",
+    "stack_trace": "junit.framework.ComparisonFailure: expected:<[x]> but was:<[y]>\n\tat com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest.testReadPointInt(ReadSimpleTest.java:85)",
+    "text": "junit.framework.ComparisonFailure\nexpected:<[x]> but was:<[y]>\njunit.framework.ComparisonFailure: expected:<[x]> but was:<[y]>\n\tat com.fasterxml.jackson.dataformat.protobuf.ReadSimpleTest.testReadPointInt(ReadSimpleTest.java:85)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "6e0a2c4f065c25ab82221e4b47b2a58e537b14104ebff6a9724b9e832be830e5"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "incubatorshenyushenyucommond64041ctestToJson",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "incubatorshenyushenyucommond64041ctestToJson",
+    "project": "https://github.com/apache/incubator-shenyu",
+    "revision": "d64041cadf8dbac65b9cb7958164e5a6671d2ce8",
+    "test": "org.apache.shenyu.common.utils.GsonUtilsTest.testToJson",
+    "label": "ID",
+    "module": "shenyu-common",
+    "zip": "incubator-shenyu=shenyu-common=d64041c",
+    "config_row": 382,
+    "configured_test": "org.apache.shenyu.common.utils.GsonUtilsTest#testToJson",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/incubator-shenyu::org.apache.shenyu.common.utils.GsonUtilsTest.testToJson",
+    "variant_id": "https://github.com/apache/incubator-shenyu::org.apache.shenyu.common.utils.GsonUtilsTest.testToJson::d64041cadf8dbac65b9cb7958164e5a6671d2ce8::shenyu-common",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/incubatorshenyushenyucommond64041ctestToJson/result/Flaky/.nondex/btpxebSsqWhelEsqvOqfKf48FkVo9XJEM5dBfXBadw=/TEST-org.apache.shenyu.common.utils.GsonUtilsTest.xml",
+        "size": 18981,
+        "compressed": 3113,
+        "crc32": "c8e4a610",
+        "offset": 1968498787,
+        "method": 8,
+        "local_path": "data/extracted/137a9b0015ba0bdfef23a650.xml",
+        "sha256": "bb77760d110da030c655988d2cf8f2ee1051e7ad28cf7a9598e8e156968fb9cd",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/incubatorshenyushenyucommond64041ctestToJson/result/Flaky/rounds-test-results.csv",
+    "size": 19082,
+    "compressed": 5051,
+    "crc32": "a9211233",
+    "offset": 1968270215,
+    "method": 8,
+    "local_path": "data/extracted/247f131caa9cab0814299445.csv",
+    "sha256": "1a9f5fbcd99365cf2ddb481d57c4487229d7194355fd58eb04cd7a11cd5dfbe2",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/incubatorshenyushenyucommond64041ctestToJson/result/Flaky/.nondex/btpxebSsqWhelEsqvOqfKf48FkVo9XJEM5dBfXBadw=/TEST-org.apache.shenyu.common.utils.GsonUtilsTest.xml",
+    "size": 18981,
+    "compressed": 3113,
+    "crc32": "c8e4a610",
+    "offset": 1968498787,
+    "method": 8,
+    "local_path": "data/extracted/137a9b0015ba0bdfef23a650.xml",
+    "sha256": "bb77760d110da030c655988d2cf8f2ee1051e7ad28cf7a9598e8e156968fb9cd",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testToJson",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": null,
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <{\"bool\":true,\"iNumber\":1,\"fNumber\":1.0,\"dNumber\":1.0,\"bigDecimal\":1,\"string\":\"test\",\"testList\":[\"list_string_0\",\"list_string_1\",\"list_string_2\",\"list_string_3\",\"list_string_4\",\"list_string_5\",\"list_string_6\",\"list_string_7\",\"list_string_8\",\"list_string_9\"],\"testMap\":{\"map_key_2\":\"map_value_2\",\"map_key_1\":\"map_value_1\",\"map_key_0\":\"map_value_0\",\"map_key_9\":\"map_value_9\",\"map_key_8\":\"map_value_8\",\"map_key_7\":\"map_value_7\",\"map_key_6\":\"map_value_6\",\"map_key_5\":\"map_value_5\",\"map_key_4\":\"map_value_4\",\"map_key_3\":\"map_value_3\"},\"emptyList\":[],\"emptyMap\":{},\"nestedMap\":{\"map_2\":{},\"map_1\":{\"map_key_2\":\"map_value_2\",\"map_key_1\":\"map_value_1\",\"map_key_0\":\"map_value_0\",\"map_key_9\":\"map_value_9\",\"map_key_8\":\"map_value_8\",\"map_key_7\":\"map_value_7\",\"map_key_6\":\"map_value_6\",\"map_key_5\":\"map_value_5\",\"map_key_4\":\"map_value_4\",\"map_key_3\":\"map_value_3\"},\"bool\":false}}> but was: <{\"emptyMap\":{},\"testList\":[\"list_string_0\",\"list_string_1\",\"list_string_2\",\"list_string_3\",\"list_string_4\",\"list_string_5\",\"list_string_6\",\"list_string_7\",\"list_string_8\",\"list_string_9\"],\"bigDecimal\":1,\"testMap\":{\"map_key_8\":\"map_value_8\",\"map_key_5\":\"map_value_5\",\"map_key_9\":\"map_value_9\",\"map_key_1\":\"map_value_1\",\"map_key_4\":\"map_value_4\",\"map_key_2\":\"map_value_2\",\"map_key_0\":\"map_value_0\",\"map_key_6\":\"map_value_6\",\"map_key_3\":\"map_value_3\",\"map_key_7\":\"map_value_7\"},\"fNumber\":1.0,\"string\":\"test\",\"iNumber\":1,\"emptyList\":[],\"bool\":true,\"dNumber\":1.0,\"nestedMap\":{\"map_2\":{},\"bool\":false,\"map_1\":{\"map_key_1\":\"map_value_1\",\"map_key_5\":\"map_value_5\",\"map_key_8\":\"map_value_8\",\"map_key_2\":\"map_value_2\",\"map_key_3\":\"map_value_3\",\"map_key_9\":\"map_value_9\",\"map_key_6\":\"map_value_6\",\"map_key_7\":\"map_value_7\",\"map_key_4\":\"map_value_4\",\"map_key_0\":\"map_value_0\"}}}>\n\tat org.apache.shenyu.common.utils.GsonUtilsTest.testToJson(GsonUtilsTest.java:70)",
+    "text": "org.opentest4j.AssertionFailedError\norg.opentest4j.AssertionFailedError: expected: <{\"bool\":true,\"iNumber\":1,\"fNumber\":1.0,\"dNumber\":1.0,\"bigDecimal\":1,\"string\":\"test\",\"testList\":[\"list_string_0\",\"list_string_1\",\"list_string_2\",\"list_string_3\",\"list_string_4\",\"list_string_5\",\"list_string_6\",\"list_string_7\",\"list_string_8\",\"list_string_9\"],\"testMap\":{\"map_key_2\":\"map_value_2\",\"map_key_1\":\"map_value_1\",\"map_key_0\":\"map_value_0\",\"map_key_9\":\"map_value_9\",\"map_key_8\":\"map_value_8\",\"map_key_7\":\"map_value_7\",\"map_key_6\":\"map_value_6\",\"map_key_5\":\"map_value_5\",\"map_key_4\":\"map_value_4\",\"map_key_3\":\"map_value_3\"},\"emptyList\":[],\"emptyMap\":{},\"nestedMap\":{\"map_2\":{},\"map_1\":{\"map_key_2\":\"map_value_2\",\"map_key_1\":\"map_value_1\",\"map_key_0\":\"map_value_0\",\"map_key_9\":\"map_value_9\",\"map_key_8\":\"map_value_8\",\"map_key_7\":\"map_value_7\",\"map_key_6\":\"map_value_6\",\"map_key_5\":\"map_value_5\",\"map_key_4\":\"map_value_4\",\"map_key_3\":\"map_value_3\"},\"bool\":false}}> but was: <{\"emptyMap\":{},\"testList\":[\"list_string_0\",\"list_string_1\",\"list_string_2\",\"list_string_3\",\"list_string_4\",\"list_string_5\",\"list_string_6\",\"list_string_7\",\"list_string_8\",\"list_string_9\"],\"bigDecimal\":1,\"testMap\":{\"map_key_8\":\"map_value_8\",\"map_key_5\":\"map_value_5\",\"map_key_9\":\"map_value_9\",\"map_key_1\":\"map_value_1\",\"map_key_4\":\"map_value_4\",\"map_key_2\":\"map_value_2\",\"map_key_0\":\"map_value_0\",\"map_key_6\":\"map_value_6\",\"map_key_3\":\"map_value_3\",\"map_key_7\":\"map_value_7\"},\"fNumber\":1.0,\"string\":\"test\",\"iNumber\":1,\"emptyList\":[],\"bool\":true,\"dNumber\":1.0,\"nestedMap\":{\"map_2\":{},\"bool\":false,\"map_1\":{\"map_key_1\":\"map_value_1\",\"map_key_5\":\"map_value_5\",\"map_key_8\":\"map_value_8\",\"map_key_2\":\"map_value_2\",\"map_key_3\":\"map_value_3\",\"map_key_9\":\"map_value_9\",\"map_key_6\":\"map_value_6\",\"map_key_7\":\"map_value_7\",\"map_key_4\":\"map_value_4\",\"map_key_0\":\"map_value_0\"}}}>\n\tat org.apache.shenyu.common.utils.GsonUtilsTest.testToJson(GsonUtilsTest.java:70)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "25d68946ad078df543a4223a3567f57d482da31121e05691eac3a0ed51b0cd4a"
+}

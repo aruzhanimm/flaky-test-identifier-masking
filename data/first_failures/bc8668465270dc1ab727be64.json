@@ -1,0 +1,81 @@
+{
+  "container": "junitquickcheckgeneratorsbcec1aeproducesExpectedRandomValues",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "junitquickcheckgeneratorsbcec1aeproducesExpectedRandomValues",
+    "project": "https://github.com/pholser/junit-quickcheck",
+    "revision": "bcec1ae07d45e731c681c4b0b6884794b5898316",
+    "test": "com.pholser.junit.quickcheck.generator.java.util.SetOfSuperFloatPropertyParameterTest.producesExpectedRandomValues",
+    "label": "ID",
+    "module": "generators",
+    "zip": "junit-quickcheck=generators=bcec1ae",
+    "config_row": 805,
+    "configured_test": "com.pholser.junit.quickcheck.generator.java.util.SetOfSuperFloatPropertyParameterTest#producesExpectedRandomValues",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/pholser/junit-quickcheck::com.pholser.junit.quickcheck.generator.java.util.SetOfSuperFloatPropertyParameterTest.producesExpectedRandomValues",
+    "variant_id": "https://github.com/pholser/junit-quickcheck::com.pholser.junit.quickcheck.generator.java.util.SetOfSuperFloatPropertyParameterTest.producesExpectedRandomValues::bcec1ae07d45e731c681c4b0b6884794b5898316::generators",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/junitquickcheckgeneratorsbcec1aeproducesExpectedRandomValues/result/Flaky/.nondex/sc+4UeIqaV4FMWRhIMkLYR24vyQCqj4owRVFKYj0GU=/TEST-com.pholser.junit.quickcheck.generator.java.util.SetOfSuperFloatPropertyParameterTest.xml",
+        "size": 15311,
+        "compressed": 3108,
+        "crc32": "66b9cfe8",
+        "offset": 1168213740,
+        "method": 8,
+        "local_path": "data/extracted/276180668c92fc002f9098fa.xml",
+        "sha256": "a900fd6b9621e27645c2e3653173364579cbd183288600c1f7bc5ff71b28d143",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/junitquickcheckgeneratorsbcec1aeproducesExpectedRandomValues/result/Flaky/rounds-test-results.csv",
+    "size": 22772,
+    "compressed": 5160,
+    "crc32": "2417ad0b",
+    "offset": 1167503161,
+    "method": 8,
+    "local_path": "data/extracted/14e72e71b440fc7df0198c4d.csv",
+    "sha256": "2a27a64eaaec87df853615704a4664b4f8cbe4e5857e4e05fd5dd6a72531a294",
+    "status": "verified"
+  },
+  "reported_failure_rows": 76,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/junitquickcheckgeneratorsbcec1aeproducesExpectedRandomValues/result/Flaky/.nondex/sc+4UeIqaV4FMWRhIMkLYR24vyQCqj4owRVFKYj0GU=/TEST-com.pholser.junit.quickcheck.generator.java.util.SetOfSuperFloatPropertyParameterTest.xml",
+    "size": 15311,
+    "compressed": 3108,
+    "crc32": "66b9cfe8",
+    "offset": 1168213740,
+    "method": 8,
+    "local_path": "data/extracted/276180668c92fc002f9098fa.xml",
+    "sha256": "a900fd6b9621e27645c2e3653173364579cbd183288600c1f7bc5ff71b28d143",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "producesExpectedRandomValues",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "1'th value\nExpected: an object that is deep-equals to <[false]>\n     but: was <[0.2]>",
+    "stack_trace": "java.lang.AssertionError: \n1'th value\nExpected: an object that is deep-equals to <[false]>\n     but: was <[0.2]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat com.pholser.junit.quickcheck.internal.generator.CorePropertyParameterTest.verifyEquivalenceOfPropertyParameter(CorePropertyParameterTest.java:174)\n\tat com.pholser.junit.quickcheck.internal.generator.CorePropertyParameterTest.producesExpectedRandomValues(CorePropertyParameterTest.java:161)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.mockito.internal.junit.JUnitSessionStore$1.evaluateSafely(JUnitSessionStore.java:55)\n\tat org.mockito.internal.junit.JUnitSessionStore$1.evaluate(JUnitSessionStore.java:43)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)",
+    "text": "java.lang.AssertionError\n1'th value\nExpected: an object that is deep-equals to <[false]>\n     but: was <[0.2]>\njava.lang.AssertionError: \n1'th value\nExpected: an object that is deep-equals to <[false]>\n     but: was <[0.2]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat com.pholser.junit.quickcheck.internal.generator.CorePropertyParameterTest.verifyEquivalenceOfPropertyParameter(CorePropertyParameterTest.java:174)\n\tat com.pholser.junit.quickcheck.internal.generator.CorePropertyParameterTest.producesExpectedRandomValues(CorePropertyParameterTest.java:161)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.mockito.internal.junit.JUnitSessionStore$1.evaluateSafely(JUnitSessionStore.java:55)\n\tat org.mockito.internal.junit.JUnitSessionStore$1.evaluate(JUnitSessionStore.java:43)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "35a54bea29e955f870a2c24cdd8e441ea06c9353b5db8fad22c21d3307ede711"
+}

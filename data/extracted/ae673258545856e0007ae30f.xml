@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="org.jolokia.support.spring.SpringJolokiaServerTest" time="2.113" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="nondexStart" value="0"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/support/spring/target/test-classes:/app/source/support/spring/target/classes:/root/.m2/repository/org/jolokia/jolokia-tools-test/2.1.2-SNAPSHOT/jolokia-tools-test-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-agent-jvm/2.1.2-SNAPSHOT/jolokia-agent-jvm-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-json/2.1.2-SNAPSHOT/jolokia-json-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-server-core/2.1.2-SNAPSHOT/jolokia-server-core-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-server-detector/2.1.2-SNAPSHOT/jolokia-server-detector-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-service-serializer/2.1.2-SNAPSHOT/jolokia-service-serializer-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-service-jmx/2.1.2-SNAPSHOT/jolokia-service-jmx-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-service-discovery/2.1.2-SNAPSHOT/jolokia-service-discovery-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-service-history/2.1.2-SNAPSHOT/jolokia-service-history-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-service-jsr160/2.1.2-SNAPSHOT/jolokia-service-jsr160-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-service-notif-pull/2.1.2-SNAPSHOT/jolokia-service-notif-pull-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-service-notif-sse/2.1.2-SNAPSHOT/jolokia-service-notif-sse-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-support-jmx/2.1.2-SNAPSHOT/jolokia-support-jmx-2.1.2-SNAPSHOT.jar:/root/.m2/repository/jakarta/servlet/jakarta.servlet-api/5.0.0/jakarta.servlet-api-5.0.0.jar:/root/.m2/repository/org/springframework/spring-context/6.1.12/spring-context-6.1.12.jar:/root/.m2/repository/org/springframework/spring-aop/6.1.12/spring-aop-6.1.12.jar:/root/.m2/repository/org/springframework/spring-beans/6.1.12/spring-beans-6.1.12.jar:/root/.m2/repository/org/springframework/spring-core/6.1.12/spring-core-6.1.12.jar:/root/.m2/repository/org/springframework/spring-jcl/6.1.12/spring-jcl-6.1.12.jar:/root/.m2/repository/org/springframework/spring-expression/6.1.12/spring-expression-6.1.12.jar:/root/.m2/repository/io/micrometer/micrometer-observation/1.12.9/micrometer-observation-1.12.9.jar:/root/.m2/repository/io/micrometer/micrometer-commons/1.12.9/micrometer-commons-1.12.9.jar:/root/.m2/repository/org/springframework/spring-test/6.1.12/spring-test-6.1.12.jar:/root/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.3.4/spring-boot-autoconfigure-3.3.4.jar:/root/.m2/repository/org/springframework/boot/spring-boot/3.3.4/spring-boot-3.3.4.jar:/root/.m2/repository/org/springframework/boot/spring-boot-actuator/3.3.4/spring-boot-actuator-3.3.4.jar:/root/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/3.3.4/spring-boot-actuator-autoconfigure-3.3.4.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.0/jackson-databind-2.18.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.0/jackson-annotations-2.18.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.0/jackson-core-2.18.0.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.0/jackson-datatype-jsr310-2.18.0.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/root/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/root/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/root/.m2/repository/org/easymock/easymock/5.4.0/easymock-5.4.0.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.14.18/byte-buddy-1.14.18.jar:/root/.m2/repository/org/ow2/asm/asm/9.7/asm-9.7.jar:/root/.m2/repository/org/objenesis/objenesis/3.4/objenesis-3.4.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/java/openjdk/lib"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="sun.java.command" value="/app/source/support/spring/target/surefire/surefirebooter-20251107213743694_8.jar /app/source/support/spring/target/surefire 2025-11-07T21-37-43_566-jvmRun1 surefire-20251107213743694_6tmp surefire_1-20251107213743694_7tmp"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/app/source/support/spring/target/test-classes:/app/source/support/spring/target/classes:/root/.m2/repository/org/jolokia/jolokia-tools-test/2.1.2-SNAPSHOT/jolokia-tools-test-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-agent-jvm/2.1.2-SNAPSHOT/jolokia-agent-jvm-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-json/2.1.2-SNAPSHOT/jolokia-json-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-server-core/2.1.2-SNAPSHOT/jolokia-server-core-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-server-detector/2.1.2-SNAPSHOT/jolokia-server-detector-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-service-serializer/2.1.2-SNAPSHOT/jolokia-service-serializer-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-service-jmx/2.1.2-SNAPSHOT/jolokia-service-jmx-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-service-discovery/2.1.2-SNAPSHOT/jolokia-service-discovery-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-service-history/2.1.2-SNAPSHOT/jolokia-service-history-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-service-jsr160/2.1.2-SNAPSHOT/jolokia-service-jsr160-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-service-notif-pull/2.1.2-SNAPSHOT/jolokia-service-notif-pull-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-service-notif-sse/2.1.2-SNAPSHOT/jolokia-service-notif-sse-2.1.2-SNAPSHOT.jar:/root/.m2/repository/org/jolokia/jolokia-support-jmx/2.1.2-SNAPSHOT/jolokia-support-jmx-2.1.2-SNAPSHOT.jar:/root/.m2/repository/jakarta/servlet/jakarta.servlet-api/5.0.0/jakarta.servlet-api-5.0.0.jar:/root/.m2/repository/org/springframework/spring-context/6.1.12/spring-context-6.1.12.jar:/root/.m2/repository/org/springframework/spring-aop/6.1.12/spring-aop-6.1.12.jar:/root/.m2/repository/org/springframework/spring-beans/6.1.12/spring-beans-6.1.12.jar:/root/.m2/repository/org/springframework/spring-core/6.1.12/spring-core-6.1.12.jar:/root/.m2/repository/org/springframework/spring-jcl/6.1.12/spring-jcl-6.1.12.jar:/root/.m2/repository/org/springframework/spring-expression/6.1.12/spring-expression-6.1.12.jar:/root/.m2/repository/io/micrometer/micrometer-observation/1.12.9/micrometer-observation-1.12.9.jar:/root/.m2/repository/io/micrometer/micrometer-commons/1.12.9/micrometer-commons-1.12.9.jar:/root/.m2/repository/org/springframework/spring-test/6.1.12/spring-test-6.1.12.jar:/root/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.3.4/spring-boot-autoconfigure-3.3.4.jar:/root/.m2/repository/org/springframework/boot/spring-boot/3.3.4/spring-boot-3.3.4.jar:/root/.m2/repository/org/springframework/boot/spring-boot-actuator/3.3.4/spring-boot-actuator-3.3.4.jar:/root/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/3.3.4/spring-boot-actuator-autoconfigure-3.3.4.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.0/jackson-databind-2.18.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.0/jackson-annotations-2.18.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.0/jackson-core-2.18.0.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.0/jackson-datatype-jsr310-2.18.0.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/root/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/root/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/root/.m2/repository/org/easymock/easymock/5.4.0/easymock-5.4.0.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.14.18/byte-buddy-1.14.18.jar:/root/.m2/repository/org/ow2/asm/asm/9.7/asm-9.7.jar:/root/.m2/repository/org/objenesis/objenesis/3.4/objenesis-3.4.jar:"/>
+    <property name="test" value="org.jolokia.support.spring.SpringJolokiaServerTest#systemProperties"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="ml+YpXdLonVU5RZOTOFULagAe58rtQZGJUbJG5FcHE="/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/opt/java/openjdk"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/app/source/support/spring"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="surefire.real.class.path" value="/app/source/support/spring/target/surefire/surefirebooter-20251107213743694_8.jar"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-35-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/support/spring/.nondex"/>
+    <property name="nondexJarDir" value="/app/source/support/spring/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="/app/source/support/spring"/>
+    <property name="license.skip" value="true"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="xml.skip" value="true"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="systemProperties" classname="org.jolokia.support.spring.SpringJolokiaServerTest" time="1.565">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at org.jolokia.support.spring.BaseServerTest.checkServerAndStop(BaseServerTest.java:38)
+	at org.jolokia.support.spring.SpringJolokiaServerTest.checkSystemPropertyMode(SpringJolokiaServerTest.java:69)
+	at org.jolokia.support.spring.SpringJolokiaServerTest.systemProperties(SpringJolokiaServerTest.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[I> No access restrictor found, access to any MBean is allowed
+>>> URL to check: http://127.0.0.1:35419/j4p/
+I> No access restrictor found, access to any MBean is allowed
+>>> URL to check: http://127.0.0.1:42947/jol/
+I> No access restrictor found, access to any MBean is allowed
+>>> URL to check: http://127.0.0.1:38221/jolokia/
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

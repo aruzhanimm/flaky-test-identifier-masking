@@ -1,0 +1,81 @@
+{
+  "container": "ecoschemacatalogstore95ee43btestGetByVersion3",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ecoschemacatalogstore95ee43btestGetByVersion3",
+    "project": "https://github.com/epam/eco-schema-catalog",
+    "revision": "95ee43bba89845d162f5d54a6046c14f7edc4755",
+    "test": "com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testGetByVersion3",
+    "label": "ID",
+    "module": "store",
+    "zip": "eco-schema-catalog=store=95ee43b",
+    "config_row": 32,
+    "configured_test": "com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest#testGetByVersion3",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/epam/eco-schema-catalog::com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testGetByVersion3",
+    "variant_id": "https://github.com/epam/eco-schema-catalog::com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testGetByVersion3::95ee43bba89845d162f5d54a6046c14f7edc4755::store",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/ecoschemacatalogstore95ee43btestGetByVersion3/result/Flaky/.nondex/H+NkXYuOHvuKNudjQhQvme8z5CGRzTAbsvGfyHybyHM=/TEST-com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.xml",
+        "size": 6983,
+        "compressed": 1738,
+        "crc32": "c083dbd8",
+        "offset": 600415029,
+        "method": 8,
+        "local_path": "data/extracted/0c36c21c195e8ef3829bd055.xml",
+        "sha256": "81acbf5999e79d49672a06db412f42e9cbaf34c4e12d807067b4b638c22271f9",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ecoschemacatalogstore95ee43btestGetByVersion3/result/Flaky/rounds-test-results.csv",
+    "size": 21165,
+    "compressed": 4946,
+    "crc32": "c767e505",
+    "offset": 600211099,
+    "method": 8,
+    "local_path": "data/extracted/89cec384bcdf2e17e4fab723.csv",
+    "sha256": "9f1f4ec640c250ee0e83a8c5aceba1c27942a35276be73514885bae14d6c5427",
+    "status": "verified"
+  },
+  "reported_failure_rows": 97,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/ecoschemacatalogstore95ee43btestGetByVersion3/result/Flaky/.nondex/H+NkXYuOHvuKNudjQhQvme8z5CGRzTAbsvGfyHybyHM=/TEST-com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.xml",
+    "size": 6983,
+    "compressed": 1738,
+    "crc32": "c083dbd8",
+    "offset": 600415029,
+    "method": 8,
+    "local_path": "data/extracted/0c36c21c195e8ef3829bd055.xml",
+    "sha256": "81acbf5999e79d49672a06db412f42e9cbaf34c4e12d807067b4b638c22271f9",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testGetByVersion3",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError\n\tat com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testGetByVersion3(InheritingMetadataContainerTest.java:218)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError\n\tat com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testGetByVersion3(InheritingMetadataContainerTest.java:218)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "8a14f0de674187db8791d54f4b829c2ca4a64d8c334f5577f8f43d94be46a26f"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "jsonschemacore43fda7dtoStringNoExplicitType",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jsonschemacore43fda7dtoStringNoExplicitType",
+    "project": "https://github.com/everit-org/json-schema",
+    "revision": "43fda7d4fae927f88b9326ffee88fcc21c95c23e",
+    "test": "org.everit.json.schema.ObjectSchemaTest.toStringNoExplicitType",
+    "label": "ID",
+    "module": "core",
+    "zip": "json-schema=core=43fda7d",
+    "config_row": 330,
+    "configured_test": "org.everit.json.schema.ObjectSchemaTest#toStringNoExplicitType",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/everit-org/json-schema::org.everit.json.schema.ObjectSchemaTest.toStringNoExplicitType",
+    "variant_id": "https://github.com/everit-org/json-schema::org.everit.json.schema.ObjectSchemaTest.toStringNoExplicitType::43fda7d4fae927f88b9326ffee88fcc21c95c23e::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 5,
+      "iteration": 4,
+      "member": {
+        "path": "result/jsonschemacore43fda7dtoStringNoExplicitType/result/Flaky/.nondex/bIaUijBHtH78237HgAWEvemCHwPzty3WSPDI9OuPsY=/TEST-org.everit.json.schema.ObjectSchemaTest.xml",
+        "size": 13292,
+        "compressed": 2657,
+        "crc32": "3939e630",
+        "offset": 2244515482,
+        "method": 8,
+        "local_path": "data/extracted/c709a39cc12cc4946e3e060a.xml",
+        "sha256": "f6e4eec5ca908fde7eaf774bbb502cd38c9d154e6fb072e68832cfa5b04c5795",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jsonschemacore43fda7dtoStringNoExplicitType/result/Flaky/rounds-test-results.csv",
+    "size": 17514,
+    "compressed": 5054,
+    "crc32": "38e48cc0",
+    "offset": 2244184988,
+    "method": 8,
+    "local_path": "data/extracted/d90814fcab217a3959e11df2.csv",
+    "sha256": "a2fd3e17bb6770774220199faa3f26a71f385d10405c356decfab3f17325ba33",
+    "status": "verified"
+  },
+  "reported_failure_rows": 49,
+  "iteration": 4,
+  "source_row": 5,
+  "diagnostic_member": {
+    "path": "result/jsonschemacore43fda7dtoStringNoExplicitType/result/Flaky/.nondex/bIaUijBHtH78237HgAWEvemCHwPzty3WSPDI9OuPsY=/TEST-org.everit.json.schema.ObjectSchemaTest.xml",
+    "size": 13292,
+    "compressed": 2657,
+    "crc32": "3939e630",
+    "offset": 2244515482,
+    "method": 8,
+    "local_path": "data/extracted/c709a39cc12cc4946e3e060a.xml",
+    "sha256": "f6e4eec5ca908fde7eaf774bbb502cd38c9d154e6fb072e68832cfa5b04c5795",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "toStringNoExplicitType",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: {\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"minProperties\": 3,\n  \"required\": [\"numprop\"],\n  \"dependencies\": {\"prop1\": [\n    \"prop2\",\n    \"prop3\"\n  ]},\n  \"maxProperties\": 4,\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}}\n}\n     but: was {\n  \"minProperties\": 3,\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"dependencies\": {\"prop1\": [\n    \"prop3\",\n    \"prop2\"\n  ]},\n  \"maxProperties\": 4,\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"required\": [\"numprop\"]\n}",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: {\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"minProperties\": 3,\n  \"required\": [\"numprop\"],\n  \"dependencies\": {\"prop1\": [\n    \"prop2\",\n    \"prop3\"\n  ]},\n  \"maxProperties\": 4,\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}}\n}\n     but: was {\n  \"minProperties\": 3,\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"dependencies\": {\"prop1\": [\n    \"prop3\",\n    \"prop2\"\n  ]},\n  \"maxProperties\": 4,\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"required\": [\"numprop\"]\n}\n\tat org.everit.json.schema.ObjectSchemaTest.toStringNoExplicitType(ObjectSchemaTest.java:407)",
+    "text": "java.lang.AssertionError\nExpected: {\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"minProperties\": 3,\n  \"required\": [\"numprop\"],\n  \"dependencies\": {\"prop1\": [\n    \"prop2\",\n    \"prop3\"\n  ]},\n  \"maxProperties\": 4,\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}}\n}\n     but: was {\n  \"minProperties\": 3,\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"dependencies\": {\"prop1\": [\n    \"prop3\",\n    \"prop2\"\n  ]},\n  \"maxProperties\": 4,\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"required\": [\"numprop\"]\n}\njava.lang.AssertionError: \n\nExpected: {\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"minProperties\": 3,\n  \"required\": [\"numprop\"],\n  \"dependencies\": {\"prop1\": [\n    \"prop2\",\n    \"prop3\"\n  ]},\n  \"maxProperties\": 4,\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}}\n}\n     but: was {\n  \"minProperties\": 3,\n  \"additionalProperties\": {\"type\": \"boolean\"},\n  \"patternProperties\": {\"pattern_.*\": {\"type\": \"boolean\"}},\n  \"dependencies\": {\"prop1\": [\n    \"prop3\",\n    \"prop2\"\n  ]},\n  \"maxProperties\": 4,\n  \"properties\": {\"numprop\": {\"type\": \"number\"}},\n  \"required\": [\"numprop\"]\n}\n\tat org.everit.json.schema.ObjectSchemaTest.toStringNoExplicitType(ObjectSchemaTest.java:407)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "68e1df65e8c4c7a23a7620072d6cf71b64ed58bcf563969c405f584d26c2c580"
+}

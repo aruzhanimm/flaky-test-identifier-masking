@@ -1,0 +1,81 @@
+{
+  "container": "nacosapi65917ectestSerialize2",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "nacosapi65917ectestSerialize2",
+    "project": "https://github.com/alibaba/nacos",
+    "revision": "65917ec986fdcd6e42e2fab70f9d9dc43f57cd43",
+    "test": "com.alibaba.nacos.api.config.remote.request.ConfigBatchListenRequestTest.testSerialize",
+    "label": "ID",
+    "module": "api",
+    "zip": "nacos=api=65917ec",
+    "config_row": 249,
+    "configured_test": "com.alibaba.nacos.api.config.remote.request.ConfigBatchListenRequestTest#testSerialize",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/nacos::com.alibaba.nacos.api.config.remote.request.ConfigBatchListenRequestTest.testSerialize",
+    "variant_id": "https://github.com/alibaba/nacos::com.alibaba.nacos.api.config.remote.request.ConfigBatchListenRequestTest.testSerialize::65917ec986fdcd6e42e2fab70f9d9dc43f57cd43::api",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/nacosapi65917ectestSerialize2/result/Flaky/.nondex/qQJ8uJ47mjiKXs9VlhaYLafFrlh1dV2PxuqvDoZcjiY=/TEST-com.alibaba.nacos.api.config.remote.request.ConfigBatchListenRequestTest.xml",
+        "size": 6579,
+        "compressed": 1716,
+        "crc32": "95334828",
+        "offset": 246032822,
+        "method": 8,
+        "local_path": "data/extracted/400de73f695337f32bd05593.xml",
+        "sha256": "c9bf6e590af5caf39c8b5d7a3dbed223ed2afe558d3664b422b0f645771c945d",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/nacosapi65917ectestSerialize2/result/Flaky/rounds-test-results.csv",
+    "size": 20850,
+    "compressed": 4977,
+    "crc32": "71999b5c",
+    "offset": 245898472,
+    "method": 8,
+    "local_path": "data/extracted/0c78cd80a9ab2578f2b4b147.csv",
+    "sha256": "a19b6ed53e3e18c11a7f474ddcee98809a6dcf3f8c76950bd44230444aec3035",
+    "status": "verified"
+  },
+  "reported_failure_rows": 96,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/nacosapi65917ectestSerialize2/result/Flaky/.nondex/qQJ8uJ47mjiKXs9VlhaYLafFrlh1dV2PxuqvDoZcjiY=/TEST-com.alibaba.nacos.api.config.remote.request.ConfigBatchListenRequestTest.xml",
+    "size": 6579,
+    "compressed": 1716,
+    "crc32": "95334828",
+    "offset": 246032822,
+    "method": 8,
+    "local_path": "data/extracted/400de73f695337f32bd05593.xml",
+    "sha256": "c9bf6e590af5caf39c8b5d7a3dbed223ed2afe558d3664b422b0f645771c945d",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testSerialize",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError\n\tat com.alibaba.nacos.api.config.remote.request.ConfigBatchListenRequestTest.testSerialize(ConfigBatchListenRequestTest.java:37)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError\n\tat com.alibaba.nacos.api.config.remote.request.ConfigBatchListenRequestTest.testSerialize(ConfigBatchListenRequestTest.java:37)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "3604253b07bad7ed5a2f0d81df451ed158f19e58918470775846eaf567c9fffc"
+}

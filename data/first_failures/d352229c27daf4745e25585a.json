@@ -1,0 +1,81 @@
+{
+  "container": "karatekaratecore935f0a8testPojoConversion",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "karatekaratecore935f0a8testPojoConversion",
+    "project": "https://github.com/karatelabs/karate",
+    "revision": "935f0a8f4355c653ff10c929804c99bc332398f3",
+    "test": "com.intuit.karate.JsonUtilsTest.testPojoConversion",
+    "label": "ID",
+    "module": "karate-core",
+    "zip": "karate=karate-core=935f0a8",
+    "config_row": 804,
+    "configured_test": "com.intuit.karate.JsonUtilsTest#testPojoConversion",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/karatelabs/karate::com.intuit.karate.JsonUtilsTest.testPojoConversion",
+    "variant_id": "https://github.com/karatelabs/karate::com.intuit.karate.JsonUtilsTest.testPojoConversion::935f0a8f4355c653ff10c929804c99bc332398f3::karate-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/karatekaratecore935f0a8testPojoConversion/result/Flaky/.nondex/MYxsR5N9zPUkrQbziORPXAGpkmJTaLKJ0n+vHYfg=/TEST-com.intuit.karate.JsonUtilsTest.xml",
+        "size": 18335,
+        "compressed": 3097,
+        "crc32": "75308add",
+        "offset": 1172084633,
+        "method": 8,
+        "local_path": "data/extracted/0035f800b0ced652c52b2034.xml",
+        "sha256": "856982a8235d0bbf5feb23156ad9436459c38f5a38baefc9ad9d946ca39eded2",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/karatekaratecore935f0a8testPojoConversion/result/Flaky/rounds-test-results.csv",
+    "size": 17515,
+    "compressed": 5031,
+    "crc32": "25a0dc76",
+    "offset": 1171527357,
+    "method": 8,
+    "local_path": "data/extracted/c83e2a48530675b4e2f128a7.csv",
+    "sha256": "99c14c34ad62efae2dabd8347ed59554b08b0ae271f52d74435dbf4c6b93f019",
+    "status": "verified"
+  },
+  "reported_failure_rows": 94,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/karatekaratecore935f0a8testPojoConversion/result/Flaky/.nondex/MYxsR5N9zPUkrQbziORPXAGpkmJTaLKJ0n+vHYfg=/TEST-com.intuit.karate.JsonUtilsTest.xml",
+    "size": 18335,
+    "compressed": 3097,
+    "crc32": "75308add",
+    "offset": 1172084633,
+    "method": 8,
+    "local_path": "data/extracted/0035f800b0ced652c52b2034.xml",
+    "sha256": "856982a8235d0bbf5feb23156ad9436459c38f5a38baefc9ad9d946ca39eded2",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testPojoConversion",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <{\"ban\":[{\"ban\":null,\"baz\":null,\"bar\":0,\"foo\":\"p1\"},{\"ban\":null,\"baz\":null,\"bar\":0,\"foo\":\"p2\"}],\"baz\":null,\"bar\":1,\"foo\":\"testFoo\"}> but was: <{\"bar\":1,\"foo\":\"testFoo\",\"baz\":null,\"ban\":[{\"bar\":0,\"foo\":\"p1\",\"baz\":null,\"ban\":null},{\"bar\":0,\"foo\":\"p2\",\"baz\":null,\"ban\":null}]}>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <{\"ban\":[{\"ban\":null,\"baz\":null,\"bar\":0,\"foo\":\"p1\"},{\"ban\":null,\"baz\":null,\"bar\":0,\"foo\":\"p2\"}],\"baz\":null,\"bar\":1,\"foo\":\"testFoo\"}> but was: <{\"bar\":1,\"foo\":\"testFoo\",\"baz\":null,\"ban\":[{\"bar\":0,\"foo\":\"p1\",\"baz\":null,\"ban\":null},{\"bar\":0,\"foo\":\"p2\",\"baz\":null,\"ban\":null}]}>\n\tat com.intuit.karate.JsonUtilsTest.testPojoConversion(JsonUtilsTest.java:59)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <{\"ban\":[{\"ban\":null,\"baz\":null,\"bar\":0,\"foo\":\"p1\"},{\"ban\":null,\"baz\":null,\"bar\":0,\"foo\":\"p2\"}],\"baz\":null,\"bar\":1,\"foo\":\"testFoo\"}> but was: <{\"bar\":1,\"foo\":\"testFoo\",\"baz\":null,\"ban\":[{\"bar\":0,\"foo\":\"p1\",\"baz\":null,\"ban\":null},{\"bar\":0,\"foo\":\"p2\",\"baz\":null,\"ban\":null}]}>\norg.opentest4j.AssertionFailedError: expected: <{\"ban\":[{\"ban\":null,\"baz\":null,\"bar\":0,\"foo\":\"p1\"},{\"ban\":null,\"baz\":null,\"bar\":0,\"foo\":\"p2\"}],\"baz\":null,\"bar\":1,\"foo\":\"testFoo\"}> but was: <{\"bar\":1,\"foo\":\"testFoo\",\"baz\":null,\"ban\":[{\"bar\":0,\"foo\":\"p1\",\"baz\":null,\"ban\":null},{\"bar\":0,\"foo\":\"p2\",\"baz\":null,\"ban\":null}]}>\n\tat com.intuit.karate.JsonUtilsTest.testPojoConversion(JsonUtilsTest.java:59)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "82be82cffaba971293f1984511079114bd733470c2203248def6666612584f58"
+}

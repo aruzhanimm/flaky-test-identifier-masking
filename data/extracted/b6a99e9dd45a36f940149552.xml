@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="opennlp.tools.ml.naivebayes.NaiveBayesSerializedCorrectnessTest" time="0.049" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="nondexStart" value="0"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/app/source/opennlp-tools/target/test-classes:/app/source/opennlp-tools/target/classes:/root/.m2/repository/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.jar:/root/.m2/repository/org/osgi/org.osgi.compendium/4.2.0/org.osgi.compendium-4.2.0.jar:/root/.m2/repository/junit/junit/4.13/junit-4.13.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="user.timezone" value=""/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="rat.skip" value="true"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-11/lib"/>
+    <property name="sun.java.command" value="/app/source/opennlp-tools/target/surefire/surefirebooter4634007618100104004.jar /app/source/opennlp-tools/target/surefire 2025-11-07T10-05-53_878-jvmRun1 surefire14935644256568484198tmp surefire_14978009508734158873tmp"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/app/source/opennlp-tools/target/test-classes:/app/source/opennlp-tools/target/classes:/root/.m2/repository/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.jar:/root/.m2/repository/org/osgi/org.osgi.compendium/4.2.0/org.osgi.compendium-4.2.0.jar:/root/.m2/repository/junit/junit/4.13/junit-4.13.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="test" value="opennlp.tools.ml.naivebayes.NaiveBayesSerializedCorrectnessTest#testPlainTextModel"/>
+    <property name="nondexExecid" value="mmTN9k66VfIRosdLUvScvcsjmZRYl78rdHqiY5kO01g="/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/openjdk-11"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="basedir" value="/app/source/opennlp-tools"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="surefire.real.class.path" value="/app/source/opennlp-tools/target/surefire/surefirebooter4634007618100104004.jar"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-35-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/opennlp-tools/.nondex"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="nondexJarDir" value="/app/source/opennlp-tools/.nondex"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="/app/source/opennlp-tools"/>
+    <property name="license.skip" value="true"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="xml.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="pgpverify.skip" value="true"/>
+  </properties>
+  <testcase name="testPlainTextModel" classname="opennlp.tools.ml.naivebayes.NaiveBayesSerializedCorrectnessTest" time="0.049">
+    <failure message="expected:&lt;...ports&#10;1&#10;7 0 1&#10;7&#10;bow=[barca&#10;bow=states&#10;bow=the&#10;bow=united&#10;bow=nations&#10;bow=and&#10;bow=manchester&#10;0.0&#10;1.0&#10;1.0&#10;0.0&#10;2.0&#10;0.0&#10;2.0&#10;1.0&#10;1.0&#10;0.0&#10;1.0&#10;1.0&#10;0.0&#10;2].0&#10;&gt; but was:&lt;...ports&#10;1&#10;7 0 1&#10;7&#10;bow=[nations&#10;bow=barca&#10;bow=manchester&#10;bow=states&#10;bow=the&#10;bow=united&#10;bow=and&#10;1.0&#10;0.0&#10;0.0&#10;1.0&#10;0.0&#10;2.0&#10;1.0&#10;0.0&#10;2.0&#10;0.0&#10;2.0&#10;1.0&#10;1.0&#10;1].0&#10;&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: 
+expected:<...ports
+1
+7 0 1
+7
+bow=[barca
+bow=states
+bow=the
+bow=united
+bow=nations
+bow=and
+bow=manchester
+0.0
+1.0
+1.0
+0.0
+2.0
+0.0
+2.0
+1.0
+1.0
+0.0
+1.0
+1.0
+0.0
+2].0
+> but was:<...ports
+1
+7 0 1
+7
+bow=[nations
+bow=barca
+bow=manchester
+bow=states
+bow=the
+bow=united
+bow=and
+1.0
+0.0
+0.0
+1.0
+0.0
+2.0
+1.0
+0.0
+2.0
+0.0
+2.0
+1.0
+1.0
+1].0
+>
+	at opennlp.tools.ml.naivebayes.NaiveBayesSerializedCorrectnessTest.testPlainTextModel(NaiveBayesSerializedCorrectnessTest.java:150)
+]]></failure>
+    <system-out><![CDATA[Indexing events with TwoPass using cutoff of 1
+
+	Computing event counts...  done. 4 events
+	Indexing...  done.
+Collecting events... Done indexing in 0.03 s.
+NaiveBayes
+2
+politics
+sports
+1
+7 0 1
+7
+bow=barca
+bow=states
+bow=the
+bow=united
+bow=nations
+bow=and
+bow=manchester
+0.0
+1.0
+1.0
+0.0
+2.0
+0.0
+2.0
+1.0
+1.0
+0.0
+1.0
+1.0
+0.0
+2.0
+
+]]></system-out>
+    <system-err><![CDATA[1 outcome patterns
+1 outcome patterns
+]]></system-err>
+  </testcase>
+</testsuite>

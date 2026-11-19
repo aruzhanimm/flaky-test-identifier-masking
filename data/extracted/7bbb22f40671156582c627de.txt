@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hadoop.hdfs.server.balancer.TestBalancer
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 51.062 sec <<< FAILURE! - in org.apache.hadoop.hdfs.server.balancer.TestBalancer
+testBalancerWithStripedFile(org.apache.hadoop.hdfs.server.balancer.TestBalancer)  Time elapsed: 50.955 sec  <<< ERROR!
+java.util.concurrent.TimeoutException: Rebalancing expected avg utilization to become 0.38571428571428573, but on datanode 127.0.0.1:39569 it remains at 0.5 after more than 40000 msec.
+	at org.apache.hadoop.hdfs.server.balancer.TestBalancer.waitForBalancer(TestBalancer.java:671)
+	at org.apache.hadoop.hdfs.server.balancer.TestBalancer.runBalancer(TestBalancer.java:953)
+	at org.apache.hadoop.hdfs.server.balancer.TestBalancer.doTestBalancerWithStripedFile(TestBalancer.java:2003)
+	at org.apache.hadoop.hdfs.server.balancer.TestBalancer.testBalancerWithStripedFile(TestBalancer.java:1950)
+

@@ -1,0 +1,81 @@
+{
+  "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap12",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap12",
+    "project": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "test": "org.apache.activemq.transport.stomp.auto.StompAutoSslTest.testTransformationReceiveXMLObjectAndMap",
+    "label": "ID",
+    "module": "activemq-stomp",
+    "zip": "activemq=activemq-stomp=aeab06e",
+    "config_row": 128,
+    "configured_test": "org.apache.activemq.transport.stomp.auto.StompAutoSslTest#testTransformationReceiveXMLObjectAndMap",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/activemq::org.apache.activemq.transport.stomp.auto.StompAutoSslTest.testTransformationReceiveXMLObjectAndMap",
+    "variant_id": "https://github.com/apache/activemq::org.apache.activemq.transport.stomp.auto.StompAutoSslTest.testTransformationReceiveXMLObjectAndMap::aeab06e93e40d3a3ec198dc537388326832ff270::activemq-stomp",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap12/result/Flaky/.nondex/tSq6geEAN1V0WWhYXDejbnYe6p1HKzLDSGuLIiucw=/TEST-org.apache.activemq.transport.stomp.auto.StompAutoSslTest.xml",
+        "size": 18352,
+        "compressed": 3652,
+        "crc32": "3c73f315",
+        "offset": 742278513,
+        "method": 8,
+        "local_path": "data/extracted/d167e48a170023f81fc7cd70.xml",
+        "sha256": "fe6379349a5cda82c1694ae6749ae87cdb702fff029b36e98d3cb5b4da50de3b",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap12/result/Flaky/rounds-test-results.csv",
+    "size": 20303,
+    "compressed": 5105,
+    "crc32": "d62e3618",
+    "offset": 742113323,
+    "method": 8,
+    "local_path": "data/extracted/acf1545e23efed919bc9b1c5.csv",
+    "sha256": "65caf2f50e9371a94c9731aeb426ccefbfa943682dfb902e9b4f253d921c1465",
+    "status": "verified"
+  },
+  "reported_failure_rows": 46,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/activemqactivemqstompaeab06etestTransformationReceiveXMLObjectAndMap12/result/Flaky/.nondex/tSq6geEAN1V0WWhYXDejbnYe6p1HKzLDSGuLIiucw=/TEST-org.apache.activemq.transport.stomp.auto.StompAutoSslTest.xml",
+    "size": 18352,
+    "compressed": 3652,
+    "crc32": "3c73f315",
+    "offset": 742278513,
+    "method": 8,
+    "local_path": "data/extracted/d167e48a170023f81fc7cd70.xml",
+    "sha256": "fe6379349a5cda82c1694ae6749ae87cdb702fff029b36e98d3cb5b4da50de3b",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testTransformationReceiveXMLObjectAndMap",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObjectAndMap(StompTest.java:1180)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.lang.Thread.run(Thread.java:833)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObjectAndMap(StompTest.java:1180)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.lang.Thread.run(Thread.java:833)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "d236e145998f41091905779cf5ecd1a91bbdd96e707c9e99c1362b5fff2b128f"
+}

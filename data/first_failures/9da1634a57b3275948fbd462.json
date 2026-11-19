@@ -1,0 +1,37 @@
+{
+  "container": "APEXCORE-617-testEmitTuplesOutsideStreamingWindow",
+  "metadata": {
+    "source": "JIRA",
+    "container": "APEXCORE-617-testEmitTuplesOutsideStreamingWindow",
+    "project": "https://github.com/apache/apache/apex-core",
+    "revision": "a469dfb229c0d42c07048d95d070703331e2c429",
+    "test": "com.datatorrent.stram.engine.InputNodeTest.testEmitTuplesOutsideStreamingWindow",
+    "label": "TD",
+    "module": "engine",
+    "zip": "APEXCORE-617",
+    "config_row": 1102,
+    "configured_test": "com.datatorrent.stram.engine.InputNodeTest#testEmitTuplesOutsideStreamingWindow",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/apache/apex-core::com.datatorrent.stram.engine.InputNodeTest.testEmitTuplesOutsideStreamingWindow",
+    "variant_id": "https://github.com/apache/apache/apex-core::com.datatorrent.stram.engine.InputNodeTest.testEmitTuplesOutsideStreamingWindow::a469dfb229c0d42c07048d95d070703331e2c429::engine",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/APEXCORE-617-testEmitTuplesOutsideStreamingWindow/result/Flaky/rounds-test-results.csv",
+    "size": 17882,
+    "compressed": 596,
+    "crc32": "8eb1f610",
+    "offset": 65479033,
+    "method": 8,
+    "local_path": "data/extracted/c6574a92391cc05a9c3351e1.csv",
+    "sha256": "b168c59378cf6610c7ab40aaf964cdae967928f74514820ced46af5ddbf6e656",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

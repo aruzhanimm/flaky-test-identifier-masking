@@ -1,0 +1,81 @@
+{
+  "container": "oktahookssdkjavahooks8bf25c8errorWithDebugContext",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "oktahookssdkjavahooks8bf25c8errorWithDebugContext",
+    "project": "https://github.com/okta/okta-hooks-sdk-java",
+    "revision": "8bf25c84b54e788040ae2272e1578bc625e871d4",
+    "test": "com.okta.hooks.sdk.UserRegHooksTest.errorWithDebugContext",
+    "label": "ID",
+    "module": "hooks",
+    "zip": "okta-hooks-sdk-java=hooks=8bf25c8",
+    "config_row": 752,
+    "configured_test": "com.okta.hooks.sdk.UserRegHooksTest#errorWithDebugContext",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.UserRegHooksTest.errorWithDebugContext",
+    "variant_id": "https://github.com/okta/okta-hooks-sdk-java::com.okta.hooks.sdk.UserRegHooksTest.errorWithDebugContext::8bf25c84b54e788040ae2272e1578bc625e871d4::hooks",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/oktahookssdkjavahooks8bf25c8errorWithDebugContext/result/Flaky/.nondex/js1Vm9me+GHjCBQOgaiXdE+u1y6yYXz0l+YBjqXwKY=/TEST-com.okta.hooks.sdk.UserRegHooksTest.xml",
+        "size": 11584,
+        "compressed": 2443,
+        "crc32": "6c2ab4a5",
+        "offset": 2171546460,
+        "method": 8,
+        "local_path": "data/extracted/8d5ffa1c2a4f5cbe89211769.xml",
+        "sha256": "29f9f75cf3bb1e1599ab78665da600e3fdb686718bbd0a1e7a379d441061525d",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8errorWithDebugContext/result/Flaky/rounds-test-results.csv",
+    "size": 17209,
+    "compressed": 5133,
+    "crc32": "8e3c3d17",
+    "offset": 2167194581,
+    "method": 8,
+    "local_path": "data/extracted/7a893c8425c5ef063dd30ba0.csv",
+    "sha256": "6f45de535e8d418437e882925fd27d775ce546027538203ea9a23c6a67ffbec6",
+    "status": "verified"
+  },
+  "reported_failure_rows": 49,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/oktahookssdkjavahooks8bf25c8errorWithDebugContext/result/Flaky/.nondex/js1Vm9me+GHjCBQOgaiXdE+u1y6yYXz0l+YBjqXwKY=/TEST-com.okta.hooks.sdk.UserRegHooksTest.xml",
+    "size": 11584,
+    "compressed": 2443,
+    "crc32": "6c2ab4a5",
+    "offset": 2171546460,
+    "method": 8,
+    "local_path": "data/extracted/8d5ffa1c2a4f5cbe89211769.xml",
+    "sha256": "29f9f75cf3bb1e1599ab78665da600e3fdb686718bbd0a1e7a379d441061525d",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "errorWithDebugContext",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: is \"{\\\"error\\\":{\\\"errorCauses\\\":[{\\\"errorSummary\\\":\\\"test-error\\\"}]},\\\"debugContext\\\":{\\\"foo\\\":\\\"bar\\\",\\\"one\\\":\\\"two\\\"}}\"\n     but: was \"{\\\"debugContext\\\":{\\\"foo\\\":\\\"bar\\\",\\\"one\\\":\\\"two\\\"},\\\"error\\\":{\\\"errorCauses\\\":[{\\\"errorSummary\\\":\\\"test-error\\\"}]}}\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: is \"{\\\"error\\\":{\\\"errorCauses\\\":[{\\\"errorSummary\\\":\\\"test-error\\\"}]},\\\"debugContext\\\":{\\\"foo\\\":\\\"bar\\\",\\\"one\\\":\\\"two\\\"}}\"\n     but: was \"{\\\"debugContext\\\":{\\\"foo\\\":\\\"bar\\\",\\\"one\\\":\\\"two\\\"},\\\"error\\\":{\\\"errorCauses\\\":[{\\\"errorSummary\\\":\\\"test-error\\\"}]}}\"\n\tat com.okta.hooks.sdk.UserRegHooksTest.errorWithDebugContext(UserRegHooksTest.groovy:47)",
+    "text": "java.lang.AssertionError\nExpected: is \"{\\\"error\\\":{\\\"errorCauses\\\":[{\\\"errorSummary\\\":\\\"test-error\\\"}]},\\\"debugContext\\\":{\\\"foo\\\":\\\"bar\\\",\\\"one\\\":\\\"two\\\"}}\"\n     but: was \"{\\\"debugContext\\\":{\\\"foo\\\":\\\"bar\\\",\\\"one\\\":\\\"two\\\"},\\\"error\\\":{\\\"errorCauses\\\":[{\\\"errorSummary\\\":\\\"test-error\\\"}]}}\"\njava.lang.AssertionError: \n\nExpected: is \"{\\\"error\\\":{\\\"errorCauses\\\":[{\\\"errorSummary\\\":\\\"test-error\\\"}]},\\\"debugContext\\\":{\\\"foo\\\":\\\"bar\\\",\\\"one\\\":\\\"two\\\"}}\"\n     but: was \"{\\\"debugContext\\\":{\\\"foo\\\":\\\"bar\\\",\\\"one\\\":\\\"two\\\"},\\\"error\\\":{\\\"errorCauses\\\":[{\\\"errorSummary\\\":\\\"test-error\\\"}]}}\"\n\tat com.okta.hooks.sdk.UserRegHooksTest.errorWithDebugContext(UserRegHooksTest.groovy:47)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "e892c5bf107b2e7c402aee6a52e5dd0b2492ecd235bf87fbe361f3dd78b1f52d"
+}

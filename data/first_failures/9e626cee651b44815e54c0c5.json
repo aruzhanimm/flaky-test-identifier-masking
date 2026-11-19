@@ -1,0 +1,81 @@
+{
+  "container": "junitquickcheckcore7d23b2dproducesExpectedRandomValues1",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "junitquickcheckcore7d23b2dproducesExpectedRandomValues1",
+    "project": "https://github.com/pholser/junit-quickcheck",
+    "revision": "7d23b2de33c485ff5b73d7a28a4e83ba65482170",
+    "test": "com.pholser.junit.quickcheck.internal.generator.ExplicitGroupOfPropertyParameterGeneratorsChosenWithDiscreteProbabilityTest.producesExpectedRandomValues",
+    "label": "ID",
+    "module": "core",
+    "zip": "junit-quickcheck=core=7d23b2d",
+    "config_row": 796,
+    "configured_test": "com.pholser.junit.quickcheck.internal.generator.ExplicitGroupOfPropertyParameterGeneratorsChosenWithDiscreteProbabilityTest#producesExpectedRandomValues",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/pholser/junit-quickcheck::com.pholser.junit.quickcheck.internal.generator.ExplicitGroupOfPropertyParameterGeneratorsChosenWithDiscreteProbabilityTest.producesExpectedRandomValues",
+    "variant_id": "https://github.com/pholser/junit-quickcheck::com.pholser.junit.quickcheck.internal.generator.ExplicitGroupOfPropertyParameterGeneratorsChosenWithDiscreteProbabilityTest.producesExpectedRandomValues::7d23b2de33c485ff5b73d7a28a4e83ba65482170::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/junitquickcheckcore7d23b2dproducesExpectedRandomValues1/result/Flaky/.nondex/355UOUTlCiJ6fxbZHztM2uLrFrB6zb+aQ97Uu4M9x8=/TEST-com.pholser.junit.quickcheck.internal.generator.ExplicitGroupOfPropertyParameterGeneratorsChosenWithDiscreteProbabilityTest.xml",
+        "size": 10115,
+        "compressed": 2291,
+        "crc32": "13375f9a",
+        "offset": 1164275355,
+        "method": 8,
+        "local_path": "data/extracted/2b17e0afa476cf87d5ebb238.xml",
+        "sha256": "da1dfc15dafa38e964177266e336acdfe4cbc830bb7d47cacc23a644387d66ea",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/junitquickcheckcore7d23b2dproducesExpectedRandomValues1/result/Flaky/rounds-test-results.csv",
+    "size": 25993,
+    "compressed": 5239,
+    "crc32": "83f24aff",
+    "offset": 1163970943,
+    "method": 8,
+    "local_path": "data/extracted/4f417f5df1e4602dab2a9268.csv",
+    "sha256": "9a8de7e80bf1e0470e58dbffa2147fa7024592236cdc42f108d66d673c347fe4",
+    "status": "verified"
+  },
+  "reported_failure_rows": 79,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/junitquickcheckcore7d23b2dproducesExpectedRandomValues1/result/Flaky/.nondex/355UOUTlCiJ6fxbZHztM2uLrFrB6zb+aQ97Uu4M9x8=/TEST-com.pholser.junit.quickcheck.internal.generator.ExplicitGroupOfPropertyParameterGeneratorsChosenWithDiscreteProbabilityTest.xml",
+    "size": 10115,
+    "compressed": 2291,
+    "crc32": "13375f9a",
+    "offset": 1164275355,
+    "method": 8,
+    "local_path": "data/extracted/2b17e0afa476cf87d5ebb238.xml",
+    "sha256": "da1dfc15dafa38e964177266e336acdfe4cbc830bb7d47cacc23a644387d66ea",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "producesExpectedRandomValues",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "0'th value\nExpected: an object that is deep-equals to \"bar\"\n     but: was \"foo\"",
+    "stack_trace": "java.lang.AssertionError: \n0'th value\nExpected: an object that is deep-equals to \"bar\"\n     but: was \"foo\"",
+    "text": "java.lang.AssertionError\n0'th value\nExpected: an object that is deep-equals to \"bar\"\n     but: was \"foo\"\njava.lang.AssertionError: \n0'th value\nExpected: an object that is deep-equals to \"bar\"\n     but: was \"foo\"",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "6eb3ac17ae815e77c17a488bef6fe0d2d8a5720908aa98e70e015d89b37f9daf"
+}

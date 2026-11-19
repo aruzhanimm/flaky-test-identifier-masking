@@ -1,0 +1,81 @@
+{
+  "container": "biojavabiojavastructure65ad15ftestBeanAnnotations",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "biojavabiojavastructure65ad15ftestBeanAnnotations",
+    "project": "https://github.com/biojava/biojava",
+    "revision": "65ad15fe58dcedd258fee1c14505e424c8536efc",
+    "test": "org.biojava.nbio.structure.io.TestMMCIFWriting.testBeanAnnotations",
+    "label": "ID",
+    "module": "biojava-structure",
+    "zip": "biojava=biojava-structure=65ad15f",
+    "config_row": 574,
+    "configured_test": "org.biojava.nbio.structure.io.TestMMCIFWriting#testBeanAnnotations",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.io.TestMMCIFWriting.testBeanAnnotations",
+    "variant_id": "https://github.com/biojava/biojava::org.biojava.nbio.structure.io.TestMMCIFWriting.testBeanAnnotations::65ad15fe58dcedd258fee1c14505e424c8536efc::biojava-structure",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/biojavabiojavastructure65ad15ftestBeanAnnotations/result/Flaky/.nondex/0d7y9CrLImS3jnz3wN8m74WP9Wny0WPD2YeT7nKOKzo=/TEST-org.biojava.nbio.structure.io.TestMMCIFWriting.xml",
+        "size": 12072,
+        "compressed": 2467,
+        "crc32": "919b78fb",
+        "offset": 347995034,
+        "method": 8,
+        "local_path": "data/extracted/321583e143e2fde92675fd7e.xml",
+        "sha256": "7bab4908fb86d83940cbe3da68f0ab222f641e437724637b593ee85e44b33e9b",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestBeanAnnotations/result/Flaky/rounds-test-results.csv",
+    "size": 19556,
+    "compressed": 4994,
+    "crc32": "6f4e6a8b",
+    "offset": 347867994,
+    "method": 8,
+    "local_path": "data/extracted/3e46454e9b545a1fab712d89.csv",
+    "sha256": "f7de2160c0d063eb7d5fcf9763715f4f6ffa3a28b5752a85c3c95891d67f0c24",
+    "status": "verified"
+  },
+  "reported_failure_rows": 62,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/biojavabiojavastructure65ad15ftestBeanAnnotations/result/Flaky/.nondex/0d7y9CrLImS3jnz3wN8m74WP9Wny0WPD2YeT7nKOKzo=/TEST-org.biojava.nbio.structure.io.TestMMCIFWriting.xml",
+    "size": 12072,
+    "compressed": 2467,
+    "crc32": "919b78fb",
+    "offset": 347995034,
+    "method": 8,
+    "local_path": "data/extracted/321583e143e2fde92675fd7e.xml",
+    "sha256": "7bab4908fb86d83940cbe3da68f0ab222f641e437724637b593ee85e44b33e9b",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testBeanAnnotations",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<_demo.[default_field   ?\n_demo.custom_label    custom_field]\n#\n> but was:<_demo.[custom_label    custom_field\n_demo.default_field   ?]\n#\n>",
+    "stack_trace": "org.junit.ComparisonFailure: \nexpected:<_demo.[default_field   ?\n_demo.custom_label    custom_field]\n#\n> but was:<_demo.[custom_label    custom_field\n_demo.default_field   ?]\n#\n>\n\tat org.biojava.nbio.structure.io.TestMMCIFWriting.testBeanAnnotations(TestMMCIFWriting.java:117)",
+    "text": "org.junit.ComparisonFailure\nexpected:<_demo.[default_field   ?\n_demo.custom_label    custom_field]\n#\n> but was:<_demo.[custom_label    custom_field\n_demo.default_field   ?]\n#\n>\norg.junit.ComparisonFailure: \nexpected:<_demo.[default_field   ?\n_demo.custom_label    custom_field]\n#\n> but was:<_demo.[custom_label    custom_field\n_demo.default_field   ?]\n#\n>\n\tat org.biojava.nbio.structure.io.TestMMCIFWriting.testBeanAnnotations(TestMMCIFWriting.java:117)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "7ae326942af332c4e0c7cc9cd46aa52e33d2ba8b1efb31011967352730e0f8ab"
+}

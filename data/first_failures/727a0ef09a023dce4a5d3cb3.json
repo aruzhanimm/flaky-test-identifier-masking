@@ -1,0 +1,81 @@
+{
+  "container": "kylinstreamcoordinator9ca3dfetestReassignFailOnStartNew",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "kylinstreamcoordinator9ca3dfetestReassignFailOnStartNew",
+    "project": "https://github.com/apache/kylin",
+    "revision": "9ca3dfec2702aace60cf2ed395b2ffc94faedb54",
+    "test": "org.apache.kylin.stream.coordinator.CoordinatorTest.testReassignFailOnStartNew",
+    "label": "ID",
+    "module": "stream-coordinator",
+    "zip": "kylin=stream-coordinator=9ca3dfe",
+    "config_row": 260,
+    "configured_test": "org.apache.kylin.stream.coordinator.CoordinatorTest#testReassignFailOnStartNew",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/kylin::org.apache.kylin.stream.coordinator.CoordinatorTest.testReassignFailOnStartNew",
+    "variant_id": "https://github.com/apache/kylin::org.apache.kylin.stream.coordinator.CoordinatorTest.testReassignFailOnStartNew::9ca3dfec2702aace60cf2ed395b2ffc94faedb54::stream-coordinator",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/kylinstreamcoordinator9ca3dfetestReassignFailOnStartNew/result/Flaky/.nondex/o40fDQYjKjelTrcA0aYL8xweNg8ZtiDTCyHnRY9zsZc=/TEST-org.apache.kylin.stream.coordinator.CoordinatorTest.xml",
+        "size": 81228,
+        "compressed": 8523,
+        "crc32": "ce6cfe9c",
+        "offset": 259287141,
+        "method": 8,
+        "local_path": "data/extracted/fa8441dcdbf9db146becc6a2.xml",
+        "sha256": "a199bd9a2b08f0ba4cfc7fd4c19b5d5d8a95a107d356cfc3f9dc634cb6cc326d",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/kylinstreamcoordinator9ca3dfetestReassignFailOnStartNew/result/Flaky/rounds-test-results.csv",
+    "size": 20028,
+    "compressed": 5146,
+    "crc32": "0db7955d",
+    "offset": 259151044,
+    "method": 8,
+    "local_path": "data/extracted/2bb536dc52f022a1677230dd.csv",
+    "sha256": "835bb2848e1fa1f12c40d55d0ab7570840887a62ce2b7a3f02ccb55883120a8b",
+    "status": "verified"
+  },
+  "reported_failure_rows": 60,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/kylinstreamcoordinator9ca3dfetestReassignFailOnStartNew/result/Flaky/.nondex/o40fDQYjKjelTrcA0aYL8xweNg8ZtiDTCyHnRY9zsZc=/TEST-org.apache.kylin.stream.coordinator.CoordinatorTest.xml",
+    "size": 81228,
+    "compressed": 8523,
+    "crc32": "ce6cfe9c",
+    "offset": 259287141,
+    "method": 8,
+    "local_path": "data/extracted/fa8441dcdbf9db146becc6a2.xml",
+    "sha256": "a199bd9a2b08f0ba4cfc7fd4c19b5d5d8a95a107d356cfc3f9dc634cb6cc326d",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testReassignFailOnStartNew",
+    "outcome": "error",
+    "exception_type": "java.lang.Exception",
+    "message": "Unexpected exception, expected<org.apache.kylin.stream.coordinator.exception.ClusterStateException> but was<java.lang.AssertionError>",
+    "stack_trace": "java.lang.Exception: Unexpected exception, expected<org.apache.kylin.stream.coordinator.exception.ClusterStateException> but was<java.lang.AssertionError>\n\tat org.apache.kylin.stream.coordinator.CoordinatorTest.testReassignFailOnStartNew(CoordinatorTest.java:271)",
+    "text": "java.lang.Exception\nUnexpected exception, expected<org.apache.kylin.stream.coordinator.exception.ClusterStateException> but was<java.lang.AssertionError>\njava.lang.Exception: Unexpected exception, expected<org.apache.kylin.stream.coordinator.exception.ClusterStateException> but was<java.lang.AssertionError>\n\tat org.apache.kylin.stream.coordinator.CoordinatorTest.testReassignFailOnStartNew(CoordinatorTest.java:271)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "30d5edea4155acd0556fc680f142c9742365617e3cb2dd68e99561a52c7a9138"
+}

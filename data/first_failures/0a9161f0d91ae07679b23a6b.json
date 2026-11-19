@@ -1,0 +1,37 @@
+{
+  "container": "ARIES-1580",
+  "metadata": {
+    "source": "JIRA",
+    "container": "ARIES-1580",
+    "project": "https://github.com/apache/aries",
+    "revision": "9d5f3928c4691a98a6dcdf178017d86377255e63",
+    "test": "org.apache.aries.blueprint.itests.ParserServiceImportXSDsBetweenNamespaceHandlersTest.testXSDImports",
+    "label": "UNCLASSIFIED",
+    "module": "blueprint/blueprint-itests",
+    "zip": "ARIES-1580",
+    "config_row": 1101,
+    "configured_test": "org.apache.aries.blueprint.itests.ParserServiceImportXSDsBetweenNamespaceHandlersTest#testXSDImports",
+    "configured_type": "Unclassified",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/aries::org.apache.aries.blueprint.itests.ParserServiceImportXSDsBetweenNamespaceHandlersTest.testXSDImports",
+    "variant_id": "https://github.com/apache/aries::org.apache.aries.blueprint.itests.ParserServiceImportXSDsBetweenNamespaceHandlersTest.testXSDImports::9d5f3928c4691a98a6dcdf178017d86377255e63::blueprint/blueprint-itests",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "unclassified",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ARIES-1580/result/Flaky/rounds-test-results.csv",
+    "size": 26283,
+    "compressed": 719,
+    "crc32": "7f26fde9",
+    "offset": 68700183,
+    "method": 8,
+    "local_path": "data/extracted/13d58e7eec73ebf80293620f.csv",
+    "sha256": "58a0ae3d80755447da21d3eb83160c482025cf274f4b919506f7379d36033678",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10
+}

@@ -1,0 +1,81 @@
+{
+  "container": "jerseymediajsonjackson1b99237testDisabledModule",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jerseymediajsonjackson1b99237testDisabledModule",
+    "project": "https://github.com/eclipse-ee4j/jersey",
+    "revision": "1b992379bed082b2a8ae42f8ec2994d5aa89d714",
+    "test": "org.glassfish.jersey.jackson.internal.DefaultJsonJacksonProviderForBothModulesTest.testDisabledModule",
+    "label": "ID",
+    "module": "media/json-jackson",
+    "zip": "jersey=media+json-jackson=1b99237",
+    "config_row": 789,
+    "configured_test": "org.glassfish.jersey.jackson.internal.DefaultJsonJacksonProviderForBothModulesTest#testDisabledModule",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/eclipse-ee4j/jersey::org.glassfish.jersey.jackson.internal.DefaultJsonJacksonProviderForBothModulesTest.testDisabledModule",
+    "variant_id": "https://github.com/eclipse-ee4j/jersey::org.glassfish.jersey.jackson.internal.DefaultJsonJacksonProviderForBothModulesTest.testDisabledModule::1b992379bed082b2a8ae42f8ec2994d5aa89d714::media/json-jackson",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/jerseymediajsonjackson1b99237testDisabledModule/result/Flaky/.nondex/qp1NP+LSljra7dlmCX4b6xWKJ0JcgkUMNoJDhUOKzhA=/TEST-org.glassfish.jersey.jackson.internal.DefaultJsonJacksonProviderForBothModulesTest.xml",
+        "size": 30677,
+        "compressed": 3947,
+        "crc32": "4fcbee95",
+        "offset": 1138827170,
+        "method": 8,
+        "local_path": "data/extracted/8531ff36e9b2b2cbcb9947d6.xml",
+        "sha256": "5dfb889beb5c99d023f19851bf1a09c2615a0b1cf5a231c64006ee751888a7f0",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jerseymediajsonjackson1b99237testDisabledModule/result/Flaky/rounds-test-results.csv",
+    "size": 23195,
+    "compressed": 5208,
+    "crc32": "d7a8aa65",
+    "offset": 1138598441,
+    "method": 8,
+    "local_path": "data/extracted/a09574b9427dde9b2e1d518c.csv",
+    "sha256": "b048328899f2130a5f71c8aabb4d9aae529908f1b6ce0c952c552d99b636d2ed",
+    "status": "verified"
+  },
+  "reported_failure_rows": 44,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/jerseymediajsonjackson1b99237testDisabledModule/result/Flaky/.nondex/qp1NP+LSljra7dlmCX4b6xWKJ0JcgkUMNoJDhUOKzhA=/TEST-org.glassfish.jersey.jackson.internal.DefaultJsonJacksonProviderForBothModulesTest.xml",
+    "size": 30677,
+    "compressed": 3947,
+    "crc32": "4fcbee95",
+    "offset": 1138827170,
+    "method": 8,
+    "local_path": "data/extracted/8531ff36e9b2b2cbcb9947d6.xml",
+    "sha256": "5dfb889beb5c99d023f19851bf1a09c2615a0b1cf5a231c64006ee751888a7f0",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testDisabledModule",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <{\"name\":\"Hello\",\"value\":\"World\"}> but was: <{\"value\":\"World\",\"name\":\"Hello\"}>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <{\"name\":\"Hello\",\"value\":\"World\"}> but was: <{\"value\":\"World\",\"name\":\"Hello\"}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat org.glassfish.jersey.jackson.internal.DefaultJsonJacksonProviderForBothModulesTest.testDisabledModule(DefaultJsonJacksonProviderForBothModulesTest.java:40)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)\n\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)\n\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)\n\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)\n\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <{\"name\":\"Hello\",\"value\":\"World\"}> but was: <{\"value\":\"World\",\"name\":\"Hello\"}>\norg.opentest4j.AssertionFailedError: expected: <{\"name\":\"Hello\",\"value\":\"World\"}> but was: <{\"value\":\"World\",\"name\":\"Hello\"}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat org.glassfish.jersey.jackson.internal.DefaultJsonJacksonProviderForBothModulesTest.testDisabledModule(DefaultJsonJacksonProviderForBothModulesTest.java:40)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)\n\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)\n\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)\n\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)\n\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)\n\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "a48b4a4d7b909d0d1a90d79131e030e6f121da85ba25fd39467262792eeb3833"
+}

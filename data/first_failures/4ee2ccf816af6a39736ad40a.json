@@ -1,0 +1,81 @@
+{
+  "container": "weblogicmonitoringexporterwlsexportercorea68055cwhenUnprotected_sendPutToServer",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "weblogicmonitoringexporterwlsexportercorea68055cwhenUnprotected_sendPutToServer",
+    "project": "https://github.com/oracle/weblogic-monitoring-exporter",
+    "revision": "a68055cb9819eb9e2b3865f49d731ca889a44ef6",
+    "test": "com.oracle.wls.exporter.WebClientImplTest.whenUnprotected_sendPutToServer",
+    "label": "ID",
+    "module": "wls-exporter-core",
+    "zip": "weblogic-monitoring-exporter=wls-exporter-core=a68055c",
+    "config_row": 217,
+    "configured_test": "com.oracle.wls.exporter.WebClientImplTest#whenUnprotected_sendPutToServer",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/oracle/weblogic-monitoring-exporter::com.oracle.wls.exporter.WebClientImplTest.whenUnprotected_sendPutToServer",
+    "variant_id": "https://github.com/oracle/weblogic-monitoring-exporter::com.oracle.wls.exporter.WebClientImplTest.whenUnprotected_sendPutToServer::a68055cb9819eb9e2b3865f49d731ca889a44ef6::wls-exporter-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/weblogicmonitoringexporterwlsexportercorea68055cwhenUnprotected_sendPutToServer/result/Flaky/.nondex/xs10YLyFKhG7ydTpb6gJ6EuJXXSKfjdS9zbihlvE3co=/TEST-com.oracle.wls.exporter.WebClientImplTest.xml",
+        "size": 13572,
+        "compressed": 2645,
+        "crc32": "4846e142",
+        "offset": 802068866,
+        "method": 8,
+        "local_path": "data/extracted/51a667cebce3cf5aea6e3591.xml",
+        "sha256": "66c3b17872fb10bc94ff81900a2b59a962c0e5954e692a69cce21f71020b2beb",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/weblogicmonitoringexporterwlsexportercorea68055cwhenUnprotected_sendPutToServer/result/Flaky/rounds-test-results.csv",
+    "size": 19047,
+    "compressed": 5028,
+    "crc32": "8df860d5",
+    "offset": 801870630,
+    "method": 8,
+    "local_path": "data/extracted/7290b74c171d8f3c440a1a71.csv",
+    "sha256": "a5bd8baa21d99b449b7b295affce4bd908964c05f60a63eff552b3d5aa4af5c1",
+    "status": "verified"
+  },
+  "reported_failure_rows": 57,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/weblogicmonitoringexporterwlsexportercorea68055cwhenUnprotected_sendPutToServer/result/Flaky/.nondex/xs10YLyFKhG7ydTpb6gJ6EuJXXSKfjdS9zbihlvE3co=/TEST-com.oracle.wls.exporter.WebClientImplTest.xml",
+    "size": 13572,
+    "compressed": 2645,
+    "crc32": "4846e142",
+    "offset": 802068866,
+    "method": 8,
+    "local_path": "data/extracted/51a667cebce3cf5aea6e3591.xml",
+    "sha256": "66c3b17872fb10bc94ff81900a2b59a962c0e5954e692a69cce21f71020b2beb",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "whenUnprotected_sendPutToServer",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: \"{\\\"count\\\":3,\\\"color\\\":\\\"red\\\"}\"\n     but: was \"{\\\"color\\\":\\\"red\\\",\\\"count\\\":3}\"\n\tat com.oracle.wls.exporter.WebClientImplTest.whenUnprotected_sendPutToServer(WebClientImplTest.java:6)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError: \n\nExpected: \"{\\\"count\\\":3,\\\"color\\\":\\\"red\\\"}\"\n     but: was \"{\\\"color\\\":\\\"red\\\",\\\"count\\\":3}\"\n\tat com.oracle.wls.exporter.WebClientImplTest.whenUnprotected_sendPutToServer(WebClientImplTest.java:6)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "e5592ad6620a5e27976e7e933f28e9abfbb51d46de8798196e4fe6d272516f9e"
+}

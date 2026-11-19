@@ -1,0 +1,81 @@
+{
+  "container": "commonkafkacommonkafkaff73afcrebalanceListener_onPartitionsAssigned",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "commonkafkacommonkafkaff73afcrebalanceListener_onPartitionsAssigned",
+    "project": "https://github.com/cerner/common-kafka",
+    "revision": "ff73afc1489d1b40f471cbb8def59af17eb3cbdb",
+    "test": "com.cerner.common.kafka.consumer.ProcessingKafkaConsumerTest.rebalanceListener_onPartitionsAssigned",
+    "label": "ID",
+    "module": "common-kafka",
+    "zip": "common-kafka=common-kafka=ff73afc",
+    "config_row": 528,
+    "configured_test": "com.cerner.common.kafka.consumer.ProcessingKafkaConsumerTest#rebalanceListener_onPartitionsAssigned",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/cerner/common-kafka::com.cerner.common.kafka.consumer.ProcessingKafkaConsumerTest.rebalanceListener_onPartitionsAssigned",
+    "variant_id": "https://github.com/cerner/common-kafka::com.cerner.common.kafka.consumer.ProcessingKafkaConsumerTest.rebalanceListener_onPartitionsAssigned::ff73afc1489d1b40f471cbb8def59af17eb3cbdb::common-kafka",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/commonkafkacommonkafkaff73afcrebalanceListener_onPartitionsAssigned/result/Flaky/.nondex/b7obys5d1H2PjB81DKaXfijOj0lbuL9dn6y9UoCf4=/TEST-com.cerner.common.kafka.consumer.ProcessingKafkaConsumerTest.xml",
+        "size": 7702,
+        "compressed": 1980,
+        "crc32": "91cae48f",
+        "offset": 368061466,
+        "method": 8,
+        "local_path": "data/extracted/bec0c65ecc8c800d05f0f846.xml",
+        "sha256": "8f7e3a479a16a757445e7eaf994ff4acb1068cc3d8db8408c6a3078b06e636ee",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/commonkafkacommonkafkaff73afcrebalanceListener_onPartitionsAssigned/result/Flaky/rounds-test-results.csv",
+    "size": 20395,
+    "compressed": 5047,
+    "crc32": "9a5c0f95",
+    "offset": 367931895,
+    "method": 8,
+    "local_path": "data/extracted/8ec78d072dbd9c3e113ac400.csv",
+    "sha256": "9ca7c5bfa5146f270f6a9cd65ec94c7a40cb50cd731abaf9b138925f045f42e0",
+    "status": "verified"
+  },
+  "reported_failure_rows": 50,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/commonkafkacommonkafkaff73afcrebalanceListener_onPartitionsAssigned/result/Flaky/.nondex/b7obys5d1H2PjB81DKaXfijOj0lbuL9dn6y9UoCf4=/TEST-com.cerner.common.kafka.consumer.ProcessingKafkaConsumerTest.xml",
+    "size": 7702,
+    "compressed": 1980,
+    "crc32": "91cae48f",
+    "offset": 368061466,
+    "method": 8,
+    "local_path": "data/extracted/bec0c65ecc8c800d05f0f846.xml",
+    "sha256": "8f7e3a479a16a757445e7eaf994ff4acb1068cc3d8db8408c6a3078b06e636ee",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "rebalanceListener_onPartitionsAssigned",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: iterable containing [<new-topic-0>, <topic-1>]\n     but: item 0: was <topic-1>",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: iterable containing [<new-topic-0>, <topic-1>]\n     but: item 0: was <topic-1>\n\tat com.cerner.common.kafka.consumer.ProcessingKafkaConsumerTest.rebalanceListener_onPartitionsAssigned(ProcessingKafkaConsumerTest.java:1173)",
+    "text": "java.lang.AssertionError\nExpected: iterable containing [<new-topic-0>, <topic-1>]\n     but: item 0: was <topic-1>\njava.lang.AssertionError: \n\nExpected: iterable containing [<new-topic-0>, <topic-1>]\n     but: item 0: was <topic-1>\n\tat com.cerner.common.kafka.consumer.ProcessingKafkaConsumerTest.rebalanceListener_onPartitionsAssigned(ProcessingKafkaConsumerTest.java:1173)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "03f387f252805c3039aa353f32b510c750fe12ba6489cd84d235632d8a32bf98"
+}

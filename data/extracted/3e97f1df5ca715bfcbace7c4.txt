@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.j256.ormlite.db.BaseDatabaseTypeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in com.j256.ormlite.db.BaseDatabaseTypeTest
+com.j256.ormlite.db.BaseDatabaseTypeTest.testDriverNotFound  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+  Unexpected method call LogBackend.isLevelEnabled(WARNING):
+	at org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:44)
+	at org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:94)
+	at com.sun.proxy.$Proxy10.isLevelEnabled(Unknown Source)
+	at com.j256.ormlite.logger.BaseLogger.logIfEnabled(BaseLogger.java:86)
+	at com.j256.ormlite.logger.Logger.warn(Logger.java:354)
+	at com.j256.ormlite.db.BaseDatabaseType.loadDriver(BaseDatabaseType.java:53)
+	at com.j256.ormlite.db.BaseDatabaseTypeTest.testDriverNotFound(BaseDatabaseTypeTest.java:22)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+

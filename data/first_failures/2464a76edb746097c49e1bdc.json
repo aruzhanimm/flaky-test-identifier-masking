@@ -1,0 +1,81 @@
+{
+  "container": "TestParameterInjectorjunit45d67f8cparseYamlStringToJavaType_success151",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "TestParameterInjectorjunit45d67f8cparseYamlStringToJavaType_success151",
+    "project": "https://github.com/google/testparameterinjector",
+    "revision": "5d67f8cb66481638bcd117227bd0103c32c84491",
+    "test": "com.google.testing.junit.testparameterinjector.ParameterValueParsingTest.parseYamlStringToJavaType_success[INT_TO_STRING]",
+    "label": "ID",
+    "module": "junit4",
+    "zip": "TestParameterInjector=junit4=5d67f8c",
+    "config_row": 697,
+    "configured_test": "com.google.testing.junit.testparameterinjector.ParameterValueParsingTest#parseYamlStringToJavaType_success[INT_TO_STRING]",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/google/testparameterinjector::com.google.testing.junit.testparameterinjector.ParameterValueParsingTest.parseYamlStringToJavaType_success[INT_TO_STRING]",
+    "variant_id": "https://github.com/google/testparameterinjector::com.google.testing.junit.testparameterinjector.ParameterValueParsingTest.parseYamlStringToJavaType_success[INT_TO_STRING]::5d67f8cb66481638bcd117227bd0103c32c84491::junit4",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/TestParameterInjectorjunit45d67f8cparseYamlStringToJavaType_success151/result/Flaky/.nondex/LMqWkMHOZGyaHT+q3Zlq1BYcLI1dAyqLrIWeMO6srw=/TEST-com.google.testing.junit.testparameterinjector.ParameterValueParsingTest.xml",
+        "size": 8986,
+        "compressed": 2096,
+        "crc32": "3179c9ba",
+        "offset": 1660325887,
+        "method": 8,
+        "local_path": "data/extracted/ea84a9c9baf485cd878cb0bf.xml",
+        "sha256": "62812d19f4548987d7928dd81aecd5a1872cb8a9520778884ce7099503ce4c2e",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/TestParameterInjectorjunit45d67f8cparseYamlStringToJavaType_success151/result/Flaky/rounds-test-results.csv",
+    "size": 20929,
+    "compressed": 4919,
+    "crc32": "821e5c11",
+    "offset": 1659825098,
+    "method": 8,
+    "local_path": "data/extracted/4dbbf9de21658148dce93270.csv",
+    "sha256": "e6e84a7a57a3e6b14bf60f1b13446f35ee770ecb9e207532cb9a2ea7aa28281b",
+    "status": "verified"
+  },
+  "reported_failure_rows": 88,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/TestParameterInjectorjunit45d67f8cparseYamlStringToJavaType_success151/result/Flaky/.nondex/LMqWkMHOZGyaHT+q3Zlq1BYcLI1dAyqLrIWeMO6srw=/TEST-com.google.testing.junit.testparameterinjector.ParameterValueParsingTest.xml",
+    "size": 8986,
+    "compressed": 2096,
+    "crc32": "3179c9ba",
+    "offset": 1660325887,
+    "method": 8,
+    "local_path": "data/extracted/ea84a9c9baf485cd878cb0bf.xml",
+    "sha256": "62812d19f4548987d7928dd81aecd5a1872cb8a9520778884ce7099503ce4c2e",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "parseYamlStringToJavaType_success[INT_TO_STRING]",
+    "outcome": "error",
+    "exception_type": "java.lang.IndexOutOfBoundsException",
+    "message": "index (2) must be less than size (1)",
+    "stack_trace": "java.lang.IndexOutOfBoundsException: index (2) must be less than size (1)",
+    "text": "java.lang.IndexOutOfBoundsException\nindex (2) must be less than size (1)\njava.lang.IndexOutOfBoundsException: index (2) must be less than size (1)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "9d9e92e0062fae2a563d981510d247c9ae6bebf4d84c827e5cf56e781e7f6fb5"
+}

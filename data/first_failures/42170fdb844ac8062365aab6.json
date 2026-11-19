@@ -1,0 +1,37 @@
+{
+  "container": "CAMEL-12025-testMultipleSubscriptionsWithTimer",
+  "metadata": {
+    "source": "JIRA",
+    "container": "CAMEL-12025-testMultipleSubscriptionsWithTimer",
+    "project": "https://github.com/apache/camel",
+    "revision": "c501ba7e6d8c94ad3c26c78a4ee941fdd745717f",
+    "test": "org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest.testMultipleSubscriptionsWithTimer",
+    "label": "TD",
+    "module": "components/camel-reactor",
+    "zip": "CAMEL-12025",
+    "config_row": 1109,
+    "configured_test": "org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest#testMultipleSubscriptionsWithTimer",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/camel::org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest.testMultipleSubscriptionsWithTimer",
+    "variant_id": "https://github.com/apache/camel::org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest.testMultipleSubscriptionsWithTimer::c501ba7e6d8c94ad3c26c78a4ee941fdd745717f::components/camel-reactor",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/CAMEL-12025-testMultipleSubscriptionsWithTimer/result/Flaky/rounds-test-results.csv",
+    "size": 24482,
+    "compressed": 736,
+    "crc32": "5a7772d1",
+    "offset": 79061839,
+    "method": 8,
+    "local_path": "data/extracted/030746f149f85ba936604171.csv",
+    "sha256": "33a4cc560b6650e41b91994be7e808292bc9ac7225f1fc86a708495d63db2edb",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

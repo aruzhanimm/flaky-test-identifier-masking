@@ -1,0 +1,37 @@
+{
+  "container": "CAMEL-12025-testFrom",
+  "metadata": {
+    "source": "JIRA",
+    "container": "CAMEL-12025-testFrom",
+    "project": "https://github.com/apache/camel",
+    "revision": "c501ba7e6d8c94ad3c26c78a4ee941fdd745717f",
+    "test": "org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest.testFrom",
+    "label": "TD",
+    "module": "components/camel-reactor",
+    "zip": "CAMEL-12025",
+    "config_row": 1108,
+    "configured_test": "org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest#testFrom",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/camel::org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest.testFrom",
+    "variant_id": "https://github.com/apache/camel::org.apache.camel.component.reactor.engine.ReactorStreamsServiceTest.testFrom::c501ba7e6d8c94ad3c26c78a4ee941fdd745717f::components/camel-reactor",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/CAMEL-12025-testFrom/result/Flaky/rounds-test-results.csv",
+    "size": 21882,
+    "compressed": 738,
+    "crc32": "3bd27927",
+    "offset": 2011965462,
+    "method": 8,
+    "local_path": "data/extracted/9e759ef188c56de6133d2b9e.csv",
+    "sha256": "b6cd64eecd1517635f50f1299e28a61c32de7b2ac3a40fa013593be17f3ca555",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

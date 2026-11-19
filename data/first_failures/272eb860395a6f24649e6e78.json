@@ -1,0 +1,81 @@
+{
+  "container": "nifinifinarbundlesnifihbasebundlenifihbaseprocessors0ade040testFetchToContentWithQualifierAndValueJSON",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "nifinifinarbundlesnifihbasebundlenifihbaseprocessors0ade040testFetchToContentWithQualifierAndValueJSON",
+    "project": "https://github.com/apache/nifi",
+    "revision": "0ade040b76f232ecd394b1ed93c8d2c9134768bb",
+    "test": "org.apache.nifi.hbase.TestFetchHBaseRow.testFetchToContentWithQualifierAndValueJSON",
+    "label": "ID",
+    "module": "nifi-nar-bundles/nifi-hbase-bundle/nifi-hbase-processors",
+    "zip": "nifi=nifi-nar-bundles+nifi-hbase-bundle+nifi-hbase-processors=0ade040",
+    "config_row": 774,
+    "configured_test": "org.apache.nifi.hbase.TestFetchHBaseRow#testFetchToContentWithQualifierAndValueJSON",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/nifi::org.apache.nifi.hbase.TestFetchHBaseRow.testFetchToContentWithQualifierAndValueJSON",
+    "variant_id": "https://github.com/apache/nifi::org.apache.nifi.hbase.TestFetchHBaseRow.testFetchToContentWithQualifierAndValueJSON::0ade040b76f232ecd394b1ed93c8d2c9134768bb::nifi-nar-bundles/nifi-hbase-bundle/nifi-hbase-processors",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 6,
+      "iteration": 5,
+      "member": {
+        "path": "result/nifinifinarbundlesnifihbasebundlenifihbaseprocessors0ade040testFetchToContentWithQualifierAndValueJSON/result/Flaky/.nondex/27wo8PECWDh7gxi79FQaEKcHhgKQqjnIkWu4cp7TEys=/TEST-org.apache.nifi.hbase.TestFetchHBaseRow.xml",
+        "size": 27994,
+        "compressed": 3787,
+        "crc32": "6a74c3a7",
+        "offset": 1199869771,
+        "method": 8,
+        "local_path": "data/extracted/60c03d84c0836ece66203720.xml",
+        "sha256": "3a2d347b89e9e439b228d7f05b4dfaf5fa1330e122b2a576e9b0302a65c875c3",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/nifinifinarbundlesnifihbasebundlenifihbaseprocessors0ade040testFetchToContentWithQualifierAndValueJSON/result/Flaky/rounds-test-results.csv",
+    "size": 22707,
+    "compressed": 5123,
+    "crc32": "46c490a7",
+    "offset": 1200432741,
+    "method": 8,
+    "local_path": "data/extracted/c7474f0d8840b53a46f1de29.csv",
+    "sha256": "46823add57ecddf9675e3121b5eaf6913c9d52736a690382a7425e70f953f9ab",
+    "status": "verified"
+  },
+  "reported_failure_rows": 53,
+  "iteration": 5,
+  "source_row": 6,
+  "diagnostic_member": {
+    "path": "result/nifinifinarbundlesnifihbasebundlenifihbaseprocessors0ade040testFetchToContentWithQualifierAndValueJSON/result/Flaky/.nondex/27wo8PECWDh7gxi79FQaEKcHhgKQqjnIkWu4cp7TEys=/TEST-org.apache.nifi.hbase.TestFetchHBaseRow.xml",
+    "size": 27994,
+    "compressed": 3787,
+    "crc32": "6a74c3a7",
+    "offset": 1199869771,
+    "method": 8,
+    "local_path": "data/extracted/60c03d84c0836ece66203720.xml",
+    "sha256": "3a2d347b89e9e439b228d7f05b4dfaf5fa1330e122b2a576e9b0302a65c875c3",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testFetchToContentWithQualifierAndValueJSON",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": null,
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <{\"cq1\":\"val1\", \"cq2\":\"val2\"}> but was: <{\"cq2\":\"val2\", \"cq1\":\"val1\"}>\n\tat org.apache.nifi.hbase.TestFetchHBaseRow.testFetchToContentWithQualifierAndValueJSON(TestFetchHBaseRow.java:354)",
+    "text": "org.opentest4j.AssertionFailedError\norg.opentest4j.AssertionFailedError: expected: <{\"cq1\":\"val1\", \"cq2\":\"val2\"}> but was: <{\"cq2\":\"val2\", \"cq1\":\"val1\"}>\n\tat org.apache.nifi.hbase.TestFetchHBaseRow.testFetchToContentWithQualifierAndValueJSON(TestFetchHBaseRow.java:354)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "b1a2e5c72fd6d1a4b420f1e7cf7d838c080fe6b5b9411cde2bc18fed27aadfc7"
+}

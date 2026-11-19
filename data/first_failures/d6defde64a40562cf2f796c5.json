@@ -1,0 +1,81 @@
+{
+  "container": "cloudstackpluginsnetworkelementsniciranvp2bb182ctestExecuteUnauthorizedThenSuccess",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "cloudstackpluginsnetworkelementsniciranvp2bb182ctestExecuteUnauthorizedThenSuccess",
+    "project": "https://github.com/apache/cloudstack",
+    "revision": "2bb182c3e1eb18f4e4496152aabcea9e1c71ff96",
+    "test": "com.cloud.network.nicira.NiciraRestClientTest.testExecuteUnauthorizedThenSuccess",
+    "label": "ID",
+    "module": "plugins/network-elements/nicira-nvp",
+    "zip": "cloudstack=plugins+network-elements+nicira-nvp=2bb182c",
+    "config_row": 58,
+    "configured_test": "com.cloud.network.nicira.NiciraRestClientTest#testExecuteUnauthorizedThenSuccess",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/cloudstack::com.cloud.network.nicira.NiciraRestClientTest.testExecuteUnauthorizedThenSuccess",
+    "variant_id": "https://github.com/apache/cloudstack::com.cloud.network.nicira.NiciraRestClientTest.testExecuteUnauthorizedThenSuccess::2bb182c3e1eb18f4e4496152aabcea9e1c71ff96::plugins/network-elements/nicira-nvp",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 8,
+      "iteration": 7,
+      "member": {
+        "path": "result/cloudstackpluginsnetworkelementsniciranvp2bb182ctestExecuteUnauthorizedThenSuccess/result/Flaky/.nondex/5qcrgQW2L4v0zT6hpGo2D31Z040ZU5iDXCKNLWPZIs=/TEST-com.cloud.network.nicira.NiciraRestClientTest.xml",
+        "size": 38126,
+        "compressed": 5307,
+        "crc32": "45625931",
+        "offset": 2089580774,
+        "method": 8,
+        "local_path": "data/extracted/1d6b6cd5e041ec52fb27ff38.xml",
+        "sha256": "a23d9fd30ab7a9a115348130c8bc9bec10703fe36b6f9dd53fa7637c04a10efc",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/cloudstackpluginsnetworkelementsniciranvp2bb182ctestExecuteUnauthorizedThenSuccess/result/Flaky/rounds-test-results.csv",
+    "size": 21086,
+    "compressed": 5103,
+    "crc32": "72ca9e98",
+    "offset": 2089315215,
+    "method": 8,
+    "local_path": "data/extracted/688a7aac13e98b59e76b73fc.csv",
+    "sha256": "e05c0aba718c987eb4eb987f8f10c9e4cfa4c127caa7c8b2f9d44f0a7943095c",
+    "status": "verified"
+  },
+  "reported_failure_rows": 44,
+  "iteration": 7,
+  "source_row": 8,
+  "diagnostic_member": {
+    "path": "result/cloudstackpluginsnetworkelementsniciranvp2bb182ctestExecuteUnauthorizedThenSuccess/result/Flaky/.nondex/5qcrgQW2L4v0zT6hpGo2D31Z040ZU5iDXCKNLWPZIs=/TEST-com.cloud.network.nicira.NiciraRestClientTest.xml",
+    "size": 38126,
+    "compressed": 5307,
+    "crc32": "45625931",
+    "offset": 2089580774,
+    "method": 8,
+    "local_path": "data/extracted/1d6b6cd5e041ec52fb27ff38.xml",
+    "sha256": "a23d9fd30ab7a9a115348130c8bc9bec10703fe36b6f9dd53fa7637c04a10efc",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testExecuteUnauthorizedThenSuccess",
+    "outcome": "error",
+    "exception_type": "java.lang.NullPointerException",
+    "message": null,
+    "stack_trace": "java.lang.NullPointerException",
+    "text": "java.lang.NullPointerException\njava.lang.NullPointerException",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "8505680f50b5eed19b4e73c7526db486d42c9fb49f10d99a8d2d2933d17b5ee7"
+}

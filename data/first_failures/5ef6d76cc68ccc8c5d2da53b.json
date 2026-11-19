@@ -1,0 +1,81 @@
+{
+  "container": "jmetermavenplugincd921decreateConfigFromResourceFile",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jmetermavenplugincd921decreateConfigFromResourceFile",
+    "project": "https://github.com/jmeter-maven-plugin/jmeter-maven-plugin",
+    "revision": "cd921de8c6425d80d06426482754be60732c0a11",
+    "test": "com.lazerycode.jmeter.json.TestConfigTest.createConfigFromResourceFile",
+    "label": "ID",
+    "module": ".",
+    "zip": "jmeter-maven-plugin=.=cd921de",
+    "config_row": 793,
+    "configured_test": "com.lazerycode.jmeter.json.TestConfigTest#createConfigFromResourceFile",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/jmeter-maven-plugin/jmeter-maven-plugin::com.lazerycode.jmeter.json.TestConfigTest.createConfigFromResourceFile",
+    "variant_id": "https://github.com/jmeter-maven-plugin/jmeter-maven-plugin::com.lazerycode.jmeter.json.TestConfigTest.createConfigFromResourceFile::cd921de8c6425d80d06426482754be60732c0a11::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/jmetermavenplugincd921decreateConfigFromResourceFile/result/Flaky/.nondex/W4cIpsCtrTFo0l2E4YFbTkfxwfEzBcJXldpsVUxZ5yI=/TEST-com.lazerycode.jmeter.json.TestConfigTest.xml",
+        "size": 17027,
+        "compressed": 2996,
+        "crc32": "407e565b",
+        "offset": 1148637768,
+        "method": 8,
+        "local_path": "data/extracted/979628f0b91adfe6d32e2f84.xml",
+        "sha256": "45cc5d7f75b2ea0c6bef4d1e2a71c121ee9a852eee81062090edc60d9aafa10a",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jmetermavenplugincd921decreateConfigFromResourceFile/result/Flaky/rounds-test-results.csv",
+    "size": 17533,
+    "compressed": 5051,
+    "crc32": "74f7a7ab",
+    "offset": 1148424708,
+    "method": 8,
+    "local_path": "data/extracted/d824de0379ab2ab756e5f780.csv",
+    "sha256": "6f942fa87c48040728d60c5603b5e3539f2a3dd24aed7b987a626184aec3c84f",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/jmetermavenplugincd921decreateConfigFromResourceFile/result/Flaky/.nondex/W4cIpsCtrTFo0l2E4YFbTkfxwfEzBcJXldpsVUxZ5yI=/TEST-com.lazerycode.jmeter.json.TestConfigTest.xml",
+    "size": 17027,
+    "compressed": 2996,
+    "crc32": "407e565b",
+    "offset": 1148637768,
+    "method": 8,
+    "local_path": "data/extracted/979628f0b91adfe6d32e2f84.xml",
+    "sha256": "45cc5d7f75b2ea0c6bef4d1e2a71c121ee9a852eee81062090edc60d9aafa10a",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "createConfigFromResourceFile",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<...\":\"test-execution\",\"[jmeterDirectoryPath\":null,\"runtimeJarName\":null,\"resultsOutputIsCSVFormat\":false,\"generateReports\":false,\"resultFilesLocations\":[],\"propertiesMap]\":null,\"jmeterWorkin...> but was:<...\":\"test-execution\",\"[resultFilesLocations\":[],\"propertiesMap\":null,\"runtimeJarName\":null,\"resultsOutputIsCSVFormat\":false,\"generateReports\":false,\"jmeterDirectoryPath]\":null,\"jmeterWorkin...>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<...\":\"test-execution\",\"[jmeterDirectoryPath\":null,\"runtimeJarName\":null,\"resultsOutputIsCSVFormat\":false,\"generateReports\":false,\"resultFilesLocations\":[],\"propertiesMap]\":null,\"jmeterWorkin...> but was:<...\":\"test-execution\",\"[resultFilesLocations\":[],\"propertiesMap\":null,\"runtimeJarName\":null,\"resultsOutputIsCSVFormat\":false,\"generateReports\":false,\"jmeterDirectoryPath]\":null,\"jmeterWorkin...>\n\tat com.lazerycode.jmeter.json.TestConfigTest.createConfigFromResourceFile(TestConfigTest.java:28)",
+    "text": "org.junit.ComparisonFailure\nexpected:<...\":\"test-execution\",\"[jmeterDirectoryPath\":null,\"runtimeJarName\":null,\"resultsOutputIsCSVFormat\":false,\"generateReports\":false,\"resultFilesLocations\":[],\"propertiesMap]\":null,\"jmeterWorkin...> but was:<...\":\"test-execution\",\"[resultFilesLocations\":[],\"propertiesMap\":null,\"runtimeJarName\":null,\"resultsOutputIsCSVFormat\":false,\"generateReports\":false,\"jmeterDirectoryPath]\":null,\"jmeterWorkin...>\norg.junit.ComparisonFailure: expected:<...\":\"test-execution\",\"[jmeterDirectoryPath\":null,\"runtimeJarName\":null,\"resultsOutputIsCSVFormat\":false,\"generateReports\":false,\"resultFilesLocations\":[],\"propertiesMap]\":null,\"jmeterWorkin...> but was:<...\":\"test-execution\",\"[resultFilesLocations\":[],\"propertiesMap\":null,\"runtimeJarName\":null,\"resultsOutputIsCSVFormat\":false,\"generateReports\":false,\"jmeterDirectoryPath]\":null,\"jmeterWorkin...>\n\tat com.lazerycode.jmeter.json.TestConfigTest.createConfigFromResourceFile(TestConfigTest.java:28)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "226a4b5b94d22c89eb7263cbc9d75e2e95d4064d8e797207532d56671b28de28"
+}

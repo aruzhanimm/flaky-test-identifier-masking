@@ -1,0 +1,37 @@
+{
+  "container": "HBASE-27051",
+  "metadata": {
+    "source": "JIRA",
+    "container": "HBASE-27051",
+    "project": "https://github.com/apache/hbase",
+    "revision": "a0f576cce46c8c96f97316b5fd279fd68ddd46dd",
+    "test": "org.apache.hadoop.hbase.replication.regionserver.TestReplicationSource.testReplicationSourceInitializingMetric",
+    "label": "TD",
+    "module": "hbase-server",
+    "zip": "HBASE-27051",
+    "config_row": 1076,
+    "configured_test": "org.apache.hadoop.hbase.replication.regionserver.TestReplicationSource#testReplicationSourceInitializingMetric",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hbase::org.apache.hadoop.hbase.replication.regionserver.TestReplicationSource.testReplicationSourceInitializingMetric",
+    "variant_id": "https://github.com/apache/hbase::org.apache.hadoop.hbase.replication.regionserver.TestReplicationSource.testReplicationSourceInitializingMetric::a0f576cce46c8c96f97316b5fd279fd68ddd46dd::hbase-server",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/HBASE-27051/result/Flaky/rounds-test-results.csv",
+    "size": 24381,
+    "compressed": 714,
+    "crc32": "9612b8c1",
+    "offset": 92721348,
+    "method": 8,
+    "local_path": "data/extracted/f5526a6fd99d624678450b2b.csv",
+    "sha256": "d69c1d6399c3151a7180d3ded8974a38c3ae8cf55c6869107a487937649e7c97",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

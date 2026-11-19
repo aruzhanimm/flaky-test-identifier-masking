@@ -1,0 +1,81 @@
+{
+  "container": "fastjson2core62a67f2test",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "fastjson2core62a67f2test",
+    "project": "https://github.com/alibaba/fastjson2",
+    "revision": "62a67f2602c515c27ef2b9e0f4fbec5b2e572623",
+    "test": "com.alibaba.fastjson2.issues_2900.Issue2959.test",
+    "label": "ID",
+    "module": "core",
+    "zip": "fastjson2=core=62a67f2",
+    "config_row": 504,
+    "configured_test": "com.alibaba.fastjson2.issues_2900.Issue2959#test",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/alibaba/fastjson2::com.alibaba.fastjson2.issues_2900.Issue2959.test",
+    "variant_id": "https://github.com/alibaba/fastjson2::com.alibaba.fastjson2.issues_2900.Issue2959.test::62a67f2602c515c27ef2b9e0f4fbec5b2e572623::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/fastjson2core62a67f2test/result/Flaky/.nondex/GOtw8YudFpMVe0qquz1CFNGYvSMtCfOpBOUKcD7t8Dc=/TEST-com.alibaba.fastjson2.issues_2900.Issue2959.xml",
+        "size": 44691,
+        "compressed": 5724,
+        "crc32": "3df9f806",
+        "offset": 473111804,
+        "method": 8,
+        "local_path": "data/extracted/4330f26b2bc97ed1fb23d188.xml",
+        "sha256": "4d2f947749b62aa3c6e4adfcc911b4bad49380ff7c7c68af67579f451b95e133",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/fastjson2core62a67f2test/result/Flaky/rounds-test-results.csv",
+    "size": 18080,
+    "compressed": 5075,
+    "crc32": "38ba639f",
+    "offset": 471618419,
+    "method": 8,
+    "local_path": "data/extracted/dd9312461ea8dd76cc0e77b9.csv",
+    "sha256": "56a86c10667fb819c0eaa579fe8a293ce12a83e6f4feeaac2f564bc2f94c82fd",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/fastjson2core62a67f2test/result/Flaky/.nondex/GOtw8YudFpMVe0qquz1CFNGYvSMtCfOpBOUKcD7t8Dc=/TEST-com.alibaba.fastjson2.issues_2900.Issue2959.xml",
+    "size": 44691,
+    "compressed": 5724,
+    "crc32": "3df9f806",
+    "offset": 473111804,
+    "method": 8,
+    "local_path": "data/extracted/4330f26b2bc97ed1fb23d188.xml",
+    "sha256": "4d2f947749b62aa3c6e4adfcc911b4bad49380ff7c7c68af67579f451b95e133",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <{\"projectNO\":null,\"orderNO\":null,\"orderType\":null,\"pN\":null,\"qty\":null,\"description\":null,\"customerCode\":null,\"customerName\":null,\"currency\":null,\"netPrice\":null,\"uSD\":null,\"rate\":null,\"orderDate\":null,\"requestDate\":null,\"planedDate\":null,\"this$0\":null}> but was: <{\"pN\":null,\"customerName\":null,\"qty\":null,\"uSD\":null,\"orderDate\":null,\"orderType\":null,\"projectNO\":null,\"this$0\":null,\"planedDate\":null,\"currency\":null,\"orderNO\":null,\"customerCode\":null,\"description\":null,\"requestDate\":null,\"rate\":null,\"netPrice\":null}>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: expected: <{\"projectNO\":null,\"orderNO\":null,\"orderType\":null,\"pN\":null,\"qty\":null,\"description\":null,\"customerCode\":null,\"customerName\":null,\"currency\":null,\"netPrice\":null,\"uSD\":null,\"rate\":null,\"orderDate\":null,\"requestDate\":null,\"planedDate\":null,\"this$0\":null}> but was: <{\"pN\":null,\"customerName\":null,\"qty\":null,\"uSD\":null,\"orderDate\":null,\"orderType\":null,\"projectNO\":null,\"this$0\":null,\"planedDate\":null,\"currency\":null,\"orderNO\":null,\"customerCode\":null,\"description\":null,\"requestDate\":null,\"rate\":null,\"netPrice\":null}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat com.alibaba.fastjson2.issues_2900.Issue2959.test(Issue2959.java:17)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <{\"projectNO\":null,\"orderNO\":null,\"orderType\":null,\"pN\":null,\"qty\":null,\"description\":null,\"customerCode\":null,\"customerName\":null,\"currency\":null,\"netPrice\":null,\"uSD\":null,\"rate\":null,\"orderDate\":null,\"requestDate\":null,\"planedDate\":null,\"this$0\":null}> but was: <{\"pN\":null,\"customerName\":null,\"qty\":null,\"uSD\":null,\"orderDate\":null,\"orderType\":null,\"projectNO\":null,\"this$0\":null,\"planedDate\":null,\"currency\":null,\"orderNO\":null,\"customerCode\":null,\"description\":null,\"requestDate\":null,\"rate\":null,\"netPrice\":null}>\norg.opentest4j.AssertionFailedError: expected: <{\"projectNO\":null,\"orderNO\":null,\"orderType\":null,\"pN\":null,\"qty\":null,\"description\":null,\"customerCode\":null,\"customerName\":null,\"currency\":null,\"netPrice\":null,\"uSD\":null,\"rate\":null,\"orderDate\":null,\"requestDate\":null,\"planedDate\":null,\"this$0\":null}> but was: <{\"pN\":null,\"customerName\":null,\"qty\":null,\"uSD\":null,\"orderDate\":null,\"orderType\":null,\"projectNO\":null,\"this$0\":null,\"planedDate\":null,\"currency\":null,\"orderNO\":null,\"customerCode\":null,\"description\":null,\"requestDate\":null,\"rate\":null,\"netPrice\":null}>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)\n\tat com.alibaba.fastjson2.issues_2900.Issue2959.test(Issue2959.java:17)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "49809b1c07cae6725cd55c6ddcdc07a983bfe678310421a832f4b275769e2a52"
+}

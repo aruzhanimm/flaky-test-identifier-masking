@@ -1,0 +1,37 @@
+{
+  "container": "MAHOUT-1127",
+  "metadata": {
+    "source": "JIRA",
+    "container": "MAHOUT-1127",
+    "project": "https://github.com/apache/mahout",
+    "revision": "f96f852a9c77b72c2a521fa89801b202df41624a",
+    "test": "org.apache.mahout.classifier.sgd.OnlineLogisticRegressionTest.iris",
+    "label": "UNCLASSIFIED",
+    "module": "core",
+    "zip": "MAHOUT-1127",
+    "config_row": 1111,
+    "configured_test": "org.apache.mahout.classifier.sgd.OnlineLogisticRegressionTest#iris",
+    "configured_type": "unclassified",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/mahout::org.apache.mahout.classifier.sgd.OnlineLogisticRegressionTest.iris",
+    "variant_id": "https://github.com/apache/mahout::org.apache.mahout.classifier.sgd.OnlineLogisticRegressionTest.iris::f96f852a9c77b72c2a521fa89801b202df41624a::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "unclassified",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/MAHOUT-1127/result/Flaky/rounds-test-results.csv",
+    "size": 18333,
+    "compressed": 690,
+    "crc32": "d5e82c62",
+    "offset": 118183050,
+    "method": 8,
+    "local_path": "data/extracted/6c5e4c4ab484c2bedb417036.csv",
+    "sha256": "f5723349d7948d451d3fcd831e4bacd9157ee287df75f4a78f669ed2821551b5",
+    "status": "verified"
+  },
+  "reported_failure_rows": 18
+}

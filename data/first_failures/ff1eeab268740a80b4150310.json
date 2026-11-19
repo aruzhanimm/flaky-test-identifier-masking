@@ -1,0 +1,81 @@
+{
+  "container": "servicecombjavachassiscore7fcf44eshould_convert_unknown_client_exception_to_invocation_exception",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "servicecombjavachassiscore7fcf44eshould_convert_unknown_client_exception_to_invocation_exception",
+    "project": "https://github.com/apache/servicecomb-java-chassis",
+    "revision": "7fcf44e9eb63fa8eaa628011c6f79d2a674a4dfa",
+    "test": "org.apache.servicecomb.core.exception.ExceptionsTest.should_convert_unknown_client_exception_to_invocation_exception",
+    "label": "ID",
+    "module": "core",
+    "zip": "servicecomb-java-chassis=core=7fcf44e",
+    "config_row": 202,
+    "configured_test": "org.apache.servicecomb.core.exception.ExceptionsTest#should_convert_unknown_client_exception_to_invocation_exception",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.core.exception.ExceptionsTest.should_convert_unknown_client_exception_to_invocation_exception",
+    "variant_id": "https://github.com/apache/servicecomb-java-chassis::org.apache.servicecomb.core.exception.ExceptionsTest.should_convert_unknown_client_exception_to_invocation_exception::7fcf44e9eb63fa8eaa628011c6f79d2a674a4dfa::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/servicecombjavachassiscore7fcf44eshould_convert_unknown_client_exception_to_invocation_exception/result/Flaky/.nondex/Fk0ZDKEeQsinLykNhtmfIjowvIbpDq3pbhVRXRD5c68=/TEST-org.apache.servicecomb.core.exception.ExceptionsTest.xml",
+        "size": 33345,
+        "compressed": 4653,
+        "crc32": "a657ee6c",
+        "offset": 2101840952,
+        "method": 8,
+        "local_path": "data/extracted/c9633fe6dc320be9738e964e.xml",
+        "sha256": "1a614ee4a99126961d1e5c6705d3c1fae3e6b30680139650f5c29f3f79cac2bd",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/servicecombjavachassiscore7fcf44eshould_convert_unknown_client_exception_to_invocation_exception/result/Flaky/rounds-test-results.csv",
+    "size": 18777,
+    "compressed": 5033,
+    "crc32": "3e2b2533",
+    "offset": 2101596160,
+    "method": 8,
+    "local_path": "data/extracted/513585827691db6ca178659a.csv",
+    "sha256": "282c3b22259b424008a796ac88d3bf7152105cba133651e2c87e0fda6ebcc0d6",
+    "status": "verified"
+  },
+  "reported_failure_rows": 52,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/servicecombjavachassiscore7fcf44eshould_convert_unknown_client_exception_to_invocation_exception/result/Flaky/.nondex/Fk0ZDKEeQsinLykNhtmfIjowvIbpDq3pbhVRXRD5c68=/TEST-org.apache.servicecomb.core.exception.ExceptionsTest.xml",
+    "size": 33345,
+    "compressed": 4653,
+    "crc32": "a657ee6c",
+    "offset": 2101840952,
+    "method": 8,
+    "local_path": "data/extracted/c9633fe6dc320be9738e964e.xml",
+    "sha256": "1a614ee4a99126961d1e5c6705d3c1fae3e6b30680139650f5c29f3f79cac2bd",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "should_convert_unknown_client_exception_to_invocation_exception",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: \"{\"code\":\"SCB.00000000\",\"message\":\"Unexpected exception when processing none. msg\"}\"\n but was: \"{\"message\":\"Unexpected exception when processing none. msg\",\"code\":\"SCB.00000000\"}\"",
+    "stack_trace": "org.opentest4j.AssertionFailedError: \n\nexpected: \"{\"code\":\"SCB.00000000\",\"message\":\"Unexpected exception when processing none. msg\"}\"\n but was: \"{\"message\":\"Unexpected exception when processing none. msg\",\"code\":\"SCB.00000000\"}\"\n\tat org.apache.servicecomb.core.exception.ExceptionsTest.should_convert_unknown_client_exception_to_invocation_exception(ExceptionsTest.java:55)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: \"{\"code\":\"SCB.00000000\",\"message\":\"Unexpected exception when processing none. msg\"}\"\n but was: \"{\"message\":\"Unexpected exception when processing none. msg\",\"code\":\"SCB.00000000\"}\"\norg.opentest4j.AssertionFailedError: \n\nexpected: \"{\"code\":\"SCB.00000000\",\"message\":\"Unexpected exception when processing none. msg\"}\"\n but was: \"{\"message\":\"Unexpected exception when processing none. msg\",\"code\":\"SCB.00000000\"}\"\n\tat org.apache.servicecomb.core.exception.ExceptionsTest.should_convert_unknown_client_exception_to_invocation_exception(ExceptionsTest.java:55)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "e384110e6c2a2753adb6f8b1c111582d6327ff430a61ae537de42dad92f2ec5c"
+}

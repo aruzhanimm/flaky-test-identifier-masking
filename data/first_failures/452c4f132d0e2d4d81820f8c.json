@@ -1,0 +1,81 @@
+{
+  "container": "incubatorshardingsphereshardingorchestrationshardingorchestrationcorefcd7940assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "incubatorshardingsphereshardingorchestrationshardingorchestrationcorefcd7940assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted",
+    "project": "https://github.com/apache/incubator-shardingsphere",
+    "revision": "fcd7940e3f0f4aeedf6e51ae9043f8f090cfc013",
+    "test": "org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationServiceTest.assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted",
+    "label": "ID",
+    "module": "sharding-orchestration/sharding-orchestration-core",
+    "zip": "incubator-shardingsphere=sharding-orchestration+sharding-orchestration-core=fcd7940",
+    "config_row": 387,
+    "configured_test": "org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationServiceTest#assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/incubator-shardingsphere::org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationServiceTest.assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted",
+    "variant_id": "https://github.com/apache/incubator-shardingsphere::org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationServiceTest.assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted::fcd7940e3f0f4aeedf6e51ae9043f8f090cfc013::sharding-orchestration/sharding-orchestration-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/incubatorshardingsphereshardingorchestrationshardingorchestrationcorefcd7940assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted/result/Flaky/.nondex/o+3Z7YZvArLxYbXmwKs8o+3zNwM6DIcpkwiGRuReoNg=/TEST-org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationServiceTest.xml",
+        "size": 17864,
+        "compressed": 2818,
+        "crc32": "a3b51ea2",
+        "offset": 1977844990,
+        "method": 8,
+        "local_path": "data/extracted/78f880649453a7bb5ac48ccd.xml",
+        "sha256": "23005bc9a5c820e225fe5ac67409f3548db9f824fbe93a791def262699e49eea",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/incubatorshardingsphereshardingorchestrationshardingorchestrationcorefcd7940assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted/result/Flaky/rounds-test-results.csv",
+    "size": 27909,
+    "compressed": 5180,
+    "crc32": "b68a8d41",
+    "offset": 1977195310,
+    "method": 8,
+    "local_path": "data/extracted/be6b2dafc6d26498366e17e5.csv",
+    "sha256": "0b913456548e6e8aad9928d14355edc37da6d131e11ab2c834792d1179cf6689",
+    "status": "verified"
+  },
+  "reported_failure_rows": 49,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/incubatorshardingsphereshardingorchestrationshardingorchestrationcorefcd7940assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted/result/Flaky/.nondex/o+3Z7YZvArLxYbXmwKs8o+3zNwM6DIcpkwiGRuReoNg=/TEST-org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationServiceTest.xml",
+    "size": 17864,
+    "compressed": 2818,
+    "crc32": "a3b51ea2",
+    "offset": 1977844990,
+    "method": 8,
+    "local_path": "data/extracted/78f880649453a7bb5ac48ccd.xml",
+    "sha256": "23005bc9a5c820e225fe5ac67409f3548db9f824fbe93a791def262699e49eea",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted",
+    "outcome": "failure",
+    "exception_type": "org.mockito.exceptions.verification.junit.ArgumentsAreDifferent",
+    "message": "Argument(s) are different! Wanted:\nregCenter.persist(\n    \"/test/config/authentication\",\n    \"users:\n  root1:\n    authorizedSchemas: sharding_db\n    password: root1\n  root2:\n    authorizedSchemas: sharding_db,ms_db\n    password: root2\n\"\n);\n-> at org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationServiceTest.assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted(ConfigurationServiceTest.java:180)\nActual invocation has different arguments:\nregCenter.persist(\n    \"/test/config/authentication\",\n    \"users:\n  root2:\n    authorizedSchemas: sharding_db,ms_db\n    password: root2\n  root1:\n    authorizedSchemas: sharding_db\n    password: root1\n\"\n);\n-> at org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationService.persistAuthentication(ConfigurationService.java:152)",
+    "stack_trace": "org.mockito.exceptions.verification.junit.ArgumentsAreDifferent: \n\nArgument(s) are different! Wanted:\nregCenter.persist(\n    \"/test/config/authentication\",\n    \"users:\n  root1:\n    authorizedSchemas: sharding_db\n    password: root1\n  root2:\n    authorizedSchemas: sharding_db,ms_db\n    password: root2\n\"\n);\n-> at org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationServiceTest.assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted(ConfigurationServiceTest.java:180)\nActual invocation has different arguments:\nregCenter.persist(\n    \"/test/config/authentication\",\n    \"users:\n  root2:\n    authorizedSchemas: sharding_db,ms_db\n    password: root2\n  root1:\n    authorizedSchemas: sharding_db\n    password: root1\n\"\n);\n-> at org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationService.persistAuthentication(ConfigurationService.java:152)\n\n\tat org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationServiceTest.assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted(ConfigurationServiceTest.java:180)",
+    "text": "org.mockito.exceptions.verification.junit.ArgumentsAreDifferent\nArgument(s) are different! Wanted:\nregCenter.persist(\n    \"/test/config/authentication\",\n    \"users:\n  root1:\n    authorizedSchemas: sharding_db\n    password: root1\n  root2:\n    authorizedSchemas: sharding_db,ms_db\n    password: root2\n\"\n);\n-> at org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationServiceTest.assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted(ConfigurationServiceTest.java:180)\nActual invocation has different arguments:\nregCenter.persist(\n    \"/test/config/authentication\",\n    \"users:\n  root2:\n    authorizedSchemas: sharding_db,ms_db\n    password: root2\n  root1:\n    authorizedSchemas: sharding_db\n    password: root1\n\"\n);\n-> at org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationService.persistAuthentication(ConfigurationService.java:152)\norg.mockito.exceptions.verification.junit.ArgumentsAreDifferent: \n\nArgument(s) are different! Wanted:\nregCenter.persist(\n    \"/test/config/authentication\",\n    \"users:\n  root1:\n    authorizedSchemas: sharding_db\n    password: root1\n  root2:\n    authorizedSchemas: sharding_db,ms_db\n    password: root2\n\"\n);\n-> at org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationServiceTest.assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted(ConfigurationServiceTest.java:180)\nActual invocation has different arguments:\nregCenter.persist(\n    \"/test/config/authentication\",\n    \"users:\n  root2:\n    authorizedSchemas: sharding_db,ms_db\n    password: root2\n  root1:\n    authorizedSchemas: sharding_db\n    password: root1\n\"\n);\n-> at org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationService.persistAuthentication(ConfigurationService.java:152)\n\n\tat org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationServiceTest.assertPersistConfigurationForShardingRuleWithAuthenticationAndIsNotOverwriteAndConfigurationIsNotExisted(ConfigurationServiceTest.java:180)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "6b3dc6607b25629e83245a9af69824c6fec8dac92ed7127d6b31e23a76991920"
+}

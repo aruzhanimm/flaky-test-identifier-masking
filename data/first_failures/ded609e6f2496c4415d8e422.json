@@ -1,0 +1,218 @@
+{
+  "container": "quickcheckc1c34",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "quickcheckc1c34",
+    "project": "https://github.com/pholser/junit-quickcheck",
+    "revision": "14cb34602fb1b970a96d165f43a2739c79a1ef25",
+    "test": "com.pholser.junit.quickcheck.PropertyParameterConfigurationIsolationTest.acrossParametersOfParametersOfParameterizedTypeAndUnparameterizedTypeWithOneConstant",
+    "label": "NIO",
+    "module": "core",
+    "zip": "quickcheckc1c",
+    "config_row": 962,
+    "configured_test": "com.pholser.junit.quickcheck.PropertyParameterConfigurationIsolationTest#acrossParametersOfParametersOfParameterizedTypeAndUnparameterizedTypeWithOneConstant",
+    "configured_type": "nio",
+    "iterations": "10",
+    "test_id": "https://github.com/pholser/junit-quickcheck::com.pholser.junit.quickcheck.PropertyParameterConfigurationIsolationTest.acrossParametersOfParametersOfParameterizedTypeAndUnparameterizedTypeWithOneConstant",
+    "variant_id": "https://github.com/pholser/junit-quickcheck::com.pholser.junit.quickcheck.PropertyParameterConfigurationIsolationTest.acrossParametersOfParametersOfParameterizedTypeAndUnparameterizedTypeWithOneConstant::14cb34602fb1b970a96d165f43a2739c79a1ef25::core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/quickcheckc1c34/result/Flaky/rounds-test-results.csv",
+        "size": 13770,
+        "compressed": 648,
+        "crc32": "ab94ab4e",
+        "offset": 39974276,
+        "method": 8,
+        "local_path": "data/extracted/cc8a43cefe98b50b460f844e.csv",
+        "sha256": "8a87486028f0e9fd4dc4e9eef905573ba2e883026cce66588c7ed94f9851d007",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/quickcheckc1c34/result/Flaky/rounds-test-results.csv",
+        "size": 13770,
+        "compressed": 648,
+        "crc32": "ab94ab4e",
+        "offset": 39974276,
+        "method": 8,
+        "local_path": "data/extracted/cc8a43cefe98b50b460f844e.csv",
+        "sha256": "8a87486028f0e9fd4dc4e9eef905573ba2e883026cce66588c7ed94f9851d007",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/quickcheckc1c34/result/Flaky/rounds-test-results.csv",
+        "size": 13770,
+        "compressed": 648,
+        "crc32": "ab94ab4e",
+        "offset": 39974276,
+        "method": 8,
+        "local_path": "data/extracted/cc8a43cefe98b50b460f844e.csv",
+        "sha256": "8a87486028f0e9fd4dc4e9eef905573ba2e883026cce66588c7ed94f9851d007",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/quickcheckc1c34/result/Flaky/rounds-test-results.csv",
+        "size": 13770,
+        "compressed": 648,
+        "crc32": "ab94ab4e",
+        "offset": 39974276,
+        "method": 8,
+        "local_path": "data/extracted/cc8a43cefe98b50b460f844e.csv",
+        "sha256": "8a87486028f0e9fd4dc4e9eef905573ba2e883026cce66588c7ed94f9851d007",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 5,
+      "iteration": 4,
+      "member": {
+        "path": "result/quickcheckc1c34/result/Flaky/rounds-test-results.csv",
+        "size": 13770,
+        "compressed": 648,
+        "crc32": "ab94ab4e",
+        "offset": 39974276,
+        "method": 8,
+        "local_path": "data/extracted/cc8a43cefe98b50b460f844e.csv",
+        "sha256": "8a87486028f0e9fd4dc4e9eef905573ba2e883026cce66588c7ed94f9851d007",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 6,
+      "iteration": 5,
+      "member": {
+        "path": "result/quickcheckc1c34/result/Flaky/rounds-test-results.csv",
+        "size": 13770,
+        "compressed": 648,
+        "crc32": "ab94ab4e",
+        "offset": 39974276,
+        "method": 8,
+        "local_path": "data/extracted/cc8a43cefe98b50b460f844e.csv",
+        "sha256": "8a87486028f0e9fd4dc4e9eef905573ba2e883026cce66588c7ed94f9851d007",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 7,
+      "iteration": 6,
+      "member": {
+        "path": "result/quickcheckc1c34/result/Flaky/rounds-test-results.csv",
+        "size": 13770,
+        "compressed": 648,
+        "crc32": "ab94ab4e",
+        "offset": 39974276,
+        "method": 8,
+        "local_path": "data/extracted/cc8a43cefe98b50b460f844e.csv",
+        "sha256": "8a87486028f0e9fd4dc4e9eef905573ba2e883026cce66588c7ed94f9851d007",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 8,
+      "iteration": 7,
+      "member": {
+        "path": "result/quickcheckc1c34/result/Flaky/rounds-test-results.csv",
+        "size": 13770,
+        "compressed": 648,
+        "crc32": "ab94ab4e",
+        "offset": 39974276,
+        "method": 8,
+        "local_path": "data/extracted/cc8a43cefe98b50b460f844e.csv",
+        "sha256": "8a87486028f0e9fd4dc4e9eef905573ba2e883026cce66588c7ed94f9851d007",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 9,
+      "iteration": 8,
+      "member": {
+        "path": "result/quickcheckc1c34/result/Flaky/rounds-test-results.csv",
+        "size": 13770,
+        "compressed": 648,
+        "crc32": "ab94ab4e",
+        "offset": 39974276,
+        "method": 8,
+        "local_path": "data/extracted/cc8a43cefe98b50b460f844e.csv",
+        "sha256": "8a87486028f0e9fd4dc4e9eef905573ba2e883026cce66588c7ed94f9851d007",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    },
+    {
+      "row": 10,
+      "iteration": 9,
+      "member": {
+        "path": "result/quickcheckc1c34/result/Flaky/rounds-test-results.csv",
+        "size": 13770,
+        "compressed": 648,
+        "crc32": "ab94ab4e",
+        "offset": 39974276,
+        "method": 8,
+        "local_path": "data/extracted/cc8a43cefe98b50b460f844e.csv",
+        "sha256": "8a87486028f0e9fd4dc4e9eef905573ba2e883026cce66588c7ed94f9851d007",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 2,
+      "failure_records": 0
+    }
+  ],
+  "status": "no_confirmed_target_diagnostic",
+  "outcome_rows": 10,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/quickcheckc1c34/result/Flaky/rounds-test-results.csv",
+    "size": 13770,
+    "compressed": 648,
+    "crc32": "ab94ab4e",
+    "offset": 39974276,
+    "method": 8,
+    "local_path": "data/extracted/cc8a43cefe98b50b460f844e.csv",
+    "sha256": "8a87486028f0e9fd4dc4e9eef905573ba2e883026cce66588c7ed94f9851d007",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10
+}

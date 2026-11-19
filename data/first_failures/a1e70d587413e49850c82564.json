@@ -1,0 +1,81 @@
+{
+  "container": "commonslang182b250nestedAndArray",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "commonslang182b250nestedAndArray",
+    "project": "https://github.com/apache/commons-lang",
+    "revision": "182b2506b304463f8f1a9ad765c6db0420fa356f",
+    "test": "org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.nestedAndArray",
+    "label": "ID",
+    "module": ".",
+    "zip": "commons-lang=.=182b250",
+    "config_row": 556,
+    "configured_test": "org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest#nestedAndArray",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.nestedAndArray",
+    "variant_id": "https://github.com/apache/commons-lang::org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.nestedAndArray::182b2506b304463f8f1a9ad765c6db0420fa356f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/commonslang182b250nestedAndArray/result/Flaky/.nondex/f33FwFse+scxFk7M3ZejYj+qfQh6r9XUkrnUOxQ6s=/TEST-org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.xml",
+        "size": 11736,
+        "compressed": 2407,
+        "crc32": "065be42f",
+        "offset": 395500791,
+        "method": 8,
+        "local_path": "data/extracted/9daf005f602a041cd3d30852.xml",
+        "sha256": "65be06b7c706eca2f5688725ed698e86368906b8ef70df8ac3eb05225c4d17e1",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/commonslang182b250nestedAndArray/result/Flaky/rounds-test-results.csv",
+    "size": 20219,
+    "compressed": 4914,
+    "crc32": "cacdac49",
+    "offset": 395006883,
+    "method": 8,
+    "local_path": "data/extracted/e3c407ac14fa4ce903e93a1b.csv",
+    "sha256": "9758e8f5bcce2ddfab63d37f0fa76e28ec0e2e7c7e7fc155286aeee0141dd0bc",
+    "status": "verified"
+  },
+  "reported_failure_rows": 85,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/commonslang182b250nestedAndArray/result/Flaky/.nondex/f33FwFse+scxFk7M3ZejYj+qfQh6r9XUkrnUOxQ6s=/TEST-org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.xml",
+    "size": 11736,
+    "compressed": 2407,
+    "crc32": "065be42f",
+    "offset": 395500791,
+    "method": 8,
+    "local_path": "data/extracted/9daf005f602a041cd3d30852.xml",
+    "sha256": "65be06b7c706eca2f5688725ed698e86368906b8ef70df8ac3eb05225c4d17e1",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "nestedAndArray",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Account@77846d2c[\n  owner=<null>,\n  transactions=java.util.ArrayList@548ad73b{\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@4c762604[\n      amount=100.0,\n      date=2014.10.14\n    ],\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@2641e737[\n      amount=50.0,\n      date=2014.10.15\n    ]\n  }\n]> but was: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Account@77846d2c[\n  transactions=java.util.ArrayList@548ad73b{\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@4c762604[\n      date=2014.10.14,\n      amount=100.0\n    ],\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@2641e737[\n      amount=50.0,\n      date=2014.10.15\n    ]\n  },\n  owner=<null>\n]>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: \nexpected: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Account@77846d2c[\n  owner=<null>,\n  transactions=java.util.ArrayList@548ad73b{\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@4c762604[\n      amount=100.0,\n      date=2014.10.14\n    ],\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@2641e737[\n      amount=50.0,\n      date=2014.10.15\n    ]\n  }\n]> but was: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Account@77846d2c[\n  transactions=java.util.ArrayList@548ad73b{\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@4c762604[\n      date=2014.10.14,\n      amount=100.0\n    ],\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@2641e737[\n      amount=50.0,\n      date=2014.10.15\n    ]\n  },\n  owner=<null>\n]>\n\tat org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.nestedAndArray(MultilineRecursiveToStringStyleTest.java:78)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Account@77846d2c[\n  owner=<null>,\n  transactions=java.util.ArrayList@548ad73b{\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@4c762604[\n      amount=100.0,\n      date=2014.10.14\n    ],\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@2641e737[\n      amount=50.0,\n      date=2014.10.15\n    ]\n  }\n]> but was: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Account@77846d2c[\n  transactions=java.util.ArrayList@548ad73b{\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@4c762604[\n      date=2014.10.14,\n      amount=100.0\n    ],\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@2641e737[\n      amount=50.0,\n      date=2014.10.15\n    ]\n  },\n  owner=<null>\n]>\norg.opentest4j.AssertionFailedError: \nexpected: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Account@77846d2c[\n  owner=<null>,\n  transactions=java.util.ArrayList@548ad73b{\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@4c762604[\n      amount=100.0,\n      date=2014.10.14\n    ],\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@2641e737[\n      amount=50.0,\n      date=2014.10.15\n    ]\n  }\n]> but was: <org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Account@77846d2c[\n  transactions=java.util.ArrayList@548ad73b{\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@4c762604[\n      date=2014.10.14,\n      amount=100.0\n    ],\n    org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest$Transaction@2641e737[\n      amount=50.0,\n      date=2014.10.15\n    ]\n  },\n  owner=<null>\n]>\n\tat org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest.nestedAndArray(MultilineRecursiveToStringStyleTest.java:78)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "df8bfc85ff2230398f7ba725e248ce0556a8bf4dda150e04af76d820f0db6c5d"
+}

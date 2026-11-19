@@ -1,0 +1,81 @@
+{
+  "container": "scimonoscimonoclient7487ec5testReadUsersWithPagedByIdentityResponse10",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "scimonoscimonoclient7487ec5testReadUsersWithPagedByIdentityResponse10",
+    "project": "https://github.com/sap/scimono",
+    "revision": "7487ec5c28c12469fd57980d9f810b9d357b6d81",
+    "test": "com.sap.scimono.client.UserRequestTest.testReadUsersWithPagedByIdentityResponse",
+    "label": "ID",
+    "module": "scimono-client",
+    "zip": "scimono=scimono-client=7487ec5",
+    "config_row": 718,
+    "configured_test": "com.sap.scimono.client.UserRequestTest#testReadUsersWithPagedByIdentityResponse",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/sap/scimono::com.sap.scimono.client.UserRequestTest.testReadUsersWithPagedByIdentityResponse",
+    "variant_id": "https://github.com/sap/scimono::com.sap.scimono.client.UserRequestTest.testReadUsersWithPagedByIdentityResponse::7487ec5c28c12469fd57980d9f810b9d357b6d81::scimono-client",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 4,
+      "iteration": 3,
+      "member": {
+        "path": "result/scimonoscimonoclient7487ec5testReadUsersWithPagedByIdentityResponse10/result/Flaky/.nondex/c+JTPKEX+LwraOFylfB0y5JMfKxObAfvNPtSbeFRAg=/TEST-com.sap.scimono.client.UserRequestTest.xml",
+        "size": 24133,
+        "compressed": 3715,
+        "crc32": "59549b66",
+        "offset": 1585887187,
+        "method": 8,
+        "local_path": "data/extracted/840f97ec531f0ea633aa6a0f.xml",
+        "sha256": "e3b6d73571d64324a5270304986ebd3f892254c863e9b2cb2418c33b50835e47",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/scimonoscimonoclient7487ec5testReadUsersWithPagedByIdentityResponse10/result/Flaky/rounds-test-results.csv",
+    "size": 18312,
+    "compressed": 5154,
+    "crc32": "29f60d4c",
+    "offset": 1585704324,
+    "method": 8,
+    "local_path": "data/extracted/194a176e7ecf7a3aad0db1f6.csv",
+    "sha256": "d038b3dd5baf3674e5c74c0bc6ee3cd439b85ebc1462b596518a1be432f6838e",
+    "status": "verified"
+  },
+  "reported_failure_rows": 44,
+  "iteration": 3,
+  "source_row": 4,
+  "diagnostic_member": {
+    "path": "result/scimonoscimonoclient7487ec5testReadUsersWithPagedByIdentityResponse10/result/Flaky/.nondex/c+JTPKEX+LwraOFylfB0y5JMfKxObAfvNPtSbeFRAg=/TEST-com.sap.scimono.client.UserRequestTest.xml",
+    "size": 24133,
+    "compressed": 3715,
+    "crc32": "59549b66",
+    "offset": 1585887187,
+    "method": 8,
+    "local_path": "data/extracted/840f97ec531f0ea633aa6a0f.xml",
+    "sha256": "e3b6d73571d64324a5270304986ebd3f892254c863e9b2cb2418c33b50835e47",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testReadUsersWithPagedByIdentityResponse",
+    "outcome": "error",
+    "exception_type": "javax.ws.rs.WebApplicationException",
+    "message": "Request does not finished successfully",
+    "stack_trace": "javax.ws.rs.WebApplicationException: Request does not finished successfully\n\tat com.sap.scimono.client.UserRequestTest.testReadUsersWithPagedByIdentityResponse(UserRequestTest.java:131)",
+    "text": "javax.ws.rs.WebApplicationException\nRequest does not finished successfully\njavax.ws.rs.WebApplicationException: Request does not finished successfully\n\tat com.sap.scimono.client.UserRequestTest.testReadUsersWithPagedByIdentityResponse(UserRequestTest.java:131)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "9cf448386dbf642a5980d0d54a74e14b899f10145eac3ab13eb4a0e3eea1984e"
+}

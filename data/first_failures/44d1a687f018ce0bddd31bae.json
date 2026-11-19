@@ -1,0 +1,40 @@
+{
+  "container": "RATIS-506",
+  "metadata": {
+    "source": "JIRA",
+    "container": "RATIS-506",
+    "project": "https://github.com/apache/ratis",
+    "revision": "b6cb1dd2f5732bd731fc0e671900086a5b4b6713",
+    "test": "org.apache.ratis.server.simulation.TestServerRestartWithSimulatedRpc.testRestartCommitIndex",
+    "label": "UNCLASSIFIED",
+    "module": "ratis-test",
+    "zip": "RATIS-506",
+    "config_row": 1089,
+    "configured_test": "org.apache.ratis.server.simulation.TestServerRestartWithSimulatedRpc#testRestartCommitIndex",
+    "configured_type": "Unclassified",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/ratis::org.apache.ratis.server.simulation.TestServerRestartWithSimulatedRpc.testRestartCommitIndex",
+    "variant_id": "https://github.com/apache/ratis::org.apache.ratis.server.simulation.TestServerRestartWithSimulatedRpc.testRestartCommitIndex::b6cb1dd2f5732bd731fc0e671900086a5b4b6713::ratis-test",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "unclassified",
+  "outcome_rows": 100,
+  "table_issues": [
+    "target_name_mismatch_row_27",
+    "target_name_mismatch_row_95"
+  ],
+  "table_member": {
+    "path": "result/RATIS-506/result/Flaky/rounds-test-results.csv",
+    "size": 22651,
+    "compressed": 864,
+    "crc32": "9fdd0f50",
+    "offset": 159584661,
+    "method": 8,
+    "local_path": "data/extracted/5add04785ee54f69ef819988.csv",
+    "sha256": "4084e5435d56d68e9a11568d9a747397c2a670f2f4484c83e9adcdf1cbb0a569",
+    "status": "verified"
+  },
+  "reported_failure_rows": 35
+}

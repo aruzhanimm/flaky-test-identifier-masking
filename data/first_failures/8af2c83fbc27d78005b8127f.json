@@ -1,0 +1,133 @@
+{
+  "container": "COLLECTIONS-850-TransformedMultiValuedMapTest-testMultiValuedMapIterator",
+  "metadata": {
+    "source": "JIRA",
+    "container": "COLLECTIONS-850-TransformedMultiValuedMapTest-testMultiValuedMapIterator",
+    "project": "https://github.com/apache/commons",
+    "revision": "35e408717379eed0085cdb29e879209dbadc1ead",
+    "test": "org.apache.commons.collections4.multimap.TransformedMultiValuedMapTest.testMultiValuedMapIterator",
+    "label": "ID",
+    "module": ".",
+    "zip": "COLLECTIONS-850",
+    "config_row": 1066,
+    "configured_test": "org.apache.commons.collections4.multimap.TransformedMultiValuedMapTest#testMultiValuedMapIterator",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/commons::org.apache.commons.collections4.multimap.TransformedMultiValuedMapTest.testMultiValuedMapIterator",
+    "variant_id": "https://github.com/apache/commons::org.apache.commons.collections4.multimap.TransformedMultiValuedMapTest.testMultiValuedMapIterator::35e408717379eed0085cdb29e879209dbadc1ead::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 3,
+      "iteration": 2,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 4,
+      "iteration": 3,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 5,
+      "iteration": 4,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 6,
+      "iteration": 5,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 7,
+      "iteration": 6,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 8,
+      "iteration": 7,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 9,
+      "iteration": 8,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 10,
+      "iteration": 9,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 11,
+      "iteration": 10,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 12,
+      "iteration": 11,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 13,
+      "iteration": 12,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 14,
+      "iteration": 13,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 15,
+      "iteration": 14,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 16,
+      "iteration": 15,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 17,
+      "iteration": 16,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 18,
+      "iteration": 17,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 20,
+      "iteration": 19,
+      "status": "no_archived_report_for_iteration"
+    },
+    {
+      "row": 21,
+      "iteration": 20,
+      "status": "no_archived_report_for_iteration"
+    }
+  ],
+  "status": "no_confirmed_target_diagnostic",
+  "outcome_rows": 20,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/COLLECTIONS-850-TransformedMultiValuedMapTest-testMultiValuedMapIterator/result/Flaky/rounds-test-results.csv",
+    "size": 4162,
+    "compressed": 1147,
+    "crc32": "179f51c5",
+    "offset": 86135640,
+    "method": 8,
+    "local_path": "data/extracted/ed34b6bd6eeca04ace01cb12.csv",
+    "sha256": "b303166a8a10cc41b00d2d93be080ffefaca9a7f8566cd173650b382e53f5e4c",
+    "status": "verified"
+  },
+  "reported_failure_rows": 19
+}

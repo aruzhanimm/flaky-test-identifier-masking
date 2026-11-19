@@ -1,0 +1,81 @@
+{
+  "container": "immutablesvaluefixtureb21e6bbjacksonMetaAnnotated",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "immutablesvaluefixtureb21e6bbjacksonMetaAnnotated",
+    "project": "https://github.com/immutables/immutables",
+    "revision": "b21e6bbfbb9038100532416c81e8270951c3e03a",
+    "test": "org.immutables.fixture.jackson.ObjectMappedTest.jacksonMetaAnnotated",
+    "label": "ID",
+    "module": "value-fixture",
+    "zip": "immutables=value-fixture=b21e6bb",
+    "config_row": 370,
+    "configured_test": "org.immutables.fixture.jackson.ObjectMappedTest#jacksonMetaAnnotated",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/immutables/immutables::org.immutables.fixture.jackson.ObjectMappedTest.jacksonMetaAnnotated",
+    "variant_id": "https://github.com/immutables/immutables::org.immutables.fixture.jackson.ObjectMappedTest.jacksonMetaAnnotated::b21e6bbfbb9038100532416c81e8270951c3e03a::value-fixture",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/immutablesvaluefixtureb21e6bbjacksonMetaAnnotated/result/Flaky/.nondex/+mLRD++UsGoqmyck8six4ndDHMSv23NNaUIvv8csrs=/TEST-org.immutables.fixture.jackson.ObjectMappedTest.xml",
+        "size": 14807,
+        "compressed": 2695,
+        "crc32": "6b387c7b",
+        "offset": 303128893,
+        "method": 8,
+        "local_path": "data/extracted/48d4ffbf46b303646ef2ffb4.xml",
+        "sha256": "3ad7798046d07d69e0e848354a46e1bc45311b7f852b3a4d42ab602420879ac0",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/immutablesvaluefixtureb21e6bbjacksonMetaAnnotated/result/Flaky/rounds-test-results.csv",
+    "size": 19236,
+    "compressed": 5140,
+    "crc32": "a6aa0ecb",
+    "offset": 302902386,
+    "method": 8,
+    "local_path": "data/extracted/5e5bbeb6dd0af95df4c72126.csv",
+    "sha256": "dc0b44e1989b1609d1dd7f3a9071ade0e772ed6207da67b5f7c4a4ef107bbcc7",
+    "status": "verified"
+  },
+  "reported_failure_rows": 57,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/immutablesvaluefixtureb21e6bbjacksonMetaAnnotated/result/Flaky/.nondex/+mLRD++UsGoqmyck8six4ndDHMSv23NNaUIvv8csrs=/TEST-org.immutables.fixture.jackson.ObjectMappedTest.xml",
+    "size": 14807,
+    "compressed": 2695,
+    "crc32": "6b387c7b",
+    "offset": 303128893,
+    "method": 8,
+    "local_path": "data/extracted/48d4ffbf46b303646ef2ffb4.xml",
+    "sha256": "3ad7798046d07d69e0e848354a46e1bc45311b7f852b3a4d42ab602420879ac0",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "jacksonMetaAnnotated",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: <{\"X\":1,\"[A\":1,\"B\":true]}> \n     but: was <{\"X\":1,\"[B\":true,\"A\":1]}>",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: <{\"X\":1,\"[A\":1,\"B\":true]}> \n     but: was <{\"X\":1,\"[B\":true,\"A\":1]}>\n\tat org.immutables.fixture.jackson.ObjectMappedTest.jacksonMetaAnnotated(ObjectMappedTest.java:167)",
+    "text": "java.lang.AssertionError\nExpected: <{\"X\":1,\"[A\":1,\"B\":true]}> \n     but: was <{\"X\":1,\"[B\":true,\"A\":1]}>\njava.lang.AssertionError: \n\nExpected: <{\"X\":1,\"[A\":1,\"B\":true]}> \n     but: was <{\"X\":1,\"[B\":true,\"A\":1]}>\n\tat org.immutables.fixture.jackson.ObjectMappedTest.jacksonMetaAnnotated(ObjectMappedTest.java:167)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "2a7682fac45f0fcfbd81b2ffde23b1344efdacaa0125831ae684309103b4f978"
+}

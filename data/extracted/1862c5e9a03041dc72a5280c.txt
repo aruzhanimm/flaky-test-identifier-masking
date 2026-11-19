@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.curator.framework.recipes.locks.TestInterProcessMutex
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.645 s <<< FAILURE! - in org.apache.curator.framework.recipes.locks.TestInterProcessMutex
+org.apache.curator.framework.recipes.locks.TestInterProcessMutex.testReentrantSingleLock  Time elapsed: 0.64 s  <<< ERROR!
+java.util.concurrent.ExecutionException: org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+Caused by: org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+

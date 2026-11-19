@@ -1,0 +1,81 @@
+{
+  "container": "OpenRefinemaina68ba3bserializeListFacet",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "OpenRefinemaina68ba3bserializeListFacet",
+    "project": "https://github.com/openrefine/openrefine",
+    "revision": "a68ba3b26c96ce116c377612c5f1834145b4c002",
+    "test": "com.google.refine.browsing.facets.ListFacetTests.serializeListFacet",
+    "label": "ID",
+    "module": "main",
+    "zip": "OpenRefine=main=a68ba3b",
+    "config_row": 762,
+    "configured_test": "com.google.refine.browsing.facets.ListFacetTests#serializeListFacet",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/openrefine/openrefine::com.google.refine.browsing.facets.ListFacetTests.serializeListFacet",
+    "variant_id": "https://github.com/openrefine/openrefine::com.google.refine.browsing.facets.ListFacetTests.serializeListFacet::a68ba3b26c96ce116c377612c5f1834145b4c002::main",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/OpenRefinemaina68ba3bserializeListFacet/result/Flaky/.nondex/0LRWcaSp7gn9kWw5GdFTwjwddx0XkjvFk+90XAR29Sw=/TEST-com.google.refine.browsing.facets.ListFacetTests.xml",
+        "size": 32401,
+        "compressed": 5483,
+        "crc32": "48e9bdd7",
+        "offset": 1420823420,
+        "method": 8,
+        "local_path": "data/extracted/f80987f40ccb76ce16240253.xml",
+        "sha256": "07bf32079c157000fc8940f5c954a091c05318d7915d59c726aa923036c3b935",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/OpenRefinemaina68ba3bserializeListFacet/result/Flaky/rounds-test-results.csv",
+    "size": 18432,
+    "compressed": 5181,
+    "crc32": "0a70e1b5",
+    "offset": 1417617435,
+    "method": 8,
+    "local_path": "data/extracted/52bd64e5c951db045943e34d.csv",
+    "sha256": "3faa82d73801a2f07e2801ffaeb5da289efbfabb79abed5bedc7960fcc7f6cd1",
+    "status": "verified"
+  },
+  "reported_failure_rows": 58,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/OpenRefinemaina68ba3bserializeListFacet/result/Flaky/.nondex/0LRWcaSp7gn9kWw5GdFTwjwddx0XkjvFk+90XAR29Sw=/TEST-com.google.refine.browsing.facets.ListFacetTests.xml",
+    "size": 32401,
+    "compressed": 5483,
+    "crc32": "48e9bdd7",
+    "offset": 1420823420,
+    "method": 8,
+    "local_path": "data/extracted/f80987f40ccb76ce16240253.xml",
+    "sha256": "07bf32079c157000fc8940f5c954a091c05318d7915d59c726aa923036c3b935",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "serializeListFacet",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Objects above are not equal as JSON strings.",
+    "stack_trace": "java.lang.AssertionError: Objects above are not equal as JSON strings.\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat com.google.refine.util.TestUtils.assertEqualsAsJson(TestUtils.java:88)\n\tat com.google.refine.util.TestUtils.isSerializedTo(TestUtils.java:121)\n\tat com.google.refine.util.TestUtils.isSerializedTo(TestUtils.java:132)\n\tat com.google.refine.browsing.facets.ListFacetTests.serializeListFacet(ListFacetTests.java:106)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:829)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:437)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:330)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1176)\n\tat org.testng.TestNG.runSuites(TestNG.java:1099)\n\tat org.testng.TestNG.run(TestNG.java:1067)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)",
+    "text": "java.lang.AssertionError\nObjects above are not equal as JSON strings.\njava.lang.AssertionError: Objects above are not equal as JSON strings.\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat com.google.refine.util.TestUtils.assertEqualsAsJson(TestUtils.java:88)\n\tat com.google.refine.util.TestUtils.isSerializedTo(TestUtils.java:121)\n\tat com.google.refine.util.TestUtils.isSerializedTo(TestUtils.java:132)\n\tat com.google.refine.browsing.facets.ListFacetTests.serializeListFacet(ListFacetTests.java:106)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:829)\n\tat org.testng.TestRunner.run(TestRunner.java:602)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:437)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:330)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1176)\n\tat org.testng.TestNG.runSuites(TestNG.java:1099)\n\tat org.testng.TestNG.run(TestNG.java:1067)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "526600e8ece8db18ee57f11ad21e7d19f537f45c653978374d8a0f8df657801e"
+}

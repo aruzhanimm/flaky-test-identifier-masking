@@ -1,0 +1,81 @@
+{
+  "container": "castlejavaa5e9ef9fullBuilderJson14",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "castlejavaa5e9ef9fullBuilderJson14",
+    "project": "https://github.com/castle/castle-java",
+    "revision": "a5e9ef94b46b4ba6accf630c5d50ed53dc86183f",
+    "test": "io.castle.client.model.CastleUserDeviceContextTest.fullBuilderJson",
+    "label": "ID",
+    "module": ".",
+    "zip": "castle-java=.=a5e9ef9",
+    "config_row": 64,
+    "configured_test": "io.castle.client.model.CastleUserDeviceContextTest#fullBuilderJson",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/castle/castle-java::io.castle.client.model.CastleUserDeviceContextTest.fullBuilderJson",
+    "variant_id": "https://github.com/castle/castle-java::io.castle.client.model.CastleUserDeviceContextTest.fullBuilderJson::a5e9ef94b46b4ba6accf630c5d50ed53dc86183f::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/castlejavaa5e9ef9fullBuilderJson14/result/Flaky/.nondex/bKBE8FtowW5jQzGOwrYZDbSGYfeV+o7wX36USRCsw=/TEST-io.castle.client.model.CastleUserDeviceContextTest.xml",
+        "size": 14155,
+        "compressed": 2949,
+        "crc32": "535d65be",
+        "offset": 639890795,
+        "method": 8,
+        "local_path": "data/extracted/8caf9971a94a44200debe2c0.xml",
+        "sha256": "103752ccc96e0d77eadbf26719da810691d5b42e2c0e5f8e0786041296114649",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/castlejavaa5e9ef9fullBuilderJson14/result/Flaky/rounds-test-results.csv",
+    "size": 18458,
+    "compressed": 4919,
+    "crc32": "f0c12469",
+    "offset": 639687567,
+    "method": 8,
+    "local_path": "data/extracted/cdd7811aac25c825d0f43942.csv",
+    "sha256": "8c4ac4d287ba4110a8d76d27048bb9199ce63c67091223baaaf1b874ecc5c4e1",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/castlejavaa5e9ef9fullBuilderJson14/result/Flaky/.nondex/bKBE8FtowW5jQzGOwrYZDbSGYfeV+o7wX36USRCsw=/TEST-io.castle.client.model.CastleUserDeviceContextTest.xml",
+    "size": 14155,
+    "compressed": 2949,
+    "crc32": "535d65be",
+    "offset": 639890795,
+    "method": 8,
+    "local_path": "data/extracted/8caf9971a94a44200debe2c0.xml",
+    "sha256": "103752ccc96e0d77eadbf26719da810691d5b42e2c0e5f8e0786041296114649",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "fullBuilderJson",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<\"{\"[ip\":\"1.1.1.1\",\"user_agent\":{\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"browser\":\"Opera\",\"version\":\"54.0.2952\",\"os\":\"Mac OS X 10.13.6\",\"mobile\":false,\"platform\":\"Mac OS X\",\"device\":\"Unknown\",\"family\":\"Opera\"}],\"type\":\"desktop\"}\"> but was:<\"{\"[user_agent\":{\"platform\":\"Mac OS X\",\"mobile\":false,\"version\":\"54.0.2952\",\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"device\":\"Unknown\",\"os\":\"Mac OS X 10.13.6\",\"family\":\"Opera\",\"browser\":\"Opera\"},\"ip\":\"1.1.1.1\"],\"type\":\"desktop\"}\">",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<\"{\"[ip\":\"1.1.1.1\",\"user_agent\":{\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"browser\":\"Opera\",\"version\":\"54.0.2952\",\"os\":\"Mac OS X 10.13.6\",\"mobile\":false,\"platform\":\"Mac OS X\",\"device\":\"Unknown\",\"family\":\"Opera\"}],\"type\":\"desktop\"}\"> but was:<\"{\"[user_agent\":{\"platform\":\"Mac OS X\",\"mobile\":false,\"version\":\"54.0.2952\",\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"device\":\"Unknown\",\"os\":\"Mac OS X 10.13.6\",\"family\":\"Opera\",\"browser\":\"Opera\"},\"ip\":\"1.1.1.1\"],\"type\":\"desktop\"}\">\n\tat io.castle.client.model.CastleUserDeviceContextTest.fullBuilderJson(CastleUserDeviceContextTest.java:49)",
+    "text": "org.junit.ComparisonFailure\nexpected:<\"{\"[ip\":\"1.1.1.1\",\"user_agent\":{\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"browser\":\"Opera\",\"version\":\"54.0.2952\",\"os\":\"Mac OS X 10.13.6\",\"mobile\":false,\"platform\":\"Mac OS X\",\"device\":\"Unknown\",\"family\":\"Opera\"}],\"type\":\"desktop\"}\"> but was:<\"{\"[user_agent\":{\"platform\":\"Mac OS X\",\"mobile\":false,\"version\":\"54.0.2952\",\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"device\":\"Unknown\",\"os\":\"Mac OS X 10.13.6\",\"family\":\"Opera\",\"browser\":\"Opera\"},\"ip\":\"1.1.1.1\"],\"type\":\"desktop\"}\">\norg.junit.ComparisonFailure: expected:<\"{\"[ip\":\"1.1.1.1\",\"user_agent\":{\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"browser\":\"Opera\",\"version\":\"54.0.2952\",\"os\":\"Mac OS X 10.13.6\",\"mobile\":false,\"platform\":\"Mac OS X\",\"device\":\"Unknown\",\"family\":\"Opera\"}],\"type\":\"desktop\"}\"> but was:<\"{\"[user_agent\":{\"platform\":\"Mac OS X\",\"mobile\":false,\"version\":\"54.0.2952\",\"raw\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.51\",\"device\":\"Unknown\",\"os\":\"Mac OS X 10.13.6\",\"family\":\"Opera\",\"browser\":\"Opera\"},\"ip\":\"1.1.1.1\"],\"type\":\"desktop\"}\">\n\tat io.castle.client.model.CastleUserDeviceContextTest.fullBuilderJson(CastleUserDeviceContextTest.java:49)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "2225858c2d45b63324898fdd774916d598b907de5c23aeae23e39c7d5eb6100b"
+}

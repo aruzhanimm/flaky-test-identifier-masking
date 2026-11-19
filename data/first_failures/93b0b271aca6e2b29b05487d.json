@@ -1,0 +1,81 @@
+{
+  "container": "scimonoscimonoclient7487ec5testReadMultipleUsersIndexFilter8",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "scimonoscimonoclient7487ec5testReadMultipleUsersIndexFilter8",
+    "project": "https://github.com/sap/scimono",
+    "revision": "7487ec5c28c12469fd57980d9f810b9d357b6d81",
+    "test": "com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadMultipleUsersIndexFilter",
+    "label": "ID",
+    "module": "scimono-client",
+    "zip": "scimono=scimono-client=7487ec5",
+    "config_row": 717,
+    "configured_test": "com.sap.scimono.client.SCIMResourceResponseHandlingTest#testReadMultipleUsersIndexFilter",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/sap/scimono::com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadMultipleUsersIndexFilter",
+    "variant_id": "https://github.com/sap/scimono::com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadMultipleUsersIndexFilter::7487ec5c28c12469fd57980d9f810b9d357b6d81::scimono-client",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/scimonoscimonoclient7487ec5testReadMultipleUsersIndexFilter8/result/Flaky/.nondex/rsnorC4ADxvpTvkDch1bMIWMHwy+ceSYkXiwa6IaxY=/TEST-com.sap.scimono.client.SCIMResourceResponseHandlingTest.xml",
+        "size": 24352,
+        "compressed": 3770,
+        "crc32": "74e8262c",
+        "offset": 1584620114,
+        "method": 8,
+        "local_path": "data/extracted/e93001cc74215e75dad6d276.xml",
+        "sha256": "6e71b2d6bd4fc608d6edce412e3ccc974ccc6e842c97c7768896b13be469d9eb",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/scimonoscimonoclient7487ec5testReadMultipleUsersIndexFilter8/result/Flaky/rounds-test-results.csv",
+    "size": 20139,
+    "compressed": 5179,
+    "crc32": "a2c0914f",
+    "offset": 1584195829,
+    "method": 8,
+    "local_path": "data/extracted/834bf14e8e2d25d4f9af5e58.csv",
+    "sha256": "87589521297d5b9f814f77bcaac769beab485cd6c6a37cf961003ceff2f2161d",
+    "status": "verified"
+  },
+  "reported_failure_rows": 58,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/scimonoscimonoclient7487ec5testReadMultipleUsersIndexFilter8/result/Flaky/.nondex/rsnorC4ADxvpTvkDch1bMIWMHwy+ceSYkXiwa6IaxY=/TEST-com.sap.scimono.client.SCIMResourceResponseHandlingTest.xml",
+    "size": 24352,
+    "compressed": 3770,
+    "crc32": "74e8262c",
+    "offset": 1584620114,
+    "method": 8,
+    "local_path": "data/extracted/e93001cc74215e75dad6d276.xml",
+    "sha256": "6e71b2d6bd4fc608d6edce412e3ccc974ccc6e842c97c7768896b13be469d9eb",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testReadMultipleUsersIndexFilter",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.MultipleFailuresError",
+    "message": "Multiple Failures (1 failure)\n org.opentest4j.AssertionFailedError: expected: <true> but was: <false>",
+    "stack_trace": "org.opentest4j.MultipleFailuresError: \nMultiple Failures (1 failure)\n\torg.opentest4j.AssertionFailedError: expected: <true> but was: <false>\n\tat com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadMultipleUsersIndexFilter(SCIMResourceResponseHandlingTest.java:158)",
+    "text": "org.opentest4j.MultipleFailuresError\nMultiple Failures (1 failure)\n org.opentest4j.AssertionFailedError: expected: <true> but was: <false>\norg.opentest4j.MultipleFailuresError: \nMultiple Failures (1 failure)\n\torg.opentest4j.AssertionFailedError: expected: <true> but was: <false>\n\tat com.sap.scimono.client.SCIMResourceResponseHandlingTest.testReadMultipleUsersIndexFilter(SCIMResourceResponseHandlingTest.java:158)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "a62cb311e25acc5e3f529920939e9219e0d532176cce7c3eef865677416040c6"
+}

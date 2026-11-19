@@ -1,0 +1,81 @@
+{
+  "container": "crane4jcrane4jcoreb65f732operatePropertyMappingStrategy",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "crane4jcrane4jcoreb65f732operatePropertyMappingStrategy",
+    "project": "https://github.com/opengoofy/crane4j",
+    "revision": "b65f7324544381646119be48393f0aa2b3417f2e",
+    "test": "cn.crane4j.core.support.SimpleCrane4jGlobalConfigurationTest.operatePropertyMappingStrategy",
+    "label": "ID",
+    "module": "crane4j-core",
+    "zip": "crane4j=crane4j-core=b65f732",
+    "config_row": 72,
+    "configured_test": "cn.crane4j.core.support.SimpleCrane4jGlobalConfigurationTest#operatePropertyMappingStrategy",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/opengoofy/crane4j::cn.crane4j.core.support.SimpleCrane4jGlobalConfigurationTest.operatePropertyMappingStrategy",
+    "variant_id": "https://github.com/opengoofy/crane4j::cn.crane4j.core.support.SimpleCrane4jGlobalConfigurationTest.operatePropertyMappingStrategy::b65f7324544381646119be48393f0aa2b3417f2e::crane4j-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/crane4jcrane4jcoreb65f732operatePropertyMappingStrategy/result/Flaky/.nondex/bF95bHC1jcO12f9eb3TVk4zeQyBqz0XezxJTUC4RYNE=/TEST-cn.crane4j.core.support.SimpleCrane4jGlobalConfigurationTest.xml",
+        "size": 10976,
+        "compressed": 2337,
+        "crc32": "2075e130",
+        "offset": 649572342,
+        "method": 8,
+        "local_path": "data/extracted/22426b32c6560459ffddf5ea.xml",
+        "sha256": "b1fb72c3a61fb7229c00d23f67b0b5efa45d62a7a60f7d6866b56e876fc8513f",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/crane4jcrane4jcoreb65f732operatePropertyMappingStrategy/result/Flaky/rounds-test-results.csv",
+    "size": 20548,
+    "compressed": 4864,
+    "crc32": "31faaf3c",
+    "offset": 649363958,
+    "method": 8,
+    "local_path": "data/extracted/a2f835036dc7a83680d2224b.csv",
+    "sha256": "ae778fd923a79613ba1f939d198b7ba3bd768c91c91e19da17766618c879a777",
+    "status": "verified"
+  },
+  "reported_failure_rows": 91,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/crane4jcrane4jcoreb65f732operatePropertyMappingStrategy/result/Flaky/.nondex/bF95bHC1jcO12f9eb3TVk4zeQyBqz0XezxJTUC4RYNE=/TEST-cn.crane4j.core.support.SimpleCrane4jGlobalConfigurationTest.xml",
+    "size": 10976,
+    "compressed": 2337,
+    "crc32": "2075e130",
+    "offset": 649572342,
+    "method": 8,
+    "local_path": "data/extracted/22426b32c6560459ffddf5ea.xml",
+    "sha256": "b1fb72c3a61fb7229c00d23f67b0b5efa45d62a7a60f7d6866b56e876fc8513f",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "operatePropertyMappingStrategy",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "expected:<[cn.crane4j.core.parser.handler.strategy.ReferenceMappingStrategy@7b98f307, cn.crane4j.core.parser.handler.strategy.OverwriteNotNullMappingStrategy@4802796d, cn.crane4j.core.parser.handler.strategy.OverwriteMappingStrategy@34123d65]> but was:<[cn.crane4j.core.parser.handler.strategy.OverwriteNotNullMappingStrategy@4802796d, cn.crane4j.core.parser.handler.strategy.OverwriteMappingStrategy@34123d65, cn.crane4j.core.parser.handler.strategy.ReferenceMappingStrategy@7b98f307]>",
+    "stack_trace": "java.lang.AssertionError: expected:<[cn.crane4j.core.parser.handler.strategy.ReferenceMappingStrategy@7b98f307, cn.crane4j.core.parser.handler.strategy.OverwriteNotNullMappingStrategy@4802796d, cn.crane4j.core.parser.handler.strategy.OverwriteMappingStrategy@34123d65]> but was:<[cn.crane4j.core.parser.handler.strategy.OverwriteNotNullMappingStrategy@4802796d, cn.crane4j.core.parser.handler.strategy.OverwriteMappingStrategy@34123d65, cn.crane4j.core.parser.handler.strategy.ReferenceMappingStrategy@7b98f307]>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:120)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat cn.crane4j.core.support.SimpleCrane4jGlobalConfigurationTest.operatePropertyMappingStrategy(SimpleCrane4jGlobalConfigurationTest.java:41)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:62)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:139)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)",
+    "text": "java.lang.AssertionError\nexpected:<[cn.crane4j.core.parser.handler.strategy.ReferenceMappingStrategy@7b98f307, cn.crane4j.core.parser.handler.strategy.OverwriteNotNullMappingStrategy@4802796d, cn.crane4j.core.parser.handler.strategy.OverwriteMappingStrategy@34123d65]> but was:<[cn.crane4j.core.parser.handler.strategy.OverwriteNotNullMappingStrategy@4802796d, cn.crane4j.core.parser.handler.strategy.OverwriteMappingStrategy@34123d65, cn.crane4j.core.parser.handler.strategy.ReferenceMappingStrategy@7b98f307]>\njava.lang.AssertionError: expected:<[cn.crane4j.core.parser.handler.strategy.ReferenceMappingStrategy@7b98f307, cn.crane4j.core.parser.handler.strategy.OverwriteNotNullMappingStrategy@4802796d, cn.crane4j.core.parser.handler.strategy.OverwriteMappingStrategy@34123d65]> but was:<[cn.crane4j.core.parser.handler.strategy.OverwriteNotNullMappingStrategy@4802796d, cn.crane4j.core.parser.handler.strategy.OverwriteMappingStrategy@34123d65, cn.crane4j.core.parser.handler.strategy.ReferenceMappingStrategy@7b98f307]>\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:120)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat cn.crane4j.core.support.SimpleCrane4jGlobalConfigurationTest.operatePropertyMappingStrategy(SimpleCrane4jGlobalConfigurationTest.java:41)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:62)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:139)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "7582fb7e98453694955d4df9f2316b87b2e781acccb393c3a2f8834332c6af0d"
+}

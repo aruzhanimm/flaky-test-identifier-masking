@@ -1,0 +1,81 @@
+{
+  "container": "jsonioa6f9b6btestAssignAtomicBoolean",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jsonioa6f9b6btestAssignAtomicBoolean",
+    "project": "https://github.com/jdereg/json-io",
+    "revision": "a6f9b6bbf0bd99cd9fa681d7ffeceb90ea87461e",
+    "test": "com.cedarsoftware.io.AtomicBooleanTest.testAssignAtomicBoolean",
+    "label": "ID",
+    "module": ".",
+    "zip": "json-io=.=a6f9b6b",
+    "config_row": 356,
+    "configured_test": "com.cedarsoftware.io.AtomicBooleanTest#testAssignAtomicBoolean",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/jdereg/json-io::com.cedarsoftware.io.AtomicBooleanTest.testAssignAtomicBoolean",
+    "variant_id": "https://github.com/jdereg/json-io::com.cedarsoftware.io.AtomicBooleanTest.testAssignAtomicBoolean::a6f9b6bbf0bd99cd9fa681d7ffeceb90ea87461e::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/jsonioa6f9b6btestAssignAtomicBoolean/result/Flaky/.nondex/mT861K219RBS0lxMq5hU7zn8qXV27BMyqCCRj2Rp4=/TEST-com.cedarsoftware.io.AtomicBooleanTest.xml",
+        "size": 11458,
+        "compressed": 2506,
+        "crc32": "d3e7e346",
+        "offset": 282617915,
+        "method": 8,
+        "local_path": "data/extracted/a5f1c49a0f480c3e5fedb98d.xml",
+        "sha256": "db5dc381126ddaf2b35d6a72ce808a7587b2a4a399a2c32366802cc2bf70f78a",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jsonioa6f9b6btestAssignAtomicBoolean/result/Flaky/rounds-test-results.csv",
+    "size": 17240,
+    "compressed": 5082,
+    "crc32": "8a1240cb",
+    "offset": 282321666,
+    "method": 8,
+    "local_path": "data/extracted/934bae23cd26e200f32af4ea.csv",
+    "sha256": "1d1e80140564fea23a6bf03b34462943de278333293d85d519c61b6454f871cb",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/jsonioa6f9b6btestAssignAtomicBoolean/result/Flaky/.nondex/mT861K219RBS0lxMq5hU7zn8qXV27BMyqCCRj2Rp4=/TEST-com.cedarsoftware.io.AtomicBooleanTest.xml",
+    "size": 11458,
+    "compressed": 2506,
+    "crc32": "d3e7e346",
+    "offset": 282617915,
+    "method": 8,
+    "local_path": "data/extracted/a5f1c49a0f480c3e5fedb98d.xml",
+    "sha256": "db5dc381126ddaf2b35d6a72ce808a7587b2a4a399a2c32366802cc2bf70f78a",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testAssignAtomicBoolean",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "expected: \"{\"@type\":\"com.cedarsoftware.io.AtomicBooleanTest$TestAtomicBooleanField\",\"value\":true,\"nullValue\":null,\"strValue\":true,\"emptyStrValue\":false,\"objValue\":false,\"values\":[false,null,true,true]}\"\n but was: \"{\"@type\":\"com.cedarsoftware.io.AtomicBooleanTest$TestAtomicBooleanField\",\"objValue\":false,\"values\":[false,null,true,true],\"value\":true,\"emptyStrValue\":false,\"strValue\":true,\"nullValue\":null}\"",
+    "stack_trace": "org.opentest4j.AssertionFailedError: \n\nexpected: \"{\"@type\":\"com.cedarsoftware.io.AtomicBooleanTest$TestAtomicBooleanField\",\"value\":true,\"nullValue\":null,\"strValue\":true,\"emptyStrValue\":false,\"objValue\":false,\"values\":[false,null,true,true]}\"\n but was: \"{\"@type\":\"com.cedarsoftware.io.AtomicBooleanTest$TestAtomicBooleanField\",\"objValue\":false,\"values\":[false,null,true,true],\"value\":true,\"emptyStrValue\":false,\"strValue\":true,\"nullValue\":null}\"\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat com.cedarsoftware.io.AtomicBooleanTest.testAssignAtomicBoolean(AtomicBooleanTest.java:62)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "text": "org.opentest4j.AssertionFailedError\nexpected: \"{\"@type\":\"com.cedarsoftware.io.AtomicBooleanTest$TestAtomicBooleanField\",\"value\":true,\"nullValue\":null,\"strValue\":true,\"emptyStrValue\":false,\"objValue\":false,\"values\":[false,null,true,true]}\"\n but was: \"{\"@type\":\"com.cedarsoftware.io.AtomicBooleanTest$TestAtomicBooleanField\",\"objValue\":false,\"values\":[false,null,true,true],\"value\":true,\"emptyStrValue\":false,\"strValue\":true,\"nullValue\":null}\"\norg.opentest4j.AssertionFailedError: \n\nexpected: \"{\"@type\":\"com.cedarsoftware.io.AtomicBooleanTest$TestAtomicBooleanField\",\"value\":true,\"nullValue\":null,\"strValue\":true,\"emptyStrValue\":false,\"objValue\":false,\"values\":[false,null,true,true]}\"\n but was: \"{\"@type\":\"com.cedarsoftware.io.AtomicBooleanTest$TestAtomicBooleanField\",\"objValue\":false,\"values\":[false,null,true,true],\"value\":true,\"emptyStrValue\":false,\"strValue\":true,\"nullValue\":null}\"\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat com.cedarsoftware.io.AtomicBooleanTest.testAssignAtomicBoolean(AtomicBooleanTest.java:62)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "7517dca7f9452325a199186621b5fc92adc3b7151a15043ee1a0bfcc44d60821"
+}

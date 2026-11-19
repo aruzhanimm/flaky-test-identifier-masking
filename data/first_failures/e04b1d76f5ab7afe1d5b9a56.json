@@ -1,0 +1,81 @@
+{
+  "container": "commonkafkacommonkafkad787351nextRecord_skipPendingAndCompletedRecords",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "commonkafkacommonkafkad787351nextRecord_skipPendingAndCompletedRecords",
+    "project": "https://github.com/cerner/common-kafka",
+    "revision": "d7873514c1705575c642ed99d2fa501f9b319790",
+    "test": "com.cerner.common.kafka.consumer.ProcessingPartitionTest.nextRecord_skipPendingAndCompletedRecords",
+    "label": "ID",
+    "module": "common-kafka",
+    "zip": "common-kafka=common-kafka=d787351",
+    "config_row": 531,
+    "configured_test": "com.cerner.common.kafka.consumer.ProcessingPartitionTest#nextRecord_skipPendingAndCompletedRecords",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/cerner/common-kafka::com.cerner.common.kafka.consumer.ProcessingPartitionTest.nextRecord_skipPendingAndCompletedRecords",
+    "variant_id": "https://github.com/cerner/common-kafka::com.cerner.common.kafka.consumer.ProcessingPartitionTest.nextRecord_skipPendingAndCompletedRecords::d7873514c1705575c642ed99d2fa501f9b319790::common-kafka",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/commonkafkacommonkafkad787351nextRecord_skipPendingAndCompletedRecords/result/Flaky/.nondex/HwUwW5L1sMP1jOH2PuI7E5z2HXgEcRsjw6+Qi41H9jU=/TEST-com.cerner.common.kafka.consumer.ProcessingPartitionTest.xml",
+        "size": 7205,
+        "compressed": 1851,
+        "crc32": "186c67b8",
+        "offset": 367010052,
+        "method": 8,
+        "local_path": "data/extracted/5c09d30cd4f67acd672cba2a.xml",
+        "sha256": "e3b756c486833198b74ebcdd100f4491923a52f43f6da2cbb12238bbd6d6bb68",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/commonkafkacommonkafkad787351nextRecord_skipPendingAndCompletedRecords/result/Flaky/rounds-test-results.csv",
+    "size": 20131,
+    "compressed": 5003,
+    "crc32": "3f7838a6",
+    "offset": 366934656,
+    "method": 8,
+    "local_path": "data/extracted/060a61e92f109a83d020680f.csv",
+    "sha256": "8c9915d2e1afab2d51960f9fa55481aa7044391e7ad31525f05b73be86a9e5e7",
+    "status": "verified"
+  },
+  "reported_failure_rows": 96,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/commonkafkacommonkafkad787351nextRecord_skipPendingAndCompletedRecords/result/Flaky/.nondex/HwUwW5L1sMP1jOH2PuI7E5z2HXgEcRsjw6+Qi41H9jU=/TEST-com.cerner.common.kafka.consumer.ProcessingPartitionTest.xml",
+    "size": 7205,
+    "compressed": 1851,
+    "crc32": "186c67b8",
+    "offset": 367010052,
+    "method": 8,
+    "local_path": "data/extracted/5c09d30cd4f67acd672cba2a.xml",
+    "sha256": "e3b756c486833198b74ebcdd100f4491923a52f43f6da2cbb12238bbd6d6bb68",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "nextRecord_skipPendingAndCompletedRecords",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: iterable containing [<0L>, <1L>, <2L>]\n     but: item 0: was <1L>",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: iterable containing [<0L>, <1L>, <2L>]\n     but: item 0: was <1L>\n\tat com.cerner.common.kafka.consumer.ProcessingPartitionTest.nextRecord_skipPendingAndCompletedRecords(ProcessingPartitionTest.java:261)",
+    "text": "java.lang.AssertionError\nExpected: iterable containing [<0L>, <1L>, <2L>]\n     but: item 0: was <1L>\njava.lang.AssertionError: \n\nExpected: iterable containing [<0L>, <1L>, <2L>]\n     but: item 0: was <1L>\n\tat com.cerner.common.kafka.consumer.ProcessingPartitionTest.nextRecord_skipPendingAndCompletedRecords(ProcessingPartitionTest.java:261)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "3845f0cd583a576cac215a64a8e8e40a59fa48ed34fb4cd1123ecd6bec6d6689"
+}

@@ -1,0 +1,10 @@
+org.jboss.as.naming.InitialContextFactoryTestCase.testInitialFactory,error,0,0,./naming/target/surefire-reports/TEST-org.jboss.as.naming.InitialContextFactoryTestCase.xml
+org.jboss.as.naming.InitialContextFactoryTestCase.testInitialFactory,error,0,1,./naming/target/surefire-reports/TEST-org.jboss.as.naming.InitialContextFactoryTestCase.xml
+org.jboss.as.naming.InitialContextFactoryTestCase.testInitialFactory,error,0,2,./naming/target/surefire-reports/TEST-org.jboss.as.naming.InitialContextFactoryTestCase.xml
+org.jboss.as.naming.InitialContextFactoryTestCase.testInitialFactory,error,0,3,./naming/target/surefire-reports/TEST-org.jboss.as.naming.InitialContextFactoryTestCase.xml
+org.jboss.as.naming.InitialContextFactoryTestCase.testInitialFactory,error,0,4,./naming/target/surefire-reports/TEST-org.jboss.as.naming.InitialContextFactoryTestCase.xml
+org.jboss.as.naming.InitialContextFactoryTestCase.testInitialFactory,error,0,5,./naming/target/surefire-reports/TEST-org.jboss.as.naming.InitialContextFactoryTestCase.xml
+org.jboss.as.naming.InitialContextFactoryTestCase.testInitialFactory,error,0,6,./naming/target/surefire-reports/TEST-org.jboss.as.naming.InitialContextFactoryTestCase.xml
+org.jboss.as.naming.InitialContextFactoryTestCase.testInitialFactory,error,0,7,./naming/target/surefire-reports/TEST-org.jboss.as.naming.InitialContextFactoryTestCase.xml
+org.jboss.as.naming.InitialContextFactoryTestCase.testInitialFactory,error,0,8,./naming/target/surefire-reports/TEST-org.jboss.as.naming.InitialContextFactoryTestCase.xml
+org.jboss.as.naming.InitialContextFactoryTestCase.testInitialFactory,error,0,9,./naming/target/surefire-reports/TEST-org.jboss.as.naming.InitialContextFactoryTestCase.xml

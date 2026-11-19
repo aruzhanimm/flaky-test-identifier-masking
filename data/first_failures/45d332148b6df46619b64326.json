@@ -1,0 +1,81 @@
+{
+  "container": "springcloudtencentspringcloudtencentstartersspringcloudtencentmetadatadc2185dtest1",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "springcloudtencentspringcloudtencentstartersspringcloudtencentmetadatadc2185dtest1",
+    "project": "https://github.com/tencent/spring-cloud-tencent",
+    "revision": "dc2185df45a3cd8263874be1dfe3cc9d75abc96c",
+    "test": "com.tencent.cloud.metadata.core.intercepter.resttemplate.MetadataRestTemplateInterceptorTest.test1",
+    "label": "ID",
+    "module": "spring-cloud-tencent-starters/spring-cloud-tencent-metadata",
+    "zip": "spring-cloud-tencent=spring-cloud-tencent-starters+spring-cloud-tencent-metadata=dc2185d",
+    "config_row": 212,
+    "configured_test": "com.tencent.cloud.metadata.core.intercepter.resttemplate.MetadataRestTemplateInterceptorTest#test1",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/tencent/spring-cloud-tencent::com.tencent.cloud.metadata.core.intercepter.resttemplate.MetadataRestTemplateInterceptorTest.test1",
+    "variant_id": "https://github.com/tencent/spring-cloud-tencent::com.tencent.cloud.metadata.core.intercepter.resttemplate.MetadataRestTemplateInterceptorTest.test1::dc2185df45a3cd8263874be1dfe3cc9d75abc96c::spring-cloud-tencent-starters/spring-cloud-tencent-metadata",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/springcloudtencentspringcloudtencentstartersspringcloudtencentmetadatadc2185dtest1/result/Flaky/.nondex/j87t093aFI1qkT+xp2pGYPVAKFGJZ4J8VkgjGJ54J0=/TEST-com.tencent.cloud.metadata.core.intercepter.resttemplate.MetadataRestTemplateInterceptorTest.xml",
+        "size": 61759,
+        "compressed": 8164,
+        "crc32": "82d60b69",
+        "offset": 796605846,
+        "method": 8,
+        "local_path": "data/extracted/6f1867021a2765c3ca8e1469.xml",
+        "sha256": "857cf4cfd59ab2a6425b220cc1a1ff6fa3b3cc2c41b86e26017c54acedaecf6c",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/springcloudtencentspringcloudtencentstartersspringcloudtencentmetadatadc2185dtest1/result/Flaky/rounds-test-results.csv",
+    "size": 28459,
+    "compressed": 5250,
+    "crc32": "e67e0db7",
+    "offset": 796442785,
+    "method": 8,
+    "local_path": "data/extracted/b46984f5c6e455a48aa25685.csv",
+    "sha256": "dda3800f59a08d7e6278336ee65fecd15b229a552102aad9543d88265e990061",
+    "status": "verified"
+  },
+  "reported_failure_rows": 97,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/springcloudtencentspringcloudtencentstartersspringcloudtencentmetadatadc2185dtest1/result/Flaky/.nondex/j87t093aFI1qkT+xp2pGYPVAKFGJZ4J8VkgjGJ54J0=/TEST-com.tencent.cloud.metadata.core.intercepter.resttemplate.MetadataRestTemplateInterceptorTest.xml",
+    "size": 61759,
+    "compressed": 8164,
+    "crc32": "82d60b69",
+    "offset": 796605846,
+    "method": 8,
+    "local_path": "data/extracted/6f1867021a2765c3ca8e1469.xml",
+    "sha256": "857cf4cfd59ab2a6425b220cc1a1ff6fa3b3cc2c41b86e26017c54acedaecf6c",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "test1",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "Expecting:\n <\"{\"c\":\"33\",\"b\":\"22\",\"a\":\"11\"}{\"LOCAL_SERVICE\":\"test\",\"LOCAL_NAMESPACE\":\"default\",\"LOCAL_PATH\":\"/test\"}\">\nto be equal to:\n <\"{\"a\":\"11\",\"b\":\"22\",\"c\":\"33\"}{\"LOCAL_SERVICE\":\"test\",\"LOCAL_PATH\":\"/test\",\"LOCAL_NAMESPACE\":\"default\"}\">\nbut was not.",
+    "stack_trace": "org.opentest4j.AssertionFailedError: \n\nExpecting:\n <\"{\"c\":\"33\",\"b\":\"22\",\"a\":\"11\"}{\"LOCAL_SERVICE\":\"test\",\"LOCAL_NAMESPACE\":\"default\",\"LOCAL_PATH\":\"/test\"}\">\nto be equal to:\n <\"{\"a\":\"11\",\"b\":\"22\",\"c\":\"33\"}{\"LOCAL_SERVICE\":\"test\",\"LOCAL_PATH\":\"/test\",\"LOCAL_NAMESPACE\":\"default\"}\">\nbut was not.\n\tat com.tencent.cloud.metadata.core.intercepter.resttemplate.MetadataRestTemplateInterceptorTest.test1(MetadataRestTemplateInterceptorTest.java:74)",
+    "text": "org.opentest4j.AssertionFailedError\nExpecting:\n <\"{\"c\":\"33\",\"b\":\"22\",\"a\":\"11\"}{\"LOCAL_SERVICE\":\"test\",\"LOCAL_NAMESPACE\":\"default\",\"LOCAL_PATH\":\"/test\"}\">\nto be equal to:\n <\"{\"a\":\"11\",\"b\":\"22\",\"c\":\"33\"}{\"LOCAL_SERVICE\":\"test\",\"LOCAL_PATH\":\"/test\",\"LOCAL_NAMESPACE\":\"default\"}\">\nbut was not.\norg.opentest4j.AssertionFailedError: \n\nExpecting:\n <\"{\"c\":\"33\",\"b\":\"22\",\"a\":\"11\"}{\"LOCAL_SERVICE\":\"test\",\"LOCAL_NAMESPACE\":\"default\",\"LOCAL_PATH\":\"/test\"}\">\nto be equal to:\n <\"{\"a\":\"11\",\"b\":\"22\",\"c\":\"33\"}{\"LOCAL_SERVICE\":\"test\",\"LOCAL_PATH\":\"/test\",\"LOCAL_NAMESPACE\":\"default\"}\">\nbut was not.\n\tat com.tencent.cloud.metadata.core.intercepter.resttemplate.MetadataRestTemplateInterceptorTest.test1(MetadataRestTemplateInterceptorTest.java:74)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "edfc6fe4aaaaa665f3b119e60b964c026fdaf02e04c711982c6e871560914caa"
+}

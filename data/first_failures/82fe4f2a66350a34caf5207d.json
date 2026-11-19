@@ -1,0 +1,81 @@
+{
+  "container": "jacksondataformatsbinaryprotobuf0eeb08ctestWriteCoord",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "jacksondataformatsbinaryprotobuf0eeb08ctestWriteCoord",
+    "project": "https://github.com/fasterxml/jackson-dataformats-binary",
+    "revision": "0eeb08cfd07a9d23bc22090e17a67da57baf436e",
+    "test": "com.fasterxml.jackson.dataformat.protobuf.WriteSimpleTest.testWriteCoord",
+    "label": "ID",
+    "module": "protobuf",
+    "zip": "jackson-dataformats-binary=protobuf=0eeb08c",
+    "config_row": 342,
+    "configured_test": "com.fasterxml.jackson.dataformat.protobuf.WriteSimpleTest#testWriteCoord",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/fasterxml/jackson-dataformats-binary::com.fasterxml.jackson.dataformat.protobuf.WriteSimpleTest.testWriteCoord",
+    "variant_id": "https://github.com/fasterxml/jackson-dataformats-binary::com.fasterxml.jackson.dataformat.protobuf.WriteSimpleTest.testWriteCoord::0eeb08cfd07a9d23bc22090e17a67da57baf436e::protobuf",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/jacksondataformatsbinaryprotobuf0eeb08ctestWriteCoord/result/Flaky/.nondex/E8bx5QpndIf8X5pk1+Rxc7NANLqIFMqv5ixHik279U=/TEST-com.fasterxml.jackson.dataformat.protobuf.WriteSimpleTest.xml",
+        "size": 7449,
+        "compressed": 1841,
+        "crc32": "4fc209ae",
+        "offset": 1920210956,
+        "method": 8,
+        "local_path": "data/extracted/a1f2f90b38e7c2319f945b71.xml",
+        "sha256": "57a099c2726fee369812f75a3a691584afdd64541f58c3d821b3bd43fac0d955",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/jacksondataformatsbinaryprotobuf0eeb08ctestWriteCoord/result/Flaky/rounds-test-results.csv",
+    "size": 19787,
+    "compressed": 5011,
+    "crc32": "2bac47fe",
+    "offset": 1920005697,
+    "method": 8,
+    "local_path": "data/extracted/a7db927a13094486a4494ee1.csv",
+    "sha256": "482ca1cb8832f91e9e72aa26f8cdf6b2748aaeb340e988f1f044db2f2b4000f2",
+    "status": "verified"
+  },
+  "reported_failure_rows": 74,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/jacksondataformatsbinaryprotobuf0eeb08ctestWriteCoord/result/Flaky/.nondex/E8bx5QpndIf8X5pk1+Rxc7NANLqIFMqv5ixHik279U=/TEST-com.fasterxml.jackson.dataformat.protobuf.WriteSimpleTest.xml",
+    "size": 7449,
+    "compressed": 1841,
+    "crc32": "4fc209ae",
+    "offset": 1920210956,
+    "method": 8,
+    "local_path": "data/extracted/a1f2f90b38e7c2319f945b71.xml",
+    "sha256": "57a099c2726fee369812f75a3a691584afdd64541f58c3d821b3bd43fac0d955",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testWriteCoord",
+    "outcome": "failure",
+    "exception_type": "junit.framework.AssertionFailedError",
+    "message": "expected:<26> but was:<42>",
+    "stack_trace": "junit.framework.AssertionFailedError: expected:<26> but was:<42>\n\tat com.fasterxml.jackson.dataformat.protobuf.WriteSimpleTest.testWriteCoord(WriteSimpleTest.java:267)",
+    "text": "junit.framework.AssertionFailedError\nexpected:<26> but was:<42>\njunit.framework.AssertionFailedError: expected:<26> but was:<42>\n\tat com.fasterxml.jackson.dataformat.protobuf.WriteSimpleTest.testWriteCoord(WriteSimpleTest.java:267)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "942565faf20f1291bcfcebe082c1cb9a3ba896a107b531be2662596f8584417b"
+}

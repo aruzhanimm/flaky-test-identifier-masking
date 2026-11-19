@@ -1,0 +1,98 @@
+{
+  "container": "shardingsphereelasticjobelasticjoblitecore23a2ab5",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "shardingsphereelasticjobelasticjoblitecore23a2ab5",
+    "project": "https://github.com/apache/shardingsphere-elasticjob",
+    "revision": "23a2ab50e95198c43d2c3ff99acb43604849752d",
+    "test": "io.elasticjob.lite.internal.failover.FailoverServiceTest.assertGetLocalFailoverItemsIfShutdown",
+    "label": "OD",
+    "module": "elastic-job-lite-core",
+    "zip": "shardingsphereelasticjobelasticjoblitecore23a2ab5",
+    "config_row": 921,
+    "configured_test": "io.elasticjob.lite.internal.failover.FailoverServiceTest#assertGetLocalFailoverItemsIfShutdown",
+    "configured_type": "od",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/shardingsphere-elasticjob::io.elasticjob.lite.internal.failover.FailoverServiceTest.assertGetLocalFailoverItemsIfShutdown",
+    "variant_id": "https://github.com/apache/shardingsphere-elasticjob::io.elasticjob.lite.internal.failover.FailoverServiceTest.assertGetLocalFailoverItemsIfShutdown::23a2ab50e95198c43d2c3ff99acb43604849752d::elastic-job-lite-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/shardingsphereelasticjobelasticjoblitecore23a2ab5/result/Flaky/surefire-reports/reports-0/io.elasticjob.lite.internal.failover.FailoverServiceTest.txt",
+        "size": 3143,
+        "compressed": 791,
+        "crc32": "abbb049a",
+        "offset": 54622106,
+        "method": 8,
+        "local_path": "data/extracted/d487a98a014e89f06cbd65a2.txt",
+        "sha256": "b73a89f65119598206dba55402f0b3780fd1b80a1126b8b170e8dee5185354ac",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/shardingsphereelasticjobelasticjoblitecore23a2ab5/result/Flaky/surefire-reports/reports-0/io.elasticjob.lite.internal.failover.FailoverServiceTest.txt",
+        "size": 3143,
+        "compressed": 791,
+        "crc32": "abbb049a",
+        "offset": 54622106,
+        "method": 8,
+        "local_path": "data/extracted/d487a98a014e89f06cbd65a2.txt",
+        "sha256": "b73a89f65119598206dba55402f0b3780fd1b80a1126b8b170e8dee5185354ac",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 10,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/shardingsphereelasticjobelasticjoblitecore23a2ab5/result/Flaky/rounds-test-results.csv",
+    "size": 2249,
+    "compressed": 193,
+    "crc32": "039b2a88",
+    "offset": 54601226,
+    "method": 8,
+    "local_path": "data/extracted/a1687745cc12f9767f389879.csv",
+    "sha256": "1ce10736a2ad915ccf076bb6a3cb20068beeae2fbd7777e3b28551a02f41af28",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10,
+  "iteration": 0,
+  "source_row": 1,
+  "diagnostic_member": {
+    "path": "result/shardingsphereelasticjobelasticjoblitecore23a2ab5/result/Flaky/surefire-reports/reports-0/io.elasticjob.lite.internal.failover.FailoverServiceTest.txt",
+    "size": 3143,
+    "compressed": 791,
+    "crc32": "abbb049a",
+    "offset": 54622106,
+    "method": 8,
+    "local_path": "data/extracted/d487a98a014e89f06cbd65a2.txt",
+    "sha256": "b73a89f65119598206dba55402f0b3780fd1b80a1126b8b170e8dee5185354ac",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "assertGetLocalFailoverItemsIfShutdown",
+    "outcome": "failure",
+    "exception_type": "org.mockito.exceptions.verification.NeverWantedButInvoked",
+    "message": "",
+    "stack_trace": "org.mockito.exceptions.verification.NeverWantedButInvoked: \n\njobNodeStorage.getJobNodeChildrenKeys(\n    \"sharding\"\n);\nNever wanted here:\n-> at io.elasticjob.lite.internal.storage.JobNodeStorage.getJobNodeChildrenKeys(JobNodeStorage.java:92)\nBut invoked here:\n-> at io.elasticjob.lite.internal.failover.FailoverService.getFailoverItems(FailoverService.java:101)\n\n\tat io.elasticjob.lite.internal.storage.JobNodeStorage.getJobNodeChildrenKeys(JobNodeStorage.java:92)\n\tat io.elasticjob.lite.internal.failover.FailoverServiceTest.assertGetLocalFailoverItemsIfShutdown(FailoverServiceTest.java:180)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:385)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:285)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:249)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:168)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)",
+    "text": "org.mockito.exceptions.verification.NeverWantedButInvoked\norg.mockito.exceptions.verification.NeverWantedButInvoked: \n\njobNodeStorage.getJobNodeChildrenKeys(\n    \"sharding\"\n);\nNever wanted here:\n-> at io.elasticjob.lite.internal.storage.JobNodeStorage.getJobNodeChildrenKeys(JobNodeStorage.java:92)\nBut invoked here:\n-> at io.elasticjob.lite.internal.failover.FailoverService.getFailoverItems(FailoverService.java:101)\n\n\tat io.elasticjob.lite.internal.storage.JobNodeStorage.getJobNodeChildrenKeys(JobNodeStorage.java:92)\n\tat io.elasticjob.lite.internal.failover.FailoverServiceTest.assertGetLocalFailoverItemsIfShutdown(FailoverServiceTest.java:180)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:385)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:285)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:249)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:168)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "459691fe90e8481b36be6fd85ff452d08923020ba0ff3be5eee20a42ede730d9"
+}

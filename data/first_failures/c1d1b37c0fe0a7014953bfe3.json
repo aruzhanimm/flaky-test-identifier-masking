@@ -1,0 +1,98 @@
+{
+  "container": "ormlitecore59309e84",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ormlitecore59309e84",
+    "project": "https://github.com/j256/ormlite-core",
+    "revision": "59309e51c61e8a63cb5fd24a5a7607b668a5f095",
+    "test": "com.j256.ormlite.support.DatabaseConnectionProxyFactoryTest.testChangeInsertValue",
+    "label": "OD",
+    "module": ".",
+    "zip": "ormlitecore59309e5",
+    "config_row": 889,
+    "configured_test": "com.j256.ormlite.support.DatabaseConnectionProxyFactoryTest#testChangeInsertValue",
+    "configured_type": "od",
+    "iterations": "100",
+    "test_id": "https://github.com/j256/ormlite-core::com.j256.ormlite.support.DatabaseConnectionProxyFactoryTest.testChangeInsertValue",
+    "variant_id": "https://github.com/j256/ormlite-core::com.j256.ormlite.support.DatabaseConnectionProxyFactoryTest.testChangeInsertValue::59309e51c61e8a63cb5fd24a5a7607b668a5f095::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/ormlitecore59309e84/result/Flaky/surefire-reports/reports-0/com.j256.ormlite.support.DatabaseConnectionProxyFactoryTest.txt",
+        "size": 1364,
+        "compressed": 474,
+        "crc32": "7fd01125",
+        "offset": 17133005,
+        "method": 8,
+        "local_path": "data/extracted/db930ab65455c49d9e7b5404.txt",
+        "sha256": "c7c1249baee504b88d269a5122fa8928638fb4b45a885e9c1b51dfd0320210f3",
+        "status": "verified"
+      },
+      "status": "parse_error",
+      "error": "Unsupported input; use target Surefire XML or NIO results JSON"
+    },
+    {
+      "row": 1,
+      "iteration": 0,
+      "member": {
+        "path": "result/ormlitecore59309e84/result/Flaky/surefire-reports/reports-0/com.j256.ormlite.support.DatabaseConnectionProxyFactoryTest.txt",
+        "size": 1364,
+        "compressed": 474,
+        "crc32": "7fd01125",
+        "offset": 17133005,
+        "method": 8,
+        "local_path": "data/extracted/db930ab65455c49d9e7b5404.txt",
+        "sha256": "c7c1249baee504b88d269a5122fa8928638fb4b45a885e9c1b51dfd0320210f3",
+        "status": "verified"
+      },
+      "status": "parsed_after_TXT_extension",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 10,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ormlitecore59309e84/result/Flaky/rounds-test-results.csv",
+    "size": 1929,
+    "compressed": 177,
+    "crc32": "d943f249",
+    "offset": 17108730,
+    "method": 8,
+    "local_path": "data/extracted/ed872805241cf1b319752d2e.csv",
+    "sha256": "9f7dcdea137eb01be94d7bb9ac67cbfb266e37899f869220f60c2f022ee7133a",
+    "status": "verified"
+  },
+  "reported_failure_rows": 10,
+  "iteration": 0,
+  "source_row": 1,
+  "diagnostic_member": {
+    "path": "result/ormlitecore59309e84/result/Flaky/surefire-reports/reports-0/com.j256.ormlite.support.DatabaseConnectionProxyFactoryTest.txt",
+    "size": 1364,
+    "compressed": 474,
+    "crc32": "7fd01125",
+    "offset": 17133005,
+    "method": 8,
+    "local_path": "data/extracted/db930ab65455c49d9e7b5404.txt",
+    "sha256": "c7c1249baee504b88d269a5122fa8928638fb4b45a885e9c1b51dfd0320210f3",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_text",
+    "testcase_name": "testChangeInsertValue",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "",
+    "stack_trace": "java.lang.AssertionError: \n\n  Unexpected method call LogBackend.isLevelEnabled(DEBUG):\n\tat org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:44)\n\tat org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:94)\n\tat com.sun.proxy.$Proxy10.isLevelEnabled(Unknown Source)\n\tat com.j256.ormlite.logger.BaseLogger.logIfEnabled(BaseLogger.java:86)\n\tat com.j256.ormlite.logger.Logger.debug(Logger.java:150)\n\tat com.j256.ormlite.dao.DaoManager.createDao(DaoManager.java:75)\n\tat com.j256.ormlite.BaseCoreTest.createDao(BaseCoreTest.java:52)\n\tat com.j256.ormlite.support.DatabaseConnectionProxyFactoryTest.testChangeInsertValue(DatabaseConnectionProxyFactoryTest.java:72)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError: \n\n  Unexpected method call LogBackend.isLevelEnabled(DEBUG):\n\tat org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:44)\n\tat org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:94)\n\tat com.sun.proxy.$Proxy10.isLevelEnabled(Unknown Source)\n\tat com.j256.ormlite.logger.BaseLogger.logIfEnabled(BaseLogger.java:86)\n\tat com.j256.ormlite.logger.Logger.debug(Logger.java:150)\n\tat com.j256.ormlite.dao.DaoManager.createDao(DaoManager.java:75)\n\tat com.j256.ormlite.BaseCoreTest.createDao(BaseCoreTest.java:52)\n\tat com.j256.ormlite.support.DatabaseConnectionProxyFactoryTest.testChangeInsertValue(DatabaseConnectionProxyFactoryTest.java:72)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "8ed835978cae17c80e0a676f04ac34f56f6120b99bda0291a553e9872ff59613"
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.apache.activemq.transport.stomp.StompTest" time="0.761" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="warbucks.skip" value="true"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="javax.net.ssl.trustStorePassword" value="password"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="gpg.skip" value="true"/>
+    <property name="sun.boot.library.path" value="/opt/java/openjdk/lib"/>
+    <property name="sun.java.command" value="/app/source/activemq-stomp/target/surefire/surefirebooter-20251105223858002_7.jar /app/source/activemq-stomp/target/surefire 2025-11-05T22-38-57_936-jvmRun1 surefire-20251105223858002_5tmp surefire_1-20251105223858002_6tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="nondexExecid" value="NUIHLGA3dKZeCgWalNjfJ2MZ5zVPCBNbBV4RCEbLxXI="/>
+    <property name="skip.installnodenpm" value="true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/opt/java/openjdk"/>
+    <property name="modernizer.skip" value="true"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/app/source/activemq-stomp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="skip.npm" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="mdep.analyze.skip" value="true"/>
+    <property name="maven.bundle.plugin.skip" value="true"/>
+    <property name="javax.net.ssl.trustStore" value="/app/source/activemq-stomp/src/test/resources/server.keystore"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ossindex.skip" value="true"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="user.name" value="root"/>
+    <property name="findbugs.skip" value="true"/>
+    <property name="javax.net.ssl.keyStoreType" value="jks"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="nondexDir" value="/app/source/activemq-stomp/.nondex"/>
+    <property name="nondexJarDir" value="/app/source/activemq-stomp/.nondex"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="license.skip" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="xml.skip" value="true"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="maven.parallel.force" value="false"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="impsort.skip" value="true"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="skip.yarn" value="true"/>
+    <property name="pgpverify.skip" value="true"/>
+    <property name="nondexStart" value="0"/>
+    <property name="java.class.path" value="/app/source/activemq-stomp/target/test-classes:/app/source/activemq-stomp/target/classes:/root/.m2/repository/org/apache/activemq/activemq-broker/6.1.0-SNAPSHOT/activemq-broker-6.1.0-SNAPSHOT.jar:/root/.m2/repository/org/apache/activemq/activemq-client/6.1.0-SNAPSHOT/activemq-client-6.1.0-SNAPSHOT.jar:/root/.m2/repository/jakarta/jms/jakarta.jms-api/3.1.0/jakarta.jms-api-3.1.0.jar:/root/.m2/repository/org/fusesource/hawtbuf/hawtbuf/1.11/hawtbuf-1.11.jar:/root/.m2/repository/org/apache/activemq/activemq-openwire-legacy/6.1.0-SNAPSHOT/activemq-openwire-legacy-6.1.0-SNAPSHOT.jar:/root/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.0/jackson-databind-2.16.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.0/jackson-annotations-2.16.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.0/jackson-core-2.16.0.jar:/root/.m2/repository/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.jar:/root/.m2/repository/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar:/root/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/root/.m2/repository/org/codehaus/jettison/jettison/1.5.4/jettison-1.5.4.jar:/root/.m2/repository/org/apache/activemq/activemq-kahadb-store/6.1.0-SNAPSHOT/activemq-kahadb-store-6.1.0-SNAPSHOT.jar:/root/.m2/repository/org/apache/activemq/protobuf/activemq-protobuf/1.1/activemq-protobuf-1.1.jar:/root/.m2/repository/org/apache/activemq/activemq-broker/6.1.0-SNAPSHOT/activemq-broker-6.1.0-SNAPSHOT-tests.jar:/root/.m2/repository/org/apache/activemq/activemq-jaas/6.1.0-SNAPSHOT/activemq-jaas-6.1.0-SNAPSHOT.jar:/root/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/root/.m2/repository/org/springframework/spring-context/6.0.13/spring-context-6.0.13.jar:/root/.m2/repository/org/springframework/spring-aop/6.0.13/spring-aop-6.0.13.jar:/root/.m2/repository/org/springframework/spring-beans/6.0.13/spring-beans-6.0.13.jar:/root/.m2/repository/org/springframework/spring-core/6.0.13/spring-core-6.0.13.jar:/root/.m2/repository/org/springframework/spring-jcl/6.0.13/spring-jcl-6.0.13.jar:/root/.m2/repository/org/springframework/spring-expression/6.0.13/spring-expression-6.0.13.jar:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/mockito/mockito-core/4.8.1/mockito-core-4.8.1.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.12.16/byte-buddy-1.12.16.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.16/byte-buddy-agent-1.12.16.jar:/root/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.0/log4j-slf4j2-impl-2.22.0.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.22.0/log4j-api-2.22.0.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.22.0/log4j-core-2.22.0.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="spotless.check.skip" value="true"/>
+    <property name="nondexRuns" value="100"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="os.name" value="Linux"/>
+    <property name="rat.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="dependency-check.skip" value="true"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="test" value="org.apache.activemq.transport.stomp.StompTest#testTransformationReceiveXMLObject"/>
+    <property name="surefire.test.class.path" value="/app/source/activemq-stomp/target/test-classes:/app/source/activemq-stomp/target/classes:/root/.m2/repository/org/apache/activemq/activemq-broker/6.1.0-SNAPSHOT/activemq-broker-6.1.0-SNAPSHOT.jar:/root/.m2/repository/org/apache/activemq/activemq-client/6.1.0-SNAPSHOT/activemq-client-6.1.0-SNAPSHOT.jar:/root/.m2/repository/jakarta/jms/jakarta.jms-api/3.1.0/jakarta.jms-api-3.1.0.jar:/root/.m2/repository/org/fusesource/hawtbuf/hawtbuf/1.11/hawtbuf-1.11.jar:/root/.m2/repository/org/apache/activemq/activemq-openwire-legacy/6.1.0-SNAPSHOT/activemq-openwire-legacy-6.1.0-SNAPSHOT.jar:/root/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.0/jackson-databind-2.16.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.0/jackson-annotations-2.16.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.0/jackson-core-2.16.0.jar:/root/.m2/repository/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.jar:/root/.m2/repository/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar:/root/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/root/.m2/repository/org/codehaus/jettison/jettison/1.5.4/jettison-1.5.4.jar:/root/.m2/repository/org/apache/activemq/activemq-kahadb-store/6.1.0-SNAPSHOT/activemq-kahadb-store-6.1.0-SNAPSHOT.jar:/root/.m2/repository/org/apache/activemq/protobuf/activemq-protobuf/1.1/activemq-protobuf-1.1.jar:/root/.m2/repository/org/apache/activemq/activemq-broker/6.1.0-SNAPSHOT/activemq-broker-6.1.0-SNAPSHOT-tests.jar:/root/.m2/repository/org/apache/activemq/activemq-jaas/6.1.0-SNAPSHOT/activemq-jaas-6.1.0-SNAPSHOT.jar:/root/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/root/.m2/repository/org/springframework/spring-context/6.0.13/spring-context-6.0.13.jar:/root/.m2/repository/org/springframework/spring-aop/6.0.13/spring-aop-6.0.13.jar:/root/.m2/repository/org/springframework/spring-beans/6.0.13/spring-beans-6.0.13.jar:/root/.m2/repository/org/springframework/spring-core/6.0.13/spring-core-6.0.13.jar:/root/.m2/repository/org/springframework/spring-jcl/6.0.13/spring-jcl-6.0.13.jar:/root/.m2/repository/org/springframework/spring-expression/6.0.13/spring-expression-6.0.13.jar:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/mockito/mockito-core/4.8.1/mockito-core-4.8.1.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.12.16/byte-buddy-1.12.16.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.16/byte-buddy-agent-1.12.16.jar:/root/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.0/log4j-slf4j2-impl-2.22.0.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.22.0/log4j-api-2.22.0.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.22.0/log4j-core-2.22.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="javax.net.ssl.keyStorePassword" value="password"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="974622"/>
+    <property name="surefire.real.class.path" value="/app/source/activemq-stomp/target/surefire/surefirebooter-20251105223858002_7.jar"/>
+    <property name="cobertura.skip" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-33-generic"/>
+    <property name="spotless.skip" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="org.apache.activemq.default.directory.prefix" value="target/"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="javax.net.ssl.keyStore" value="/app/source/activemq-stomp/src/test/resources/client.keystore"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="javax.net.ssl.trustStoreType" value="jks"/>
+    <property name="user.dir" value="/app/source/activemq-stomp"/>
+    <property name="org.apache.activemq.kahaDB.files.skipMetadataUpdate" value="true"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testTransformationReceiveXMLObject" classname="org.apache.activemq.transport.stomp.StompTest" time="0.756">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.apache.activemq.transport.stomp.StompTest.testTransformationReceiveXMLObject(StompTest.java:1134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[2025-11-05 22:38:59,493 [main           ] - INFO  StompTestSupport               - ========== start testTransformationReceiveXMLObject ==========
+2025-11-05 22:38:59,657 [main           ] - DEBUG StompTestSupport               - Using stomp port 44529
+2025-11-05 22:38:59,675 [main           ] - INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2025-11-05 22:38:59,676 [main           ] - INFO  BrokerService                  - Deleting all messages on startup because deleteAllMessagesOnStartup configuration has been provided
+2025-11-05 22:38:59,676 [main           ] - INFO  BrokerService                  - Starting Persistence Adapter: MemoryPersistenceAdapter
+2025-11-05 22:38:59,676 [main           ] - INFO  BrokerService                  - Starting Temp Data Store
+2025-11-05 22:38:59,676 [main           ] - INFO  BrokerService                  - Starting Job Scheduler Store
+2025-11-05 22:38:59,676 [main           ] - INFO  BrokerService                  - Persistence Adapter successfully started
+2025-11-05 22:38:59,811 [main           ] - INFO  BrokerService                  - Apache ActiveMQ 6.1.0-SNAPSHOT (localhost, ID:b73586bd3ff9-40763-1762382339680-0:1) is starting
+2025-11-05 22:38:59,817 [main           ] - INFO  TransportServerThreadSupport   - Listening for connections at: stomp://b73586bd3ff9:44529
+2025-11-05 22:38:59,817 [main           ] - INFO  TransportConnector             - Connector stomp://b73586bd3ff9:44529 started
+2025-11-05 22:38:59,817 [main           ] - INFO  BrokerService                  - Apache ActiveMQ 6.1.0-SNAPSHOT (localhost, ID:b73586bd3ff9-40763-1762382339680-0:1) started
+2025-11-05 22:38:59,818 [main           ] - INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org
+2025-11-05 22:38:59,821 [main           ] - DEBUG VMTransportFactory             - binding to broker: localhost
+2025-11-05 22:38:59,821 [main           ] - INFO  TransportConnector             - Connector vm://localhost started
+2025-11-05 22:38:59,904 [0.1:51224@44529] - DEBUG StompInactivityMonitor         - Stomp Inactivity Monitor read check interval: 0ms, write check interval: 0ms
+2025-11-05 22:38:59,905 [0.1:51224@44529] - DEBUG ProtocolConverter              - Stomp Connect heartbeat conf RW[0,0]
+2025-11-05 22:38:59,910 [0.1:51224@44529] - INFO  ProtocolConverter              - Creating a new FrameTranslator to convert jms-object-xml
+2025-11-05 22:38:59,912 [0.1:51224@44529] - INFO  ProtocolConverter              - Created a new FrameTranslator to convert jms-object-xml
+2025-11-05 22:38:59,935 [main           ] - DEBUG VMTransportFactory             - Shutting down VM connectors for broker: localhost
+2025-11-05 22:38:59,936 [main           ] - INFO  TransportConnector             - Connector vm://localhost stopped
+2025-11-05 22:38:59,936 [main           ] - INFO  BrokerService                  - Apache ActiveMQ 6.1.0-SNAPSHOT (localhost, ID:b73586bd3ff9-40763-1762382339680-0:1) is shutting down
+2025-11-05 22:38:59,937 [0.1:51224@44529] - WARN  Transport                      - Transport Connection to: tcp://127.0.0.1:51224 failed: Unexpected error occurred: org.apache.activemq.broker.BrokerStoppedException: Broker BrokerService[localhost] is being stopped
+2025-11-05 22:38:59,937 [calhost] Task-2] - DEBUG TcpTransport                   - Stopping transport tcp:///127.0.0.1:51224@44529
+2025-11-05 22:38:59,937 [main           ] - INFO  TransportConnector             - Connector stomp://b73586bd3ff9:44529 stopped
+2025-11-05 22:38:59,938 [ActiveMQ Task-1] - DEBUG TcpTransport                   - Closed socket Socket[addr=/127.0.0.1,port=51224,localport=44529]
+2025-11-05 22:38:59,942 [main           ] - INFO  BrokerService                  - Apache ActiveMQ 6.1.0-SNAPSHOT (localhost, ID:b73586bd3ff9-40763-1762382339680-0:1) uptime 0.278 seconds
+2025-11-05 22:38:59,943 [main           ] - INFO  BrokerService                  - Apache ActiveMQ 6.1.0-SNAPSHOT (localhost, ID:b73586bd3ff9-40763-1762382339680-0:1) is shutdown
+2025-11-05 22:38:59,943 [main           ] - INFO  StompTestSupport               - ========== finished testTransformationReceiveXMLObject ==========
+]]></system-out>
+  </testcase>
+</testsuite>

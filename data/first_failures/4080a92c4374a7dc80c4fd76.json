@@ -1,0 +1,81 @@
+{
+  "container": "bytebuddybytebuddydepe997263testTypeAnnotationExceptionType",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "bytebuddybytebuddydepe997263testTypeAnnotationExceptionType",
+    "project": "https://github.com/raphw/byte-buddy",
+    "revision": "e997263e3914d1bd016cbc5932b89331783da6ad",
+    "test": "net.bytebuddy.description.type.TypeDescriptionGenericBuilderTest.testTypeAnnotationExceptionType",
+    "label": "ID",
+    "module": "byte-buddy-dep",
+    "zip": "byte-buddy=byte-buddy-dep=e997263",
+    "config_row": 54,
+    "configured_test": "net.bytebuddy.description.type.TypeDescriptionGenericBuilderTest#testTypeAnnotationExceptionType",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/raphw/byte-buddy::net.bytebuddy.description.type.TypeDescriptionGenericBuilderTest.testTypeAnnotationExceptionType",
+    "variant_id": "https://github.com/raphw/byte-buddy::net.bytebuddy.description.type.TypeDescriptionGenericBuilderTest.testTypeAnnotationExceptionType::e997263e3914d1bd016cbc5932b89331783da6ad::byte-buddy-dep",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/bytebuddybytebuddydepe997263testTypeAnnotationExceptionType/result/Flaky/.nondex/p3VCvz0wqHEcrvH6vRJUuKXJ7dSD4XN6pkNP+zQyuLw=/TEST-net.bytebuddy.description.type.TypeDescriptionGenericBuilderTest.xml",
+        "size": 9487,
+        "compressed": 2176,
+        "crc32": "5a6608b3",
+        "offset": 624388180,
+        "method": 8,
+        "local_path": "data/extracted/ed2598a83dd323b610d36d62.xml",
+        "sha256": "dfdba6184706c137dbd9a7c790b79c08af5a0ffc786d6a3f8157135a8c0af70c",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/bytebuddybytebuddydepe997263testTypeAnnotationExceptionType/result/Flaky/rounds-test-results.csv",
+    "size": 21066,
+    "compressed": 4985,
+    "crc32": "af648b1b",
+    "offset": 623388370,
+    "method": 8,
+    "local_path": "data/extracted/5635ea947dc964bbb656aea6.csv",
+    "sha256": "833efeceacf3ba3b177b722ec1da1d9cfa8fb744e91ac7b7e7141ce92b77b0a8",
+    "status": "verified"
+  },
+  "reported_failure_rows": 69,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/bytebuddybytebuddydepe997263testTypeAnnotationExceptionType/result/Flaky/.nondex/p3VCvz0wqHEcrvH6vRJUuKXJ7dSD4XN6pkNP+zQyuLw=/TEST-net.bytebuddy.description.type.TypeDescriptionGenericBuilderTest.xml",
+    "size": 9487,
+    "compressed": 2176,
+    "crc32": "5a6608b3",
+    "offset": 624388180,
+    "method": 8,
+    "local_path": "data/extracted/ed2598a83dd323b610d36d62.xml",
+    "sha256": "dfdba6184706c137dbd9a7c790b79c08af5a0ffc786d6a3f8157135a8c0af70c",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testTypeAnnotationExceptionType",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: is <VARIABLE>\n     but: was <NON_GENERIC>",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: is <VARIABLE>\n     but: was <NON_GENERIC>",
+    "text": "java.lang.AssertionError\nExpected: is <VARIABLE>\n     but: was <NON_GENERIC>\njava.lang.AssertionError: \n\nExpected: is <VARIABLE>\n     but: was <NON_GENERIC>",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "a4e347392a6ef84eed1a78301670fe0e349a5ead54cf70dfbc66ef5366c346db"
+}

@@ -1,0 +1,81 @@
+{
+  "container": "pairdistributionapp0be329dtestGenerateNewDayPairsWithSmallestWeight",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "pairdistributionapp0be329dtestGenerateNewDayPairsWithSmallestWeight",
+    "project": "https://github.com/sap/pair-distribution-app",
+    "revision": "0be329d2897f6d5fbb634e46e0ef3d283282dc93",
+    "test": "pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsWithSmallestWeight",
+    "label": "ID",
+    "module": ".",
+    "zip": "pair-distribution-app=.=0be329d",
+    "config_row": 761,
+    "configured_test": "pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsWithSmallestWeight",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/sap/pair-distribution-app::pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsWithSmallestWeight",
+    "variant_id": "https://github.com/sap/pair-distribution-app::pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsWithSmallestWeight::0be329d2897f6d5fbb634e46e0ef3d283282dc93::.",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/pairdistributionapp0be329dtestGenerateNewDayPairsWithSmallestWeight/result/Flaky/.nondex/wbxYG6E2X9WiwSqhIv45nTfh7XTkI9NCf8Ass1XpUG4=/TEST-pair.distribution.app.helpers.DayPairsHelperTest.xml",
+        "size": 23119,
+        "compressed": 3414,
+        "crc32": "a4099a25",
+        "offset": 1470090408,
+        "method": 8,
+        "local_path": "data/extracted/fa24ae12ae4810bac9272a68.xml",
+        "sha256": "73b57d24f3e2fc566e644449696a88b01d1236c02306f7777ef518d71690314e",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/pairdistributionapp0be329dtestGenerateNewDayPairsWithSmallestWeight/result/Flaky/rounds-test-results.csv",
+    "size": 18250,
+    "compressed": 5089,
+    "crc32": "112d5f4a",
+    "offset": 1469696773,
+    "method": 8,
+    "local_path": "data/extracted/c7927c955e78d963f30688d4.csv",
+    "sha256": "aa7001a029389ccfae8113dd9693def17930d443b0567efbf7023dbfa31ed291",
+    "status": "verified"
+  },
+  "reported_failure_rows": 85,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/pairdistributionapp0be329dtestGenerateNewDayPairsWithSmallestWeight/result/Flaky/.nondex/wbxYG6E2X9WiwSqhIv45nTfh7XTkI9NCf8Ass1XpUG4=/TEST-pair.distribution.app.helpers.DayPairsHelperTest.xml",
+    "size": 23119,
+    "compressed": 3414,
+    "crc32": "a4099a25",
+    "offset": 1470090408,
+    "method": 8,
+    "local_path": "data/extracted/fa24ae12ae4810bac9272a68.xml",
+    "sha256": "73b57d24f3e2fc566e644449696a88b01d1236c02306f7777ef518d71690314e",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testGenerateNewDayPairsWithSmallestWeight",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "Expected: iterable containing [\"track1\", \"track2\", \"track3\"]\n     but: item 0: was \"track2\"",
+    "stack_trace": "java.lang.AssertionError: \n\nExpected: iterable containing [\"track1\", \"track2\", \"track3\"]\n     but: item 0: was \"track2\"\n\tat pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsWithSmallestWeight(DayPairsHelperTest.java:164)",
+    "text": "java.lang.AssertionError\nExpected: iterable containing [\"track1\", \"track2\", \"track3\"]\n     but: item 0: was \"track2\"\njava.lang.AssertionError: \n\nExpected: iterable containing [\"track1\", \"track2\", \"track3\"]\n     but: item 0: was \"track2\"\n\tat pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsWithSmallestWeight(DayPairsHelperTest.java:164)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "301be124ea50b8997290167994c46c8aada04b1bb54dfd24912f0d4ff8ab03a1"
+}

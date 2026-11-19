@@ -1,0 +1,81 @@
+{
+  "container": "elideelidecore5c39308testGetIdAnnotations",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "elideelidecore5c39308testGetIdAnnotations",
+    "project": "https://github.com/yahoo/elide",
+    "revision": "",
+    "test": "com.yahoo.elide.core.dictionary.EntityDictionaryTest.testGetIdAnnotations",
+    "label": "ID",
+    "module": "elide-core",
+    "zip": "elide=elide-core=5c39308",
+    "config_row": 29,
+    "configured_test": "com.yahoo.elide.core.dictionary.EntityDictionaryTest#testGetIdAnnotations",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/yahoo/elide::com.yahoo.elide.core.dictionary.EntityDictionaryTest.testGetIdAnnotations",
+    "variant_id": "https://github.com/yahoo/elide::com.yahoo.elide.core.dictionary.EntityDictionaryTest.testGetIdAnnotations::::elide-core",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/elideelidecore5c39308testGetIdAnnotations/result/Flaky/.nondex/TNaPD3zPdANhDPJwEDUpjN7T9ExWzs+e4kzPTSvG1MA=/TEST-com.yahoo.elide.core.dictionary.EntityDictionaryTest.xml",
+        "size": 19275,
+        "compressed": 3293,
+        "crc32": "50cb96bc",
+        "offset": 596802740,
+        "method": 8,
+        "local_path": "data/extracted/2c167158d011c41928b11257.xml",
+        "sha256": "c1520ec557b5b8474c6c5dc567829936c5fa6f876704c4412aaa913bdcf53d70",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/elideelidecore5c39308testGetIdAnnotations/result/Flaky/rounds-test-results.csv",
+    "size": 19429,
+    "compressed": 5130,
+    "crc32": "95079693",
+    "offset": 596427656,
+    "method": 8,
+    "local_path": "data/extracted/d1780cec0ac6d65304751531.csv",
+    "sha256": "c6e06040e3575db3b51b2f3b307e9f18c30c95aeeeadfb1e2861ff2088834aa5",
+    "status": "verified"
+  },
+  "reported_failure_rows": 56,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/elideelidecore5c39308testGetIdAnnotations/result/Flaky/.nondex/TNaPD3zPdANhDPJwEDUpjN7T9ExWzs+e4kzPTSvG1MA=/TEST-com.yahoo.elide.core.dictionary.EntityDictionaryTest.xml",
+    "size": 19275,
+    "compressed": 3293,
+    "crc32": "50cb96bc",
+    "offset": 596802740,
+    "method": 8,
+    "local_path": "data/extracted/2c167158d011c41928b11257.xml",
+    "sha256": "c1520ec557b5b8474c6c5dc567829936c5fa6f876704c4412aaa913bdcf53d70",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testGetIdAnnotations",
+    "outcome": "failure",
+    "exception_type": "org.opentest4j.AssertionFailedError",
+    "message": "getIdAnnotations returns annotations on the ID field of the given class ==> expected: <[interface jakarta.persistence.GeneratedValue, interface jakarta.persistence.Id]> but was: <[interface jakarta.persistence.Id, interface jakarta.persistence.GeneratedValue]>",
+    "stack_trace": "org.opentest4j.AssertionFailedError: getIdAnnotations returns annotations on the ID field of the given class ==> expected: <[interface jakarta.persistence.GeneratedValue, interface jakarta.persistence.Id]> but was: <[interface jakarta.persistence.Id, interface jakarta.persistence.GeneratedValue]>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1152)\n\tat com.yahoo.elide.core.dictionary.EntityDictionaryTest.testGetIdAnnotations(EntityDictionaryTest.java:521)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "text": "org.opentest4j.AssertionFailedError\ngetIdAnnotations returns annotations on the ID field of the given class ==> expected: <[interface jakarta.persistence.GeneratedValue, interface jakarta.persistence.Id]> but was: <[interface jakarta.persistence.Id, interface jakarta.persistence.GeneratedValue]>\norg.opentest4j.AssertionFailedError: getIdAnnotations returns annotations on the ID field of the given class ==> expected: <[interface jakarta.persistence.GeneratedValue, interface jakarta.persistence.Id]> but was: <[interface jakarta.persistence.Id, interface jakarta.persistence.GeneratedValue]>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1152)\n\tat com.yahoo.elide.core.dictionary.EntityDictionaryTest.testGetIdAnnotations(EntityDictionaryTest.java:521)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "24fb4a16572f54f1edb3307869c48758f927a7f0175f310d1f54d2f09cce519c"
+}

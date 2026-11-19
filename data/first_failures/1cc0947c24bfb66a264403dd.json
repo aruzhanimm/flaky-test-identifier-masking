@@ -1,0 +1,37 @@
+{
+  "container": "HADOOP-12588",
+  "metadata": {
+    "source": "JIRA",
+    "container": "HADOOP-12588",
+    "project": "https://github.com/apache/hadoop",
+    "revision": "d433b16ce6d74f1a44bc29446c74b1cb5f8a10fa",
+    "test": "org.apache.hadoop.metrics2.impl.TestGangliaMetrics.testGangliaMetrics2",
+    "label": "TD",
+    "module": "hadoop-common-project/hadoop-common",
+    "zip": "HADOOP-12588",
+    "config_row": 1074,
+    "configured_test": "org.apache.hadoop.metrics2.impl.TestGangliaMetrics#testGangliaMetrics2",
+    "configured_type": "td",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/hadoop::org.apache.hadoop.metrics2.impl.TestGangliaMetrics.testGangliaMetrics2",
+    "variant_id": "https://github.com/apache/hadoop::org.apache.hadoop.metrics2.impl.TestGangliaMetrics.testGangliaMetrics2::d433b16ce6d74f1a44bc29446c74b1cb5f8a10fa::hadoop-common-project/hadoop-common",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [],
+  "status": "no_failure_in_outcome_table",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/HADOOP-12588/result/Flaky/rounds-test-results.csv",
+    "size": 20688,
+    "compressed": 665,
+    "crc32": "79c1a02e",
+    "offset": 2013677854,
+    "method": 8,
+    "local_path": "data/extracted/74d1a2be11e6ead38f2579ae.csv",
+    "sha256": "8f15f273298ad9aa71b2969994ecfd7727b795d8ec990822cbac848e533ab6ed",
+    "status": "verified"
+  },
+  "reported_failure_rows": 0
+}

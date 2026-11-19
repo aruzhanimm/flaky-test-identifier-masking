@@ -1,0 +1,81 @@
+{
+  "container": "ecoschemacatalogstore95ee43btestPut1",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "ecoschemacatalogstore95ee43btestPut1",
+    "project": "https://github.com/epam/eco-schema-catalog",
+    "revision": "95ee43bba89845d162f5d54a6046c14f7edc4755",
+    "test": "com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testPut1",
+    "label": "ID",
+    "module": "store",
+    "zip": "eco-schema-catalog=store=95ee43b",
+    "config_row": 33,
+    "configured_test": "com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest#testPut1",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/epam/eco-schema-catalog::com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testPut1",
+    "variant_id": "https://github.com/epam/eco-schema-catalog::com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testPut1::95ee43bba89845d162f5d54a6046c14f7edc4755::store",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/ecoschemacatalogstore95ee43btestPut1/result/Flaky/.nondex/7hbmx1h+GlqLy5W+gVWCbslfdKcok0fQygB5PoW5A=/TEST-com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.xml",
+        "size": 7204,
+        "compressed": 1860,
+        "crc32": "148ae2e5",
+        "offset": 601357693,
+        "method": 8,
+        "local_path": "data/extracted/04d0247be5355dad01eab80b.xml",
+        "sha256": "ccf2fcf36de8658bcd08f21693d25bd9488ac41bf6b7c65ffc88da049a1b773f",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/ecoschemacatalogstore95ee43btestPut1/result/Flaky/rounds-test-results.csv",
+    "size": 21085,
+    "compressed": 4919,
+    "crc32": "6e2d2fe5",
+    "offset": 601201922,
+    "method": 8,
+    "local_path": "data/extracted/b58ee131d4d2ce3acc3da228.csv",
+    "sha256": "0d45b8fb3c994c99b902a6f9251462b21d035d4522ab181c69d5047e0ddac555",
+    "status": "verified"
+  },
+  "reported_failure_rows": 77,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/ecoschemacatalogstore95ee43btestPut1/result/Flaky/.nondex/7hbmx1h+GlqLy5W+gVWCbslfdKcok0fQygB5PoW5A=/TEST-com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.xml",
+    "size": 7204,
+    "compressed": 1860,
+    "crc32": "148ae2e5",
+    "offset": 601357693,
+    "method": 8,
+    "local_path": "data/extracted/04d0247be5355dad01eab80b.xml",
+    "sha256": "ccf2fcf36de8658bcd08f21693d25bd9488ac41bf6b7c65ffc88da049a1b773f",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testPut1",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": "expected:<null> but was:<{doc: doc1, attributes: {}, updatedAt: Wed Nov 05 11:43:44 UTC 2025, updatedBy: me}>",
+    "stack_trace": "java.lang.AssertionError: expected:<null> but was:<{doc: doc1, attributes: {}, updatedAt: Wed Nov 05 11:43:44 UTC 2025, updatedBy: me}>\n\tat com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testPut1(InheritingMetadataContainerTest.java:245)",
+    "text": "java.lang.AssertionError\nexpected:<null> but was:<{doc: doc1, attributes: {}, updatedAt: Wed Nov 05 11:43:44 UTC 2025, updatedBy: me}>\njava.lang.AssertionError: expected:<null> but was:<{doc: doc1, attributes: {}, updatedAt: Wed Nov 05 11:43:44 UTC 2025, updatedBy: me}>\n\tat com.epam.eco.schemacatalog.store.metadata.InheritingMetadataContainerTest.testPut1(InheritingMetadataContainerTest.java:245)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "e13207d3654f5f85adc038c170f2f4afabaea5ea94dd6ce1bfa5b1894e2d2c3d"
+}

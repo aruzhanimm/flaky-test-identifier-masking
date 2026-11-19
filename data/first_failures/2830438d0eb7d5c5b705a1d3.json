@@ -1,0 +1,81 @@
+{
+  "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML36",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "activemqactivemqstompaeab06etestTransformationSubscribeXML36",
+    "project": "https://github.com/apache/activemq",
+    "revision": "aeab06e93e40d3a3ec198dc537388326832ff270",
+    "test": "org.apache.activemq.transport.stomp.StompSslAuthTest.testTransformationSubscribeXML",
+    "label": "ID",
+    "module": "activemq-stomp",
+    "zip": "activemq=activemq-stomp=aeab06e",
+    "config_row": 150,
+    "configured_test": "org.apache.activemq.transport.stomp.StompSslAuthTest#testTransformationSubscribeXML",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/activemq::org.apache.activemq.transport.stomp.StompSslAuthTest.testTransformationSubscribeXML",
+    "variant_id": "https://github.com/apache/activemq::org.apache.activemq.transport.stomp.StompSslAuthTest.testTransformationSubscribeXML::aeab06e93e40d3a3ec198dc537388326832ff270::activemq-stomp",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 3,
+      "iteration": 2,
+      "member": {
+        "path": "result/activemqactivemqstompaeab06etestTransformationSubscribeXML36/result/Flaky/.nondex/KCO+9l+XAtzJl2bwVrSYXlujcU7mxmJq3yvkudUd9s=/TEST-org.apache.activemq.transport.stomp.StompSslAuthTest.xml",
+        "size": 24358,
+        "compressed": 4302,
+        "crc32": "78324be9",
+        "offset": 843399884,
+        "method": 8,
+        "local_path": "data/extracted/3625cde0d267252b9e36bdbc.xml",
+        "sha256": "abc249424d71522c37081cd217ec96e9c7ab8c3aed5e561c9a1806b07519558b",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/activemqactivemqstompaeab06etestTransformationSubscribeXML36/result/Flaky/rounds-test-results.csv",
+    "size": 19813,
+    "compressed": 5084,
+    "crc32": "efb45e44",
+    "offset": 843225273,
+    "method": 8,
+    "local_path": "data/extracted/3e93e4bc6b14e9b6f6603870.csv",
+    "sha256": "a207795917f4d764b72118e5c9c32092fd9f24989201b1d8aaadfc903cfc2b61",
+    "status": "verified"
+  },
+  "reported_failure_rows": 51,
+  "iteration": 2,
+  "source_row": 3,
+  "diagnostic_member": {
+    "path": "result/activemqactivemqstompaeab06etestTransformationSubscribeXML36/result/Flaky/.nondex/KCO+9l+XAtzJl2bwVrSYXlujcU7mxmJq3yvkudUd9s=/TEST-org.apache.activemq.transport.stomp.StompSslAuthTest.xml",
+    "size": 24358,
+    "compressed": 4302,
+    "crc32": "78324be9",
+    "offset": 843399884,
+    "method": 8,
+    "local_path": "data/extracted/3625cde0d267252b9e36bdbc.xml",
+    "sha256": "abc249424d71522c37081cd217ec96e9c7ab8c3aed5e561c9a1806b07519558b",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testTransformationSubscribeXML",
+    "outcome": "failure",
+    "exception_type": "java.lang.AssertionError",
+    "message": null,
+    "stack_trace": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.apache.activemq.transport.stomp.StompTest.testTransformationSubscribeXML(StompTest.java:1093)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.lang.Thread.run(Thread.java:833)",
+    "text": "java.lang.AssertionError\njava.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat org.apache.activemq.transport.stomp.StompTest.testTransformationSubscribeXML(StompTest.java:1093)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)\n\tat org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.lang.Thread.run(Thread.java:833)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "96c263bea8b3e0396d8b7a1141029a3abf0a7282d469af4742ba581f5fa921e3"
+}

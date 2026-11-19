@@ -1,0 +1,81 @@
+{
+  "container": "incubatorhugegraphtoolchainhugegraphclient1c47673testIndexLabelV56",
+  "metadata": {
+    "source": "iDoFT",
+    "container": "incubatorhugegraphtoolchainhugegraphclient1c47673testIndexLabelV56",
+    "project": "https://github.com/apache/incubator-hugegraph-toolchain",
+    "revision": "1c47673eb9511d3eff0d0901012a69d7a0148cdc",
+    "test": "org.apache.hugegraph.unit.IndexLabelTest.testIndexLabelV56",
+    "label": "ID",
+    "module": "hugegraph-client",
+    "zip": "incubator-hugegraph-toolchain=hugegraph-client=1c47673",
+    "config_row": 266,
+    "configured_test": "org.apache.hugegraph.unit.IndexLabelTest#testIndexLabelV56",
+    "configured_type": "id",
+    "iterations": "100",
+    "test_id": "https://github.com/apache/incubator-hugegraph-toolchain::org.apache.hugegraph.unit.IndexLabelTest.testIndexLabelV56",
+    "variant_id": "https://github.com/apache/incubator-hugegraph-toolchain::org.apache.hugegraph.unit.IndexLabelTest.testIndexLabelV56::1c47673eb9511d3eff0d0901012a69d7a0148cdc::hugegraph-client",
+    "log_verified": false
+  },
+  "selection": "earliest available confirmed target failure by recorded iteration",
+  "attempts": [
+    {
+      "row": 2,
+      "iteration": 1,
+      "member": {
+        "path": "result/incubatorhugegraphtoolchainhugegraphclient1c47673testIndexLabelV56/result/Flaky/.nondex/kFuBZZfoRYnXA1vu7XjffmK1x60jjAki58anFstOvw=/TEST-org.apache.hugegraph.unit.IndexLabelTest.xml",
+        "size": 19364,
+        "compressed": 3279,
+        "crc32": "71ccc4ec",
+        "offset": 271510776,
+        "method": 8,
+        "local_path": "data/extracted/90f8bd168aee9b5b25b404ce.xml",
+        "sha256": "7edb3a5fc5f322245226307d48e1b5d22ad59de0f3b1495a79e01cff4e67f095",
+        "status": "verified"
+      },
+      "status": "parsed",
+      "matched_cases": 1,
+      "failure_records": 1
+    }
+  ],
+  "status": "confirmed_failure",
+  "outcome_rows": 100,
+  "table_issues": [],
+  "table_member": {
+    "path": "result/incubatorhugegraphtoolchainhugegraphclient1c47673testIndexLabelV56/result/Flaky/rounds-test-results.csv",
+    "size": 18958,
+    "compressed": 4949,
+    "crc32": "b8e334e7",
+    "offset": 271216371,
+    "method": 8,
+    "local_path": "data/extracted/040a1c6bc8e9b10968c421a7.csv",
+    "sha256": "9b019f1d38a2d1cbf43dc19021e3e9a7889494810aa407e08a29697e0704e322",
+    "status": "verified"
+  },
+  "reported_failure_rows": 100,
+  "iteration": 1,
+  "source_row": 2,
+  "diagnostic_member": {
+    "path": "result/incubatorhugegraphtoolchainhugegraphclient1c47673testIndexLabelV56/result/Flaky/.nondex/kFuBZZfoRYnXA1vu7XjffmK1x60jjAki58anFstOvw=/TEST-org.apache.hugegraph.unit.IndexLabelTest.xml",
+    "size": 19364,
+    "compressed": 3279,
+    "crc32": "71ccc4ec",
+    "offset": 271510776,
+    "method": 8,
+    "local_path": "data/extracted/90f8bd168aee9b5b25b404ce.xml",
+    "sha256": "7edb3a5fc5f322245226307d48e1b5d22ad59de0f3b1495a79e01cff4e67f095",
+    "status": "verified"
+  },
+  "failure": {
+    "format": "surefire_xml",
+    "testcase_name": "testIndexLabelV56",
+    "outcome": "failure",
+    "exception_type": "org.junit.ComparisonFailure",
+    "message": "expected:<{\"[id\":0,\"name\":\"personByAge\",\"check_exist\":true,\"user_data\":{},\"base_type\":\"VERTEX_LABEL\",\"base_value\":\"person\",\"index_type\":\"SECONDARY\",\"fields\":[\"age\"]]}> but was:<{\"[check_exist\":true,\"user_data\":{},\"name\":\"personByAge\",\"id\":0,\"fields\":[\"age\"],\"index_type\":\"SECONDARY\",\"base_value\":\"person\",\"base_type\":\"VERTEX_LABEL\"]}>",
+    "stack_trace": "org.junit.ComparisonFailure: expected:<{\"[id\":0,\"name\":\"personByAge\",\"check_exist\":true,\"user_data\":{},\"base_type\":\"VERTEX_LABEL\",\"base_value\":\"person\",\"index_type\":\"SECONDARY\",\"fields\":[\"age\"]]}> but was:<{\"[check_exist\":true,\"user_data\":{},\"name\":\"personByAge\",\"id\":0,\"fields\":[\"age\"],\"index_type\":\"SECONDARY\",\"base_value\":\"person\",\"base_type\":\"VERTEX_LABEL\"]}>\n\tat org.apache.hugegraph.unit.IndexLabelTest.testIndexLabelV56(IndexLabelTest.java:88)",
+    "text": "org.junit.ComparisonFailure\nexpected:<{\"[id\":0,\"name\":\"personByAge\",\"check_exist\":true,\"user_data\":{},\"base_type\":\"VERTEX_LABEL\",\"base_value\":\"person\",\"index_type\":\"SECONDARY\",\"fields\":[\"age\"]]}> but was:<{\"[check_exist\":true,\"user_data\":{},\"name\":\"personByAge\",\"id\":0,\"fields\":[\"age\"],\"index_type\":\"SECONDARY\",\"base_value\":\"person\",\"base_type\":\"VERTEX_LABEL\"]}>\norg.junit.ComparisonFailure: expected:<{\"[id\":0,\"name\":\"personByAge\",\"check_exist\":true,\"user_data\":{},\"base_type\":\"VERTEX_LABEL\",\"base_value\":\"person\",\"index_type\":\"SECONDARY\",\"fields\":[\"age\"]]}> but was:<{\"[check_exist\":true,\"user_data\":{},\"name\":\"personByAge\",\"id\":0,\"fields\":[\"age\"],\"index_type\":\"SECONDARY\",\"base_value\":\"person\",\"base_type\":\"VERTEX_LABEL\"]}>\n\tat org.apache.hugegraph.unit.IndexLabelTest.testIndexLabelV56(IndexLabelTest.java:88)",
+    "missing_exception_type": false,
+    "review_flags": []
+  },
+  "text_sha256": "35f6ac379ca5522bdd59a640ea6202f8ed1bee6d1e21ee1ac5c87f3594d97bdf"
+}
